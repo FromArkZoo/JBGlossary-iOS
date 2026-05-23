@@ -89,6 +89,8 @@ HOMONYM_TERMS = {
     # AI
     "agent", "attention", "batch", "bias", "layer",
     "model", "prompt", "reasoning", "reward", "token", "weight",
+    # Pharma
+    "assay", "cell", "protein", "receptor",
 }
 
 # Tokens that look like jargon but shouldn't trigger a chain-break warning.
@@ -112,6 +114,7 @@ LINKER_DENYLIST = {
     # warranting their own entries (the long-form is the entry, e.g.,
     # "Artificial intelligence" for AI).
     "AI", "DNA", "USB", "JSON", "KV", "SSD", "VS", "BMW",
+    "TV", "COVID",
 }
 
 
