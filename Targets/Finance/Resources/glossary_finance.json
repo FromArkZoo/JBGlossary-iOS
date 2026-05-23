@@ -29,7 +29,7 @@
       "CME Group",
       "ISDA"
     ],
-    "plain": "A common way of choosing how far out-of-the-money an Option is set — used in currency markets to quote the price of standard contracts."
+    "plain": "A common way of choosing how far out-of-the-money an option is set — used in currency markets to quote the price of standard contracts."
   },
   {
     "letter": "A",
@@ -45,7 +45,7 @@
       "SEC",
       "ESMA"
     ],
-    "plain": "The top mark a Bond can get — given to borrowers seen as almost certain to pay you back."
+    "plain": "The top mark a bond can get — given to borrowers seen as almost certain to pay you back."
   },
   {
     "letter": "A",
@@ -61,7 +61,7 @@
       "SEC",
       "Federal Reserve"
     ],
-    "plain": "A Bond backed by a pile of consumer loans like car loans, credit cards, or student loans — investors earn the borrowers' repayments."
+    "plain": "A bond backed by a pile of consumer loans like car loans, credit cards, or student loans — investors earn the borrowers' repayments."
   },
   {
     "letter": "A",
@@ -77,7 +77,7 @@
       "SEC",
       "NYSE"
     ],
-    "plain": "A way for Americans to buy a foreign company's shares without using overseas exchanges — a US bank holds the real Stocks."
+    "plain": "A way for Americans to buy a foreign company's shares without using overseas exchanges — a US bank holds the real stocks."
   },
   {
     "letter": "A",
@@ -215,7 +215,7 @@
       "CBOE",
       "CFA Institute"
     ],
-    "plain": "An Option you can use at any point before its expiry date — most US single-stock options work this way."
+    "plain": "An option you can use at any point before its expiry date — most US single-stock options work this way."
   },
   {
     "letter": "A",
@@ -277,7 +277,7 @@
     "sources": [
       "ISDA"
     ],
-    "plain": "An Option whose payoff is based on the average price of a Stock or other Underlying over a period, not its final price."
+    "plain": "An option whose payoff is based on the average price of a stock or other Underlying over a period, not its final price."
   },
   {
     "letter": "A",
@@ -308,7 +308,7 @@
     "sources": [
       "SEC"
     ],
-    "plain": "A deal where a company buys back a big chunk of its own Stock instantly through a bank, which sources the shares over time."
+    "plain": "A deal where a company buys back a big chunk of its own stock instantly through a bank, which sources the shares over time."
   },
   {
     "letter": "A",
@@ -324,7 +324,7 @@
       "SEC",
       "CFA Institute"
     ],
-    "plain": "Anything of value that someone owns — cash, a house, a Stock, a Bond, even a patent or a brand name."
+    "plain": "Anything of value that someone owns — cash, a house, a stock, a bond, even a patent or a brand name."
   },
   {
     "letter": "A",
@@ -340,7 +340,7 @@
       "ISDA",
       "ICMA"
     ],
-    "plain": "The extra yield a Bond gives over a standard floating reference rate, once its fixed coupon is swapped into floating payments."
+    "plain": "The extra yield a bond gives over a standard floating reference rate, once its fixed coupon is swapped into floating payments."
   },
   {
     "letter": "A",
@@ -355,7 +355,7 @@
     "sources": [
       "CBOE"
     ],
-    "plain": "An Option whose Strike Price is right around the current price of the Underlying — neither cheap nor deep underwater."
+    "plain": "An option whose Strike Price is right around the current price of the Underlying — neither cheap nor deep underwater."
   },
   {
     "letter": "A",
@@ -372,13 +372,13 @@
       "Federal Reserve",
       "FCA"
     ],
-    "plain": "A bank Bond that gets wiped out or converted to Stock if the bank runs into trouble — protecting taxpayers from another bailout."
+    "plain": "A bank bond that gets wiped out or converted to stock if the bank runs into trouble — protecting taxpayers from another bailout."
   },
   {
     "letter": "A",
     "term": "ATM",
     "full": "At the Money",
-    "plain": "An Option whose Strike Price sits right at the current Underlying price — exercising it today would break even.",
+    "plain": "An option whose Strike Price sits right at the current Underlying price — exercising it today would break even.",
     "snappy": "Option whose strike is at or very near the current underlying price.",
     "detail": "ATM options carry the highest time value because uncertainty about whether they'll end in-money is greatest. The vol-smile minimum typically sits at ATM. ATM-forward (strike equal to the forward price, not spot) is the standard quoting convention for FX and swaption vol. Greeks like delta sit near 50 for ATM calls. ATM is where retail and institutional options flow concentrates.",
     "indications": [
@@ -394,7 +394,7 @@
     "letter": "A",
     "term": "ATM Straddle",
     "full": "At-the-Money Straddle",
-    "snappy": "Buying both a Call Option and a Put Option at the same at-the-money Strike Price — pure volatility exposure.",
+    "snappy": "Buying both a Call option and a Put option at the same at-the-money Strike Price — pure volatility exposure.",
     "detail": "Standard quote for FX implied volatility: dealers price the ATM straddle and quote its vol, which becomes the headline vol number for that tenor. Delta-neutral at inception (call delta plus put delta sums to zero). Gains if the underlying moves a lot, loses if it stays still. Combined with risk reversals and butterflies, straddles let dealers build the full FX Volatility Surface.",
     "indications": [
       "FX",
@@ -451,7 +451,7 @@
     "sources": [
       "SEC"
     ],
-    "plain": "A Bond backed by a pool of car loans or leases — investors get paid as drivers make their monthly repayments."
+    "plain": "A bond backed by a pool of car loans or leases — investors get paid as drivers make their monthly repayments."
   },
   {
     "letter": "A",
@@ -468,7 +468,7 @@
       "ISDA",
       "SEC"
     ],
-    "plain": "An investment that pays a chunky coupon and ends early if a Stock holds above a chosen level — but loses money if it crashes."
+    "plain": "An investment that pays a chunky coupon and ends early if a stock holds above a chosen level — but loses money if it crashes."
   },
   {
     "letter": "B",
@@ -553,7 +553,7 @@
     "letter": "B",
     "term": "Bank of England",
     "full": "BoE",
-    "plain": "The UK's central bank — sets sterling Interest Rates, supervises Banks, and prints British banknotes.",
+    "plain": "The UK's central bank — sets sterling interest rates, supervises Banks, and prints British banknotes.",
     "snappy": "The UK's central bank — sets Bank Rate, oversees financial stability.",
     "detail": "Founded 1694. Monetary Policy Committee (MPC) sets Bank Rate eight times yearly. Mandate: 2 percent inflation target plus secondary objectives (employment, growth) since 1997 independence. Prudential Regulation Authority (PRA, within the BoE) supervises banks and insurers; Financial Policy Committee (FPC) targets system-wide stability. Played a critical role in the 2022 gilt crisis after the Truss mini-budget, restoring market function via temporary asset purchases.",
     "indications": [
@@ -569,7 +569,7 @@
     "letter": "B",
     "term": "Bank of Japan",
     "full": "BoJ",
-    "plain": "Japan's central bank — pioneered the world's longest run of near-zero Interest Rates and is still the most cautious major central bank.",
+    "plain": "Japan's central bank — pioneered the world's longest run of near-zero interest rates and is still the most cautious major central bank.",
     "snappy": "Japan's central bank — pioneer of zero rates, QE, and yield curve control.",
     "detail": "Founded 1882. Policy Board meets eight times yearly. Held interest rates at zero or negative from 1999 to March 2024. Pioneered modern QE (2001-2006, then 2013-onwards), yield curve control (2016-2024), and ETF purchases. The March 2024 exit from negative rates ended a 17-year era. BoJ owns over half of outstanding JGBs. Yen weakness reflects persistent rate differentials with other developed economies.",
     "indications": [
@@ -596,7 +596,7 @@
       "ISDA",
       "CFA Institute"
     ],
-    "plain": "A bet on a Stock or other Underlying that only pays off — or stops working — if the price hits a chosen Strike Price."
+    "plain": "A bet on a stock or other Underlying that only pays off — or stops working — if the price hits a chosen Strike Price."
   },
   {
     "letter": "B",
@@ -690,7 +690,7 @@
     "sources": [
       "Federal Reserve"
     ],
-    "plain": "A move in the Bond market where long-term rates jump up faster than short-term ones — typically when investors fear inflation."
+    "plain": "A move in the bond market where long-term rates jump up faster than short-term ones — typically when investors fear inflation."
   },
   {
     "letter": "B",
@@ -720,7 +720,7 @@
     "sources": [
       "ISDA"
     ],
-    "plain": "An Option you can use only on a handful of specific dates — somewhere between a strict European Option and a flexible American Option."
+    "plain": "An option you can use only on a handful of specific dates — somewhere between a strict European option and a flexible American option."
   },
   {
     "letter": "B",
@@ -752,7 +752,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "How much a Stock swings when the market swings — a beta of 1 mirrors the market; a beta of 2 swings twice as much."
+    "plain": "How much a stock swings when the market swings — a beta of 1 mirrors the market; a beta of 2 swings twice as much."
   },
   {
     "letter": "B",
@@ -829,7 +829,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "A method for pricing an Option by mapping out every possible up-or-down step the Underlying could take between now and expiry."
+    "plain": "A method for pricing an option by mapping out every possible up-or-down step the Underlying could take between now and expiry."
   },
   {
     "letter": "B",
@@ -860,7 +860,7 @@
       "CFA Institute",
       "CME Group"
     ],
-    "plain": "The famous 1973 formula that gave traders the first reliable way to put a fair price on an Option."
+    "plain": "The famous 1973 formula that gave traders the first reliable way to assign a fair price on an option."
   },
   {
     "letter": "B",
@@ -907,14 +907,14 @@
     "sources": [
       "Federal Reserve FRED"
     ],
-    "plain": "A giant basket of high-quality Bonds from around the world — the most-followed benchmark for global Bond investors."
+    "plain": "A giant basket of high-quality bonds from around the world — the most-followed benchmark for global bond investors."
   },
   {
     "letter": "B",
     "term": "Bloomberg US Aggregate",
     "full": "Bloomberg Agg / Lehman Agg",
     "snappy": "Broad US investment-grade taxable bond benchmark — the bond Agg.",
-    "detail": "Roughly 13,000 securities: US Treasuries, agency MBS, IG corporate bonds, ABS, CMBS. Market-value weighted. Originally Lehman Brothers Aggregate; renamed Bloomberg Barclays after acquisitions, now simply Bloomberg US Aggregate. Tracked by iShares Core US Aggregate Bond ETF (AGG), Vanguard Total Bond Market (BND). Multi-trillion indexed against. Duration around 6 years; yield reflects mixed Treasury and credit composition.",
+    "detail": "Roughly 13,000 securities: US Treasury securities, agency MBS, IG corporate bonds, ABS, CMBS. Market-value weighted. Originally Lehman Brothers Aggregate; renamed Bloomberg Barclays after acquisitions, now simply Bloomberg US Aggregate. Tracked by ishares Core US Aggregate bond ETF (AGG), Vanguard Total bond Market (BND). Multi-trillion indexed against. Duration around 6 years; yield reflects mixed Treasury and credit composition.",
     "indications": [
       "Credit",
       "Rates"
@@ -923,7 +923,7 @@
     "sources": [
       "Federal Reserve FRED"
     ],
-    "plain": "The main scorecard for the US Bond market — covers Treasuries, mortgages, and high-grade company debt."
+    "plain": "The main scorecard for the US bond market — covers Treasury securities, mortgages, and high-grade company debt."
   },
   {
     "letter": "B",
@@ -992,8 +992,8 @@
     "letter": "B",
     "term": "Breakeven Inflation Rate",
     "full": "",
-    "plain": "The Inflation rate the bond market is pricing in — calculated from the gap between regular and inflation-protected Treasury yields.",
-    "snappy": "Yield gap between nominal Treasuries and TIPS — the market's implied future inflation rate.",
+    "plain": "The inflation rate the bond market is pricing in — calculated from the gap between regular and inflation-protected Treasury yields.",
+    "snappy": "Yield gap between nominal Treasury securities and TIPS — the market's implied future inflation rate.",
     "detail": "If a 10-year Treasury yields 4.5 percent and the matching 10-year TIPS yields 2.0 percent, the 10-year breakeven is 2.5 percent — the inflation rate at which both bonds would deliver the same return. Quoted by maturity (2-year, 5-year, 10-year, 30-year breakevens). You'll hear breakevens cited in every Fed communications post-mortem, since they're the cleanest market-implied inflation expectation.",
     "indications": [
       "Rates",
@@ -1041,7 +1041,7 @@
     "letter": "B",
     "term": "Brownian Motion",
     "full": "",
-    "plain": "A maths model for random wandering — used to describe how Stock prices drift up and down unpredictably over time.",
+    "plain": "A maths model for random wandering — used to describe how stock prices drift up and down unpredictably over time.",
     "snappy": "Random-walk model with continuous paths — foundational stochastic process in finance.",
     "detail": "Named after botanist Robert Brown's 1827 observation of pollen jiggling in water; formalised mathematically by Einstein and Wiener. Geometric Brownian motion is the assumption behind Black-Scholes option pricing. Real markets deviate from pure Brownian motion (jumps, fat tails, vol clustering) — modern models add jumps (Levy processes) and stochastic vol to capture realism. Still the starting point for most pricing theory and risk modelling.",
     "indications": [
@@ -1080,7 +1080,7 @@
     "sources": [
       "Federal Reserve"
     ],
-    "plain": "A move in the Bond market where long-term rates fall faster than short-term ones — typically when investors fear a slowdown."
+    "plain": "A move in the bond market where long-term rates fall faster than short-term ones — typically when investors fear a slowdown."
   },
   {
     "letter": "B",
@@ -1118,7 +1118,7 @@
     "term": "Buyback",
     "full": "Share Repurchase",
     "snappy": "Company buys back its own shares — reduces share count, returns cash to shareholders.",
-    "detail": "Two forms: open-market repurchase (gradual purchases over time) and tender offers (one-time large buys). S&P 500 buybacks routinely exceed 900 billion annually. 2022 Inflation Reduction Act imposed 1 percent excise tax on net buybacks. Compared to dividends as a method of returning capital — buybacks are more tax-efficient and flexible. Often boost EPS mechanically by reducing share count denominator.",
+    "detail": "Two forms: open-market repurchase (gradual purchases over time) and tender offers (one-time large buys). S&P 500 buybacks routinely exceed 900 billion annually. 2022 inflation Reduction Act imposed 1 percent excise tax on net buybacks. Compared to dividends as a method of returning capital — buybacks are more tax-efficient and flexible. Often boost EPS mechanically by reducing share count denominator.",
     "indications": [
       "Equities"
     ],
@@ -1126,14 +1126,14 @@
     "sources": [
       "SEC"
     ],
-    "plain": "When a company spends its own cash to repurchase its own Stocks — leaving fewer shares and a bigger slice for each remaining holder."
+    "plain": "When a company spends its own cash to repurchase its own stocks — leaving fewer shares and a bigger slice for each remaining holder."
   },
   {
     "letter": "B",
     "term": "Buyback Yield",
     "full": "Repurchase Yield",
     "snappy": "Net stock buybacks as a percentage of market cap — shareholder return via share-count reduction.",
-    "detail": "Companies returned roughly 950 billion to S&P 500 shareholders via buybacks in 2022 — more than dividends. Buybacks shrink share count, mechanically boosting EPS and dividend-per-share if total dividend pool is constant. The 'shareholder yield' (dividend yield plus buyback yield) is a broader payout measure than dividend yield alone. The 2022 US Inflation Reduction Act introduced a 1 percent excise tax on net buybacks.",
+    "detail": "Companies returned roughly 950 billion to S&P 500 shareholders via buybacks in 2022 — more than dividends. Buybacks shrink share count, mechanically boosting EPS and dividend-per-share if total dividend pool is constant. The 'shareholder yield' (dividend yield plus buyback yield) is a broader payout measure than dividend yield alone. The 2022 US inflation Reduction Act introduced a 1 percent excise tax on net buybacks.",
     "indications": [
       "Equities"
     ],
@@ -1142,7 +1142,7 @@
       "SEC",
       "Federal Reserve FRED"
     ],
-    "plain": "The percentage of a company's value that it returns to shareholders by buying back its own Stocks each year."
+    "plain": "The percentage of a company's value that it returns to shareholders by buying back its own stocks each year."
   },
   {
     "letter": "C",
@@ -1173,13 +1173,13 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "Adjusting a pricing model's settings until it matches what's actually trading in the market — done daily on Option desks."
+    "plain": "Adjusting a pricing model's settings until it matches what's actually trading in the market — done daily on option desks."
   },
   {
     "letter": "C",
     "term": "Call",
     "full": "Call Option",
-    "plain": "A contract that pays off if a Stock or other Underlying rises above an agreed price — used to bet on gains or capture upside.",
+    "plain": "A contract that pays off if a stock or other Underlying rises above an agreed price — used to bet on gains or capture upside.",
     "snappy": "Option giving the holder the right to buy the underlying at the strike price before expiry.",
     "detail": "Buyers of calls profit when prices rise; sellers ('writers') collect premium and lose if the stock spikes. Covered calls — selling calls against shares you own — are a popular income strategy. Speculative call buying drove the GameStop and meme-stock rallies of 2021. Single-stock and index calls are the most-traded equity derivative products, with billions of dollars notional changing hands daily on CBOE and other exchanges.",
     "indications": [
@@ -1207,13 +1207,13 @@
       "CBOE",
       "SEC"
     ],
-    "plain": "An Option giving you the right to buy a Stock or Underlying at a chosen price — pays off if the price goes up."
+    "plain": "An option giving you the right to buy a stock or Underlying at a chosen price — pays off if the price goes up."
   },
   {
     "letter": "C",
     "term": "Cap",
     "full": "Interest Rate Cap",
-    "snappy": "Option series that pays out when a floating Interest Rate rises above a fixed strike.",
+    "snappy": "Option series that pays out when a floating interest rate rises above a fixed strike.",
     "detail": "A series of caplets, one per reset period of the underlying floating leg. Each caplet pays max(floating rate minus strike, 0) on notional. Used to cap borrowing costs on Floating Rate loans — corporates buy caps to hedge variable-rate debt. Trades over-the-counter under an ISDA Master Agreement. Vol surface typically fit with the SABR Model. Cheaper than locking into a fixed rate up front because there is no protection if rates stay below the strike.",
     "indications": [
       "Rates",
@@ -1223,14 +1223,14 @@
     "sources": [
       "ISDA"
     ],
-    "plain": "A contract that pays the buyer whenever a floating Interest Rate climbs above an agreed level — a way to put a ceiling on borrowing costs."
+    "plain": "A contract that pays the buyer whenever a floating interest rate climbs above an agreed level — a way to set a ceiling on borrowing costs."
   },
   {
     "letter": "C",
     "term": "Capital Account",
     "full": "",
     "snappy": "Net cross-border capital flows — direct investment, portfolio investment, banking flows.",
-    "detail": "By accounting identity, capital account mirrors current account (with errors and omissions). Capital flows into US — Chinese, Japanese, Saudi reserves into Treasuries; foreign equity into US tech — fund US current-account deficit. Reversals can be sharp: 1998 Asian crisis, 2020 March COVID flight. Capital controls aim to limit volatility but distort allocation.",
+    "detail": "By accounting identity, capital account mirrors current account (with errors and omissions). Capital flows into US — Chinese, Japanese, Saudi reserves into Treasury securities; foreign equity into US tech — fund US current-account deficit. Reversals can be sharp: 1998 Asian crisis, 2020 March COVID flight. Capital controls aim to limit volatility but distort allocation.",
     "indications": [
       "FX",
       "Macro"
@@ -1271,14 +1271,14 @@
       "IMF",
       "BIS"
     ],
-    "plain": "Rules a government puts in place to limit how much money can flow in or out of the country — usually during a crisis."
+    "plain": "Rules a government enacts to limit how much money can flow in or out of the country — usually during a crisis."
   },
   {
     "letter": "C",
     "term": "CAPM",
     "full": "Capital Asset Pricing Model",
     "snappy": "Theoretical model relating expected return to beta — the foundational asset-pricing equation.",
-    "detail": "Expected return equals risk-free rate plus beta times market risk premium. Published 1964-66 by Sharpe, Lintner, Mossin. Single-factor model — every asset's expected return depends only on market beta. Empirical evidence shows CAPM systematically under-prices low-beta stocks and over-prices high-beta — leading to multi-factor extensions. Still the cornerstone of academic finance and undergraduate textbooks. Sharpe won 1990 Nobel.",
+    "detail": "Expected return equals risk-free rate plus beta times market risk premium. Published 1964-66 by Sharpe Ratio, Lintner, Mossin. Single-factor model — every asset's expected return depends only on market beta. Empirical evidence shows CAPM systematically under-prices low-beta stocks and over-prices high-beta — leading to multi-factor extensions. Still the cornerstone of academic finance and undergraduate textbooks. Sharpe Ratio won 1990 Nobel.",
     "indications": [
       "Equities"
     ],
@@ -1286,7 +1286,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "A textbook formula that says a Stock's expected return depends on how risky it is compared to the overall market."
+    "plain": "A textbook formula that says a stock's expected return depends on how risky it is compared to the overall market."
   },
   {
     "letter": "C",
@@ -1349,7 +1349,7 @@
     "sources": [
       "CME Group"
     ],
-    "plain": "A historic Chicago exchange where corn, wheat, soybean, and US government Bond Futures are traded — now part of CME."
+    "plain": "A historic Chicago exchange where corn, wheat, soybean, and US government bond Futures are traded — now part of CME."
   },
   {
     "letter": "C",
@@ -1412,7 +1412,7 @@
     "sources": [
       "SEC"
     ],
-    "plain": "An investment built by pooling Bonds or loans and chopping them into slices of different risk — infamous for blowing up in 2008."
+    "plain": "An investment built by pooling bonds or loans and chopping them into slices of different risk — infamous for blowing up in 2008."
   },
   {
     "letter": "C",
@@ -1429,7 +1429,7 @@
       "LCH",
       "ICE"
     ],
-    "plain": "An insurance contract on a Bond defaulting — the buyer pays a regular premium, and the seller pays out if the borrower fails."
+    "plain": "An insurance contract on a bond defaulting — the buyer pays a regular premium, and the seller pays out if the borrower fails."
   },
   {
     "letter": "C",
@@ -1461,7 +1461,7 @@
       "LCH",
       "ICE"
     ],
-    "plain": "The annual cost of insuring a Bond against default — wider numbers mean the market thinks default is more likely."
+    "plain": "The annual cost of insuring a bond against default — wider numbers mean the market thinks default is more likely."
   },
   {
     "letter": "C",
@@ -1509,7 +1509,7 @@
       "BIS",
       "Federal Reserve"
     ],
-    "plain": "The highest-quality form of bank safety capital — common Stock plus retained profits, the first money to absorb losses."
+    "plain": "The highest-quality form of bank safety capital — common stock plus retained profits, the first money to absorb losses."
   },
   {
     "letter": "C",
@@ -1525,7 +1525,7 @@
       "FCA",
       "ESMA"
     ],
-    "plain": "A contract that pays the price change of a Stock without you owning it — popular with retail in Europe, banned in the US."
+    "plain": "A contract that pays the price change of a stock without you owning it — popular with retail in Europe, banned in the US."
   },
   {
     "letter": "C",
@@ -1638,7 +1638,7 @@
       "ECB",
       "ESMA"
     ],
-    "plain": "A European institution based in Luxembourg that holds Bonds and shares safely on behalf of investors and settles trades between them."
+    "plain": "A European institution based in Luxembourg that holds bonds and shares safely on behalf of investors and settles trades between them."
   },
   {
     "letter": "C",
@@ -1653,7 +1653,7 @@
     "sources": [
       "ISDA"
     ],
-    "plain": "A chain of small Options that lock in gains period by period — investors keep early profits even if the market falls later."
+    "plain": "A chain of small options that lock in gains period by period — investors keep early profits even if the market falls later."
   },
   {
     "letter": "C",
@@ -1669,7 +1669,7 @@
       "SEC",
       "ICE"
     ],
-    "plain": "A pool of risky business loans sliced into different-quality Bonds — investors choose how much risk they want for how much return."
+    "plain": "A pool of risky business loans sliced into different-quality bonds — investors choose how much risk they want for how much return."
   },
   {
     "letter": "C",
@@ -1716,7 +1716,7 @@
       "SEC",
       "Federal Reserve"
     ],
-    "plain": "A Bond backed by mortgages on offices, hotels, shopping malls, and apartment buildings — hit hard during the 2020 office crisis."
+    "plain": "A bond backed by mortgages on offices, hotels, shopping malls, and apartment buildings — hit hard during the 2020 office crisis."
   },
   {
     "letter": "C",
@@ -1935,7 +1935,7 @@
       "ECB",
       "FCA"
     ],
-    "plain": "A bank Bond that turns into Stock or gets written off if the bank's safety cushion drops too low — a built-in shock absorber."
+    "plain": "A bank bond that turns into stock or gets written off if the bank's safety cushion drops too low — a built-in shock absorber."
   },
   {
     "letter": "C",
@@ -1967,7 +1967,7 @@
       "SEC",
       "ISDA"
     ],
-    "plain": "A Bond that can be swapped into a fixed number of the company's Stocks — combines bond safety with share-price upside."
+    "plain": "A bond that can be swapped into a fixed number of the company's stocks — combines bond safety with share-price upside."
   },
   {
     "letter": "C",
@@ -1982,7 +1982,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "How a Bond's price curves with interest-rate moves — usually a bit lopsided in the holder's favour for ordinary Bonds."
+    "plain": "How a bond's price curves with interest-rate moves — usually a bit lopsided in the holder's favour for ordinary bonds."
   },
   {
     "letter": "C",
@@ -2124,7 +2124,7 @@
       "CFA Institute",
       "SEC"
     ],
-    "plain": "The interest payment a Bond sends its holder, usually every six months — often expressed as a percentage of the Bond's face value."
+    "plain": "The interest payment a bond sends its holder, usually every six months — often expressed as a percentage of the bond's face value."
   },
   {
     "letter": "C",
@@ -2234,7 +2234,7 @@
       "SEC",
       "Federal Reserve"
     ],
-    "plain": "A Bond backed by people's credit-card balances — investors earn the interest as cardholders pay down what they owe."
+    "plain": "A bond backed by people's credit-card balances — investors earn the interest as cardholders pay down what they owe."
   },
   {
     "letter": "C",
@@ -2295,7 +2295,7 @@
     "sources": [
       "BIS"
     ],
-    "plain": "When a borrower's credit grade moves up or down — even without default, an upgrade or downgrade swings the value of their Bonds."
+    "plain": "When a borrower's credit grade moves up or down — even without default, an upgrade or downgrade swings the value of their bonds."
   },
   {
     "letter": "C",
@@ -2327,7 +2327,7 @@
       "Federal Reserve FRED",
       "ICE"
     ],
-    "plain": "The extra yield a company Bond pays over a same-maturity government Bond — compensation for the risk the company might miss payments."
+    "plain": "The extra yield a company bond pays over a same-maturity government bond — compensation for the risk the company might miss payments."
   },
   {
     "letter": "C",
@@ -2398,7 +2398,7 @@
     "term": "CSA",
     "full": "Credit Support Annex",
     "snappy": "ISDA annex governing collateral posting — eligible types, thresholds, and timing.",
-    "detail": "Specifies eligible collateral (typically cash plus Treasuries), thresholds below which no collateral is posted, minimum transfer amounts, and dispute resolution. Daily MTM produces collateral movements under CSA terms. Sophisticated CSAs differentiate between currency, tenor, and asset class. The post-2016 'IM Big Bang' rolled out two-way initial margin requirements for non-cleared derivatives across major asset managers, banks, and corporates.",
+    "detail": "Specifies eligible collateral (typically cash plus Treasury securities), thresholds below which no collateral is posted, minimum transfer amounts, and dispute resolution. Daily MTM produces collateral movements under CSA terms. Sophisticated CSAs differentiate between currency, tenor, and asset class. The post-2016 'IM Big Bang' rolled out two-way initial margin requirements for non-cleared derivatives across major asset managers, banks, and corporates.",
     "indications": [
       "Derivatives"
     ],
@@ -2422,7 +2422,7 @@
       "DTCC",
       "ESMA"
     ],
-    "plain": "A specialist institution that holds Stocks and Bonds in electronic form on behalf of investors — and updates records when ownership changes."
+    "plain": "A specialist institution that holds stocks and bonds in electronic form on behalf of investors — and updates records when ownership changes."
   },
   {
     "letter": "C",
@@ -2445,7 +2445,7 @@
     "full": "",
     "plain": "Money issued by a country — dollars, euros, yen, pounds — used to price goods, savings, and trades within and across borders.",
     "snappy": "A nation's money — the medium of exchange and unit of account.",
-    "detail": "The dollar dominates global trade and reserves (roughly 58 percent of central-bank holdings, IMF data). The euro, yen, pound, Swiss franc, Canadian and Australian dollars round out the major freely-traded currencies. Emerging-market currencies face periodic crises when external financing dries up. Currency strength reflects interest rates, trade balances, political stability, and capital flows. You'll hear it in any cross-border deal, earnings call, or macro discussion.",
+    "detail": "The dollar dominates global trade and reserves (roughly 58 percent of central-bank holdings, IMF data). The euro, yen, pound, Swiss franc, Canadian and Australian dollars round out the major freely-traded currencies. Emerging-market currencies face periodic crises when external financing dries up. Currency strength reflects interest rates, trade balances, political stability, and capital flows. You'll hear it in any cross-border deal, earnings announcement, or macro discussion.",
     "indications": [
       "FX",
       "Macro"
@@ -2584,7 +2584,7 @@
       "SEC",
       "FINRA"
     ],
-    "plain": "A bank that keeps Stocks and Bonds safe on behalf of investors and handles the paperwork when they're bought, sold, or pay dividends."
+    "plain": "A bank that keeps stocks and bonds safe on behalf of investors and handles the paperwork when they're bought, sold, or pay dividends."
   },
   {
     "letter": "C",
@@ -2632,7 +2632,7 @@
       "SEC",
       "FINRA"
     ],
-    "plain": "A private trading venue where big institutions can buy and sell large blocks of Stock without showing their hand to the public market."
+    "plain": "A private trading venue where big institutions can buy and sell large blocks of stock without showing their hand to the public market."
   },
   {
     "letter": "D",
@@ -2741,7 +2741,7 @@
       "ISDA",
       "CME Group"
     ],
-    "plain": "How much an Option's price changes when the Underlying moves by one dollar — the rough hedge ratio for traders."
+    "plain": "How much an option's price changes when the Underlying moves by one dollar — the rough hedge ratio for traders."
   },
   {
     "letter": "D",
@@ -2757,7 +2757,7 @@
       "ISDA",
       "BIS"
     ],
-    "plain": "A contract whose value depends on something else — a Stock, a currency, an interest rate, a commodity, almost anything."
+    "plain": "A contract whose value depends on something else — a stock, a currency, an interest rate, a commodity, almost anything."
   },
   {
     "letter": "D",
@@ -2772,7 +2772,7 @@
     "sources": [
       "NYSE"
     ],
-    "plain": "A firm on the New York Stock Exchange responsible for keeping trading orderly in specific Stocks — opening prices, closing prices, providing liquidity in panics."
+    "plain": "A firm on the New York stock Exchange responsible for keeping trading orderly in specific stocks — opening prices, closing prices, providing liquidity in panics."
   },
   {
     "letter": "D",
@@ -2819,13 +2819,13 @@
       "FCA",
       "ESMA"
     ],
-    "plain": "An Option that pays a fixed amount if the Underlying ends above (or below) the Strike Price — and nothing otherwise. All-or-nothing."
+    "plain": "An option that pays a fixed amount if the Underlying ends above (or below) the Strike Price — and nothing otherwise. All-or-nothing."
   },
   {
     "letter": "D",
     "term": "Dilution",
     "full": "Share Dilution",
-    "plain": "When a company issues new Shares, every existing holder owns a slightly smaller slice — like adding water to a glass of juice.",
+    "plain": "When a company issues new shares, every existing holder owns a slightly smaller slice — like adding water to a glass of juice.",
     "snappy": "Reduction in existing shareholders' ownership stake when a company issues new shares.",
     "detail": "Triggers: secondary equity offerings, employee stock options vesting, warrant exercises, conversions of convertible bonds. Companies report 'fully diluted' share counts in earnings to show worst-case dilution. Heavy dilution typically weighs on share prices. Buybacks act as the opposite — reducing share count, concentrating ownership. Investors watch dilution metrics like share-count growth in earnings reports.",
     "indications": [
@@ -2851,7 +2851,7 @@
       "SEC",
       "NYSE"
     ],
-    "plain": "A way for a company to put its existing Stocks on a public exchange without raising new money or using underwriters."
+    "plain": "A way for a company to list its existing stocks on a public exchange without raising new money or using underwriters."
   },
   {
     "letter": "D",
@@ -2867,13 +2867,13 @@
       "CFA Institute",
       "SEC"
     ],
-    "plain": "A Bond trading for less than the amount the issuer will repay at maturity — usually because its coupon is below current market rates."
+    "plain": "A bond trading for less than the amount the issuer will repay at maturity — usually because its coupon is below current market rates."
   },
   {
     "letter": "D",
     "term": "Discount Rate",
     "full": "",
-    "plain": "The Interest Rate used to translate future cash payments into today's value — higher discount rates make future cash worth less now.",
+    "plain": "The interest rate used to translate future cash payments into today's value — higher discount rates make future cash worth less now.",
     "snappy": "Rate used to convert future cash flows into present value.",
     "detail": "Central in DCF valuation, bond pricing, and option pricing. Different uses: risk-free rate plus risk premium for equity valuation, swap curve for derivative pricing, Treasury yields for bond discounting. The Fed's 'discount rate' is also the specific rate at which the Fed lends to banks via the discount window — separate from the broader concept. Lower discount rates inflate present values (the long-duration tech rally of the 2010s rested partly on falling discount rates).",
     "indications": [
@@ -2929,7 +2929,7 @@
       "ISDA",
       "CFA Institute"
     ],
-    "plain": "A bet that individual Stocks will move in different directions even if the overall index stays calm — profits when correlation drops."
+    "plain": "A bet that individual stocks will move in different directions even if the overall index stays calm — profits when correlation drops."
   },
   {
     "letter": "D",
@@ -2976,7 +2976,7 @@
       "SEC",
       "CFA Institute"
     ],
-    "plain": "Annual dividend payments divided by the current Stock price — how much income you'd earn each year as a percentage of what you paid."
+    "plain": "Annual dividend payments divided by the current stock price — how much income you'd earn each year as a percentage of what you paid."
   },
   {
     "letter": "D",
@@ -3046,7 +3046,7 @@
     "letter": "D",
     "term": "Down-and-In",
     "full": "Down-and-In Option",
-    "plain": "A Barrier Option that only activates if the Underlying price falls and hits the chosen barrier level.",
+    "plain": "A Barrier option that only activates if the Underlying price falls and hits the chosen barrier level.",
     "snappy": "Knock-in barrier option that activates only if the underlying falls through the barrier level.",
     "detail": "Mirror of up-and-in. Pays nothing unless the underlying drops far enough to hit the lower barrier. A directional bet on a downward move large enough to clear the barrier. Used in puts to cheapen the premium. Popular in credit-linked notes and protective structures where the buyer wants to pay less for cover that only kicks in during a real selloff.",
     "indications": [
@@ -3061,7 +3061,7 @@
     "letter": "D",
     "term": "Down-and-Out",
     "full": "Down-and-Out Option",
-    "plain": "A Barrier Option that automatically expires worthless if the Underlying price falls and hits the chosen barrier level.",
+    "plain": "A Barrier option that automatically expires worthless if the Underlying price falls and hits the chosen barrier level.",
     "snappy": "Knock-out barrier option that extinguishes if the underlying falls through the barrier level.",
     "detail": "Cheaper than a vanilla option because it stops working in scenarios the holder doesn't care about — or where the seller doesn't want to pay. Used in protective hedges where cover is only needed above a certain level. Pricing handles the discontinuity at the barrier. Popular in FX (a long EUR-call with a knock-out below spot) and equity structured products.",
     "indications": [
@@ -3100,7 +3100,7 @@
     "sources": [
       "SEC"
     ],
-    "plain": "A scheme that automatically uses your Dividend payouts to buy more Stocks in the same company — small amounts that compound over time."
+    "plain": "A scheme that automatically uses your Dividend payouts to buy more stocks in the same company — small amounts that compound over time."
   },
   {
     "letter": "D",
@@ -3116,7 +3116,7 @@
       "DTCC",
       "SEC"
     ],
-    "plain": "The main US institution that holds Stocks and Bonds in electronic form and settles trades between investors and brokers."
+    "plain": "The main US institution that holds stocks and bonds in electronic form and settles trades between investors and brokers."
   },
   {
     "letter": "D",
@@ -3148,7 +3148,7 @@
       "SEC",
       "NYSE"
     ],
-    "plain": "A setup where founders hold a special class of Stock with extra voting power, letting them keep control of the company they built."
+    "plain": "A setup where founders hold a special class of stock with extra voting power, letting them keep control of the company they built."
   },
   {
     "letter": "D",
@@ -3164,7 +3164,7 @@
       "CFA Institute",
       "Federal Reserve"
     ],
-    "plain": "How sensitive a Bond's price is to a change in interest rates — measured in years. Longer duration means bigger price swings."
+    "plain": "How sensitive a bond's price is to a change in interest rates — measured in years. Longer duration means bigger price swings."
   },
   {
     "letter": "D",
@@ -3180,7 +3180,7 @@
       "CFA Institute",
       "ISDA"
     ],
-    "plain": "How many dollars a Bond position gains or loses if interest rates move by one basis point — the rates trader's main risk gauge."
+    "plain": "How many dollars a bond position gains or loses if interest rates move by one basis point — the rates trader's main risk gauge."
   },
   {
     "letter": "D",
@@ -3249,7 +3249,7 @@
     "term": "EBITDA",
     "full": "Earnings Before Interest, Taxes, Depreciation, Amortisation",
     "snappy": "Operating earnings before non-cash and financing charges — proxy for cash generation.",
-    "detail": "Strips out capital-structure choices (interest), tax differences, and accounting policies (depreciation) to give a cleaner read on operating performance. Heavily used in M&A and leveraged finance (debt covenants are usually written against EBITDA). Critics call it 'earnings before bad stuff' — it can flatter unprofitable companies. Adjusted EBITDA further excludes 'one-offs', which can become permanent in some serial reporters' hands.",
+    "detail": "Strips out capital-structure choices (interest), tax differences, and accounting policies (depreciation) to give a cleaner read on operating performance. Heavily used in M&A and leveraged finance (debt covenants are usually written against EBITDA). Critics describe it as 'earnings before bad stuff' — it can flatter unprofitable companies. Adjusted EBITDA further excludes 'one-offs', which can become permanent in some serial reporters' hands.",
     "indications": [
       "Equities"
     ],
@@ -3264,7 +3264,7 @@
     "letter": "E",
     "term": "ECB",
     "full": "European Central Bank",
-    "plain": "The central bank for countries using the euro — sets eurozone Interest Rates and supervises the biggest European Banks.",
+    "plain": "The central bank for countries using the euro — sets eurozone interest rates and supervises the biggest European Banks.",
     "snappy": "Central bank for the 20-country eurozone — sets policy rates, oversees major banks.",
     "detail": "Founded 1998, based in Frankfurt. Governing Council (six executive board members plus 20 national central bank governors) sets monetary policy. Mandate: price stability defined as 2 percent inflation. Negative deposit rate from 2014 to 2022. Single Supervisory Mechanism (SSM) directly supervises 100+ significant eurozone banks. Bond-buying programs (APP, PEPP) ran through 2022; balance sheet now in steady runoff.",
     "indications": [
@@ -3370,7 +3370,7 @@
       "MSCI",
       "IMF"
     ],
-    "plain": "Mid-income, fast-developing countries like Brazil, India, Mexico, and South Africa — their Stocks and Bonds tend to swing more than rich-country ones."
+    "plain": "Mid-income, fast-developing countries like Brazil, India, Mexico, and South Africa — their stocks and bonds tend to swing more than rich-country ones."
   },
   {
     "letter": "E",
@@ -3418,7 +3418,7 @@
       "SEC",
       "CFA Institute"
     ],
-    "plain": "A company's profit divided by its total Stocks — the most-watched number on every quarterly earnings release."
+    "plain": "A company's profit divided by its total stocks — the most-watched number on every quarterly earnings release."
   },
   {
     "letter": "E",
@@ -3451,7 +3451,7 @@
       "CME Group",
       "ICE"
     ],
-    "plain": "A Futures contract on a basket of Stocks like the S&P 500 — the deepest way to bet on the overall market."
+    "plain": "A Futures contract on a basket of stocks like the S&P 500 — the deepest way to bet on the overall market."
   },
   {
     "letter": "E",
@@ -3468,14 +3468,14 @@
       "SEC",
       "CME Group"
     ],
-    "plain": "A contract giving you the right to buy or sell a single company's Stocks at a fixed price — usually 100 shares apiece."
+    "plain": "A contract giving you the right to buy or sell a single company's stocks at a fixed price — usually 100 shares apiece."
   },
   {
     "letter": "E",
     "term": "Equity Risk Premium",
     "full": "ERP",
     "snappy": "Extra return investors demand for holding equities over risk-free bonds.",
-    "detail": "Historically 4-6 percent over long horizons for US equities versus Treasuries. Drives equity valuation: discount rate equals risk-free rate plus ERP times beta (CAPM). Implied ERP can be back-solved from current market valuations; surveyed ERP comes from investor polls. The Fed Model compared equity earnings yield to bond yield as a relative-value gauge. ERP varies with risk appetite — collapses in bubbles, widens in crises.",
+    "detail": "Historically 4-6 percent over long horizons for US equities versus Treasury securities. Drives equity valuation: discount rate equals risk-free rate plus ERP times beta (CAPM). Implied ERP can be back-solved from current market valuations; surveyed ERP comes from investor polls. The Fed Model compared equity earnings yield to bond yield as a relative-value gauge. ERP varies with risk appetite — collapses in bubbles, widens in crises.",
     "indications": [
       "Equities"
     ],
@@ -3484,7 +3484,7 @@
       "CFA Institute",
       "Federal Reserve FRED"
     ],
-    "plain": "The extra return investors demand for taking the risk of owning Stocks instead of safe government Bonds — historically about four to six percent."
+    "plain": "The extra return investors demand for taking the risk of owning stocks instead of safe government bonds — historically about four to six percent."
   },
   {
     "letter": "E",
@@ -3500,7 +3500,7 @@
     "sources": [
       "ISDA"
     ],
-    "plain": "A contract that pays you the total return of a Stock in exchange for regular cash payments — gives exposure without buying shares."
+    "plain": "A contract that pays you the total return of a stock in exchange for regular cash payments — gives exposure without buying shares."
   },
   {
     "letter": "E",
@@ -3522,7 +3522,7 @@
     "term": "ESTR",
     "full": "Euro Short-Term Rate",
     "snappy": "ECB-published overnight unsecured euro borrowing rate — euro-area equivalent of SOFR (but unsecured).",
-    "detail": "Calculated from actual transactions reported by 50-plus large euro-area banks. Replaced EONIA in October 2019 as the recommended euro overnight benchmark. ESTR is unsecured (interbank borrowing), unlike SOFR which is collateralised by Treasuries. Underlies euro OIS swaps and post-LIBOR euro derivatives. ECB publishes ESTR daily by 9:00 CET.",
+    "detail": "Calculated from actual transactions reported by 50-plus large euro-area banks. Replaced EONIA in October 2019 as the recommended euro overnight benchmark. ESTR is unsecured (interbank borrowing), unlike SOFR which is collateralised by Treasury securities. Underlies euro OIS swaps and after LIBOR was retired euro derivatives. ECB publishes ESTR daily by 9:00 CET.",
     "indications": [
       "Rates"
     ],
@@ -3554,7 +3554,7 @@
     "term": "ETF",
     "full": "Exchange-Traded Fund",
     "snappy": "Investment fund traded on an exchange like a stock.",
-    "detail": "Tracks an index, sector, theme, or actively managed strategy. Major issuers: BlackRock iShares, Vanguard, State Street SPDR, Invesco. Tax-efficient structure via in-kind creation/redemption avoids capital-gains distributions. Global ETF AUM exceeds 12 trillion dollars (2024). The 2024 launch of US spot Bitcoin ETFs (IBIT, FBTC, others) attracted tens of billions in months.",
+    "detail": "Tracks an index, sector, theme, or actively managed strategy. Major issuers: BlackRock ishares, Vanguard, State Street SPDR, Invesco. Tax-efficient structure via in-kind creation/redemption avoids capital-gains distributions. Global ETF AUM exceeds 12 trillion dollars (2024). The 2024 launch of US spot Bitcoin ETFs (IBIT, FBTC, others) attracted tens of billions in months.",
     "indications": [
       "Equities"
     ],
@@ -3563,7 +3563,7 @@
       "SEC",
       "NYSE"
     ],
-    "plain": "An investment fund traded on a Stock exchange like a single share — usually tracks an index, sector, or theme cheaply and tax-efficiently."
+    "plain": "An investment fund traded on a stock exchange like a single share — usually tracks an index, sector, or theme cheaply and tax-efficiently."
   },
   {
     "letter": "E",
@@ -3600,7 +3600,7 @@
     "letter": "E",
     "term": "EURIBOR",
     "full": "Euro Interbank Offered Rate",
-    "snappy": "Daily benchmark for euro interbank lending — still in use post-LIBOR reform.",
+    "snappy": "Daily benchmark for euro interbank lending — still in use after LIBOR was retired reform.",
     "detail": "Published by the European Money Markets Institute (EMMI) using a hybrid methodology (transactions where possible, market-based estimates where not). Tenors from 1 week to 12 months. Underlies trillions in euro-denominated mortgages, swaps, and corporate loans. Survived the LIBOR reforms by overhauling methodology in 2019. ESTR (Euro Short-Term Rate) is the overnight risk-free complement.",
     "indications": [
       "Rates"
@@ -3626,7 +3626,7 @@
       "ESMA",
       "ECB"
     ],
-    "plain": "A Belgian institution that holds Bonds and shares safely for international investors — Europe's biggest record-keeper of who owns what."
+    "plain": "A Belgian institution that holds bonds and shares safely for international investors — Europe's biggest record-keeper of who owns what."
   },
   {
     "letter": "E",
@@ -3658,7 +3658,7 @@
       "CBOE",
       "CFA Institute"
     ],
-    "plain": "An Option you can only use on its expiry date — no early exercise. Standard for most index Options."
+    "plain": "An option you can only use on its expiry date — no early exercise. Standard for most index options."
   },
   {
     "letter": "E",
@@ -3722,7 +3722,7 @@
       "NYSE",
       "Nasdaq"
     ],
-    "plain": "The first day a Stock trades without the right to the next Dividend — buyers from this day onwards miss the upcoming payout."
+    "plain": "The first day a stock trades without the right to the next Dividend — buyers from this day onwards miss the upcoming payout."
   },
   {
     "letter": "E",
@@ -3754,7 +3754,7 @@
       "CBOE",
       "CME Group"
     ],
-    "plain": "The date on which an Option or Futures contract ends — the last day to use it or close out the position."
+    "plain": "The date on which an option or Futures contract ends — the last day to use it or close out the position."
   },
   {
     "letter": "E",
@@ -3785,14 +3785,14 @@
       "SEC",
       "CFA Institute"
     ],
-    "plain": "The amount a Bond's issuer promises to repay at maturity — also the figure used to calculate coupon payments. Usually a thousand dollars per Bond."
+    "plain": "The amount a bond's issuer promises to repay at maturity — also the figure used to calculate coupon payments. Usually a thousand dollars per bond."
   },
   {
     "letter": "F",
     "term": "Factor Investing",
     "full": "",
     "snappy": "Systematic strategy targeting specific risk factors (value, momentum, quality, size, low-vol).",
-    "detail": "Pioneered by Dimensional (1981) and now mainstream via iShares, Vanguard factor ETFs. Smart Beta is the marketing label. Trillions invested globally. The 2018-2022 'value drawdown' was painful for value-tilted factor funds; the 2024 recovery partially offset. Critics argue factor premiums have shrunk with capital flows; supporters note long-run statistical evidence remains. Multi-factor blends popular over single-factor exposures.",
+    "detail": "Pioneered by Dimensional (1981) and now mainstream via ishares, Vanguard factor ETFs. Smart Beta is the marketing label. Trillions invested globally. The 2018-2022 'value drawdown' was painful for value-tilted factor funds; the 2024 recovery partially offset. Critics argue factor premiums have shrunk with capital flows; supporters note long-run statistical evidence remains. Multi-factor blends popular over single-factor exposures.",
     "indications": [
       "Equities"
     ],
@@ -3801,7 +3801,7 @@
       "MSCI",
       "CFA Institute"
     ],
-    "plain": "Building a Stock portfolio by deliberately tilting toward specific traits that have historically paid off — like value, momentum, or quality."
+    "plain": "Building a stock portfolio by deliberately tilting toward specific traits that have historically paid off — like value, momentum, or quality."
   },
   {
     "letter": "F",
@@ -3817,7 +3817,7 @@
       "Federal Reserve",
       "ESMA"
     ],
-    "plain": "A daily fine imposed on a trading partner who doesn't deliver Stocks or Bonds on time — designed to encourage smooth settlement."
+    "plain": "A daily fine imposed on a trading partner who doesn't deliver stocks or bonds on time — designed to encourage smooth settlement."
   },
   {
     "letter": "F",
@@ -3833,7 +3833,7 @@
       "SEC",
       "FINRA"
     ],
-    "plain": "When a seller doesn't hand over the Stocks they sold by the deadline — triggers fines and forced market purchases to fix the problem."
+    "plain": "When a seller doesn't hand over the stocks they sold by the deadline — triggers fines and forced market purchases to fix the problem."
   },
   {
     "letter": "F",
@@ -3849,7 +3849,7 @@
       "S&P Dow Jones Indices",
       "ICE"
     ],
-    "plain": "A company Bond that gets downgraded from high-grade to junk — often forcing pension funds and insurers to sell, regardless of price."
+    "plain": "A company bond that gets downgraded from high-grade to junk — often forcing pension funds and insurers to sell, regardless of price."
   },
   {
     "letter": "F",
@@ -3864,7 +3864,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "An upgraded version of the three-factor model — adds profitability and investment patterns to explain why some Stocks beat the market."
+    "plain": "An upgraded version of the three-factor model — adds profitability and investment patterns to explain why some stocks beat the market."
   },
   {
     "letter": "F",
@@ -3879,7 +3879,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "A model from the 1990s saying a Stock's returns depend on market exposure, company size, and how cheap it looks relative to its books."
+    "plain": "A model from the 1990s saying a stock's returns depend on market exposure, company size, and how cheap it looks relative to its books."
   },
   {
     "letter": "F",
@@ -3901,7 +3901,7 @@
     "letter": "F",
     "term": "Fed",
     "full": "Federal Reserve System",
-    "snappy": "US central bank — sets short-term Interest Rates and regulates banks.",
+    "snappy": "US central bank — sets short-term interest rates and regulates banks.",
     "detail": "Created 1913. Twelve regional Federal Reserve banks plus the Board of Governors in Washington. The FOMC (Board plus regional presidents) sets the federal funds rate target eight times a year. Dual mandate: maximum employment and stable prices. Lender of last resort via the discount window. Supervises bank holding companies and large insurers. Chair (currently Jerome Powell) testifies twice a year to Congress under Humphrey-Hawkins. The Fed's balance sheet ballooned past 9 trillion dollars during pandemic QE and is now in slow runoff.",
     "indications": [
       "Macro",
@@ -3951,7 +3951,7 @@
     "letter": "F",
     "term": "Federal Funds Rate",
     "full": "Fed Funds Rate",
-    "plain": "The Interest Rate US Banks charge each other for overnight cash — set by the Federal Reserve and the headline tool of US monetary policy.",
+    "plain": "The interest rate US Banks charge each other for overnight cash — set by the Federal Reserve and the headline tool of US monetary policy.",
     "snappy": "Overnight rate US banks charge each other on reserves — the Fed's primary policy lever.",
     "detail": "Targeted by the FOMC in a range (e.g. 5.25 to 5.50 percent). The Fed steers the rate via IORB (interest on reserve balances), ON RRP, and the standing repo facility, keeping the effective fed funds rate inside its target band. Every other US dollar rate — Treasury yields, swap rates, mortgage rates, deposit rates — references it. FOMC meetings every six weeks are the highest-stakes events on the macro calendar.",
     "indications": [
@@ -3999,7 +3999,7 @@
     "term": "Fixed Rate",
     "full": "",
     "snappy": "Coupon set at issuance and unchanged through the bond's life.",
-    "detail": "The traditional bond structure: 5 percent coupon for 10 years, no resets. Investor takes interest-rate risk; issuer locks in funding cost. Most US Treasuries, most corporate bonds, and most municipal bonds are fixed-rate. Compare with floating-rate notes, where the coupon resets. Fixed-rate bond prices move inversely to rates because the coupon stream stays put while market yields shift.",
+    "detail": "The traditional bond structure: 5 percent coupon for 10 years, no resets. Investor takes interest-rate risk; issuer locks in funding cost. Most US Treasury securities, most corporate bonds, and most municipal bonds are fixed-rate. Compare with floating-rate notes, where the coupon resets. Fixed-rate bond prices move inversely to rates because the coupon stream stays fixed while market yields shift.",
     "indications": [
       "Rates"
     ],
@@ -4008,7 +4008,7 @@
       "SEC",
       "CFA Institute"
     ],
-    "plain": "A Bond coupon that stays the same throughout the Bond's life — the buyer locks in the income, the issuer locks in the cost."
+    "plain": "A bond coupon that stays the same throughout the bond's life — the buyer locks in the income, the issuer locks in the cost."
   },
   {
     "letter": "F",
@@ -4057,13 +4057,13 @@
       "ISDA",
       "Federal Reserve"
     ],
-    "plain": "A Bond coupon that resets every few months based on a reference interest rate — the buyer's payments rise and fall with market rates."
+    "plain": "A bond coupon that resets every few months based on a reference interest rate — the buyer's payments rise and fall with market rates."
   },
   {
     "letter": "F",
     "term": "Floor",
     "full": "Interest Rate Floor",
-    "snappy": "Option series that pays out when a floating Interest Rate falls below a fixed strike.",
+    "snappy": "Option series that pays out when a floating interest rate falls below a fixed strike.",
     "detail": "Mirror image of a Cap. A series of floorlets paying max(strike minus floating rate, 0). Used by investors holding Floating Rate assets (loans, FRNs) to guarantee a minimum yield. Many syndicated loans embed an implicit 1 percent floor protecting lenders against zero-rate environments. Trades over-the-counter under an ISDA Master Agreement. Vol surface typically fit with the SABR Model.",
     "indications": [
       "Rates",
@@ -4073,7 +4073,7 @@
     "sources": [
       "ISDA"
     ],
-    "plain": "A contract that pays the buyer whenever a floating Interest Rate falls below an agreed level — a way to lock in a minimum yield on floating-rate investments."
+    "plain": "A contract that pays whenever a floating interest rate falls below an agreed level — a way to lock in a minimum yield on floating-rate investments."
   },
   {
     "letter": "F",
@@ -4177,7 +4177,7 @@
     "term": "FRA",
     "full": "Forward Rate Agreement",
     "snappy": "OTC contract locking in a future short-term interest rate.",
-    "detail": "Buyer pays fixed and receives floating (or vice versa) over a future period — say, three-month SOFR starting in six months. Settles in cash at the period's start based on the gap between the agreed rate and the realised reference rate. Largely supplanted by IRS post-LIBOR transition for longer dates, but still used at short maturities and as building blocks for swap pricing.",
+    "detail": "Buyer pays fixed and receives floating (or vice versa) over a future period — say, three-month SOFR starting in six months. Settles in cash at the period's start based on the gap between the agreed rate and the realised reference rate. Largely supplanted by IRS after LIBOR was retired transition for longer dates, but still used at short maturities and as building blocks for swap pricing.",
     "indications": [
       "Rates"
     ],
@@ -4234,13 +4234,13 @@
       "MSCI",
       "FTSE Russell"
     ],
-    "plain": "The portion of a company's Stocks actually available for the public to buy — excludes founders, governments, and locked-up insider holdings."
+    "plain": "The portion of a company's stocks actually available for the public to buy — excludes founders, governments, and locked-up insider holdings."
   },
   {
     "letter": "F",
     "term": "FRN",
     "full": "Floating Rate Note",
-    "plain": "A Bond whose Interest payments reset every few months in line with a reference rate like SOFR — so the income tracks short-term rates.",
+    "plain": "A bond whose Interest payments reset every few months in line with a reference rate like SOFR — so the income tracks short-term rates.",
     "snappy": "Bond paying a coupon that resets periodically against a reference rate.",
     "detail": "US Treasury launched 2-year FRNs in 2014, referencing the 13-week T-bill rate. Corporate FRNs typically reference SOFR plus a spread, resetting quarterly. Less interest-rate-sensitive than fixed-coupon bonds because coupons rise with rates. Favoured by investors expecting rising rates or wanting cash-like exposure with a yield kicker. Lower duration but typically lower spread than fixed-coupon equivalents.",
     "indications": [
@@ -4293,7 +4293,7 @@
     "full": "Fundamental Review of the Trading Book",
     "plain": "A global overhaul of how banks calculate the safety capital they hold against their trading books — replaces older methods with stricter ones.",
     "snappy": "Basel framework overhauling market-risk capital — replaces VaR with Expected Shortfall.",
-    "detail": "Finalised by the Basel Committee in 2019 after years of post-crisis debate. Switches the market-risk capital metric from 99-percent Value-at-Risk to 97.5-percent Expected Shortfall, captures tail risk better, and stress-tests through historical periods. Tightens the boundary between trading and banking books to stop regulatory arbitrage. Implementation phased in across major jurisdictions through 2025-2026. You'll hear FRTB on bank earnings calls under 'market risk capital' guidance.",
+    "detail": "Finalised by the Basel Committee in 2019 after years of post-crisis debate. Switches the market-risk capital metric from 99-percent Value-at-Risk to 97.5-percent Expected Shortfall, captures tail risk better, and stress-tests through historical periods. Tightens the boundary between trading and banking books to stop regulatory arbitrage. Implementation phased in across major jurisdictions through 2025-2026. You'll hear FRTB on bank earnings announcements under 'market risk capital' guidance.",
     "indications": [
       "Cross-asset"
     ],
@@ -4341,7 +4341,7 @@
     "term": "FTSE 100",
     "full": "Footsie",
     "snappy": "100 largest UK-listed companies by market cap — the UK equity benchmark.",
-    "detail": "Established 1984. Heavy in financials, energy, mining, pharma — global businesses with London listings. Many constituents derive most revenue overseas (Shell, AstraZeneca, HSBC). Total market cap around 2 trillion pounds. Tracked by iShares Core FTSE 100 ETF (ISF). FTSE 250 covers mid-caps; FTSE All-Share is the broader UK benchmark. Operated by FTSE Russell, part of LSEG.",
+    "detail": "Established 1984. Heavy in financials, energy, mining, pharma — global businesses with London listings. Many constituents derive most revenue overseas (Shell, AstraZeneca, HSBC). Total market cap around 2 trillion pounds. Tracked by ishares Core FTSE 100 ETF (ISF). FTSE 250 covers mid-caps; FTSE All-share is the broader UK benchmark. Operated by FTSE Russell, part of LSEG.",
     "indications": [
       "Equities"
     ],
@@ -4436,7 +4436,7 @@
     "term": "FX Reserves",
     "full": "Foreign Exchange Reserves",
     "snappy": "Foreign-currency assets held by central banks — backstop for intervention, debt service, imports.",
-    "detail": "Mostly USD-denominated Treasuries (still around 58 percent of allocated reserves), with EUR, JPY, GBP, CNY making up most of the rest. China holds the largest reserve stockpile (3.2 trillion in 2024), Japan second, Switzerland fifth. Used for FX intervention, sovereign debt service, and import financing. Sanctions on Russian reserves in 2022 raised concerns about reserve-currency status and triggered some de-dollarisation flows.",
+    "detail": "Mostly USD-denominated Treasury securities (still around 58 percent of allocated reserves), with EUR, JPY, GBP, CNY making up most of the rest. China holds the largest reserve stockpile (3.2 trillion in 2024), Japan second, Switzerland fifth. Used for FX intervention, sovereign debt service, and import financing. Sanctions on Russian reserves in 2022 raised concerns about reserve-currency status and triggered some de-dollarisation flows.",
     "indications": [
       "FX",
       "Macro"
@@ -4510,7 +4510,7 @@
       "ISDA",
       "CFA Institute"
     ],
-    "plain": "How quickly an Option's sensitivity to price moves changes — like the steepness of a hill, not just the slope."
+    "plain": "How quickly an option's sensitivity to price moves changes — like the steepness of a hill, not just the slope."
   },
   {
     "letter": "G",
@@ -4527,7 +4527,7 @@
       "CBOE",
       "SEC"
     ],
-    "plain": "When dealers who sold call options are forced to buy a Stock as it rises, pushing the price even higher."
+    "plain": "When dealers who sold call options are forced to buy a stock as it rises, pushing the price even higher."
   },
   {
     "letter": "G",
@@ -4559,7 +4559,7 @@
       "CFA Institute",
       "ISDA"
     ],
-    "plain": "A pricing formula for currency Options — like the famous Black-Scholes recipe but adjusted to handle two countries' interest rates."
+    "plain": "A pricing formula for currency options — like the famous Black-Scholes recipe but adjusted to handle two countries' interest rates."
   },
   {
     "letter": "G",
@@ -4581,7 +4581,7 @@
     "term": "GDR",
     "full": "Global Depositary Receipt",
     "snappy": "Equivalent of ADR but listed outside the US — typically London or Luxembourg.",
-    "detail": "Same mechanics as ADR: a depositary bank holds the underlying foreign shares and issues receipts that trade in another jurisdiction. London Stock Exchange's International Order Book is the main GDR venue. Many Russian and Indian companies (back when they could) raised capital via London GDRs. Compliance and tax considerations drive the GDR/ADR choice for issuers.",
+    "detail": "Same mechanics as ADR: a depositary bank holds the underlying foreign shares and issues receipts that trade in another jurisdiction. London stock Exchange's International Order Book is the main GDR venue. Many Russian and Indian companies (back when they could) raised capital via London GDRs. Compliance and tax considerations drive the GDR/ADR choice for issuers.",
     "indications": [
       "Equities"
     ],
@@ -4613,7 +4613,7 @@
     "term": "Glass-Steagall",
     "full": "Banking Act of 1933",
     "snappy": "Depression-era US law separating commercial and investment banking — substantially repealed 1999.",
-    "detail": "Forbade Federal Reserve member banks from underwriting securities or affiliating with securities firms. Repealed by Gramm-Leach-Bliley Act 1999, enabling commercial-investment banking mergers (Citi-Travelers/Salomon, JPMorgan-Chase). Sometimes blamed for setting the stage for 2008 crisis; counter-argument is that several pure investment banks (Bear, Lehman) and pure commercial banks (Washington Mutual) also failed. Periodic calls for revival.",
+    "detail": "Forbade Federal Reserve member banks from underwriting securities or affiliating with securities firms. Repealed by Gramm-Leach-Bliley Act 1999, enabling commercial-investment banking mergers (Citi-Travelers/Salomon, JPMorgan-Chase). Sometimes blamed for setting the stage for 2008 crisis; counter-argument is that several pure investment banks (Bear, Lehman) and pure commercial banks (Washington Mutual) also failed. Periodic demands for revival.",
     "indications": [
       "Cross-asset"
     ],
@@ -4693,7 +4693,7 @@
     "term": "Government Bond",
     "full": "Sovereign Bond",
     "snappy": "Bond issued by a national or regional government to fund operations.",
-    "detail": "Includes US Treasuries, UK Gilts, German Bunds, Japanese JGBs, French OATs — names vary by jurisdiction but mechanics are similar. National governments tap their own currency markets first; emerging-market sovereigns also issue in hard currency (USD or EUR) when needed. Local-currency sovereign bonds are the standard reference for that country's risk-free rate. Spreads between sovereigns measure relative credit and currency risk.",
+    "detail": "Includes US Treasury securities, UK Gilts, German Bunds, Japanese JGBs, French OATs — names vary by jurisdiction but mechanics are similar. National governments tap their own currency markets first; emerging-market sovereigns also issue in hard currency (USD or EUR) when needed. Local-currency sovereign bonds are the standard reference for that country's risk-free rate. Spreads between sovereigns measure relative credit and currency risk.",
     "indications": [
       "Rates"
     ],
@@ -4718,7 +4718,7 @@
       "CFA Institute",
       "ISDA"
     ],
-    "plain": "Nicknames for the dials that measure how an Option's price reacts to different changes — price, time, volatility, and so on."
+    "plain": "Nicknames for the dials that measure how an option's price reacts to different changes — price, time, volatility, and so on."
   },
   {
     "letter": "G",
@@ -4802,7 +4802,7 @@
     "term": "Hard Landing Trade",
     "full": "Recession Trade",
     "snappy": "Investment strategy positioning for an economic downturn.",
-    "detail": "Typical components: long long-duration Treasuries (rally on rate cuts), long defensive equities (utilities, staples, healthcare), short cyclicals (consumer discretionary, banks), short oil, long USD or JPY (safe-haven). 2024 hard-landing-trade unwinds were sharp as US data kept beating recession expectations. Macro funds rotate between hard-landing and soft-landing trades as data flows.",
+    "detail": "Typical components: long long-duration Treasury securities (rally on rate cuts), long defensive equities (utilities, staples, healthcare), short cyclicals (consumer discretionary, banks), short oil, long USD or JPY (safe-haven). 2024 hard-landing-trade unwinds were sharp as US data kept beating recession expectations. Macro funds rotate between hard-landing and soft-landing trades as data flows.",
     "indications": [
       "Macro"
     ],
@@ -4923,7 +4923,7 @@
     "term": "Heston Model",
     "full": "",
     "snappy": "Stochastic-volatility option-pricing model — vol follows its own random process.",
-    "detail": "Published 1993 by Steven Heston. Volatility mean-reverts and is correlated with the underlying. Better captures vol smile dynamics than Black-Scholes. Parameters: long-run vol, mean-reversion speed, vol-of-vol, correlation. Heston has a semi-closed-form solution via Fourier transform, making it tractable for calibration. Standard reference in derivatives quant interviews; widely used in production option-pricing engines.",
+    "detail": "Published 1993 by Steven Heston. Volatility mean-reverts and is correlated with the underlying. Better captures vol smile dynamics than Black-Scholes. Parameters: long-run vol, mean-reversion speed, vol of vol, correlation. Heston has a semi-closed-form solution via Fourier transform, making it tractable for calibration. Standard reference in derivatives quant interviews; widely used in production option-pricing engines.",
     "indications": [
       "Derivatives"
     ],
@@ -4931,7 +4931,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "A pricing formula for Options that lets a market's jumpiness change over time, instead of pretending it stays flat."
+    "plain": "A pricing formula for options that lets a market's jumpiness change over time, instead of pretending it stays flat."
   },
   {
     "letter": "H",
@@ -5048,9 +5048,9 @@
     "letter": "I",
     "term": "ICE",
     "full": "Intercontinental Exchange",
-    "plain": "A global exchange operator that runs the New York Stock Exchange, Brent oil Futures, US credit derivatives clearing, and many other markets.",
+    "plain": "A global exchange operator that runs the New York stock Exchange, Brent oil Futures, US credit derivatives clearing, and many other markets.",
     "snappy": "US-based exchange group — owns NYSE, ICE Futures, ICE Clear Credit.",
-    "detail": "Founded 2000 in Atlanta by Jeff Sprecher as an electronic energy-trading platform. Bought the New York Stock Exchange in 2013 and the London-based International Petroleum Exchange in 2001, making Brent crude its flagship futures contract. Also runs the dominant CDS clearing house (ICE Clear Credit) and major European emissions and soft-commodity exchanges. You'll hear ICE quoted any time someone references Brent crude, NYSE-listed stocks, or US credit-derivatives clearing.",
+    "detail": "Founded 2000 in Atlanta by Jeff Sprecher as an electronic energy-trading platform. Bought the New York stock Exchange in 2013 and the London-based International Petroleum Exchange in 2001, making Brent crude its flagship futures contract. Also runs the dominant CDS clearing house (ICE Clear Credit) and major European emissions and soft-commodity exchanges. You'll hear ICE quoted any time someone references Brent crude, NYSE-listed stocks, or US credit-derivatives clearing.",
     "indications": [
       "Cross-asset"
     ],
@@ -5064,7 +5064,7 @@
     "term": "ICE BofA High Yield Index",
     "full": "BofA HY Index",
     "snappy": "Broad US high-yield bond benchmark — formerly Merrill Lynch HY Master II.",
-    "detail": "Includes most USD-denominated junk bonds. Total market value approximately 1.5 trillion dollars. Tracked by SPDR Bloomberg HY (JNK) and iShares Broad USD HY (USHY) ETFs. Effective yield, option-adjusted spread (OAS), and modified duration published daily. The standard reference for HY market commentary.",
+    "detail": "Includes most USD-denominated junk bonds. Total market value approximately 1.5 trillion dollars. Tracked by SPDR Bloomberg HY (JNK) and ishares Broad USD HY (USHY) ETFs. Effective yield, option-adjusted spread (OAS), and modified duration published daily. The standard reference for HY market commentary.",
     "indications": [
       "Credit"
     ],
@@ -5124,7 +5124,7 @@
     "letter": "I",
     "term": "IEX",
     "full": "Investors Exchange",
-    "plain": "A US Stock exchange that builds a tiny speed bump into every order — designed to neutralise high-frequency trading edges.",
+    "plain": "A US stock exchange that builds a tiny speed bump into every order — designed to neutralise high-frequency trading edges.",
     "snappy": "Stock exchange with a 350-microsecond speed bump — pitched against latency arbitrage.",
     "detail": "Founded 2012, became a registered exchange in 2016 after high-profile SEC approval. The 350-microsecond delay (the 'magic shoebox') gives the exchange time to update its book before HFTs can act on stale quotes. Roughly 2-3 percent of US equity volume. Featured prominently in Michael Lewis's 2014 book Flash Boys. Other exchanges have since experimented with similar speed-bump models.",
     "indications": [
@@ -5196,7 +5196,7 @@
       "CFA Institute",
       "CME Group"
     ],
-    "plain": "How jumpy the market expects a price to be in the future, reverse-engineered from what people are paying for Options today."
+    "plain": "How jumpy the market expects a price to be in the future, reverse-engineered from what people are paying for options today."
   },
   {
     "letter": "I",
@@ -5211,13 +5211,13 @@
     "sources": [
       "CBOE"
     ],
-    "plain": "An Option that would already make money if used right now — its Strike Price is favourable compared to today's market."
+    "plain": "An option that would already make money if used right now — its Strike Price is favourable compared to today's market."
   },
   {
     "letter": "I",
     "term": "Index",
     "full": "",
-    "plain": "A measure that combines the prices of many assets into one number — like the S&P 500 tracking 500 big US Stocks at once.",
+    "plain": "A measure that combines the prices of many assets into one number — like the S&P 500 tracking 500 big US stocks at once.",
     "snappy": "Statistical aggregate tracking a basket of securities — basis for benchmarks and passive funds.",
     "detail": "Major equity indexes: S&P 500, Dow Jones, Nasdaq Composite, FTSE 100, Nikkei 225. Bond indexes: Bloomberg US Aggregate, ICE BofA HY. Commodity indexes: S&P GSCI, Bloomberg Commodity. Indexes drive trillions in passive ETF and mutual-fund assets. Index providers (MSCI, FTSE Russell, S&P Dow Jones Indices) earn licensing fees. Index inclusion or exclusion events drive material trading volume.",
     "indications": [
@@ -5234,9 +5234,9 @@
     "letter": "I",
     "term": "Index Fund",
     "full": "",
-    "plain": "A fund that simply mirrors a market Index — buying the same Stocks in the same proportions, so it tracks the Index very cheaply.",
+    "plain": "A fund that simply mirrors a market Index — buying the same stocks in the same proportions, so it tracks the Index very cheaply.",
     "snappy": "Mutual fund or ETF passively replicating a market index — low fees, broad exposure.",
-    "detail": "Pioneered by Vanguard's First Index Investment Trust (1976). Now dominates retail and institutional flows: roughly half of US equity assets are passively managed (2024). Largest: Vanguard 500 Index, iShares Core S&P 500, SPDR S&P 500. Fees typically 0.03-0.10 percent versus 0.50-1.00 percent for active. Tracks index minus tiny tracking error. Index fund flows now drive material market structure dynamics.",
+    "detail": "Pioneered by Vanguard's First Index Investment Trust (1976). Now dominates retail and institutional flows: roughly half of US equity assets are passively managed (2024). Largest: Vanguard 500 Index, ishares Core S&P 500, SPDR S&P 500. Fees typically 0.03-0.10 percent versus 0.50-1.00 percent for active. Tracks index minus tiny tracking error. Index fund flows now drive material market structure dynamics.",
     "indications": [
       "Equities"
     ],
@@ -5282,7 +5282,7 @@
     "letter": "I",
     "term": "Inflation Target",
     "full": "",
-    "plain": "The Inflation rate a central bank publicly aims for — usually 2 percent — and adjusts Interest Rates to try to hit.",
+    "plain": "The inflation rate a central bank publicly aims for — usually 2 percent — and adjusts interest rates to try to hit.",
     "snappy": "Publicly stated inflation goal — anchors the central bank's policy framework.",
     "detail": "The Fed, ECB, Bank of England, Bank of Japan, and most major central banks target 2 percent inflation. Pioneered by the Reserve Bank of New Zealand in 1990. The Fed adopted formal 2 percent targeting in 2012 and shifted to 'average inflation targeting' (FAIT) in 2020 — willing to overshoot temporarily after undershoots. Targets anchor expectations; credibility depends on long-run track record. Periodic academic debate about raising targets to 3-4 percent.",
     "indications": [
@@ -5319,7 +5319,7 @@
     "term": "Inflation-Linked Bond",
     "full": "TIPS / Linker",
     "snappy": "Bond whose principal adjusts with inflation — protects real purchasing power.",
-    "detail": "US Treasury Inflation-Protected Securities (TIPS) are the largest market. Principal grows by CPI changes; coupons (set at a real rate) apply to the inflation-adjusted principal. UK index-linked Gilts and euro-area linkers (BTPei, OATei) work similarly. The break-even inflation rate — nominal Treasury yield minus TIPS yield — is the market's implied inflation expectation. Issued at 5-, 10-, and 30-year maturities; auctioned a handful of times each year.",
+    "detail": "US Treasury inflation-Protected Securities (TIPS) are the largest market. Principal grows by CPI changes; coupons (set at a real rate) apply to the inflation-adjusted principal. UK index-linked Gilts and euro-area linkers (BTPei, OATei) work similarly. The break-even inflation rate — nominal Treasury yield minus TIPS yield — is the market's implied inflation expectation. Issued at 5-, 10-, and 30-year maturities; auctioned a handful of times each year.",
     "indications": [
       "Rates",
       "Macro"
@@ -5329,14 +5329,14 @@
       "Federal Reserve",
       "Bank of England"
     ],
-    "plain": "A Bond whose payments grow with inflation, so its value keeps up with the cost of living."
+    "plain": "A bond whose payments grow with inflation, so its value keeps up with the cost of living."
   },
   {
     "letter": "I",
     "term": "Information Ratio",
     "full": "",
     "snappy": "Excess return over benchmark divided by tracking error — active-management skill metric.",
-    "detail": "Tells you how much active risk a manager takes per unit of active return. High IR (1.0+) signals genuine alpha; low IR (below 0.3) suggests luck or expensive tracking. Compared with Sharpe (uses risk-free rate as benchmark). Active equity managers' IRs have been declining secularly as markets become more efficient. The 0.5 IR threshold separates institutional-grade active managers from average.",
+    "detail": "Tells you how much active risk a manager takes per unit of active return. High IR (1.0+) signals genuine alpha; low IR (below 0.3) suggests luck or expensive tracking. Compared with Sharpe Ratio (uses risk-free rate as benchmark). Active equity managers' IRs have been declining secularly as markets become more efficient. The 0.5 IR threshold separates institutional-grade active managers from average.",
     "indications": [
       "Cross-asset"
     ],
@@ -5442,7 +5442,7 @@
       "CBOE",
       "CFA Institute"
     ],
-    "plain": "The portion of an Option's price that comes from being already in profit — the obvious, immediate value."
+    "plain": "The portion of an option's price that comes from being already in profit — the obvious, immediate value."
   },
   {
     "letter": "I",
@@ -5498,7 +5498,7 @@
     "term": "Investment Grade",
     "full": "IG",
     "snappy": "Bonds rated BBB- or higher — institutional-portfolio eligible.",
-    "detail": "Moody's: Aaa, Aa, A, Baa. S&P/Fitch: AAA, AA, A, BBB. The IG-HY boundary at BBB-/Baa3 is the most consequential threshold in credit — many institutional mandates and pension funds can hold only IG. Downgrades into HY (becoming 'fallen angels') trigger forced selling. IG corporates spread roughly 100-200 bps over Treasuries in calm markets; widens to 300-500 in crises.",
+    "detail": "Moody's: Aaa, Aa, A, Baa. S&P/Fitch: AAA, AA, A, BBB. The IG-HY boundary at BBB-/Baa3 is the most consequential threshold in credit — many institutional mandates and pension funds can hold only IG. Downgrades into HY (becoming 'fallen angels') trigger forced selling. IG corporates spread roughly 100-200 bps over Treasury securities in calm markets; widens to 300-500 in crises.",
     "indications": [
       "Credit"
     ],
@@ -5608,7 +5608,7 @@
     "letter": "I",
     "term": "ITM",
     "full": "In the Money",
-    "plain": "An Option whose Strike Price is set favourably relative to the current Underlying price — exercising it today would already make money.",
+    "plain": "An option whose Strike Price is set favourably relative to the current Underlying price — exercising it today would already make money.",
     "snappy": "Option with strike favourable relative to the current underlying price.",
     "detail": "An ITM call has strike below current spot; an ITM put has strike above. ITM options carry intrinsic value (the immediate exercise payoff) plus time value. Deep ITM options behave almost like the underlying itself (delta near 100). Tax timing of ITM option exercises matters for individual traders. Listed exchanges automatically exercise expiring ITM options unless instructed otherwise.",
     "indications": [
@@ -5641,7 +5641,7 @@
     "term": "JGB",
     "full": "Japanese Government Bond",
     "plain": "A bond issued by Japan's government — about half of all of them are owned by the Bank of Japan itself.",
-    "snappy": "Sovereign debt of Japan — second-largest government bond market after US Treasuries.",
+    "snappy": "Sovereign debt of Japan — second-largest government bond market after US Treasury securities.",
     "detail": "Roughly 1,200 trillion yen outstanding (about 8.5 trillion dollars equivalent). Maturities range from short bills out to 40 years. The BoJ owns roughly half the market following decades of QE and Yield Curve Control — a level of central-bank ownership unmatched globally. Yields stayed near zero from 2016 to 2024 before normalising as the BoJ exited negative rates. You'll hear JGBs cited in any conversation about global yields, the carry trade, or Japanese monetary policy.",
     "indications": [
       "Rates",
@@ -5658,7 +5658,7 @@
     "term": "JPM EMBI",
     "full": "Emerging Market Bond Index",
     "snappy": "USD-denominated emerging-market sovereign bond benchmark.",
-    "detail": "Operated by JPMorgan. EMBI Global Diversified (with country weight caps) is the most-followed version. Roughly 70 countries. Heavy weights: Mexico, Indonesia, Turkey, Brazil, Argentina. Tracked by iShares JPM EMB ETF, multiple EM debt funds. Long-running multi-trillion benchmark. Country additions and removals on issuance and credit-rating thresholds.",
+    "detail": "Operated by JPMorgan. EMBI Global Diversified (with country weight caps) is the most-followed version. Roughly 70 countries. Heavy weights: Mexico, Indonesia, Turkey, Brazil, Argentina. Tracked by ishares JPM EMB ETF, multiple EM debt funds. Long-running multi-trillion benchmark. Country additions and removals on issuance and credit-rating thresholds.",
     "indications": [
       "Credit",
       "FX"
@@ -5690,7 +5690,7 @@
     "term": "Jump Diffusion",
     "full": "Merton Jump Model",
     "snappy": "Model adding sudden price jumps to standard diffusion — captures fat-tail returns.",
-    "detail": "Robert Merton's 1976 model. Stock price follows geometric Brownian motion plus a Poisson jump process. Captures crash risk that Black-Scholes misses. Out-of-the-Money Option prices in jump-diffusion models are higher than Black-Scholes, matching observed market smiles. Popular in credit modelling (sudden defaults) and FX (currency crisis jumps). Calibration is also more involved than for pure diffusion — extra parameters control how often jumps happen and how large they are.",
+    "detail": "Robert Merton's 1976 model. Stock price follows geometric Brownian motion plus a Poisson jump process. Captures crash risk that Black-Scholes misses. Out-of-the-Money option prices in jump-diffusion models are higher than Black-Scholes, matching observed market smiles. Popular in credit modelling (sudden defaults) and FX (currency crisis jumps). Calibration is also more involved than for pure diffusion — extra parameters control how often jumps happen and how large they are.",
     "indications": [
       "Derivatives"
     ],
@@ -5713,7 +5713,7 @@
     "sources": [
       "ISDA"
     ],
-    "plain": "An Option that only switches on if the price hits a chosen level — the buyer pays less for it because it might never become active."
+    "plain": "An option that only switches on if the price hits a chosen level — the buyer pays less for it because it might never become active."
   },
   {
     "letter": "K",
@@ -5783,7 +5783,7 @@
     "term": "Layering",
     "full": "",
     "snappy": "Form of spoofing — placing multiple orders on one side of the book to create false depth.",
-    "detail": "Trader places visible orders to make a stock look heavily bid (or offered), inducing other traders to react, then cancels and trades the opposite direction. The 2014 Coscia case was the first US criminal conviction for layering. Major banks have settled layering cases across spot FX, precious metals, Treasuries. Surveillance algorithms now detect layering patterns automatically across asset classes.",
+    "detail": "Trader places visible orders to make a stock look heavily bid (or offered), inducing other traders to react, then cancels and trades the opposite direction. The 2014 Coscia case was the first US criminal conviction for layering. Major banks have settled layering cases across spot FX, precious metals, Treasury securities. Surveillance algorithms now detect layering patterns automatically across asset classes.",
     "indications": [
       "Cross-asset"
     ],
@@ -5800,7 +5800,7 @@
     "full": "Leveraged Buyout",
     "plain": "When investors buy a whole company mostly using borrowed money, then use the company's own cash flow to pay back the loan.",
     "snappy": "Acquisition financed mostly with borrowed money — debt secured against the target's assets and cash flow.",
-    "detail": "Typical structure: 30 percent equity, 70 percent debt (term loans, high-yield bonds, mezzanine). Sponsor (private equity firm) puts up the equity slice. Returns come from operational improvements, multiple expansion at exit, and debt paydown. Famous LBOs: KKR's RJR Nabisco (1988), Dell (2013), Twitter (2022). The 1980s LBO boom invented modern private equity. You'll hear about LBOs every time a PE firm announces a take-private deal.",
+    "detail": "Typical structure: 30 percent equity, 70 percent debt (term loans, high-yield bonds, mezzanine). Sponsor (private equity firm) provides the equity slice. Returns come from operational improvements, multiple expansion at exit, and debt paydown. Famous LBOs: KKR's RJR Nabisco (1988), Dell (2013), Twitter (2022). The 1980s LBO boom invented modern private equity. You'll hear about LBOs every time a PE firm announces a take-private deal.",
     "indications": [
       "Equities",
       "Credit"
@@ -5816,7 +5816,7 @@
     "term": "LCR",
     "full": "Liquidity Coverage Ratio",
     "snappy": "Bank must hold high-quality liquid assets covering 30 days of net cash outflows in stress.",
-    "detail": "Basel III minimum 100 percent. HQLA includes Treasuries, central-bank reserves, and other government bonds. Stressed outflow assumptions: retail deposit run-offs (5-10 percent), wholesale funding rollovers, derivatives margin calls, contingent liabilities. Daily monitoring at most banks. Designed to prevent the 30-day liquidity crisis that contributed to 2008 failures (Lehman, Bear Stearns, Northern Rock).",
+    "detail": "Basel III minimum 100 percent. HQLA includes Treasury securities, central-bank reserves, and other government bonds. Stressed outflow assumptions: retail deposit run-offs (5-10 percent), wholesale funding rollovers, derivatives margin calls, contingent liabilities. Daily monitoring at most banks. Designed to prevent the 30-day liquidity crisis that contributed to 2008 failures (Lehman, Bear Stearns, Northern Rock).",
     "indications": [
       "Cross-asset"
     ],
@@ -5943,7 +5943,7 @@
     "term": "Liquidity",
     "full": "",
     "snappy": "Ease with which an asset can be bought or sold without affecting its price.",
-    "detail": "Highly liquid: cash, Treasuries, large-cap stocks. Less liquid: corporate bonds, emerging-market equities, real estate, private equity stakes. Two flavours: market liquidity (can you trade now?) and funding liquidity (can you borrow against the asset?). Liquidity disappears in crises — 2008 commercial paper markets, March 2020 Treasury markets briefly. Bank Liquidity Coverage Ratio aims to ensure short-term funding resilience.",
+    "detail": "Highly liquid: cash, Treasury securities, large-cap stocks. Less liquid: corporate bonds, emerging-market equities, real estate, private equity stakes. Two flavours: market liquidity (can you trade now?) and funding liquidity (can you borrow against the asset?). Liquidity disappears in crises — 2008 commercial paper markets, March 2020 Treasury markets briefly. Bank Liquidity Coverage Ratio aims to ensure short-term funding resilience.",
     "indications": [
       "Cross-asset"
     ],
@@ -5974,7 +5974,7 @@
     "term": "Liquidity-Seeking Algo",
     "full": "Sniper",
     "snappy": "Algo that aggressively hunts for hidden liquidity across venues.",
-    "detail": "Probes dark pools and reserve orders with small IOC orders to find blocks of latent demand. Used by traders confident in their direction who want to fill quickly with minimal market signalling. Less price-sensitive than VWAP/POV algos. Critics call them 'sniper algos' for their predatory feel toward unsuspecting passive liquidity. Standard in modern algo toolkits — most major brokers offer some flavour.",
+    "detail": "Probes dark pools and reserve orders with small IOC orders to find blocks of latent demand. Used by traders confident in their direction who want to fill quickly with minimal market signalling. Less price-sensitive than VWAP/POV algos. Critics refer to them as 'sniper algos' for their predatory feel toward unsuspecting passive liquidity. Standard in modern algo toolkits — most major brokers offer some flavour.",
     "indications": [
       "Cross-asset"
     ],
@@ -6106,13 +6106,13 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "A pricing model where market jumpiness depends on price and time, fitted to exactly match observed Option prices."
+    "plain": "A pricing model where market jumpiness depends on price and time, fitted to exactly match observed option prices."
   },
   {
     "letter": "L",
     "term": "Lock-up",
     "full": "Lock-up Period",
-    "plain": "A period after a company's IPO during which insiders and early investors aren't allowed to sell their Stocks — usually 90 to 180 days.",
+    "plain": "A period after a company's IPO during which insiders and early investors aren't allowed to sell their stocks — usually 90 to 180 days.",
     "snappy": "Post-IPO restriction preventing insiders from selling shares for a set period.",
     "detail": "Typically 90 to 180 days, agreed between the company and its underwriters. Designed to prevent founders and pre-IPO investors from dumping shares on day-one buyers and crashing the price. Lock-up expiry dates are watched closely — the days when insiders can finally sell often produce noticeable selling pressure. Direct listings sometimes skip lock-ups entirely. You'll hear 'lock-up expiry' flagged in research notes around IPO three-month and six-month anniversaries.",
     "indications": [
@@ -6152,7 +6152,7 @@
     "sources": [
       "ISDA"
     ],
-    "plain": "An Option that pays out based on the best possible price reached during its life, removing the regret of bad timing."
+    "plain": "An option that pays out based on the best possible price reached during its life, removing the regret of bad timing."
   },
   {
     "letter": "L",
@@ -6192,7 +6192,7 @@
     "full": "Long-Term Capital Management",
     "plain": "Famous hedge fund that nearly collapsed the financial system in 1998 when its highly leveraged bond bets all moved against it at once.",
     "snappy": "1998 hedge-fund collapse — Nobel-laureate-led firm with extreme leverage on convergence trades.",
-    "detail": "Founded 1994 by John Meriwether with Nobel-winning economists Robert Merton and Myron Scholes on the team. Ran convergence trades (long off-the-run Treasuries, short on-the-run, etc.) at leverage above 25-to-1. The August 1998 Russian default caused correlated losses across positions; the fund lost 4.6 billion in four months. Fed-orchestrated rescue by 14 banks. Standard case study in tail risk, leverage, and crowded trades.",
+    "detail": "Founded 1994 by John Meriwether with Nobel-winning economists Robert Merton and Myron Scholes on the team. Ran convergence trades (long off-the-run Treasury securities, short on-the-run, etc.) at leverage above 25-to-1. The August 1998 Russian default caused correlated losses across positions; the fund lost 4.6 billion in four months. Fed-orchestrated rescue by 14 banks. Standard case study in tail risk, leverage, and crowded trades.",
     "indications": [
       "Cross-asset"
     ],
@@ -6206,7 +6206,7 @@
     "letter": "L",
     "term": "LULD",
     "full": "Limit Up Limit Down",
-    "plain": "US rules that pause trading in a single Stock for five minutes if its price swings too far too fast — a single-stock breather.",
+    "plain": "US rules that pause trading in a single stock for five minutes if its price swings too far too fast — a single-stock breather.",
     "snappy": "Single-stock circuit breaker — halts trading if price moves outside dynamic bands.",
     "detail": "Adopted by US equity markets in 2012 after the May 2010 Flash Crash. Sets price bands (typically 5-10 percent around a rolling reference price) above and below which trading pauses for 5-15 minutes. Distinct from market-wide circuit breakers, which halt all US trading on a big S&P 500 drop. Used heavily in volatile small-caps during meme-stock episodes and unexpected news. You'll see LULD halts mentioned on day-trading platforms and on CNBC's ticker.",
     "indications": [
@@ -6279,7 +6279,7 @@
       "Federal Reserve",
       "SEC"
     ],
-    "plain": "Money you put up as a deposit when you borrow to invest or trade — collateral your broker can grab if your bets sour."
+    "plain": "Money you deposit upfront when you borrow to invest or trade — collateral your broker can grab if your bets sour."
   },
   {
     "letter": "M",
@@ -6375,14 +6375,14 @@
       "SEC",
       "CFA Institute"
     ],
-    "plain": "The end date of a loan or Bond when the borrower must repay what they originally borrowed."
+    "plain": "The end date of a loan or bond when the borrower must repay what they originally borrowed."
   },
   {
     "letter": "M",
     "term": "Maximum Drawdown",
     "full": "Max DD",
     "snappy": "Worst peak-to-trough loss observed over a portfolio's history.",
-    "detail": "Common headline risk metric for hedge funds and asset managers. S&P 500 maximum drawdown: 86 percent (Great Depression), 57 percent (2007-09), 34 percent (March 2020). Recovery time after maximum drawdown often longer than the drawdown itself. Used in performance evaluation: high Sharpe with low max DD is the holy grail. Calmar ratio = annualised return divided by max DD.",
+    "detail": "Common headline risk metric for hedge funds and asset managers. S&P 500 maximum drawdown: 86 percent (Great Depression), 57 percent (2007-09), 34 percent (March 2020). Recovery time after maximum drawdown often longer than the drawdown itself. Used in performance evaluation: high Sharpe Ratio with low max DD is the holy grail. Calmar ratio = annualised return divided by max DD.",
     "indications": [
       "Cross-asset"
     ],
@@ -6397,7 +6397,7 @@
     "term": "MBS",
     "full": "Mortgage-Backed Security",
     "snappy": "Bond backed by a pool of residential or commercial mortgages.",
-    "detail": "Holders receive monthly principal and interest from the underlying mortgages. Three sources of cash flow uncertainty: prepayments (homeowners refinancing or moving), defaults, and curtailments. The US MBS market is roughly 12 trillion outstanding — second only to Treasuries in size. Agency MBS (guaranteed by Fannie Mae, Freddie Mac, Ginnie Mae) is most of it; private-label MBS shrank dramatically post-2008.",
+    "detail": "Holders receive monthly principal and interest from the underlying mortgages. Three sources of cash flow uncertainty: prepayments (homeowners refinancing or moving), defaults, and curtailments. The US MBS market is roughly 12 trillion outstanding — second only to Treasury securities in size. Agency MBS (guaranteed by Fannie Mae, Freddie Mac, Ginnie Mae) is most of it; private-label MBS shrank dramatically post-2008.",
     "indications": [
       "Credit"
     ],
@@ -6561,7 +6561,7 @@
       "CBOE",
       "ISDA"
     ],
-    "plain": "How close an Option's Strike Price is to where the underlying is trading right now — affects how much the option is worth."
+    "plain": "How close an option's Strike Price is to where the underlying is trading right now — affects how much the option is worth."
   },
   {
     "letter": "M",
@@ -6614,7 +6614,7 @@
     "term": "MSCI EAFE",
     "full": "",
     "snappy": "Developed markets ex-US and Canada — Europe, Australasia, Far East.",
-    "detail": "21 developed countries. Japan, UK, France, Germany top weights. Heavily used as international-equity benchmark for US pension funds and asset managers. Tracked by iShares MSCI EAFE ETF (EFA). Persistent EAFE-US performance gap since 2010 reflects US tech dominance — EAFE returns roughly half those of US equities over the past decade.",
+    "detail": "21 developed countries. Japan, UK, France, Germany top weights. Heavily used as international-equity benchmark for US pension funds and asset managers. Tracked by ishares MSCI EAFE ETF (EFA). Persistent EAFE-US performance gap since 2010 reflects US tech dominance — EAFE returns roughly half those of US equities over the past decade.",
     "indications": [
       "Equities"
     ],
@@ -6629,7 +6629,7 @@
     "term": "MSCI Emerging Markets",
     "full": "MSCI EM",
     "snappy": "24 emerging-market countries — the global EM equity benchmark.",
-    "detail": "1,400-plus constituents. China, India, Taiwan, Korea, Brazil top weights — China's weight has grown then shrunk in recent years. South Korea and Taiwan technically developed by World Bank standards but classed as EM by MSCI for years (relatively unique classification). Tracked by iShares MSCI EM ETF (EEM), Vanguard FTSE Emerging Markets (VWO). Multi-trillion in indexed flows.",
+    "detail": "1,400-plus constituents. China, India, Taiwan, Korea, Brazil top weights — China's weight has grown then shrunk in recent years. South Korea and Taiwan technically developed by World Bank standards but classed as EM by MSCI for years (relatively unique classification). Tracked by ishares MSCI EM ETF (EEM), Vanguard FTSE Emerging Markets (VWO). Multi-trillion in indexed flows.",
     "indications": [
       "Equities",
       "Macro"
@@ -6684,14 +6684,14 @@
     "sources": [
       "SEC"
     ],
-    "plain": "An investment pool where many people put money in together, and a manager buys a mix of stocks or bonds on everyone's behalf."
+    "plain": "An investment pool where many people invest money together, and a manager buys a mix of stocks or bonds on everyone's behalf."
   },
   {
     "letter": "N",
     "term": "NAIRU",
     "full": "Non-Accelerating Inflation Rate of Unemployment",
     "snappy": "Theoretical unemployment rate below which inflation accelerates.",
-    "detail": "Pre-2010 estimates put US NAIRU around 5-6 percent. The 2014-2019 period of falling unemployment to 3.5 percent without inflation pressure forced economists to revise NAIRU downward dramatically — to 4 percent or lower. The 2021-22 inflation episode revived debates about how reliable NAIRU estimates are. Central banks use NAIRU implicitly in reaction functions; estimates are policy-dependent.",
+    "detail": "Pre-2010 estimates place US NAIRU around 5-6 percent. The 2014-2019 period of falling unemployment to 3.5 percent without inflation pressure forced economists to revise NAIRU downward dramatically — to 4 percent or lower. The 2021-22 inflation episode revived debates about how reliable NAIRU estimates are. Central banks use NAIRU implicitly in reaction functions; estimates are policy-dependent.",
     "indications": [
       "Macro"
     ],
@@ -6779,7 +6779,7 @@
       "SEC",
       "FINRA"
     ],
-    "plain": "The best price to buy and the best price to sell a US Stock right now, combined from every exchange into one quote."
+    "plain": "The best price to buy and the best price to sell a US stock right now, combined from every exchange into one quote."
   },
   {
     "letter": "N",
@@ -6801,7 +6801,7 @@
     "letter": "N",
     "term": "Negative Convexity",
     "full": "",
-    "plain": "An unfortunate property of certain Bonds — they go up less when rates fall than they go down when rates rise. Common in MBS.",
+    "plain": "An unfortunate property of certain bonds — they go up less when rates fall than they go down when rates rise. Common in MBS.",
     "snappy": "Price-yield curve bends the wrong way — gains lag losses on equal-sized rate moves.",
     "detail": "Standard bonds have positive convexity: prices rise faster than they fall for equal yield moves. Bonds with embedded prepayment or call options (MBS, callable corporates) have negative convexity — when rates fall, prepayments and calls cap upside, but when rates rise, extension risk amplifies downside. MBS portfolio managers manage convexity hedging carefully. The 2003, 2013, and 2022 convexity flushes were big sources of cross-asset volatility.",
     "indications": [
@@ -6907,7 +6907,7 @@
     "sources": [
       "Federal Reserve"
     ],
-    "plain": "The interest rate you see quoted — includes both real return and what people expect Inflation to eat away."
+    "plain": "The interest rate you see quoted — includes both real return and what people expect inflation to eat away."
   },
   {
     "letter": "N",
@@ -6922,7 +6922,7 @@
     "sources": [
       "SEC"
     ],
-    "plain": "A Bond made of home loans with no government guarantee — investors take on the risk that homeowners default."
+    "plain": "A bond made of home loans with no government guarantee — investors take on the risk that homeowners default."
   },
   {
     "letter": "N",
@@ -6984,7 +6984,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "The reference asset you measure other prices against — like quoting everything in dollars, or in units of a Bond."
+    "plain": "The reference asset you measure other prices against — like quoting everything in dollars, or in units of a bond."
   },
   {
     "letter": "N",
@@ -7015,7 +7015,7 @@
       "Federal Reserve",
       "ICE"
     ],
-    "plain": "A credit-risk spread that strips out the value of any early-redemption feature embedded in the Bond."
+    "plain": "A credit-risk spread that strips out the value of any early-redemption feature embedded in the bond."
   },
   {
     "letter": "O",
@@ -7037,9 +7037,9 @@
     "letter": "O",
     "term": "ON RRP",
     "full": "Overnight Reverse Repo Facility",
-    "plain": "A Fed facility that lets eligible firms park overnight cash with the Fed at a set rate — puts a floor under short-term Interest Rates.",
-    "snappy": "Fed facility lending Treasuries overnight in exchange for cash — sets a floor under short rates.",
-    "detail": "Counterparts (money funds, GSEs, primary dealers) lend cash to the Fed overnight in exchange for Treasuries. Set at IORB minus a small margin. ON RRP usage ballooned to 2.5 trillion in 2022-23 as money funds parked excess cash; has shrunk steadily through 2024 as the Fed runs off the balance sheet. The 'reverse' from the Fed's perspective: the Fed is borrowing cash and lending Treasuries. Counterpart to the standing repo facility.",
+    "plain": "A Fed facility that lets eligible firms park overnight cash with the Fed at a set rate — puts a floor under short-term interest rates.",
+    "snappy": "Fed facility lending Treasury securities overnight in exchange for cash — sets a floor under short rates.",
+    "detail": "Counterparts (money funds, GSEs, primary dealers) lend cash to the Fed overnight in exchange for Treasury securities. Set at IORB minus a small margin. ON RRP usage ballooned to 2.5 trillion in 2022-23 as money funds parked excess cash; has shrunk steadily through 2024 as the Fed runs off the balance sheet. The 'reverse' from the Fed's perspective: the Fed is borrowing cash and lending Treasury securities. Counterpart to the standing repo facility.",
     "indications": [
       "Rates"
     ],
@@ -7118,7 +7118,7 @@
     "letter": "O",
     "term": "Open Market Operations",
     "full": "OMO",
-    "snappy": "Day-to-day Fed activity buying or selling Treasuries to manage reserves and short rates.",
+    "snappy": "Day-to-day Fed activity buying or selling Treasury securities to manage reserves and short rates.",
     "detail": "Distinct from large-scale QE/QT. Permanent OMOs (POMO) for outright purchases; temporary OMOs (TOMO) via repo and reverse repo. Conducted by the New York Fed's Open Market Desk. Pre-2008, OMOs were the primary tool — Fed kept reserves scarce and moved short rates by adjusting supply. Post-2008 abundant-reserves regime, OMOs play smaller role; IORB and ON RRP are the primary tools.",
     "indications": [
       "Rates"
@@ -7197,7 +7197,7 @@
     "letter": "O",
     "term": "OTM",
     "full": "Out of the Money",
-    "plain": "An Option whose Strike Price is set so it would currently be worthless to exercise — the price has to move first before it pays.",
+    "plain": "An option whose Strike Price is set so it would currently be worthless to exercise — the price has to move first before it pays.",
     "snappy": "Option where the strike is unfavourable relative to the current underlying price.",
     "detail": "An OTM call has strike above the current spot; an OTM put has strike below. OTM options trade cheaply because they're pure time value — no intrinsic value yet. The wings of the vol smile sit at OTM strikes; far-OTM puts price in crash risk. Retail options speculation often focuses on OTM calls (cheap, leveraged). Theta decays OTM options faster than ATM ones near expiry.",
     "indications": [
@@ -7222,7 +7222,7 @@
     "sources": [
       "CBOE"
     ],
-    "plain": "An Option that would be worthless if you tried to use it right now — its Strike Price is far from where the market is."
+    "plain": "An option that would be worthless if you tried to use it right now — its Strike Price is far from where the market is."
   },
   {
     "letter": "O",
@@ -7316,7 +7316,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "Buying one Stock and shorting a similar one — betting their prices drift apart and then snap back together."
+    "plain": "Buying one stock and shorting a similar one — betting their prices drift apart and then snap back together."
   },
   {
     "letter": "P",
@@ -7346,7 +7346,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "A Bond price equal to its original face value — neither premium nor discount, often where new bonds first launch."
+    "plain": "A bond price equal to its original face value — neither premium nor discount, often where new bonds first launch."
   },
   {
     "letter": "P",
@@ -7440,7 +7440,7 @@
     "sources": [
       "Federal Reserve FRED"
     ],
-    "plain": "The US Federal Reserve's preferred Inflation gauge — measures what households actually spent, including healthcare paid by employers."
+    "plain": "The US Federal Reserve's preferred inflation gauge — measures what households actually spent, including healthcare paid by employers."
   },
   {
     "letter": "P",
@@ -7461,9 +7461,9 @@
     "letter": "P",
     "term": "Pension Fund",
     "full": "",
-    "plain": "A pool of money set aside by employers or governments to pay workers' retirement income — invested across Stocks and Bonds for decades.",
+    "plain": "A pool of money set aside by employers or governments to pay workers' retirement income — invested across stocks and bonds for decades.",
     "snappy": "Investment pool managing retirement assets on behalf of workers and retirees.",
-    "detail": "US public pensions hold roughly 5 trillion dollars (state and local). Private corporate pensions plus 401(k)-style defined-contribution plans add trillions more. Largest: California's CalPERS, the Dutch ABP, Japan's GPIF. Pension funds are big buyers of long-dated bonds and equities, providing stable demand. Defined-benefit pensions face funding-ratio pressures when rates fall or stocks weaken. You'll hear on every earnings call for major asset managers (BlackRock, Vanguard, State Street).",
+    "detail": "US public pensions hold roughly 5 trillion dollars (state and local). Private corporate pensions plus 401(k)-style defined-contribution plans add trillions more. Largest: California's CalPERS, the Dutch ABP, Japan's GPIF. Pension funds are big buyers of long-dated bonds and equities, providing stable demand. Defined-benefit pensions face funding-ratio pressures when rates fall or stocks weaken. You'll hear on every earnings announcement for major asset managers (BlackRock, Vanguard, State Street).",
     "indications": [
       "Cross-asset"
     ],
@@ -7535,7 +7535,7 @@
     "sources": [
       "CBOE"
     ],
-    "plain": "Near an Option's expiry, the underlying closes exactly at the Strike Price — leaving holders unsure whether to exercise."
+    "plain": "Near an option's expiry, the underlying closes exactly at the Strike Price — leaving holders unsure whether to exercise."
   },
   {
     "letter": "P",
@@ -7673,7 +7673,7 @@
     "sources": [
       "Federal Reserve FRED"
     ],
-    "plain": "Inflation measure for the prices factories and wholesalers charge — often an early warning for shop-price Inflation."
+    "plain": "Inflation measure for the prices factories and wholesalers charge — often an early warning for shop-price inflation."
   },
   {
     "letter": "P",
@@ -7707,7 +7707,7 @@
       "SEC",
       "Federal Reserve"
     ],
-    "plain": "Hybrid investment that pays a fixed dividend like a Bond but ranks behind debt and ahead of common Stock if the company fails."
+    "plain": "Hybrid investment that pays a fixed dividend like a bond but ranks behind debt and ahead of common stock if the company fails."
   },
   {
     "letter": "P",
@@ -7722,7 +7722,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "A Bond trading above its original face value — usually because its coupon is more generous than today's market interest rates."
+    "plain": "A bond trading above its original face value — usually because its coupon is more generous than today's market interest rates."
   },
   {
     "letter": "P",
@@ -7737,7 +7737,7 @@
     "sources": [
       "Federal Reserve"
     ],
-    "plain": "Risk that homeowners refinance their mortgages early when rates fall, leaving Bond investors to reinvest at lower yields."
+    "plain": "Risk that homeowners refinance their mortgages early when rates fall, leaving bond investors to reinvest at lower yields."
   },
   {
     "letter": "P",
@@ -7775,7 +7775,7 @@
     "letter": "P",
     "term": "Primary Dealer",
     "full": "",
-    "plain": "A Bank designated by the Fed to buy directly at US Treasury auctions and make markets in Treasuries — wholesale plumbing of the Bond market.",
+    "plain": "A Bank designated by the Fed to buy directly at US Treasury auctions and make markets in Treasury securities — wholesale plumbing of the bond market.",
     "snappy": "Bank designated to bid at Treasury auctions and trade directly with the Fed.",
     "detail": "Around 25 firms currently, including JPMorgan, Goldman Sachs, Morgan Stanley, Citi, BofA, BNP Paribas, Nomura. Required to bid in every Treasury auction in proportion to their dealer designation, provide market data to the New York Fed, and trade with the Fed's open-market desk. Critical to monetary-policy implementation. Lost primary dealer status is a meaningful blow to a bank's fixed-income franchise.",
     "indications": [
@@ -7836,7 +7836,7 @@
     "letter": "P",
     "term": "Put",
     "full": "Put Option",
-    "plain": "A contract that pays off if a Stock or other Underlying falls below an agreed price — used to insure against drops or bet on declines.",
+    "plain": "A contract that pays off if a stock or other Underlying falls below an agreed price — used to insure against drops or bet on declines.",
     "snappy": "Option giving the holder the right to sell the underlying at the strike price before expiry.",
     "detail": "The mirror image of a call. Buyers of puts profit when prices fall — used for downside hedging by long-only investors and for outright bearish speculation by traders. Protective puts on index ETFs (SPY, QQQ) are a standard portfolio-hedge tool. Selling puts ('cash-secured puts') generates income if the buyer thinks the underlying won't fall. You'll hear it daily on options desks: 'I need to buy the 4,500 puts'.",
     "indications": [
@@ -7885,7 +7885,7 @@
     "letter": "Q",
     "term": "QE",
     "full": "Quantitative Easing",
-    "plain": "When a central bank prints money to buy huge piles of government Bonds — pushing down longer-term Interest Rates and pumping cash into the system.",
+    "plain": "When a central bank prints money to buy huge piles of government bonds — pushing down longer-term interest rates and pumping cash into the system.",
     "snappy": "Central-bank large-scale asset purchases — drives down long-end yields and expands the balance sheet.",
     "detail": "Pioneered by the Bank of Japan in the early 2000s; the Fed adopted it after 2008. Three Fed rounds (QE1, QE2, QE3) plus the 2020 COVID expansion brought the Fed balance sheet from under 1 trillion to nearly 9 trillion dollars. ECB and Bank of England ran their own programs. Aims to lower long rates, support asset prices, and stimulate borrowing once short rates hit zero. Reversed via QT (quantitative tightening) as central banks shrink balance sheets.",
     "indications": [
@@ -7902,9 +7902,9 @@
     "letter": "Q",
     "term": "QT",
     "full": "Quantitative Tightening",
-    "plain": "A central bank shrinking the pile of Bonds it bought during emergency support — pulling money back out of the financial system.",
+    "plain": "A central bank shrinking the pile of bonds it bought during emergency support — pulling money back out of the financial system.",
     "snappy": "Common shorthand for Quantitative Tightening — central-bank balance-sheet runoff.",
-    "detail": "The reverse of Quantitative Easing. Started by the Fed in 2017-2019 (first attempt, ended after market stress) and again from June 2022 onwards (more aggressive, hundreds of billions per year). The Fed lets maturing Treasuries and agency MBS run off rather than reinvesting proceeds, shrinking its balance sheet. Other major central banks (Bank of England, ECB) followed suit. You'll hear 'QT' cited in any conversation about Fed policy stance or Treasury market liquidity.",
+    "detail": "The reverse of Quantitative Easing. Started by the Fed in 2017-2019 (first attempt, ended after market stress) and again from June 2022 onwards (more aggressive, hundreds of billions per year). The Fed lets maturing Treasury securities and agency MBS run off rather than reinvesting proceeds, shrinking its balance sheet. Other major central banks (Bank of England, ECB) followed suit. You'll hear 'QT' cited in any conversation about Fed policy stance or Treasury market liquidity.",
     "indications": [
       "Rates",
       "Macro"
@@ -7934,7 +7934,7 @@
     "term": "Quantitative Easing",
     "full": "QE",
     "snappy": "Central bank buys government bonds and other assets — expands balance sheet, lowers long rates.",
-    "detail": "Used when policy rates are near zero (the ZLB). Fed bought trillions in Treasuries and agency MBS through QE1 (2008-10), QE2 (2010-11), QE3 (2012-14), and pandemic QE (2020-22). Peak Fed balance sheet 9 trillion dollars (April 2022). ECB, BoE, BoJ ran parallel programs. Mechanism: increases reserves, lowers long-term yields, eases financial conditions. Now winding down via QT.",
+    "detail": "Used when policy rates are near zero (the ZLB). Fed bought trillions in Treasury securities and agency MBS through QE1 (2008-10), QE2 (2010-11), QE3 (2012-14), and pandemic QE (2020-22). Peak Fed balance sheet 9 trillion dollars (April 2022). ECB, BoE, BoJ ran parallel programs. Mechanism: increases reserves, lowers long-term yields, eases financial conditions. Now winding down via QT.",
     "indications": [
       "Rates",
       "Macro"
@@ -8042,7 +8042,7 @@
       "Federal Reserve",
       "BIS"
     ],
-    "plain": "The hypothetical interest rate that keeps Inflation steady and the economy at full employment — never directly seen, only estimated."
+    "plain": "The hypothetical interest rate that keeps inflation steady and the economy at full employment — never directly seen, only estimated."
   },
   {
     "letter": "R",
@@ -8088,14 +8088,14 @@
       "Federal Reserve FRED",
       "IMF"
     ],
-    "plain": "Total economic output adjusted for Inflation — tells you whether the economy is actually growing or just prices are."
+    "plain": "Total economic output adjusted for inflation — tells you whether the economy is actually growing or just prices are."
   },
   {
     "letter": "R",
     "term": "Real Rate",
     "full": "Real Interest Rate",
     "snappy": "Interest rate after stripping out expected inflation — the rate that grows purchasing power.",
-    "detail": "Equals the nominal rate minus expected inflation (the Fisher equation). Negative real rates — a feature of 2020-21 — mean savers lose purchasing power even at positive nominal yields. TIPS (Treasury Inflation-Protected Securities) trade explicit real yields; the gap to nominal Treasuries is the breakeven inflation rate. Central banks track real rates closely because they're what actually constrains or stimulates economic activity.",
+    "detail": "Equals the nominal rate minus expected inflation (the Fisher equation). Negative real rates — a feature of 2020-21 — mean savers lose purchasing power even at positive nominal yields. TIPS (Treasury inflation-Protected Securities) trade explicit real yields; the gap to nominal Treasury securities is the breakeven inflation rate. Central banks track real rates closely because they're what actually constrains or stimulates economic activity.",
     "indications": [
       "Rates",
       "Macro"
@@ -8105,7 +8105,7 @@
       "Federal Reserve",
       "Federal Reserve FRED"
     ],
-    "plain": "Interest rate minus expected Inflation — what your savings actually grow by in real purchasing power."
+    "plain": "Interest rate minus expected inflation — what your savings actually grow by in real purchasing power."
   },
   {
     "letter": "R",
@@ -8153,7 +8153,7 @@
       "SEC",
       "DTCC"
     ],
-    "plain": "The cutoff date for owning a Stock to qualify for a dividend — own it before this date, you get paid."
+    "plain": "The cutoff date for owning a stock to qualify for a dividend — own it before this date, you get paid."
   },
   {
     "letter": "R",
@@ -8168,7 +8168,7 @@
     "sources": [
       "ISDA"
     ],
-    "plain": "Cents on the dollar that Bond investors get back after a borrower defaults — depends on what the lender ranks against."
+    "plain": "Cents on the dollar that bond investors get back after a borrower defaults — depends on what the lender ranks against."
   },
   {
     "letter": "R",
@@ -8185,7 +8185,7 @@
       "BIS",
       "IMF"
     ],
-    "plain": "Trade-weighted exchange rate adjusted for Inflation — shows whether a country's exports are getting expensive or cheap versus rivals."
+    "plain": "Trade-weighted exchange rate adjusted for inflation — shows whether a country's exports are getting expensive or cheap versus rivals."
   },
   {
     "letter": "R",
@@ -8293,7 +8293,7 @@
     "sources": [
       "SEC"
     ],
-    "plain": "US framework that stitches together every Stock exchange into a single national market — guarantees customers get the best price."
+    "plain": "US framework that stitches together every stock exchange into a single national market — guarantees customers get the best price."
   },
   {
     "letter": "R",
@@ -8345,7 +8345,7 @@
     "term": "Regulation FD",
     "full": "Fair Disclosure",
     "snappy": "SEC rule requiring public companies to disclose material information broadly, not selectively.",
-    "detail": "Adopted 2000. Banned the practice of companies feeding earnings tips or guidance to select analysts. Material disclosures must be simultaneous and public (via 8-K, press release, or webcast). Modernised in 2008 to include social media disclosure. Reshaped sell-side analyst access to management — analyst-day events, broad investor calls, conference appearances are now the standard channel.",
+    "detail": "Adopted 2000. Banned the practice of companies feeding earnings tips or guidance to select analysts. Material disclosures must be simultaneous and public (via 8-K, press release, or webcast). Modernised in 2008 to include social media disclosure. Reshaped sell-side analyst access to management — analyst-day events, broad investor meetings, conference appearances are now the standard channel.",
     "indications": [
       "Equities"
     ],
@@ -8368,7 +8368,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "Risk that the coupon payments you collect have to be reinvested at lower interest rates than your original Bond paid."
+    "plain": "Risk that the coupon payments you collect have to be reinvested at lower interest rates than your original bond paid."
   },
   {
     "letter": "R",
@@ -8390,7 +8390,7 @@
     "letter": "R",
     "term": "Repo",
     "full": "Repurchase agreement",
-    "snappy": "Borrowing cash overnight against collateral — usually Treasuries.",
+    "snappy": "Borrowing cash overnight against collateral — usually Treasury securities.",
     "detail": "A repo is a sale with an agreement to buy back next day at a slightly higher price; the difference is the repo rate. The plumbing of short-term funding: dealers fund inventories, money funds park cash. Tri-party repo at BNY Mellon clears trillions daily. The September 2019 repo spike — rates briefly hit ten percent — forced the Fed to launch standing facilities. SOFR is calculated from repo activity.",
     "indications": [
       "Rates"
@@ -8401,7 +8401,7 @@
       "DTCC",
       "SIFMA"
     ],
-    "plain": "Short-term borrowing arranged like a sale-and-buyback — you sell a Bond today, buy it back tomorrow at a slightly higher price."
+    "plain": "Short-term borrowing arranged like a sale-and-buyback — you sell a bond today, buy it back tomorrow at a slightly higher price."
   },
   {
     "letter": "R",
@@ -8457,7 +8457,7 @@
     "letter": "R",
     "term": "Restructuring",
     "full": "Debt Restructuring",
-    "plain": "Changing the terms of a Bond or loan — extending the deadline or accepting partial repayment — when the borrower can't pay as agreed.",
+    "plain": "Changing the terms of a bond or loan — extending the deadline or accepting partial repayment — when the borrower can't pay as agreed.",
     "snappy": "Modification of debt terms to reduce burden — often counts as a credit event for CDS.",
     "detail": "Triggered when a borrower is in financial distress but parties want to avoid outright Default. Forms include maturity extension, coupon reduction, principal write-down, or debt-for-equity swaps. Counts as a credit event for CDS in European contracts (less commonly in US post-2009). Famous cases: Greek sovereign restructuring 2012 (53.5 percent haircut), Argentine 2005 and 2020 restructurings, US municipal Detroit 2014. You'll hear restructuring cited in any distressed-debt discussion.",
     "indications": [
@@ -8474,7 +8474,7 @@
     "term": "Reverse Repo",
     "full": "RRP",
     "snappy": "Mirror of a repo — the cash lender's side of the transaction.",
-    "detail": "Same trade as a repo, named from the other side: the party temporarily lending cash and receiving collateral 'does a reverse repo'. The Fed's Overnight Reverse Repo Facility (ON RRP) lets money funds and GSEs deposit cash at the Fed against Treasuries; balances peaked above 2.5 trillion in 2022-23 as excess liquidity sought a floor. ON RRP rate acts as the floor of the policy corridor.",
+    "detail": "Same trade as a repo, named from the other side: the party temporarily lending cash and receiving collateral 'does a reverse repo'. The Fed's Overnight Reverse Repo Facility (ON RRP) lets money funds and GSEs deposit cash at the Fed against Treasury securities; balances peaked above 2.5 trillion in 2022-23 as excess liquidity sought a floor. ON RRP rate acts as the floor of the policy corridor.",
     "indications": [
       "Rates"
     ],
@@ -8483,7 +8483,7 @@
       "Federal Reserve",
       "DTCC"
     ],
-    "plain": "Mirror of a Repo from the lender's side — you lend cash overnight and receive a Bond as collateral."
+    "plain": "Mirror of a Repo from the lender's side — you lend cash overnight and receive a bond as collateral."
   },
   {
     "letter": "R",
@@ -8498,7 +8498,7 @@
     "sources": [
       "SEC"
     ],
-    "plain": "Company shrinks its share count and proportionally lifts the price — often used to get a low-priced Stock back above listing thresholds."
+    "plain": "Company shrinks its share count and proportionally lifts the price — often used to get a low-priced stock back above listing thresholds."
   },
   {
     "letter": "R",
@@ -8545,7 +8545,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "How much an Option's value changes when interest rates move — the least-watched of the Option sensitivity measures."
+    "plain": "How much an option's value changes when interest rates move — the least-watched of the option sensitivity measures."
   },
   {
     "letter": "R",
@@ -8591,7 +8591,7 @@
     "sources": [
       "S&P Dow Jones Indices"
     ],
-    "plain": "A Bond once rated junk that gets upgraded to investment quality — usually rallies as new, safer-minded buyers move in."
+    "plain": "A bond once rated junk that gets upgraded to investment quality — usually rallies as new, safer-minded buyers move in."
   },
   {
     "letter": "R",
@@ -8623,14 +8623,14 @@
       "BIS",
       "CME Group"
     ],
-    "plain": "Difference in price between an upside Option and a downside Option — measures which way the market is leaning."
+    "plain": "Difference in price between an upside option and a downside option — measures which way the market is leaning."
   },
   {
     "letter": "R",
     "term": "Risk-Free Rate",
     "full": "",
     "snappy": "Theoretical rate of return with zero default risk — the foundation of every valuation model.",
-    "detail": "Used as the discount rate floor in DCF analysis, the baseline for CAPM, and the input to option-pricing models. In practice, US Treasury yields proxy for the dollar risk-free rate; German Bunds for euro; Japanese government bonds for yen. Post-LIBOR transition, swap rates referenced to SOFR play this role for derivatives. 'Risk-free' is shorthand — no asset is fully default-free, but Treasuries are as close as it gets.",
+    "detail": "Used as the discount rate floor in DCF analysis, the baseline for CAPM, and the input to option-pricing models. In practice, US Treasury yields proxy for the dollar risk-free rate; German Bunds for euro; Japanese government bonds for yen. Post-LIBOR transition, swap rates referenced to SOFR play this role for derivatives. 'Risk-free' is shorthand — no asset is fully default-free, but Treasury securities are as close as it gets.",
     "indications": [
       "Rates"
     ],
@@ -8639,7 +8639,7 @@
       "CFA Institute",
       "Federal Reserve"
     ],
-    "plain": "The interest rate on a truly safe investment — usually US Treasuries — forms the floor for valuing everything else."
+    "plain": "The interest rate on a truly safe investment — usually US Treasury securities — forms the floor for valuing everything else."
   },
   {
     "letter": "R",
@@ -8662,7 +8662,7 @@
     "full": "RORO",
     "plain": "Market mood label — when investors crowd into riskier bets it's risk-on, when they flee to safety it's risk-off.",
     "snappy": "Market regime label — investors collectively buying or selling risky assets in correlation.",
-    "detail": "In risk-on episodes, equities and high-yield credit rally while government bonds, dollar, yen, gold, and Swiss franc weaken. Risk-off reverses it: equities sell off, safe-haven currencies and Treasuries rally. The pattern intensified post-2008 as cross-asset correlations rose. Macro hedge funds construct portfolios with explicit risk-on or risk-off tilts. You'll hear traders describe a session as 'pure risk-off' on days of synchronised flight to safety.",
+    "detail": "In risk-on episodes, equities and high-yield credit rally while government bonds, dollar, yen, gold, and Swiss franc weaken. Risk-off reverses it: equities sell off, safe-haven currencies and Treasury securities rally. The pattern intensified post-2008 as cross-asset correlations rose. Macro hedge funds construct portfolios with explicit risk-on or risk-off tilts. You'll hear traders describe a session as 'pure risk-off' on days of synchronised flight to safety.",
     "indications": [
       "Cross-asset"
     ],
@@ -8701,7 +8701,7 @@
       "Federal Reserve",
       "SEC"
     ],
-    "plain": "An investment Bond made of bundled home mortgages — investors collect the monthly payments homeowners make on their houses."
+    "plain": "An investment bond made of bundled home mortgages — investors collect the monthly payments homeowners make on their houses."
   },
   {
     "letter": "R",
@@ -8769,7 +8769,7 @@
     "term": "Russell 2000",
     "full": "RTY",
     "snappy": "Small-cap US stock index — 2,000 smallest of the Russell 3000.",
-    "detail": "Benchmark for US small-cap performance. Total market cap around 3 trillion dollars. Heavy regional-bank, biotech, and consumer-cyclical exposure. iShares Russell 2000 ETF (IWM) is the largest tracker. Annual reconstitution in late June causes significant index trading. Distinct from S&P 600 (S&P's competing small-cap index). Underperformed large-caps significantly 2014-2023.",
+    "detail": "Benchmark for US small-cap performance. Total market cap around 3 trillion dollars. Heavy regional-bank, biotech, and consumer-cyclical exposure. ishares Russell 2000 ETF (IWM) is the largest tracker. Annual reconstitution in late June causes significant index trading. Distinct from S&P 600 (S&P's competing small-cap index). Underperformed large-caps significantly 2014-2023.",
     "indications": [
       "Equities"
     ],
@@ -8824,7 +8824,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "A maths formula traders use to estimate how Option prices change across different Strike Prices for interest-rate bets."
+    "plain": "A maths formula traders use to estimate how option prices change across different Strike Prices for interest-rate bets."
   },
   {
     "letter": "S",
@@ -8940,7 +8940,7 @@
     "full": "",
     "plain": "Packaging up thousands of loans — mortgages, car loans, credit cards — and selling slices of the bundle to investors as new bonds.",
     "snappy": "Process bundling loans or receivables into tradable securities — backbone of ABS and MBS.",
-    "detail": "Mechanics: an originating lender sells a pool of loans to a bankruptcy-remote SPV (special-purpose vehicle), which issues bonds backed by the cash flows. Tranches at different seniority levels — Senior Tranche, Mezzanine Tranche, Equity Tranche — appeal to different investors. Securitisation channels capital from bond markets into consumer and commercial lending. Pre-2008 mortgage securitisation collapsed under poor underwriting; post-crisis reforms (Reg AB II in the US, Securitisation Regulation in EU) tightened disclosure. You'll hear securitisation in any conversation about ABS, MBS, or CLO markets.",
+    "detail": "Mechanics: an originating lender sells a pool of loans to a bankruptcy-remote SPV (SPV), which issues bonds backed by the cash flows. Tranches at different seniority levels — Senior Tranche, Mezzanine Tranche, Equity Tranche — appeal to different investors. Securitisation channels capital from bond markets into consumer and commercial lending. Pre-2008 mortgage securitisation collapsed under poor underwriting; post-crisis reforms (Reg AB II in the US, Securitisation Regulation in EU) tightened disclosure. You'll hear securitisation in any conversation about ABS, MBS, or CLO markets.",
     "indications": [
       "Credit"
     ],
@@ -8963,7 +8963,7 @@
     "sources": [
       "ESMA"
     ],
-    "plain": "The EU rulebook for bundling loans into tradable bonds — defines a 'high-quality' label that earns better regulatory treatment, and forces lenders to keep some Skin in the Game."
+    "plain": "The EU rulebook for bundling loans into bonds — gives 'high-quality' deals lighter regulatory treatment and forces lenders to keep Skin in the Game."
   },
   {
     "letter": "S",
@@ -9009,7 +9009,7 @@
       "Federal Reserve",
       "SEC"
     ],
-    "plain": "A standard corporate Bond with no specific collateral — sits ahead of junior debt but behind any loans secured against the company's assets."
+    "plain": "A standard corporate bond with no specific collateral — sits ahead of junior debt but behind any loans secured against the company's assets."
   },
   {
     "letter": "S",
@@ -9033,7 +9033,7 @@
     "term": "Sharpe Ratio",
     "full": "",
     "snappy": "Risk-adjusted return — excess return over risk-free rate divided by return volatility.",
-    "detail": "Bill Sharpe's 1966 ratio: (return minus risk-free rate) divided by standard deviation. Higher is better. S&P 500 long-run Sharpe roughly 0.4. Hedge funds claim 1.0+ Sharpe — often inflated by smoothed returns, selection bias. The 0.5-1.0 Sharpe range covers legitimate institutional managers. Doesn't distinguish upside from downside Volatility (see Sortino Ratio). Returns that aren't normally distributed (think hedge funds with rare big losses) make the score less reliable for some strategies.",
+    "detail": "Bill Sharpe Ratio's 1966 ratio: (return minus risk-free rate) divided by standard deviation. Higher is better. S&P 500 long-run Sharpe Ratio roughly 0.4. Hedge funds claim 1.0+ Sharpe Ratio — often inflated by smoothed returns, selection bias. The 0.5-1.0 Sharpe Ratio range covers legitimate institutional managers. Doesn't distinguish upside from downside volatility (see Sortino Ratio). Returns that aren't normally distributed (think hedge funds with rare big losses) make the score less reliable for some strategies.",
     "indications": [
       "Cross-asset"
     ],
@@ -9041,7 +9041,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "A score that measures how much extra return an investment earns for each unit of risk it takes — higher means better reward for the same swings in price."
+    "plain": "A score measuring how much extra return an investment earns per unit of risk — higher means better reward for the same price swings."
   },
   {
     "letter": "S",
@@ -9057,7 +9057,7 @@
       "SEC",
       "FINRA"
     ],
-    "plain": "Borrowing Shares you don't own, selling them straight away, and hoping to buy them back cheaper later — a bet that the price will fall."
+    "plain": "Borrowing shares you don't own, selling them straight away, and hoping to buy them back cheaper later — a bet that the price will fall."
   },
   {
     "letter": "S",
@@ -9137,7 +9137,7 @@
       "CBOE",
       "ISDA"
     ],
-    "plain": "The pattern in Option prices where bets on a Stock falling cost more than bets on it rising — markets pay up for crash protection."
+    "plain": "The pattern in option prices where bets on a stock falling cost more than bets on it rising — markets pay up for crash protection."
   },
   {
     "letter": "S",
@@ -9153,7 +9153,7 @@
       "ESMA",
       "LCH"
     ],
-    "plain": "A portion of the CCP's own money that absorbs losses when a member defaults — sits between member contributions and bigger backstops, so the CCP itself has something to lose."
+    "plain": "The CCP's own money, sitting between member contributions and bigger backstops, that absorbs losses when a member defaults — so the CCP has something to lose."
   },
   {
     "letter": "S",
@@ -9175,7 +9175,7 @@
     "term": "SLR",
     "full": "Supplementary Leverage Ratio",
     "snappy": "US-specific leverage ratio for G-SIBs — 5 percent of total exposure.",
-    "detail": "More stringent than Basel III's 3 percent. The 2020-2021 Fed Treasury exemption (temporarily excluded Treasuries and reserves from the denominator) helped banks support Treasury markets during COVID stress. Expired April 2021. Critics argue SLR constraint limits bank capacity to intermediate Treasury markets, contributing to volatility episodes. Ongoing debate about adjustment.",
+    "detail": "More stringent than Basel III's 3 percent. The 2020-2021 Fed Treasury exemption (temporarily excluded Treasury securities and reserves from the denominator) helped banks support Treasury markets during COVID stress. Expired April 2021. Critics argue SLR constraint limits bank capacity to intermediate Treasury markets, contributing to volatility episodes. Ongoing debate about adjustment.",
     "indications": [
       "Cross-asset"
     ],
@@ -9190,7 +9190,7 @@
     "term": "Smart Beta",
     "full": "",
     "snappy": "ETFs and indexes weighting by factors rather than market cap.",
-    "detail": "Equal-weighted, fundamentally weighted (revenue, earnings), low-vol, dividend-weighted, multi-factor. Roughly 1.5 trillion in US smart-beta ETFs. Largest sponsors: BlackRock iShares, Invesco, Vanguard, WisdomTree. Performance depends on factor exposure — value-tilted versions underperformed cap-weighted 2014-2022, then partially recovered. Cheaper than active funds but more expensive than vanilla cap-weighted.",
+    "detail": "Equal-weighted, fundamentally weighted (revenue, earnings), low-vol, dividend-weighted, multi-factor. Roughly 1.5 trillion in US smart-beta ETFs. Largest sponsors: BlackRock ishares, Invesco, Vanguard, WisdomTree. Performance depends on factor exposure — value-tilted versions underperformed cap-weighted 2014-2022, then partially recovered. Cheaper than active funds but more expensive than vanilla cap-weighted.",
     "indications": [
       "Equities"
     ],
@@ -9237,7 +9237,7 @@
     "term": "SOFR",
     "full": "Secured Overnight Financing Rate",
     "snappy": "Overnight rate based on Treasury repo trades — the LIBOR replacement.",
-    "detail": "Published daily by the New York Fed using actual transaction volume (roughly 1.5 trillion dollars daily), making it manipulation-resistant. Replaced USD LIBOR after the 2012 manipulation scandals; the formal cessation was June 2023. SOFR is risk-free (collateralised), so the spread between SOFR and credit-sensitive benchmarks (historically Eurodollar Futures) matters when pricing Interest Rate Swaps. Term SOFR (CME-published forward-looking rate) is used in business loans, and the Fed's Standing Repo Facility — an emergency lending tool — helps keep SOFR from spiking by lending against Treasury collateral at a fixed ceiling rate.",
+    "detail": "Published daily by the New York Fed using actual transaction volume (roughly 1.5 trillion dollars daily), making it manipulation-resistant. Replaced USD LIBOR after the 2012 manipulation scandals; the formal cessation was June 2023. SOFR is risk-free (collateralised), so the spread between SOFR and credit-sensitive benchmarks (historically Eurodollar Futures) matters when pricing interest rate Swaps. Term SOFR (CME-published forward-looking rate) is used in business loans, and the Fed's Standing Repo Facility — an emergency lending tool — helps keep SOFR from spiking by lending against Treasury collateral at a fixed ceiling rate.",
     "indications": [
       "Rates"
     ],
@@ -9247,7 +9247,7 @@
       "CME Group",
       "Federal Reserve FRED"
     ],
-    "plain": "An Interest Rate published every morning, based on what it actually costs banks to borrow overnight using US Treasury bonds as security — the modern replacement for LIBOR."
+    "plain": "An interest rate based on what it costs banks to borrow overnight using US Treasury bonds — the modern replacement for LIBOR."
   },
   {
     "letter": "S",
@@ -9263,7 +9263,7 @@
       "CME Group",
       "Federal Reserve"
     ],
-    "plain": "Exchange-traded contracts that lock in a future SOFR Interest Rate — banks and traders use them to hedge against, or bet on, where short-term US rates will be in the months ahead."
+    "plain": "Exchange-traded contracts that lock in a future SOFR rate — banks and traders use them to bet on or hedge against where US rates head next."
   },
   {
     "letter": "S",
@@ -9279,7 +9279,7 @@
       "CME Group",
       "Federal Reserve"
     ],
-    "plain": "The gap between Interest Rates traders are willing to lock in for the next few months and the day-to-day overnight rate — widens when markets expect the Fed to shift policy."
+    "plain": "The gap between interest rates traders lock in for coming months and the overnight rate — widens when markets expect the Fed to shift policy."
   },
   {
     "letter": "S",
@@ -9294,7 +9294,7 @@
     "sources": [
       "Federal Reserve FRED"
     ],
-    "plain": "When a central bank tames Inflation by raising rates just enough to cool the economy without tipping it into a Recession — historically rare."
+    "plain": "When a central bank tames inflation by raising rates just enough to cool the economy without tipping it into a Recession — historically rare."
   },
   {
     "letter": "S",
@@ -9309,14 +9309,14 @@
     "sources": [
       "Bank of England"
     ],
-    "plain": "The Bank of England's daily benchmark Interest Rate, based on actual overnight lending between UK banks — replaced sterling LIBOR."
+    "plain": "The Bank of England's daily benchmark interest rate, based on actual overnight lending between UK banks — replaced sterling LIBOR."
   },
   {
     "letter": "S",
     "term": "Sortino Ratio",
     "full": "",
     "snappy": "Risk-adjusted return measure using downside deviation rather than total volatility.",
-    "detail": "Sharpe ratio penalises both upside and downside volatility equally; Sortino only counts downside. Calculation: excess return over downside standard deviation. Favoured by alternative-asset managers who argue upside Volatility is good. Higher Sortino values better. Limitations: less data robust than the Sharpe Ratio (only counts negative returns), more sensitive to sample size. Tracked alongside the Sharpe Ratio in modern performance reporting.",
+    "detail": "Sharpe Ratio ratio penalises both upside and downside volatility equally; Sortino Ratio only counts downside. Calculation: excess return over downside standard deviation. Favoured by alternative-asset managers who argue upside volatility is good. Higher Sortino Ratio values better. Limitations: less data robust than the Sharpe Ratio (only counts negative returns), more sensitive to sample size. Tracked alongside the Sharpe Ratio in modern performance reporting.",
     "indications": [
       "Cross-asset"
     ],
@@ -9331,7 +9331,7 @@
     "term": "Sovereign Debt",
     "full": "",
     "snappy": "Debt issued by a national government — typically the safest credit in its own currency.",
-    "detail": "US Treasuries, UK Gilts, German Bunds, Japanese JGBs sit at the top of the sovereign credit hierarchy. Emerging-market sovereigns (Brazil, Turkey, South Africa) pay credit-spread premia reflecting default risk. Sovereign debt in a country's own currency is theoretically default-free (the government prints the currency) — but the 1998 Russia default and 2012 Greece restructuring proved exceptions. Hard-currency sovereign issuance carries higher risk than local-currency.",
+    "detail": "US Treasury securities, UK Gilts, German Bunds, Japanese JGBs sit at the top of the sovereign credit hierarchy. Emerging-market sovereigns (Brazil, Turkey, South Africa) pay credit-spread premia reflecting default risk. Sovereign debt in a country's own currency is theoretically default-free (the government prints the currency) — but the 1998 Russia default and 2012 Greece restructuring proved exceptions. Hard-currency sovereign issuance carries higher risk than local-currency.",
     "indications": [
       "Rates",
       "Credit"
@@ -9341,7 +9341,7 @@
       "IMF",
       "BIS"
     ],
-    "plain": "Money lent to a national government — usually the safest kind of borrowing in that country, with US Treasuries the global gold standard."
+    "plain": "Money lent to a national government — usually the safest kind of borrowing in that country, with US Treasury securities the global gold standard."
   },
   {
     "letter": "S",
@@ -9457,7 +9457,7 @@
     "term": "Spot Gold ETF",
     "full": "Bullion ETF",
     "snappy": "ETF holding physical gold — gives investors gold exposure without bars.",
-    "detail": "SPDR Gold Shares (GLD), launched 2004, was the first major spot gold ETF — now holds roughly 27 million ounces (worth 80 billion dollars). iShares Gold Trust (IAU) is the largest competitor. The shares represent a fractional ownership stake in actual gold held in vaults (HSBC London for GLD). The 2024 launch of US spot Bitcoin ETFs explicitly modelled the GLD structure.",
+    "detail": "SPDR Gold shares (GLD), launched 2004, was the first major spot gold ETF — now holds roughly 27 million ounces (worth 80 billion dollars). ishares Gold Trust (IAU) is the largest competitor. The shares represent a fractional ownership stake in actual gold held in vaults (HSBC London for GLD). The 2024 launch of US spot Bitcoin ETFs explicitly modelled the GLD structure.",
     "indications": [
       "Commodities"
     ],
@@ -9497,7 +9497,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "A measure of how much a Bond's price moves if its credit risk premium widens by a tiny amount — sister concept to interest-rate Duration."
+    "plain": "A measure of how much a bond's price moves if its credit risk premium widens by a tiny amount — sister concept to interest-rate Duration."
   },
   {
     "letter": "S",
@@ -9512,7 +9512,7 @@
     "sources": [
       "SEC"
     ],
-    "plain": "A standalone legal company set up purely to hold assets and issue Bonds against them — protected from the parent firm's bankruptcy."
+    "plain": "A standalone legal company set up purely to hold assets and issue bonds against them — protected from the parent firm's bankruptcy."
   },
   {
     "letter": "S",
@@ -9549,7 +9549,7 @@
     "term": "Standing Repo Facility",
     "full": "SRF",
     "snappy": "Fed facility that lends cash overnight against Treasury collateral at a pre-set rate.",
-    "detail": "Launched July 2021 after the September 2019 repo spike. Lets primary dealers (and some banks) borrow from the Fed against Treasuries at a rate slightly above IORB, capping how high repo rates can spike. Counterparts to ON RRP: SRF caps the upside, ON RRP caps the downside. Combined, they form a tighter corridor for short rates.",
+    "detail": "Launched July 2021 after the September 2019 repo spike. Lets primary dealers (and some banks) borrow from the Fed against Treasury securities at a rate slightly above IORB, capping how high repo rates can spike. Counterparts to ON RRP: SRF caps the upside, ON RRP caps the downside. Combined, they form a tighter corridor for short rates.",
     "indications": [
       "Rates"
     ],
@@ -9557,7 +9557,7 @@
     "sources": [
       "Federal Reserve"
     ],
-    "plain": "A Fed desk swapping cash for US Treasuries overnight at a set rate — caps how high overnight borrowing costs can spike."
+    "plain": "A Fed desk swapping cash for US Treasury securities overnight at a set rate — caps how high overnight borrowing costs can spike."
   },
   {
     "letter": "S",
@@ -9572,7 +9572,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "A computer-driven strategy that bets on small, short-lived patterns in how related Stocks tend to move relative to each other."
+    "plain": "A computer-driven strategy that bets on small, short-lived patterns in how related stocks tend to move relative to each other."
   },
   {
     "letter": "S",
@@ -9587,7 +9587,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "A maths recipe for how something moves when randomness is baked in — the building block for pricing Options and other random-payoff contracts."
+    "plain": "A maths recipe for how something moves when randomness is baked in — the building block for pricing options and other random-payoff contracts."
   },
   {
     "letter": "S",
@@ -9602,7 +9602,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "A pricing technique where the amount of price wobble is itself wobbly — gives more realistic Option values than assuming Volatility stays constant."
+    "plain": "A pricing technique where the amount of price wobble is itself wobbly — gives more realistic option values than assuming volatility stays constant."
   },
   {
     "letter": "S",
@@ -9635,7 +9635,7 @@
       "SEC",
       "FINRA"
     ],
-    "plain": "When a long-term Shareholder temporarily rents their Shares to someone else — usually a Short Seller — in exchange for a small fee."
+    "plain": "When a long-term Shareholder temporarily rents their shares to someone else — usually a Short Seller — in exchange for a small fee."
   },
   {
     "letter": "S",
@@ -9651,7 +9651,7 @@
       "SEC",
       "NYSE"
     ],
-    "plain": "When a company swaps each Share for several smaller ones — total value is unchanged, but each Share now trades at a lower price."
+    "plain": "When a company swaps each share for several smaller ones — total value is unchanged, but each share now trades at a lower price."
   },
   {
     "letter": "S",
@@ -9674,7 +9674,7 @@
     "term": "STOXX Europe 600",
     "full": "",
     "snappy": "600 large- and mid-cap stocks across 17 European countries — the broad European equity benchmark.",
-    "detail": "More comprehensive than the headline national indexes (FTSE 100, DAX, CAC 40, IBEX). Heavy in financials, consumer staples, healthcare. Operated by STOXX (Deutsche Börse subsidiary). Tracked by iShares STOXX Europe 600 (EXSA), large European ETFs. Eurostoxx 50 (50 large euro-area stocks) is the narrower derivatives-focused alternative.",
+    "detail": "More comprehensive than the headline national indexes (FTSE 100, DAX, CAC 40, IBEX). Heavy in financials, consumer staples, healthcare. Operated by STOXX (Deutsche Börse subsidiary). Tracked by ishares STOXX Europe 600 (EXSA), large European ETFs. Eurostoxx 50 (50 large euro-area stocks) is the narrower derivatives-focused alternative.",
     "indications": [
       "Equities"
     ],
@@ -9682,7 +9682,7 @@
     "sources": [
       "Eurex"
     ],
-    "plain": "A broad Index tracking 600 large and mid-sized European companies — the standard yardstick for European Stock performance."
+    "plain": "A broad Index tracking 600 large and mid-sized European companies — the standard yardstick for European stock performance."
   },
   {
     "letter": "S",
@@ -9737,7 +9737,7 @@
     "letter": "S",
     "term": "STRIPS",
     "full": "Separate Trading of Registered Interest and Principal",
-    "plain": "A Treasury Bond chopped into its individual Coupon and principal payments — each piece trades separately as its own Zero-Coupon Bond.",
+    "plain": "A Treasury bond chopped into its individual Coupon and principal payments — each piece trades separately as its own Zero-Coupon bond.",
     "snappy": "Treasury notes and bonds split into individual zero-coupon pieces for separate trading.",
     "detail": "Created in 1985 to allow dealers to strip Treasury coupons and principal into single-payment securities. A 30-year T-bond becomes 60 coupon strips plus 1 principal strip. Each strip trades as a zero-coupon bond. Used heavily by pension funds and insurance companies for liability matching — long-dated strips have the highest duration of any liquid US fixed-income instrument. Reconstitution (rebuilding the bond from strips) is allowed.",
     "indications": [
@@ -9753,7 +9753,7 @@
     "letter": "S",
     "term": "Structured Note",
     "full": "",
-    "plain": "A custom-built investment that bundles a Bond with an Option payoff — sold mostly to wealthier individuals.",
+    "plain": "A custom-built investment that bundles a bond with an option payoff — sold mostly to wealthier individuals.",
     "snappy": "Bundled bond-and-derivative instrument with a custom payoff — typically issued by an investment bank for retail or private-bank clients.",
     "detail": "Common shapes: principal-protected notes, autocallables, range accruals, equity-linked notes with knock-in puts. Issuer (a bank) embeds the option in a debt instrument that pays the investor a tailored payoff at maturity. Marketed heavily to wealth-management clients seeking yield or specific market views. Roughly 100 billion dollars annual US issuance. Criticised for opaque pricing and embedded dealer margins. You'll hear about structured notes from private banks and wealth advisers pitching yield enhancement.",
     "indications": [
@@ -9796,7 +9796,7 @@
       "Federal Reserve",
       "ECB"
     ],
-    "plain": "A Bond that ranks below regular Bonds in default — holders get paid only after everyone senior is made whole."
+    "plain": "A bond that ranks below regular bonds in default — holders get paid only after everyone senior is made whole."
   },
   {
     "letter": "S",
@@ -9907,7 +9907,7 @@
       "Federal Reserve",
       "ISDA"
     ],
-    "plain": "The gap between a Swap rate and the matching Treasury Yield — once read as a credit signal, now mostly a plumbing indicator."
+    "plain": "The gap between a Swap rate and the matching Treasury yield — once read as a credit signal, now mostly a plumbing indicator."
   },
   {
     "letter": "S",
@@ -9924,7 +9924,7 @@
       "ISDA",
       "CME Group"
     ],
-    "plain": "An Option that lets the buyer enter into a future Interest Rate Swap on agreed terms — used to hedge against rates moving against you before you actually swap."
+    "plain": "An option that lets the buyer enter into a future Interest Rate Swap on agreed terms — used to hedge before rates move against you."
   },
   {
     "letter": "S",
@@ -9971,7 +9971,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "Combining a bought Call and a sold Put at the same Strike Price to mimic owning the Stock — same payoff, no actual shares."
+    "plain": "Combining a bought Call and a sold Put at the same Strike Price to mimic owning the stock — same payoff, no actual shares."
   },
   {
     "letter": "T",
@@ -9987,7 +9987,7 @@
       "SEC",
       "DTCC"
     ],
-    "plain": "A rule that finalises a Stock trade one business day after it's agreed — US markets moved to this faster cycle in May 2024."
+    "plain": "A rule that finalises a stock trade one business day after it's agreed — US markets moved to this faster cycle in May 2024."
   },
   {
     "letter": "T",
@@ -10003,7 +10003,7 @@
       "DTCC",
       "ESMA"
     ],
-    "plain": "The longer settlement cycle still used in Europe and most other markets — Stock trades take two business days to fully complete."
+    "plain": "The longer settlement cycle still used in Europe and most other markets — stock trades take two business days to fully complete."
   },
   {
     "letter": "T",
@@ -10034,7 +10034,7 @@
     "sources": [
       "Federal Reserve"
     ],
-    "plain": "A long-term US government Bond, usually 20 or 30 years — pays a fixed Coupon twice a year until it matures."
+    "plain": "A long-term US government bond, usually 20 or 30 years — pays a fixed Coupon twice a year until it matures."
   },
   {
     "letter": "T",
@@ -10050,14 +10050,14 @@
       "Federal Reserve",
       "SEC"
     ],
-    "plain": "A medium-term US government Bond — matures in 2 to 10 years and pays a fixed Coupon every six months."
+    "plain": "A medium-term US government bond — matures in 2 to 10 years and pays a fixed Coupon every six months."
   },
   {
     "letter": "T",
     "term": "Tail Risk",
     "full": "",
     "snappy": "Risk of extreme outcomes — events in the tails of return distributions.",
-    "detail": "Financial markets have fatter tails than Gaussian models suggest. Examples: 1987 crash (22 percent in one day, a 20-sigma event under Gaussian assumptions), 2008 Lehman week, March 2020 COVID crash, 2022 Russia-Ukraine equity vol. Standard portfolios underestimate tail risk; portfolios benefit from explicit tail hedges (long-vol, long Treasuries, gold). Nassim Taleb's 'Black Swan' framework popularised tail-risk thinking.",
+    "detail": "Financial markets have fatter tails than Gaussian models suggest. Examples: 1987 crash (22 percent in one day, a 20-sigma event under Gaussian assumptions), 2008 Lehman week, March 2020 COVID crash, 2022 Russia-Ukraine equity vol. Standard portfolios underestimate tail risk; portfolios benefit from explicit tail hedges (long-vol, long Treasury securities, gold). Nassim Taleb's 'Black Swan' framework popularised tail-risk thinking.",
     "indications": [
       "Cross-asset"
     ],
@@ -10083,7 +10083,7 @@
       "Federal Reserve",
       "IMF"
     ],
-    "plain": "The 2013 emerging-market sell-off triggered when the Fed first hinted it would slow its post-crisis Bond buying — investors fled risky assets."
+    "plain": "The 2013 emerging-market sell-off triggered when the Fed first hinted it would slow its post-crisis bond buying — investors fled risky assets."
   },
   {
     "letter": "T",
@@ -10099,7 +10099,7 @@
     "sources": [
       "Federal Reserve"
     ],
-    "plain": "A formula suggesting where a central bank should set Interest Rates based on how far Inflation and employment are from target."
+    "plain": "A formula suggesting where a central bank should set interest rates based on how far inflation and employment are from target."
   },
   {
     "letter": "T",
@@ -10130,7 +10130,7 @@
     "sources": [
       "SEC"
     ],
-    "plain": "A formal public offer to buy Shares directly from existing Shareholders at a stated price — often used in takeover bids."
+    "plain": "A formal public offer to buy shares directly from existing Shareholders at a stated price — often used in takeover bids."
   },
   {
     "letter": "T",
@@ -10163,7 +10163,7 @@
       "Federal Reserve",
       "BIS"
     ],
-    "plain": "Extra Yield long-dated Bonds pay over short ones — compensation investors demand for locking their money up for years."
+    "plain": "Extra yield long-dated bonds pay over short ones — compensation investors demand for locking their money up for years."
   },
   {
     "letter": "T",
@@ -10195,7 +10195,7 @@
       "CBOE",
       "ISDA"
     ],
-    "plain": "The pattern of Option Volatility across different expiries — usually higher for longer-dated contracts, but flips during a crisis."
+    "plain": "The pattern of option volatility across different expiries — usually higher for longer-dated contracts, but flips during a crisis."
   },
   {
     "letter": "T",
@@ -10210,7 +10210,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "How much an Option loses in value each day just because time is passing — accelerates sharply as expiry approaches."
+    "plain": "How much an option loses in value each day just because time is passing — accelerates sharply as expiry approaches."
   },
   {
     "letter": "T",
@@ -10226,7 +10226,7 @@
       "SEC",
       "FINRA"
     ],
-    "plain": "The smallest amount a Stock or other security's price can move — usually a penny for US Shares, but varies by venue and product."
+    "plain": "The smallest amount a stock or other security's price can move — usually a penny for US shares, but varies by venue and product."
   },
   {
     "letter": "T",
@@ -10272,7 +10272,7 @@
       "CBOE",
       "CFA Institute"
     ],
-    "plain": "The chunk of an Option's price that comes from uncertainty and remaining time — separate from any value the Option already has if exercised today."
+    "plain": "The chunk of an option's price that comes from uncertainty and remaining time — separate from any value the option already has if exercised today."
   },
   {
     "letter": "T",
@@ -10294,9 +10294,9 @@
     "letter": "T",
     "term": "TIPS",
     "full": "Treasury Inflation-Protected Securities",
-    "plain": "US government Bonds whose principal grows with Inflation — protects holders from losing purchasing power.",
+    "plain": "US government bonds whose principal grows with inflation — protects holders from losing purchasing power.",
     "snappy": "US Treasury bonds with principal indexed to CPI — pay real, not nominal, returns.",
-    "detail": "Principal adjusts with the CPI-U index; coupon is paid on the inflated principal. At maturity, holders receive the inflation-adjusted principal (or original par if deflation prevailed). Issued in 5-, 10-, and 30-year maturities. About 2 trillion outstanding. The yield gap between regular Treasuries and TIPS is the breakeven inflation rate — the market's implied future inflation. Pension funds and inflation-focused investors are core holders.",
+    "detail": "Principal adjusts with the CPI-U index; coupon is paid on the inflated principal. At maturity, holders receive the inflation-adjusted principal (or original par if deflation prevailed). Issued in 5-, 10-, and 30-year maturities. About 2 trillion outstanding. The yield gap between regular Treasury securities and TIPS is the breakeven inflation rate — the market's implied future inflation. Pension funds and inflation-focused investors are core holders.",
     "indications": [
       "Rates",
       "Macro"
@@ -10337,7 +10337,7 @@
       "BIS",
       "Federal Reserve"
     ],
-    "plain": "A rule forcing the biggest Banks to keep enough Capital and special Bonds on hand to absorb huge losses without needing a taxpayer rescue."
+    "plain": "A rule forcing the biggest Banks to keep enough Capital and special bonds on hand to absorb huge losses without needing a taxpayer rescue."
   },
   {
     "letter": "T",
@@ -10359,7 +10359,7 @@
     "term": "TONAR",
     "full": "Tokyo Overnight Average Rate",
     "snappy": "Bank of Japan's overnight benchmark — yen LIBOR replacement.",
-    "detail": "Volume-weighted median of unsecured overnight yen call market transactions. Replaced JPY LIBOR by end-2021. Used in yen OIS and post-LIBOR yen floating-rate instruments. Yen TONAR rates spent most of 2016-2024 near zero or negative due to BoJ ultra-loose policy; positive territory only after the March 2024 policy normalisation.",
+    "detail": "Volume-weighted median of unsecured overnight yen borrowing market transactions. Replaced JPY LIBOR by end-2021. Used in yen OIS and after LIBOR was retired yen floating-rate instruments. Yen TONAR rates spent most of 2016-2024 near zero or negative due to BoJ ultra-loose policy; positive territory only after the March 2024 policy normalisation.",
     "indications": [
       "Rates"
     ],
@@ -10367,7 +10367,7 @@
     "sources": [
       "BIS"
     ],
-    "plain": "The Bank of Japan's daily benchmark Interest Rate, based on actual overnight yen lending between Japanese banks — replaced yen LIBOR."
+    "plain": "The Bank of Japan's daily benchmark interest rate, based on actual overnight yen lending between Japanese banks — replaced yen LIBOR."
   },
   {
     "letter": "T",
@@ -10375,7 +10375,7 @@
     "full": "Tokyo Stock Price Index",
     "plain": "Broad market-cap-weighted index of Tokyo's main stock board — the Japanese alternative to the better-known Nikkei 225.",
     "snappy": "Broad Japanese equity benchmark — market-cap-weighted index of all TSE Prime stocks.",
-    "detail": "Covers all roughly 2,150 stocks in the Tokyo Stock Exchange's Prime market section. Market-cap-weighted methodology (unlike the price-weighted Nikkei 225). Tracked by Topix ETFs and futures. Underlies institutional Japanese-equity benchmarks more often than Nikkei. Toyota, Sony, Mitsubishi UFJ, Keyence are top weights. You'll hear TOPIX cited in any serious Japanese-equity analysis, with Nikkei reserved for headline media coverage.",
+    "detail": "Covers all roughly 2,150 stocks in the Tokyo stock Exchange's Prime market section. Market-cap-weighted methodology (unlike the price-weighted Nikkei 225). Tracked by Topix ETFs and futures. Underlies institutional Japanese-equity benchmarks more often than Nikkei. Toyota, Sony, Mitsubishi UFJ, Keyence are top weights. You'll hear TOPIX cited in any serious Japanese-equity analysis, with Nikkei reserved for headline media coverage.",
     "indications": [
       "Equities"
     ],
@@ -10399,7 +10399,7 @@
     "sources": [
       "ISDA"
     ],
-    "plain": "A contract where one side receives a Stock's full gains and Dividends while paying a financing fee — like renting equity exposure."
+    "plain": "A contract where one side receives a stock's full gains and Dividends while paying a financing fee — like renting equity exposure."
   },
   {
     "letter": "T",
@@ -10437,7 +10437,7 @@
     "term": "Trade Balance",
     "full": "",
     "snappy": "Difference between a country's exports and imports of goods and services.",
-    "detail": "Trade surpluses (Germany, China, Japan historically) build FX reserves and tend to support the local currency; deficits (US, UK) require capital inflows to fund. The US has run persistent trade deficits since the 1970s, balanced by capital inflows into Treasuries and equities. Bilateral trade balances (US-China, etc.) are politically charged but economically less meaningful than overall balances.",
+    "detail": "Trade surpluses (Germany, China, Japan historically) build FX reserves and tend to support the local currency; deficits (US, UK) require capital inflows to fund. The US has run persistent trade deficits since the 1970s, balanced by capital inflows into Treasury securities and equities. Bilateral trade balances (US-China, etc.) are politically charged but economically less meaningful than overall balances.",
     "indications": [
       "FX",
       "Macro"
@@ -10470,7 +10470,7 @@
     "term": "Treasury",
     "full": "US Treasury",
     "snappy": "Debt issued by the US Treasury Department — the world's largest fixed-income market.",
-    "detail": "Includes bills, notes, bonds, TIPS, FRNs, and STRIPS. Issued via auction to primary dealers, who then distribute to the broader market. Total outstanding crossed 35 trillion in 2024. Treasuries function as the global risk-free benchmark, collateral for repo markets, central-bank reserve holdings, and the foundation of dollar-denominated valuation. Yields on different Treasury maturities form the US yield curve.",
+    "detail": "Includes bills, notes, bonds, TIPS, FRNs, and STRIPS. Issued via auction to primary dealers, who then distribute to the broader market. Total outstanding crossed 35 trillion in 2024. Treasury securities function as the global risk-free benchmark, collateral for repo markets, central-bank reserve holdings, and the foundation of dollar-denominated valuation. Yields on different Treasury maturities form the US yield curve.",
     "indications": [
       "Rates"
     ],
@@ -10479,7 +10479,7 @@
       "Federal Reserve",
       "SEC"
     ],
-    "plain": "The US government's Bond issuance — collectively the biggest and most-trusted Bond market in the world, used as the global Risk-Free benchmark."
+    "plain": "The US government's bond issuance — collectively the biggest and most-trusted bond market in the world, used as the global Risk-Free benchmark."
   },
   {
     "letter": "T",
@@ -10526,7 +10526,7 @@
       "MSCI",
       "S&P Dow Jones Indices"
     ],
-    "plain": "The total payoff to a Shareholder over time — combines the rise in Share price with any Dividends paid out."
+    "plain": "The total payoff to a Shareholder over time — combines the rise in share price with any Dividends paid out."
   },
   {
     "letter": "T",
@@ -10573,7 +10573,7 @@
       "IMF",
       "BIS"
     ],
-    "plain": "The textbook idea that high-Yield currencies should weaken to cancel out the rate advantage — but in real life it routinely fails."
+    "plain": "The textbook idea that high-yield currencies should weaken to cancel out the rate advantage — but in real life it routinely fails."
   },
   {
     "letter": "U",
@@ -10589,7 +10589,7 @@
       "ISDA",
       "CME Group"
     ],
-    "plain": "The Stock, Bond, currency, or other asset whose price a derivative contract is tied to."
+    "plain": "The stock, bond, currency, or other asset whose price a derivative contract is tied to."
   },
   {
     "letter": "U",
@@ -10612,7 +10612,7 @@
     "letter": "U",
     "term": "Up-and-In",
     "full": "Up-and-In Option",
-    "plain": "A Barrier Option that only activates if the Underlying price rises and hits the chosen barrier level.",
+    "plain": "A Barrier option that only activates if the Underlying price rises and hits the chosen barrier level.",
     "snappy": "Knock-in barrier option that activates only if the underlying rises through the barrier level.",
     "detail": "One of four standard barrier flavours (up-and-in, up-and-out, down-and-in, down-and-out). Holder gets nothing unless the underlying touches the upper barrier before expiry; once breached, it becomes a vanilla option. A cheap way to express a directional view — pays only if the move is large enough to clear the barrier. Common in FX structured notes and equity-linked products.",
     "indications": [
@@ -10627,7 +10627,7 @@
     "letter": "U",
     "term": "Up-and-Out",
     "full": "Up-and-Out Option",
-    "plain": "A Barrier Option that automatically expires worthless if the Underlying price rises and hits the chosen barrier level.",
+    "plain": "A Barrier option that automatically expires worthless if the Underlying price rises and hits the chosen barrier level.",
     "snappy": "Knock-out barrier option that extinguishes if the underlying rises through the barrier level.",
     "detail": "Mirror of down-and-out. Holder is happy in mild moves but loses everything if the underlying breaches the upper barrier. Used to cheapen calls when the buyer thinks a large rally is unlikely — cap-like exposure. Common in FX (sell upside above target) and equity structured notes. Hedging is tricky near the barrier — large position changes for small spot moves.",
     "indications": [
@@ -10642,7 +10642,7 @@
     "letter": "V",
     "term": "Vanilla Option",
     "full": "",
-    "plain": "A standard, no-frills Option — just a strike price, an expiry date, and the right to exercise. Nothing extra.",
+    "plain": "A standard, no-frills option — just a strike price, an expiry date, and the right to exercise. Nothing extra.",
     "snappy": "Standard option with no exotic features — strike, expiry, exercise rights, nothing more.",
     "detail": "The reference point against which exotic options (barriers, Asians, lookbacks) are priced and contrasted. 'Vanilla' because plain and unadorned. Black-Scholes territory — closed-form pricing, fast. CBOE-listed equity options and most FX dealer options are vanilla. Anything more complex sits in structured-product land. Liquidity, transparency, and listing make vanillas the workhorse instrument.",
     "indications": [
@@ -10668,7 +10668,7 @@
       "CFA Institute",
       "ISDA"
     ],
-    "plain": "A finer Option risk measure — tracks how much the basic price sensitivity shifts when expected Volatility moves."
+    "plain": "A finer option risk measure — tracks how much the basic price sensitivity shifts when expected volatility moves."
   },
   {
     "letter": "V",
@@ -10690,7 +10690,7 @@
     "letter": "V",
     "term": "Variance",
     "full": "",
-    "plain": "A statistical measure of how spread out a set of numbers is — the squared version of Volatility, used in pricing and risk maths.",
+    "plain": "A statistical measure of how spread out a set of numbers is — the squared version of volatility, used in pricing and risk maths.",
     "snappy": "Squared standard deviation — the workhorse statistic for risk and volatility math.",
     "detail": "Variance is volatility squared. Variance swaps pay off in variance units, not volatility, because variance is easier to replicate with a portfolio of options. Realised variance (what actually happened) versus implied variance (what options prices imply) is the building block of the variance risk premium. Quant desks model variance dynamics under stochastic-vol models (Heston, SABR). The CBOE's VIX is calculated from variance, then square-rooted to quote in vol-like units.",
     "indications": [
@@ -10716,7 +10716,7 @@
       "CBOE",
       "CFA Institute"
     ],
-    "plain": "The gap between how jumpy Option markets expect prices to be and how jumpy they actually turn out — usually positive."
+    "plain": "The gap between how jumpy option markets expect prices to be and how jumpy they actually turn out — usually positive."
   },
   {
     "letter": "V",
@@ -10733,14 +10733,14 @@
       "ISDA",
       "CME Group"
     ],
-    "plain": "A contract that pays off based purely on how bumpy a Stock's price turns out to be — letting traders bet directly on Volatility itself."
+    "plain": "A contract that pays off based purely on how bumpy a stock's price turns out to be — letting traders bet directly on volatility itself."
   },
   {
     "letter": "V",
     "term": "Variation Margin",
     "full": "VM",
     "snappy": "Daily cash flows that settle the change in derivative mark-to-market.",
-    "detail": "If a swap's value falls 100,000 dollars on a given day, the counterparty owes 100,000 in variation margin. Settled in cash or eligible collateral (Treasuries, often) every business day. Eliminates counterparty risk on existing P&L. Cleared swaps post VM through clearing houses; bilateral swaps via CSA. The 2008 AIG failure was triggered by VM calls AIG couldn't meet.",
+    "detail": "If a swap's value falls 100,000 dollars on a given day, the counterparty owes 100,000 in variation margin. Settled in cash or eligible collateral (Treasury securities, often) every business day. Eliminates counterparty risk on existing P&L. Cleared swaps post VM through clearing houses; bilateral swaps via CSA. The 2008 AIG failure was triggered by VM calls AIG couldn't meet.",
     "indications": [
       "Derivatives"
     ],
@@ -10765,7 +10765,7 @@
       "CFA Institute",
       "ISDA"
     ],
-    "plain": "How much an Option's price moves when expected price wobble changes by one percentage point — the main risk measure for Volatility traders."
+    "plain": "How much an option's price moves when expected price wobble changes by one percentage point — the main risk measure for volatility traders."
   },
   {
     "letter": "V",
@@ -10781,15 +10781,15 @@
     "sources": [
       "CBOE"
     ],
-    "plain": "An Index that tracks how much US Stock investors expect prices to swing over the next month — nicknamed the market's fear gauge."
+    "plain": "An Index that tracks how much US stock investors expect prices to swing over the next month — nicknamed the market's fear gauge."
   },
   {
     "letter": "V",
     "term": "Vol of Vol",
     "full": "Volatility of Volatility",
-    "plain": "How jumpy Volatility itself is — when markets get nervous, the size of price swings also starts swinging unpredictably.",
+    "plain": "How jumpy volatility itself is — when markets get nervous, the size of price swings also starts swinging unpredictably.",
     "snappy": "Volatility of volatility — the second-order vol measure that drives crash-protection pricing.",
-    "detail": "Captured by indices like VVIX. High vol-of-vol means traders expect volatility itself to move sharply — typically when crash fears rise and demand for tail hedges spikes. Stochastic-vol models like Heston and SABR explicitly parameterise vol-of-vol (nu in SABR). Vol-of-vol exposure shows up in the Greek volga. Long vol-of-vol strategies (often via VIX call options) hedge against rapid regime shifts in market sentiment.",
+    "detail": "Captured by indices like VVIX. High vol of vol means traders expect volatility itself to move sharply — typically when crash fears rise and demand for tail hedges spikes. Stochastic-vol models like Heston and SABR explicitly parameterise vol of vol (nu in SABR). vol of vol exposure shows up in the Greek volga. Long vol of vol strategies (often via VIX call options) hedge against rapid regime shifts in market sentiment.",
     "indications": [
       "Derivatives"
     ],
@@ -10814,7 +10814,7 @@
       "CBOE",
       "CFA Institute"
     ],
-    "plain": "How sharply a price tends to swing — high Volatility means big moves up and down, low Volatility means calmer behaviour."
+    "plain": "How sharply a price tends to swing — high volatility means big moves up and down, low volatility means calmer behaviour."
   },
   {
     "letter": "V",
@@ -10830,13 +10830,13 @@
       "ISDA",
       "CFA Institute"
     ],
-    "plain": "The U-shaped pattern when you plot Option prices across strike levels — extreme Strikes cost more, reflecting the market's fear of big surprises."
+    "plain": "The U-shaped pattern when you plot option prices across strike levels — extreme Strikes cost more, reflecting the market's fear of big surprises."
   },
   {
     "letter": "V",
     "term": "Volatility Surface",
     "full": "Vol Surface",
-    "plain": "A three-dimensional chart that maps out how expensive Options of every Strike Price and expiry date are at a given moment.",
+    "plain": "A three-dimensional chart that maps out how expensive options of every Strike Price and expiry date are at a given moment.",
     "snappy": "Implied-vol grid across strikes and maturities — the canonical option-trader's worksheet.",
     "detail": "X-axis: strike (or moneyness). Y-axis: time to expiry. Z-axis: implied volatility. Real-world surfaces aren't flat — out-of-the-money puts are usually pricier than equivalent calls (equity skew), and short-dated options often command higher volatility than long-dated (term-structure inversion in stress). Traders calibrate stochastic-volatility and local-vol models to fit the surface. You'll hear 'vol surface' cited on any options desk and in every structured-product pricing meeting.",
     "indications": [
@@ -10893,14 +10893,14 @@
       "Federal Reserve FRED",
       "Federal Reserve"
     ],
-    "plain": "The Fed's brutal late-1970s rate hikes that pushed borrowing costs above 20 percent — broke runaway Inflation but caused a deep Recession."
+    "plain": "The Fed's brutal late-1970s rate hikes that pushed borrowing costs above 20 percent — broke runaway inflation but caused a deep Recession."
   },
   {
     "letter": "V",
     "term": "Volga",
     "full": "Vomma",
     "snappy": "Second-order Greek — sensitivity of vega to changes in implied volatility.",
-    "detail": "Measures the curvature of option price in implied vol. Long-volga positions benefit from vol-of-vol moves (vol spiking from 10 to 30 more than offsets vol grinding back from 30 to 10). Important for ATM options far from expiry and for vol books. Vanna and volga are the two main 'second-order vol Greeks' that vol traders track alongside vega.",
+    "detail": "Measures the curvature of option price in implied vol. Long-volga positions benefit from vol of vol moves (vol spiking from 10 to 30 more than offsets vol grinding back from 30 to 10). Important for ATM options far from expiry and for vol books. Vanna and volga are the two main 'second-order vol Greeks' that vol traders track alongside vega.",
     "indications": [
       "Derivatives"
     ],
@@ -10908,7 +10908,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "A finer Option risk measure — tracks how much Vega itself shifts when expected price wobble moves."
+    "plain": "A finer option risk measure — tracks how much Vega itself shifts when expected price wobble moves."
   },
   {
     "letter": "V",
@@ -11019,7 +11019,7 @@
       "CFA Institute",
       "SEC"
     ],
-    "plain": "The average time before a bundled-loan deal's principal is paid back — like Duration but for Bonds where the money trickles in over years."
+    "plain": "The average time before a bundled-loan deal's principal is paid back — like Duration but for bonds where the money trickles in over years."
   },
   {
     "letter": "W",
@@ -11034,14 +11034,14 @@
     "sources": [
       "SEC"
     ],
-    "plain": "A long-dated Option a company issues on its own Shares — when exercised, the company issues new Shares, diluting existing holders."
+    "plain": "A long-dated option a company issues on its own shares — when exercised, the company issues new shares, diluting existing holders."
   },
   {
     "letter": "W",
     "term": "WASDE Report",
     "full": "World Agricultural Supply and Demand Estimates",
     "snappy": "USDA's monthly snapshot of global crop supply, demand, and stocks — moves ag markets.",
-    "detail": "Released mid-month at noon Eastern. Updates production estimates, ending stocks, demand forecasts for major crops. Bigger-than-expected revisions move corn, soybeans, wheat 2-5 percent on release. Quarterly Grain Stocks reports also significant. International equivalent: FAO Food Price Index, less market-moving but watched for macro food-price commentary.",
+    "detail": "Released mid-month at noon Eastern. Updates production estimates, ending stocks, demand forecasts for major crops. Bigger-than-expected revisions move corn, soybeans, wheat 2-5 percent on release. Quarterly Grain stocks reports also significant. International equivalent: FAO Food Price Index, less market-moving but watched for macro food-price commentary.",
     "indications": [
       "Commodities"
     ],
@@ -11237,7 +11237,7 @@
       "Federal Reserve",
       "CFA Institute"
     ],
-    "plain": "The annual return a Bond pays as a percentage of its current price — when Bond prices rise, yields fall, and vice versa."
+    "plain": "The annual return a bond pays as a percentage of its current price — when bond prices rise, yields fall, and vice versa."
   },
   {
     "letter": "Y",
@@ -11255,7 +11255,7 @@
       "Federal Reserve FRED",
       "Bank of England"
     ],
-    "plain": "A chart showing Bond Yields for different lengths of borrowing — its shape signals what investors expect for growth, Inflation, and Interest Rates."
+    "plain": "A chart showing bond yields for different lengths of borrowing — its shape signals what investors expect for growth, inflation, and interest rates."
   },
   {
     "letter": "Y",
@@ -11271,7 +11271,7 @@
       "BIS",
       "Federal Reserve"
     ],
-    "plain": "When a central bank promises to buy unlimited Bonds at a chosen maturity to keep that Yield pinned at a target level."
+    "plain": "When a central bank promises to buy unlimited bonds at a chosen maturity to keep that yield pinned at a target level."
   },
   {
     "letter": "Y",
@@ -11292,8 +11292,8 @@
     "letter": "Y",
     "term": "Yield to Call",
     "full": "YTC",
-    "snappy": "YTM calculated assuming the issuer redeems the bond at the earliest call date.",
-    "detail": "Callable bonds let the issuer redeem early — typically when rates fall and the issuer can refinance cheaper. YTC computes the yield to that call date instead of final maturity. For premium-priced callable bonds, YTC is usually lower than YTM and is the realistic measure. The 'yield to worst' is the lower of YTC and YTM — what conservative analysts quote.",
+    "snappy": "YTM calculated assuming the issuer redeems the bond at the earliest redemption date.",
+    "detail": "Callable bonds let the issuer redeem early — typically when rates fall and the issuer can refinance cheaper. YTC computes the yield to that redemption date instead of final maturity. For premium-priced callable bonds, YTC is usually lower than YTM and is the realistic measure. The 'yield to worst' is the lower of YTC and YTM — what conservative analysts quote.",
     "indications": [
       "Rates"
     ],
@@ -11301,7 +11301,7 @@
     "sources": [
       "CFA Institute"
     ],
-    "plain": "The return on a Bond if the issuer redeems it early at the first opportunity — usually lower than the headline Yield."
+    "plain": "The return on a bond if the issuer redeems it early at the first opportunity — usually lower than the headline yield."
   },
   {
     "letter": "Y",
@@ -11317,7 +11317,7 @@
       "CFA Institute",
       "SEC"
     ],
-    "plain": "The total annual return you'd earn if you bought a Bond today and held it until it matured — the headline number quoted for any Bond."
+    "plain": "The total annual return you'd earn if you bought a bond today and held it until it matured — the headline number quoted for any bond."
   },
   {
     "letter": "Z",
@@ -11348,7 +11348,7 @@
       "CFA Institute",
       "ICE"
     ],
-    "plain": "The extra Yield a corporate Bond pays over the US Treasury Yield Curve — quoted as one number pricing every cash flow's timing."
+    "plain": "The extra yield a corporate bond pays over the US Treasury Yield Curve — quoted as one number pricing every cash flow's timing."
   },
   {
     "letter": "Z",
@@ -11364,7 +11364,7 @@
       "Federal Reserve",
       "CFA Institute"
     ],
-    "plain": "A Bond that pays no Interest along the way — you buy it at a deep discount and receive the full face value at maturity."
+    "plain": "A bond that pays no Interest along the way — you buy it at a deep discount and receive the full face value at maturity."
   },
   {
     "letter": "Z",
@@ -11381,7 +11381,7 @@
       "CBOE",
       "SEC"
     ],
-    "plain": "An Option contract that expires the same day it's traded — exploded in popularity after 2022 for tactical short-term bets on the US Stock market."
+    "plain": "An option contract that expires the same day it's traded — exploded in popularity after 2022 for tactical short-term bets on the US stock market."
   },
   {
     "letter": "Z",
@@ -11398,6 +11398,6 @@
       "Federal Reserve",
       "ECB"
     ],
-    "plain": "The point where central banks have cut Interest Rates close to zero — leaving little room to ease further without unconventional tools."
+    "plain": "The point where central banks have cut interest rates close to zero — leaving little room to ease further without unconventional tools."
   }
 ]
