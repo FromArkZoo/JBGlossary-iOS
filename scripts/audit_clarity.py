@@ -72,13 +72,23 @@ NON_CANONICAL_PATTERNS = [
 ]
 
 # Homonyms — standalone glossary term names that also function as common
-# English verbs or Greek-letter parameter names. Each must exist as a bare
-# term in the glossary (lowercase form intersected with name_lookup at
-# runtime); otherwise the lowercase use can't actually auto-link, so it's
-# not a false-positive risk. Occurrences are surfaced for human review;
-# the audit never auto-fixes them. See CLARITY_POLICY.md rule 4.
+# English verbs, adjectives, or Greek-letter parameter names. Each entry
+# here must exist as a bare term in some industry's glossary (lowercase
+# form intersected with name_lookup at runtime); otherwise the lowercase
+# use can't actually auto-link, so it's not a false-positive risk.
+# Occurrences are surfaced for human review; the audit never auto-fixes
+# them. See CLARITY_POLICY.md rule 4.
+#
+# The set is the union across all industries — runtime filtering narrows
+# per-industry. Finance bares: put, call, beta, rho. AI bares: agent,
+# attention, batch, bias, layer, model, prompt, reasoning, reward, token,
+# weight.
 HOMONYM_TERMS = {
+    # Finance
     "put", "call", "beta", "rho",
+    # AI
+    "agent", "attention", "batch", "bias", "layer",
+    "model", "prompt", "reasoning", "reward", "token", "weight",
 }
 
 # Tokens that look like jargon but shouldn't trigger a chain-break warning.
@@ -98,6 +108,10 @@ LINKER_DENYLIST = {
     "CME", "NYSE", "CBOT", "ICE", "NASDAQ", "LSE", "CBOE",
     # Common everyday three-letter words people might write in all caps
     "IOU",
+    # Pervasive informal abbreviations used across plain text without
+    # warranting their own entries (the long-form is the entry, e.g.,
+    # "Artificial intelligence" for AI).
+    "AI", "DNA", "USB", "JSON", "KV", "SSD", "VS", "BMW",
 }
 
 
