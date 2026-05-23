@@ -91,6 +91,9 @@ HOMONYM_TERMS = {
     "model", "prompt", "reasoning", "reward", "token", "weight",
     # Pharma
     "assay", "cell", "protein", "receptor",
+    # Law
+    "answer", "breach", "complaint", "damages", "discovery",
+    "motion", "standing", "tort", "venue", "will",
 }
 
 # Tokens that look like jargon but shouldn't trigger a chain-break warning.
@@ -115,6 +118,9 @@ LINKER_DENYLIST = {
     # "Artificial intelligence" for AI).
     "AI", "DNA", "USB", "JSON", "KV", "SSD", "VS", "BMW",
     "TV", "COVID",
+    # Common business/legal acronyms used in plain text across industries
+    "IRS", "CEO", "CFO", "FTC", "FDA", "FCC", "UCC", "IVF", "ID", "CD",
+    "SEC",
 }
 
 
