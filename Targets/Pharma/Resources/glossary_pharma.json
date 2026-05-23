@@ -11,7 +11,8 @@
     "category": "Commercial / Market Access",
     "sources": [
       "HRSA"
-    ]
+    ],
+    "plain": "A US rule that forces drug makers to sell medicines cheaply to hospitals and clinics that treat lots of low-income patients."
   },
   {
     "letter": "A",
@@ -25,7 +26,8 @@
     "category": "Diagnostics",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A blood test that shows your average sugar level over the last few months — the headline number doctors use to check diabetes."
   },
   {
     "letter": "A",
@@ -39,7 +41,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A faster green light from the FDA based on early hints a drug works, with a catch — the company must later prove it really does."
   },
   {
     "letter": "A",
@@ -54,7 +57,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "A common blood-pressure pill that stops the body from squeezing its blood vessels tight."
   },
   {
     "letter": "A",
@@ -68,7 +72,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "A sour, often corrosive chemical — your stomach makes a strong one to break down food, and drugs exist to dial it back."
   },
   {
     "letter": "A",
@@ -82,7 +87,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A clinical trial built to change its own rules partway through — dropping doses or arms as early results come in."
   },
   {
     "letter": "A",
@@ -96,7 +102,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A guided missile for cancer — a homing molecule that finds tumor cells and delivers a toxic payload straight to them."
   },
   {
     "letter": "A",
@@ -110,7 +117,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A cancer that starts in the cells lining organs like lungs, colon, and prostate — by far the most common type in those places."
   },
   {
     "letter": "A",
@@ -124,7 +132,8 @@
     "category": "Clinical",
     "sources": [
       "NIH NIMH"
-    ]
+    ],
+    "plain": "A condition where focusing, sitting still, and controlling impulses are unusually hard — often spotted in kids but common in adults too."
   },
   {
     "letter": "A",
@@ -138,7 +147,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Extra treatment given after surgery to mop up any leftover cancer cells too small to see and stop the disease coming back."
   },
   {
     "letter": "A",
@@ -152,7 +162,8 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The four-stage journey a drug takes through you — getting in, moving around, broken down, and out the other end."
   },
   {
     "letter": "A",
@@ -166,7 +177,8 @@
     "category": "Pharmacovigilance",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "Any unpleasant thing a patient experiences during a trial, whether or not the drug was actually to blame."
   },
   {
     "letter": "A",
@@ -180,7 +192,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A drug that switches on a tiny dock on cells, telling them to do something — like flipping a light switch on."
   },
   {
     "letter": "A",
@@ -194,7 +207,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A protein inside cells that pushes them to grow and stay alive — often hijacked by cancers to fuel themselves."
   },
   {
     "letter": "A",
@@ -208,7 +222,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "One of the 20 small building blocks that proteins are made from — a simple, abundant one your body makes itself."
   },
   {
     "letter": "A",
@@ -222,7 +237,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A faulty gene found in about one in twenty lung cancers — and the bullseye for some of oncology's biggest success stories."
   },
   {
     "letter": "A",
@@ -236,7 +252,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A fast-growing blood cancer that mostly hits children — starts in young immune cells inside the bone marrow."
   },
   {
     "letter": "A",
@@ -250,7 +267,8 @@
     "category": "Mechanism",
     "sources": [
       "NHGRI"
-    ]
+    ],
+    "plain": "One version of a gene — like the gene for eye color comes in blue, brown, or green flavors, each one is an allele."
   },
   {
     "letter": "A",
@@ -264,7 +282,8 @@
     "category": "Clinical",
     "sources": [
       "NIH NIA"
-    ]
+    ],
+    "plain": "A brain disease where clumps of bad protein slowly destroy memory and thinking — the most common cause of dementia."
   },
   {
     "letter": "A",
@@ -278,7 +297,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The 20 chemical Lego bricks that proteins are made from — stack them in different orders and you get every protein in nature."
   },
   {
     "letter": "A",
@@ -292,7 +312,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A fast-moving blood cancer that takes over the bone marrow — mostly affects older adults and needs urgent treatment."
   },
   {
     "letter": "A",
@@ -306,7 +327,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The shorter paperwork a generic drug maker files to copy an existing branded medicine — they just have to prove their version is the same."
   },
   {
     "letter": "A",
@@ -320,7 +342,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The body's process of building new blood vessels — which tumors trick into supplying them with food and oxygen."
   },
   {
     "letter": "A",
@@ -334,7 +357,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A drug that plugs a tiny dock on cells so nothing else can switch it on — like sticking tape over a light switch."
   },
   {
     "letter": "A",
@@ -349,7 +373,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "A drug that kills bacteria or stops them growing — the backbone of modern medicine, increasingly outsmarted by evolving bugs."
   },
   {
     "letter": "A",
@@ -364,7 +389,8 @@
     "sources": [
       "NIH",
       "FDA"
-    ]
+    ],
+    "plain": "A Y-shaped protein your immune system makes to grab onto one specific intruder — a virus, a toxin, or a cancer marker."
   },
   {
     "letter": "A",
@@ -379,7 +405,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "A blood thinner — a drug that slows clotting so dangerous clumps don't form in your veins, lungs, or brain."
   },
   {
     "letter": "A",
@@ -393,7 +420,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "Anything the immune system spots as foreign and attacks — usually a protein on a germ or a tumor cell."
   },
   {
     "letter": "A",
@@ -409,7 +437,8 @@
     "sources": [
       "CDC",
       "WHO"
-    ]
+    ],
+    "plain": "What happens when germs evolve to shrug off the drugs designed to kill them — turning routine infections deadly again."
   },
   {
     "letter": "A",
@@ -424,7 +453,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "A drug that calms hallucinations and severe mood swings by tweaking brain chemistry — used in schizophrenia and bipolar disorder."
   },
   {
     "letter": "A",
@@ -439,7 +469,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "A drug that goes after viruses by blocking the bits they need to break into cells or copy themselves."
   },
   {
     "letter": "A",
@@ -453,7 +484,8 @@
     "category": "Clinical",
     "sources": [
       "NIH NIMH"
-    ]
+    ],
+    "plain": "When worry gets so persistent and overwhelming that it gets in the way of everyday life — the most common mental-health condition."
   },
   {
     "letter": "A",
@@ -467,7 +499,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A gene whose job is to put the brakes on cell growth — when it breaks, it kicks off most colon cancers."
   },
   {
     "letter": "A",
@@ -481,7 +514,8 @@
     "category": "Manufacturing",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The actual working chemical inside a pill — everything else (the coating, the filler) is just there to deliver it."
   },
   {
     "letter": "A",
@@ -496,7 +530,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A cell's built-in self-destruct button — the body uses it to clear out damaged cells, and cancer often disables it."
   },
   {
     "letter": "A",
@@ -510,7 +545,8 @@
     "category": "Diagnostics",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A lab test that measures something — like whether a drug works, how much of it is there, or what it does to cells."
   },
   {
     "letter": "A",
@@ -525,7 +561,8 @@
     "category": "Clinical",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A long-term lung condition where the airways tighten and swell up, making it hard to breathe — ranges from mild to life-threatening."
   },
   {
     "letter": "A",
@@ -539,7 +576,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A brain tumor that grows from star-shaped support cells in the brain — the family includes the dreaded glioblastoma."
   },
   {
     "letter": "A",
@@ -554,7 +592,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A gene that helps cells patch up damaged DNA — when it stops working, mistakes pile up and cancer risk climbs."
   },
   {
     "letter": "A",
@@ -568,7 +607,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The smallest building block of any chemical element — tiny clusters of protons, neutrons, and electrons that everything is made of."
   },
   {
     "letter": "A",
@@ -582,7 +622,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The tiny energy packet every cell runs on — your body makes and burns through your own body weight in it every single day."
   },
   {
     "letter": "A",
@@ -596,7 +637,8 @@
     "category": "Clinical",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "An irregular, often racing heartbeat caused by chaotic electrical signals up top — the most common rhythm problem and a big stroke risk."
   },
   {
     "letter": "A",
@@ -611,7 +653,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "The total amount of drug your body sees over time — basically, how much medicine actually got in and stuck around."
   },
   {
     "letter": "A",
@@ -625,7 +668,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "When the immune system gets confused and starts attacking the body's own healthy cells instead of real invaders."
   },
   {
     "letter": "B",
@@ -640,7 +684,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The white blood cell that makes antibodies — a key player in the immune system and the source of many blood cancers."
   },
   {
     "letter": "B",
@@ -655,7 +700,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The most common skin cancer — slow-growing, rarely spreads, but can quietly chew through skin if left alone."
   },
   {
     "letter": "B",
@@ -669,7 +715,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The chemical opposite of an acid — soaks up acidity, often feels slippery, and helps the body balance its pH."
   },
   {
     "letter": "B",
@@ -683,7 +730,8 @@
     "category": "Mechanism",
     "sources": [
       "NHGRI"
-    ]
+    ],
+    "plain": "Two DNA letters locked together across the twisted ladder — A always with T, G always with C, like puzzle pieces."
   },
   {
     "letter": "B",
@@ -697,7 +745,8 @@
     "category": "Manufacturing",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The quality check where a freshly made batch of drug gets tested and signed off — or held back if anything's off."
   },
   {
     "letter": "B",
@@ -711,7 +760,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A protein that helps cells dodge death — when it's stuck on, cancer cells refuse to die, which is how many blood cancers stay alive."
   },
   {
     "letter": "B",
@@ -725,7 +775,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A garbled gene formed when two chromosomes swap parts — it drives one specific blood cancer and was the target of a famous pill."
   },
   {
     "letter": "B",
@@ -740,7 +791,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "A heart drug that blunts adrenaline's effect on the heart, slowing it down and easing blood pressure."
   },
   {
     "letter": "B",
@@ -754,7 +806,8 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "How much of a swallowed drug actually makes it into your bloodstream — the rest gets destroyed or never absorbed at all."
   },
   {
     "letter": "B",
@@ -770,7 +823,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "A drug grown inside living cells rather than mixed in a chemistry lab — bigger, pricier, and usually injected instead of swallowed."
   },
   {
     "letter": "B",
@@ -785,7 +839,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A measurable biological clue — like a fingerprint your body leaves behind — that tells doctors what's happening inside you."
   },
   {
     "letter": "B",
@@ -800,7 +855,8 @@
     "category": "Diagnostics",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Taking a tiny sample of tissue from your body to look at under a microscope, usually to check whether something is cancer."
   },
   {
     "letter": "B",
@@ -814,7 +870,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A near-copy of a biologic drug — like a generic, but trickier because the originals are grown by living cells, not just mixed in a beaker."
   },
   {
     "letter": "B",
@@ -828,7 +885,8 @@
     "category": "Clinical",
     "sources": [
       "NIH NIMH"
-    ]
+    ],
+    "plain": "A mental illness where moods swing between deep lows and racing highs that can last days or weeks at a time."
   },
   {
     "letter": "B",
@@ -843,7 +901,8 @@
     "sources": [
       "FDA",
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A lab-made antibody with two hands — one grabs a cancer cell, the other grabs an immune cell, dragging them together so the cancer gets killed."
   },
   {
     "letter": "B",
@@ -857,7 +916,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The official paperwork a company hands the FDA to get permission to sell a biologic drug, like a vaccine or antibody."
   },
   {
     "letter": "B",
@@ -871,7 +931,8 @@
     "category": "Pharmacovigilance",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The FDA's loudest safety alert — printed inside a literal black box on the label when a drug carries serious risks doctors must weigh."
   },
   {
     "letter": "B",
@@ -885,7 +946,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Cancer that starts in the lining of the bladder, most often in long-time smokers, and tends to keep coming back even after treatment."
   },
   {
     "letter": "B",
@@ -899,7 +961,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "Keeping patients or doctors in the dark about who's getting the real drug versus a fake pill, so wishful thinking can't sway the results."
   },
   {
     "letter": "B",
@@ -914,7 +977,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "The brain's bouncer — a tight wall of cells that blocks most chemicals, including most drugs, from passing into the brain."
   },
   {
     "letter": "B",
@@ -928,7 +992,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A gene that, when broken, jams the cell's growth signal stuck in the on position and drives about half of all melanoma skin cancers."
   },
   {
     "letter": "B",
@@ -943,7 +1008,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Cancer that started elsewhere — often lung, breast, or skin — and spread into the brain, where most drugs can't easily reach it."
   },
   {
     "letter": "B",
@@ -958,7 +1024,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Two genes that normally fix damaged DNA; when inherited broken, they sharply raise the lifetime odds of breast and ovarian cancer."
   },
   {
     "letter": "B",
@@ -972,7 +1039,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "An FDA fast-pass for a drug that looks much better than anything currently available for a serious illness."
   },
   {
     "letter": "B",
@@ -986,7 +1054,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "An FDA badge for promising drugs against serious illness — speeds development with extra agency meetings and earlier reviews of incoming data."
   },
   {
     "letter": "B",
@@ -1001,7 +1070,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The most common cancer in women, sorted by which receptors sit on the tumor cells because those receptors decide which drugs will work."
   },
   {
     "letter": "B",
@@ -1015,7 +1085,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A signaling protein cancerous immune cells lean on to survive — block it with a drug and certain blood cancers stop growing."
   },
   {
     "letter": "B",
@@ -1029,7 +1100,8 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A chemical mixture that resists changes in acidity — what keeps your blood at a steady balance no matter what you eat or do."
   },
   {
     "letter": "B",
@@ -1043,7 +1115,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A blood cancer so fast-growing the cells can double in under a day, but often curable with intense chemo when caught early."
   },
   {
     "letter": "C",
@@ -1057,7 +1130,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A treatment where doctors take your own immune cells, rewire them in a lab to spot cancer, and put them back to attack it."
   },
   {
     "letter": "C",
@@ -1071,7 +1145,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "Sugars and starches — your body's go-to quick fuel, and the main thing that pushes your blood sugar up after a meal."
   },
   {
     "letter": "C",
@@ -1085,7 +1160,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Cancer that begins in the cells lining your skin and organs — the bucket that covers most cancers you've ever heard of."
   },
   {
     "letter": "C",
@@ -1099,7 +1175,8 @@
     "category": "Diagnostics",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "The most-ordered blood test in medicine — counts red cells, white cells, and platelets to check for anemia, infection, and much more."
   },
   {
     "letter": "C",
@@ -1113,7 +1190,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Two proteins that act like a cell's gas pedal; drugs that block them slam the brakes on certain breast cancers."
   },
   {
     "letter": "C",
@@ -1128,7 +1206,8 @@
     "category": "Diagnostics",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A lab test paired with a specific drug — used to find the patients whose biology means the drug is actually likely to work."
   },
   {
     "letter": "C",
@@ -1142,7 +1221,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The smallest unit of life — the tiny building block every tissue and organ in your body is made from."
   },
   {
     "letter": "C",
@@ -1156,7 +1236,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The thin oily skin wrapped around every cell, controlling what gets in and out and dotted with sensors for the outside world."
   },
   {
     "letter": "C",
@@ -1171,7 +1252,8 @@
     "sources": [
       "NIH",
       "FDA"
-    ]
+    ],
+    "plain": "Treatment that uses living cells as the actual medicine — most often immune cells trained in a lab to hunt down cancer."
   },
   {
     "letter": "C",
@@ -1185,7 +1267,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A class of cancer drug that releases the immune system's brakes so your own defenses can finally see and attack hidden tumors."
   },
   {
     "letter": "C",
@@ -1200,7 +1283,8 @@
     "sources": [
       "NIH",
       "FDA"
-    ]
+    ],
+    "plain": "A chemical 'come here' flare released to summon immune cells to the spot where they're needed."
   },
   {
     "letter": "C",
@@ -1214,7 +1298,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Drug treatment that kills fast-growing cells — punishing for cancer, but rough on hair, gut, and bone marrow too."
   },
   {
     "letter": "C",
@@ -1229,7 +1314,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A rare cancer in the small tubes that carry digestive juices from the liver to the gut."
   },
   {
     "letter": "C",
@@ -1243,7 +1329,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "A waxy fat your body needs a little of to build cells and hormones, but which causes trouble when there's too much in the blood."
   },
   {
     "letter": "C",
@@ -1257,7 +1344,8 @@
     "category": "Mechanism",
     "sources": [
       "NHGRI"
-    ]
+    ],
+    "plain": "A tightly packed bundle of DNA — humans get 23 pairs, including the X and Y that decide biological sex."
   },
   {
     "letter": "C",
@@ -1271,7 +1359,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A slow-growing blood cancer mostly seen in older adults — many patients live with it for years before any treatment is needed."
   },
   {
     "letter": "C",
@@ -1285,7 +1374,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A blood cancer caused by one specific gene mishap, and the first one ever turned from deadly into a manageable daily pill."
   },
   {
     "letter": "C",
@@ -1299,7 +1389,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A research study that tests whether a new drug or treatment is safe and actually works, run on volunteer patients in careful stages."
   },
   {
     "letter": "C",
@@ -1314,7 +1405,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "The two big numbers when tracking a drug in the blood — how high it peaks, and how long it took to get there."
   },
   {
     "letter": "C",
@@ -1328,7 +1420,8 @@
     "category": "Manufacturing",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The detailed file describing exactly how a drug is made, tested, and kept the same batch after batch — required for FDA approval."
   },
   {
     "letter": "C",
@@ -1342,7 +1435,8 @@
     "category": "Mechanism",
     "sources": [
       "NHGRI"
-    ]
+    ],
+    "plain": "A three-letter 'word' written in DNA or RNA that tells the cell which building block to add next when making a protein."
   },
   {
     "letter": "C",
@@ -1357,7 +1451,8 @@
     "sources": [
       "FDA",
       "WHO"
-    ]
+    ],
+    "plain": "An unbroken chain of refrigeration from factory to patient, needed for vaccines and biologics that spoil the moment they warm up."
   },
   {
     "letter": "C",
@@ -1372,7 +1467,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Cancer of the colon or rectum — the third most common cancer worldwide, and one of the easiest to catch early with screening."
   },
   {
     "letter": "C",
@@ -1386,7 +1482,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A pathway letting very sick patients try an unapproved drug when nothing else works and the gamble seems worth taking."
   },
   {
     "letter": "C",
@@ -1400,7 +1497,8 @@
     "category": "Commercial / Market Access",
     "sources": [
       "CMS Glossary"
-    ]
+    ],
+    "plain": "The flat fee you hand over at the pharmacy counter when you fill a prescription, separate from your monthly insurance premium."
   },
   {
     "letter": "C",
@@ -1414,7 +1512,8 @@
     "category": "Clinical",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "Long-term lung damage, mostly from smoking, that makes breathing harder over time and can be slowed but not reversed."
   },
   {
     "letter": "C",
@@ -1428,7 +1527,8 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A strong chemical bond where two atoms share electrons — the glue holding most biological molecules together."
   },
   {
     "letter": "C",
@@ -1443,7 +1543,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "Molecular scissors that can cut, swap, or silence chosen stretches of DNA — and the foundation of a new wave of gene-based therapies."
   },
   {
     "letter": "C",
@@ -1457,7 +1558,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A specialist company hired by drugmakers to actually run their clinical trials — handling all the operational heavy lifting."
   },
   {
     "letter": "C",
@@ -1473,7 +1575,8 @@
     "sources": [
       "NIH",
       "FDA"
-    ]
+    ],
+    "plain": "An inflammatory gut disease that can hit anywhere from mouth to colon, causing pain, diarrhea, weight loss, and lasting damage."
   },
   {
     "letter": "C",
@@ -1487,7 +1590,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "An immune brake that holds T-cells back from attacking — and the first such brake doctors ever learned how to release with a drug."
   },
   {
     "letter": "C",
@@ -1502,7 +1606,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "A family of liver enzymes that breaks down most drugs you swallow — and the reason one pill can change the safe dose of another."
   },
   {
     "letter": "C",
@@ -1518,7 +1623,8 @@
     "sources": [
       "NIH",
       "FDA"
-    ]
+    ],
+    "plain": "An inherited disease that thickens mucus in the lungs and pancreas — once devastating, now far more manageable thanks to recent drugs."
   },
   {
     "letter": "C",
@@ -1532,7 +1638,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "A small signaling protein immune cells fire off to coordinate inflammation, infection response, and chatter with other immune cells."
   },
   {
     "letter": "C",
@@ -1546,7 +1653,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The jelly-like fluid filling the inside of a cell, where most of its everyday chemistry happens."
   },
   {
     "letter": "C",
@@ -1561,7 +1669,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Cell-killing — the formal word for old-school chemo drugs that wipe out fast-dividing cells, cancerous and otherwise."
   },
   {
     "letter": "D",
@@ -1575,7 +1684,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A clinical trial that lets patients take part from home using video calls, wearables, and mailed medicine instead of traveling in."
   },
   {
     "letter": "D",
@@ -1589,7 +1699,8 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A new class of drug that doesn't just block a harmful protein — it tags the protein for the cell's own garbage disposal to destroy."
   },
   {
     "letter": "D",
@@ -1605,7 +1716,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A devastating childhood brain tumor in a spot too critical for surgery, and historically almost always fatal."
   },
   {
     "letter": "D",
@@ -1619,7 +1731,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The most common fast-growing lymphoma — aggressive but often curable with a mix of chemotherapy and antibody drugs."
   },
   {
     "letter": "D",
@@ -1634,7 +1747,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "A drug that doesn't just ease arthritis pain but actually slows the joint damage underneath."
   },
   {
     "letter": "D",
@@ -1648,7 +1762,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "An outside panel that peeks at a running clinical trial's data and can call it off if patients are getting hurt or already clearly helped."
   },
   {
     "letter": "D",
@@ -1663,7 +1778,8 @@
     "sources": [
       "NHGRI",
       "NIH"
-    ]
+    ],
+    "plain": "The twisted ladder of chemicals inside every cell that stores the instructions for building and running a living thing."
   },
   {
     "letter": "D",
@@ -1677,7 +1793,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The body's spell-checker for DNA — when it breaks, errors pile up and cancer risk climbs."
   },
   {
     "letter": "D",
@@ -1691,7 +1808,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The careful early-trial process of slowly increasing how much of a new drug patients get until side effects become too much."
   },
   {
     "letter": "D",
@@ -1705,7 +1823,8 @@
     "category": "Pharmacovigilance",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "When one drug changes how another works in your body — sometimes weakening it, sometimes dangerously amplifying it."
   },
   {
     "letter": "D",
@@ -1719,7 +1838,8 @@
     "category": "Commercial / Market Access",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The TV and web ads that pitch prescription drugs straight to patients — a uniquely American practice most other countries ban."
   },
   {
     "letter": "D",
@@ -1733,7 +1853,8 @@
     "category": "Digital Health",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A software treatment — usually a phone app — that a doctor can prescribe to prevent or manage a medical condition."
   },
   {
     "letter": "D",
@@ -1749,7 +1870,8 @@
     "sources": [
       "NIH",
       "FDA"
-    ]
+    ],
+    "plain": "A devastating inherited disease that slowly destroys muscle — boys typically lose the ability to walk by their early teens."
   },
   {
     "letter": "D",
@@ -1763,7 +1885,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "How long a drug keeps working in patients who responded at first — a measure of staying power, not just initial effect."
   },
   {
     "letter": "D",
@@ -1777,7 +1900,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Cells that are growing oddly but aren't cancer yet — a warning sign caught and treated early when possible."
   },
   {
     "letter": "E",
@@ -1793,7 +1917,8 @@
     "sources": [
       "FDA",
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A quick, painless test that records the heart's electrical activity through stickers on the chest."
   },
   {
     "letter": "E",
@@ -1807,7 +1932,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A switch on the outside of cells that, when broken, drives uncontrolled growth — found in many lung cancers."
   },
   {
     "letter": "E",
@@ -1821,7 +1947,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "Europe's drug regulator — the body that decides which medicines can be sold across the EU."
   },
   {
     "letter": "E",
@@ -1836,7 +1963,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Cancer of the lining of the womb — the most common female reproductive cancer in wealthy countries."
   },
   {
     "letter": "E",
@@ -1850,7 +1978,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "A maze of folded membranes inside the cell where new proteins get shaped, checked, and prepared for the journey out."
   },
   {
     "letter": "E",
@@ -1864,7 +1993,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "What a clinical trial actually measures to decide if a drug works — survival, tumor shrinkage, or quality of life."
   },
   {
     "letter": "E",
@@ -1878,7 +2008,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "A protein that speeds up a specific chemical reaction in the body without itself being used up — biology's catalyst."
   },
   {
     "letter": "E",
@@ -1894,7 +2025,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A relatively rare tumor of the brain or spine that grows from the cells lining its fluid-filled cavities."
   },
   {
     "letter": "E",
@@ -1908,7 +2040,8 @@
     "category": "Clinical",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A brain condition where bursts of disordered electrical activity cause repeated seizures."
   },
   {
     "letter": "E",
@@ -1922,7 +2055,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The exact spot on a target that an antibody actually grabs onto — usually just a tiny patch of surface."
   },
   {
     "letter": "E",
@@ -1937,7 +2071,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Hormone sensors on most breast cancer cells — when present, they make tumors vulnerable to drugs that block hormones."
   },
   {
     "letter": "E",
@@ -1951,7 +2086,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Another name for the HER2 gene — a major driver of about a fifth of breast cancers."
   },
   {
     "letter": "E",
@@ -1966,7 +2102,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Cancer of the tube that carries food from throat to stomach, with two main types tied to very different risk factors."
   },
   {
     "letter": "E",
@@ -1981,7 +2118,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A rare bone and soft-tissue cancer mostly hitting teenagers, driven by one almost-defining gene mix-up."
   },
   {
     "letter": "E",
@@ -1995,7 +2133,8 @@
     "category": "Manufacturing",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "Everything in a pill that isn't the actual drug — the binders, fillers, and coatings that turn a chemical into something swallowable."
   },
   {
     "letter": "E",
@@ -2009,7 +2148,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "An enzyme that controls which genes get switched on or off — when broken, it scrambles cell instructions and feeds certain blood cancers."
   },
   {
     "letter": "F",
@@ -2025,7 +2165,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "An inherited condition where someone grows hundreds or thousands of bowel polyps — almost all of which will turn into cancer without surgery."
   },
   {
     "letter": "F",
@@ -2039,7 +2180,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A US regulator status that speeds up review of drugs for serious diseases with no good existing treatments."
   },
   {
     "letter": "F",
@@ -2054,7 +2196,8 @@
     "sources": [
       "NIH",
       "FDA"
-    ]
+    ],
+    "plain": "The long carbon chains that make up most fats in your body — the building blocks of cell membranes and energy stores."
   },
   {
     "letter": "F",
@@ -2068,7 +2211,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The US agency that decides whether new drugs, vaccines, and medical devices are safe and effective enough to sell in America."
   },
   {
     "letter": "F",
@@ -2082,7 +2226,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A family of cell switches whose mutations drive several rare cancers — and the target of a small but growing group of precision drugs."
   },
   {
     "letter": "F",
@@ -2096,7 +2241,8 @@
     "category": "Manufacturing",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The final step of making a biologic drug — taking the bulk liquid and putting it into vials or syringes, sterile and ready for patients."
   },
   {
     "letter": "F",
@@ -2110,7 +2256,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The very first time a new drug is given to people — a high-stakes early study where everything is unknown until it isn't."
   },
   {
     "letter": "F",
@@ -2124,7 +2271,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The treatment doctors try first when a patient is diagnosed — usually the regimen with the best track record for that disease."
   },
   {
     "letter": "F",
@@ -2138,7 +2286,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A signal switch that's mutated in roughly a third of acute myeloid leukemia patients, marking more aggressive disease."
   },
   {
     "letter": "F",
@@ -2152,7 +2301,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The second-most-common slow-growing lymphoma — generally treatable but rarely cured, with patients living many years through repeated rounds."
   },
   {
     "letter": "F",
@@ -2166,7 +2316,8 @@
     "category": "Commercial / Market Access",
     "sources": [
       "CMS Glossary"
-    ]
+    ],
+    "plain": "The list of drugs your insurance will pay for — and the rules deciding what each one costs you at the pharmacy counter."
   },
   {
     "letter": "F",
@@ -2180,7 +2331,8 @@
     "category": "Manufacturing",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The recipe and physical form of a drug — pill, injection, patch, inhaler — and the choices that affect how well it works."
   },
   {
     "letter": "F",
@@ -2194,7 +2346,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A hybrid gene formed when two normally separate genes accidentally join together, often making an abnormal protein that drives cancer."
   },
   {
     "letter": "G",
@@ -2210,7 +2363,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A rare and usually late-diagnosed cancer of the small organ that stores bile, often found by accident during gallstone surgery."
   },
   {
     "letter": "G",
@@ -2225,7 +2379,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Stomach cancer — a major killer worldwide, especially in East Asia, with several subtypes that respond differently to modern drugs."
   },
   {
     "letter": "G",
@@ -2239,7 +2394,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "International quality rules that govern how clinical trials must be designed, run, and reported — to protect patients and make data trustworthy."
   },
   {
     "letter": "G",
@@ -2253,7 +2409,8 @@
     "category": "Mechanism",
     "sources": [
       "NHGRI"
-    ]
+    ],
+    "plain": "A stretch of DNA holding the recipe for one specific protein that does a job in the body."
   },
   {
     "letter": "G",
@@ -2268,7 +2425,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A treatment that adds, replaces, or corrects genes inside cells to fix the root cause of a genetic disease, not just its symptoms."
   },
   {
     "letter": "G",
@@ -2282,7 +2440,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A copy of a brand-name pill containing the same active ingredient — sold at much lower prices once the original patent expires."
   },
   {
     "letter": "G",
@@ -2296,7 +2455,8 @@
     "category": "Mechanism",
     "sources": [
       "NHGRI"
-    ]
+    ],
+    "plain": "The complete set of DNA in a living thing — every gene plus all the non-coding stretches in between."
   },
   {
     "letter": "G",
@@ -2310,7 +2470,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Cancer that grows from reproductive cells — most often in the testicles or ovaries, occasionally elsewhere if those cells wandered before birth."
   },
   {
     "letter": "G",
@@ -2326,7 +2487,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A rare digestive-tract cancer — one of precision medicine's biggest wins after a targeted drug turned a deadly disease into a manageable one."
   },
   {
     "letter": "G",
@@ -2341,7 +2503,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The most aggressive brain cancer — fast-growing, deeply spreading, and despite intense treatment, currently incurable in almost all cases."
   },
   {
     "letter": "G",
@@ -2356,7 +2519,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The umbrella name for brain tumors growing from the supporting cells of the nervous system, graded by aggressiveness from 1 to 4."
   },
   {
     "letter": "G",
@@ -2372,7 +2536,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "A drug that copies a natural gut hormone to lower blood sugar and curb appetite — the engine behind Ozempic and Wegovy."
   },
   {
     "letter": "G",
@@ -2386,7 +2551,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The simple sugar your cells run on — when blood levels are too high (diabetes) or too low, things go badly."
   },
   {
     "letter": "G",
@@ -2400,7 +2566,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The smallest building block of proteins, and a signaling chemical that helps quiet down activity in the spinal cord."
   },
   {
     "letter": "G",
@@ -2414,7 +2581,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The storage form of sugar — long branching chains kept in liver and muscle, ready to release energy when the body needs it."
   },
   {
     "letter": "G",
@@ -2428,7 +2596,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The cell's quickest way to squeeze energy out of sugar — and one of the tricks cancer cells crank up to fuel their growth."
   },
   {
     "letter": "G",
@@ -2442,7 +2611,8 @@
     "category": "Manufacturing",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The rulebook drugmakers must follow so every pill or vial is clean, pure, and the same from batch to batch."
   },
   {
     "letter": "G",
@@ -2456,7 +2626,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The cell's mailroom — a stack of pouches that wraps and labels proteins before shipping them off to where they're needed."
   },
   {
     "letter": "G",
@@ -2470,7 +2641,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "How wild and abnormal cancer cells look under a microscope — uglier cells usually mean a faster, nastier disease."
   },
   {
     "letter": "G",
@@ -2484,7 +2656,8 @@
     "category": "Commercial / Market Access",
     "sources": [
       "CMS Glossary"
-    ]
+    ],
+    "plain": "The gap between a drug's sticker price and what the maker actually pockets after all the rebates and discounts come off."
   },
   {
     "letter": "H",
@@ -2498,7 +2671,8 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "How long it takes your body to clear out half of a drug — the clock that decides how often you need to take it."
   },
   {
     "letter": "H",
@@ -2512,7 +2686,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A number that says how much a treatment cuts the risk of something bad happening — under 1.0 means the drug is helping."
   },
   {
     "letter": "H",
@@ -2527,7 +2702,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The most common type of liver cancer — usually linked to long-running hepatitis infection or heavy drinking."
   },
   {
     "letter": "H",
@@ -2541,7 +2717,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Cancers of the mouth, throat, and voice box — once mostly caused by smoking, now increasingly linked to a common virus."
   },
   {
     "letter": "H",
@@ -2555,7 +2732,8 @@
     "category": "Clinical",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "When the heart gets too weak or stiff to pump enough blood for the body — different from a heart attack, and now manageable for years."
   },
   {
     "letter": "H",
@@ -2569,7 +2747,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The umbrella name for cancers that start in the blood or bone marrow rather than forming a solid lump."
   },
   {
     "letter": "H",
@@ -2584,7 +2763,8 @@
     "sources": [
       "NIH",
       "FDA"
-    ]
+    ],
+    "plain": "An inherited bleeding disorder where the blood can't clot properly because one key clotting protein is missing or broken."
   },
   {
     "letter": "H",
@@ -2599,7 +2779,8 @@
     "sources": [
       "NIH",
       "FDA"
-    ]
+    ],
+    "plain": "A rarer cousin of hemophilia A — same bleeding problem, but caused by a different missing clotting protein."
   },
   {
     "letter": "H",
@@ -2614,7 +2795,8 @@
     "sources": [
       "CMS Glossary",
       "ISPOR"
-    ]
+    ],
+    "plain": "The work of turning a drug's medical benefit into dollar-and-cents arguments — the case insurers need before they'll pay."
   },
   {
     "letter": "H",
@@ -2630,7 +2812,8 @@
       "NIH",
       "FDA",
       "WHO"
-    ]
+    ],
+    "plain": "A long-lasting liver infection caused by a virus — kept in check with daily pills, but rarely fully cured."
   },
   {
     "letter": "H",
@@ -2645,7 +2828,8 @@
     "sources": [
       "NIH",
       "FDA"
-    ]
+    ],
+    "plain": "A liver-attacking virus carried in blood — once a slow killer, now curable in most people with a few months of pills."
   },
   {
     "letter": "H",
@@ -2660,7 +2844,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A growth signal on the surface of some breast and stomach cancer cells that makes them aggressive but also easier to target with drugs."
   },
   {
     "letter": "H",
@@ -2675,7 +2860,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Faulty genes passed down through families that make certain cancers far more likely — and often strike at younger ages."
   },
   {
     "letter": "H",
@@ -2690,7 +2876,8 @@
     "sources": [
       "NIH MedlinePlus",
       "CDC"
-    ]
+    ],
+    "plain": "The virus that attacks the body's immune defences — once a death sentence, now a manageable lifelong condition with daily pills."
   },
   {
     "letter": "H",
@@ -2704,7 +2891,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A cancer of immune cells with a distinct look under the microscope — and one of the most curable cancers known, even when advanced."
   },
   {
     "letter": "H",
@@ -2718,7 +2906,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "A chemical messenger one part of the body sends through the blood to tell another part what to do."
   },
   {
     "letter": "H",
@@ -2733,7 +2922,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A docking spot on certain cancer cells that catches body hormones — when present, blocking those hormones can starve the tumor."
   },
   {
     "letter": "H",
@@ -2749,7 +2939,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A very common virus that causes nearly all cervical cancers and many throat cancers — and is now largely preventable with a vaccine."
   },
   {
     "letter": "H",
@@ -2763,7 +2954,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A flaw in a cell's DNA-repair toolkit — and a clue that certain targeted cancer drugs are likely to work well."
   },
   {
     "letter": "H",
@@ -2777,7 +2969,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "A weak tug between atoms that, stacked by the millions, holds together DNA, proteins, and water itself."
   },
   {
     "letter": "H",
@@ -2791,7 +2984,8 @@
     "category": "Clinical",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "Long-term high blood pressure — the quiet driver behind heart attacks, strokes, and kidney damage in roughly half of US adults."
   },
   {
     "letter": "H",
@@ -2805,7 +2999,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "When tissue runs short on oxygen — something tumors often create, which paradoxically makes them tougher to kill."
   },
   {
     "letter": "I",
@@ -2819,7 +3014,8 @@
     "category": "Commercial / Market Access",
     "sources": [
       "ICER"
-    ]
+    ],
+    "plain": "An independent US group that crunches the math on whether a new drug is worth its price, and publishes verdicts insurers watch."
   },
   {
     "letter": "I",
@@ -2834,7 +3030,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Genes that normally run cell metabolism — when broken, they pump out a chemical that fuels certain leukemias and brain tumors."
   },
   {
     "letter": "I",
@@ -2848,7 +3045,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The first drug ever designed to hit a specific cancer mutation — and the proof that precision oncology could actually work."
   },
   {
     "letter": "I",
@@ -2862,7 +3060,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The brakes on your immune system that stop it attacking your own body — brakes that tumors sneakily push to hide from attack."
   },
   {
     "letter": "I",
@@ -2876,7 +3075,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The proper scientific name for an antibody — the Y-shaped protein the immune system uses to tag threats for destruction."
   },
   {
     "letter": "I",
@@ -2890,7 +3090,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Treatments that turn the body's own immune system loose on cancer — by lifting its brakes or sharpening its aim."
   },
   {
     "letter": "I",
@@ -2904,7 +3105,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The paperwork a company files with the FDA to get permission to test a brand-new drug in people for the first time."
   },
   {
     "letter": "I",
@@ -2918,7 +3120,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The exact disease a drug is officially approved to treat — what's printed on the label and what doctors can prescribe for."
   },
   {
     "letter": "I",
@@ -2933,7 +3136,8 @@
     "category": "Clinical",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "Long-running conditions where the immune system attacks the gut — causing pain, bleeding, and constant, severe diarrhea."
   },
   {
     "letter": "I",
@@ -2948,7 +3152,8 @@
     "sources": [
       "FDA",
       "ICH GCP"
-    ]
+    ],
+    "plain": "The signed promise that trial participants understand the risks, the benefits, and the alternatives — and are joining freely."
   },
   {
     "letter": "I",
@@ -2962,14 +3167,15 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A drug that jams a specific protein and stops it from doing its job — the workhorse design of most cancer medicines."
   },
   {
     "letter": "I",
     "term": "Insulin",
     "full": "",
     "snappy": "The hormone your pancreas makes to move sugar out of your blood and into your cells — and the lifesaving drug people with diabetes use when their bodies can't.",
-    "detail": "Insulin has been pharma since Banting's 1921 discovery, with modern forms ranging from short-acting Humalog (lispro) to ultra-long Tresiba (degludec). Pricing became a political flashpoint in the 2010s after list prices tripled, and the 2022 Inflation Reduction Act capped Medicare insulin copays at $35. You'll hear insulin in every diabetes earnings call, in coverage debates, and at hearings on PBM and manufacturer pricing — it's the textbook example of US drug-pricing controversy.",
+    "detail": "Insulin has been pharma since Banting's 1921 discovery, with modern forms ranging from short-acting Humalog (lispro) to ultra-long Tresiba (degludec). Pricing became a political flashpoint in the 2010s after list prices tripled, and the 2022 inflation Reduction Act capped Medicare insulin copays at $35. You'll hear insulin in every diabetes earnings call, in coverage debates, and at hearings on PBM and manufacturer pricing — it's the textbook example of US drug-pricing controversy.",
     "indications": [
       "Metabolic"
     ],
@@ -2977,7 +3183,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "The hormone that moves sugar from your blood into your cells — and the daily lifesaver for people whose bodies can't make enough."
   },
   {
     "letter": "I",
@@ -2992,7 +3199,8 @@
     "sources": [
       "FDA",
       "ICH E9"
-    ]
+    ],
+    "plain": "A rule that counts every trial patient in the group they were first assigned to, even if they dropped out or switched."
   },
   {
     "letter": "I",
@@ -3006,7 +3214,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Injecting a drug straight into the tumor itself — concentrating the hit where it's needed and sparing the rest of the body."
   },
   {
     "letter": "I",
@@ -3021,7 +3230,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The most common type of breast cancer — starting in the milk-duct lining and pushing out into the surrounding tissue."
   },
   {
     "letter": "I",
@@ -3035,7 +3245,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "An atom carrying an electric charge — sodium, calcium, and potassium ions are the ones nerves and muscles run on."
   },
   {
     "letter": "I",
@@ -3049,7 +3260,8 @@
     "category": "Commercial / Market Access",
     "sources": [
       "CMS"
-    ]
+    ],
+    "plain": "A 2022 US law letting Medicare haggle prices on top-selling drugs for the first time — the biggest pricing shock pharma has faced in decades."
   },
   {
     "letter": "I",
@@ -3064,7 +3276,8 @@
     "sources": [
       "FDA",
       "ICH GCP"
-    ]
+    ],
+    "plain": "The independent committee that vets a clinical trial before any patients can join — focused on keeping participants safe."
   },
   {
     "letter": "I",
@@ -3078,7 +3291,8 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "Molecules built from the exact same atoms but arranged differently — same recipe, different shape, often wildly different effects."
   },
   {
     "letter": "I",
@@ -3093,7 +3307,8 @@
     "sources": [
       "NIH",
       "FDA"
-    ]
+    ],
+    "plain": "Versions of the same element with different weights — chemically identical, but some give off radiation that doctors can use."
   },
   {
     "letter": "I",
@@ -3107,7 +3322,8 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "Putting a drug straight into a vein through a needle — bypassing the gut and getting the full dose into the blood instantly."
   },
   {
     "letter": "J",
@@ -3122,7 +3338,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A pill that quiets overactive immune signaling — used to calm conditions like rheumatoid arthritis and certain blood disorders."
   },
   {
     "letter": "J",
@@ -3137,7 +3354,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A relay system inside cells that carries outside signals straight to the gene controls in the nucleus."
   },
   {
     "letter": "J",
@@ -3151,7 +3369,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A typo in a single gene that makes bone marrow churn out too many blood cells — the cause of a slow-burning blood disorder."
   },
   {
     "letter": "J",
@@ -3166,7 +3385,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A rare and aggressive blood cancer that strikes young children — with very few treatments beyond a bone-marrow transplant."
   },
   {
     "letter": "J",
@@ -3180,7 +3400,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A study running at many hospitals at once — usually because no single hospital sees enough patients fast enough."
   },
   {
     "letter": "K",
@@ -3194,7 +3415,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The staircase-shaped graph in cancer studies that shows what fraction of patients are still alive or doing well as months tick by."
   },
   {
     "letter": "K",
@@ -3208,7 +3430,8 @@
     "category": "Diagnostics",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A snapshot of all someone's chromosomes lined up in order — a simple test that catches big genetic mix-ups driving disease."
   },
   {
     "letter": "K",
@@ -3222,7 +3445,8 @@
     "category": "Diagnostics",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A marker found inside dividing cells — pathologists count how many tumor cells carry it to gauge how fast a cancer is growing."
   },
   {
     "letter": "K",
@@ -3236,7 +3460,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Cancer that grows in the kidneys, often spotted by chance on a scan and increasingly treated with drugs that wake up the immune system."
   },
   {
     "letter": "K",
@@ -3250,7 +3475,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "An enzyme that flips other proteins on or off by sticking a tiny chemical tag on them — a favourite target for cancer drugs."
   },
   {
     "letter": "K",
@@ -3265,7 +3491,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A switch on the outside of a cell that, when broken, makes the cell grow uncontrollably and cause rare stomach cancers."
   },
   {
     "letter": "K",
@@ -3279,7 +3506,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The most commonly broken gene in cancer — and one scientists couldn't drug for forty years, until they finally cracked one version in 2021."
   },
   {
     "letter": "K",
@@ -3293,7 +3521,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The loop of chemical reactions inside cells that finishes turning your food into usable energy."
   },
   {
     "letter": "L",
@@ -3307,7 +3536,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The official rulebook for a drug, telling doctors what it's approved for, how much to give, and what warnings to mind."
   },
   {
     "letter": "L",
@@ -3322,7 +3552,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "The dose of a substance that kills half the test animals in a safety study — a rough yardstick for how dangerous something is."
   },
   {
     "letter": "L",
@@ -3336,7 +3567,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Cancer of the blood-making cells inside bone marrow, with several different types that behave and get treated very differently."
   },
   {
     "letter": "L",
@@ -3351,7 +3583,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A rare inherited fault in a key protective gene that leaves carriers facing an extremely high chance of getting cancer during their lifetime."
   },
   {
     "letter": "L",
@@ -3365,7 +3598,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A molecule that fits into a receptor like a key into a lock and tells the cell what to do next."
   },
   {
     "letter": "L",
@@ -3380,7 +3614,8 @@
     "sources": [
       "NIH",
       "FDA"
-    ]
+    ],
+    "plain": "Fats and fat-like molecules in the body — they store energy, form the wall around every cell, and carry messages between cells."
   },
   {
     "letter": "L",
@@ -3395,7 +3630,8 @@
     "category": "Diagnostics",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A blood test that picks up tiny scraps of cancer DNA, letting doctors track a tumour without cutting anything out."
   },
   {
     "letter": "L",
@@ -3409,7 +3645,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "An extra-large first dose to get the drug working quickly, followed by smaller regular doses to keep it going."
   },
   {
     "letter": "L",
@@ -3423,7 +3660,8 @@
     "category": "Commercial / Market Access",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The moment cheap copies of a brand-name drug are allowed to compete, and the original maker's big profits dry up."
   },
   {
     "letter": "L",
@@ -3438,7 +3676,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The most common type of lung cancer, and the one most likely to carry specific gene faults that targeted drugs can attack."
   },
   {
     "letter": "L",
@@ -3452,7 +3691,8 @@
     "category": "Clinical",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A long-term illness where the immune system wrongly attacks the body's own tissue, flaring up and quieting down unpredictably."
   },
   {
     "letter": "L",
@@ -3467,7 +3707,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A small bean-shaped immune station scattered around the body, and often the first stop cancer makes when it spreads."
   },
   {
     "letter": "L",
@@ -3481,7 +3722,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Cancer of the body's immune-cell highway system, with many varieties ranging from slow-growing to aggressive."
   },
   {
     "letter": "L",
@@ -3496,7 +3738,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "An inherited fault in the cell's DNA-spellcheck system that sharply raises the chance of bowel and several other cancers."
   },
   {
     "letter": "L",
@@ -3510,7 +3753,8 @@
     "category": "Manufacturing",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "Freeze-drying a drug to remove the water, leaving a stable powder that ships and stores well until a nurse mixes it back up."
   },
   {
     "letter": "L",
@@ -3524,7 +3768,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "One of the building blocks of protein that your body can't make on its own — you have to get it from food."
   },
   {
     "letter": "M",
@@ -3538,7 +3783,8 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A lab-made copy of an immune protein, designed to grab one specific target inside the body — most modern blockbuster drugs are these."
   },
   {
     "letter": "M",
@@ -3553,7 +3799,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A gentler follow-on treatment given after the main one works, to keep the cancer from waking back up."
   },
   {
     "letter": "M",
@@ -3567,7 +3814,8 @@
     "category": "Clinical",
     "sources": [
       "NIH NIMH"
-    ]
+    ],
+    "plain": "A medical condition where low mood, no interest in things, and changes in sleep and appetite last weeks and disrupt daily life."
   },
   {
     "letter": "M",
@@ -3581,7 +3829,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "An aggressive blood cancer caused by a specific gene swap that jams a cell's growth switch permanently on."
   },
   {
     "letter": "M",
@@ -3595,7 +3844,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A protein that normally holds the body's main cancer-stopper in check — when there's too much of it, the brake on tumours fails."
   },
   {
     "letter": "M",
@@ -3609,7 +3859,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A bone-marrow disorder where blood cells form badly — often a stepping stone to full-blown leukemia, mostly in older people."
   },
   {
     "letter": "M",
@@ -3623,21 +3874,23 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The story of how a drug actually works inside the body — which protein it grabs and what chain of events that sets off."
   },
   {
     "letter": "M",
     "term": "Medicare Part D",
     "full": "",
     "snappy": "The federal program that pays for prescription drugs for seniors on Medicare — funded jointly by patient premiums, government dollars, and pharma rebates.",
-    "detail": "Launched in 2006, Part D covers outpatient prescriptions through private plans contracted by CMS — plans negotiate with PBMs, set formularies, and structure tiers. The 2022 Inflation Reduction Act gave Medicare new powers to negotiate prices on top-spend drugs starting 2026, a seismic shift pharma has been fighting in court. You'll hear Part D in every CFO commentary on pricing risk, and it dominates the policy track at JPMorgan.",
+    "detail": "Launched in 2006, Part D covers outpatient prescriptions through private plans contracted by CMS — plans negotiate with PBMs, set formularies, and structure tiers. The 2022 inflation Reduction Act gave Medicare new powers to negotiate prices on top-spend drugs starting 2026, a seismic shift pharma has been fighting in court. You'll hear Part D in every CFO commentary on pricing risk, and it dominates the policy track at JPMorgan.",
     "indications": [
       "General"
     ],
     "category": "Commercial / Market Access",
     "sources": [
       "CMS Glossary"
-    ]
+    ],
+    "plain": "The US federal programme that helps seniors pay for the prescription drugs they pick up at the pharmacy."
   },
   {
     "letter": "M",
@@ -3653,7 +3906,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The most common malignant brain cancer in children, growing at the back of the brain near the balance centre."
   },
   {
     "letter": "M",
@@ -3667,7 +3921,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The special cell division that makes sperm and eggs, shuffling the genes so children inherit a fresh mix from each parent."
   },
   {
     "letter": "M",
@@ -3681,7 +3936,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A class of drugs that block a key relay station inside cancer cells, usually paired with another blocker for stronger effect."
   },
   {
     "letter": "M",
@@ -3696,7 +3952,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "An aggressive skin cancer that starts in the cells that give skin its colour — once a near-death sentence, now often treatable."
   },
   {
     "letter": "M",
@@ -3712,7 +3969,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A rare cancer in the lining around the lungs or belly, almost always caused by breathing in asbestos dust decades earlier."
   },
   {
     "letter": "M",
@@ -3726,7 +3984,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A growth switch on the outside of cells that, when broken, drives a small but treatable slice of lung cancers."
   },
   {
     "letter": "M",
@@ -3741,7 +4000,8 @@
     "sources": [
       "NIH",
       "FDA"
-    ]
+    ],
+    "plain": "All the chemistry going on inside your body to turn food into energy — and to break down the drugs you swallow."
   },
   {
     "letter": "M",
@@ -3755,7 +4015,8 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "What's left of a drug after the body has chopped it up — sometimes harmless, sometimes the part that actually does the work."
   },
   {
     "letter": "M",
@@ -3769,7 +4030,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "When cancer escapes its starting spot and sets up new tumours elsewhere in the body — the cause of most cancer deaths."
   },
   {
     "letter": "M",
@@ -3784,7 +4046,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A repair tool inside cells that undoes chemotherapy damage — when it's switched off, brain tumours respond much better to chemo."
   },
   {
     "letter": "M",
@@ -3798,7 +4061,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "The trillions of bacteria and other tiny life forms living on and inside you, now known to affect how well some drugs work."
   },
   {
     "letter": "M",
@@ -3812,7 +4076,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A pattern of DNA copy-errors in a tumour that makes it stand out to the immune system and respond well to immunotherapy."
   },
   {
     "letter": "M",
@@ -3826,7 +4091,8 @@
     "category": "Clinical",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A severe, often disabling headache, usually on one side and throbbing, often with nausea and sensitivity to light or sound."
   },
   {
     "letter": "M",
@@ -3840,7 +4106,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "Tiny scraps of genetic code that act like dimmer switches, quietly turning down which proteins a cell makes."
   },
   {
     "letter": "M",
@@ -3854,7 +4121,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The tiny power plants inside every cell, burning sugar and fat to make the energy your body runs on."
   },
   {
     "letter": "M",
@@ -3868,7 +4136,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "How a cell splits itself into two identical copies — the basic engine behind growth, healing, and uncontrolled cancer growth."
   },
   {
     "letter": "M",
@@ -3882,7 +4151,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "Two or more atoms stuck together — everything from water to aspirin to DNA is made of molecules."
   },
   {
     "letter": "M",
@@ -3896,7 +4166,8 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A single building-block unit that chains together with copies of itself to form a bigger molecule, like beads on a string."
   },
   {
     "letter": "M",
@@ -3912,7 +4183,8 @@
     "category": "Diagnostics",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A scan that uses powerful magnets, not radiation, to make detailed pictures of soft body parts like the brain or joints."
   },
   {
     "letter": "M",
@@ -3927,7 +4199,8 @@
     "sources": [
       "NIH",
       "FDA"
-    ]
+    ],
+    "plain": "A short-lived genetic message that carries a recipe from the DNA library out to the cell's protein factories."
   },
   {
     "letter": "M",
@@ -3944,7 +4217,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "A treatment that hands your cells a temporary instruction sheet telling them to make a specific protein — the same trick behind COVID vaccines."
   },
   {
     "letter": "M",
@@ -3958,7 +4232,8 @@
     "category": "Commercial / Market Access",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A scientist on a drug company's payroll whose job is to talk shop with top doctors — kept strictly separate from the sales team."
   },
   {
     "letter": "M",
@@ -3972,7 +4247,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A blood cancer of immune cells in the bone marrow — once incurable, now manageable for many years through rounds of treatment."
   },
   {
     "letter": "M",
@@ -3987,7 +4263,8 @@
     "category": "Clinical",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "An illness where the immune system attacks the insulation around nerves, scrambling signals between brain and body in flares that come and go."
   },
   {
     "letter": "M",
@@ -4002,7 +4279,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A change in the genetic code — sometimes harmless, sometimes the spark that turns an ordinary cell into a cancer cell."
   },
   {
     "letter": "M",
@@ -4016,7 +4294,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A master control gene for cell growth — overactive in most cancers, and famously something scientists have struggled to make a drug against."
   },
   {
     "letter": "M",
@@ -4031,7 +4310,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A close cousin of a notorious cancer-driver gene — when there's too much of it in childhood nerve tumours, the disease turns aggressive."
   },
   {
     "letter": "N",
@@ -4046,7 +4326,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A cancer that grows behind the nose, often linked to a common virus, and especially frequent in parts of Asia."
   },
   {
     "letter": "N",
@@ -4060,7 +4341,8 @@
     "category": "Commercial / Market Access",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A group of top US cancer hospitals that publishes the rule-book most doctors follow when deciding how to treat cancer."
   },
   {
     "letter": "N",
@@ -4074,7 +4356,8 @@
     "category": "Regulatory",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The US government's main cancer-research agency — paying for studies, running trials, and writing the plain-language definitions doctors lean on."
   },
   {
     "letter": "N",
@@ -4088,7 +4371,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The huge paperwork bundle a company hands the FDA when asking permission to sell a new drug."
   },
   {
     "letter": "N",
@@ -4103,7 +4387,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Messy, accidental cell death caused by injury or starvation, which leaves debris that inflames nearby tissue."
   },
   {
     "letter": "N",
@@ -4117,7 +4402,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Treatment given before the main one, usually before surgery, to shrink a tumor or see if a drug is working."
   },
   {
     "letter": "N",
@@ -4131,7 +4417,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The medical word for any abnormal new growth in the body, whether harmless or cancerous."
   },
   {
     "letter": "N",
@@ -4146,7 +4433,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A family of cancers that grow from hormone-making cells, often slowly, sometimes flooding the body with hormones that cause odd symptoms."
   },
   {
     "letter": "N",
@@ -4161,7 +4449,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A childhood cancer that starts in immature nerve tissue, usually showing up before age five and ranging from mild to very dangerous."
   },
   {
     "letter": "N",
@@ -4176,7 +4465,8 @@
     "category": "Pharmacovigilance",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Nerve damage that causes numbness, tingling, or pain, and is a common, sometimes lasting side effect of certain chemo drugs."
   },
   {
     "letter": "N",
@@ -4190,7 +4480,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "A chemical messenger that nerve cells use to pass signals to each other across the tiny gap between them."
   },
   {
     "letter": "N",
@@ -4205,7 +4496,8 @@
     "category": "Pharmacovigilance",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A shortage of the white blood cells that fight infection, usually caused by chemo, leaving patients open to dangerous bugs."
   },
   {
     "letter": "N",
@@ -4220,7 +4512,8 @@
     "category": "Diagnostics",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A technology that reads millions of pieces of DNA at once, making it cheap and fast to spot the mutations driving a cancer."
   },
   {
     "letter": "N",
@@ -4234,7 +4527,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The huge umbrella covering every lymphoma that isn't Hodgkin lymphoma — wildly varied, from slow-burning to fast and deadly."
   },
   {
     "letter": "N",
@@ -4248,7 +4542,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "An umbrella label for dozens of different cancers of the body's immune-cell network, collectively one of the most common cancers in the US."
   },
   {
     "letter": "N",
@@ -4262,7 +4557,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A study designed to prove a new drug is roughly as good as the existing one — not better, just close enough to be acceptable."
   },
   {
     "letter": "N",
@@ -4277,7 +4573,8 @@
     "sources": [
       "NCI Dictionary of Cancer Terms",
       "NIH"
-    ]
+    ],
+    "plain": "The most common kind of lung cancer, accounting for about 85% of cases and now full of precision-medicine options."
   },
   {
     "letter": "N",
@@ -4291,7 +4588,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A signaling system that helps decide what type of cell each one becomes; broken versions can drive certain leukemias and other cancers."
   },
   {
     "letter": "N",
@@ -4306,7 +4604,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The most common kind of lung cancer, about 85% of cases, and the area transformed most by precision drugs and immunotherapy."
   },
   {
     "letter": "N",
@@ -4321,7 +4620,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A family of genes whose rare misfirings can spark cancers in many different organs and are treatable with two FDA-approved drugs."
   },
   {
     "letter": "N",
@@ -4335,7 +4635,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "One of the chemical 'letters' that spells out DNA and RNA — string millions together and you get a genome."
   },
   {
     "letter": "N",
@@ -4349,7 +4650,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "A cell's command center — the walled-off compartment that holds the chromosomes and where DNA is read and copied."
   },
   {
     "letter": "O",
@@ -4364,7 +4666,8 @@
     "sources": [
       "NIH MedlinePlus",
       "CDC"
-    ]
+    ],
+    "plain": "A long-term condition of carrying too much body fat that raises the risk of many diseases and affects roughly 42% of US adults."
   },
   {
     "letter": "O",
@@ -4378,7 +4681,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A newer lab-made antibody that targets a marker on certain immune cells, designed to be more powerful than its predecessor against some lymphomas."
   },
   {
     "letter": "O",
@@ -4392,7 +4696,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "When a doctor prescribes an approved drug for a condition the FDA hasn't formally signed off on — legal for them, restricted for drugmakers to promote."
   },
   {
     "letter": "O",
@@ -4406,7 +4711,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The first drug of its class — it attacks cancers whose DNA-repair tools are already broken, hitting them so hard they can't survive."
   },
   {
     "letter": "O",
@@ -4420,7 +4726,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Cancer that has spread, but only to a few spots, where treating each one aggressively may give patients years of disease-free time."
   },
   {
     "letter": "O",
@@ -4434,7 +4741,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A gene that, when stuck switched on, pushes cells toward becoming cancer — the flip side of a tumor suppressor."
   },
   {
     "letter": "O",
@@ -4448,7 +4756,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A doctor who specializes in cancer treatment, usually focused on one slice such as medicine, surgery, radiation, or children's care."
   },
   {
     "letter": "O",
@@ -4462,7 +4771,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The branch of medicine devoted to diagnosing and treating cancer — one of the largest and fastest-moving areas of pharma."
   },
   {
     "letter": "O",
@@ -4476,7 +4786,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A trial where everyone — patients, doctors, sponsors — knows who's getting which treatment, with nothing hidden behind a placebo or code."
   },
   {
     "letter": "O",
@@ -4491,7 +4802,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A drug for a rare disease, given special incentives like extra exclusivity and tax breaks to make it worth developing."
   },
   {
     "letter": "O",
@@ -4505,7 +4817,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The share of patients in a trial whose tumors shrink by a set amount — a quick early read on whether a drug is doing anything."
   },
   {
     "letter": "O",
@@ -4519,7 +4832,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The gold-standard measure in cancer trials: how long patients actually live from when treatment starts."
   },
   {
     "letter": "O",
@@ -4534,7 +4848,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A third-generation pill that became the standard first treatment for a common mutation-driven lung cancer."
   },
   {
     "letter": "O",
@@ -4548,7 +4863,8 @@
     "category": "Clinical",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A condition where bones quietly turn thin and fragile, often in older women, raising the risk of breaks from even small falls."
   },
   {
     "letter": "O",
@@ -4563,7 +4879,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The most common bone cancer, mostly hitting teenagers, where treatment has barely changed in decades."
   },
   {
     "letter": "O",
@@ -4577,7 +4894,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "Medicines you can buy off the shelf without a prescription, based on FDA lists of ingredients judged safe for self-care."
   },
   {
     "letter": "O",
@@ -4592,7 +4910,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A women's cancer that often spreads quietly before being caught, where a newer class of drugs has dramatically improved outcomes."
   },
   {
     "letter": "P",
@@ -4606,7 +4925,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The 'guardian of the genome' — a built-in alarm that kills cells with badly damaged DNA, switched off in more than half of all cancers."
   },
   {
     "letter": "P",
@@ -4620,7 +4940,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A chemo drug originally pulled from yew tree bark that jams cancer cells mid-division until they self-destruct."
   },
   {
     "letter": "P",
@@ -4635,7 +4956,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A DNA-repair gene that works hand-in-hand with the famous breast-cancer genes; when broken, it raises breast and pancreatic cancer risk."
   },
   {
     "letter": "P",
@@ -4650,7 +4972,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Care focused on easing symptoms and improving quality of life, useful at any stage of serious illness — not just at the end."
   },
   {
     "letter": "P",
@@ -4665,7 +4988,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "One of the deadliest common cancers, usually caught late, with most patients surviving less than a year despite better chemo options."
   },
   {
     "letter": "P",
@@ -4679,7 +5003,8 @@
     "category": "Clinical",
     "sources": [
       "NIH NIA"
-    ]
+    ],
+    "plain": "A slow-creeping brain disorder where dopamine-making cells die off, leading to tremors, stiffness, and slowed movement."
   },
   {
     "letter": "P",
@@ -4693,7 +5018,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A class of drugs that block a key DNA-repair enzyme, devastating to tumors whose repair tools are already broken."
   },
   {
     "letter": "P",
@@ -4707,7 +5033,8 @@
     "category": "Commercial / Market Access",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The moment a drug's patent runs out and cheap copies flood in, often wiping out most of its sales within a year."
   },
   {
     "letter": "P",
@@ -4721,7 +5048,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "When surgery after pre-treatment finds no living cancer cells left in the removed tissue — the cleanest sign a drug truly worked."
   },
   {
     "letter": "P",
@@ -4735,7 +5063,8 @@
     "category": "Commercial / Market Access",
     "sources": [
       "CMS Glossary"
-    ]
+    ],
+    "plain": "A middleman between drugmakers, insurers, and pharmacies that negotiates prices, decides coverage, and shapes what you pay at the counter."
   },
   {
     "letter": "P",
@@ -4749,7 +5078,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The immune system's 'off-switch' that cancer most often hijacks to hide — and the target of the biggest immunotherapy successes."
   },
   {
     "letter": "P",
@@ -4763,7 +5093,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The deal where drug companies pay the FDA to review their applications on a clock, renewed by Congress every five years."
   },
   {
     "letter": "P",
@@ -4777,7 +5108,8 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "Merck's checkpoint-blocking cancer drug — the best-selling drug in the world and the first approved based on a tumor's genetics, not its location."
   },
   {
     "letter": "P",
@@ -4792,7 +5124,8 @@
     "sources": [
       "NIH",
       "FDA"
-    ]
+    ],
+    "plain": "A short chain of amino acids — basically a tiny protein, usually under fifty links long."
   },
   {
     "letter": "P",
@@ -4808,7 +5141,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "A drug made of a short chain of amino acids — bigger than a pill, smaller than a full antibody — hitting targets neither can reach."
   },
   {
     "letter": "P",
@@ -4823,7 +5157,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Picking treatment based on the specific genetic features of each patient's disease instead of giving everyone the same thing."
   },
   {
     "letter": "P",
@@ -4837,7 +5172,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The stretch of time from starting treatment until the disease clearly gets worse — a faster signal than waiting for survival data."
   },
   {
     "letter": "P",
@@ -4851,7 +5187,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "A 0-to-14 score for how acidic or alkaline something is, where 7 is neutral, lower is sour, higher is soapy."
   },
   {
     "letter": "P",
@@ -4866,7 +5203,8 @@
     "sources": [
       "FDA",
       "EMA"
-    ]
+    ],
+    "plain": "The detective work of watching for safety problems after a drug is on the market, so small warning signs get caught early."
   },
   {
     "letter": "P",
@@ -4881,7 +5219,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "The very first time a new drug is given to people, in small numbers, mainly to check it is safe and find the right dose."
   },
   {
     "letter": "P",
@@ -4896,7 +5235,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "The middle round of human testing, given to people who actually have the disease, to see if the drug really helps them."
   },
   {
     "letter": "P",
@@ -4911,7 +5251,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "The big, expensive final test of a new drug across thousands of patients, designed to prove it works well enough to be approved."
   },
   {
     "letter": "P",
@@ -4925,7 +5266,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The follow-up studies a company runs after a drug is approved, to keep an eye on how it performs in the real world."
   },
   {
     "letter": "P",
@@ -4939,7 +5281,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The three steps a new drug walks through in people: first check safety, then check it works, then prove it works at scale."
   },
   {
     "letter": "P",
@@ -4953,7 +5296,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A swapped piece between two chromosomes that creates a faulty gene driving certain blood cancers, and the first cancer cause ever pinned down."
   },
   {
     "letter": "P",
@@ -4967,7 +5311,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A signal switch inside cells that tells them to grow and stay alive, often jammed on in cancers and a popular drug target."
   },
   {
     "letter": "P",
@@ -4981,7 +5326,8 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "Two sides of how a drug behaves: what the body does to the drug, and what the drug does to the body."
   },
   {
     "letter": "P",
@@ -4995,7 +5341,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A fake pill or shot with no active ingredient, given to one group in a trial so researchers can prove the real drug actually works."
   },
   {
     "letter": "P",
@@ -5009,7 +5356,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A group of older chemotherapy drugs that kill cancer cells by tangling up and damaging their DNA so they can no longer divide."
   },
   {
     "letter": "P",
@@ -5023,7 +5371,8 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A very long molecule made by stringing many tiny identical building blocks together, like beads on a necklace."
   },
   {
     "letter": "P",
@@ -5037,7 +5386,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "All the lab dishes and animal testing a drug must survive before regulators will let it anywhere near a human."
   },
   {
     "letter": "P",
@@ -5052,7 +5402,8 @@
     "sources": [
       "FDA",
       "CDC"
-    ]
+    ],
+    "plain": "A pill or shot taken by HIV-negative people to cut their chance of catching the virus by around 99 percent."
   },
   {
     "letter": "P",
@@ -5066,7 +5417,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The single main question a clinical trial is set up to answer, decided in advance, and what the whole study lives or dies on."
   },
   {
     "letter": "P",
@@ -5080,7 +5432,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The very first place a cancer started growing, before any of it spread elsewhere in the body."
   },
   {
     "letter": "P",
@@ -5094,7 +5447,8 @@
     "category": "Commercial / Market Access",
     "sources": [
       "CMS Glossary"
-    ]
+    ],
+    "plain": "The paperwork battle where a doctor must convince an insurance company that a specific drug is needed before they will pay for it."
   },
   {
     "letter": "P",
@@ -5108,7 +5462,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The most common cancer in men, often slow-moving and found through a blood test, but sometimes aggressive and life-threatening."
   },
   {
     "letter": "P",
@@ -5122,7 +5477,8 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A clever new drug design that drags a disease-causing protein over to the cell's trash crew, which then chews it up."
   },
   {
     "letter": "P",
@@ -5136,7 +5492,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The tiny molecular machines that do most of the work in your body, built from chains of amino acid building blocks folded into shapes."
   },
   {
     "letter": "P",
@@ -5150,7 +5507,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The detailed rulebook for a clinical trial that spells out exactly who joins, what they take, when, and how results are measured."
   },
   {
     "letter": "P",
@@ -5165,7 +5523,8 @@
     "category": "Clinical",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A long-term skin condition where the immune system goes haywire and makes skin cells pile up into thick, scaly red patches."
   },
   {
     "letter": "P",
@@ -5179,7 +5538,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A natural brake gene that holds back cell growth, and when it breaks, cells multiply without restraint and tumors take hold."
   },
   {
     "letter": "Q",
@@ -5193,7 +5553,8 @@
     "category": "Manufacturing",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The lab tests every batch of a drug must pass before leaving the factory, to make sure it is pure, strong, and consistent."
   },
   {
     "letter": "Q",
@@ -5207,7 +5568,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A measure of how much a treatment helps or harms a patient's everyday wellbeing, beyond simply living longer."
   },
   {
     "letter": "Q",
@@ -5222,7 +5584,8 @@
     "category": "Pharmacovigilance",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A heart-rhythm measurement on an electrocardiogram that flags when a drug might be making the heartbeat dangerously off-beat."
   },
   {
     "letter": "Q",
@@ -5237,7 +5600,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A breast surgery that removes about a quarter of the breast around a tumor, leaving most of the breast intact."
   },
   {
     "letter": "Q",
@@ -5251,7 +5615,8 @@
     "category": "Diagnostics",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A lab method that copies a specific stretch of DNA over and over so you can measure exactly how much was there to start with."
   },
   {
     "letter": "Q",
@@ -5266,7 +5631,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Cells that are alive but parked, not dividing, which lets them dodge many chemotherapy drugs that only attack dividing cells."
   },
   {
     "letter": "R",
@@ -5281,7 +5647,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Using carefully aimed high-energy beams to scramble the DNA inside cancer cells so they cannot survive or multiply."
   },
   {
     "letter": "R",
@@ -5295,7 +5662,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A family of relay proteins inside cells that pass growth signals along, and when one gets stuck on, cancers like melanoma can take off."
   },
   {
     "letter": "R",
@@ -5309,7 +5677,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A family of genes that act like a starter button for cell growth, jammed in the on position in about a third of all cancers."
   },
   {
     "letter": "R",
@@ -5323,7 +5692,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A natural brake protein that decides when cells are allowed to divide; lose it, and the brakes come off, helping many cancers grow."
   },
   {
     "letter": "R",
@@ -5337,7 +5707,8 @@
     "category": "Digital Health",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "Information about how drugs actually perform out in everyday life, pulled from medical records and insurance data, not tidy trials."
   },
   {
     "letter": "R",
@@ -5351,7 +5722,8 @@
     "category": "Commercial / Market Access",
     "sources": [
       "CMS Glossary"
-    ]
+    ],
+    "plain": "A behind-the-scenes refund a drugmaker pays back to insurers later, in return for getting their drug onto the approved list."
   },
   {
     "letter": "R",
@@ -5365,7 +5737,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A protein on or inside a cell that catches incoming signals, like a docking station, and most drugs work by latching onto one."
   },
   {
     "letter": "R",
@@ -5380,7 +5753,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "When a cancer that seemed to be gone comes back, either at the original spot or somewhere new in the body."
   },
   {
     "letter": "R",
@@ -5395,7 +5769,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A disease that simply refuses to respond to a treatment from the start, unlike a relapsed one that worked first and then stopped."
   },
   {
     "letter": "R",
@@ -5409,7 +5784,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The world of government agencies, like the FDA, that decide whether a drug can be sold and exactly what its label can say."
   },
   {
     "letter": "R",
@@ -5424,7 +5800,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A welcome stretch where cancer signs shrink or vanish, though some hidden disease may still be lurking out of sight."
   },
   {
     "letter": "R",
@@ -5438,7 +5815,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A special FDA safety plan attached to risky drugs, requiring extra steps like monitoring or registries before patients can get them."
   },
   {
     "letter": "R",
@@ -5453,7 +5831,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "When a treatment that used to work stops working, usually because the disease has evolved a clever way around the drug."
   },
   {
     "letter": "R",
@@ -5467,7 +5846,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A docking-station protein on cells that, when broken or fused to another gene, drives certain thyroid and lung cancers."
   },
   {
     "letter": "R",
@@ -5483,7 +5863,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A rare eye cancer that almost always shows up in very young children, caused by losing both copies of a key brake gene."
   },
   {
     "letter": "R",
@@ -5497,7 +5878,8 @@
     "category": "Clinical",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A disease where the immune system mistakenly attacks the lining of joints, causing pain, swelling, and eventual damage to hands and feet."
   },
   {
     "letter": "R",
@@ -5511,7 +5893,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The tiny molecular factory inside every cell that reads genetic instructions and builds proteins one amino acid at a time."
   },
   {
     "letter": "R",
@@ -5525,7 +5908,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A messenger molecule that copies instructions from DNA and carries them to the parts of the cell that build proteins."
   },
   {
     "letter": "R",
@@ -5542,7 +5926,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "A natural off-switch cells use to silence specific genes, which drugmakers now borrow to dial down disease-causing proteins."
   },
   {
     "letter": "R",
@@ -5556,7 +5941,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A docking-station protein that, in rare cases, fuses with other genes and drives a small slice of lung and other cancers."
   },
   {
     "letter": "R",
@@ -5570,7 +5956,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The structural RNA that makes up most of a ribosome, the cell's protein-building machine, and actually does the chemistry inside it."
   },
   {
     "letter": "S",
@@ -5585,7 +5972,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A broad family of cancers that start in connective tissues like bone, muscle, or fat, rather than in glands or skin."
   },
   {
     "letter": "S",
@@ -5599,7 +5987,8 @@
     "category": "Clinical",
     "sources": [
       "NIH NIMH"
-    ]
+    ],
+    "plain": "A serious brain illness that distorts thinking and perception, often bringing hallucinations and delusions, usually first appearing in young adults."
   },
   {
     "letter": "S",
@@ -5614,7 +6003,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A fast-growing and aggressive form of lung cancer, almost always tied to a long history of smoking, that spreads quickly through the body."
   },
   {
     "letter": "S",
@@ -5629,7 +6019,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The treatment doctors turn to when the first one stops working, usually with smaller chances of success than the original."
   },
   {
     "letter": "S",
@@ -5643,7 +6034,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The most common kind of testicular cancer, and one of medicine's biggest success stories, with cure rates above 95 percent."
   },
   {
     "letter": "S",
@@ -5658,7 +6050,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A retirement state for cells — they stop dividing as a guard against cancer, but the stuck cells can leak signals that age the body."
   },
   {
     "letter": "S",
@@ -5674,7 +6067,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "A pill for diabetes that lowers blood sugar by making the kidneys flush extra sugar out into urine, and quietly protects the heart too."
   },
   {
     "letter": "S",
@@ -5689,7 +6083,8 @@
     "sources": [
       "NIH",
       "FDA"
-    ]
+    ],
+    "plain": "An inherited disease where a tiny genetic typo bends red blood cells into rigid crescents that clog vessels and cause searing pain attacks."
   },
   {
     "letter": "S",
@@ -5703,7 +6098,8 @@
     "category": "Pharmacovigilance",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "Anything a drug does that you didn't want it to — from mild nausea to serious organ damage — running alongside its intended job."
   },
   {
     "letter": "S",
@@ -5718,7 +6114,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "Tiny snippets of genetic code used as drugs that switch off a single faulty gene, telling cells to stop making the protein causing trouble."
   },
   {
     "letter": "S",
@@ -5732,7 +6129,8 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "An old-school chemical drug small enough to swallow as a pill — most of what's in your medicine cabinet falls into this category."
   },
   {
     "letter": "S",
@@ -5746,7 +6144,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The aggressive flavour of lung cancer, tightly tied to smoking, that grows fast and has long resisted anything beyond chemotherapy."
   },
   {
     "letter": "S",
@@ -5760,7 +6159,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The treatment doctors normally give for a condition — the benchmark a new drug has to outperform before regulators will approve it."
   },
   {
     "letter": "S",
@@ -5775,7 +6175,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A genetic typo that happens inside a single body cell during life, passed only to its descendants — not inherited, not passed to children."
   },
   {
     "letter": "S",
@@ -5790,7 +6191,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A cancer of the flat, scale-like cells that line the skin, lungs, throat and other surfaces — actually a family of quite different diseases."
   },
   {
     "letter": "S",
@@ -5805,7 +6207,8 @@
     "sources": [
       "FDA",
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "The most-prescribed family of antidepressants — they boost mood by stopping brain cells from sucking the chemical serotonin back out of circulation."
   },
   {
     "letter": "S",
@@ -5820,7 +6223,8 @@
     "sources": [
       "FDA",
       "ICH"
-    ]
+    ],
+    "plain": "The testing that proves a drug still works and stays safe through its shelf life under real storage conditions like heat, light, and packaging."
   },
   {
     "letter": "S",
@@ -5834,7 +6238,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A number from 1 to 4 saying how far cancer has spread — the biggest clue to what treatment is needed and how things may go."
   },
   {
     "letter": "S",
@@ -5849,7 +6254,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "The treatment currently considered best practice for a condition — the bar a new drug must clear, or at least match with fewer side effects."
   },
   {
     "letter": "S",
@@ -5865,7 +6271,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "The cholesterol-lowering pills millions take every day — they block the liver from building cholesterol and cut heart attack risk substantially."
   },
   {
     "letter": "S",
@@ -5879,7 +6286,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "A blank-slate cell that can both copy itself and grow into any specialised tissue — the body's raw material for skin, blood, bone, everything."
   },
   {
     "letter": "S",
@@ -5893,7 +6301,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Swapping out damaged blood-making cells in the bone marrow for healthy ones, either the patient's own or from a matched donor."
   },
   {
     "letter": "S",
@@ -5907,7 +6316,8 @@
     "category": "Commercial / Market Access",
     "sources": [
       "CMS Glossary"
-    ]
+    ],
+    "plain": "An insurance rule that forces you to try a cheaper drug first, and only covers the pricier one if the cheaper option fails."
   },
   {
     "letter": "S",
@@ -5923,7 +6333,8 @@
     "sources": [
       "NIH MedlinePlus",
       "CDC"
-    ]
+    ],
+    "plain": "A brain emergency where blood flow gets blocked or a vessel bursts, killing brain cells within minutes — every second of delay means more damage."
   },
   {
     "letter": "S",
@@ -5937,7 +6348,8 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "An injection given just under the skin into a fatty layer — usually self-administered at home instead of an IV at the clinic."
   },
   {
     "letter": "S",
@@ -5951,7 +6363,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A quicker measurement, like tumour shrinkage, used as a stand-in for the real goal of living longer — letting drugs get approved faster."
   },
   {
     "letter": "S",
@@ -5966,7 +6379,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A drug strategy harmless to healthy cells but deadly to cancer cells with a specific weakness — a precise one-two punch."
   },
   {
     "letter": "T",
@@ -5981,7 +6395,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A white blood cell that hunts and kills infected or cancerous cells — the star player in modern cancer immunotherapy."
   },
   {
     "letter": "T",
@@ -5995,7 +6410,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A drug aimed at a specific quirk a cancer has — like a particular mutation — leaving healthy cells without that quirk mostly alone."
   },
   {
     "letter": "T",
@@ -6009,7 +6425,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The molecular antenna a T-cell uses to spot what's foreign or cancerous — now also being engineered in the lab as a cancer therapy."
   },
   {
     "letter": "T",
@@ -6023,7 +6440,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "One of the most curable cancers, even when it has spread, thanks to a platinum-based chemotherapy regimen developed decades ago."
   },
   {
     "letter": "T",
@@ -6038,7 +6456,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "Blood tests that measure how much drug is in a patient — making sure they're getting enough to work without crossing into toxic territory."
   },
   {
     "letter": "T",
@@ -6052,7 +6471,8 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The safety gap between the dose that helps and the dose that harms — wider gap means safer drug, narrow gap means careful dosing."
   },
   {
     "letter": "T",
@@ -6066,7 +6486,8 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The Goldilocks range of doses where a drug works well without causing too much harm — the sweet spot drug developers aim for."
   },
   {
     "letter": "T",
@@ -6080,7 +6501,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Cancer of the butterfly-shaped gland in the neck — usually slow-growing and very treatable, though a few rare types are aggressive."
   },
   {
     "letter": "T",
@@ -6094,7 +6516,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Immune cells that have already crawled into a tumour on their own — grown in a lab and infused back as cancer therapy."
   },
   {
     "letter": "T",
@@ -6108,7 +6531,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A pill that jams a particular signalling switch cancer cells rely on to keep growing — one of oncology's biggest success stories."
   },
   {
     "letter": "T",
@@ -6122,7 +6546,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A tally of how many mutations a tumour carries — high counts make the cancer easier for the immune system to spot and attack."
   },
   {
     "letter": "T",
@@ -6136,7 +6561,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The neighbourhood around a tumour — immune cells, blood vessels, and signals — that powerfully shapes how the cancer grows and reacts to treatment."
   },
   {
     "letter": "T",
@@ -6151,7 +6577,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A breast cancer that lacks all three of the usual drug targets, leaving doctors with fewer easy options and historically forcing reliance on chemotherapy."
   },
   {
     "letter": "T",
@@ -6166,7 +6593,8 @@
     "sources": [
       "FDA",
       "NIH"
-    ]
+    ],
+    "plain": "An injected drug that blocks an inflammation-driving signal in the body, calming overactive immune attacks in conditions like arthritis."
   },
   {
     "letter": "T",
@@ -6180,7 +6608,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The global cancer scorecard combining tumour size, lymph node spread, and distant metastases into a stage from one to four."
   },
   {
     "letter": "T",
@@ -6194,7 +6623,8 @@
     "category": "Pharmacovigilance",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The study of how a drug can hurt — what it damages, at what doses, and how — a critical safety check before testing in people."
   },
   {
     "letter": "T",
@@ -6208,7 +6638,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The most commonly broken gene in cancer — its job is to order damaged cells to self-destruct, and without it bad cells keep dividing."
   },
   {
     "letter": "T",
@@ -6222,7 +6653,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The first step of using a gene — cells copy a stretch of DNA into a portable RNA message that can travel and be read elsewhere."
   },
   {
     "letter": "T",
@@ -6236,7 +6668,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "The second step of using a gene — tiny cell machines read the RNA message and string together amino acids to build the protein it specifies."
   },
   {
     "letter": "T",
@@ -6250,7 +6683,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Research that carries discoveries from the lab bench to a patient's bedside — turning interesting biology into actual treatments."
   },
   {
     "letter": "T",
@@ -6264,7 +6698,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A chromosomal accident where two chromosomes break and swap pieces, sometimes welding two genes together in a way that drives cancer."
   },
   {
     "letter": "T",
@@ -6279,7 +6714,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The first antibody drug for breast cancer — a precision-medicine landmark that transformed an aggressive subtype into a treatable one."
   },
   {
     "letter": "T",
@@ -6294,7 +6730,8 @@
     "sources": [
       "NIH",
       "FDA"
-    ]
+    ],
+    "plain": "The form most fat is stored in — a glycerol backbone with three fatty acid tails — and a cardiovascular risk factor separate from cholesterol."
   },
   {
     "letter": "T",
@@ -6308,7 +6745,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A family of cell receptors whose rare malfunctions drive cancers across many tissues, and which a handful of approved drugs shut down dramatically well."
   },
   {
     "letter": "T",
@@ -6322,7 +6760,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
-    ]
+    ],
+    "plain": "A little adapter molecule that ferries each amino acid to the cell's protein assembly line, matching it to the right slot in the genetic code."
   },
   {
     "letter": "T",
@@ -6336,7 +6775,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The fact that cancer cells inside a single tumour aren't identical twins — they carry different mutations and react differently to drugs."
   },
   {
     "letter": "T",
@@ -6350,7 +6790,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A gene that normally puts the brakes on cell growth — when it breaks or goes missing, cells lose a critical safeguard against becoming cancer."
   },
   {
     "letter": "T",
@@ -6364,7 +6805,8 @@
     "category": "Clinical",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A long-term condition where the body either makes too little insulin or stops listening to it, letting blood sugar drift dangerously high."
   },
   {
     "letter": "U",
@@ -6380,7 +6822,8 @@
     "sources": [
       "NIH",
       "FDA"
-    ]
+    ],
+    "plain": "An inflammatory bowel disease that causes chronic raw sores and inflammation in the colon and rectum — distinct from but close cousin to Crohn's."
   },
   {
     "letter": "U",
@@ -6394,7 +6837,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Tumours carrying a huge number of mutations — so many that the immune system has plenty of abnormal flags to spot and attack."
   },
   {
     "letter": "U",
@@ -6408,7 +6852,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A trial design that screens patients for different mutations and matches each to the drug aimed at their specific mutation — many drugs, one disease."
   },
   {
     "letter": "U",
@@ -6422,7 +6867,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Cancer cells that have lost the look of the tissue they came from — a sign of aggressive, fast-growing disease that's hard to pin down."
   },
   {
     "letter": "U",
@@ -6436,7 +6882,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A metastatic cancer where doctors can find the spread but not the original source tumour — making treatment harder to target."
   },
   {
     "letter": "U",
@@ -6450,7 +6897,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A tumour surgeons can't safely cut out — usually because it's too big, too close to vital structures, or has already spread too widely."
   },
   {
     "letter": "U",
@@ -6464,7 +6912,8 @@
     "category": "Manufacturing",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The two halves of making a biotech drug: growing the living cells that make it, then purifying the drug out of them."
   },
   {
     "letter": "U",
@@ -6478,7 +6927,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The most common type of bladder cancer, starting in the cells that line the inside of the bladder."
   },
   {
     "letter": "U",
@@ -6492,7 +6942,8 @@
     "category": "Manufacturing",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The independent US body that sets the official quality recipe every drug sold in America has to meet."
   },
   {
     "letter": "U",
@@ -6508,7 +6959,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A rare kind of melanoma that starts in the eye instead of the skin, and behaves very differently from its skin cousin."
   },
   {
     "letter": "V",
@@ -6524,7 +6976,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A shot that teaches the immune system to recognise and attack a specific enemy before it can do real harm."
   },
   {
     "letter": "V",
@@ -6538,7 +6991,8 @@
     "category": "Diagnostics",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "Proving through careful, repeated testing that something actually works the way people claim it does, not just by lucky chance."
   },
   {
     "letter": "V",
@@ -6553,7 +7007,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A signal that tells the body to grow new blood vessels, which tumours hijack to feed themselves; blocking it can starve cancer."
   },
   {
     "letter": "V",
@@ -6567,7 +7022,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The docking spot on cells that catches the blood-vessel-growth signal; blocking it cuts off a tumour's food supply."
   },
   {
     "letter": "V",
@@ -6582,7 +7038,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The first pill that could shrink skin cancer by switching off a specific broken gene driving the disease."
   },
   {
     "letter": "V",
@@ -6596,7 +7053,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A blood-cancer drug that flips back on the self-destruct switch cancer cells had managed to disable."
   },
   {
     "letter": "V",
@@ -6611,7 +7069,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A gene whose normal job is keeping cells in check; when broken, it lets kidney tumours and other growths take off."
   },
   {
     "letter": "V",
@@ -6626,7 +7085,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "An old family of cancer drugs originally squeezed from a Madagascar flower, used in chemotherapy to stop cells from dividing."
   },
   {
     "letter": "V",
@@ -6640,7 +7100,8 @@
     "category": "Diagnostics",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "How much virus is sloshing around in a blood sample, used to tell whether an antiviral drug is actually winning the fight."
   },
   {
     "letter": "V",
@@ -6655,7 +7116,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The first pill for advanced skin cancers of a kind that used to be very hard to treat once they spread."
   },
   {
     "letter": "V",
@@ -6669,7 +7131,8 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "How widely a drug spreads through the body after it's swallowed or injected, which shapes how big a dose needs to be."
   },
   {
     "letter": "W",
@@ -6684,7 +7147,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A rare slow-growing blood cancer that floods the bloodstream with an oversized antibody, mostly caused by a single faulty gene."
   },
   {
     "letter": "W",
@@ -6698,7 +7162,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The odd way cancer cells burn sugar inefficiently even with plenty of oxygen around, fuelling their fast, hungry growth."
   },
   {
     "letter": "W",
@@ -6712,7 +7177,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The waiting gap between stopping one drug and starting another, to let the first one fully leave the body first."
   },
   {
     "letter": "W",
@@ -6727,7 +7193,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A cancer-trial chart where each patient is a bar showing how much their tumour grew or shrank, sorted worst to best."
   },
   {
     "letter": "W",
@@ -6742,7 +7209,8 @@
     "category": "Clinical",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "The body's army of infection-fighting blood cells, watched closely during chemotherapy because most treatments knock the numbers down."
   },
   {
     "letter": "W",
@@ -6756,7 +7224,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "Working out a drug dose from how much the patient weighs, rather than giving everyone the same amount."
   },
   {
     "letter": "W",
@@ -6770,7 +7239,8 @@
     "category": "Regulatory",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The United Nations agency that sets global health rules, names new drugs, and writes the world's disease classification book."
   },
   {
     "letter": "W",
@@ -6784,7 +7254,8 @@
     "category": "Diagnostics",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A test that reads only the working parts of your DNA, where almost all disease-causing mistakes show up, skipping the rest."
   },
   {
     "letter": "W",
@@ -6799,7 +7270,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The normal, unbroken version of a gene that most healthy people carry, in contrast to the mutated versions found in disease."
   },
   {
     "letter": "W",
@@ -6813,7 +7285,8 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The sweet spot for a drug's dose, big enough to work but small enough not to cause too much harm."
   },
   {
     "letter": "W",
@@ -6828,7 +7301,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A gene needed for building healthy kidneys, now also tracked as a warning sign in certain leukaemias and tested as a cancer-vaccine target."
   },
   {
     "letter": "X",
@@ -6843,7 +7317,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "Inherited conditions caused by faults on the X chromosome, which hit boys harder because they only have one copy to begin with."
   },
   {
     "letter": "X",
@@ -6857,7 +7332,8 @@
     "category": "Diagnostics",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A quick, cheap medical photo using a beam of radiation, still the first imaging step for many lung and bone checks."
   },
   {
     "letter": "X",
@@ -6872,7 +7348,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Growing human tumour samples inside mice so researchers can test new cancer drugs on real human cancer before trying them in people."
   },
   {
     "letter": "X",
@@ -6887,7 +7364,8 @@
     "category": "Pharmacovigilance",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "Dry, flaky skin that can show up as a side effect of certain cancer pills, sometimes painful enough to affect daily life."
   },
   {
     "letter": "X",
@@ -6902,7 +7380,8 @@
     "category": "Pharmacovigilance",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "Dry mouth, a common side effect of head-and-neck radiation that makes eating, talking, and even sleeping uncomfortable."
   },
   {
     "letter": "X",
@@ -6916,7 +7395,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A protein that switches off a cell's self-destruct button, helping cancer cells survive treatments that should be killing them."
   },
   {
     "letter": "X",
@@ -6931,7 +7411,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Standard radiation treatment beamed at a tumour from a machine outside the body, the most common form of cancer radiation."
   },
   {
     "letter": "Y",
@@ -6945,7 +7426,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A radioactive metal attached to tiny beads or antibodies, then delivered straight to a tumour so the radiation kills it from inside."
   },
   {
     "letter": "Y",
@@ -6959,7 +7441,8 @@
     "category": "Manufacturing",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "Single-celled fungi, the same family as brewer's yeast, engineered as tiny factories to produce drugs like insulin."
   },
   {
     "letter": "Y",
@@ -6973,7 +7456,8 @@
     "category": "Pharmacovigilance",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "The UK's system for letting doctors and patients report nasty side effects of medicines so regulators can spot dangerous patterns."
   },
   {
     "letter": "Y",
@@ -6988,7 +7472,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "The first drug of its kind to take the brakes off the immune system and let it attack cancer, launched in 2011 for advanced melanoma."
   },
   {
     "letter": "Y",
@@ -7002,7 +7487,8 @@
     "category": "Manufacturing",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "How much usable drug a factory actually produces compared to the theoretical maximum, a major driver of the final price."
   },
   {
     "letter": "Y",
@@ -7017,7 +7503,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A rare cancer mostly seen in young children, growing from very early cell types and trackable through a marker protein in the blood."
   },
   {
     "letter": "Y",
@@ -7032,7 +7519,8 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "Cancer patients aged 15 to 39, whose tumours and reactions to treatment often differ from both children and older adults."
   },
   {
     "letter": "Y",
@@ -7046,7 +7534,8 @@
     "category": "Mechanism",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A rare metal whose radioactive form is harnessed to deliver radiation right inside tumours, especially in the liver."
   },
   {
     "letter": "Z",
@@ -7060,7 +7549,8 @@
     "category": "Clinical",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A number showing how far a single measurement sits from the average, useful for spotting unusually high or low values."
   },
   {
     "letter": "Z",
@@ -7074,7 +7564,8 @@
     "category": "Diagnostics",
     "sources": [
       "NCI Dictionary of Cancer Terms"
-    ]
+    ],
+    "plain": "A protein normally found in immune cells; when it pops up on certain leukaemia cells, it usually means a tougher, faster-moving disease."
   },
   {
     "letter": "Z",
@@ -7088,7 +7579,8 @@
     "category": "Mechanism",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "A pattern where the body clears a drug at a fixed rate no matter how much is present, so doses can dangerously pile up."
   },
   {
     "letter": "Z",
@@ -7102,7 +7594,8 @@
     "category": "Manufacturing",
     "sources": [
       "FDA"
-    ]
+    ],
+    "plain": "An electrical charge on the surface of tiny drug particles, used to check whether a liquid medicine will stay smooth or clump up."
   },
   {
     "letter": "Z",
@@ -7116,7 +7609,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A protein shape that grips DNA at exact spots, used as an early tool for editing genes before newer methods like CRISPR took over."
   },
   {
     "letter": "Z",
@@ -7130,7 +7624,8 @@
     "category": "Diagnostics",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "The clear ring around an antibiotic on a lab dish where bacteria can't grow, a simple eye-test of how well the drug kills bugs."
   },
   {
     "letter": "Z",
@@ -7144,7 +7639,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "A disease that jumps from animals into people, like Ebola, rabies, and the virus behind COVID-19."
   },
   {
     "letter": "Z",
@@ -7159,7 +7655,8 @@
     "category": "Clinical",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "Shingles, a painful rash caused when the old chickenpox virus wakes up years later, especially common in older or weakened patients."
   },
   {
     "letter": "Z",
@@ -7173,7 +7670,8 @@
     "category": "Mechanism",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "Whether the two copies of a gene you inherit from each parent match exactly, or differ from one another."
   },
   {
     "letter": "Z",
@@ -7187,6 +7685,7 @@
     "category": "Mechanism",
     "sources": [
       "NIH MedlinePlus"
-    ]
+    ],
+    "plain": "An off-switch version of an enzyme that the body keeps on standby, only switching it on at the right time and place."
   }
 ]
