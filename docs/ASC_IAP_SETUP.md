@@ -8,8 +8,9 @@ product identifiers below MUST match exactly — they are hardcoded in
 
 **Monetization model**: every industry ships with letters **A–D free** as a
 taster. Letters E–Z gated by the per-industry IAP at $2.99. The master
-"All Industries" IAP at $14.99 unlocks E–Z across every current and future
-industry.
+"All Industries" IAP at $9.99 unlocks E–Z across every current and future
+industry — priced at ~3.3× the single-industry tier so multi-industry
+users see a clear bundle discount vs. buying 2+ industries individually.
 
 | Product ID | Reference Name | Display Name | Price (US) | Family Sharing |
 |---|---|---|---|---|
@@ -17,7 +18,7 @@ industry.
 | `com.jamesbrowne.JBGlossary.ai` | AI | Unlock the rest of AI | $2.99 (Tier 3) | On |
 | `com.jamesbrowne.JBGlossary.law` | Law | Unlock the rest of Law | $2.99 (Tier 3) | On |
 | `com.jamesbrowne.JBGlossary.finance` | Finance | Unlock the rest of Finance | $2.99 (Tier 3) | On |
-| `com.jamesbrowne.JBGlossary.all` | All Industries | Unlock All Industries | $14.99 (Tier 15) | On |
+| `com.jamesbrowne.JBGlossary.all` | All Industries | Unlock All Industries | $9.99 (Tier 10) | On |
 
 ## Descriptions (used on the App Store IAP listing)
 
@@ -39,7 +40,7 @@ purchase, no subscription.
 
 **All Industries** — Unlock the rest (E–Z) of every industry in JB
 Glossary, current and future. One purchase covers your current and future
-devices via Apple ID. Best value if you'd otherwise buy more than 4
+devices via Apple ID. Best value if you'd otherwise buy more than 3
 individual industries.
 
 ## Review notes (for App Review)
@@ -48,7 +49,7 @@ individual industries.
 > "taster" — roughly 25–29% of each industry's terms are available without
 > any purchase (~750 terms total across the 4 industries). Letters E–Z in
 > each industry are gated behind a one-time non-consumable IAP at $2.99
-> per industry. The "Unlock All Industries" $14.99 IAP grants the E–Z
+> per industry. The "Unlock All Industries" $9.99 IAP grants the E–Z
 > entitlement across every current and future industry. There are no
 > subscriptions; every purchase is one-time. "Restore Purchases" is
 > available from every paywall sheet, satisfying 3.1.1.
@@ -62,7 +63,7 @@ individual industries.
 The project ships with `Configuration.storekit` and the scheme is
 configured to use it (`scheme.storeKitConfiguration` in `project.yml`).
 Running on the simulator from Xcode resolves the four products against
-the local config, so the paywall sheet shows real prices ($2.99 / $14.99)
+the local config, so the paywall sheet shows real prices ($2.99 / $9.99)
 and `Product.purchase()` simulates a transaction.
 
 Sandbox testing on a real device requires an App Store Connect Sandbox

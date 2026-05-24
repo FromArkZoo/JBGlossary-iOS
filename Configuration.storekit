@@ -73,7 +73,7 @@
       "type" : "NonConsumable"
     },
     {
-      "displayPrice" : "14.99",
+      "displayPrice" : "9.99",
       "familyShareable" : true,
       "internalID" : "JBG_ALL",
       "localizations" : [
