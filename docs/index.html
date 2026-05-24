@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>JB Pharma — Decoding pharma jargon</title>
+<title>JB Glossary — Pharma, AI, Finance & Law</title>
 <style>
   :root {
     --cream: #F5EFE6;
@@ -12,7 +12,7 @@
     --ink: #1B1814;
     --ink-light: #5C5450;
     --ink-faint: #8E847B;
-    --accent: #8B2E1F;
+    --accent: #8B6F1A;
   }
   * { box-sizing: border-box; }
   body {
@@ -81,23 +81,72 @@
     font-weight: 600;
     color: var(--ink);
   }
+  .industries {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+    margin: 16px 0 4px;
+  }
+  .industries .ind {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .industries .ind .name {
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 2px;
+  }
+  .industries .ind .count {
+    color: var(--ink-light);
+    font-size: 14px;
+    font-style: italic;
+  }
 </style>
 </head>
 <body>
 <main>
-  <span class="tag">JB Pharma</span>
-  <h1>Decoding <em>pharma jargon</em>.</h1>
-  <p class="lead">A generalist's reference for the language of pharmaceuticals and healthcare — for news, earnings calls, regulatory filings, and conferences.</p>
+  <span class="tag">JB Glossary</span>
+  <h1>The terms that shape <em>your field</em>.</h1>
+  <p class="lead">A professional reference for the language of Pharma, AI, Finance, and Law — for the meeting you're in, the call you're on, the note you're reading.</p>
 
   <div class="card">
-    <h2>What it is</h2>
+    <h2>Four industries, one app</h2>
+    <div class="industries">
+      <div class="ind"><div class="name">Pharma</div><div class="count">499 terms</div></div>
+      <div class="ind"><div class="name">AI</div><div class="count">785 terms</div></div>
+      <div class="ind"><div class="name">Finance</div><div class="count">626 terms</div></div>
+      <div class="ind"><div class="name">Law</div><div class="count">836 terms</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Every term, three ways</h2>
     <ul>
-      <li>499 entries across regulatory, commercial, mechanism, and the foundational biology and chemistry every reader needs.</li>
-      <li>Every entry written for orientation — a one-sentence editorial lede, then context drawn from FDA, NIH, NCI, and other authoritative sources.</li>
-      <li>Cross-references throughout the text — tap a linked term to jump to it.</li>
-      <li>Filter by indication, category, or curated lens (Policy, Basics).</li>
-      <li>Star anything you want to remember; share favorites by email or message.</li>
+      <li><strong>In plain English</strong> — a single jargon-free sentence for someone new to the field.</li>
+      <li><strong>The snappy definition</strong> — a precise one-liner for the working professional.</li>
+      <li><strong>The full detail</strong> — a comprehensive explanation with cross-linked related terms and sources.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Designed for lookup, not browsing</h2>
+    <ul>
+      <li>Industry-specific filters — oncology, regulation, ML, asset class, area of law.</li>
+      <li>Cross-references between related terms become tappable links.</li>
+      <li>Search and favorites work across every unlocked industry.</li>
       <li>No accounts, no tracking, no data collection. Everything stays on your device.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Free &amp; paid</h2>
+    <ul>
+      <li>Letters A–D are free in every industry — roughly 750 terms total as a taster.</li>
+      <li>Unlock the rest (E–Z) of any single industry with a one-time in-app purchase.</li>
+      <li>Or unlock all four (plus future industries) with the master upgrade.</li>
+      <li>One-time purchases. No subscriptions.</li>
     </ul>
   </div>
 
@@ -107,7 +156,7 @@
   </div>
 
   <footer>
-    © 2026 James Browne. JB Pharma is reference material, not medical advice.
+    © 2026 James Browne. JB Glossary is reference material — not medical, legal, or financial advice.
   </footer>
 </main>
 </body>

@@ -53,7 +53,7 @@
 		2F7744E4F7F2C1ED299CBD81 /* PharmaBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmaBrand.swift; sourceTree = "<group>"; };
 		38DC63501638BCC01B7FF226 /* glossary_pharma.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = glossary_pharma.json; sourceTree = "<group>"; };
 		390EDAD665B04AC01355E561 /* Lockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lockable.swift; sourceTree = "<group>"; };
-		4031A2549BC0200FD7AC4470 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		4031A2549BC0200FD7AC4470 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		427B99CE8C1F228786FA03CE /* IndustryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndustryPickerView.swift; sourceTree = "<group>"; };
 		43F8BD5F9CADAB36C6C7C5E6 /* LetterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterView.swift; sourceTree = "<group>"; };
 		5693A67B3D73F2D64EA12D91 /* ContentRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRouter.swift; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		D40E3085A21D0C678FE9E4DD /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		E5A56A473B2C0C6F71E894CC /* FilterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSheet.swift; sourceTree = "<group>"; };
 		F72F36455A190B3E1F17E963 /* PGSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGSearchBar.swift; sourceTree = "<group>"; };
-		FA81E1A9E59C4885A271E3FE /* JBGlossary.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = JBGlossary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA81E1A9E59C4885A271E3FE /* JBGlossary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBGlossary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBFE8CECC6298B8FF6E75186 /* AIBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIBrand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -481,6 +481,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 278RL79DB5;
 				INFOPLIST_FILE = Targets/Pharma/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "JB Glossary";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -500,6 +502,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 278RL79DB5;
 				INFOPLIST_FILE = Targets/Pharma/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "JB Glossary";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
