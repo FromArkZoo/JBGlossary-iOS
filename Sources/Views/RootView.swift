@@ -123,6 +123,12 @@ struct RootView: View {
                let term = store.allTerms.first(where: { $0.term.caseInsensitiveCompare(target) == .orderedSame }) {
                 path = [.term(term)]
             }
+            // Test hook: when JBG_TEST_PAYWALL is set, immediately present the
+            // paywall sheet for the current industry. Used for App Store
+            // screenshot capture. Safe to ship — env var is never set in prod.
+            if ProcessInfo.processInfo.environment["JBG_TEST_PAYWALL"] != nil {
+                showingPaywall = true
+            }
         }
     }
 
