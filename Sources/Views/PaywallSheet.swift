@@ -45,7 +45,7 @@ struct PaywallSheet: View {
         VStack(alignment: .leading, spacing: 6) {
             HStack(alignment: .firstTextBaseline, spacing: 6) {
                 Text("JB")
-                    .font(PGFont.displayBold)
+                    .font(PGFont.jbStamp)
                     .foregroundStyle(PGColors.ink)
                 Text(config.brand.titleBody)
                     .font(PGFont.displayItalic)

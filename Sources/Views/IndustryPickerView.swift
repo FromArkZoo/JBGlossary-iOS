@@ -50,7 +50,7 @@ struct IndustryPickerView: View {
         VStack(alignment: .leading, spacing: 4) {
             HStack(alignment: .firstTextBaseline, spacing: 6) {
                 Text("JB")
-                    .font(PGFont.displayBold)
+                    .font(PGFont.jbStamp)
                     .foregroundStyle(PGColors.ink)
                 Text("Glossary")
                     .font(PGFont.displayItalic)
@@ -75,7 +75,7 @@ private struct IndustryTile: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             Text(config.brand.titleBody)
-                .font(.system(size: 28, weight: .regular, design: .serif).italic())
+                .font(PGFont.displayItalic)
                 .foregroundStyle(config.brand.primaryColor)
                 .lineLimit(1)
                 .minimumScaleFactor(0.7)

@@ -2,8 +2,12 @@ import SwiftUI
 
 enum PGFont {
     // Serif — system .serif maps to New York on iOS, the editorial direction's stand-in for Source Serif 4.
-    static let displayBold       = Font.system(size: 28, weight: .bold,     design: .serif)
-    static let displayItalic     = Font.system(size: 28, weight: .regular,  design: .serif).italic()
+    /// "JB" stamp — Didot Italic regular weight, matching the app-icon family. Used in
+    /// SplashView, EditorialHeader, PaywallSheet, IndustryPickerView. Use the explicit
+    /// PostScript face name so SwiftUI always picks the real italic glyphs instead of
+    /// synthesizing italic from the upright cut.
+    static let jbStamp           = Font.custom("Didot-Italic", size: 28)
+    static let displayItalic     = Font.custom("Didot-Italic", size: 28)
     static let termTitle         = Font.system(size: 38, weight: .bold,     design: .serif)
     static let termFullItalic    = Font.system(size: 18, weight: .regular,  design: .serif).italic()
     static let snappyItalic      = Font.system(size: 19, weight: .medium,   design: .serif).italic()

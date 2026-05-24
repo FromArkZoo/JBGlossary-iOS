@@ -8,7 +8,7 @@ struct EditorialHeader: View {
         VStack(alignment: .leading, spacing: 4) {
             HStack(alignment: .firstTextBaseline, spacing: 6) {
                 Text(brand.titlePrefix)
-                    .font(PGFont.displayBold)
+                    .font(PGFont.jbStamp)
                     .foregroundStyle(PGColors.ink)
                 Text(brand.titleBody)
                     .font(PGFont.displayItalic)
