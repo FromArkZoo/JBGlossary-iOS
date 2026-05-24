@@ -1,4 +1,4 @@
-"""Render the JB Law app icon — single 'L' on cream, deep law-book green."""
+"""Render the JB Finance app icon — single 'F' on cream, royal purple."""
 from PIL import Image
 from pathlib import Path
 
@@ -7,16 +7,16 @@ from jb_stamp import (
     apply_jb_stamp, render_main_glyph,
 )
 
-ACCENT = (31, 77, 58)            # #1F4D3A deep law-book green
-MIRROR_NAME = "law.png"
+ACCENT = (74, 44, 122)           # #4A2C7A royal purple
+MIRROR_NAME = "finance.png"
 
-OUT = Path(__file__).parent.parent / "Targets" / "Law" / "Resources" / \
+OUT = Path(__file__).parent.parent / "Targets" / "Finance" / "Resources" / \
       "Assets.xcassets" / "AppIcon.appiconset" / "icon-1024.png"
 
 
 def render():
     img = Image.new("RGB", (CANVAS_SIZE, CANVAS_SIZE), SUITE_BG)
-    render_main_glyph(img, "L", ACCENT)
+    render_main_glyph(img, "F", ACCENT)
     apply_jb_stamp(img)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     img.save(OUT, "PNG")
