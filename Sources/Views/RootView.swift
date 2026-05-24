@@ -114,6 +114,16 @@ struct RootView: View {
             }
             return .systemAction
         })
+        .task {
+            // Test hook: when JBG_TEST_NAVIGATE=<term name> env var is set at launch,
+            // auto-push that term onto the nav stack so QA can land on it without
+            // tapping through the UI. Safe to ship — env var is never set in prod.
+            if let target = ProcessInfo.processInfo.environment["JBG_TEST_NAVIGATE"],
+               !target.isEmpty,
+               let term = store.allTerms.first(where: { $0.term.caseInsensitiveCompare(target) == .orderedSame }) {
+                path = [.term(term)]
+            }
+        }
     }
 
     private var shouldShowEditorialHeader: Bool {
