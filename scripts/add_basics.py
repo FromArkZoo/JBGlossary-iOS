@@ -9,13 +9,14 @@ from pathlib import Path
 GLOSSARY = Path(__file__).parent.parent / "PharmaGlossary" / "Resources" / "glossary.json"
 
 
-def entry(term, full, snappy, detail, sources, indications=None):
+def entry(term, full, snappy, detail, sources, indications=None, plain=""):
     """Build an entry dict. Letter is derived from the term's first character."""
     letter = term[0].upper()
     return {
         "letter": letter,
         "term": term,
         "full": full,
+        "plain": plain,
         "snappy": snappy,
         "detail": detail,
         "indications": indications or ["General"],

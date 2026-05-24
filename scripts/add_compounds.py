@@ -16,11 +16,12 @@ from pathlib import Path
 GLOSSARY = Path(__file__).parent.parent / "PharmaGlossary" / "Resources" / "glossary.json"
 
 
-def entry(term, full, snappy, detail, sources, indications, category="Mechanism"):
+def entry(term, full, snappy, detail, sources, indications, category="Mechanism", plain=""):
     return {
         "letter": term[0].upper(),
         "term": term,
         "full": full,
+        "plain": plain,
         "snappy": snappy,
         "detail": detail,
         "indications": indications,

@@ -4,6 +4,10 @@ struct Term: Codable, Identifiable, Hashable {
     let letter: String
     let term: String
     let full: String
+    /// Total-novice tier — one jargon-free sentence written for someone who has
+    /// never heard of the term. Empty for terms that haven't been backfilled yet.
+    /// See `docs/clarity-policy.md` for authoring rules.
+    let plain: String
     let snappy: String
     let detail: String
     let indications: [String]
@@ -13,6 +17,7 @@ struct Term: Codable, Identifiable, Hashable {
     var id: String { "\(letter)::\(term)" }
 
     var hasFull: Bool { !full.isEmpty }
+    var hasPlain: Bool { !plain.isEmpty }
     var hasSnappy: Bool { !snappy.isEmpty }
     var hasCategory: Bool { !category.isEmpty }
     var hasSources: Bool { !sources.isEmpty }
@@ -20,9 +25,30 @@ struct Term: Codable, Identifiable, Hashable {
     var shareText: String {
         var s = term
         if hasFull { s += " (\(full))" }
+        if hasPlain { s += "\n\n\(plain)" }
         if hasSnappy { s += "\n\n\(snappy)" }
         s += "\n\n\(detail)"
         return s
+    }
+
+    // Custom decoder so existing glossary JSONs (which predate the `plain` field)
+    // decode successfully — missing `plain` defaults to "". Swift still
+    // synthesises encode(to:) from the CodingKeys enum below.
+    enum CodingKeys: String, CodingKey {
+        case letter, term, full, plain, snappy, detail, indications, category, sources
+    }
+
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        letter = try c.decode(String.self, forKey: .letter)
+        term = try c.decode(String.self, forKey: .term)
+        full = try c.decodeIfPresent(String.self, forKey: .full) ?? ""
+        plain = try c.decodeIfPresent(String.self, forKey: .plain) ?? ""
+        snappy = try c.decodeIfPresent(String.self, forKey: .snappy) ?? ""
+        detail = try c.decode(String.self, forKey: .detail)
+        indications = try c.decodeIfPresent([String].self, forKey: .indications) ?? []
+        category = try c.decodeIfPresent(String.self, forKey: .category) ?? ""
+        sources = try c.decodeIfPresent([String].self, forKey: .sources) ?? []
     }
 
     /// "Source: [FDA](https://www.fda.gov), [NIH](https://www.nih.gov)".
@@ -59,7 +85,9 @@ final class GlossaryStore: ObservableObject {
     @Published private(set) var letters: [String] = []
     @Published private(set) var favorites: Set<String> = []
 
-    var detailCache: [String: AttributedString] = [:]
+    /// Cache of hyperlinked AttributedStrings, keyed by "<term.id>::<field>" where
+    /// field ∈ {plain, snappy, detail}. Prewarmed off the main thread in `load()`.
+    var attributedCache: [String: AttributedString] = [:]
 
     let industryID: IndustryID
 
@@ -144,26 +172,34 @@ final class GlossaryStore: ObservableObject {
             self.allTerms = terms
             self.byLetter = Dictionary(grouping: terms, by: { $0.letter })
             self.letters = byLetter.keys.sorted()
-            prewarmDetailCache(terms: terms)
+            prewarmAttributedCache(terms: terms)
         } catch {
             assertionFailure("Failed to decode \(Brand.current.dataResource).json: \(error)")
         }
     }
 
-    /// Build every term's `attributedDetail` off the main thread, then bulk-merge
-    /// into the cache so the first link tap doesn't pay the regex cost.
-    private func prewarmDetailCache(terms: [Term]) {
+    /// Build the hyperlinked AttributedString for every (term, field) pair off
+    /// the main thread, then bulk-merge into the cache. The regex pass is the
+    /// dominant cost of pushing a TermDetailView; prewarming makes repeat
+    /// navigations effectively free across all three tiers.
+    private func prewarmAttributedCache(terms: [Term]) {
         let urlScheme = Brand.current.urlScheme
         Task.detached(priority: .utility) { [weak self] in
             var built: [String: AttributedString] = [:]
-            built.reserveCapacity(terms.count)
+            built.reserveCapacity(terms.count * 3)
             for term in terms {
-                built[term.id] = Self.computeAttributedDetail(for: term, against: terms, urlScheme: urlScheme)
+                if term.hasPlain {
+                    built["\(term.id)::plain"] = Self.computeAttributedText(term.plain, currentTermId: term.id, allTerms: terms, urlScheme: urlScheme)
+                }
+                if term.hasSnappy {
+                    built["\(term.id)::snappy"] = Self.computeAttributedText(term.snappy, currentTermId: term.id, allTerms: terms, urlScheme: urlScheme)
+                }
+                built["\(term.id)::detail"] = Self.computeAttributedText(term.detail, currentTermId: term.id, allTerms: terms, urlScheme: urlScheme)
             }
             await MainActor.run {
                 guard let self else { return }
-                for (id, attr) in built where self.detailCache[id] == nil {
-                    self.detailCache[id] = attr
+                for (key, attr) in built where self.attributedCache[key] == nil {
+                    self.attributedCache[key] = attr
                 }
             }
         }

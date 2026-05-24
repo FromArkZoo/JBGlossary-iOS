@@ -38,7 +38,7 @@ VALID_INDICATIONS = {
 }
 
 
-def entry(term, full, snappy, detail, sources, indications=None, category="Instruments"):
+def entry(term, full, snappy, detail, sources, indications=None, category="Instruments", plain=""):
     assert category in VALID_CATEGORIES, f"Unknown category '{category}' for term '{term}'"
     indications = indications or ["Cross-asset"]
     for ind in indications:
@@ -47,6 +47,7 @@ def entry(term, full, snappy, detail, sources, indications=None, category="Instr
         "letter": term[0].upper(),
         "term": term,
         "full": full,
+        "plain": plain,
         "snappy": snappy,
         "detail": detail,
         "indications": indications,

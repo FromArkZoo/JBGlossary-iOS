@@ -21,6 +21,9 @@ struct TermDetailView: View {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 14) {
                         header
+                        if term.hasPlain {
+                            plainEnglish
+                        }
                         if term.hasSnappy {
                             snappy
                         }
@@ -85,20 +88,62 @@ struct TermDetailView: View {
         }
     }
 
+    /// The "headline" line — visually prominent (italic, accent, vertical bar).
+    /// When the term has a `plain` line it occupies this slot; otherwise the
+    /// `snappy` line gets promoted into the same prominent register.
+    private var plainEnglish: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            Text("IN PLAIN ENGLISH")
+                .font(PGFont.eyebrow)
+                .tracking(2)
+                .foregroundStyle(PGColors.inkLight)
+            Text(store.attributedPlain(for: term))
+                .font(PGFont.snappyItalic)
+                .foregroundStyle(PGColors.accent)
+                .fixedSize(horizontal: false, vertical: true)
+                .padding(.leading, 14)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .overlay(alignment: .leading) {
+                    Rectangle()
+                        .fill(PGColors.accent)
+                        .frame(width: 2)
+                }
+        }
+        .padding(.top, 2)
+        .padding(.bottom, 6)
+    }
+
+    /// Snappy in TWO registers:
+    /// - When `plain` exists, snappy is the supporting precise one-liner —
+    ///   smaller, ink-light, no bar (the headline role is taken by plain).
+    /// - When `plain` is empty, snappy IS the headline and keeps the italic
+    ///   accent + vertical bar treatment so legacy entries still look right.
+    @ViewBuilder
     private var snappy: some View {
-        Text(term.snappy)
-            .font(PGFont.snappyItalic)
-            .foregroundStyle(PGColors.accent)
-            .fixedSize(horizontal: false, vertical: true)
-            .padding(.leading, 14)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .overlay(alignment: .leading) {
-                Rectangle()
-                    .fill(PGColors.accent)
-                    .frame(width: 2)
-            }
-            .padding(.top, 2)
-            .padding(.bottom, 6)
+        if term.hasPlain {
+            Text(store.attributedSnappy(for: term))
+                .font(PGFont.termFullItalic)
+                .foregroundStyle(PGColors.inkLight)
+                .fixedSize(horizontal: false, vertical: true)
+                .padding(.leading, 14)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding(.top, 2)
+                .padding(.bottom, 6)
+        } else {
+            Text(store.attributedSnappy(for: term))
+                .font(PGFont.snappyItalic)
+                .foregroundStyle(PGColors.accent)
+                .fixedSize(horizontal: false, vertical: true)
+                .padding(.leading, 14)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .overlay(alignment: .leading) {
+                    Rectangle()
+                        .fill(PGColors.accent)
+                        .frame(width: 2)
+                }
+                .padding(.top, 2)
+                .padding(.bottom, 6)
+        }
     }
 
     private var definition: some View {

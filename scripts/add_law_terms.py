@@ -42,7 +42,7 @@ VALID_INDICATIONS = {
 }
 
 
-def entry(term, full, snappy, detail, sources, indications=None, category="Contract"):
+def entry(term, full, snappy, detail, sources, indications=None, category="Contract", plain=""):
     assert category in VALID_CATEGORIES, f"Unknown category '{category}' for term '{term}'"
     indications = indications or ["General"]
     for ind in indications:
@@ -51,6 +51,7 @@ def entry(term, full, snappy, detail, sources, indications=None, category="Contr
         "letter": term[0].upper(),
         "term": term,
         "full": full,
+        "plain": plain,
         "snappy": snappy,
         "detail": detail,
         "indications": indications,
