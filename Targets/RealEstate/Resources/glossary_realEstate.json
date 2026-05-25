@@ -1,6 +1,23 @@
 [
   {
     "letter": "A",
+    "term": "Abstract of Title",
+    "full": "",
+    "plain": "A condensed legal history of a property — every owner, Lien, and transfer back through time.",
+    "snappy": "Condensed legal history of a property's ownership and encumbrances.",
+    "detail": "An abstract is a chronological summary of every recorded document affecting a property's Title — Deeds, Liens, easements, mortgages, court judgments — back to the original land grant or a statutory cut-off. The abstract feeds a title search, which a title company or attorney examines before issuing Title Insurance. In US states where the practice still dominates (the Midwest and parts of the South), the abstract is updated and re-certified at each sale.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "ALTA",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Acceleration Clause",
     "full": "",
     "plain": "A clause that lets the Lender demand the full Mortgage balance immediately if the borrower breaks the loan terms.",
@@ -32,6 +49,57 @@
     "sources": [
       "CFPB",
       "Freddie Mac"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "ADU",
+    "full": "Accessory Dwelling Unit",
+    "plain": "A small secondary home on the same Lot as a main house — a granny flat, garage conversion, or backyard cottage.",
+    "snappy": "Secondary independent dwelling on the same Lot as a primary residence.",
+    "detail": "ADUs include detached cottages, garage conversions, basement apartments, and attached additions with their own kitchen and entrance. Once banned by most US Zoning codes, ADUs were broadly legalised in California (2017+) and Oregon (2017+) as a housing-supply response. ADUs typically share Property Tax with the main parcel but generate rental income or accommodate aging parents. Local rules govern minimum Lot size, parking requirements, and short-term rental restrictions.",
+    "indications": [
+      "Residential",
+      "Affordable"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "HUD",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Affidavit",
+    "full": "",
+    "plain": "A written statement of fact signed under oath — used in real estate to certify identity, marital status, or property condition.",
+    "snappy": "Sworn written statement of fact, signed and notarised.",
+    "detail": "Affidavits appear throughout a real estate Closing: the affidavit of Title (seller swears the Title is clean), the survey affidavit (seller swears no boundary changes since the last survey), affidavits of identity, and affidavits of marital status. Each is notarised and recorded. False statements expose the signer to perjury charges. Title Insurance often relies on affidavits to cover risks that aren't visible from public records alone.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "Cornell LII",
+      "ALTA"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Affordability",
+    "full": "",
+    "plain": "Whether a typical household can actually afford homes in a given market — measured against income and Mortgage payment.",
+    "snappy": "Whether typical households can afford homes in a market.",
+    "detail": "The NAR Housing Affordability Index measures whether the median-income household can qualify for a Mortgage on the median-priced home. An index of 100 means median household income exactly meets the qualifying income for a 20% Down Payment Mortgage. The 2021-2023 rate spike crashed affordability nationwide — the index fell below 100 for the first time since the 1980s in many metros, locking many would-be buyers out of ownership entirely.",
+    "indications": [
+      "Residential",
+      "Cross-sector"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "NAR",
+      "Federal Reserve"
     ]
   },
   {
@@ -199,6 +267,24 @@
   },
   {
     "letter": "A",
+    "term": "Arm's Length Transaction",
+    "full": "",
+    "plain": "A sale between two unrelated parties acting in their own interests — the standard assumption for market value.",
+    "snappy": "Sale between unrelated parties, each acting in their own interest.",
+    "detail": "Arm's length is the assumption underlying market-value Appraisal and Comp selection. Sales between family members, between an entity and its principals, or under coercion (Foreclosure, short sale, distress) are not arm's length and don't establish market value cleanly. Lenders and Appraisers scrutinise non-arm's-length transactions: the IRS may treat below-market family sales as gifts, and the Lender may underwrite differently when buyer and seller share interests.",
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Cross-sector"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "IRS",
+      "Appraisal Institute"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "ARV",
     "full": "After-Repair Value",
     "plain": "An investor's estimate of what a fixer-upper will be worth after renovation, used to size the purchase budget.",
@@ -243,6 +329,22 @@
     "sources": [
       "VA",
       "FHA"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Backup Offer",
+    "full": "",
+    "plain": "A second-place purchase offer that activates if the first deal falls through.",
+    "snappy": "Second-position offer that takes effect if the primary contract dies.",
+    "detail": "When a seller has multiple offers and accepts one, runners-up can sign a backup-offer contract that becomes binding automatically if the primary deal terminates within a stated window. Backup buyers usually post smaller Earnest Money since their offer may never activate. Sellers value strong backup offers because they discipline the primary buyer's behaviour — knowing a backup is waiting reduces the buyer's leverage in inspection renegotiations.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
     ]
   },
   {
@@ -328,6 +430,42 @@
   },
   {
     "letter": "B",
+    "term": "Building Code",
+    "full": "",
+    "plain": "Local rules setting minimum construction standards — structural, fire, electrical, plumbing.",
+    "snappy": "Local minimum-standards rules for building construction and renovation.",
+    "detail": "Building Codes are adopted by states and modified by local jurisdictions to govern construction safety, materials, and energy efficiency. The International Code Council's I-Codes are the most widely adopted base. Permits are required for work that affects code-regulated systems; inspections verify compliance at each stage. Construction outside Building Code creates liability for the owner at resale and may prevent issuance of a Certificate of Occupancy.",
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Development"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "HUD",
+      "NAHB"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Building Permit",
+    "full": "",
+    "plain": "Local-government authorisation to build, remodel, or demolish — required for most structural work.",
+    "snappy": "Government approval required before construction work begins.",
+    "detail": "Building Permits force construction to comply with Building Code via inspection at each stage (foundation, framing, mechanical, final). Unpermitted work creates resale problems: buyers' lenders may refuse to finance, Insurers may deny claims, and the local authority can force retroactive permitting or demolition. Unpermitted square footage typically gets excluded from Appraised Value. Most jurisdictions require permits for additions, structural changes, electrical and plumbing work, and pool installation.",
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Development"
+    ],
+    "category": "Development",
+    "sources": [
+      "NAHB",
+      "HUD"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "Buy-Down",
     "full": "",
     "plain": "Paying upfront fees to permanently or temporarily reduce a Mortgage's interest rate.",
@@ -339,6 +477,21 @@
     "category": "Financing & Lending",
     "sources": [
       "CFPB"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Buyer Representation Agreement",
+    "full": "",
+    "plain": "A written contract between a buyer and a Buyer's Agent setting out the agent's duties and the buyer's Commission obligations.",
+    "snappy": "Written contract defining a Buyer's Agent's duties and Commission terms.",
+    "detail": "Buyer Representation Agreements became mandatory before MLS access in late 2024 following the NAR settlement. The agreement specifies: how long the relationship runs, the geographic and property scope, the Buyer's Agent's fiduciary duties, and exactly what Commission the buyer agrees to pay (cash or seller-funded) on a successful purchase. Before the settlement, buy-side Commission was implicit in the MLS listing; now it's a direct negotiation.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
     ]
   },
   {
@@ -376,6 +529,23 @@
   },
   {
     "letter": "C",
+    "term": "Capital Gain",
+    "full": "",
+    "plain": "The profit when you sell a property for more than what you paid plus improvements — taxed at federal long-term rates after one year.",
+    "snappy": "Profit on sale of property; long-term rates apply after one year held.",
+    "detail": "Capital gain equals sale price minus selling costs minus cost basis (purchase price plus capitalised improvements). Held over a year, long-term capital-gains rates apply (0%, 15%, or 20% federal depending on income, plus state). The Section 121 primary-residence exclusion shelters up to $250K of gain ($500K married) for owners who lived in the property 2 of the past 5 years. Investment property uses a 1031 Exchange to defer gain into the next property.",
+    "indications": [
+      "Residential",
+      "Investment",
+      "Cross-sector"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Carrying Costs",
     "full": "",
     "plain": "The monthly bills of owning a property — Mortgage, Property Tax, insurance, utilities, upkeep.",
@@ -409,6 +579,40 @@
   },
   {
     "letter": "C",
+    "term": "CC&Rs",
+    "full": "Covenants, Conditions, and Restrictions",
+    "plain": "The rule book of a HOA or planned community — covers what owners can do with their property and what they pay.",
+    "snappy": "Recorded private rules binding every owner in a HOA community.",
+    "detail": "CC&Rs are recorded with the county and run with the land — every successor owner is bound. They typically govern paint colours, fencing, parking, pet limits, short-term-rental rules, and HOA dues. CC&Rs sit alongside the HOA bylaws (governance rules) and articles (entity formation). Buyers should review CC&Rs during Due Diligence — restrictions on use, satellite dishes, or rentals can be deal-breakers. Some old CC&Rs contain unenforceable discriminatory language that survives on paper but cannot be enforced.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "NAR",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Certificate of Occupancy",
+    "full": "CO",
+    "plain": "The official local-government sign-off that a building is safe to live in — required before owners can move in.",
+    "snappy": "Local sign-off declaring a building safe and legal to occupy.",
+    "detail": "A CO is issued by the local building department after all required inspections pass — typically structural, electrical, plumbing, mechanical, and final. New construction cannot legally be occupied without one. Renovations that change the use class (converting commercial to residential) usually require a new CO. Title companies often condition Closing on the CO's issuance for new builds. Some older properties operate under grandfathered occupancy without a modern CO.",
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Development"
+    ],
+    "category": "Development",
+    "sources": [
+      "HUD",
+      "NAHB"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "CFPB",
     "full": "Consumer Financial Protection Bureau",
     "plain": "The federal agency that regulates consumer mortgages and writes the rules Lenders must follow when lending to homebuyers.",
@@ -421,6 +625,23 @@
     "category": "Law & Regulation",
     "sources": [
       "CFPB"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Chain of Title",
+    "full": "",
+    "plain": "The full historical sequence of Deed transfers showing how the Title moved from owner to owner.",
+    "snappy": "Sequence of recorded Deeds linking current owner back through prior owners.",
+    "detail": "An unbroken chain of Title — each owner properly conveying via recorded Deed to the next — is what Title Insurance verifies before issuing a policy. A break (a missing recorded transfer, an unprobated will, a forged Deed) creates a cloud on Title that must be cured by quiet-title action, affidavit, or curative document. Chain-of-Title problems are the single most common source of Title Insurance claims.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "ALTA",
+      "Cornell LII"
     ]
   },
   {
@@ -503,6 +724,21 @@
   },
   {
     "letter": "C",
+    "term": "Common Area",
+    "full": "",
+    "plain": "Parts of a Condo or planned community that everyone owns and shares — lobbies, pools, roofs, hallways.",
+    "snappy": "Shared portions of a Condo or planned community.",
+    "detail": "Common Areas in a Condo include hallways, lobbies, elevators, the roof, exterior walls, mechanical rooms, and amenities. Each unit owner holds an undivided fractional interest in the Common Area alongside fee-simple ownership of their unit. The HOA maintains Common Areas and funds them via owner dues. Limited Common Areas (a balcony, parking space, storage unit) are common areas assigned to one unit's exclusive use.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Comp",
     "full": "Comparable Sale",
     "plain": "A recently sold home similar to yours, used as evidence of what your home is worth.",
@@ -552,6 +788,24 @@
   },
   {
     "letter": "C",
+    "term": "Construction Loan",
+    "full": "",
+    "plain": "A short-term loan that funds the building of a new property — draws cash as the work progresses.",
+    "snappy": "Short-term loan disbursing in stages to fund construction.",
+    "detail": "Construction Loans fund building rather than purchase. Funds release in draws against completed milestones (foundation, framing, drywall, completion), each verified by Inspector visits. Typically 12-24 month terms with interest-only payments on the drawn balance. Higher interest rates than purchase Mortgages reflect construction risk. Construction-to-permanent (one-time-close) loans convert automatically to a standard Mortgage on completion. Builders use construction loans too — separate from end-buyer financing.",
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Development"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "MBA",
+      "NAHB"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Contingency",
     "full": "",
     "plain": "A clause in a purchase contract that lets the buyer back out without losing the Earnest Money Deposit if something specific goes wrong.",
@@ -584,6 +838,23 @@
   },
   {
     "letter": "C",
+    "term": "Cost Segregation",
+    "full": "",
+    "plain": "A tax study that accelerates Depreciation deductions on a building by reclassifying parts of it as shorter-life assets.",
+    "snappy": "Engineering study accelerating Depreciation on commercial property assets.",
+    "detail": "A cost-segregation study breaks a building's purchase price into components with different IRS Depreciation lives — the building shell stays at 27.5 (residential) or 39 (commercial) years, but carpets, fixtures, parking lot, and landscaping qualify for 5-, 7-, or 15-year schedules. Front-loading Depreciation boosts after-tax cash flow in the early years of ownership. Most useful for buildings over $500K. Recapture at sale claws some benefit back.",
+    "indications": [
+      "Commercial",
+      "Multifamily",
+      "Investment"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Counteroffer",
     "full": "",
     "plain": "A seller's modified response to a buyer's offer — usually a different price or terms.",
@@ -596,6 +867,22 @@
     "category": "Transactions",
     "sources": [
       "NAR"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Covenant",
+    "full": "",
+    "plain": "A binding promise written into a Deed or HOA rules — about how the property can be used.",
+    "snappy": "Recorded promise restricting how a property is used; runs with the land.",
+    "detail": "Covenants run with the land — every successor owner is bound regardless of whether they were a party to the original agreement. CC&Rs are the most common bundle of covenants in residential subdivisions and condo communities. Older Deeds occasionally contain racially restrictive covenants — these have been federally unenforceable since the 1948 Supreme Court ruling in Shelley v. Kraemer but often survive on paper as historical artefacts.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII"
     ]
   },
   {
@@ -615,6 +902,22 @@
   },
   {
     "letter": "D",
+    "term": "Days on Market",
+    "full": "DOM",
+    "plain": "How long a property has been listed for sale — a key signal of pricing and demand.",
+    "snappy": "Calendar days since a property hit the market.",
+    "detail": "DOM tracks calendar days from MLS listing date to contract acceptance. Hot markets see medians under 7 days; slow markets stretch to 60-90+. Days on Market is one of the most-watched market-temperature signals — alongside list-to-sale ratio and inventory months supply. Re-listing tricks (cancel and relist to reset DOM) are widely used and partially defeated by MLS rules tracking cumulative DOM across re-listings.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "Deed",
     "full": "",
     "plain": "The legal document that transfers ownership of a property from seller to buyer — signed at Closing and filed with the county.",
@@ -628,6 +931,23 @@
     "category": "Title & Ownership",
     "sources": [
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "Deed in Lieu",
+    "full": "Deed in Lieu of Foreclosure",
+    "plain": "When a struggling borrower hands the property back to the Lender voluntarily instead of going through Foreclosure.",
+    "snappy": "Voluntary transfer of Deed to Lender to avoid Foreclosure.",
+    "detail": "A deed in lieu is a workout: rather than fight the Foreclosure process, the borrower deeds the property directly to the Lender in exchange for cancellation of the Mortgage debt. Faster and cheaper than Foreclosure for both sides, and less damaging to the borrower's Credit Score. The Lender must accept — they may refuse if junior Liens or other encumbrances complicate Title. Tax: forgiven debt can be taxable income, though some federal exclusions apply.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "HUD"
     ]
   },
   {
@@ -660,6 +980,56 @@
     "category": "Financing & Lending",
     "sources": [
       "CFPB"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "Depreciation",
+    "full": "",
+    "plain": "The yearly tax deduction investors take to reflect that a building wears out — even though most rise in market value.",
+    "snappy": "Annual tax deduction for the wear-and-tear of an income property.",
+    "detail": "The IRS treats every commercial building as wearing out over 39 years and every residential rental over 27.5 years (the land underneath isn't depreciable). The annual deduction reduces taxable income from rent without an actual cash expense — a major reason real-estate investment is tax-favoured. Cost Segregation accelerates the timeline by reclassifying components. Depreciation taken is recaptured at 25% federal when the property is sold, unless rolled into a 1031 Exchange.",
+    "indications": [
+      "Commercial",
+      "Multifamily",
+      "Investment",
+      "Residential"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "Designated Agency",
+    "full": "",
+    "plain": "When buyer and seller use different Agents inside the same brokerage — the alternative to Dual Agency.",
+    "snappy": "Separate Agents inside one brokerage representing buyer and seller.",
+    "detail": "Designated Agency lets two Agents in the same brokerage represent opposing parties in a single transaction. Each owes fiduciary duty to their client; the Broker walks a neutral line above them. Adopted in many states as a less-conflicted alternative to Dual Agency. Critics argue Broker-level loyalty conflicts persist; defenders argue agent-level separation provides meaningful client advocacy. Real estate Commission economics typically remain unchanged from a single-brokerage transaction.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "Disclosure",
+    "full": "",
+    "plain": "Written information the seller must give the buyer about known defects, hazards, or material facts.",
+    "snappy": "Seller's required written statement of known property issues.",
+    "detail": "Most US states require sellers to fill out a disclosure form covering known issues — roof leaks, foundation cracks, mould, neighbour disputes, pending litigation, lead paint (mandatory federal disclosure for pre-1978 homes), and similar. The standard is what the seller actually knew, not what they should have noticed. Buyers who later discover an undisclosed material defect can sue for damages. Inspector findings supplement disclosure but don't replace it.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR",
+      "Cornell LII"
     ]
   },
   {
@@ -810,6 +1180,40 @@
     ]
   },
   {
+    "letter": "E",
+    "term": "Eviction",
+    "full": "",
+    "plain": "The legal process Landlords use to remove a Tenant who has stopped paying rent or breached the Lease.",
+    "snappy": "Court-ordered removal of a Tenant from a leased property.",
+    "detail": "Eviction is a court process — Landlords cannot self-help by changing locks, removing belongings, or shutting off utilities. Steps: written notice (3-30 days depending on state and grounds), filing an unlawful-detainer action, court hearing, judgment, and sheriff-enforced removal. Total time runs from 3 weeks (fast states like Texas) to 6+ months (slow states like New York). Tenants can typically cure non-payment evictions by paying owed rent before judgment.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "Cornell LII",
+      "HUD"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "Fair Housing Act",
+    "full": "",
+    "plain": "The 1968 federal law banning housing discrimination on race, colour, religion, national origin, sex, disability, and family status.",
+    "snappy": "1968 federal law banning housing discrimination on protected classes.",
+    "detail": "The Fair Housing Act prohibits discrimination in renting, selling, financing, and advertising housing based on race, colour, religion, national origin, sex, disability, and family status (the seven federal protected classes). Many states and cities add classes — sexual orientation, gender identity, source of income, military status. HUD's Office of Fair Housing investigates complaints. Lenders, Landlords, and real estate Agents face civil and criminal liability for violations.",
+    "indications": [
+      "Residential",
+      "Public Sector"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "HUD",
+      "Cornell LII"
+    ]
+  },
+  {
     "letter": "F",
     "term": "Fannie Mae",
     "full": "Federal National Mortgage Association",
@@ -944,6 +1348,23 @@
   },
   {
     "letter": "G",
+    "term": "Grantor",
+    "full": "",
+    "plain": "The party transferring ownership in a Deed — typically the seller.",
+    "snappy": "Party conveying property in a Deed transaction; the seller.",
+    "detail": "Grantor and grantee are the technical Deed-language terms. The grantor signs the Deed transferring Title; the grantee receives. In a standard purchase, grantor = seller and grantee = buyer. Other contexts: a parent gifting property to children, where the parent is the grantor; a Trust receiving property, where the prior owner is the grantor. The Deed itself must clearly identify both parties to be valid for recording.",
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Cross-sector"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "G",
     "term": "GSE",
     "full": "Government-Sponsored Enterprise",
     "plain": "A private company with a federal charter — Fannie Mae and Freddie Mac are the two big housing GSEs.",
@@ -1036,6 +1457,22 @@
     "sources": [
       "Federal Reserve",
       "Freddie Mac"
+    ]
+  },
+  {
+    "letter": "J",
+    "term": "Jumbo Loan",
+    "full": "",
+    "plain": "A Mortgage too big to be sold to Fannie Mae or Freddie Mac — used for higher-priced homes above Conforming Loan limits.",
+    "snappy": "Mortgage above the Conforming Loan limit set by FHFA.",
+    "detail": "Jumbo loans exceed the annual FHFA Conforming Loan limit ($766,550 in most counties for 2024, higher in designated high-cost areas). Lenders either hold jumbos on balance sheet or sell to private investors via non-agency MBS. Underwriting is tighter — typically requiring 20%+ Down Payment, higher Credit Score thresholds, and larger reserves. interest rates on jumbos are usually only slightly above Conforming rates, occasionally below.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "FHFA",
+      "MBA"
     ]
   },
   {
@@ -1275,6 +1712,21 @@
   },
   {
     "letter": "P",
+    "term": "Points",
+    "full": "",
+    "plain": "Upfront fees you can pay the Lender — discount points lower your rate; origination points pay the Lender's setup costs.",
+    "snappy": "Upfront Mortgage fees; one point = 1% of loan amount.",
+    "detail": "Points come in two types. Discount Points are prepaid interest that buys down the interest rate (typically 0.25% rate reduction per point, but the exact ratio varies). Origination points are the Lender's fee for processing the loan — pure cost, no rate benefit. Both show on the Loan Estimate and Closing Disclosure. The cost-vs-benefit math on Discount Points depends on how long the borrower keeps the Mortgage; break-even runs 5-7 years on typical loans.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Pre-approval",
     "full": "",
     "plain": "A Lender's written commitment, after running your finances, to lend you up to a specific amount.",
@@ -1305,6 +1757,22 @@
   },
   {
     "letter": "P",
+    "term": "Prepayment Penalty",
+    "full": "",
+    "plain": "A fee some Mortgages charge if you pay off the loan early — banned on most residential loans since 2014.",
+    "snappy": "Penalty charged for paying off a Mortgage ahead of schedule.",
+    "detail": "Prepayment penalties protect Lenders against losing future Interest income when a borrower Refinances or sells early. After the 2008 crisis, Dodd-Frank and CFPB rules banned prepayment penalties on most residential Mortgages. They remain common on commercial Mortgages and on residential non-qualified Mortgages. Typical structures: a percentage of remaining Principal, a yield-maintenance calculation (commercial), or a defeasance arrangement (CMBS).",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Principal",
     "full": "",
     "plain": "The amount of money you actually borrowed, separate from the Interest you pay on it.",
@@ -1322,6 +1790,22 @@
   },
   {
     "letter": "P",
+    "term": "Probate",
+    "full": "",
+    "plain": "The court process that handles a deceased owner's property — transfers it to heirs or buyers under will or state law.",
+    "snappy": "Court process transferring a deceased owner's property to heirs.",
+    "detail": "When an owner dies, real property either passes outside probate (joint Tenancy with right of survivorship, transfer-on-death deed, or property held in a living Trust) or through probate court. Probate authenticates the will (if any), pays creditors, settles taxes, and transfers Title to heirs. Probate sales are subject to court oversight and often slower than standard transactions. Probate property frequently trades at a discount because heirs prioritise speed and simplicity over price maximisation.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Property Tax",
     "full": "",
     "plain": "An annual tax on real estate paid to local government — usually a percentage of the property's Assessed Value.",
@@ -1335,6 +1819,38 @@
     "category": "Tax",
     "sources": [
       "IRS"
+    ]
+  },
+  {
+    "letter": "Q",
+    "term": "Quiet Title",
+    "full": "",
+    "plain": "A court action to clean up a confused Title — usually to resolve competing claims or remove old Liens.",
+    "snappy": "Lawsuit to resolve competing Title claims and establish clear ownership.",
+    "detail": "A quiet-title action is filed when ownership is uncertain — adverse possession claims, missing heirs in a Chain of Title, old Liens nobody can locate, boundary disputes, or fraud. The court resolves claims and issues a judgment confirming who holds Title. Once recorded, the judgment establishes clear Title that supports Title Insurance. Quiet-title actions can run 6-18 months and cost thousands; many sellers use them pre-listing to clear known clouds.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "Q",
+    "term": "Quitclaim Deed",
+    "full": "",
+    "plain": "A Deed that transfers whatever interest the grantor has — without any guarantee they actually own it.",
+    "snappy": "Deed transferring interest without any warranty of Title.",
+    "detail": "A Quitclaim Deed conveys whatever ownership interest the grantor has — which could be full Title, a partial interest, or nothing at all. No warranties of Title, no covenants, no protection for the grantee. Common in divorce property transfers (one spouse quitclaims to the other), family gifts, clearing minor Title defects, and adding/removing names from Title within a marriage. Almost never used in arm's length sales because the buyer has no Title recourse.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII"
     ]
   },
   {
