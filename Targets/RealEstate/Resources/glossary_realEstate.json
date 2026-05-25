@@ -1792,7 +1792,7 @@
     "letter": "C",
     "term": "Cap-and-Collar",
     "full": "Interest Rate Cap, Rate Collar",
-    "plain": "A derivative product capping the floating Interest rate on a Mortgage above a strike — often combined with a floor that limits how low the rate can go — used by Sponsors to hedge floating-rate debt.",
+    "plain": "A derivative capping a Mortgage's floating rate above a strike — sometimes paired with a floor — used by Sponsors to hedge floating-rate debt.",
     "snappy": "Interest-rate derivative capping floating rate at a strike, often with a floor.",
     "detail": "Interest Rate Caps and Collars hedge Commercial Real Estate floating-rate exposure. The borrower buys a cap from a counterparty (bank, dealer); cap pays the borrower if floating rate (SOFR, LIBOR historically) exceeds the strike. Premium: 1-3% of notional for typical 3-5 year caps, paid upfront. A collar adds a floor — borrower forgoes the benefit of rates dropping below the floor strike but reduces or eliminates cap premium. Lenders often require borrowers to maintain caps as a covenant on floating-rate Loans. The 2022-2023 rate spike turned previously-modest cap purchases into massive lifesavers for Sponsors with floating-rate exposure.",
     "indications": [
@@ -1878,7 +1878,7 @@
     "letter": "C",
     "term": "Capital Stack",
     "full": "",
-    "plain": "The layered structure of all the money funding a Real Estate deal — senior debt at the bottom, equity at the top, with mezzanine and preferred equity sometimes filling in between.",
+    "plain": "The layered structure of all the money funding a Real Estate deal — senior debt at the bottom, equity at the top, with mezzanine and preferred equity in between.",
     "snappy": "Layered structure of all debt and equity funding a Real Estate deal.",
     "detail": "From safest to riskiest: Senior debt (50-65% of project cost, lowest rate, first claim on cash and collateral) → Mezzanine debt (5-15%, higher rate, secured by entity rather than property) → Preferred Equity (5-15%, fixed return ahead of common equity) → Common Equity (the Sponsor and LP capital, residual claim). Each layer prices according to its risk position. Restructuring during distress works down the stack — lender forbearance, mezz capitalisation, equity wipe-out. Sophisticated capital-stack design is the heart of institutional Real Estate finance.",
     "indications": [
@@ -2980,7 +2980,7 @@
     "letter": "C",
     "term": "Construction Period Interest",
     "full": "",
-    "plain": "Interest paid on construction debt that's capitalised into the property's Cost Basis under IRC rules — rather than deducted in the year paid — recovers through Depreciation over the building's useful life.",
+    "plain": "Interest paid on construction debt that's capitalised into Cost Basis — rather than deducted in the year paid — recovers through Depreciation over the building's life.",
     "snappy": "Interest paid during construction capitalised into Cost Basis under IRC §263A.",
     "detail": "Construction Period Interest is treated specially under tax law. IRC §263A's Uniform Capitalization Rules require capitalisation of Interest during the construction period, lengthening the Cost Basis recovery period to the building's MACRS life. Without capitalisation, Sponsors could deduct construction Interest immediately, generating large losses against other income — a tax shelter abused in pre-1986 Real Estate. Capitalised Interest applies to Substantial Completion; thereafter Mortgage Interest is currently deductible. Tax treatment differs from book treatment (some GAAP-based capitalisations are narrower). Cost Segregation studies properly account for construction-period Interest allocation across building components.",
     "indications": [
@@ -3558,7 +3558,7 @@
     "letter": "D",
     "term": "Defeasance",
     "full": "",
-    "plain": "The process of pre-paying a CMBS or other locked Commercial loan by substituting US Treasuries for the property as collateral — expensive, formulaic, the dominant exit when Sale or refinance is needed mid-Lease.",
+    "plain": "Pre-paying a CMBS or locked Commercial loan by substituting US Treasuries for the property as collateral — expensive but the dominant mid-Lease exit.",
     "snappy": "Pre-paying a CMBS loan by substituting Treasuries for the property as collateral.",
     "detail": "Defeasance was invented for CMBS to allow pre-payment without disturbing bond cash flows. Mechanics: the borrower purchases a portfolio of US Treasuries that generates exactly the Mortgage's remaining payment schedule. The Treasuries get substituted into the Mortgage's collateral; the borrower's property is released. Cost depends on rate environment: lower rates today than at origination push defeasance cost up (Treasuries cost more to generate the same cash flow); higher rates push cost down. Defeasance professionals (Chatham Financial, Commercial Defeasance LLC) shop the Treasury market and structure the transaction. Costs: $200,000-$500,000+ in fees and rate differential.",
     "indications": [
@@ -5005,7 +5005,7 @@
     "letter": "F",
     "term": "Floor Area Ratio",
     "full": "FAR",
-    "plain": "How much total building floor area can fit on a Lot, expressed as a multiplier of Lot size — FAR 2.0 means 200% of the Lot area can be built as floor space across all stories.",
+    "plain": "The total floor area buildable on a Lot, expressed as a multiplier of Lot size — FAR 2.0 means 200% of Lot area buildable across all stories.",
     "snappy": "Ratio of buildable floor area to Lot size, set by Zoning.",
     "detail": "FAR is the headline density control in urban Zoning. A 10,000 sq ft Lot with FAR 2.0 permits 20,000 sq ft of total floor area — could be 2 stories full-coverage, 4 stories at half-coverage, or some mix. Higher FAR means taller, denser buildings. Manhattan downtown FAR can exceed 15; suburban office parks run 0.3-0.5. Bonuses can lift base FAR (affordable-housing inclusion, public-space contribution, transit proximity). Developers maximise FAR to maximise per-Lot value — the metric drives Land prices in dense markets.",
     "indications": [
@@ -7622,7 +7622,7 @@
     "letter": "M",
     "term": "Master Lease",
     "full": "Master Sub-Lease",
-    "plain": "A Lease where the Tenant takes the entire property — often with the right to sub-lease — covering full rent and operations independent of how the Tenant uses or subleases the space.",
+    "plain": "A Lease where the Tenant takes the entire property with sub-lease rights — covering full rent regardless of how the Tenant uses or subleases.",
     "snappy": "Lease covering entire property with sub-lease rights — Tenant pays Rent regardless of sub-use.",
     "detail": "Master Leases dominate distressed-asset workouts and turnkey investor strategies. The Master Tenant takes the whole building under a long-term Lease (often 5-20 years), commits to a fixed Rent, and then sub-leases units to end-Tenants at market rates. The spread between sub-Tenant Rent and Master Rent is the Master Tenant's profit. Owner loses upside but locks in stable cash flow. Common in: Hotel franchise structures, Office building turnaround, Retail mall pre-bankruptcy, distressed Multifamily. Master Lease accounting under ASC 842 treats Master Tenant as both Lessee (to owner) and Lessor (to sub-Tenants), with complex revenue and expense recognition.",
     "indications": [
@@ -9150,7 +9150,7 @@
     "letter": "P",
     "term": "Performance Bond",
     "full": "",
-    "plain": "An insurance product — issued by a surety company — guaranteeing the GC will complete the work per contract terms; if the GC defaults, the surety completes the work or pays the owner.",
+    "plain": "A surety bond guaranteeing the GC will complete construction; if the GC defaults, the surety completes the work or pays the owner damages.",
     "snappy": "Surety bond guaranteeing the GC will complete construction per contract terms.",
     "detail": "Performance Bonds protect owners against GC failure. The owner requires the GC to post a performance bond equal to the contract amount; the surety company (Travelers, Liberty Mutual, Zurich, CNA) underwrites the GC's financial strength and operational capability before issuing. Premium: 0.5-3% of contract value, paid by the GC and embedded in the contract price. On GC Default, the owner files a claim; the surety either completes the work (selecting a replacement GC and funding completion) or pays the owner damages. Performance Bonds are required on virtually all public-sector construction (Miller Act federal projects, state little-Miller acts for state projects) and most institutional private construction.",
     "indications": [
@@ -10135,7 +10135,7 @@
     "letter": "R",
     "term": "Recapture Right",
     "full": "Recapture Clause",
-    "plain": "The Landlord's right to take back leased space — usually in response to a Tenant's notice of plans to vacate, sublet, or assign — rather than allowing the Tenant to control disposition.",
+    "plain": "The Landlord's right to take back leased space — in response to a Tenant's notice to vacate, sublet, or assign — rather than allowing the Tenant control.",
     "snappy": "Landlord right to take back leased space when Tenant proposes to vacate, sublease, or assign.",
     "detail": "Recapture Rights give Landlords portfolio control. Mechanics: Tenant gives notice of intent to sublease, assign, or surrender the space. Landlord has, typically, 30-60 days to either (a) consent to the Tenant's proposed disposition or (b) recapture the space, taking it back with the Lease terminated. Landlords use recapture to: control Tenant mix, capture market-rate Rent on a below-market lease, redevelop or re-merchandise the centre, prevent assignment to a Tenant the Landlord doesn't want. Tenants negotiate narrow recapture rights — limited to early years of the Lease or specific circumstances.",
     "indications": [
@@ -11987,7 +11987,7 @@
     "letter": "T",
     "term": "Tenancy",
     "full": "",
-    "plain": "The right and condition of holding property as a Tenant under a Lease — also the collective term for the various co-ownership forms (Joint Tenancy, Tenancy in Common, Tenancy by the Entirety).",
+    "plain": "The right of holding property as a Tenant — also the collective term for the various co-ownership forms (Joint Tenancy, Tenancy in Common, Tenancy by the Entirety).",
     "snappy": "Right or condition of holding property as Tenant — also the collective term for co-ownership forms.",
     "detail": "Two distinct senses share the word. (1) Leasehold tenancy: the Tenant's possessory right under a Lease — periodic (month-to-month), term (fixed Lease), sufferance (Holdover Tenant), at will. (2) Co-ownership tenancy: the umbrella for Joint Tenancy, Tenancy in Common, and Tenancy by the Entirety — the various forms of multi-owner Title. Context disambiguates. The shared root makes sense — both senses describe the right of holding, just from different angles (occupying versus owning).",
     "indications": [
@@ -12597,7 +12597,7 @@
     "letter": "T",
     "term": "Trustee",
     "full": "",
-    "plain": "A neutral party holding legal Title to a property until a debt is paid — the structural role in a Deed of Trust in states that use that financing form instead of a Mortgage.",
+    "plain": "A neutral party holding legal Title to a property until the loan is paid — the structural role in a Deed of Trust in power-of-sale states.",
     "snappy": "Neutral third party holding legal Title under a Deed of Trust until the loan is repaid.",
     "detail": "In Deed of Trust states (California, Texas, Virginia, much of the West), a third-party Trustee holds bare legal Title while the borrower has equitable Title and possession. The Lender is the Beneficiary. On Default, the Trustee can conduct a non-judicial Foreclosure under the power-of-sale clause — substantially faster and cheaper than judicial Foreclosure in Mortgage states. Typical Trustees: title companies, trust companies, attorneys. The Trustee's duties are largely ministerial — record releases when loans are paid, conduct sales when Default occurs.",
     "indications": [
