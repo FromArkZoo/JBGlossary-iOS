@@ -136,7 +136,22 @@ DANGLING_DENYLIST = {
     # Brand / company names that surface in concrete-example prose.
     "STORE Capital", "Realty Income", "BiggerPockets",
     "Equinix", "Simon", "Prologis", "AvalonBay", "FedEx",
-    "Walmart", "Amazon", "Citizens",
+    "Walmart", "Amazon", "Citizens", "Rocket", "UWM",
+    "Blackstone", "Tricon", "Welltower", "Ventas",
+    "Marriott", "Hilton", "Hyatt",
+    # PSF (per square foot) is industry-wide unit notation, not a glossary
+    # entry candidate. CPI is cross-industry context surfaced in examples.
+    # FEMA is an authoring agency rather than a glossary term.
+    "PSF", "CPI", "FEMA",
+    # Generic English nouns that surface in concrete examples.
+    "Roof", "Surfside", "Pool", "Mall", "Garage",
+    "Park", "Mountain", "Building", "Lake",
+    # Inflected variants of existing entries — Stabilization (Stabilized),
+    # Acceleration (Acceleration Clause exists already), etc.
+    "Stabilization", "Refinancing", "Underwrite",
+    "Eviction", "Convey",
+    # Codified statute references that aren't standalone entries.
+    "United States Code", "US Code", "United States",
     # Federal agencies / acronyms used in passing.
     "DOJ", "DHS", "USCIS", "DOL", "DOI", "IRS",
     # Big-city shorthand used in concrete examples.

@@ -438,6 +438,23 @@
   },
   {
     "letter": "B",
+    "term": "Balloon Mortgage",
+    "full": "Balloon Loan",
+    "plain": "A Mortgage with low monthly payments — often Interest-Only — but a large lump-sum Balloon Payment due at the end of a short term, usually 5-7 years.",
+    "snappy": "Mortgage with low recurring payments and a large lump-sum due at term end.",
+    "detail": "Balloon Mortgages persist in Commercial Real Estate (typical 5-10 year balloon on a 25-30 year amortising schedule) and in small-Lender residential portfolios. The borrower pays as if Amortizing over 30 years but owes the remaining Principal at the balloon date — refinance, sale, or restructure required at maturity. Post-Dodd-Frank, residential balloon Mortgages are restricted: small Lenders can originate Qualified Mortgage Balloons in rural areas, otherwise prohibited. Commercial balloons are unrestricted, and the maturity walls of CMBS pools concentrate enormous refinance risk into specific months.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "Balloon Payment",
     "full": "",
     "plain": "A big lump-sum payment due at the end of a loan that wasn't fully amortised over its term.",
@@ -452,6 +469,39 @@
     "sources": [
       "CFPB",
       "Investopedia"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Bargain and Sale Deed",
+    "full": "",
+    "plain": "A Deed conveying property with implied (but not explicit) ownership warranty — the grantor implies they own the property but warrants nothing further.",
+    "snappy": "Deed conveying property with implied ownership warranty but no further warranties.",
+    "detail": "Bargain and Sale Deed sits between Warranty Deed (strong warranties) and Quitclaim Deed (no warranties). The implied covenant: the grantor implies ownership of the property they're conveying. Beyond that, no covenant against Encumbrances, no warranty of Title, no defense obligation. Common in tax sales, fiduciary sales (executor, trustee), and foreclosure sales — situations where the grantor cannot or will not warrant. New York, Vermont, and some other Eastern states use Bargain and Sale Deeds with or without covenants as a routine conveyance form. Title Insurance fills the warranty gap for the buyer.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "ALTA",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Base Rent",
+    "full": "",
+    "plain": "The fixed Rent in a Commercial Lease, before any pass-through Operating Expenses, percentage Rent, or Escalations — the headline number quoted PSF.",
+    "snappy": "Fixed Rent before Operating Expense pass-throughs or percentage components.",
+    "detail": "Base Rent is the starting line. Commercial Real Estate quotes Base Rent in dollars per rentable square foot per year ($/RSF/year). On top sit: Triple Net pass-throughs (Property Tax, insurance, CAM in NNN structures), Escalation Clauses (annual bumps), percentage Rent (Retail only, above sales thresholds), and ancillary income. The full effective Rent the Tenant pays often runs 20-50% above Base Rent depending on Lease structure. Multifamily and Residential Leases typically quote 'Rent' as a single all-in number rather than splitting Base Rent and pass-throughs.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "IREM",
+      "NCREIF"
     ]
   },
   {
@@ -509,6 +559,23 @@
     "plain": "A federal tax break that lets owners write off a big chunk of certain Real Estate improvements in the first year, instead of spreading over decades.",
     "snappy": "First-year accelerated write-off of qualified property and certain improvements.",
     "detail": "Bonus Depreciation under IRC §168(k) sat at 100% from 2017 (TCJA) through 2022 — Cost Segregation studies surged in popularity to maximise first-year deductions. Phasedown: 80% in 2023, 60% in 2024, 40% in 2025, 20% in 2026, 0% in 2027 absent congressional action. Applies to property with 20-year-or-less recovery period — typically 5, 7, and 15-year personal-property components inside a building (carpeting, cabinets, parking lots, landscaping) identified through Cost Segregation. Real Property (39-year commercial, 27.5-year residential rental) doesn't qualify directly.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Boot",
+    "full": "1031 Boot",
+    "plain": "Any value received in a 1031 Exchange that isn't like-kind Real Property — cash, debt relief, or personal property — taxed as Capital Gain.",
+    "snappy": "Non-like-kind value received in a 1031 Exchange — cash, debt relief, personal property.",
+    "detail": "Boot taints the tax-deferred nature of a 1031 Exchange to the extent of the boot amount. Two common boot types. (1) Cash boot: investor receives cash from the Qualified Intermediary at the end of the Exchange. (2) Mortgage boot: replacement property has a smaller Mortgage than the relinquished property, so debt relief is treated as boot. Boot is taxed first as Depreciation Recapture (ordinary rates capped at 25% for §1250), then as Capital Gain. Strategies to avoid: trade up in both Sale Price and debt, or use exchange-only proceeds with no cash sweep.",
     "indications": [
       "Investment",
       "Commercial"
@@ -581,6 +648,24 @@
     "category": "Market & Investment",
     "sources": [
       "Investopedia"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Build-to-Rent",
+    "full": "BTR",
+    "plain": "A development strategy of building Single-Family or townhome subdivisions specifically as Rental property — not for sale to homeowners — managed institutionally like Multifamily.",
+    "snappy": "Development of Single-Family or townhome subdivisions purpose-built as Rental property.",
+    "detail": "Build-to-Rent emerged as a distinct asset class in the 2010s and accelerated in the 2020s. Operators (American Homes 4 Rent, Tricon, NexMetro, Pretium, Invitation Homes' BTR programs) develop entire neighbourhoods of 100-300 detached homes or townhomes designed for rental from day one — communal amenities (pool, fitness, dog park), centralised maintenance, smart-home packages, professional Property Manager. Target Tenants: families priced out of Single-Family home purchase who want yard and house but won't bid against owner-occupier buyers. Strong post-2020 demographic tailwind; Cap Rate spread to traditional Multifamily compresses as the asset class matures.",
+    "indications": [
+      "Multifamily",
+      "Residential",
+      "Investment"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "ULI"
     ]
   },
   {
@@ -679,6 +764,39 @@
     "category": "Transactions",
     "sources": [
       "NAR"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Bylaws",
+    "full": "HOA Bylaws, Condo Bylaws",
+    "plain": "The operational rulebook of an HOA or Condo — how boards are elected, how meetings are held, how budgets are approved, how Special Assessments get levied.",
+    "snappy": "Operational rulebook of an HOA or Condo — board elections, meetings, budgets, assessments.",
+    "detail": "Bylaws sit alongside the Condo Declaration and CC&Rs in the HOA/Condo governing-document hierarchy. The Declaration creates the entity and defines property; CC&Rs govern owner behaviour; bylaws govern association operations. Typical bylaw provisions: board size and composition, election timing and procedures, officer roles, quorum requirements, voting procedures (in-person, mail, electronic), committee structures, annual meeting protocols, budget approval thresholds, Special Assessment procedures. Bylaws can be amended without amending the Declaration — easier process — and are the most actively updated of the three.",
+    "indications": [
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "NAR",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "CAM",
+    "full": "Common Area Maintenance",
+    "plain": "Shorthand for Common Area Maintenance — the operating costs Landlords incur for shared spaces (parking, lobbies, landscaping) that get charged back to Commercial Tenants.",
+    "snappy": "Common Area Maintenance — operating costs for shared spaces charged back to Tenants.",
+    "detail": "CAM charges cover the recurring cost of keeping common spaces functional and presentable: parking lot maintenance, snow removal, landscaping, common-area lighting, signage, security, janitorial. Allocation: pro-rata by leased square footage. NNN Leases pass CAM straight through; Modified Gross caps at base year amounts; Gross Leases absorb into Base Rent. CAM Reconciliation annually trues up actual CAM expense against estimated CAM billed during the year. Tenant audit rights and CAM caps are heavily negotiated. Property Manager budgeting accuracy matters — surprises hurt Tenant relationships and trigger audits.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "IREM",
+      "BOMA"
     ]
   },
   {
@@ -834,6 +952,22 @@
     "category": "Market & Investment",
     "sources": [
       "CCIM Institute"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Cash-Out Refinance",
+    "full": "Cash-Out Refi",
+    "plain": "A Refinance where the borrower replaces an existing Mortgage with a larger one — taking the difference in cash.",
+    "snappy": "Refinance into a larger Mortgage with the borrower taking the difference in cash.",
+    "detail": "Cash-out refis let homeowners tap built-up Equity without selling. Typical use: home improvements, debt consolidation, education, business capital, investment property purchase. Lender restrictions on combined-LTV: typically 80% for Conventional Loans, 80% for FHA Loans, 90% for VA Loans (effectively up to 100%). Higher rate than rate-term Refinance (50-75 basis points). Loan officers must disclose if the new payment exceeds the prior one. Interest deductibility under TCJA: only deductible if used for substantial home improvements, not for personal expenses.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "IRS"
     ]
   },
   {
@@ -1069,6 +1203,22 @@
   },
   {
     "letter": "C",
+    "term": "Co-op Conversion",
+    "full": "",
+    "plain": "The process of turning a rental Multifamily building in NYC and other co-op-heavy markets into a cooperative corporation with shareholder-owners — historically dominant pre-1990s.",
+    "snappy": "Process converting a rental Multifamily into a cooperative corporation with shareholder-owners.",
+    "detail": "Co-op conversion was the dominant urban Multifamily-to-ownership conversion in NYC and a few other markets through the 1970s-1990s. Two flavours: eviction-plan conversion (Tenants forced to buy or vacate — used widely 1979-1985 then largely banned in NYC) and non-eviction-plan conversion (Tenants get insider price and right to stay as renters, but can buy at retail). NYC Martin Act regulates conversion offerings, requiring detailed offering plans approved by the AG. The shift from Condo Conversion in newer markets reflects co-op's specific NYC dominance; Condo is the national default elsewhere.",
+    "indications": [
+      "Multifamily",
+      "Residential"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Commercial Real Estate",
     "full": "CRE",
     "plain": "Income-producing real estate — offices, retail, industrial, hotels, multifamily — bought to generate rent rather than to live in.",
@@ -1219,6 +1369,23 @@
   },
   {
     "letter": "C",
+    "term": "Condo Declaration",
+    "full": "Declaration of Condominium",
+    "plain": "The recorded master document that creates a Condo association — defines unit boundaries, common areas, voting rights, and the rules under which the association operates.",
+    "snappy": "Recorded master document creating a Condo association and defining unit/common-area boundaries.",
+    "detail": "The Condo Declaration is the foundational document, filed with the county recorder when the project is first declared as Condo. It defines: unit boundaries (often the inside surface of perimeter walls), undivided interest in common elements, limited common elements (balconies, parking, storage assigned to specific units), voting weights, restrictions on use. The Bylaws govern association operations. The CC&Rs govern owner conduct. Together, the Declaration, Bylaws, and CC&Rs form 'governing documents' a buyer must review during Due Diligence. Amendments require supermajority owner approval — 75% or higher in most states.",
+    "indications": [
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "NAR",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Conforming Loan",
     "full": "",
     "plain": "A Mortgage small enough to meet the size limits Fannie Mae and Freddie Mac will buy — most everyday US Mortgages.",
@@ -1299,6 +1466,39 @@
     "sources": [
       "NCREIF",
       "ULI"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Core-Plus",
+    "full": "",
+    "plain": "A Real Estate investment strategy one step riskier than Core — stabilised property with slightly more leverage, value-add potential, or secondary markets.",
+    "snappy": "Real Estate strategy between Core and Value-Add — stabilised property, moderate leverage.",
+    "detail": "Core-Plus deals target stabilised property in good condition that has light improvement potential — minor renovation, modest Rent-roll mark-to-market, modest Cap-Ex. Leverage runs 55-65% LTV (above Core's 40-55%). Hold Period 5-10 years. Levered IRR target 10-13%, mostly from cash flow with modest appreciation. Common Core-Plus moves: lease-up a 90% leased Office to 95%, renovate Multifamily Common Areas without unit interiors, rebrand a Hotel. Less risk than Value-Add (no major Rehab or repositioning), more upside than Core.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Correspondent Lender",
+    "full": "Correspondent Bank, Correspondent",
+    "plain": "A smaller bank or Mortgage company that originates and closes loans in its own name — then sells them to a larger 'sponsor' bank shortly after Closing.",
+    "snappy": "Smaller Lender originating Mortgages in own name, then selling to a sponsor bank post-close.",
+    "detail": "Correspondent lending is the middle path between Mortgage Banker (holds or sells to GSEs directly) and Mortgage Broker (never funds). The correspondent funds the loan using its own warehouse line, then sells closed loans to a sponsor bank (Wells Fargo, Chase, US Bank, PennyMac) within days or weeks. The sponsor reunderwrites, repurchases unacceptable loans, and either holds or sells onward. Correspondent Lenders gain pricing scale they couldn't reach independently while keeping the relationship with the borrower. Community banks and credit unions often run correspondent operations to keep mortgage operations profitable.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "MBA"
     ]
   },
   {
@@ -1396,6 +1596,21 @@
     "category": "Transactions",
     "sources": [
       "NAR"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Custom Home",
+    "full": "Custom Build",
+    "plain": "A house built to the buyer's specific design and specifications — architect-drawn plans, custom finishes, longer build time, premium price.",
+    "snappy": "House built to buyer-specific design with custom finishes and floor plan.",
+    "detail": "Custom homes start with an architect (or buyer-purchased plans) and a Lot the buyer typically owns. The builder works on cost-plus, GMP, or stipulated-sum contracts. Timelines: 12-24 months from breaking ground for a true custom build. Cost premium over comparable tract: 30-100%, depending on market and finish level. Common reasons buyers go custom: specific Lot constraints (slope, view, water access), specific design preferences (architectural style, layout), or specific finish quality (high-end mechanical, premium materials). Cost overrun risk is the buyer's primary friction — change orders are expensive.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NAHB"
     ]
   },
   {
@@ -1900,6 +2115,22 @@
   },
   {
     "letter": "E",
+    "term": "Escalation Clause",
+    "full": "Rent Escalation Clause",
+    "plain": "A Lease provision that automatically bumps Rent up over time — fixed steps, CPI, or market-driven.",
+    "snappy": "Lease provision raising Rent annually by a fixed amount, CPI, or market.",
+    "detail": "Three common escalation structures. (1) Fixed steps: Rent rises a set dollar or percentage amount each year ($1/PSF, or 3%). Predictable for both parties. (2) CPI-linked: annual bumps tied to Consumer Price Index, sometimes capped. Inflation hedge for Landlord. (3) Market-based: periodic resets to market Rent, sometimes with collar/cap. Common in long-term ground leases. Multifamily Leases often skip Escalation Clauses since terms are short (12 months) and the entire Rent resets at renewal. Commercial Leases of 5-10+ years rely heavily on Escalations to grow NOI.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "IREM",
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Escrow",
     "full": "",
     "plain": "A neutral third party that holds money or documents on behalf of the buyer and seller until the deal closes.",
@@ -1914,6 +2145,22 @@
     "sources": [
       "ALTA",
       "CFPB"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Estoppel Certificate",
+    "full": "Estoppel",
+    "plain": "A signed Tenant document confirming key Lease terms — Rent paid, no defaults, no special claims against the Landlord — required at building sale or refinance.",
+    "snappy": "Tenant-signed certificate confirming Lease terms and stopping later claims that contradict it.",
+    "detail": "Estoppel certificates protect the buyer or new Lender from surprise post-Closing claims by Tenants. The certificate confirms: current Rent, remaining term, options and renewal rights, no Landlord defaults, no offsets, no oral side agreements, no claims for repairs. Once signed, the Tenant is 'estopped' (legally prevented) from making contradictory claims later. Mandatory at sale of investment property — Lenders won't fund without them from major Tenants. Tenants negotiate certain estoppel exclusions (preserve audit rights, environmental claims). Multifamily transactions sometimes use 'tenant questionnaires' instead.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "IREM",
+      "Cornell LII"
     ]
   },
   {
@@ -2138,6 +2385,22 @@
   },
   {
     "letter": "F",
+    "term": "Flood Insurance",
+    "full": "NFIP Flood Insurance",
+    "plain": "Insurance covering damage from flooding — usually separate from standard Homeowners Insurance, mostly provided by the federal National Flood Insurance Program in high-risk zones.",
+    "snappy": "Standalone insurance covering flood damage — mostly federal NFIP in FEMA-mapped flood zones.",
+    "detail": "Homeowners Insurance excludes flood damage. The federal NFIP (1968) provides most US flood insurance, capped at $250K residential dwelling / $100K contents. Premiums historically set well below true risk — politically subsidised — but FEMA's Risk Rating 2.0 (2021) reset premiums toward actuarial pricing, sharply raising rates for older coastal properties. Private flood policies exist for higher coverage limits and luxury homes outside NFIP caps. Required by Lenders for Mortgages on properties in FEMA-designated Special Flood Hazard Areas. The 2017-2024 hurricane and inland-flood cycle accelerated NFIP losses and reform pressure.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "HUD",
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "F",
     "term": "Floor Area Ratio",
     "full": "FAR",
     "plain": "How much total building floor area can fit on a Lot, expressed as a multiplier of Lot size — FAR 2.0 means 200% of the Lot area can be built as floor space across all stories.",
@@ -2223,6 +2486,41 @@
   },
   {
     "letter": "G",
+    "term": "GC",
+    "full": "General Contractor",
+    "plain": "Common shorthand for a General Contractor — the firm managing all construction work on a project.",
+    "snappy": "Standard shorthand for General Contractor in construction.",
+    "detail": "GC is the universal industry shorthand for General Contractor. Owners, architects, Lenders, and Subcontractors all refer to the GC in daily conversation and contract language. See General Contractor for the substantive role, contract structures (stipulated sum, cost-plus, GMP), and how the GC coordinates Subcontractors and certifies progress payments.",
+    "indications": [
+      "Development",
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Development",
+    "sources": [
+      "NAHB"
+    ]
+  },
+  {
+    "letter": "G",
+    "term": "General Contractor",
+    "full": "GC",
+    "plain": "The firm hired by the property owner or developer to manage all construction work — coordinates subcontractors, handles permits, delivers the completed building.",
+    "snappy": "Firm managing all construction work — coordinates Subcontractors and delivers the building.",
+    "detail": "GCs structure construction projects in one of three ways. Stipulated sum: fixed contract price (low risk to owner, GC absorbs cost overruns). Cost-plus: actual costs reimbursed plus a fee (more transparent, owner bears overrun risk). Guaranteed Maximum Price (GMP): cost-plus with a cap (hybrid). The GC schedules trades (framing, plumbing, electrical, HVAC, finishes), pulls permits, manages inspections, certifies progress payments, manages punch lists. Bonded GCs carry payment and performance bonds protecting the owner if work isn't completed. Pre-construction services are often a separate engagement before the build contract.",
+    "indications": [
+      "Development",
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Development",
+    "sources": [
+      "NAHB",
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "G",
     "term": "Ginnie Mae",
     "full": "Government National Mortgage Association",
     "plain": "A federal agency that guarantees mortgage-backed securities made of FHA, VA, and USDA loans — full faith and credit of the US government.",
@@ -2235,6 +2533,23 @@
     "category": "Financing & Lending",
     "sources": [
       "HUD"
+    ]
+  },
+  {
+    "letter": "G",
+    "term": "GMP",
+    "full": "Guaranteed Maximum Price",
+    "plain": "A construction contract structure where the GC commits to a maximum price — overruns above that cap fall on the contractor, savings below it usually share with the owner.",
+    "snappy": "Construction contract with GC-committed price cap and shared-savings split.",
+    "detail": "GMP contracts (Guaranteed Maximum Price) bridge stipulated-sum and cost-plus. The GC opens its books to the owner (transparent cost reporting) but commits to a maximum price ceiling. Cost overruns above the GMP eat into the GC's fee or come out of contractor pocket. Cost savings below the GMP are shared, typically 50/50 or 75/25 owner-favoured. Used in complex commercial projects where neither stipulated sum (too risky for GC given pricing uncertainty) nor cost-plus (too risky for owner) fits. Pre-construction services and trade buyout transparency are essential to GMP success.",
+    "indications": [
+      "Development",
+      "Commercial"
+    ],
+    "category": "Development",
+    "sources": [
+      "NAHB",
+      "Investopedia"
     ]
   },
   {
@@ -2434,6 +2749,23 @@
     ],
     "category": "Management & Operations",
     "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "HOA Fee",
+    "full": "Homeowners Association Dues",
+    "plain": "The monthly or annual payment from each unit owner to the HOA — funds Common Area maintenance, insurance, reserves, and association overhead.",
+    "snappy": "Monthly or annual payment from owners to HOA funding shared maintenance and reserves.",
+    "detail": "HOA fees vary wildly. Single-Family suburban HOAs: $20-$200/month. Suburban Townhome HOAs: $150-$400/month. Multifamily Condo HOAs in major cities: $500-$2,000+/month. High-rise luxury Condos in NYC, San Francisco, Miami: $2,000-$10,000+/month. The fee covers Master Insurance Policy, water, sewer, common-area utilities, landscape maintenance, building staff (if any), management fees, and Reserve Fund contributions. Special Assessments fund items beyond the operating budget. Lenders include the HOA fee in Debt-to-Income Ratio calculations — high fees reduce buyer Mortgage qualification.",
+    "indications": [
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "HUD",
       "NAR"
     ]
   },
@@ -2662,6 +2994,57 @@
   },
   {
     "letter": "I",
+    "term": "Interest-Only Mortgage",
+    "full": "IO Mortgage",
+    "plain": "A Mortgage where the borrower pays only Interest for a set period — typically 5-10 years — before payments rise to include Principal.",
+    "snappy": "Mortgage with Interest-only payments for an initial period before Amortization begins.",
+    "detail": "Interest-only mortgages were a major driver of the 2008 housing crisis — paired with teaser rates and stated income, they let borrowers afford homes they couldn't service. Post-Dodd-Frank, IO Mortgages cannot be Qualified Mortgages — they survive in the Jumbo Loan and Commercial Real Estate space where ATR rules are looser. Typical structure: 10-year IO period, then 20-year amortising payment that's 30-40% higher than the IO payment. Used legitimately by high-income borrowers managing cash flow timing, or in Commercial deals where IO matches a Rehab business plan.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Internal Revenue Code",
+    "full": "IRC",
+    "plain": "The full spelling of IRC — the federal tax statute governing every Real Estate tax rule from Mortgage interest deduction to 1031 Exchange.",
+    "snappy": "Full spelling of IRC — Title 26 of the United States Code.",
+    "detail": "Internal Revenue Code is the formal name for the federal tax statute, codified at Title 26 of the United States Code. Practitioners typically use 'IRC' or 'Tax Code' in conversation. See IRC for the substantive Real Estate sections — §121, §163, §164, §168, §199A, §263, §469, §1031, §1245, §1250, §1411 — and which ones are scheduled to sunset in 2026.",
+    "indications": [
+      "Investment",
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "IO",
+    "full": "Interest-Only",
+    "plain": "Common shorthand for Interest-Only — a Mortgage where the borrower pays only Interest for an initial period before Amortization starts.",
+    "snappy": "Standard shorthand for Interest-Only Mortgage structure.",
+    "detail": "IO is universal industry shorthand for Interest-Only — used in 'IO period', 'IO Loan', '10-year IO'. Common in Jumbo Loan residential lending and Commercial Mortgages where the IO period matches a Rehab business plan. See Interest-Only Mortgage for substantive mechanics, Qualified Mortgage restrictions post-Dodd-Frank, and how IO interacts with payment shock at the end of the IO period.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "I",
     "term": "IRC",
     "full": "Internal Revenue Code",
     "plain": "The federal tax code — Title 26 of the United States Code — that governs every federal tax rule touching Real Estate, from Mortgage interest deduction to 1031 Exchange.",
@@ -2820,6 +3203,38 @@
   },
   {
     "letter": "L",
+    "term": "Lessee",
+    "full": "",
+    "plain": "The Tenant in a Lease — the person or business renting from the Lessor in exchange for Rent.",
+    "snappy": "Formal term for the Tenant — the renter under a Lease.",
+    "detail": "Lessee is the legal-formal counterpart to Lessor. State Landlord-Tenant statutes use 'Lessee' and 'Tenant' interchangeably; commercial Lease drafting prefers Lessee; residential plain-English Leases prefer Tenant. The Lessee's core obligations: pay Rent, comply with Lease provisions, maintain the premises in reasonable condition, surrender at term end. The Lessee's core rights: quiet enjoyment, habitability (residential), Eviction-procedure protections, Security Deposit return, statutory remedies for Landlord breaches.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Lessor",
+    "full": "",
+    "plain": "The Landlord in a Lease — the property owner granting possession to the Tenant in exchange for Rent.",
+    "snappy": "Formal term for the Landlord — the owner granting possession under a Lease.",
+    "detail": "Lessor is the legal-formal term for the Landlord in Lease documents. State Landlord-Tenant statutes use 'Lessor' and 'Landlord' interchangeably. Commercial Lease documents often use 'Lessor' for the formality; residential consumer-facing Leases prefer 'Landlord' as the plain-English term. The Lessor's core obligations: deliver possession of the Premises, provide quiet enjoyment, maintain habitability (residential), perform covenants in the Lease. The Lessor's core rights: receive Rent, enforce Lease provisions, regain possession at term end or for cause.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Letter of Intent",
     "full": "LOI",
     "plain": "A short, mostly non-binding written summary of the key deal terms — Sale Price, deposit, contingencies, timing — used as the starting point for the formal purchase contract.",
@@ -2869,6 +3284,40 @@
     "sources": [
       "Cornell LII",
       "ALTA"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "LIHTC",
+    "full": "Low-Income Housing Tax Credit",
+    "plain": "The federal tax credit program that funds most new Affordable Housing in the US — investors buy credits, developers build below-market-rent housing in exchange.",
+    "snappy": "Federal tax credit program funding the bulk of US Affordable Housing development.",
+    "detail": "LIHTC was created by the 1986 Tax Reform Act and is now the dominant federal Affordable Housing program. State housing finance agencies allocate annual credit volumes (under per-capita formula) to developers building income-restricted housing. Developers sell the credits to investors (banks, insurance companies — Community Reinvestment Act drives bank demand) for upfront equity — typically 90-105 cents per dollar of credit. Properties carry 30+ year affordability covenants. Roughly 100,000-110,000 units delivered annually. Two flavours: 9% credit (new construction, competitive), 4% credit (rehabilitation, paired with tax-exempt bonds, less competitive).",
+    "indications": [
+      "Affordable",
+      "Multifamily",
+      "Public Sector"
+    ],
+    "category": "Tax",
+    "sources": [
+      "HUD",
+      "IRS"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Like-Kind",
+    "full": "Like-Kind Property",
+    "plain": "The IRS standard for what kinds of Real Property qualify for 1031 Exchange treatment — broader than most assume, covering nearly any investment Real Estate trade.",
+    "snappy": "IRS standard for Real Property eligible to swap tax-deferred under 1031.",
+    "detail": "After the 2017 TCJA restricted 1031 Exchange to Real Property only, the 'like-kind' standard for Real Estate is unusually permissive. Investment apartment building for industrial warehouse: like-kind. Raw Land for retail centre: like-kind. Office building for Hotel: like-kind. Even Tenant-In-Common interests in Real Estate qualify. The key boundary is 'investment or business use' — primary residences and dealer-held property (developers selling lots) don't qualify. Personal property — equipment, fixtures, FF&E — lost 1031 eligibility post-TCJA.",
+    "indications": [
+      "Investment"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
     ]
   },
   {
@@ -3040,6 +3489,22 @@
   },
   {
     "letter": "L",
+    "term": "Loss Mitigation",
+    "full": "",
+    "plain": "The Lender's process of working with a defaulted borrower to avoid Foreclosure — Forbearance, Loan Modification, Short Sale, Deed in Lieu.",
+    "snappy": "Lender process of avoiding Foreclosure through Forbearance, Modification, Short Sale, or Deed in Lieu.",
+    "detail": "Loss mitigation became regulated after 2008 — CFPB rules require Lenders to evaluate borrowers for all available loss mitigation options before initiating Foreclosure. Federal programs (HAMP, HARP, COVID-era forbearance) drove standardisation. Standard loss mitigation waterfall: (1) Forbearance for temporary hardship. (2) Loan Modification for sustained hardship. (3) Short Sale if borrower wants to exit. (4) Deed in Lieu as Foreclosure substitute. (5) Foreclosure as last resort. Borrowers have a right to apply for loss mitigation up to 37 days before a scheduled Foreclosure sale.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "HUD"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Lot",
     "full": "",
     "plain": "A defined parcel of Land — usually a single building site with marked boundaries and a recorded Deed.",
@@ -3107,6 +3572,23 @@
   },
   {
     "letter": "M",
+    "term": "Manufactured Home",
+    "full": "Mobile Home",
+    "plain": "A factory-built dwelling assembled on a steel chassis, then transported to its site — distinct from a stick-built site-constructed home; cheaper, faster, lower resale value.",
+    "snappy": "Factory-built dwelling on steel chassis, transported to site — distinct from site-built.",
+    "detail": "Manufactured Homes are built to the federal HUD Code (post-1976) rather than local building code. Built indoors in factories, then towed in one or two pieces to the site and set on a permanent foundation or piers. Single-wides and double-wides cost a fraction of comparable stick-built — $80,000-$150,000 for the home itself, often $200,000-$300,000 placed on a Lot. Common in Mobile Home Parks, rural Land. Resale appreciation lags Real Property substantially — manufactured Homes depreciate like vehicles in some markets and appreciate in others depending on Land ownership. Distinct from modular homes (which meet local code).",
+    "indications": [
+      "Residential",
+      "Affordable"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "HUD",
+      "NAHB"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Margin",
     "full": "",
     "plain": "The Lender's fixed markup added to the Index when an Adjustable-Rate Mortgage resets.",
@@ -3154,6 +3636,23 @@
     "sources": [
       "ALTA",
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Master Insurance Policy",
+    "full": "HOA Master Policy",
+    "plain": "The insurance policy covering the Common Area, building exterior, and shared liabilities of an HOA or Condo — separate from unit owners' individual HO-6 policies.",
+    "snappy": "Insurance policy covering Common Areas, exteriors, and shared liability of an HOA or Condo.",
+    "detail": "Master policies come in three flavours. Bare walls: covers structure exterior only; unit owners insure everything inside drywall. Single entity / standard: covers everything originally installed by the developer; owners insure additions and personal property. All-in / all-inclusive: covers everything including upgrades the owner made. Unit owners typically buy HO-6 (Condo Owner) policies covering personal property, liability, and loss assessment (their share of a master deductible after a major claim). Post-Surfside 2021 reforms tightened master-policy requirements in Florida; insurance withdrawal in coastal markets is forcing master policy restructuring across condo associations.",
+    "indications": [
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "NAR",
+      "CFPB"
     ]
   },
   {
@@ -3221,6 +3720,23 @@
     "sources": [
       "NCREIF",
       "ULI"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Mini-Perm",
+    "full": "Mini-Permanent Loan",
+    "plain": "A short-term Commercial Mortgage — typically 3-5 years — used after construction to give a project time to stabilise before placing permanent financing.",
+    "snappy": "Short-term post-construction Commercial Mortgage covering Lease-up to stabilisation.",
+    "detail": "Mini-Perm bridges the gap between a Construction Loan (short-term, floating rate, dispersed during build) and a permanent Mortgage (long-term, fixed rate, requires Stabilization). Typical structure: 3-5 year term, partial Amortization, recourse to the Sponsor, floating-rate priced 200-400 bps over SOFR. The project's Lease-up and operating history during the mini-perm establishes the NOI and occupancy track record that permanent Lenders need. Refinancing into permanent debt at Stabilization is the planned exit.",
+    "indications": [
+      "Commercial",
+      "Development"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF",
+      "Investopedia"
     ]
   },
   {
@@ -3326,6 +3842,23 @@
   },
   {
     "letter": "M",
+    "term": "Mortgage Banker",
+    "full": "",
+    "plain": "A Lender that originates Mortgages using its own capital — funds the loan at Closing, then either holds it or sells it to investors.",
+    "snappy": "Lender that uses its own capital to fund Mortgages at Closing.",
+    "detail": "Mortgage Bankers differ from Mortgage Brokers in capital structure. Bankers fund at Closing using warehouse credit lines, then either hold the loan on portfolio or sell it to Fannie Mae, Freddie Mac, Ginnie Mae, or private investors. Bankers can be banks, credit unions, or independent mortgage bankers (IMBs) like Rocket Mortgage, UWM, loanDepot. IMBs gained substantial market share through the 2010s as banks pulled back from non-Qualified Mortgage lending. Brokers, by contrast, place loans into wholesale channels and never touch the money.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "MBA"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Mortgage Broker",
     "full": "",
     "plain": "An independent middleman who shops a borrower's application across many Lenders to find the best rate and program.",
@@ -3411,6 +3944,23 @@
   },
   {
     "letter": "N",
+    "term": "NAV",
+    "full": "Net Asset Value",
+    "plain": "A REIT or fund's total Real Estate value minus debt — the per-share or per-fund equity value, used to judge whether shares trade above or below underlying property value.",
+    "snappy": "REIT or fund's total property value minus debt, expressed per share or per fund.",
+    "detail": "NAV is the fundamental valuation anchor for both listed and private REITs. Calculation: aggregate market value of all owned property (often computed by applying current Cap Rates to in-place NOI), minus total debt, divided by share count. Listed REITs trade at premiums or discounts to NAV — a 10% discount signals the market values the operating platform below the property value; a 10% premium suggests development pipeline or growth optionality is being priced in. Non-traded and private REITs publish quarterly NAVs that investors use for entry and exit pricing.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "Nareit",
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "N",
     "term": "Net Present Value",
     "full": "NPV",
     "plain": "The value today of all future cash flows from an investment, discounted at a target return rate — a positive NPV means the investment beats the target return.",
@@ -3424,6 +3974,39 @@
     "sources": [
       "NCREIF",
       "Investopedia"
+    ]
+  },
+  {
+    "letter": "N",
+    "term": "NFIP",
+    "full": "National Flood Insurance Program",
+    "plain": "The federal Flood Insurance program that provides most US flood policies in FEMA-mapped flood zones — required by Lenders for Mortgages on high-risk properties.",
+    "snappy": "Federal Flood Insurance program covering most US flood policies in FEMA-mapped zones.",
+    "detail": "Congress created NFIP in 1968 because private carriers wouldn't write flood Insurance. NFIP is administered by FEMA; sells through licensed Insurance agents under federal-set rates. Coverage capped at $250K residential dwelling, $100K contents, $500K commercial building. Risk Rating 2.0 (2021) replaced subsidised legacy rates with actuarial pricing — sharply raising costs in older coastal property. Annual losses through 2017-2024 hurricane and inland-flood cycle ran tens of billions, putting NFIP in cumulative debt to Treasury. Private Flood Insurance fills gaps above NFIP caps; required by Lenders in Special Flood Hazard Areas.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "HUD",
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "N",
+    "term": "NIIT",
+    "full": "Net Investment Income Tax",
+    "plain": "A 3.8% federal surtax on passive investment income — Mortgage interest received, rental income, Capital Gains — for taxpayers above income thresholds.",
+    "snappy": "3.8% federal surtax on investment income above $200K/$250K income thresholds.",
+    "detail": "Created by the 2010 Affordable Care Act, NIIT applies to investment income for taxpayers above $200,000 (single) or $250,000 (married filing jointly) AGI. Real Estate investment income subject to NIIT includes: net rental income, Capital Gains on Sale, Interest income on Notes held. Real Estate Professional status with Material Participation escapes NIIT on rental income (the activity becomes non-passive). 1031 Exchange defers NIIT alongside Capital Gain. NIIT is on top of regular Capital Gain tax — making total federal tax on investment Real Estate gains 23.8% for high earners (20% + 3.8%).",
+    "indications": [
+      "Investment",
+      "Residential"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
     ]
   },
   {
@@ -3567,6 +4150,24 @@
     ]
   },
   {
+    "letter": "O",
+    "term": "Opportunistic",
+    "full": "Opportunistic Strategy",
+    "plain": "The riskiest Real Estate investment strategy — ground-up development, distressed asset turnarounds, special situations — targeting 20%+ IRR.",
+    "snappy": "Highest-risk Real Estate strategy — development, distress, special situations — 20%+ IRR target.",
+    "detail": "Opportunistic strategies sit at the high-risk end of the Real Estate spectrum. Subtypes: ground-up development (Land entitlement, construction, Lease-up), distressed asset acquisition (foreclosed or workout property at deep discount), redevelopment (major repositioning, change of use), platform plays (acquiring an operating company alongside its Real Estate). Leverage often 70-85% LTV during execution. Hold Period 3-7 years. Levered IRR target 18-25%+. Loss probability is meaningfully higher — opportunistic funds expect some deals to lose money, offset by big winners.",
+    "indications": [
+      "Investment",
+      "Commercial",
+      "Development"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
     "letter": "P",
     "term": "Passive Loss",
     "full": "Passive Activity Loss",
@@ -3581,6 +4182,40 @@
     "sources": [
       "IRS",
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Percentage Rent",
+    "full": "Overage Rent",
+    "plain": "Extra Rent paid by a Retail Tenant — a percentage of gross sales above a threshold — on top of Base Rent.",
+    "snappy": "Retail Lease provision adding Rent equal to a percentage of gross sales above a threshold.",
+    "detail": "Percentage Rent aligns Landlord and Tenant when Retail occupancy hinges on co-tenancy and foot traffic — Landlord upside grows with Tenant success. Typical structure: Base Rent at lower per-square-foot rate (covering Landlord's cost basis), plus 5-8% of gross sales above a natural breakpoint (Base Rent divided by the percentage). Common in malls, lifestyle centres, anchored Retail. Reporting requires the Tenant to provide audited sales figures monthly or quarterly. Restaurant and apparel Tenants are the most common percentage-rent payers; grocery anchors typically don't pay percentage.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "IREM",
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Permanent Loan",
+    "full": "Perm Loan",
+    "plain": "The long-term Mortgage that replaces a Construction Loan or Bridge Loan once a property reaches Stabilization — fixed rate, 5-30 year term, amortising.",
+    "snappy": "Long-term Mortgage replacing short-term construction or bridge financing after Stabilization.",
+    "detail": "Permanent loans take out the short-term debt that funded development or repositioning. The 'take-out' transaction converts construction-phase floating-rate, partial-recourse debt into fixed-rate, longer-term, often non-recourse permanent debt. Typical terms: 5-10 year balloon on a 25-30 year amortisation, fixed rate at GSE or CMBS pricing, debt-service coverage requirement (typically 1.25x DSCR). Multifamily permanent loans through Fannie Mae or Freddie Mac dominate that sector; Office and Industrial fund through CMBS or insurance-company portfolio Lenders. The refinance-from-construction-to-permanent transition is the moment Sponsor's pro forma either confirms or breaks.",
+    "indications": [
+      "Commercial",
+      "Multifamily",
+      "Development"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF",
+      "Fannie Mae"
     ]
   },
   {
@@ -3834,6 +4469,23 @@
     ]
   },
   {
+    "letter": "P",
+    "term": "PUD",
+    "full": "Planned Unit Development",
+    "plain": "A residential or mixed-use development built under a special Zoning category that bundles a mix of housing types, density, common areas, and uses into a single master-planned project.",
+    "snappy": "Zoning category bundling mixed housing, density, and common areas into a master-planned project.",
+    "detail": "PUD ordinances give municipalities flexibility to approve projects that don't fit standard residential Zoning. Density and layout get negotiated as a package — high-density Multifamily clustered alongside low-density Single-Family alongside Mixed-Use commercial, with shared open space, recreation, and infrastructure. The PUD's CC&Rs, HOA, common areas, and Maintenance arrangements get fixed at approval. Cookie-cutter suburban PUDs dominate Sun Belt growth markets. Master-planned communities like The Villages, Florida; Summerlin, Nevada; Mountain House, California are PUDs at scale.",
+    "indications": [
+      "Development",
+      "Residential"
+    ],
+    "category": "Development",
+    "sources": [
+      "NAHB",
+      "ULI"
+    ]
+  },
+  {
     "letter": "Q",
     "term": "QM",
     "full": "Qualified Mortgage",
@@ -3904,6 +4556,21 @@
     "plain": "A ceiling on how much an Adjustable-Rate Mortgage's interest rate can rise — per adjustment or over the loan's life.",
     "snappy": "Ceiling on ARM rate increases, per-period and lifetime.",
     "detail": "Rate Caps are the bedrock consumer protection in Adjustable-Rate Mortgages. Standard 5/1 ARMs carry 2/2/5 caps: 2% maximum first adjustment, 2% per subsequent adjustment, 5% lifetime. Without caps, a sudden Index spike could double a borrower's payment. The Lender must disclose caps on the Loan Estimate. Caps don't apply to the Margin — only to the rate itself after Index plus Margin is computed.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Rate-Term Refinance",
+    "full": "",
+    "plain": "A Refinance that swaps the existing Mortgage for a new one with better terms — lower rate or shorter term — without taking cash out.",
+    "snappy": "Refinance changing the rate or term without increasing the loan balance.",
+    "detail": "Rate-term refis are the simplest type. The borrower replaces an existing Mortgage with a new one at the same Principal balance, typically targeting a lower Interest rate (savings on monthly payment) or a shorter term (faster payoff, often paired with stable payment). Closing Costs apply (1-3% of loan amount); break-even calculations weigh upfront costs against monthly savings. Streamline Refinance versions exist for FHA Loans (no Appraisal, simplified Underwriting), VA Loans (IRRRL — Interest Rate Reduction Refinance Loan), and USDA Loans. Cleanest path post-rate-drop.",
     "indications": [
       "Residential"
     ],
@@ -4120,6 +4787,22 @@
   },
   {
     "letter": "R",
+    "term": "Rent-to-Own",
+    "full": "Lease-to-Own, Lease Option",
+    "plain": "A hybrid Lease and purchase agreement where the Tenant rents the property with the right (sometimes obligation) to buy it at a fixed price within a set window.",
+    "snappy": "Lease with an embedded option (or obligation) to buy the property at a fixed price.",
+    "detail": "Rent-to-own contracts come in two flavours. Lease Option: Tenant pays option consideration upfront plus monthly Rent (often with a portion credited toward purchase). At lease end, Tenant may purchase or walk away. Lease Purchase: Tenant commits to buy at lease end; failure to close triggers Default. Used by: buyers rebuilding credit, those needing time to save Down Payment, owners who can't sell quickly. Pitfalls: option consideration is often non-refundable; sellers may not maintain the property; Tenant equity buildup is not legally protected like a Mortgage payment. Predatory rent-to-own operators have driven legislation in several states tightening disclosure and enforcement.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "CFPB",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "REO",
     "full": "Real Estate Owned",
     "plain": "A property the Lender owns after a failed Foreclosure auction — now selling it to recover the loan.",
@@ -4152,6 +4835,23 @@
     "sources": [
       "IREM",
       "Fannie Mae"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Reserve Fund",
+    "full": "Capital Reserves",
+    "plain": "Money the HOA or Condo association sets aside for major future Capital Expenditures — Roof replacement, elevator modernisation, pool refurbishment — funded from monthly HOA Fees.",
+    "snappy": "HOA capital reserve account funding future Capital Expenditures from monthly HOA Fees.",
+    "detail": "Reserve Fund adequacy is a major buyer Due Diligence item. Underfunded reserves signal future Special Assessments. Adequate reserves protect owners from sudden capital calls. Reserve Studies project annual contributions needed to fund major Cap-Ex through replacement cycles. State regulations require specific reserve contributions in California (Civil Code §5550), Florida (post-Surfside reforms), and Nevada. The 2021 Surfside collapse traced back to deferred Cap-Ex on a structurally compromised garage — the association had insufficient reserves to fund repairs and resisted Special Assessments. Lender Underwriting increasingly scrutinises Reserve Fund balances on Condo loans.",
+    "indications": [
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "NAR",
+      "Cornell LII"
     ]
   },
   {
@@ -4219,6 +4919,22 @@
     "sources": [
       "NCREIF",
       "ULI"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Reverse Mortgage",
+    "full": "Home Equity Conversion Mortgage, HECM",
+    "plain": "A Mortgage for homeowners 62 and older that pays them cash from their home Equity — repayment is deferred until the borrower sells, moves out, or dies.",
+    "snappy": "Senior-only Mortgage paying out home Equity in monthly draws or lump sums; deferred repayment.",
+    "detail": "Reverse Mortgages let seniors tap home Equity without monthly payments. The HECM (FHA-insured) variant dominates — about 95% of US reverse mortgages. The borrower keeps Title, must occupy as primary residence, and pay Property Tax + Homeowners Insurance. Loan balance grows as Interest accrues and payments are advanced. Repayment is triggered by: sale, owner moving out for 12+ months, owner death. If proceeds exceed the loan, the heirs get the excess; if not, the FHA insurance covers the gap. Origination costs are high (3-5% of loan); rates higher than forward Mortgages.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "HUD",
+      "CFPB"
     ]
   },
   {
@@ -4298,6 +5014,23 @@
     "detail": "IRC §121 lets a homeowner exclude $250,000 ($500,000 married filing jointly) of Capital Gain from federal tax on the sale of a primary residence, provided the seller owned and used the home as principal residence for at least 24 months of the 60 months ending on the sale date. The exclusion can be reused every two years. Doesn't apply to investment property — that's where 1031 Exchange comes in. Partial exclusion is available for early sales due to change of employment, health, or unforeseen circumstances. The cap hasn't been adjusted for inflation since 1997 — high-price-market sellers increasingly exceed it.",
     "indications": [
       "Residential"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Section 199A",
+    "full": "§199A, Pass-Through Deduction",
+    "plain": "A 20% federal tax deduction for income earned through pass-through entities like LLCs and partnerships — created by the 2017 TCJA, includes most Real Estate Investment.",
+    "snappy": "20% federal deduction for qualified business income from pass-through entities, including most Real Estate.",
+    "detail": "Section 199A of the Internal Revenue Code, added by TCJA, gives a 20% deduction on Qualified Business Income (QBI) from pass-through entities (sole proprietorships, partnerships, S corps, LLCs). Most Real Estate rental income qualifies under the 199A safe harbour (250+ hours of services per year, separate books and records, plus contemporaneous records). Limits kick in at higher incomes — Specified Service Trades or Businesses (SSTBs) phase out the deduction, but Real Estate generally isn't SSTB. Scheduled to sunset 2026 absent congressional renewal.",
+    "indications": [
+      "Investment",
+      "Commercial"
     ],
     "category": "Tax",
     "sources": [
@@ -4462,6 +5195,39 @@
   },
   {
     "letter": "S",
+    "term": "Single-Family Rental",
+    "full": "SFR",
+    "plain": "A house rented out as an investment — single-family detached homes that are owner-financed as investment property rather than primary residences.",
+    "snappy": "Detached house held as rental investment rather than owner-occupied primary residence.",
+    "detail": "SFR emerged as an institutional asset class after 2008 — Blackstone (Invitation Homes), American Homes 4 Rent, Tricon, Progress Residential bought tens of thousands of foreclosed homes at distressed prices, professionalised management, and built rent-tracking platforms. The asset class differs from Multifamily: higher per-unit operating costs (per-unit infrastructure, geographically scattered), longer Tenant tenure (3-5+ years versus 1-2 in Multifamily), Rent growth tracking Single-Family home prices rather than apartment markets. Build-to-Rent (BTR) communities — purpose-built SFR neighbourhoods — are the 2020s' fastest-growing SFR subsector.",
+    "indications": [
+      "Residential",
+      "Investment"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "SNDA",
+    "full": "Subordination, Non-Disturbance, Attornment Agreement",
+    "plain": "A three-party agreement among Landlord, Tenant, and Lender that subordinates the Lease to the Mortgage while protecting the Tenant from being evicted on Foreclosure.",
+    "snappy": "Three-party agreement subordinating Lease to Mortgage with Tenant non-eviction protection.",
+    "detail": "SNDA balances Lender and Tenant interests. Subordination: the Lease ranks below the Mortgage, so the Lender can Foreclose without preserving Tenant rights. Non-disturbance: but on Foreclosure, the Tenant continues to occupy and pay Rent to the new owner (the Lender or buyer) under the original Lease terms. Attornment: the Tenant agrees to recognise the new owner as Landlord. Without an SNDA, a Lender could Foreclose and terminate Leases — Tenants paying above-market Rent would walk, gutting the property's value. Most investment-grade Commercial Tenants require SNDAs as condition of Lease signing.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "IREM",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "SOFR",
     "full": "Secured Overnight Financing Rate",
     "plain": "The replacement benchmark for LIBOR — what most Adjustable-Rate Mortgages now reset to.",
@@ -4475,6 +5241,22 @@
     "category": "Financing & Lending",
     "sources": [
       "Federal Reserve"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Spec Home",
+    "full": "Speculative Home",
+    "plain": "A new house a builder constructs before having a buyer — built on the speculation it will sell during or after construction.",
+    "snappy": "New house built by a developer on speculation, before any buyer is in contract.",
+    "detail": "Spec homes sit between custom-build (designed for a specific buyer) and tract development (master-planned community of many similar homes). The builder selects floor plan, finishes, and the Lot before any buyer is identified. Risk: carrying costs (land debt, construction debt, Property Tax, insurance) accumulate until sale. Reward: full retail margin captured without buyer customisation discounts. Spec homes proliferate in hot markets and disappear in cold ones. Builders often pre-list during framing to capture early buyers who want to select finishes mid-build at a discount to true custom pricing.",
+    "indications": [
+      "Residential",
+      "Development"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NAHB"
     ]
   },
   {
@@ -4601,6 +5383,21 @@
   },
   {
     "letter": "S",
+    "term": "Subcontractor",
+    "full": "Sub",
+    "plain": "A specialty trade firm hired by the General Contractor to perform a specific portion of the work — plumbing, electrical, HVAC, framing, drywall, finishes.",
+    "snappy": "Specialty trade firm hired by GC for specific work — plumbing, electrical, HVAC, framing.",
+    "detail": "Subcontractors hold trade-specific licences and perform the discrete pieces of construction. Common subs: framing, plumbing, electrical, HVAC, drywall, painting, flooring, roofing, glazing, concrete, masonry, landscaping, low-voltage. Subs sign sub-contracts with the GC, not directly with the owner. Subs file mechanic's Lien against the property if unpaid by the GC — even if the owner paid the GC in full. Lien waivers from subs at each progress payment protect the owner. Sub default and bonding requirements are major GC risk-management areas.",
+    "indications": [
+      "Development"
+    ],
+    "category": "Development",
+    "sources": [
+      "NAHB"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Sublease",
     "full": "",
     "plain": "When a Tenant rents the property out to someone else for part or all of the remaining Lease term.",
@@ -4630,6 +5427,23 @@
     "category": "Title & Ownership",
     "sources": [
       "ALTA"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Tax Lien",
+    "full": "Property Tax Lien",
+    "plain": "A government Lien on a property for unpaid Property Tax — has Senior priority over other Liens, often higher than even first Mortgages.",
+    "snappy": "Government Lien for unpaid Property Tax — Senior priority above most other Liens.",
+    "detail": "Tax Liens are the most-senior claim against Real Property in nearly every state. Failure to pay Property Tax triggers a Tax Lien automatically; counties then either auction the Lien to investors (Florida, Arizona, Iowa) or take the property for Tax Deed sale (California, Texas, Pennsylvania). Tax Lien investors earn statutory Interest — often 12-18% APR — until the homeowner redeems. Tax Lien sales attract capital seeking yield but require disciplined Due Diligence — most Liens redeem before maturity; the few that don't can produce property acquisition at deep discount to market.",
+    "indications": [
+      "Investment",
+      "Residential"
+    ],
+    "category": "Tax",
+    "sources": [
+      "Cornell LII",
+      "IRS"
     ]
   },
   {
@@ -4802,6 +5616,22 @@
   },
   {
     "letter": "T",
+    "term": "Title Commitment",
+    "full": "Title Insurance Commitment",
+    "plain": "The Title insurer's preliminary report — what defects it has found in the Title search, what it will and won't insure, and what conditions must be met before issuing the policy.",
+    "snappy": "Title insurer's preliminary report of defects and insurance conditions before policy issuance.",
+    "detail": "Title commitments come in four schedules. Schedule A: party names, legal description, the proposed policy amount. Schedule B-I: requirements that must be satisfied before policy issuance (release of prior Mortgages, payment of judgments, missing signatures). Schedule B-II: exceptions that won't be covered (recorded Easements, CC&Rs, mineral rights). Schedule C: any monetary objections (specific Liens). Buyers, Lenders, and attorneys review the commitment during Due Diligence — anything in Schedule B-II that's a deal-killer must be addressed before Closing.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "ALTA"
+    ]
+  },
+  {
+    "letter": "T",
     "term": "Title Company",
     "full": "",
     "plain": "A neutral third party that researches Title, issues Title Insurance, and handles the Escrow at Closing in most states.",
@@ -4815,6 +5645,22 @@
     "sources": [
       "ALTA",
       "CFPB"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Title Defect",
+    "full": "",
+    "plain": "Any problem with Title — Lien, Encroachment, missing signatures, gap in the Chain of Title — that makes Title less than marketable.",
+    "snappy": "Any flaw in Title that makes it less than marketable.",
+    "detail": "Title defects range from administrative (typo in a Deed legal description) to existential (forgery in the Chain of Title). Common types: unreleased Liens from prior owners, judgments against prior owners attaching to Title, missing or improper signatures, breaks in the Chain of Title, undisclosed Easements, Encroachments revealed by Survey, mechanic's Liens for prior contractor work. Title Insurance covers post-Closing defects discovered later. Pre-Closing defects must be cured (release recorded, Quitclaim from heir, court-ordered Quiet Title) or insured around with affirmative coverage in the policy.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "ALTA"
     ]
   },
   {
@@ -4847,6 +5693,21 @@
     "category": "Title & Ownership",
     "sources": [
       "ALTA"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Tract Home",
+    "full": "Production Home",
+    "plain": "A house built in a large subdivision of similar homes — limited floor-plan options, fixed finishes, faster delivery, lower price than custom.",
+    "snappy": "Mass-built suburban home with limited floor-plan and finish options.",
+    "detail": "Tract homes are the dominant US homebuilding product — Lennar, D.R. Horton, Pulte, KB Home, Toll Brothers between them deliver hundreds of thousands per year. Buyers pick from a small menu of floor plans, elevations, and finish packages. The builder controls construction sequencing and bulk-purchases materials, producing economies of scale that custom builds can't match. Quality varies — entry-level tract built to code minimums; luxury tract approaches the durability of custom. Tract subdivisions usually sit inside PUDs or standard residential Zoning, governed by CC&Rs and HOA.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NAHB"
     ]
   },
   {
@@ -5068,6 +5929,24 @@
   },
   {
     "letter": "V",
+    "term": "Value-Add",
+    "full": "Value-Added Strategy",
+    "plain": "A Real Estate investment strategy involving moderate Rehab, repositioning, or re-tenanting to lift NOI before exit — moderate-risk, mid-teens IRR target.",
+    "snappy": "Real Estate strategy targeting moderate-risk Rehab, repositioning, or re-tenanting to lift NOI.",
+    "detail": "Value-add is where most syndicated Multifamily deals operate. Buy stabilised but underperforming Class B or Class C property. Execute a 12-36 month business plan: Rehab interiors, replace tired Common Areas, push Rents to market, fix below-market Leases, manage Operating Expenses. Leverage 65-75% LTV. Hold Period 3-7 years. Levered IRR target 13-18%, mix of cash flow and exit appreciation. Higher risk than Core-Plus, less than Opportunistic. The dominant private-equity Real Estate strategy of 2010-2022.",
+    "indications": [
+      "Investment",
+      "Multifamily",
+      "Commercial"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "V",
     "term": "Variance",
     "full": "Zoning Variance",
     "plain": "An exception to a Zoning rule, granted by a local Board of Zoning Appeals when the rule would cause an unfair hardship for a specific Lot.",
@@ -5117,6 +5996,22 @@
     "sources": [
       "NCREIF",
       "ULI"
+    ]
+  },
+  {
+    "letter": "W",
+    "term": "Wholesale Lender",
+    "full": "Wholesale Mortgage Lender",
+    "plain": "A Lender that funds Mortgages originated by independent Mortgage Brokers — the broker brings the borrower, the wholesale Lender provides capital and underwriting.",
+    "snappy": "Lender funding Mortgages originated by independent Mortgage Brokers.",
+    "detail": "Wholesale Lenders never deal directly with borrowers — they work exclusively through approved Mortgage Brokers. The broker submits applications, the wholesale Lender underwrites, prices, and funds. Compensation flows through the broker channel. Major wholesale Lenders: United Wholesale Mortgage (UWM, largest), Rocket Pro TPO, Plaza Home Mortgage, Newrez, Caliber. UWM versus Rocket has been a defining wholesale rivalry of the 2020s — UWM championed brokers, Rocket leveraged its direct-to-consumer brand. The wholesale channel accounts for roughly 25-30% of US Mortgage origination by volume.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "MBA"
     ]
   },
   {
