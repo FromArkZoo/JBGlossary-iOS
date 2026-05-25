@@ -373,6 +373,22 @@
   },
   {
     "letter": "A",
+    "term": "AFFO",
+    "full": "Adjusted Funds From Operations",
+    "plain": "FFO further adjusted for recurring Capital Expenditure and leasing costs — represents the REIT's true distributable cash flow.",
+    "snappy": "FFO further adjusted for recurring Capital Expenditure — true distributable cash flow.",
+    "detail": "AFFO (Adjusted Funds From Operations) bridges FFO and true cash available for dividends. Calculation: FFO − recurring Capital Expenditure − leasing commissions − Tenant Improvement costs − straight-line Rent adjustments. Not standardised by Nareit — each REIT defines AFFO slightly differently. Investors prefer AFFO over FFO for: distribution coverage analysis (Dividend ÷ AFFO; should be <100% for sustainability), payout-ratio comparisons, true valuation. AFFO multiple typically 15-25x for stabilised REITs. REIT investor presentations emphasise AFFO growth and AFFO payout ratio.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "Nareit"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Affordability",
     "full": "",
     "plain": "Whether a typical household can actually afford homes in a given market — measured against income and Mortgage payment.",
@@ -896,6 +912,24 @@
   },
   {
     "letter": "B",
+    "term": "Backup Generator",
+    "full": "Standby Generator",
+    "plain": "On-site power generation equipment — diesel or natural gas powered — providing electricity during utility outages for buildings requiring uninterrupted power.",
+    "snappy": "On-site power generator providing electricity during utility outages.",
+    "detail": "Backup Generators are mandatory or near-mandatory in: Hotels above 75 feet, hospitals, Data Centers, high-rise Office, Senior Housing, refrigerated warehouses (Cold Storage). Generator types: diesel (most common, fast startup), natural gas (cheaper fuel, continuous operation), bi-fuel hybrid. Sizing: typically 50-100% of building load. Installation cost: $20,000-$500,000+ depending on size. Maintenance: monthly self-tests, quarterly load tests, annual service. Critical buildings have N+1 redundancy (one extra generator beyond minimum requirement). Generator capacity is a key Due Diligence item for hospitality and healthcare property buyers.",
+    "indications": [
+      "Commercial",
+      "Hospitality",
+      "Industrial"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "NCREIF",
+      "BOMA"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "Backup Offer",
     "full": "",
     "plain": "A second-place purchase offer that activates if the first deal falls through.",
@@ -977,6 +1011,21 @@
     "sources": [
       "CFPB",
       "Investopedia"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Bank Branch",
+    "full": "",
+    "plain": "A free-standing or in-line Retail building leased to a bank — typically a single-Tenant NNN Lease, often considered an Outparcel asset.",
+    "snappy": "Free-standing Retail leased to a bank — typical single-Tenant NNN Outparcel.",
+    "detail": "Bank Branches are net-Lease investment favourites. Major bank Tenants: Chase, Bank of America, Wells Fargo, US Bank, regional banks. Typical configuration: 3,500-6,000 SF free-standing building with drive-through, 1,000-1,500 SF prototype branches becoming common. Lease economics: 15-25 year NNN with corporate guarantees, 2% annual Escalations, three 5-year renewal options. Cap Rates: 5-7% for investment-grade Tenants. Industry trend: branch consolidation reduces aggregate demand 3-5% annually; Cap Rate widening on shorter remaining-term Leases.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF"
     ]
   },
   {
@@ -1816,6 +1865,39 @@
   },
   {
     "letter": "C",
+    "term": "Cash Management Account",
+    "full": "CMA, Cash Sweep Account",
+    "plain": "A Lender-controlled account collecting property cash flows in distressed Commercial Mortgages — funds sweep daily into Lender accounts, then disburse to borrower per agreed schedule.",
+    "snappy": "Lender-controlled account collecting property cash flows during Mortgage stress.",
+    "detail": "Cash Management Accounts get triggered by DSCR Covenant breaches or other distress events on Commercial Mortgages. Mechanics: all property income (Rent collections, parking, other income) deposits directly into the Lender-controlled CMA. Funds disburse per cash management waterfall: Property Tax, insurance, Operating Expenses (with Lender approval on major items), debt service, mandatory reserves (Replacement Reserve, TI reserves), excess available to borrower only if covenants restored. Borrower psychological impact: loss of cash flow control, signal to investors of distress. CMA agreements heavily negotiated at Loan origination — borrower wants high covenant trigger thresholds; Lender wants low.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Cash Trap",
+    "full": "Cash Sweep, Excess Cash Trap",
+    "plain": "A Commercial Loan provision sweeping excess cash flow above debt service to a Lender-controlled reserve — triggered by DSCR Covenant breach or other distress events.",
+    "snappy": "Loan provision sweeping excess cash flow to Lender reserve upon covenant breach.",
+    "detail": "Cash Traps activate as Commercial Mortgage covenants weaken. Common triggers: DSCR Covenant below 1.20x (typical), DSCR below 1.05x (more conservative), occupancy below 85%, major Tenant default. Effect: excess cash flow over debt service routes to Lender-controlled reserve account rather than borrower distribution. Funds released back to borrower only when covenants restore. Cash Trap is the borrower's nightmare scenario — equity returns drop to zero during stress as cash flow disappears. Sponsors fight aggressively for high covenant triggers and quick release once covenants normalise. Cash Trap provisions surge in importance during distress cycles.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Cash-for-Keys",
     "full": "Cash-for-Keys Agreement",
     "plain": "A Landlord-to-Tenant payment in exchange for voluntary move-out — often used in Eviction Moratorium-protected situations, distressed property purchases, and Rent-Stabilized buyouts.",
@@ -1928,6 +2010,22 @@
     "sources": [
       "NCREIF",
       "ULI"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Cell Tower",
+    "full": "Cellular Tower, Communications Tower",
+    "plain": "Standalone or rooftop infrastructure leased to wireless carriers — Verizon, AT&T, T-Mobile — for cellular network coverage.",
+    "snappy": "Standalone or rooftop infrastructure leased to wireless carriers for network coverage.",
+    "detail": "Cell Towers are an institutional niche asset class. Operators: American Tower Corporation (largest), Crown Castle (now data-centre-focused), SBA Communications. Tower types: lattice (tall standalone), monopole (single pole), guyed wire (least common). Co-location revenue model: multiple carriers per tower paying separate rents — sweet spot is 3-4 carriers. Lease economics: 20-30 year Tenant Lease with rent escalations, generally 5-Year Lease automatic renewals. Cap Rates: 3-4% — among the tightest in Commercial Real Estate reflecting Tenant credit and barriers to construction. 5G rollout drove additional tower densification 2019-2023.",
+    "indications": [
+      "Commercial",
+      "Specialty"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF"
     ]
   },
   {
@@ -2652,6 +2750,24 @@
   },
   {
     "letter": "C",
+    "term": "Construction Defect",
+    "full": "",
+    "plain": "A flaw in construction or materials — leaks, structural problems, code violations — that causes property damage or fails to meet contract specifications.",
+    "snappy": "Flaw in construction or materials causing damage or failing contract specs.",
+    "detail": "Construction Defect categories: design defects (architect or engineer error), workmanship defects (improper installation), materials defects (faulty products), code violations. Common defects: water intrusion (windows, roofs, foundations), structural settling, electrical issues, plumbing leaks, HVAC system failures, balcony or deck failures. Liability theories: breach of contract, breach of express or implied warranty, negligence, strict products liability. Multifamily and Condo construction defects can generate massive class actions — 'leaky condo' crisis devastated Florida Condo market in the 2000s-2010s. Insurance: builder's general liability, professional liability for design defects, completed-operations coverage for finished work.",
+    "indications": [
+      "Residential",
+      "Multifamily",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAHB",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Construction Loan",
     "full": "",
     "plain": "A short-term loan that funds the building of a new property — draws cash as the work progresses.",
@@ -2765,6 +2881,24 @@
     "sources": [
       "Fannie Mae",
       "Freddie Mac"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Cool Roof",
+    "full": "Reflective Roof",
+    "plain": "Roofing with high solar reflectance and emissivity — reduces building cooling loads, energy consumption, urban heat island — increasingly required by state energy codes.",
+    "snappy": "Roofing with high reflectance — reduces cooling loads and energy consumption.",
+    "detail": "Cool Roofs reflect more solar radiation than conventional roofs. Materials: white TPO single-ply membrane, white EPDM, light-colour modified bitumen, reflective metal roofing, specialty cool-roof shingles. Energy savings: 10-20% cooling reduction in warm climates. Initial cost: comparable to standard roofing or 5-15% premium. California Title 24 requires cool roofs on most new commercial construction and renovations. Energy Star Cool Roof certification: 65% initial reflectance, 50% after 3 years. ULP cool-roof requirements increasingly common in hot-climate jurisdictions. Combined with insulation upgrades for maximum efficiency.",
+    "indications": [
+      "Commercial",
+      "Industrial",
+      "Residential"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "HUD",
+      "BOMA"
     ]
   },
   {
@@ -3078,6 +3212,23 @@
     "sources": [
       "IREM",
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "Data Center",
+    "full": "Data Center Real Estate",
+    "plain": "Specialised Commercial buildings housing computer servers and IT infrastructure — high power consumption, advanced cooling, fibre connectivity, security — most-grown asset class of 2020s.",
+    "snappy": "Specialised Commercial buildings housing servers and IT infrastructure.",
+    "detail": "Data Centers became a dominant institutional Real Estate asset class with cloud computing growth. Building specs: extreme power density (30-100+ MW per facility), N+1 or 2N redundancy on power and cooling, robust generator backup, security clearance protocols, fibre connectivity to multiple providers. Tenants: hyperscale cloud (AWS, Azure, Google), telecom carriers, large enterprise IT. Cap Rates: 4-5.5% for stabilised facilities. Major Data Center REITs: Equinix (largest, $90B+ market cap), Digital Realty, CyrusOne (private since 2022). Hyperscale customers increasingly Build-to-Suit lease arrangements.",
+    "indications": [
+      "Commercial",
+      "Specialty"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "ULI"
     ]
   },
   {
@@ -3928,6 +4079,21 @@
   },
   {
     "letter": "E",
+    "term": "ENERGY STAR Portfolio Manager",
+    "full": "Portfolio Manager",
+    "plain": "EPA's free online tool — building owners use it to track energy consumption, water use, greenhouse gas emissions across their portfolios.",
+    "snappy": "EPA's free tool tracking building energy consumption across portfolios.",
+    "detail": "Portfolio Manager has become essential infrastructure for Commercial Real Estate sustainability. Free EPA service; 350,000+ buildings registered. Functions: monthly utility data upload, EUI calculation, peer benchmarking, Energy Star certification application (75+ score), carbon emissions tracking, climate-resilience tools. Required by: mandatory benchmarking laws in 30+ US cities, federal buildings under Energy Act 2005, LEED certification for many credits. Pulls automatic utility data from major US utility companies via Green Button Connect. Used by virtually every institutional commercial Real Estate owner for ESG reporting and Energy Star qualification.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "HUD"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Energy-Efficient Mortgage",
     "full": "EEM, Energy-Improvement Mortgage",
     "plain": "A Mortgage that includes funds for energy-efficiency improvements — solar, insulation, HVAC upgrades — on top of the purchase or Refinance amount.",
@@ -4029,6 +4195,23 @@
   },
   {
     "letter": "E",
+    "term": "Equity REIT",
+    "full": "",
+    "plain": "A REIT that owns and operates income-producing Real Estate — distinct from Mortgage REIT (mREIT) which lends rather than owns.",
+    "snappy": "REIT owning and operating Real Estate — distinct from Mortgage REIT.",
+    "detail": "Equity REITs are the dominant US REIT category — ~95% of REIT market cap. Major equity REIT subsectors: residential (Equity Residential, AvalonBay, Camden), retail (Simon, Regency, Kimco), industrial (Prologis, Duke Realty, Stag), office (Boston Properties, Vornado, SL Green), healthcare (Welltower, Ventas, Healthpeak), data centres (Equinix, Digital Realty), specialty (Public Storage, American Tower, EPR Properties). Income: 80-90% from Rent; appreciation: balance from Sale gains. Dividend yield: 3-5% typical. Listed REIT versus private/non-traded REIT distinction.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "Nareit",
+      "SEC"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Escalation Clause",
     "full": "Rent Escalation Clause",
     "plain": "A Lease provision that automatically bumps Rent up over time — fixed steps, CPI, or market-driven.",
@@ -4093,6 +4276,21 @@
     "sources": [
       "IREM",
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "EUI",
+    "full": "Energy Use Intensity",
+    "plain": "A metric measuring building energy consumption — kBtu per square foot per year — used for benchmarking and Energy Star certification.",
+    "snappy": "Building energy consumption per square foot per year — used for benchmarking.",
+    "detail": "EUI is the standard energy-benchmarking metric. Calculation: total annual energy use ÷ rentable square footage, expressed in kBtu/SF/year. Standard EUI: 80-100 for typical Office, 200-300 for high-energy uses (Data Center, Cold Storage), 50-80 for efficient Office, 20-30 for Passive House Multifamily. Energy Star score: percentile rank based on EUI compared to similar buildings nationally. Reporting: EPA Portfolio Manager benchmarks free for any building owner. Mandatory benchmarking laws: NYC, Boston, Chicago, Philadelphia, Seattle, Washington DC, San Francisco, Atlanta. Carbon-emissions rules (NYC LL97) increasingly drive EUI to centre stage in operations strategy.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "HUD"
     ]
   },
   {
@@ -4196,6 +4394,22 @@
     ]
   },
   {
+    "letter": "E",
+    "term": "External REIT Manager",
+    "full": "Externally Managed REIT",
+    "plain": "A REIT structure where an outside management company manages operations — earns fees from the REIT — common in mortgage REITs and some non-traded REITs.",
+    "snappy": "REIT outsourcing operations to a fee-charging external manager.",
+    "detail": "External Management persists in: mortgage REITs (Apollo, KKR, Annaly externally managed by parent companies), non-traded REITs (often externally managed by Sponsor entities), small specialty REITs. Compensation: management fee (1-1.5% of equity), incentive fee (typically 20% of returns above hurdle). Conflicts: management company shareholders vs REIT shareholders. Activist investor pressure consistently pushes externally-managed REITs toward internalisation. The 2020s era still has 60-80 publicly-traded externally-managed REITs but the model is in long-term decline for transparency and alignment reasons.",
+    "indications": [
+      "Investment"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "Nareit",
+      "SEC"
+    ]
+  },
+  {
     "letter": "F",
     "term": "Fair Housing Act",
     "full": "",
@@ -4280,6 +4494,23 @@
     "sources": [
       "NCREIF",
       "IRS"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "FFO",
+    "full": "Funds From Operations",
+    "plain": "The standard REIT operating-metric — net income excluding gains on property sales plus depreciation — used in place of net income for REIT analysis.",
+    "snappy": "REIT operating-metric net of property-Sale gains, plus depreciation.",
+    "detail": "Funds From Operations (FFO) is the dominant REIT performance metric. Calculation: Net Income + Depreciation and Amortisation + Losses on Sales − Gains on Sales − Other non-cash items. Why: standard net income understates REIT performance because real estate Depreciation is non-cash and properties don't actually deteriorate in market value. FFO per share is the standard REIT valuation multiple (P/FFO replaces P/E). Nareit defines FFO precisely to enable comparison across REITs. Reported quarterly alongside GAAP earnings. AFFO (Adjusted Funds From Operations) further adjusts for recurring capital expenditures.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "Nareit",
+      "SEC"
     ]
   },
   {
@@ -4914,6 +5145,22 @@
   },
   {
     "letter": "G",
+    "term": "Green Roof",
+    "full": "Vegetated Roof",
+    "plain": "A roof with growing medium and plants — provides stormwater management, insulation, urban heat reduction, biodiversity — common in dense urban Commercial buildings.",
+    "snappy": "Roof with growing medium and plants — stormwater, insulation, biodiversity.",
+    "detail": "Green Roofs perform multiple environmental functions. Categories: extensive (4-6 inch growing medium, sedum and grasses, low maintenance), intensive (12+ inch medium, supports trees and walking paths, high maintenance). Benefits: stormwater retention (40-80% of rainfall), thermal insulation (R-value improvement), urban heat island reduction, habitat creation, extended roof membrane life. Cost premium: $10-$25 PSF over standard roof. Municipal incentives: Chicago, NYC, San Francisco offer Green Roof tax breaks and stormwater-fee reductions. LEED points: green roofs contribute to multiple credit categories. Best for commercial buildings with flat roofs; residential Green Roof less common due to load constraints.",
+    "indications": [
+      "Commercial",
+      "Development"
+    ],
+    "category": "Development",
+    "sources": [
+      "ULI"
+    ]
+  },
+  {
+    "letter": "G",
     "term": "Greenfield",
     "full": "Greenfield Site",
     "plain": "Undeveloped Land — usually agricultural or open space — being considered for new construction, distinct from infill or brownfield redevelopment.",
@@ -5176,6 +5423,23 @@
   },
   {
     "letter": "H",
+    "term": "HOA Estoppel Letter",
+    "full": "HOA Estoppel Certificate",
+    "plain": "A signed statement from the HOA — required at Sale — confirming the seller's account balance, pending assessments, and HOA financial position as of Closing date.",
+    "snappy": "HOA signed statement of seller account and pending assessments at Closing.",
+    "detail": "HOA Estoppel Letters complement Resale Certificates. Contents: current HOA balance owed (typically a specific dollar amount as of a specific date), pending special assessments, current and unpaid annual or monthly fees, transferred-association obligations on new owner, agreed disclosures. Signed by HOA management or board. Once signed, HOA is estopped from later asserting different facts (the buyer reasonably relied on the disclosure). Cost: $100-$300, typically paid by seller. Required by Title Insurance underwriters and required for Mortgage Closings. Common dispute: HOA Estoppel Letter omits Special Assessment that's actually pending, leading to post-Closing litigation.",
+    "indications": [
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "H",
     "term": "HOA Fee",
     "full": "Homeowners Association Dues",
     "plain": "The monthly or annual payment from each unit owner to the HOA — funds Common Area maintenance, insurance, reserves, and association overhead.",
@@ -5189,6 +5453,23 @@
     "sources": [
       "HUD",
       "NAR"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "HOA Resale Certificate",
+    "full": "Resale Certificate, Condo Resale Certificate",
+    "plain": "A document from the HOA or Condo association — required at Sale — disclosing assessments, reserves, financial status, pending Special Assessments, and Lease restrictions.",
+    "snappy": "HOA document required at Sale disclosing assessments, reserves, and pending issues.",
+    "detail": "Resale Certificates surface HOA realities for buyers. Standard contents: current HOA Fee level, payment status of existing seller, pending Special Assessments, reserve fund balance, recent operating budget, Bylaws and CC&Rs, copies of recent meeting minutes (typically 12 months), insurance certificates, declaration of any known building defects or litigation. Cost: $150-$500 fee, payable by seller in most states. Timeline: 5-15 days for HOA to produce. Major Due Diligence item for buyers — surfaces undisclosed Special Assessments that can ruin a deal. Required by Title Insurance underwriters in many states for HOA-governed property transactions.",
+    "indications": [
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR",
+      "Cornell LII"
     ]
   },
   {
@@ -5724,6 +6005,22 @@
     "sources": [
       "CFPB",
       "Investopedia"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Internal REIT Manager",
+    "full": "Internally Managed REIT",
+    "plain": "A REIT structure where the REIT employs its own management team — distinct from External REIT Manager arrangements with outside management companies.",
+    "snappy": "REIT employing its own management team — distinct from External REIT Manager.",
+    "detail": "Internal REIT Management is the dominant structure among publicly-listed equity REITs. Pros: management compensation aligned with REIT shareholders (rather than separate external Manager economics), lower fees, no related-party conflicts of interest. Almost all public REITs are internally managed. External management exists in mortgage REITs (where the External Manager owns the operating platform) and some non-traded REITs. The 1990 'Internalisation' wave shifted most public REITs to Internal Management. Public REIT investor expectations require Internal Management; external structures face valuation discounts.",
+    "indications": [
+      "Investment"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "Nareit",
+      "SEC"
     ]
   },
   {
@@ -6339,6 +6636,23 @@
   },
   {
     "letter": "L",
+    "term": "Life Sciences",
+    "full": "Life Sciences Real Estate, Lab Space",
+    "plain": "Specialised Commercial property for biotechnology, pharmaceutical, and medical research — distinguishes from general Office through wet-lab infrastructure, ventilation, plumbing.",
+    "snappy": "Specialised Commercial property for biotech/pharma research — wet-lab infrastructure required.",
+    "detail": "Life Sciences Real Estate emerged as a top-performing institutional asset class 2015-2022. Hub markets: Boston/Cambridge (largest), San Francisco/South SF, San Diego, Research Triangle (NC), Seattle, Maryland (NIH area). Building specs: wet-lab plumbing and waste, robust HVAC for chemical exhaust, vibration isolation for sensitive equipment, 6,000-10,000 lb floor loads, robust electrical, generator backup, freight elevators. Cap Rates 4-5.5% peak 2021, widened 200+ bps with biotech funding cycle. Major Life Sciences REITs: Alexandria Real Estate Equities (dominant), BioMed Realty (Blackstone subsidiary), Healthpeak.",
+    "indications": [
+      "Commercial",
+      "Specialty"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Lifestyle Center",
     "full": "Open-Air Lifestyle Center",
     "plain": "A premium open-air Retail centre with high-end Tenants, walkable layout, restaurants and entertainment — designed to replace traditional enclosed mall with destination ambience.",
@@ -6621,6 +6935,21 @@
   },
   {
     "letter": "L",
+    "term": "Lockbox Banking",
+    "full": "Cash Lockbox",
+    "plain": "A Lender-controlled bank account where all Tenant Rent checks and ACH payments deposit directly — bypassing the borrower's operating accounts.",
+    "snappy": "Lender-controlled bank account receiving Tenant Rent directly.",
+    "detail": "Lockbox Banking provides Commercial Mortgage Lenders direct control over property cash flow. Hard Lockbox: all Tenant payments go directly to Lender-controlled account; Lender disburses to borrower per waterfall. Soft Lockbox: Tenant payments go to borrower's account but with Lender-controlled sweep to the Lockbox. Springing Lockbox: triggered only on Default or covenant breach; pre-trigger, borrower controls cash. CMBS Loans typically include Springing Lockbox provisions. Hard Lockbox common in: troubled Loans, post-Default workouts, high-leverage transactions. Cost: $500-$5,000 in monthly bank and Lender fees; payable through Operating Expenses.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Lockout",
     "full": "Self-Help Lockout",
     "plain": "A Landlord's illegal action of changing locks or physically excluding a Tenant — almost universally prohibited by state law, requires Eviction proceedings instead.",
@@ -6819,6 +7148,22 @@
   },
   {
     "letter": "M",
+    "term": "Marina",
+    "full": "Marina Real Estate",
+    "plain": "Commercial property combining boat slips, dry storage, fuel docks, repair facilities, sometimes Hotel or restaurant components — niche coastal Real Estate.",
+    "snappy": "Coastal property combining boat slips, dry storage, fuel docks, sometimes Hotel components.",
+    "detail": "Marinas are a specialty Commercial Real Estate niche. Property components: boat slips (rented by length and amenities), dry rack storage (boats lifted in and out of water), fuel and pump-out docks, repair and maintenance, retail/restaurant. Revenue: slip rental ($100-$500/foot/month depending on market and amenities), fuel sales, storage fees, F&B. Major US marina REIT: Safe Harbor Marinas (acquired by Sun Communities 2020 for $2.1B). Coastal concentration: Florida, California, Mid-Atlantic, Great Lakes, Pacific Northwest. Climate-change risks: sea-level rise, storm surge, hurricane damage, eroding shorelines.",
+    "indications": [
+      "Commercial",
+      "Specialty"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Mark to Market",
     "full": "Mark-to-Market Rent",
     "plain": "The process of repricing in-place Leases to current market Rent — done at Lease renewal, on Sale, or in a value-add business plan.",
@@ -6986,6 +7331,22 @@
     "category": "Title & Ownership",
     "sources": [
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Medical Office Building",
+    "full": "MOB",
+    "plain": "Office property specifically designed for medical practitioners — examination rooms, plumbing, electrical, technology infrastructure — distinct from general Office.",
+    "snappy": "Office property purpose-built for medical practitioners.",
+    "detail": "Medical Office Buildings (MOBs) are a specialty Commercial Real Estate niche. Configurations: on-campus (adjacent to hospitals, often owned or master-leased by the hospital), off-campus (independent medical practices). Tenant types: physician practices, surgical centres, urgent care, dental offices, physical therapy, imaging centres. Lease economics: 7-15 year terms, often with TI allowances $50-$150 PSF, slow Tenant turnover. Cap Rates: 5.5-7% for institutional Class A MOBs. Major MOB REITs: Healthcare Realty Trust, Physicians Realty Trust, MedEquities. Asset class growth driven by demographics and shifting healthcare delivery away from hospital settings.",
+    "indications": [
+      "Commercial",
+      "Specialty"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF"
     ]
   },
   {
@@ -7389,6 +7750,22 @@
   },
   {
     "letter": "M",
+    "term": "Mortgage REIT",
+    "full": "mREIT",
+    "plain": "A REIT that owns Mortgages and Mortgage-backed securities rather than physical Real Estate — earns income from the spread between Mortgage yields and funding costs.",
+    "snappy": "REIT owning Mortgages and MBS rather than physical Real Estate.",
+    "detail": "Mortgage REITs (mREITs) are a smaller but distinct REIT category — ~$60B market cap. Sub-categories. Agency mREIT: invests in Fannie/Freddie/Ginnie MBS (Annaly Capital, AGNC Investment). Non-agency mREIT: invests in private MBS, CMBS, Commercial Mortgages (Starwood Property Trust, Apollo Commercial Real Estate Finance). Hybrid mREITs: both. Income model: borrow short-term (repo, warehouse lines, commercial paper) at low rates, invest in higher-yielding Mortgages, capture the spread. Risk: rate volatility — rising rates compress spread and devalue MBS. Dividend yields: 8-15% — high but volatile.",
+    "indications": [
+      "Investment"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "Nareit",
+      "SEC"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Mortgage Servicer",
     "full": "Loan Servicer",
     "plain": "The company that collects monthly Mortgage payments, manages Escrow accounts, and handles delinquencies — often different from the original Lender.",
@@ -7603,6 +7980,23 @@
   },
   {
     "letter": "N",
+    "term": "Net Zero Building",
+    "full": "Net-Zero Energy",
+    "plain": "A building that produces as much energy as it consumes over a year — combining energy efficiency with on-site renewable generation (typically solar).",
+    "snappy": "Building producing as much energy as it consumes annually via efficiency and solar.",
+    "detail": "Net Zero Buildings represent the highest tier of energy performance. Two paths: energy-efficient design reducing consumption to a level matched by economically-feasible on-site solar, or larger renewable systems offsetting higher consumption. International Living Future Institute Living Building Challenge: most stringent Net Zero certification. New construction targets: 2020s commercial Net Zero often achievable with current technology at 5-15% cost premium. Existing buildings: harder, often requires solar plus deep retrofit. Federal goal: all new federal construction Net Zero by 2030. State commitments: California Title 24 increasingly approaching Net Zero on new commercial.",
+    "indications": [
+      "Development",
+      "Commercial"
+    ],
+    "category": "Development",
+    "sources": [
+      "HUD",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "N",
     "term": "NFIP",
     "full": "National Flood Insurance Program",
     "plain": "The federal Flood Insurance program that provides most US flood policies in FEMA-mapped flood zones — required by Lenders for Mortgages on high-risk properties.",
@@ -7716,6 +8110,22 @@
     "category": "Financing & Lending",
     "sources": [
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "N",
+    "term": "Non-Traded REIT",
+    "full": "Non-Listed REIT",
+    "plain": "A REIT that doesn't trade on a public stock exchange — investors buy shares from the Sponsor at NAV — limited liquidity, often higher fees than listed REITs.",
+    "snappy": "REIT not traded on a stock exchange — limited liquidity, higher fees.",
+    "detail": "Non-Traded REITs target retail investors seeking REIT-like exposure without daily price volatility. Major Sponsors: Blackstone Real Estate Income Trust (BREIT, largest at $60B+ AUM), Starwood Real Estate Income Trust (SREIT), KKR Real Estate Income Trust (KREST), Ares Real Estate. Mechanics: investors buy shares at quarterly NAV, redemption windows allow 5% of equity per quarter (or less when under stress), redemption-gated periods common in market stress (2020, 2022-2024). Pros: lower price volatility than listed REITs, NAV-based pricing, institutional Sponsor expertise. Cons: high fees (1-1.5% management, 12.5% performance fee), limited liquidity in stress.",
+    "indications": [
+      "Investment"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "Nareit",
+      "SEC"
     ]
   },
   {
@@ -8153,6 +8563,22 @@
     "sources": [
       "Cornell LII",
       "NCREIF"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Passive House",
+    "full": "Passivhaus",
+    "plain": "A rigorous energy-efficient building standard — German-origin — minimising heating and cooling loads through super-insulation, airtight envelope, controlled ventilation.",
+    "snappy": "Rigorous energy-efficient standard via super-insulation, airtight envelope, ventilation.",
+    "detail": "Passive House standards originated 1991 in Germany (Passivhaus). Key specs: heating demand ≤15 kWh/m²/year, primary energy demand ≤120 kWh/m²/year, air tightness ≤0.6 air changes per hour at 50 Pa. Components: triple-pane windows, super-insulation (R-40+ walls, R-60+ ceilings), eliminated thermal bridges, heat recovery ventilation. US adoption: ~3,000 certified Passive House buildings (2024); growing in Multifamily Affordable Housing (NYC, Philadelphia, Maine state mandate). Cost premium over conventional: 5-15% upfront, 50-80% reduction in heating/cooling costs. Passive House Institute US (PHIUS) operates US certification.",
+    "indications": [
+      "Development",
+      "Residential"
+    ],
+    "category": "Development",
+    "sources": [
+      "ULI"
     ]
   },
   {
@@ -8638,6 +9064,22 @@
   },
   {
     "letter": "P",
+    "term": "Property Condition Disclosure",
+    "full": "PCD, Seller Disclosure",
+    "plain": "A state-mandated form requiring sellers of residential property to disclose known material defects — varies by state but covers structural, mechanical, environmental, legal issues.",
+    "snappy": "State-mandated form for sellers to disclose known material residential defects.",
+    "detail": "Property Condition Disclosure laws apply in most US states for residential transactions. Standard categories: structural (foundation, walls, roof), mechanical (HVAC, plumbing, electrical, water heater), Title issues (Liens, Easements, Encroachments), environmental (lead, asbestos, mould, radon, water damage), neighbourhood (noise, flooding, crime), pest issues, prior insurance claims. Form length: 4-20 pages depending on state. Penalties for non-disclosure: misrepresentation lawsuits, rescission of Sale, statutory damages. Realtor liability: helping with knowingly false disclosures triggers Agent E&O claims. PCD compliance is a major buyer-side Due Diligence focus.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Property Management Software",
     "full": "PMS",
     "plain": "Software platforms running day-to-day operations of Multifamily, Commercial, and Single-Family Rental property — rent collection, maintenance requests, financial reporting, tenant communication.",
@@ -8759,6 +9201,22 @@
   },
   {
     "letter": "P",
+    "term": "Public Non-Listed REIT",
+    "full": "PNLR",
+    "plain": "A non-traded REIT that has registered with the SEC for public reporting — distinct from private REITs — but doesn't trade on exchanges.",
+    "snappy": "Non-traded REIT registered with SEC for public reporting but not exchange-traded.",
+    "detail": "Public Non-Listed REITs (PNLRs) combine SEC reporting with non-traded structure. Major PNLRs: Blackstone BREIT (registered with SEC), Starwood SREIT, JLL Income Property Trust, NexPoint Real Estate Finance. Disclosure: quarterly and annual SEC filings give transparency, but shares don't trade on exchanges. NAV pricing: monthly or quarterly NAV per share determines purchase price; redemption-window timing limits liquidity. Major regulatory framework: SEC Regulation A, Regulation D, blue-sky state laws. The PNLR model surged 2018-2022 as BREIT scaled to $60B+ AUM; 2022-2024 redemption gating drew investor attention to liquidity risk.",
+    "indications": [
+      "Investment"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "SEC",
+      "Nareit"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "PUD",
     "full": "Planned Unit Development",
     "plain": "A residential or mixed-use development built under a special Zoning category that bundles a mix of housing types, density, common areas, and uses into a single master-planned project.",
@@ -8819,6 +9277,21 @@
     "sources": [
       "CFPB",
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "Q",
+    "term": "QSR",
+    "full": "Quick Service Restaurant",
+    "plain": "Fast-food Retail — drive-through standalone or inline — typically leased on long-term NNN to chain operators or franchisees.",
+    "snappy": "Fast-food Retail leased on long-term NNN to chain operators or franchisees.",
+    "detail": "QSR (Quick Service Restaurant) is a major net-Lease investment category. Tenant names: McDonald's, Chick-fil-A, Burger King, Wendy's, Taco Bell, Starbucks, Dunkin'. Lease economics: 15-25 year NNN, often corporate-guaranteed; 1.5-2% annual escalations; multiple 5-year renewals. Cap Rates: 4.5-6% for top-tier QSR (Chick-fil-A, McDonald's), 5.5-7% for mid-tier. Investor appeal: drive-through traffic generates consistent foot traffic during recessions, recession-resistance demonstrated in 2008-2010 and 2020-2021. Major QSR REIT holdings: Realty Income, STORE Capital, Spirit Realty Capital.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF"
     ]
   },
   {
@@ -9263,6 +9736,22 @@
   },
   {
     "letter": "R",
+    "term": "Reissue Rate",
+    "full": "",
+    "plain": "A discounted Title Insurance premium offered when the borrower or buyer has an existing Title policy on the same property — reflects reduced insurer risk on a previously-vetted Title.",
+    "snappy": "Discounted Title Insurance premium for an existing-policy holder on the same property.",
+    "detail": "Reissue Rates compensate Title Insurers for reduced underwriting risk on subsequent transactions. Mechanics: borrower Refinancing within 5-10 years of original purchase qualifies for Reissue Rate on the new Lender's Policy — typically 50-70% of the standard premium. Similarly, buyer purchasing a property with a recent Title Insurance policy can sometimes apply for Reissue on Owner's Policy. Documentation: prior policy must be presented. Industry inefficiency: many Refinances don't apply for Reissue despite eligibility — borrowers pay full premiums by default. Title Companies have no incentive to volunteer Reissue. Borrower-side awareness is increasing.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "ALTA"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "REIT",
     "full": "Real Estate Investment Trust",
     "plain": "A public or private company that owns income-producing Real Estate — investors buy shares like a stock and receive a slice of the Rent.",
@@ -9465,6 +9954,22 @@
     "sources": [
       "IREM",
       "Fannie Mae"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Reserve Account",
+    "full": "Reserve",
+    "plain": "Lender-controlled funds held back for specific purposes — Replacement Reserve, TI/LC, Property Tax escrow, insurance escrow — released only for designated uses.",
+    "snappy": "Lender-controlled funds for specific purposes — releases only for designated uses.",
+    "detail": "Reserve Accounts proliferate in Commercial Mortgage structures. Categories: Replacement Reserve (annual Cap-Ex funding), TI/LC Reserve (Tenant Improvement and Leasing Commission), Tax Escrow (monthly Property Tax accruals), Insurance Escrow (annual premium accruals), Mortgage Insurance Reserve, Capital Improvement Reserve (one-time funding for known projects). Funding: borrower deposits at Loan origination plus monthly contributions during operations. Release: Lender reviews invoices and disburses for approved uses; borrower cannot freely access. Reserves typically earn modest Interest (T-bill or similar). Major Reserve Accounts add 5-10% to upfront Loan capital requirements.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF"
     ]
   },
   {
@@ -9953,6 +10458,22 @@
   },
   {
     "letter": "S",
+    "term": "Self-Storage Facility",
+    "full": "Self-Storage Property",
+    "plain": "Real Estate-specific term for an individual Self-Storage building — distinct from Self-Storage (the asset class) — used for transaction descriptions.",
+    "snappy": "Individual Self-Storage building used for transaction descriptions.",
+    "detail": "Self-Storage Facility distinguishes the individual property from the Self-Storage asset class. Typical facility: 50,000-150,000 SF rentable, 500-1,500 units, drive-up access at ground level, climate-controlled units inside. Construction: simple metal-and-concrete construction; per-square-foot cost runs $40-$80, low for Real Estate. Operating intensity: minimal — automated gates, one office staffer, contracted maintenance. Cap Rates: 5-6.5% for institutional-quality facilities. Major Self-Storage REITs: Public Storage, Extra Space Storage, CubeSmart, Life Storage. Asset class consistently outperforms broader Real Estate through cycles.",
+    "indications": [
+      "Commercial",
+      "Specialty"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Seller",
     "full": "",
     "plain": "The party transferring ownership of a property — represented in the transaction by a Listing Agent.",
@@ -10252,6 +10773,22 @@
   },
   {
     "letter": "S",
+    "term": "Solar Panel System",
+    "full": "Solar PV, Photovoltaic System",
+    "plain": "On-site electricity generation using photovoltaic panels — typically rooftop or carport installations — reduces utility consumption and increasingly required by state codes.",
+    "snappy": "On-site electricity generation using photovoltaic panels — rooftop or carport installations.",
+    "detail": "Solar Panel Systems generate on-site electricity. Common configurations: residential rooftop (5-10 kW typical), commercial flat-roof arrays (50-500 kW), large commercial carports (200-2,000 kW), utility-scale field deployments (10+ MW). Cost: $2.50-$3.50 per installed watt residential, $1.50-$2.50 commercial. Financial structures: cash purchase, Loan, Solar Power Purchase Agreement (PPA — third party owns panels, sells electricity at fixed rate), solar Lease. Net Metering: utility credits excess generation against future consumption. State incentives: California Solar Initiative, NY-Sun, Massachusetts SMART, ITC federal tax credit. New construction mandates: California requires solar on new homes since 2020.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "HUD"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "SPE",
     "full": "Single-Purpose Entity, Special-Purpose Entity",
     "plain": "A legal entity — typically an LLC — formed for the single purpose of holding one specific Real Estate property, with restrictions on other activities and debt.",
@@ -10388,6 +10925,22 @@
   },
   {
     "letter": "S",
+    "term": "Springing Cash Sweep",
+    "full": "Cash Sweep Trigger",
+    "plain": "A Commercial Mortgage provision that automatically triggers a Cash Trap when defined conditions occur — DSCR breach, occupancy decline, lease expiration concentration.",
+    "snappy": "Loan provision auto-triggering Cash Trap when defined conditions occur.",
+    "detail": "Springing Cash Sweeps automate stress responses in Commercial Mortgages. Typical triggers: DSCR <1.20x for any quarter, occupancy <85%, more than 25% of Rent expiring within 18 months without renewal commitments, Major Tenant Default (specific Tenants identified at Loan origination), failure to fund Reserve Accounts, breach of financial reporting requirements. On Trigger: cash management activates, excess cash flow sweeps to Reserve, borrower distributions cease. Off Trigger: covenants restored, sweep ceases, accumulated funds release (sometimes immediately, sometimes over months). Sweep structure is heavily negotiated; sophisticated Sponsors get carefully delimited triggers and clear release mechanics.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Springing Recourse",
     "full": "Springing Guaranty",
     "plain": "A Commercial loan structure that's non-recourse until a triggering event occurs — then 'springs' into recourse against the guarantor Sponsor.",
@@ -10400,6 +10953,23 @@
     "category": "Financing & Lending",
     "sources": [
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Sprinkler System",
+    "full": "Fire Sprinkler System",
+    "plain": "An automatic fire suppression system — water pipes with heat-activated sprinkler heads — required by code in most commercial buildings, increasingly in residential.",
+    "snappy": "Automatic fire suppression with heat-activated sprinkler heads.",
+    "detail": "Sprinkler Systems are mandatory in: most commercial buildings, Multifamily of 3+ stories (varies by state), all new high-rise residential (since 1989 IBC), single-family in some jurisdictions (California new construction since 2011). Sprinkler types: wet-pipe (water always in pipes), dry-pipe (pressurised air, fills with water on activation), pre-action (combination), deluge (open heads). ESFR sprinklers (Early Suppression Fast Response) common in modern Industrial. Cost: $1-$8 PSF retrofit; less for new construction. Insurance discounts: 10-30% on commercial property insurance with full sprinkler coverage.",
+    "indications": [
+      "Commercial",
+      "Multifamily",
+      "Residential"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "NAHB"
     ]
   },
   {
@@ -10433,6 +11003,38 @@
     "category": "Transactions",
     "sources": [
       "NAR"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Statute of Limitations",
+    "full": "",
+    "plain": "A statutory time limit for filing legal claims — varies by claim type and state — typically 1-10 years from claim accrual or discovery.",
+    "snappy": "Statutory time limit for filing legal claims — 1-10 years typically.",
+    "detail": "Statute of Limitations governs Real Estate claims. Typical limits: contract claims (4-6 years), tort claims (1-4 years), fraud claims (2-5 years from discovery), construction defects (4-10 years, varying state). Discovery rule: some claims accrue when discovered rather than when occurring (fraud, latent defects, sexual misconduct). Tolling: some events pause the clock (Tenant in possession, fraud concealment, minority of plaintiff). Real Estate-specific issues: Mortgage Foreclosure deadlines, Mechanic's Lien filing deadlines, Property Tax sale redemption periods. Statute of Limitations distinct from Statute of Repose (absolute time bar regardless of discovery).",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Statute of Repose",
+    "full": "",
+    "plain": "A statutory time limit — typically 6-12 years from Substantial Completion — barring construction-defect lawsuits regardless of when the defect was discovered.",
+    "snappy": "Statutory time bar on construction-defect lawsuits, measured from Substantial Completion.",
+    "detail": "Statute of Repose imposes absolute time bars distinct from Statute of Limitations. Statute of Limitations: time from defect discovery to filing claim (often 2-4 years). Statute of Repose: time from Substantial Completion to filing claim (typically 6-12 years, varies by state). Even if a buyer discovers a major Latent Defect 15 years after construction, Statute of Repose bars the claim against GC, Subcontractors, or design professionals in most cases. State variations: California 10 years, Texas 10 years (residential), Florida 7 years, Massachusetts 6 years. Critics argue Statute of Repose unfairly disadvantages buyers facing latent defects in older construction.",
+    "indications": [
+      "Residential",
+      "Development"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "Cornell LII"
     ]
   },
   {
@@ -10888,6 +11490,22 @@
   },
   {
     "letter": "T",
+    "term": "Tenant Estoppel",
+    "full": "Tenant Estoppel Letter",
+    "plain": "A signed Tenant statement confirming Lease terms — required at Sale or refinance of Commercial property — letting the buyer or Lender rely on the disclosed Lease facts.",
+    "snappy": "Tenant signed statement confirming Lease terms at Sale or refinance.",
+    "detail": "Tenant Estoppels are part of every institutional Commercial Real Estate transaction. The Tenant confirms: current Rent and how calculated, term remaining, options and renewal rights, no Landlord defaults, no Tenant offsets or claims, no oral side agreements, no pending litigation. Estoppel binds the Tenant — they cannot later assert facts contrary to what they signed. Lease typically requires Tenant to provide Estoppel within 10-30 days of Landlord request; failure can be Landlord-favourable Default. Major Tenants negotiate Estoppel format and timing carefully. Lender refusal to fund commonly cited reason: missing or qualified estoppels from major Tenants.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "IREM",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "T",
     "term": "Tenant Improvement",
     "full": "TI, Build-Out",
     "plain": "Money the Landlord spends — or credits the Tenant for — to customise a leased space before the Tenant moves in.",
@@ -11109,6 +11727,23 @@
     "category": "Title & Ownership",
     "sources": [
       "ALTA"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Title Insurance Premium",
+    "full": "Title Premium",
+    "plain": "The one-time fee paid at Closing for Title Insurance — based on loan amount or property value — varies by state and policy type.",
+    "snappy": "One-time fee at Closing for Title Insurance, based on loan or property value.",
+    "detail": "Title Insurance Premium structure varies sharply by state. Promulgated rates: Texas, Florida, New Mexico set premiums by state regulation, all insurers charge the same rate. Filed rates: most states require insurers to file rate schedules but allow competition within. Risk rates: California, others use risk-rated pricing with minimal regulation. Typical Lender's Policy: $250-$2,000+ depending on loan amount. Typical Owner's Policy: $500-$3,000+ depending on property value. Combined Lender + Owner: often discounted bundle. Title Insurance is one of the few insurance products with single-payment, term-of-ownership coverage rather than annual renewal premiums.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "ALTA",
+      "CFPB"
     ]
   },
   {
@@ -11756,6 +12391,22 @@
     "category": "Market & Investment",
     "sources": [
       "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "W",
+    "term": "WELL Building",
+    "full": "WELL Certification",
+    "plain": "A building-performance certification — focused on occupant health and wellness — separate from LEED's environmental focus.",
+    "snappy": "Certification focused on building occupant health and wellness.",
+    "detail": "WELL Building Standard (launched 2014 by Delos and International WELL Building Institute) certifies buildings for occupant wellness across air, water, nourishment, light, fitness, comfort, mind. Tiers: Certified, Silver, Gold, Platinum. Distinct from LEED (environmental) and Energy Star (energy). Common WELL implementations: high-end Office and Multifamily marketing to wellness-conscious Tenants, healthcare facilities, hospitality. Post-pandemic, WELL focus on air quality (filtration, ventilation, monitoring) accelerated adoption. Cost: $0.05-$0.15 PSF in registration plus certification fees plus design/operation modifications. ROI claims: 5-15% Rent premiums plus higher occupancy.",
+    "indications": [
+      "Commercial",
+      "Multifamily"
+    ],
+    "category": "Management & Operations",
+    "sources": [
       "ULI"
     ]
   },
