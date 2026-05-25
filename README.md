@@ -1,12 +1,12 @@
 # JB Glossaries — iOS
 
-Three native SwiftUI reference apps that turn dense professional jargon into clean, searchable, italic-typed cards. Built as a single XcodeGen workspace with one shared engine and three industry-specific corpora.
+Five native SwiftUI reference apps that turn dense professional jargon into clean, searchable, italic-typed cards. Built as a single XcodeGen workspace with one shared engine and five industry-specific corpora — **3,645 terms total**.
 
-| Pharma | AI | Law |
-|:---:|:---:|:---:|
-| <img src="Targets/Pharma/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="100"> | <img src="Targets/AI/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="100"> | <img src="Targets/Law/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="100"> |
-| 499 terms | growing | 836 terms |
-| Oncology + drug mechanisms | AI / ML concepts | US law (14 categories, 4 lenses) |
+| Pharma | AI | Finance | Law | Real Estate |
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="Targets/Pharma/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/AI/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/Finance/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/Law/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/RealEstate/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> |
+| 499 terms | 785 terms | 722 terms | 836 terms | 803 terms |
+| Oncology + drug mechanisms | AI / ML concepts | Markets + instruments | US law (14 categories, 4 lenses) | Property, finance, leasing |
 
 ---
 
@@ -34,7 +34,13 @@ The same engine, retuned for the AI/ML vocabulary — agents, model architecture
   <img src="screenshots/jb-ai/iphone-17-pro-max/4_term_Attention.png" width="22%">
 </p>
 
-- [Support](https://fromarkzoo.github.io/JBGlossary-iOS/ai_support.html) · [Privacy](https://fromarkzoo.github.io/JBGlossary-iOS/ai_privacy.html)
+- [Support](https://fromarkzoo.github.io/JBGlossary-iOS/support.html) · [Privacy](https://fromarkzoo.github.io/JBGlossary-iOS/privacy.html)
+
+## JB Finance
+
+722 finance terms covering markets, instruments, valuation, risk, regulation, and trading. The vocabulary you need to read a sell-side report, follow a Fed meeting, or understand a derivatives prospectus.
+
+- [Support](https://fromarkzoo.github.io/JBGlossary-iOS/support.html) · [Privacy](https://fromarkzoo.github.io/JBGlossary-iOS/privacy.html)
 
 ## JB Law
 
@@ -51,27 +57,35 @@ The same engine, retuned for the AI/ML vocabulary — agents, model architecture
   <img src="screenshots/jb-law/iphone-17-pro-max/4_term_HabeasCorpus.png" width="22%">
 </p>
 
-- [Support](https://fromarkzoo.github.io/JBGlossary-iOS/law_support.html) · [Privacy](https://fromarkzoo.github.io/JBGlossary-iOS/law_privacy.html)
+- [Support](https://fromarkzoo.github.io/JBGlossary-iOS/support.html) · [Privacy](https://fromarkzoo.github.io/JBGlossary-iOS/privacy.html)
+
+## JB Real Estate
+
+803 real estate terms across 11 categories — Property Types, Financing & Lending, Transactions, Valuation & Appraisal, Title & Ownership, Leasing, Development, Management & Operations, Tax, Market & Investment, Law & Regulation. Three lenses (Basics, Residential, Commercial & Investment). The highest hyperlink density of any industry — 12+ live cross-references per entry.
+
+- [Support](https://fromarkzoo.github.io/JBGlossary-iOS/support.html) · [Privacy](https://fromarkzoo.github.io/JBGlossary-iOS/privacy.html)
 
 ---
 
 ## How it's built
 
-One workspace, three targets, one shared engine. Each app pairs an industry-specific JSON corpus with the same SwiftUI reader: italic-first typography, two-axis filter, A–Z navigation, full-text search, share sheet.
+One workspace, five targets, one shared engine. Each app pairs an industry-specific JSON corpus with the same SwiftUI reader: italic-first typography, two-axis filter, A–Z navigation, full-text search, share sheet, automatic hyperlinks between entries.
 
 ```
-Sources/                          shared engine (models, views, design system)
-Targets/Pharma/Resources/         pharma corpus + icon + colour
-Targets/AI/Resources/             AI corpus + icon + colour
-Targets/Law/Resources/            law corpus + icon + colour
-project.yml                       XcodeGen spec (three schemes)
+Sources/                                shared engine (models, views, design system)
+Targets/Pharma/Resources/               pharma corpus + icon + colour
+Targets/AI/Resources/                   AI corpus + icon + colour
+Targets/Finance/Resources/              finance corpus + icon + colour
+Targets/Law/Resources/                  law corpus + icon + colour
+Targets/RealEstate/Resources/           real estate corpus + icon + colour
+project.yml                             XcodeGen spec (five schemes)
 ```
 
 ### Run a target
 
 ```bash
 xcodegen generate
-open JBGlossary.xcodeproj         # pick scheme: Pharma / AI / Law → ⌘R
+open JBGlossary.xcodeproj         # pick scheme: Pharma / AI / Finance / Law / RealEstate → ⌘R
 ```
 
 ### Add or edit terms
