@@ -34,6 +34,37 @@
     ]
   },
   {
+    "letter": "1",
+    "term": "1098",
+    "full": "Form 1098, Mortgage Interest Statement",
+    "plain": "The IRS form Lenders send to borrowers — reporting Mortgage Interest paid during the year — used to claim the Mortgage Interest Deduction.",
+    "snappy": "IRS form reporting annual Mortgage Interest paid to the borrower.",
+    "detail": "Form 1098 reports Mortgage Interest paid. Filer: Mortgage Lender or servicer for any borrower paying $600+ of Mortgage Interest annually. Recipient: borrower, the IRS. Reports: total Interest paid, outstanding Mortgage Principal at year-end, Mortgage origination date, points (if any), Property Tax (if escrowed). Borrowers use Form 1098 to claim Mortgage Interest Deduction on Schedule A. Penalties: $290+ per missed form. Common errors: split-year Loans (Refinance, payoff) sometimes underreport Interest because two Lenders each file partial year. Borrowers should reconcile against payment records.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS"
+    ]
+  },
+  {
+    "letter": "1",
+    "term": "1099-S",
+    "full": "Form 1099-S",
+    "plain": "The IRS form reporting Real Estate transactions — Title companies and Settlement Agents file it to disclose gross proceeds of property Sales.",
+    "snappy": "IRS form reporting Real Estate Sale gross proceeds.",
+    "detail": "Form 1099-S is the IRS information return for Real Estate transactions. Filer: Settlement Agent (Title Company in most cases) at the Sale of any Real Estate. Recipient: each seller, the IRS. Reports: gross proceeds, transaction date, address. Filing threshold: most Sales above $250 (lower than other 1099s). Exemptions: Primary residence Sales where seller certifies they qualify for §121 Exclusion and gross proceeds are within exclusion limit. Failure to file: $290+ per missed form. Sellers should match 1099-S amounts against tax-return Sale reporting; mismatches trigger IRS correspondence.",
+    "indications": [
+      "Residential",
+      "Investment"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS"
+    ]
+  },
+  {
     "letter": "3",
     "term": "363 Sale",
     "full": "Section 363 Sale",
@@ -752,6 +783,22 @@
   },
   {
     "letter": "A",
+    "term": "As-Built Drawings",
+    "full": "As-Builts",
+    "plain": "Construction documents reflecting the actual completed building — including any changes from original design — handed over at project completion for future reference.",
+    "snappy": "Construction documents reflecting the actual completed building including changes.",
+    "detail": "As-Built Drawings document the final building. Differences from original design: contractor modifications during construction, change-order additions and deletions, field-resolved coordination conflicts, code-driven modifications. Created during construction (typically by GC) and finalised at Substantial Completion. Used for: future renovation planning, operations and maintenance reference, MEP system locations for repairs, dispute resolution. Standard project deliverable; owner should require As-Built submission as Final Completion condition. Digital As-Builts (BIM-based) increasingly common, replacing paper documentation. Missing or sloppy As-Builts complicate later renovations and operations.",
+    "indications": [
+      "Development",
+      "Commercial"
+    ],
+    "category": "Development",
+    "sources": [
+      "NAHB"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "As-of-Right",
     "full": "By-Right",
     "plain": "Development that complies with all existing Zoning rules and needs no discretionary approval — building permit only, no public hearings or Variance.",
@@ -782,6 +829,21 @@
     "category": "Transactions",
     "sources": [
       "HUD"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "ASC 842",
+    "full": "Accounting Standards Codification 842, Lease Accounting Standard",
+    "plain": "The US GAAP accounting standard — effective 2019 — requiring Tenants to recognise nearly all Leases on their balance sheets as right-of-use assets and lease liabilities.",
+    "snappy": "US GAAP standard requiring Tenants to recognise nearly all Leases on balance sheets.",
+    "detail": "ASC 842 transformed Lease accounting. Pre-2019: Operating Leases were off-balance-sheet — Tenants showed only Rent expense on income statement. Post-2019: Tenants record right-of-use asset and lease liability on balance sheet for any Lease longer than 12 months. Income statement: still Rent expense for Operating Leases, Interest and Depreciation for Finance Leases. Effect: corporate balance sheets grew substantially as Lease obligations now visible. Investor analysis: Rent expense added back to EBITDA in some metrics; lease liabilities included in debt-leverage calculations. International equivalent: IFRS 16 (similar). Implementation: massive effort 2018-2019 for any Lease-heavy Commercial Tenant.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "Cornell LII"
     ]
   },
   {
@@ -1211,6 +1273,21 @@
   },
   {
     "letter": "B",
+    "term": "Boutique Hotel",
+    "full": "",
+    "plain": "A smaller, design-focused Hotel — typically 50-100 rooms — distinguishing from corporate-branded major chains through unique design, local character, premium service.",
+    "snappy": "Smaller, design-focused Hotel of 50-100 rooms with unique character.",
+    "detail": "Boutique Hotels emerged in the 1980s as design-driven alternatives to corporate chains. Typical configuration: 50-150 rooms, distinctive design and decor, F&B emphasis (often a destination restaurant), personalised service. Operators: Kimpton (IHG), Hyatt Centric, Joie de Vivre, Curio Collection (Hilton), Marriott Tribute, independent owner-operators. Cap Rates: 6.5-8.5% for stabilised institutional-quality boutique. Recent growth: lifestyle brands (Moxy, Aloft, Hyatt Place) blur the line between boutique and limited-service. Major US boutique markets: Manhattan, Miami Beach, San Francisco, Portland, Austin.",
+    "indications": [
+      "Hospitality"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "BPO",
     "full": "Broker Price Opinion",
     "plain": "A quick estimate by a real estate Broker of what a home is worth, cheaper and faster than a full Appraisal.",
@@ -1533,6 +1610,22 @@
   },
   {
     "letter": "B",
+    "term": "Buyer Agency",
+    "full": "Buyer's Agency",
+    "plain": "The fiduciary relationship between a buyer and their Real Estate Agent — Agent represents buyer's interests, with confidentiality, loyalty, and disclosure obligations.",
+    "snappy": "Fiduciary relationship where Agent represents buyer's interests in transactions.",
+    "detail": "Buyer Agency became standard practice in residential Real Estate following NAR settlement (Burnett v. NAR, 2024). Buyer Agent fiduciary duties: undivided loyalty to buyer, confidentiality of negotiation strategy, full disclosure of material facts, reasonable care and skill, accounting for client funds. Buyer Representation Agreement formalises the relationship, now mandatory before showings since 2024. Compensation: typically negotiated separately as Buyer-paid commission rather than seller-paid commission, a fundamental post-Burnett change. Distinct from Dual Agency (Agent represents both) and Designated Agency (different Agents same brokerage).",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "Buyer Representation Agreement",
     "full": "",
     "plain": "A written contract between a buyer and a Buyer's Agent setting out the agent's duties and the buyer's Commission obligations.",
@@ -1608,6 +1701,23 @@
     "sources": [
       "IREM",
       "BOMA"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Cannabis Real Estate",
+    "full": "Cannabis Industrial",
+    "plain": "A specialty Commercial Real Estate niche — properties leased to state-licenced cannabis cultivators, processors, and dispensaries — distinct economics due to federal illegality.",
+    "snappy": "Properties leased to state-licenced cannabis operators — distinct due to federal illegality.",
+    "detail": "Cannabis Real Estate emerged with state-level legalisation 2014-2024. Distinct economics due to federal Schedule I illegality. Property types: indoor cultivation (10,000-200,000+ SF), outdoor cultivation Land, dispensaries (small Retail), processing facilities. Lender constraints: banks won't finance properties with cannabis Tenants (federal banking law), so private debt and specialty REIT capital fill the gap. Major cannabis REITs: Innovative Industrial Properties (IIPR), AFC Gamma, NewLake Capital Partners. Cap Rates: 7-10% reflecting Tenant credit and federal-illegality risk. Sale-Leaseback dominant transaction structure — cultivators want Real Estate capital freed for operations.",
+    "indications": [
+      "Industrial",
+      "Commercial",
+      "Specialty"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF"
     ]
   },
   {
@@ -1779,6 +1889,22 @@
     "sources": [
       "NCREIF",
       "ULI"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Carbon Footprint",
+    "full": "GHG Emissions",
+    "plain": "A measure of greenhouse gas emissions from a building's operations — increasingly regulated by jurisdictions (NYC LL97), benchmarked through ESG frameworks, and tracked at portfolio level.",
+    "snappy": "Greenhouse gas emissions from building operations — increasingly regulated and benchmarked.",
+    "detail": "Carbon Footprint measurement spread across institutional Real Estate 2018-2024. Categories. Scope 1: direct on-site emissions (natural gas heating, generator diesel). Scope 2: purchased electricity emissions. Scope 3: indirect (Tenant operations, embodied carbon in construction). Building emission caps: NYC Local Law 97 (effective 2024-2030), Boston BERDO 2.0, DC BEPS, Seattle BEPS. Penalties for exceeding caps: $250+ per metric ton CO2 over limit per year (NYC). Retrofit pathway: improved HVAC, on-site solar, building envelope upgrades, lighting LED retrofits, electrification of natural-gas systems. Major Cap-Ex required for many older Class B and Class C buildings.",
+    "indications": [
+      "Commercial",
+      "Multifamily"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "HUD"
     ]
   },
   {
@@ -2048,6 +2174,23 @@
   },
   {
     "letter": "C",
+    "term": "Certificate of Substantial Completion",
+    "full": "Substantial Completion Certificate",
+    "plain": "An architect's signed document attesting that the building has reached Substantial Completion — triggers Lease commencement, warranty start, final-payment milestones.",
+    "snappy": "Architect's signed document attesting Substantial Completion — triggers Lease and warranty.",
+    "detail": "Certificate of Substantial Completion is the key construction milestone document. Architect (sometimes owner representative) signs based on building inspection and judgment that the building is usable for intended purpose. Contract typically defines Substantial Completion to include Certificate of Occupancy plus minor punch-list items only. Triggers: Tenant Lease commencement, owner take-over for insurance and operations, building warranty period start, GC's final-payment claim eligibility, Mechanic's Lien deadline countdown. Disputes over Substantial Completion timing are common — millions of dollars hinge on the certified date.",
+    "indications": [
+      "Development",
+      "Commercial"
+    ],
+    "category": "Development",
+    "sources": [
+      "NAHB",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "CFPB",
     "full": "Consumer Financial Protection Bureau",
     "plain": "The federal agency that regulates consumer mortgages and writes the rules Lenders must follow when lending to homebuyers.",
@@ -2261,6 +2404,22 @@
   },
   {
     "letter": "C",
+    "term": "Closeout",
+    "full": "Project Closeout",
+    "plain": "The construction-project conclusion phase — punch list completion, Lien Waivers, As-Built Drawings, final payment, warranty start — formally ending the GC contract.",
+    "snappy": "Construction-project conclusion phase — punch list, Lien Waivers, As-Builts, final payment.",
+    "detail": "Closeout marks the formal end of construction. Components: punch list completion, final payment to GC and Subcontractors, Lien Waivers (Conditional and Unconditional), As-Built Drawings, operations and maintenance manuals, warranty documentation, code-compliance certificates (Certificate of Occupancy), commissioning of building systems. Standard timeline: 30-90 days from Substantial Completion. Issues commonly slowing Closeout: contested change orders, punch-list disputes, Subcontractor Lien claims, delayed warranty documentation. Owner-favourable Closeout terms: holdback retention until full Closeout completion (5-10% of contract value).",
+    "indications": [
+      "Development",
+      "Commercial"
+    ],
+    "category": "Development",
+    "sources": [
+      "NAHB"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Closing",
     "full": "",
     "plain": "The final step of a property sale where the Deed transfers and money changes hands.",
@@ -2390,6 +2549,22 @@
   },
   {
     "letter": "C",
+    "term": "Co-Living",
+    "full": "Coliving",
+    "plain": "A residential model — typically Multifamily — where residents have private bedrooms but share kitchens, living rooms, and Common Areas with multiple roommates.",
+    "snappy": "Multifamily model with private bedrooms but shared kitchens and Common Areas.",
+    "detail": "Co-Living grew through the 2010s as a Multifamily niche. Format: 4-12+ residents share a unit with private bedrooms and bathrooms, plus shared kitchen, living areas, work spaces. Rent per resident is typically lower than studio apartment in the same area; total revenue per unit is higher than equivalent single-occupant. Major operators: Common, Ollie, Outsite, Quarters. Tenant base: young professionals, remote workers, students, recent transplants seeking community. WeLive (WeWork's co-living spin-out) wound down 2020-2022. Post-2020, co-living growth moderated as remote work spread households to less-dense areas.",
+    "indications": [
+      "Multifamily",
+      "Specialty"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "ULI"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Co-op",
     "full": "Cooperative",
     "plain": "A building where owners hold shares in a corporation that owns the whole building, rather than owning their unit individually.",
@@ -2482,6 +2657,23 @@
     "category": "Title & Ownership",
     "sources": [
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Commercial Mortgage",
+    "full": "Commercial Loan",
+    "plain": "Any Mortgage Loan made against Commercial Real Estate — Office, Retail, Industrial, Multifamily of 5+ units, Hotel, special-use — distinct from residential 1-4 unit Mortgages.",
+    "snappy": "Mortgage Loan against Commercial Real Estate — distinct from 1-4 unit residential Mortgages.",
+    "detail": "Commercial Mortgage is the broad category for any Loan secured by Commercial Real Estate. Subcategories: bank balance-sheet Loans (portfolio held to maturity), CMBS Loans (originated for securitisation), agency Multifamily Loans (Fannie Mae and Freddie Mac multifamily programs), insurance company Loans, debt-fund Bridge Loans, Mezzanine Loans, Construction Loans. Typical terms: 5-10 year balloon on 25-30 year amortisation, fixed or floating rate, 1.25x DSCR minimum, 65-75% LTV maximum. Distinct from residential Mortgages: typically non-recourse, with reserves and covenants, special-purpose entity ownership required.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "MBA",
+      "NCREIF"
     ]
   },
   {
@@ -4246,6 +4438,23 @@
   },
   {
     "letter": "E",
+    "term": "ESG",
+    "full": "Environmental, Social, Governance",
+    "plain": "A framework for evaluating Real Estate investments — and asset operations — across environmental impact, social outcomes, and governance practices — drives institutional capital allocation.",
+    "snappy": "Framework evaluating Real Estate across environmental impact, social outcomes, and governance.",
+    "detail": "ESG transformed institutional Real Estate investing in the 2010s-2020s. Environmental: Energy Use Intensity (EUI), greenhouse gas emissions, water consumption, climate-resilience adaptation. Social: Affordable Housing, tenant safety, community impact, accessibility. Governance: board composition, fiduciary practices, alignment, fraud prevention. Reporting frameworks: GRESB (Global Real Estate Sustainability Benchmark) is the dominant Real Estate ESG benchmark with annual rankings. EU Sustainable Finance Disclosure Regulation (SFDR) drove Article 8 and Article 9 fund classifications. US SEC climate-disclosure rules (2024) require public companies including REITs to disclose climate risks. ESG-conscious LPs (pension funds, sovereign wealth) increasingly require Sponsor ESG reporting.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Estate Tax",
     "full": "Federal Estate Tax",
     "plain": "The federal tax on assets transferred at death — Real Estate held in the estate is included at fair-market value, with a high lifetime exemption sheltering most estates.",
@@ -4324,6 +4533,21 @@
     "category": "Law & Regulation",
     "sources": [
       "HUD",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Eviction Process",
+    "full": "",
+    "plain": "Already exists as Eviction — see that entry for the legal process of removing a Tenant for Lease violation.",
+    "snappy": "See Eviction.",
+    "detail": "This entry exists. See Eviction.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Leasing",
+    "sources": [
       "Cornell LII"
     ]
   },
@@ -4894,6 +5118,38 @@
   },
   {
     "letter": "F",
+    "term": "Form 4562",
+    "full": "Form 4562 Depreciation and Amortization",
+    "plain": "The IRS form reporting Depreciation deductions and Section 179 expense elections — required to claim accelerated Real Estate Depreciation.",
+    "snappy": "IRS form reporting Depreciation deductions and §179 expense elections.",
+    "detail": "Form 4562 tracks Depreciation across federal tax returns. Required when claiming: Depreciation on property placed in service during the year, Bonus Depreciation, §179 expense election, listed property (vehicles, computers), amortisation. Schedule by recovery period: 5-year (carpet, computers), 7-year (furniture), 15-year (land improvements), 27.5-year (residential rental), 39-year (commercial Real Property). Cost Segregation study results break out personal-property components and report on Form 4562. Year of substantial completion: half-year convention or mid-month for Real Property. Common audit area; meticulous record-keeping required.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "Form 8825",
+    "full": "Form 8825 Rental Real Estate Income and Expenses (Partnership/S Corp)",
+    "plain": "The partnership and S corporation equivalent of Schedule E — reporting rental property income and expenses on entity returns.",
+    "snappy": "Partnership/S corp form reporting rental Real Estate income and expenses.",
+    "detail": "Form 8825 mirrors Schedule E for entities. Used by: partnerships filing Form 1065, S corporations filing Form 1120-S. Income and expense categories identical to Schedule E. Net rental income flows to K-1s issued to each partner or shareholder. Form 8825 also tracks each partner's Material Participation hours for passive-loss purposes. Sponsor syndications file Form 8825 for each property; LP investors receive K-1s reporting their share of rental income or loss. K-1 timing: typically late March or April, problematic for individual investor tax-filing.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS"
+    ]
+  },
+  {
+    "letter": "F",
     "term": "Freddie Mac",
     "full": "Federal Home Loan Mortgage Corporation",
     "plain": "Fannie Mae's sister GSE — buys Conforming Loans from Lenders and resells them to investors, keeping the Mortgage market liquid.",
@@ -5008,6 +5264,22 @@
     "category": "Financing & Lending",
     "sources": [
       "HUD"
+    ]
+  },
+  {
+    "letter": "G",
+    "term": "Glamping",
+    "full": "Glamorous Camping",
+    "plain": "A hospitality category between traditional camping and Hotels — upscale tents, treehouses, yurts, safari tents with hotel-level amenities — emerging Real Estate niche in destination markets.",
+    "snappy": "Hospitality between camping and Hotel — upscale tents and structures with Hotel amenities.",
+    "detail": "Glamping (glamorous camping) is the fastest-growing hospitality subcategory. Format: permanent or semi-permanent upscale tents, yurts, treehouses, safari tents with private bathrooms, climate control, comfortable furniture, restaurant access. ADR: $200-$1,000+ per night versus $30-$60 for traditional camping. Major operators: Under Canvas (largest), Auto Camp, Collective Retreats, individual operator destinations. Real Estate: Land-intensive (often 50-500+ acres) with relatively low per-unit construction cost. Cap Rates: opportunistic 8-12% given short operating history. Geographic concentration: national park gateway communities (Yosemite, Yellowstone, Glacier), wine country, beach destinations.",
+    "indications": [
+      "Hospitality",
+      "Specialty"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF"
     ]
   },
   {
@@ -5173,6 +5445,39 @@
     "category": "Development",
     "sources": [
       "NAHB",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "G",
+    "term": "Greenhouse",
+    "full": "Greenhouse Real Estate, Controlled Environment Agriculture",
+    "plain": "Industrial-style facilities for controlled-environment agriculture — vertical farming, hydroponics, year-round growing — emerged as a Commercial Real Estate sub-sector since 2015.",
+    "snappy": "Industrial facilities for controlled-environment agriculture — vertical farming and hydroponics.",
+    "detail": "Greenhouse Real Estate emerged with controlled-environment agriculture growth. Property specs: industrial-style buildings with extensive glazing or specialised LED lighting, HVAC for environmental control, water systems for hydroponics, robust electrical (200-500 W/SF for indoor vertical farming). Tenant categories: large-scale greenhouse operations (BrightFarms, Gotham Greens, AppHarvest), vertical farming startups (Bowery, AeroFarms), cannabis cultivation (overlapping with cannabis Real Estate). High capex, high operating intensity, technology-evolution risk. Cap Rates: wide, reflecting Tenant credit and technology risk.",
+    "indications": [
+      "Industrial",
+      "Specialty"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "G",
+    "term": "GRESB",
+    "full": "Global Real Estate Sustainability Benchmark",
+    "plain": "The dominant ESG reporting and benchmarking framework for institutional Real Estate — annual surveys assess environmental and social performance of funds and individual assets.",
+    "snappy": "Dominant ESG reporting framework for institutional Real Estate funds and assets.",
+    "detail": "GRESB (Global Real Estate Sustainability Benchmark) is the institutional Real Estate ESG standard. Annual survey: each participating fund or portfolio submits environmental data (EUI, GHG emissions, water, waste), social data (tenant satisfaction, community engagement), governance data (policies, oversight). Scoring: 0-100 across categories, with year-over-year improvement tracked. Star ratings: 1-5 stars based on percentile. Used by: pension funds, sovereign wealth, insurance companies for manager selection and monitoring. Major participants: most public REITs, most large private equity Real Estate sponsors. Reporting effort: substantial — annual data collection, third-party verification on selected items.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "NCREIF",
       "ULI"
     ]
   },
@@ -5535,6 +5840,22 @@
     "category": "Leasing",
     "sources": [
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "Home Warranty",
+    "full": "Home Warranty Plan",
+    "plain": "A service contract covering repairs and replacements of major home systems and appliances — separate from Homeowners Insurance — typically 1-year coverage with renewal options.",
+    "snappy": "Service contract covering home system and appliance repairs — separate from Homeowners Insurance.",
+    "detail": "Home Warranty covers mechanical failures of home systems and appliances. Standard coverage: HVAC, plumbing, electrical, kitchen appliances, water heater. Optional coverage: pool, roof, structural, septic. Typical cost: $400-$800/year. Service-call fee: $75-$125 per claim. Sellers often include 1-year Home Warranty as buyer incentive. Distinct from Homeowners Insurance (covers damage from external events: fires, storms, theft). Critics: low claim approval rates, contractor quality concerns, exclusions on pre-existing conditions, slow service. Better Business Bureau ratings on home warranty companies frequently low.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "CFPB",
+      "NAR"
     ]
   },
   {
@@ -6485,6 +6806,22 @@
   },
   {
     "letter": "L",
+    "term": "Lender's Title Insurance Premium",
+    "full": "",
+    "plain": "The premium for Lender's Title Insurance — typically the buyer pays at Closing — covers the Lender for the loan amount.",
+    "snappy": "Premium for Lender's Title Insurance, paid at Closing, covering the loan amount.",
+    "detail": "Lender's Title Insurance Premium is one of the standard Closing Costs. Calculation: based on the Mortgage loan amount, not the Sale Price. Typical: $200-$2,000+ for residential Mortgages, more for Commercial. State variations: promulgated rates in Texas/Florida set uniform premiums; competitive markets in California/Massachusetts allow insurer competition. Reissue Rate available when refinancing within 5-10 years of original Lender's Policy. Required by virtually every residential Mortgage Lender; alternative coverage like attorney certifications used in some states but rare. Buyer typically also purchases Owner's Title Insurance bundled at Closing.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "ALTA"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Lessee",
     "full": "",
     "plain": "The Tenant in a Lease — the person or business renting from the Lessor in exchange for Rent.",
@@ -6755,6 +7092,22 @@
   },
   {
     "letter": "L",
+    "term": "Listing",
+    "full": "Property Listing",
+    "plain": "A property officially put up for Sale — typically promoted through the MLS, websites, and brokerage networks.",
+    "snappy": "Property officially put up for Sale — promoted through MLS and brokerage networks.",
+    "detail": "Listings dominate residential and Commercial transaction visibility. Residential listings: MLS-distributed with photos, virtual tours, agent contact information. Commercial listings: broker-distributed through CoStar, LoopNet, broker networks. Listing exposure: photographs, videos, virtual tours, floor plans, neighbourhood data, property history. Pricing strategy: setting list price drives buyer activity — too high deters buyers, too low leaves money on the table. Listing duration: average 30-60 days in normal markets, 90-180+ days in soft markets. Withdrawn versus expired versus sold history matters.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Listing Agent",
     "full": "",
     "plain": "The real estate Agent who represents the seller, lists the property on the MLS, and markets it to buyers.",
@@ -6776,6 +7129,22 @@
     "plain": "The written contract between a seller and the Listing Agent setting Commission, marketing rights, and how long the listing runs.",
     "snappy": "Written contract granting a Listing Agent exclusive rights to sell.",
     "detail": "Most US Listing Agreements are Exclusive Right to Sell — the Listing Agent earns Commission no matter who finds the buyer, including the seller themselves. Other forms are Exclusive Agency (seller can find buyer Commission-free) and Open Listing (any agent can sell, only the procuring one earns). Standard term is 90-180 days. Specifies marketing methods, MLS rules, and exact Commission percentage.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Listing Period",
+    "full": "",
+    "plain": "The time a Listing is actively marketed — typically 3-6 months in residential — defined by the Listing Agreement.",
+    "snappy": "Time a Listing is actively marketed, typically 3-6 months in residential.",
+    "detail": "Listing Period sets the duration of the seller-broker relationship. Residential: typically 3-6 months exclusive listing period. Commercial: 6-12 months, often with extensions. Renewal: if the property hasn't Sold by period end, parties can renew or seller can list with new broker. Carry-over provisions: if a buyer who toured during the listing period buys within X months after expiration, original Listing Agent earns commission. Aggressive Listing Agents push for long periods plus broad carry-overs; sellers prefer shorter periods to preserve flexibility.",
     "indications": [
       "Residential",
       "Commercial"
@@ -7617,6 +7986,21 @@
   },
   {
     "letter": "M",
+    "term": "Mortgage Application",
+    "full": "",
+    "plain": "The borrower's formal request to a Lender for a Mortgage — includes income, asset, employment, and Credit Score documentation supporting Underwriting.",
+    "snappy": "Borrower's formal request to a Lender for a Mortgage with full documentation.",
+    "detail": "Mortgage Applications begin the Lender's Underwriting process. Standard Form 1003 (Uniform Residential Loan Application, URLA) used for most conventional Loans. Documentation: 2 years of W-2s and tax returns, 2 months of bank statements, employment verification, asset statements, ID. Credit Report pulled. Application triggers Loan Estimate within 3 business days (TRID). E-application platforms (Rocket Mortgage, Better.com, etc.) digitised the process post-2010. Application fees: $300-$700 typically, often credited toward Closing Costs. Pre-Approval letters issued based on application; Conditional Approval follows full Underwriting.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Mortgage Banker",
     "full": "",
     "plain": "A Lender that originates Mortgages using its own capital — funds the loan at Closing, then either holds it or sells it to investors.",
@@ -7700,6 +8084,22 @@
   },
   {
     "letter": "M",
+    "term": "Mortgage Insurance Premium",
+    "full": "MIP",
+    "plain": "The Mortgage Insurance premium paid on FHA Loans — both upfront (typically 1.75% of loan amount) and monthly — distinguishing from PMI on Conventional Loans.",
+    "snappy": "Mortgage Insurance premium on FHA Loans — both upfront and monthly.",
+    "detail": "MIP is the FHA equivalent of PMI on Conventional Loans, with key differences. Upfront MIP: typically 1.75% of the loan amount, financed into the Mortgage at Closing. Annual MIP: paid monthly over the loan life, rates vary by Down Payment and term (~0.55-1.05% of loan amount annually). Critical: MIP continues for the LIFE OF THE LOAN on FHA Loans with Down Payment <10% (most cases). MIP cancels after 11 years if Down Payment ≥10%. Distinct from PMI (Conventional Loans) which cancels at 20% Equity / 78% LTV automatically. Streamline Refinance possible into lower-rate FHA Loan without re-Underwriting.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "HUD",
+      "FHA"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Mortgage Interest Deduction",
     "full": "MID",
     "plain": "The federal income-tax deduction for Mortgage Interest paid on a primary or secondary residence — capped under TCJA at $750,000 of acquisition debt.",
@@ -7712,6 +8112,23 @@
     "sources": [
       "IRS",
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Mortgage Lender",
+    "full": "Lender",
+    "plain": "A financial institution that makes Mortgage Loans — banks, credit unions, mortgage banks, online Lenders — distinguishing roles from Mortgage Brokers and Wholesale Lenders.",
+    "snappy": "Financial institution making Mortgage Loans — banks, credit unions, mortgage banks.",
+    "detail": "Mortgage Lender is the broad category encompassing all institutions originating Mortgages. Bank Lenders (Wells Fargo, Chase, Bank of America): use deposit funding, often hold Loans on balance sheet. Mortgage Banks (Rocket Mortgage, loanDepot): non-deposit-taking, sell Loans to GSEs and securitizers. Credit unions: member-owned, often lower rates for members. Wholesale Lenders: fund Loans originated by Mortgage Brokers. Each Lender type has different cost structures, Underwriting flexibility, and consumer-protection profiles. CFPB Regulation B requires uniform Underwriting standards.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "MBA"
     ]
   },
   {
@@ -7782,6 +8199,38 @@
   },
   {
     "letter": "M",
+    "term": "Move-In Inspection",
+    "full": "",
+    "plain": "The joint inspection at the start of a Lease — Tenant and Landlord document the unit's condition together — protects both parties.",
+    "snappy": "Joint inspection at Lease start documenting unit condition.",
+    "detail": "Move-In Inspection establishes baseline condition. Standard practice: conducted on move-in day, walks both Tenant and Landlord through every room. Documentation: detailed checklist (appliances, fixtures, walls, floors, doors, windows), photo and video records, written acknowledgment by both parties. Protects both sides at end of Lease — Tenant from charges for pre-existing damage, Landlord from disputes over caused damage. State requirements: California, Washington, Nevada, others require move-in inspection. Some Landlords use professional inspection services for institutional Multifamily. Photo/video documentation of move-in condition is increasingly standard.",
+    "indications": [
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Move-Out Inspection",
+    "full": "",
+    "plain": "The Landlord's inspection of a rental unit at the end of a Lease — documents condition, identifies damage beyond normal wear, supports Security Deposit deductions.",
+    "snappy": "Landlord's end-of-Lease inspection documenting condition and supporting deposit deductions.",
+    "detail": "Move-Out Inspection determines Security Deposit return. Standard practice: conducted within 1-7 days of Tenant departure, ideally with Tenant present. Documentation: detailed photo and video records, written checklist comparing to move-in condition, repair cost estimates. State requirements vary: California requires move-out inspection within 2-3 weeks if Tenant requests; some states require written itemisation of deductions within 14-30 days. Deductible items: damage beyond normal wear, unpaid Rent, unpaid utilities, professional cleaning. Non-deductible: normal wear (carpet wear, minor paint scuffs, faded curtains).",
+    "indications": [
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "MSR",
     "full": "Mortgage Servicing Rights",
     "plain": "Common shorthand for Mortgage Servicing Rights — the contractual right to collect Mortgage payments, treated as a tradable asset.",
@@ -7813,6 +8262,23 @@
       "Fannie Mae",
       "Freddie Mac",
       "NCREIF"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Multifamily Loan",
+    "full": "Agency Multifamily Loan",
+    "plain": "A Mortgage on Multifamily property — usually originated under Fannie Mae or Freddie Mac multifamily programs — distinct from residential 1-4 unit Mortgages.",
+    "snappy": "Mortgage on Multifamily property under Fannie/Freddie programs.",
+    "detail": "Multifamily Loans operate under federal agency programs. Fannie Mae Multifamily: DUS (Delegated Underwriting and Servicing) program, 5-30 year terms, $1M minimum, 75-80% LTV, 1.25x DSCR. Freddie Mac Multifamily: SBL (Small Balance Loan, under $7.5M) and conventional (>$7.5M), similar economics. Both programs aggregate Loans into MBS pools sold to institutional investors. Pricing: 100-200 bps over Treasury for stabilised Multifamily. Documentation: standardised across the industry, faster Closing than non-agency Commercial Mortgages. Both Fannie and Freddie offer specialty programs: Green, Affordable Housing, Manufactured Housing, Student Housing.",
+    "indications": [
+      "Multifamily",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Fannie Mae",
+      "Freddie Mac"
     ]
   },
   {
@@ -8263,6 +8729,22 @@
     ]
   },
   {
+    "letter": "N",
+    "term": "NYC LL97",
+    "full": "Local Law 97, NYC Carbon Cap",
+    "plain": "New York City's 2019 climate law — sets per-square-foot greenhouse gas emission caps on buildings over 25,000 SF — phases in 2024-2050 with steep fines for exceedance.",
+    "snappy": "NYC 2019 law setting GHG emission caps on buildings over 25,000 SF with steep fines.",
+    "detail": "NYC Local Law 97 is the most aggressive US building-emissions regulation. Coverage: ~50,000 NYC buildings over 25,000 SF. Phase 1 (2024-2029): emission caps set by building type; fines $268/ton CO2 over the cap. Phase 2 (2030+): caps tighten further. Phase 3 (2050): net-zero emissions target. Compliance pathways: efficiency retrofits (HVAC, building envelope, controls), renewable energy procurement (RECs), beneficial electrification (gas-to-electric heating, water heaters), offsets (limited use allowed). Cost impact: institutional NYC owners facing $5-$20+ PSF capex over compliance period. Litigation: NYC LL97 survived a 2023 legal challenge to its constitutionality.",
+    "indications": [
+      "Commercial",
+      "Multifamily"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "HUD"
+    ]
+  },
+  {
     "letter": "O",
     "term": "Occupancy Rate",
     "full": "",
@@ -8502,6 +8984,22 @@
   },
   {
     "letter": "O",
+    "term": "Owner's Title Insurance",
+    "full": "Owner Policy",
+    "plain": "The Title Insurance policy protecting the property owner — distinct from Lender's policy — covers ownership claims, prior Liens, Title Defects discovered after Closing.",
+    "snappy": "Title Insurance policy protecting the owner — covers ownership claims and prior defects.",
+    "detail": "Owner's Title Insurance protects the property owner from Title-related losses. Coverage: defects in the Chain of Title, prior Liens not disclosed at Closing, fraud and forgery in the chain, missing or improperly conveyed interests, Encroachments. Coverage equals the Sale Price (not the Lender's loan amount); typically lasts as long as the owner holds the property. Cost: $500-$3,000+ depending on Sale Price and state premium structure. Distinct from Lender's Title Insurance — both are typically issued at Closing. ALTA Homeowner's Policy expanded coverage version. Owner's Policy is optional in most states but highly recommended; some Lenders require both.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "ALTA"
+    ]
+  },
+  {
+    "letter": "O",
     "term": "Owner-Occupier",
     "full": "Owner-Occupied",
     "plain": "A property where the buyer/owner intends to live as primary residence — distinct from Investor Buyer — qualifies for better financing terms and tax benefits.",
@@ -8680,6 +9178,23 @@
     "sources": [
       "NCREIF",
       "Fannie Mae"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Permit",
+    "full": "Building Permit",
+    "plain": "Government authorisation — required before construction or major renovation begins — issued after plan review confirms code compliance.",
+    "snappy": "Government authorisation required before construction or major renovation begins.",
+    "detail": "Building Permits gate construction activity. Process: applicant submits stamped plans, engineering calculations, energy compliance documentation; municipal Building Department reviews for code compliance; permit issued (typically 2-12 weeks depending on jurisdiction and project complexity); inspections conducted at construction milestones; Certificate of Occupancy issued at completion. Permit cost: $500-$50,000+ depending on construction value. Failure to permit: stop-work orders, fines, requirement to expose work for inspection, potential demolition. Selling unpermitted improvements: disclosure required in most states; buyers can rescind or seek permit retroactively.",
+    "indications": [
+      "Development",
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Development",
+    "sources": [
+      "NAHB"
     ]
   },
   {
@@ -9249,6 +9764,22 @@
     ]
   },
   {
+    "letter": "P",
+    "term": "Purchase Agreement",
+    "full": "PSA, Purchase and Sale Agreement",
+    "plain": "Common spelling of Sale Contract — the legally binding contract between buyer and seller for property transfer.",
+    "snappy": "Common spelling of Sale Contract for property transfer.",
+    "detail": "Purchase Agreement (also Sale Contract, Purchase and Sale Agreement) is the binding contract for any Real Estate purchase. Industry usage varies — California favours 'Purchase Agreement', Texas favours 'Contract', New York favours 'Sale Contract'. See Sale Contract for the substantive standard provisions, contingency periods, and Default consequences.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
     "letter": "Q",
     "term": "QI",
     "full": "Qualified Intermediary",
@@ -9480,6 +10011,22 @@
     "category": "Property Types",
     "sources": [
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Real Estate Investment",
+    "full": "",
+    "plain": "The practice of acquiring Real Estate as an investment — for Rent income, appreciation, tax benefits, or some combination — distinct from Owner-Occupier purchases.",
+    "snappy": "Practice of acquiring Real Estate for Rent income, appreciation, or tax benefits.",
+    "detail": "Real Estate Investment ranges from individual rental purchases to institutional fund strategies. Categories: direct ownership (single-family rental, Multifamily, Commercial), indirect ownership (REIT shares, real estate funds, syndications), debt investment (Mortgage notes, MBS, Mortgage REITs). Return drivers: cash flow (Rent net of expenses), appreciation (price growth), tax benefits (Depreciation, 1031 Exchange, Step-up in Basis), leverage. Risk drivers: market cycles, interest rate exposure, tenant credit, operating execution, regulatory changes. The asset class has performed comparably to equities over long horizons with lower volatility.",
+    "indications": [
+      "Investment"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "NCREIF",
+      "ULI"
     ]
   },
   {
@@ -10057,6 +10604,22 @@
   },
   {
     "letter": "R",
+    "term": "RESPA Section 8",
+    "full": "",
+    "plain": "The RESPA provision banning kickbacks for referrals of mortgage settlement services — Lenders, Title companies, Agents face criminal and civil liability for prohibited referral fees.",
+    "snappy": "RESPA provision banning kickbacks for mortgage settlement-service referrals.",
+    "detail": "RESPA Section 8 (12 USC §2607) prohibits anyone from giving or receiving anything of value 'pursuant to any agreement or understanding... that business incident to or a part of a real estate settlement service involving a federally related mortgage loan shall be referred to any person.' Violations: criminal (up to 1 year imprisonment per violation), civil (3x damages plus attorney's fees), CFPB enforcement actions. Common Section 8 areas: marketing service agreements between Title companies and Real Estate brokers, joint ventures, gift cards or sponsorships, free office space. The CFPB has fined hundreds of millions in Section 8 cases since 2011.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "CFPB",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "Restricted Appraisal Report",
     "full": "Restricted Use Appraisal",
     "plain": "The simplest of USPAP Appraisal report formats — minimal narrative, intended for the client only, not for third-party use.",
@@ -10189,6 +10752,23 @@
   },
   {
     "letter": "S",
+    "term": "Sale Contract",
+    "full": "Purchase Agreement, Purchase and Sale Agreement",
+    "plain": "The legally binding contract — signed by buyer and seller — committing to the property transfer at agreed terms — typically follows acceptance of an offer.",
+    "snappy": "Legally binding contract between buyer and seller for property transfer at agreed terms.",
+    "detail": "Sale Contract (also Purchase Agreement, PSA) is the binding contract for any Real Estate purchase. Standard provisions: identification of parties, property description, Sale Price, deposit amount and terms, contingency periods (Inspection, financing, Title, Appraisal), Closing date, prorations, included/excluded items. State-specific standard forms (CAR Form RPA in California, NJAR Standard Form in NJ, etc.) are heavily used. Commercial Real Estate uses heavily-negotiated bespoke PSAs running 30-100+ pages. Earnest Money Deposit typically held by Title Company or escrow agent. Default consequences: buyer Default forfeits EMD; seller Default exposes to specific performance or damages.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Sale Price",
     "full": "",
     "plain": "What the property actually sold for — the number on the recorded Deed, not the original asking price.",
@@ -10302,6 +10882,22 @@
     "sources": [
       "CFPB",
       "Investopedia"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Schedule E",
+    "full": "IRS Schedule E (Form 1040)",
+    "plain": "The IRS form for reporting rental property income and expenses — Real Estate investors complete it annually for each property they own.",
+    "snappy": "IRS form for rental property income and expenses on individual returns.",
+    "detail": "Schedule E reports rental property income and expenses on Form 1040 individual returns. One column per property (up to 3 per form); additional Schedule E for more. Income lines: Rent collected, Royalties. Expense categories: Mortgage Interest, Property Tax, insurance, Operating Expenses, Depreciation, repairs, management fees, professional fees. Net result: rental income or loss flows to Form 1040. Passive Loss rules limit loss deductibility under IRC §469. Real Estate Professional status with Material Participation lets active rental losses offset W-2 income. Sloppy Schedule E preparation is the most common Real Estate audit trigger.",
+    "indications": [
+      "Investment",
+      "Residential"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS"
     ]
   },
   {
@@ -11556,6 +12152,23 @@
   },
   {
     "letter": "T",
+    "term": "Tenant Screening",
+    "full": "",
+    "plain": "The process Landlords use to evaluate prospective Tenants — credit check, employment verification, criminal background, prior eviction history, references.",
+    "snappy": "Process Landlords use to evaluate prospective Tenants — credit, employment, references.",
+    "detail": "Tenant Screening protects Landlords from risky Tenants. Standard components: credit report (Equifax/Experian/TransUnion), criminal background check, eviction history search, employment verification, prior Landlord reference, income verification (3x Rent typical threshold), social media research (informal). Application fees: $30-$100 typical. Fair Housing Act compliance: screening criteria must apply uniformly; refusal must be for substantive reasons (creditworthiness, eviction history) not protected-class characteristics. Some cities require 'first-come-first-served' policies. Tenant screening companies: RentPrep, AppFolio Tenant Screening, TransUnion SmartMove.",
+    "indications": [
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "NAR",
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "T",
     "term": "Texas Homestead",
     "full": "Homestead Exemption",
     "plain": "Texas's strong constitutional protection of a primary residence — caps Property Tax assessment growth, shields against most creditor claims, restricts forced sale.",
@@ -12015,6 +12628,21 @@
   },
   {
     "letter": "T",
+    "term": "Truth in Lending Statement",
+    "full": "TIL Statement",
+    "plain": "Pre-2015 borrower disclosure required under TILA — itemising loan terms, APR, total finance charges, and payment schedule — replaced by the Loan Estimate under TRID.",
+    "snappy": "Pre-2015 TILA disclosure replaced by the Loan Estimate under TRID.",
+    "detail": "Truth in Lending Statement was the primary borrower disclosure under TILA from 1968 until October 2015. Required disclosures: APR, finance charges, amount financed, payment schedule, prepayment terms. Issued at application and again at Closing (potentially with corrections). Replaced by the TRID Loan Estimate and Closing Disclosure for most residential closed-end Mortgages. The TIL Statement survives for reverse mortgages, certain home-equity Loans, Commercial Real Estate, and other transactions not subject to TRID. Industry shorthand 'TILS' persists in conversation even though the form is largely retired.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "T",
     "term": "Turnover",
     "full": "Unit Turnover",
     "plain": "The process of preparing a vacated Multifamily unit for the next Tenant — cleaning, painting, repairs, possibly upgrades — with associated cost and vacancy time.",
@@ -12309,6 +12937,23 @@
     "sources": [
       "Cornell LII",
       "HUD"
+    ]
+  },
+  {
+    "letter": "V",
+    "term": "Vineyard Real Estate",
+    "full": "Vineyard Property, Winery Real Estate",
+    "plain": "Specialty Land and Commercial property combining grape-growing acreage, winemaking facilities, tasting rooms, and sometimes hospitality — niche but valuable in wine regions.",
+    "snappy": "Specialty Land combining grape acreage, winemaking facilities, tasting rooms, hospitality.",
+    "detail": "Vineyard Real Estate combines agricultural Land with hospitality and Commercial operations. Components: grape-bearing acreage (Napa Valley: $300K-$1M per acre planted), wine-making facility (winery), tasting room, sometimes Hotel or event space. Investment characteristics: long horizon (vines take 4-7 years to bear, premium pricing after 15+ years), regional concentration (Napa, Sonoma, Walla Walla, Oregon Willamette, Finger Lakes), substantial operating expertise required. Premium markets command institutional investor attention; mid-tier vineyards struggle. Vintners often Sale-Leaseback land to free up operating capital.",
+    "indications": [
+      "Land",
+      "Specialty",
+      "Hospitality"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF"
     ]
   },
   {
