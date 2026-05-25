@@ -55,11 +55,11 @@ HIGH_DENSITY_SAMPLE_SIZE = 30
 # all-caps acronym 2–8 chars. Used by the dangling-link detector.
 PHRASE_RE = re.compile(
     r"\b("
-    r"[A-Z][a-zA-Z]+(?:[ \-&][A-Z][a-zA-Z]+){0,3}"   # Capitalised Multi Word
-    r"|"                                              # (& joins handle CC&Rs)
-    r"[A-Z]{2,8}"                                    # ACRONYM
-    r")\b"
-)
+    r"[A-Z][a-zA-Z]+(?:[ \-&][A-Z][a-zA-Z]*){0,3}"   # Capitalised Multi Word
+    r"|"                                              # (& joins handle CC&Rs;
+    r"[A-Z]{2,8}"                                    #  continuation allows
+    r")\b"                                           #  single-letter "A/B/C"
+)                                                    #  in Class A, Type B…
 
 # Tokens that look like jargon but should never become entries: brand names,
 # product names, locations, dates, person names. Augments LINKER_DENYLIST from
@@ -109,6 +109,14 @@ DANGLING_DENYLIST = {
     "US Department of Housing", "Section",  # 'Section 8' housing
     # Statute shorthand surfaced in prose; not entries themselves.
     "Dodd-Frank Act", "TCJA",  # candidate entries for batch 2
+    # Common English words that lead a multi-word entry — "Common attributes"
+    # vs "Common Area", "Class buildings" vs "Class A". These also suppress
+    # canonical-drift false positives via the DANGLING_DENYLIST check above.
+    "Common", "Class", "Single", "Real", "Joint",
+    "Going", "Exit", "Hard", "Soft", "Earnest", "Operating",
+    "Preferred", "Rate", "Occupancy", "Property",
+    "Loan", "Capital", "Gross", "Net", "Fair", "Affordable",
+    "Multifamily", "Limited", "General",
     # Tail-fragment artifacts of PHRASE_RE breaking on lowercase connectors
     # (Debt-to-Income → "Debt" then "Income Ratio"; FHFA Conforming Loan limits
     # → "FHFA Conforming Loan"; US Mortgages → "US Mortgages" composite).
@@ -123,6 +131,14 @@ DANGLING_DENYLIST = {
     # US states caught in prose (carriers of last resort, state-by-state law)
     "Oregon", "Illinois", "Virginia", "West", "Carolina",
     "Minnesota", "Louisiana", "Arizona", "Nevada", "Maryland",
+    "New Jersey", "Ohio", "Tennessee", "Idaho", "Wisconsin",
+    "Phoenix", "Vermont", "Hawaii",
+    # Brand / company names that surface in concrete-example prose.
+    "STORE Capital", "Realty Income", "BiggerPockets",
+    "Equinix", "Simon", "Prologis", "AvalonBay", "FedEx",
+    "Walmart", "Amazon", "Citizens",
+    # Federal agencies / acronyms used in passing.
+    "DOJ", "DHS", "USCIS", "DOL", "DOI",
 }
 
 # High-risk multi-meaning glossary names. When these auto-link, the linker
@@ -233,6 +249,27 @@ def _is_sentence_start(body, pos):
     return body[i] in ".!?\n"
 
 
+def _phrase_is_word_of_entry(phrase, name_lookup):
+    """True if `phrase` appears as a contiguous word-sequence inside any
+    existing entry name. Catches PHRASE_RE tail fragments where the linker
+    still resolves the full multi-word entry — "Common" inside "Tenancy in
+    Common", "Exit Cap" inside "Exit Cap Rate", "Value" inside "Loan-to-Value".
+    The Swift linker handles the full entry name in prose; the audit's
+    PHRASE_RE just can't follow lowercase connectors or single-letter words.
+    """
+    phrase_lower = phrase.lower()
+    phrase_words = re.split(r"[ \-&]+", phrase_lower)
+    for name in name_lookup:
+        if name.lower() == phrase_lower:
+            return False  # exact match — not a sub-word case
+        name_words = re.split(r"[ \-&]+", name.lower())
+        # Check if phrase_words appear as a contiguous slice of name_words
+        for i in range(len(name_words) - len(phrase_words) + 1):
+            if name_words[i:i + len(phrase_words)] == phrase_words:
+                return True
+    return False
+
+
 def _closest_entry(phrase, name_lookup):
     """Suggest closest existing entry by substring containment.
     Cheap heuristic — returns first hit, None if no overlap."""
@@ -261,6 +298,12 @@ def detect_dangling(entry, all_terms, name_lookup):
                 continue
             if phrase in DANGLING_DENYLIST:
                 continue
+            # Also suppress +s/+es plurals of denylist entries ("Sections" of
+            # the denylisted "Section", "Mortgagees" of an acronym, etc.).
+            if phrase.endswith("s") and phrase[:-1] in DANGLING_DENYLIST:
+                continue
+            if phrase.endswith("es") and phrase[:-2] in DANGLING_DENYLIST:
+                continue
             if phrase.lower() in name_set_lower:
                 continue  # would link, no problem
             # The Swift linker accepts +s and +es plural suffixes via (?:e?s)?
@@ -274,6 +317,13 @@ def detect_dangling(entry, all_terms, name_lookup):
             elif phrase_lower.endswith("s") and phrase_lower[:-1] in name_set_lower:
                 stemmed = True  # +s plural matches an entry
             if stemmed:
+                continue
+            # PHRASE_RE can't follow lowercase connector words ("Tenancy in
+            # Common", "Letter of Intent", "Notice of Pending Action") so a
+            # matched fragment may be the tail of a multi-word entry whose
+            # full form the Swift linker handles. If the phrase appears as a
+            # whole word inside an entry name, suppress the dangling flag.
+            if _phrase_is_word_of_entry(phrase, name_lookup):
                 continue
             key = (phrase, field)
             if key in seen:
@@ -339,6 +389,11 @@ def detect_canonical_drift(entry, name_lookup):
             continue
         for first_word, candidates in by_first_word.items():
             if first_word in bare_entries:
+                continue
+            # Common English words that lead a multi-word entry create constant
+            # false-positive drift signals ("Common attributes…", "Class buildings…").
+            # Mirror the dangling-link denylist here.
+            if first_word in DANGLING_DENYLIST:
                 continue
             # Case-sensitive match — "Sharpe" yes, "sharpe" no.
             pattern = re.compile(r"(?<![\w-])" + re.escape(first_word) + r"(?![\w-])")
@@ -450,6 +505,11 @@ def aggregate_repeated_dangling(all_terms, name_lookup, threshold=3):
                 phrase = m.group(1)
                 if phrase in DANGLING_DENYLIST:
                     continue
+                # Also suppress +s/+es plurals of denylist entries.
+                if phrase.endswith("s") and phrase[:-1] in DANGLING_DENYLIST:
+                    continue
+                if phrase.endswith("es") and phrase[:-2] in DANGLING_DENYLIST:
+                    continue
                 # Skip plural form of existing entries — linker handles +s/+es
                 if phrase.lower() in name_set_ci:
                     continue
@@ -457,6 +517,11 @@ def aggregate_repeated_dangling(all_terms, name_lookup, threshold=3):
                 if p_lower.endswith("es") and p_lower[:-2] in name_set_ci:
                     continue
                 if p_lower.endswith("s") and p_lower[:-1] in name_set_ci:
+                    continue
+                # Mirror detect_dangling's whole-word-of-entry suppression so
+                # multi-word entries with lowercase connectors don't leak
+                # phantom dangle counts into the aggregate.
+                if _phrase_is_word_of_entry(phrase, name_lookup):
                     continue
                 if _is_sentence_start(body, m.start()):
                     continue
