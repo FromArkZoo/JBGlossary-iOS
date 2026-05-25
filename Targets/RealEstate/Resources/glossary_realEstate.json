@@ -18,6 +18,22 @@
     ]
   },
   {
+    "letter": "1",
+    "term": "1031 Identification Period",
+    "full": "45-Day Period",
+    "plain": "The 45-day window after Sale of the relinquished property in a 1031 Exchange to formally identify replacement properties — a strict deadline that destroys deals if missed.",
+    "snappy": "Strict 45-day window after Sale to identify 1031 Exchange replacement properties.",
+    "detail": "The 45-day identification rule is the most rigid timeline in 1031 Exchange — no extensions for any reason including weekends and holidays. The investor must identify in writing — to the Qualified Intermediary — up to three replacement properties (or any number if their total fair-market value is 200% or less of the relinquished property's value). The 180-day completion deadline (close on at least one identified property) runs concurrently. Missing 45-day blows the Exchange and triggers full Capital Gain. Pros pre-identify replacement candidates well before listing the relinquished property.",
+    "indications": [
+      "Investment"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
     "letter": "A",
     "term": "Abstract of Title",
     "full": "",
@@ -54,6 +70,23 @@
   },
   {
     "letter": "A",
+    "term": "Acknowledgment",
+    "full": "Acknowledgement",
+    "plain": "A signer's formal statement before a Notary that the signature is theirs and given freely — the prerequisite for Recording a Deed or Mortgage.",
+    "snappy": "Signer's formal statement before a Notary that the signature is theirs and freely given.",
+    "detail": "Acknowledgments are the legal mechanism by which a signed document becomes recordable. The signer appears before a Notary, swears or affirms that the signature is theirs and freely given, and the Notary completes a certificate of Acknowledgment on the document. Most states accept uniform Acknowledgment language under the Uniform Recognition of Acknowledgments Act. Foreign Acknowledgments require apostille certification under the Hague Convention to be Recorded in US property records. Distinct from a Jurat, where the signer swears that the contents of the document are true — Jurats accompany affidavits, not Deeds.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII",
+      "ALTA"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "ADA",
     "full": "Americans with Disabilities Act",
     "plain": "The 1990 federal law requiring public accommodations and most commercial properties to be accessible to people with disabilities.",
@@ -84,6 +117,23 @@
     "sources": [
       "CFPB",
       "Freddie Mac"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Adjusted Cost Basis",
+    "full": "ACB",
+    "plain": "The Cost Basis as it stands today after all the bumps and bruises — capital improvements added, Depreciation subtracted, casualty losses applied.",
+    "snappy": "Cost Basis after improvements, Depreciation, and casualty losses are tracked through over time.",
+    "detail": "Adjusted Cost Basis is what actually drives Capital Gain calculation at Sale. Adjustments that increase basis: capital improvements (qualifying under IRS rules), assessments for benefit (sidewalks, sewer), purchase costs. Adjustments that decrease basis: Depreciation taken, casualty losses claimed, easements granted, partial sales. Tracking is the taxpayer's responsibility — IRS rarely audits basis but expects records on demand. Investment property owners often discover at Sale that decades of Depreciation have reduced basis dramatically — sometimes to zero or below, generating taxable gain even if Sale Price equals purchase price.",
+    "indications": [
+      "Investment",
+      "Cross-sector"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
     ]
   },
   {
@@ -390,6 +440,23 @@
   },
   {
     "letter": "A",
+    "term": "As-of-Right",
+    "full": "By-Right",
+    "plain": "Development that complies with all existing Zoning rules and needs no discretionary approval — building permit only, no public hearings or Variance.",
+    "snappy": "Development complying with all Zoning rules — building permit only, no discretionary approval.",
+    "detail": "As-of-right Development is the cheapest, fastest path through entitlement — file the building permit, satisfy code-compliance review, pull the permit, build. Zoning compliance covers: use category, density, height, FAR, Setback, parking, lot coverage, environmental review thresholds. Discretionary approvals (Conditional Use Permit, Variance, Special Permit) sit outside as-of-right and trigger public hearings and political risk. New York City's 'as-of-right floor area' calculation is the standard developer pricing input. Some jurisdictions reserve as-of-right strictly to the most conforming projects; others permit it broadly subject to design review.",
+    "indications": [
+      "Development",
+      "Commercial"
+    ],
+    "category": "Development",
+    "sources": [
+      "NAHB",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Assessed Value",
     "full": "",
     "plain": "The dollar value a county assessor assigns to your property to calculate Property Tax — usually below market value.",
@@ -636,6 +703,23 @@
   },
   {
     "letter": "B",
+    "term": "Brownfield",
+    "full": "Brownfield Site",
+    "plain": "A property contaminated by prior industrial use — old factories, gas stations, dry cleaners — that needs environmental remediation before redevelopment.",
+    "snappy": "Previously contaminated industrial site requiring remediation before redevelopment.",
+    "detail": "Brownfield redevelopment cycles around environmental risk. CERCLA (Superfund) liability historically scared developers away from brownfields — even buying contaminated Land could trigger remediation obligations. Bona Fide Prospective Purchaser status (2002 amendments) gave a path to take contaminated property without inheriting liability. State Voluntary Cleanup Programs (VCPs) offer remediation oversight and 'no further action' letters that comfort Lenders. Brownfield tax credits (federal up to 2011, state programs ongoing) subsidise the remediation cost. Successful brownfield redevelopment turns contaminated parcels into Multifamily, Mixed-Use, parks, and Industrial.",
+    "indications": [
+      "Development",
+      "Public Sector",
+      "Industrial"
+    ],
+    "category": "Development",
+    "sources": [
+      "HUD"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "BRRRR",
     "full": "Buy, Rehab, Rent, Refinance, Repeat",
     "plain": "A real-estate investor strategy: buy cheap, fix up, rent out, Refinance to pull cash back out, and repeat with the next property.",
@@ -661,6 +745,24 @@
       "Multifamily",
       "Residential",
       "Investment"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Build-to-Suit",
+    "full": "BTS",
+    "plain": "A new building developed for a specific Tenant under a pre-signed long-term Lease — the Tenant gets a custom property without buying it; the developer gets de-risked financing.",
+    "snappy": "New construction developed for a specific Tenant under a pre-signed long-term Lease.",
+    "detail": "Build-to-Suit deals match a developer (with capital, Land, and expertise) to a Tenant (with credit and a defined need). The Tenant signs a Lease — typically NNN, 10-20+ years, with credit-quality Rent — before construction begins. The developer finances against the signed Lease, builds to Tenant specifications, and delivers. Major occupiers (Amazon, Walmart, FedEx for Industrial; corporate HQs for Office; retailers for free-standing Retail) use BTS to control building configuration without tying up capital. Investors love BTS deals — credit-Tenant cash flow with development-yield economics.",
+    "indications": [
+      "Commercial",
+      "Industrial",
+      "Development"
     ],
     "category": "Property Types",
     "sources": [
@@ -801,6 +903,22 @@
   },
   {
     "letter": "C",
+    "term": "CAM Reconciliation",
+    "full": "CAM Recon",
+    "plain": "The annual true-up of estimated CAM charges versus actual costs — Tenants either get refunds for overpayment or owe additional amounts.",
+    "snappy": "Annual true-up of estimated versus actual CAM expenses, with Tenant refunds or shortfalls billed.",
+    "detail": "CAM Reconciliation cycles annually. Throughout the year, Tenants pay estimated CAM based on the Landlord's budget. After year-end, the Landlord computes actual CAM, reconciles against estimates, and bills Tenants for shortfalls or credits overpayments. Tenants typically have audit rights — limited to 90-180 days after the reconciliation statement. Common disputes: included-versus-excluded expense categories, allocation methodology for multi-property campuses, capital improvements wrongly billed as CAM, management fee mark-ups above market. CAM cap provisions (limits on year-over-year increases) protect Tenants from runaway costs.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "IREM",
+      "BOMA"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Cap Rate",
     "full": "Capitalization Rate",
     "plain": "A quick yardstick for what an investment property earns each year, expressed as a percentage of what it costs.",
@@ -914,6 +1032,22 @@
     "indications": [
       "Investment",
       "Commercial"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Carryforward Loss",
+    "full": "Tax Loss Carryforward",
+    "plain": "Tax losses that can't be used in the current year — carried forward indefinitely to offset future income.",
+    "snappy": "Unused current-year tax losses carried forward to offset future income.",
+    "detail": "Real Estate generates carryforward losses through Passive Loss rules (passive losses limited to passive income), at-risk rules, and net operating losses. Passive losses suspended in the current year carry forward indefinitely and free up when (a) the taxpayer has future passive income, (b) the taxpayer materially participates, qualifies as Real Estate Professional, and converts the activity to active, or (c) the taxpayer disposes of the property in a fully taxable Sale, allowing full release of suspended losses against ordinary income. Strategic Sale timing to release suspended losses is an estate-planning technique used routinely by sophisticated Real Estate investors.",
+    "indications": [
+      "Investment"
     ],
     "category": "Tax",
     "sources": [
@@ -1302,6 +1436,22 @@
   },
   {
     "letter": "C",
+    "term": "Comparative Market Analysis",
+    "full": "CMA",
+    "plain": "A real estate Agent's informal valuation of a property — uses recent Sales of comparable homes to estimate likely Sale Price, simpler than a formal Appraisal.",
+    "snappy": "Agent's informal valuation using recent comparable sales — simpler than a formal Appraisal.",
+    "detail": "CMA is the standard listing-pricing tool. Agents pull 5-10 recently sold Comps from the MLS, adjust for differences (square footage, condition, lot size, features), and produce a likely Sale Price range. Distinct from an Appraisal: a CMA is not an Appraiser's formal opinion, isn't USPAP-compliant, can't satisfy lender Underwriting. But CMAs run free (part of the listing service), are produced in days, and are more current than Appraisals (which lag market shifts). Sellers use CMAs to set list price; buyers use CMAs to gauge whether a list price is reasonable.",
+    "indications": [
+      "Residential",
+      "Cross-sector"
+    ],
+    "category": "Valuation & Appraisal",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Concessions",
     "full": "Lease Concessions, Rent Concessions",
     "plain": "Free or discounted Rent and other incentives Landlords offer to attract Tenants — months free, reduced Security Deposit, gift cards, TI allowances above market.",
@@ -1521,6 +1671,24 @@
   },
   {
     "letter": "C",
+    "term": "Cost Basis",
+    "full": "Tax Basis, Basis",
+    "plain": "What you paid for a property — plus capital improvements, minus Depreciation — that determines Capital Gain on Sale.",
+    "snappy": "Purchase price plus improvements minus Depreciation — the basis for Capital Gain calculation.",
+    "detail": "Cost basis is the tax accounting record of what the owner has invested in the property. Start with: purchase price + acquisition costs (title fees, transfer tax, attorney). Add: capital improvements (kitchen renovation, new Roof, additions — not routine repairs). Subtract: Depreciation taken (for investment property). On Sale, gain = Sale Price − Cost Basis − selling costs. Errors are common. Long-held investment property accumulates major Depreciation that reduces basis below the original purchase price. Step-up in Basis at death resets basis to fair market value.",
+    "indications": [
+      "Investment",
+      "Residential",
+      "Cross-sector"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Cost Segregation",
     "full": "",
     "plain": "A tax study that accelerates Depreciation deductions on a building by reclassifying parts of it as shorter-life assets.",
@@ -1729,6 +1897,24 @@
   },
   {
     "letter": "D",
+    "term": "Density Bonus",
+    "full": "",
+    "plain": "A Zoning incentive letting a developer build more units than the base allowance — in exchange for providing Affordable Housing, open space, or other public benefits.",
+    "snappy": "Zoning incentive allowing extra density in exchange for public benefits.",
+    "detail": "California's Density Bonus Law (Government Code §65915) is the national prototype: a developer who provides 10% of units as Affordable Housing earns up to 35% additional units; deeper affordability earns more. Local jurisdictions implement variations — TDR (transfer of development rights), historic-preservation bonuses, transit-oriented bonuses, green-building bonuses. Density Bonus is the developer's lever to make Affordable Housing economically feasible — the additional market-rate units cross-subsidise the discounted ones. Critical to LIHTC layered deals where Density Bonus is essential to viability.",
+    "indications": [
+      "Development",
+      "Affordable",
+      "Multifamily"
+    ],
+    "category": "Development",
+    "sources": [
+      "HUD",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "Depreciation",
     "full": "",
     "plain": "The yearly tax deduction investors take to reflect that a building wears out — even though most rise in market value.",
@@ -1780,6 +1966,23 @@
   },
   {
     "letter": "D",
+    "term": "Direct Capitalization",
+    "full": "Direct Cap",
+    "plain": "A simple valuation method: take a property's NOI for one year and divide by the market Cap Rate to get value.",
+    "snappy": "Valuation method dividing one year's NOI by market Cap Rate to derive value.",
+    "detail": "Direct capitalisation is the everyday Real Estate valuation shortcut. NOI ÷ Cap Rate = Value. A property generating $1M NOI in a 5% Cap Rate market values at $20M. Strengths: simple, requires only one year of NOI and a market Cap Rate. Weaknesses: ignores variable cash flow over time, doesn't model Cap-Ex cycles or refinance, assumes the market Cap Rate is correctly observed. The Income Approach uses direct capitalisation for stabilised properties and Discounted Cash Flow for properties with variable cash flow or value-add business plans.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Valuation & Appraisal",
+    "sources": [
+      "Appraisal Institute",
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "Disclosure",
     "full": "",
     "plain": "Written information the seller must give the buyer about known defects, hazards, or material facts.",
@@ -1807,6 +2010,23 @@
     "category": "Financing & Lending",
     "sources": [
       "CFPB"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "Discount Rate",
+    "full": "",
+    "plain": "The annual rate used to convert future cash flows to present value in a Discounted Cash Flow valuation — typically the investor's target return.",
+    "snappy": "Annual rate used to discount future cash flows to present value in DCF.",
+    "detail": "The Discount Rate in Real Estate DCF is the investor's required return given the deal's risk profile. Conventions: unlevered Discount Rate for property-level analysis (no debt), levered for equity-level. Components: risk-free rate (typically 10-year Treasury) + Real Estate equity risk premium (3-5%) + property-specific risk (asset class, location, business plan). Typical 2024 unlevered Discount Rates: 7-9% Core Multifamily, 8-10% Value-Add Office, 9-12% Opportunistic Industrial. NPV is most sensitive to Discount Rate; small changes shift terminal value substantially.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Valuation & Appraisal",
+    "sources": [
+      "Appraisal Institute",
+      "NCREIF"
     ]
   },
   {
@@ -1976,6 +2196,22 @@
   },
   {
     "letter": "E",
+    "term": "Earthquake Insurance",
+    "full": "EQ Insurance",
+    "plain": "Insurance covering damage from earthquake events — separate from Homeowners Insurance, mostly provided through the California Earthquake Authority in California or as private endorsements elsewhere.",
+    "snappy": "Separate insurance covering earthquake damage — not included in standard Homeowners Insurance.",
+    "detail": "Homeowners Insurance excludes earthquake damage. California (most exposed state) created the California Earthquake Authority (CEA, 1996) — a state-run pool that writes most California EQ policies, with premiums tied to building age, construction type, and seismic zone. Coverage is high-deductible (often 10-25% of dwelling value) and expensive ($1,500-$5,000+/year for typical homes). Other West Coast states use private carriers exclusively. Adoption rates are low — ~10-15% of California homeowners carry EQ — because of cost and deductible structure. Commercial property in seismic zones almost always carries Earthquake Insurance; high-rise tower co-ops often require it.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Easement",
     "full": "",
     "plain": "A right to use part of someone else's Land for a specific purpose — like a shared driveway or a utility line.",
@@ -2045,6 +2281,22 @@
   },
   {
     "letter": "E",
+    "term": "EGI",
+    "full": "Effective Gross Income",
+    "plain": "Common shorthand for Effective Gross Income — Gross Rental Income minus vacancy and collection losses.",
+    "snappy": "Standard shorthand for Effective Gross Income.",
+    "detail": "EGI is the universal industry shorthand for Effective Gross Income. Sponsor pro formas and Lender Underwriting use 'EGI' to denote the realistic top line after vacancy and concession assumptions. See Effective Gross Income for the calculation methodology and the gap between GRI and EGI in underwriting models.",
+    "indications": [
+      "Commercial",
+      "Multifamily"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Encroachment",
     "full": "",
     "plain": "When a structure or improvement crosses the property line onto a neighbour's Land — a fence, an overhanging eave, an extending driveway.",
@@ -2076,6 +2328,23 @@
     "sources": [
       "Cornell LII",
       "ALTA"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Entitlement",
+    "full": "Entitlements",
+    "plain": "The package of approvals a property has — Zoning, permits, Conditional Use, Variances — that allow specific Development to proceed.",
+    "snappy": "Package of approvals giving a property the right to develop or use it in a specific way.",
+    "detail": "Entitlement is the developer's primary product on raw Land. The journey: identify the Lot, propose the Zoning change or Conditional Use Permit, prepare a Site Plan, run the political process (planning commission hearings, neighbour notice, environmental review, city council vote). Successful entitlement multiplies Land value — a $5M raw site entitled for 200 apartment units may resell at $30M without any construction. Failed entitlement is the developer's biggest risk; some Sponsors specialise in entitlement as a separate business, selling shovel-ready Land to builders.",
+    "indications": [
+      "Development",
+      "Commercial"
+    ],
+    "category": "Development",
+    "sources": [
+      "ULI",
+      "NAHB"
     ]
   },
   {
@@ -2385,6 +2654,39 @@
   },
   {
     "letter": "F",
+    "term": "Flex Industrial",
+    "full": "Flex Space",
+    "plain": "A Commercial property combining warehouse-style space with office and showroom areas — flexible build-out for small businesses needing both.",
+    "snappy": "Hybrid warehouse/office property serving small businesses needing flexible space.",
+    "detail": "Flex Industrial fills the gap between pure warehouse and pure office. Typical flex bays run 2,000-10,000 SF, with 15-22 foot clear heights, drive-in doors or single dock door, and a 20-40% office build-out at the front. Tenants: small distributors, light manufacturers, contractors, biotech and R&D firms in single-floor configurations. Flex performs less volatility than either pure office or pure warehouse — diverse Tenant base, modest unit size, smaller absolute Rent exposure. Distinct from bulk warehouse (single-Tenant, 200,000+ SF) and pure office.",
+    "indications": [
+      "Industrial",
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "BOMA"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "Float-Down",
+    "full": "Float-Down Option",
+    "plain": "A Rate Lock feature letting the borrower capture a lower rate if market rates drop before Closing — usually for a fee or higher upfront pricing.",
+    "snappy": "Rate Lock feature letting the borrower capture lower rates if market drops before Closing.",
+    "detail": "Float-down options are the Rate Lock equivalent of buying optionality. Mechanics: borrower locks at, say, 7.0% for 60 days with a float-down option. If market rates drop to 6.5% before Closing, the borrower can exercise the float-down and close at 6.5% (often with a small re-lock fee). If rates rise, the original lock holds. Cost: 12.5-25 basis points priced into the lock, or a flat $300-$500 fee. Useful in falling-rate or volatile environments; useless when rates are rising. Float-downs are more common in retail-channel Mortgages than wholesale.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "F",
     "term": "Flood Insurance",
     "full": "NFIP Flood Insurance",
     "plain": "Insurance covering damage from flooding — usually separate from standard Homeowners Insurance, mostly provided by the federal National Flood Insurance Program in high-risk zones.",
@@ -2622,6 +2924,39 @@
   },
   {
     "letter": "G",
+    "term": "Greenfield",
+    "full": "Greenfield Site",
+    "plain": "Undeveloped Land — usually agricultural or open space — being considered for new construction, distinct from infill or brownfield redevelopment.",
+    "snappy": "Undeveloped Land considered for new construction — contrast with infill or brownfield.",
+    "detail": "Greenfield Development is the suburban-expansion model that built post-war US housing — farmland on the urban edge subdivided into Lots, served by new infrastructure, marketed to first-time buyers fleeing cities. Greenfield is fast and cheap relative to Infill or Brownfield because there's no demolition, no remediation, no neighbour resistance. Critics: sprawl, infrastructure cost, environmental impact, car-dependency. Many growth-managing states (Oregon, California, Washington) have urban growth boundaries restricting greenfield Development. The Southeast and Southwest still favour greenfield for affordability and political ease.",
+    "indications": [
+      "Development",
+      "Residential"
+    ],
+    "category": "Development",
+    "sources": [
+      "NAHB",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "G",
+    "term": "GRI",
+    "full": "Gross Rental Income",
+    "plain": "Common shorthand for Gross Rental Income — the theoretical top-line Rent at full occupancy and market rates.",
+    "snappy": "Standard shorthand for Gross Rental Income.",
+    "detail": "GRI is universal industry shorthand for Gross Rental Income — the theoretical maximum Rent revenue assuming 100% occupancy and market rates with no concessions. The gap between GRI and EGI represents vacancy and economic loss. See Gross Rental Income for the underwriting role and what makes the GRI-to-EGI conversion realistic.",
+    "indications": [
+      "Commercial",
+      "Multifamily"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "G",
     "term": "Gross Lease",
     "full": "Full Service Lease",
     "plain": "A commercial Lease where the Landlord pays all Operating Expenses out of the Rent — the Tenant just pays the headline number.",
@@ -2652,6 +2987,40 @@
     "sources": [
       "NCREIF",
       "IREM"
+    ]
+  },
+  {
+    "letter": "G",
+    "term": "Gross-Up",
+    "full": "Gross-Up Provision",
+    "plain": "A commercial Lease provision that adjusts Operating Expense pass-throughs as if the building were 95-100% occupied — protecting the Landlord from low-occupancy distortion.",
+    "snappy": "Lease provision adjusting Operating Expense pass-throughs to a fully occupied basis.",
+    "detail": "Gross-Up provisions matter most in NNN and Modified Gross commercial Leases. Variable Operating Expenses (utilities, janitorial, supplies) drop when a building runs partly vacant — but Tenants paying pro-rata shares would see those drops as savings. Gross-Up adjusts variable expenses upward to what they'd be at the gross-up occupancy (typically 95-100%), then allocates the grossed-up amount pro-rata. Without Gross-Up, Tenants effectively share the burden of vacancy with the Landlord. Tenants often negotiate caps or modifications to Gross-Up provisions; well-counseled Tenants always read for the specific gross-up rate.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "IREM",
+      "BOMA"
+    ]
+  },
+  {
+    "letter": "G",
+    "term": "Ground Lease",
+    "full": "",
+    "plain": "A long-term Lease — typically 50-99 years — of just the Land underneath a building, with the Tenant constructing and owning the improvements separately.",
+    "snappy": "Long-term Land-only Lease where the Tenant builds and owns the improvements.",
+    "detail": "Ground Lease separates Land ownership from building ownership. The Landlord retains Title to the Land and leases it for 50-99 years; the Tenant builds (or buys existing improvements) and operates the building. Common in: NYC where the Catholic Church, universities, and family Trusts own significant Land that never sells; Hawaii's leasehold system; airport-adjacent Hotel sites; some institutional Office sites. At Lease end, improvements typically revert to the Landlord (sometimes for $1, sometimes for fair-market value). Ground Lease economics for the Tenant: lower upfront capital, but Land-Lease payments reduce cash flow and Lease-end reversion risk caps property value.",
+    "indications": [
+      "Commercial",
+      "Investment",
+      "Land"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "NCREIF",
+      "ULI"
     ]
   },
   {
@@ -2873,6 +3242,23 @@
   },
   {
     "letter": "I",
+    "term": "Inclusionary Zoning",
+    "full": "IZ",
+    "plain": "A local Zoning rule requiring new residential Development to include below-market Affordable units — either built on-site or paid into a housing fund.",
+    "snappy": "Zoning rule requiring new residential Development to include Affordable Housing units.",
+    "detail": "Inclusionary Zoning ordinances spread through the 2000s-2020s in high-cost cities. Typical structure: 10-20% of new units in projects above a size threshold must be priced for households earning 60-120% of Area Median Income. On-site set-aside is the default; in-lieu fees let developers pay into a housing fund instead (which has its own controversies — funds rarely build as much as on-site provision would). Combined with Density Bonus to make economics workable. Boston, San Francisco, NYC, DC, Chicago, Portland are major IZ markets.",
+    "indications": [
+      "Development",
+      "Affordable",
+      "Public Sector"
+    ],
+    "category": "Development",
+    "sources": [
+      "HUD"
+    ]
+  },
+  {
+    "letter": "I",
     "term": "Income Approach",
     "full": "Income Capitalization Approach",
     "plain": "An Appraisal method that values an investment property by its expected NOI — divide NOI by Cap Rate to get value.",
@@ -2922,6 +3308,24 @@
       "NCREIF",
       "ULI",
       "BOMA"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Infill",
+    "full": "Infill Development",
+    "plain": "Building on vacant or underused parcels inside existing developed areas — distinct from greenfield expansion at the edge.",
+    "snappy": "Building on vacant or underused parcels within existing developed areas.",
+    "detail": "Infill Development cycles in and out of fashion. Pros: existing infrastructure (sewer, water, roads, transit), walkability, lower environmental footprint, neighbour familiarity with the area. Cons: smaller Lots, narrower margins, parking constraints, NIMBY opposition from neighbours fearing density and traffic, higher construction costs from constrained sites, demolition or remediation costs. Successful infill plays a major role in housing-supply policy for state reforms targeting Single-Family-only Zoning. ADU legalisation, missing-middle housing legislation, and TOD overlays are all infill-promoting tools.",
+    "indications": [
+      "Development",
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Development",
+    "sources": [
+      "ULI",
+      "NAHB"
     ]
   },
   {
@@ -3150,6 +3554,24 @@
   },
   {
     "letter": "L",
+    "term": "Last-Mile Logistics",
+    "full": "Last-Mile Industrial",
+    "plain": "Small industrial warehouses near urban centres — built to handle the final leg of e-commerce delivery to consumers.",
+    "snappy": "Urban-infill industrial property handling the final leg of e-commerce delivery.",
+    "detail": "Last-mile boomed with e-commerce growth post-2015. Amazon, FedEx, UPS, regional carriers compete for proximity to dense consumer populations to enable same-day or two-hour delivery. Typical last-mile facility: 80,000-200,000 SF, 24-32 foot clear height, dense dock-door count, located in urban infill near highway access. Trades at 100-200 basis-point Cap Rate premium to bulk warehouse for the location scarcity. Major institutional capital: Prologis, Blackstone, Stockbridge, EQT Exeter. Re-Zoning of older Industrial to Mixed-Use displaces some last-mile supply, pushing up rents on what remains.",
+    "indications": [
+      "Industrial",
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Lease",
     "full": "",
     "plain": "A written contract giving a Tenant the right to occupy a property for a set time in exchange for Rent.",
@@ -3198,6 +3620,23 @@
     "category": "Financing & Lending",
     "sources": [
       "MBA",
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Lender's Title Insurance",
+    "full": "Loan Policy",
+    "plain": "The Title Insurance policy protecting the Lender — distinct from the owner's policy that protects the buyer — required by virtually every Mortgage Lender.",
+    "snappy": "Title Insurance protecting the Lender, separate from the owner's policy.",
+    "detail": "Lender's Title Insurance covers the Lender (and successor servicers, GSE buyers, MBS investors) against Title defects affecting their Lien priority. Coverage equals the Mortgage balance and decreases as the loan amortises. Required at every Closing by virtually every Lender. The buyer pays for both Lender's and owner's policies in most states (Texas, Florida, much of West); New York and a few states have the seller pay owner's. The two policies are issued together but cover different parties and risks. Lender's coverage typically costs less than owner's (Lender's risk is more bounded).",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "ALTA",
       "CFPB"
     ]
   },
@@ -3605,6 +4044,24 @@
   },
   {
     "letter": "M",
+    "term": "Mark to Market",
+    "full": "Mark-to-Market Rent",
+    "plain": "The process of repricing in-place Leases to current market Rent — done at Lease renewal, on Sale, or in a value-add business plan.",
+    "snappy": "Repricing in-place Leases to current market Rent at renewal, on Sale, or in a business plan.",
+    "detail": "Mark to Market matters in Sponsor value-add underwriting. A 200-unit Multifamily property with $1,400 average in-place Rent in a market where comparable units lease at $1,650 has 18% mark-to-market upside. Realisation requires Lease turnover (12-24 months for Multifamily) and operating execution. Sophisticated underwriting models mark-to-market separately for natural turnover (no investment required) versus value-add (renovation + Rent push). Commercial mark-to-market is slower — 5-10 year Leases — and depends on Lease expiration schedule. Office and Retail buildings with heavily below-market in-place Rent attract value-add capital.",
+    "indications": [
+      "Commercial",
+      "Multifamily",
+      "Investment"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Market Value",
     "full": "",
     "plain": "What a willing buyer would pay a willing seller in an Arm's Length Transaction — the gold-standard valuation concept.",
@@ -3653,6 +4110,23 @@
     "sources": [
       "NAR",
       "CFPB"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Master Plan",
+    "full": "Comprehensive Plan",
+    "plain": "A long-range vision document — city, county, or large landowner — that maps out future Zoning, infrastructure, density, and land use over 10-20 years.",
+    "snappy": "Long-range vision document for Zoning, infrastructure, and land use over decades.",
+    "detail": "Master plans guide municipal decisions over generations. California requires a General Plan with mandatory elements (housing, transportation, conservation, open space, safety, noise). New York City's PlaNYC, Houston's General Plan, Portland's 2035 Plan are recent examples. Private master-planned communities (The Villages, Summerlin, Mountain House) adopt internal master plans laying out subdivisions, amenities, retail, commercial corridors. Master Plans get periodic updates — typically 10-year cycles. Site Plan approvals must conform with the relevant Master Plan; deviations require amendments.",
+    "indications": [
+      "Development",
+      "Public Sector"
+    ],
+    "category": "Development",
+    "sources": [
+      "ULI",
+      "HUD"
     ]
   },
   {
@@ -3909,6 +4383,38 @@
   },
   {
     "letter": "M",
+    "term": "Mortgage Servicer",
+    "full": "Loan Servicer",
+    "plain": "The company that collects monthly Mortgage payments, manages Escrow accounts, and handles delinquencies — often different from the original Lender.",
+    "snappy": "Company collecting Mortgage payments and managing Escrow, often different from the original Lender.",
+    "detail": "After a Mortgage closes, the original Lender often sells the Servicing Rights to a specialised mortgage servicer. Large bank servicers: Wells Fargo, Chase, US Bank. Non-bank servicers: Mr. Cooper, Lakeview, PennyMac, Newrez. The servicer manages: monthly payment collection, Escrow accounts for Property Tax + Homeowners Insurance, delinquency outreach, Loss Mitigation evaluations, Foreclosure proceedings. Borrowers often dislike servicer transitions — payment instructions change, Escrow analysis differs, customer service quality varies. CFPB regulates servicer conduct under Reg X with strict rules on transitions, Loss Mitigation, and dispute resolution.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "MBA"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "MSR",
+    "full": "Mortgage Servicing Rights",
+    "plain": "Common shorthand for Mortgage Servicing Rights — the contractual right to collect Mortgage payments, treated as a tradable asset.",
+    "snappy": "Standard shorthand for Mortgage Servicing Rights as a financial asset.",
+    "detail": "MSR is universal shorthand in residential Mortgage finance for Mortgage Servicing Rights. Specialty firms hold and trade large MSR portfolios for steady cash flow and Interest-rate exposure. See Servicing Rights for the asset class mechanics, how MSR value moves with rate cycles, and the bank vs. non-bank split.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "MBA"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Multifamily",
     "full": "",
     "plain": "A residential building with more than one separate dwelling unit — duplexes, apartment buildings, garden communities.",
@@ -3957,6 +4463,54 @@
     "sources": [
       "Nareit",
       "NCREIF"
+    ]
+  },
+  {
+    "letter": "N",
+    "term": "NER",
+    "full": "Net Effective Rent",
+    "plain": "Common shorthand for Net Effective Rent — the Rent a Tenant effectively pays after concessions and free-Rent periods.",
+    "snappy": "Standard shorthand for Net Effective Rent.",
+    "detail": "NER is universal industry shorthand for Net Effective Rent. Commercial Lease negotiations and pro forma underwriting compare Leases by NER, not Base Rent, to neutralise concession packages. See Net Effective Rent for the calculation methodology and why aggressive concessions distort headline Base Rent comparisons.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "IREM"
+    ]
+  },
+  {
+    "letter": "N",
+    "term": "Net Effective Rent",
+    "full": "NER",
+    "plain": "The Rent a Tenant effectively pays after concessions, free-Rent periods, and TI amortisation — usually lower than the Base Rent quoted in the Lease.",
+    "snappy": "Effective Rent net of concessions, free Rent, and TI — usually below quoted Base Rent.",
+    "detail": "Net Effective Rent is the Lease-economics number that matters. Calculation: total Rent dollars collected over the Lease term, minus concessions (free Rent, TI allowance, lease-incentive payments), divided by total months. A 5-year Office Lease at $40/PSF Base Rent with 4 months free and $50/PSF TI works out to roughly $33/PSF NER. Comparing Leases by NER, not Base Rent, prevents misleading apples-to-oranges comparisons. Brokers, Landlords, and Tenants all model NER in negotiations. Aggressive concession packages distort headline Base Rent — pro forma underwriting uses NER for true NOI.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "NCREIF",
+      "IREM"
+    ]
+  },
+  {
+    "letter": "N",
+    "term": "Net Lease",
+    "full": "",
+    "plain": "Any commercial Lease where the Tenant pays Operating Expenses beyond Base Rent — covers Single Net (Property Tax), Double Net (plus insurance), and Triple Net Lease (plus maintenance).",
+    "snappy": "Lease where the Tenant pays Operating Expenses beyond Base Rent — single, double, or triple net.",
+    "detail": "Net Lease is the umbrella term for Lease structures shifting some or all Operating Expenses to the Tenant. Single Net (N): Tenant pays Property Tax in addition to Base Rent. Double Net (NN): Tenant pays Property Tax + insurance. Triple Net (NNN): Tenant pays all three (Property Tax + insurance + maintenance). Absolute Net (sometimes called 'NNN absolute' or 'bond net'): Tenant pays everything including capital and structural repairs. Most institutional 'NNN' deals are bond-net structures. Lease economics quote Base Rent low; Tenants budget for total occupancy cost including pass-throughs.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "NCREIF",
+      "IREM"
     ]
   },
   {
@@ -4081,6 +4635,23 @@
   },
   {
     "letter": "N",
+    "term": "Notary",
+    "full": "Notary Public",
+    "plain": "A state-commissioned officer who witnesses signatures and confirms identity on legal documents — required for nearly every Deed, Mortgage, and Closing document.",
+    "snappy": "State-commissioned officer witnessing signatures and confirming identity on legal documents.",
+    "detail": "Notaries are central to Real Estate Closings. Their role: confirm signer's identity (driver's licence or passport), verify signer's competency and willingness, witness the signature, affix their seal and stamp. Notarisation is required for: Deeds (to be Recorded), Mortgages, Deeds of Trust, powers of attorney, Affidavits. Mobile and remote-notary services (RON — Remote Online Notarisation) expanded sharply post-2020 — 47 states permit RON for Real Estate documents as of 2024. Sloppy or fraudulent notarisation occasionally surfaces in Title disputes; the notary carries personal liability.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "ALTA",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "N",
     "term": "NPV",
     "full": "Net Present Value",
     "plain": "Common shorthand for Net Present Value — the present-value sum of all future cash flows discounted at a target return rate.",
@@ -4133,6 +4704,24 @@
   },
   {
     "letter": "O",
+    "term": "Operating Expense Ratio",
+    "full": "OER",
+    "plain": "Operating Expenses divided by Effective Gross Income — the percentage of property revenue consumed by running costs.",
+    "snappy": "Operating Expenses as a percentage of EGI — the property's expense-load metric.",
+    "detail": "OER varies sharply by asset class. Multifamily stabilised: 35-50% (higher for affordable and older property). Office: 30-45% (lower for NNN structures). Industrial: 20-30% (low operating costs). Retail: 25-40%. Hotel: 65-75% (labour intensive). Higher-than-comp OER often signals management issues — vendor over-spending, deferred Maintenance, poor utility efficiency. Lower than comp signals either disciplined operations or under-investment that will eventually surface as Cap-Ex. Sponsor pro formas projecting OER improvement (from 45% to 40%, for example) drive material NOI gains and warrant scrutiny.",
+    "indications": [
+      "Commercial",
+      "Multifamily",
+      "Investment"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "NCREIF",
+      "IREM"
+    ]
+  },
+  {
+    "letter": "O",
     "term": "Operating Expenses",
     "full": "OpEx",
     "plain": "The recurring costs of running an income property — Property Tax, insurance, utilities, repairs, management, but not Mortgage payments.",
@@ -4165,6 +4754,22 @@
     "sources": [
       "NCREIF",
       "ULI"
+    ]
+  },
+  {
+    "letter": "O",
+    "term": "Origination Fee",
+    "full": "",
+    "plain": "A fee the Lender charges to process and underwrite a new Mortgage — usually 0.5%-1% of the loan amount, paid at Closing.",
+    "snappy": "Lender fee for processing a new Mortgage, typically 0.5-1% of loan amount.",
+    "detail": "Origination fees compensate the Lender for application processing, Underwriting, document preparation, and Closing coordination. Distinct from Discount Points (which buy down the rate). Conventional Loans typically charge 0.5-1% origination; FHA Loans cap at 1% of the loan amount; VA Loans cap at 1%. Origination fees are deductible against income on investment-property loans and on primary-residence purchases with cash-out portions used for substantial improvements. Sloppy Closing Disclosures sometimes lump origination, Discount Points, and Lender fees together — borrowers should itemise.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "IRS"
     ]
   },
   {
@@ -4486,6 +5091,37 @@
     ]
   },
   {
+    "letter": "P",
+    "term": "Punch List",
+    "full": "",
+    "plain": "The list of small defects and incomplete items remaining after construction — the GC and Subcontractors work through these before final acceptance and final payment.",
+    "snappy": "List of small defects and incomplete items remaining after construction — final acceptance bar.",
+    "detail": "Punch List is the construction-completion equivalent of a Walk-Through. The owner (or owner's architect) inspects the substantially-completed building and produces a list of remaining items: paint touch-ups, missing hardware, scratched glass, slow drains, finish defects, missing equipment. The GC distributes items to responsible Subcontractors. Final payment to the GC is contingent on punch-list completion. Holdback amounts (5-10% of contract value) protect owners against incomplete work. Substantial completion versus final completion is a key legal distinction — Tenants can move in and warranty periods start at substantial completion even if punch-list items remain.",
+    "indications": [
+      "Development",
+      "Commercial"
+    ],
+    "category": "Development",
+    "sources": [
+      "NAHB"
+    ]
+  },
+  {
+    "letter": "Q",
+    "term": "QI",
+    "full": "Qualified Intermediary",
+    "plain": "Common shorthand for a Qualified Intermediary — the independent third party that holds proceeds in a 1031 Exchange.",
+    "snappy": "Standard shorthand for Qualified Intermediary in a 1031 Exchange.",
+    "detail": "QI is the universal industry shorthand for Qualified Intermediary. 1031 Exchange professionals, tax advisors, and Real Estate attorneys all use 'the QI' in daily conversation. See Qualified Intermediary for the IRS-mandated role, escrow mechanics, and which firms dominate the QI market.",
+    "indications": [
+      "Investment"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS"
+    ]
+  },
+  {
     "letter": "Q",
     "term": "QM",
     "full": "Qualified Mortgage",
@@ -4498,6 +5134,22 @@
     "category": "Financing & Lending",
     "sources": [
       "CFPB",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "Q",
+    "term": "Qualified Intermediary",
+    "full": "QI",
+    "plain": "An independent third party required by IRS rules to hold proceeds in a 1031 Exchange — the investor cannot touch the cash directly.",
+    "snappy": "Independent third party required to hold proceeds in a 1031 Exchange.",
+    "detail": "Qualified Intermediary (QI) is the IRS-mandated escrow agent in any 1031 Exchange. The investor's Sale proceeds go directly from the buyer to the QI's account, where they sit until the QI uses them to acquire the replacement property within the 180-day window. The investor cannot constructively receive the cash — touching the money even momentarily blows the Exchange and triggers Capital Gain. Major QIs: Investment Property Exchange Services (IPX), Asset Preservation, Exchange Bank, First American Exchange. Fees: $1,000-$3,000 per Exchange. QI selection matters — historical failures (Provident Royalties, LandAmerica) left investors stranded with seized funds.",
+    "indications": [
+      "Investment"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
       "Cornell LII"
     ]
   },
@@ -4556,6 +5208,21 @@
     "plain": "A ceiling on how much an Adjustable-Rate Mortgage's interest rate can rise — per adjustment or over the loan's life.",
     "snappy": "Ceiling on ARM rate increases, per-period and lifetime.",
     "detail": "Rate Caps are the bedrock consumer protection in Adjustable-Rate Mortgages. Standard 5/1 ARMs carry 2/2/5 caps: 2% maximum first adjustment, 2% per subsequent adjustment, 5% lifetime. Without caps, a sudden Index spike could double a borrower's payment. The Lender must disclose caps on the Loan Estimate. Caps don't apply to the Margin — only to the rate itself after Index plus Margin is computed.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Rate Lock",
+    "full": "Mortgage Rate Lock",
+    "plain": "An agreement between Lender and borrower fixing the Mortgage Interest rate for a set window — typically 30-90 days — protecting the borrower if rates rise before Closing.",
+    "snappy": "Lender agreement fixing the Mortgage Interest rate for a fixed window before Closing.",
+    "detail": "Rate locks insure the borrower against rate moves during application processing. Standard locks: 30 days (free or low cost), 45 days (modest fee), 60-90 days (higher fee). Long locks for new construction can run 180-365 days at meaningful premium. Lock terms govern lock-extension fees if Closing slips, lock-break terms if the borrower walks, and float-down options if rates fall after locking. Rate-lock disclosures are part of Loan Estimate and Closing Disclosure. CFPB enforcement has occasionally pursued Lenders for inadequate or deceptive lock-disclosure practices.",
     "indications": [
       "Residential"
     ],
@@ -4660,6 +5327,23 @@
     "category": "Transactions",
     "sources": [
       "NAR"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Recording",
+    "full": "Deed Recording, Recording the Deed",
+    "plain": "Filing a Deed with the county recorder's office to put the world on notice of ownership — essential to protecting Title against later claims.",
+    "snappy": "Filing a Deed with the county recorder to put the world on notice of ownership.",
+    "detail": "Recording in the public land records is what makes Title fully effective against third parties. Race-notice states (most US states) protect a bona fide purchaser for value who records first without notice of prior claims. Race states (a few) protect whoever records first regardless of notice. Notice states protect whoever has notice. Unrecorded Deeds are still valid between grantor and grantee — but a later purchaser without notice can take superior Title. Recording fees vary by state — a few dollars in most counties, hundreds in some metros. Mechanic's Liens, judgments, and Easements also get recorded to bind successors.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "ALTA",
+      "Cornell LII"
     ]
   },
   {
@@ -4783,6 +5467,24 @@
     "sources": [
       "Cornell LII",
       "HUD"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Rent Roll",
+    "full": "",
+    "plain": "The list of every Tenant in a property — unit, Lease term, Rent, security deposit — the foundational document for any rental property purchase or refinance.",
+    "snappy": "Spreadsheet listing every Tenant — unit, Lease term, Rent, Security Deposit.",
+    "detail": "Rent rolls power every commercial Real Estate transaction. Multifamily rent rolls list each unit, square footage, current Rent, market Rent, Lease start/end, Security Deposit, Tenant name. Commercial rent rolls add: pro-rata expense share, Tenant credit rating, parking allocation, options to renew or expand. The rent roll's NOI ties to the trailing-twelve-months operating statement. Yardi, RealPage, AppFolio, and Buildium produce standard rent rolls. Buyers verify rent rolls during Due Diligence — sometimes against actual deposit records — to catch fraud or sloppy reporting that overstates economic occupancy.",
+    "indications": [
+      "Commercial",
+      "Multifamily",
+      "Investment"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "IREM",
+      "NCREIF"
     ]
   },
   {
@@ -4919,6 +5621,23 @@
     "sources": [
       "NCREIF",
       "ULI"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Reverse 1031 Exchange",
+    "full": "Reverse Exchange",
+    "plain": "A 1031 Exchange where the investor buys the replacement property BEFORE selling the relinquished one — solves timing problems but adds complexity and cost.",
+    "snappy": "1031 Exchange acquiring replacement property before selling the relinquished — solves timing but is complex.",
+    "detail": "Reverse 1031 lets an investor lock in a replacement property without losing it to another buyer while waiting to sell the relinquished. Mechanics: a Qualified Intermediary parks (holds title to) either the replacement or relinquished property in an Exchange Accommodation Titleholder (EAT) for up to 180 days while the other side of the trade completes. Cost: $5,000-$15,000 in EAT fees and structuring beyond standard 1031 cost. Strict IRS safe-harbour rules (Rev. Proc. 2000-37) must be followed. Used most often in commercial deals where unique replacement properties demand immediate action and Sales timelines are uncertain.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
     ]
   },
   {
@@ -5128,6 +5847,22 @@
   },
   {
     "letter": "S",
+    "term": "Servicing Rights",
+    "full": "Mortgage Servicing Rights, MSR",
+    "plain": "The contractual right to collect Mortgage payments — a tradable asset valued at a percentage of the loan balance.",
+    "snappy": "Contractual right to collect Mortgage payments — bought and sold as a tradable financial asset.",
+    "detail": "MSR is a major asset class for specialty firms. The servicing fee runs roughly 25 basis points of the outstanding Mortgage balance — split between the servicer's costs and profit. The value of an MSR portfolio fluctuates with Interest rates: when rates rise, fewer Mortgages prepay, so MSR portfolios become more valuable; when rates fall, prepay risk spikes and MSRs lose value. Listed MSR holders: Mr. Cooper, PHH Mortgage, Mid-America Mortgage. Bank holding-company MSR portfolios are subject to Basel III capital rules — a constraint pushing more MSR to non-banks since 2014.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "MBA"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Setback",
     "full": "",
     "plain": "The minimum required distance between a building and the property line — front, side, and rear — set by local Zoning.",
@@ -5208,6 +5943,24 @@
     "sources": [
       "NCREIF",
       "ULI"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Site Plan",
+    "full": "",
+    "plain": "An architect-drawn map showing how a proposed building sits on its Lot — Setbacks, parking, landscape, drainage, utilities — submitted for municipal approval.",
+    "snappy": "Map showing how a proposed building sits on its Lot — submitted for approval.",
+    "detail": "Site plans are the primary document in any Development approval. They show: building footprint and Setbacks, parking layout and counts, vehicular and pedestrian circulation, landscape and tree protection, drainage and stormwater management, utility connections, signage. Municipalities review for code compliance and design-review-board criteria. Major projects undergo 6-18 months of site-plan review; minor amendments take weeks. Variance applications and Conditional Use Permits often accompany site-plan submission when the proposal deviates from Zoning baseline.",
+    "indications": [
+      "Development",
+      "Commercial",
+      "Residential"
+    ],
+    "category": "Development",
+    "sources": [
+      "ULI",
+      "NAHB"
     ]
   },
   {
@@ -5518,6 +6271,22 @@
   },
   {
     "letter": "T",
+    "term": "Tenancy in Severalty",
+    "full": "Sole Ownership",
+    "plain": "Ownership of property by a single individual or entity — the simplest form of Title, distinct from any co-ownership.",
+    "snappy": "Sole ownership by a single individual or entity — the simplest Title form.",
+    "detail": "Tenancy in Severalty (sometimes 'sole ownership' or 'individual ownership') is the default when a Deed names only one grantee. Single individuals, single corporations, single LLCs all hold Title in severalty. The single owner makes all decisions, faces all liability, and inherits/wills the property without co-ownership complications. Sole ownership simplifies estate planning (only one estate to probate) but lacks the survivorship benefits of Joint Tenancy and Tenancy by the Entirety. Spouses sometimes hold in severalty to preserve separate-property classification in community-property states.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "T",
     "term": "Tenant",
     "full": "Lessee",
     "plain": "The person or business renting a property under a Lease — pays Rent, follows the rules, has the right to possess the space.",
@@ -5665,6 +6434,22 @@
   },
   {
     "letter": "T",
+    "term": "Title Endorsement",
+    "full": "Endorsement, Affirmative Coverage",
+    "plain": "An addendum to a Title Insurance policy expanding coverage to specific risks — extended coverage for surveys, Encroachments, or specific Title defects the insurer agrees to cover.",
+    "snappy": "Addendum to a Title Insurance policy expanding coverage to specific risks.",
+    "detail": "Endorsements expand standard Title Insurance to address specific concerns surfaced in the Title Commitment or Due Diligence. Common examples. ALTA 9 endorsement: comprehensive restrictions, encroachment, mineral, and similar protections. ALTA 4 / 4.1: Condo endorsement covering specific Condo-related risks. ALTA 8.1: environmental protection (commercial). ALTA 17: access endorsement. ALTA 22: Location endorsement. Each endorsement adds modest cost (typically $50-$300) and specific coverage. Buyers, sellers, and Lenders all request endorsements depending on transaction risk profile. Some endorsements require additional Due Diligence (current Survey, environmental report) before the insurer will issue.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "ALTA"
+    ]
+  },
+  {
+    "letter": "T",
     "term": "Title Insurance",
     "full": "",
     "plain": "Insurance protecting the buyer (and Lender) against undiscovered defects in the property's Title.",
@@ -5693,6 +6478,24 @@
     "category": "Title & Ownership",
     "sources": [
       "ALTA"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "TOD",
+    "full": "Transit-Oriented Development",
+    "plain": "Higher-density, mixed-use Development concentrated around transit stations — light rail, subway, bus rapid transit — to maximise transit ridership and reduce car dependency.",
+    "snappy": "Higher-density mixed-use Development concentrated around transit stations.",
+    "detail": "TOD principles: walkability within a quarter-mile of the station, Mixed-Use ground floors, residential above, reduced parking minimums (or none), public-realm investment around station entrances. Successful US TOD: Arlington VA Rosslyn-Ballston corridor (1980s+), Portland OR streetcar lines, Denver light rail stations, San Diego trolley corridors. Failed TOD typically lacks the density (suburban stations with surface parking lots), the mix (apartments only), or the connectivity (highway and big-box retail still dominant). State TOD legislation (California's Density Bonus for TOD, New Jersey's Transit Village) gives Development incentives near transit.",
+    "indications": [
+      "Development",
+      "Commercial",
+      "Multifamily"
+    ],
+    "category": "Development",
+    "sources": [
+      "ULI",
+      "HUD"
     ]
   },
   {
@@ -5911,6 +6714,24 @@
   },
   {
     "letter": "V",
+    "term": "Vacancy Loss",
+    "full": "Vacancy and Collection Loss",
+    "plain": "The Rent revenue a property loses to empty units and uncollected Rent — modeled as a percentage deduction from Gross Rental Income to reach Effective Gross Income.",
+    "snappy": "Income lost to empty units and uncollected Rent — deducted from GRI to compute EGI.",
+    "detail": "Vacancy Loss combines physical vacancy (empty units) with economic vacancy (concessions, bad debt, below-market Leases). Underwriting models 5-8% vacancy loss for stabilised Multifamily, 8-15% for Office, 5-10% for Retail. Volume-sensitive markets (post-pandemic Office, distressed sub-markets) book higher loss factors. Distinguishing physical from economic vacancy matters: a property at 96% physical with 15% Rent concessions may book the same effective income as 85% physical at full Rent. Sponsor pro formas that show declining vacancy through the Hold Period assume Rent growth — both assumptions warrant scrutiny.",
+    "indications": [
+      "Commercial",
+      "Multifamily",
+      "Investment"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "NCREIF",
+      "IREM"
+    ]
+  },
+  {
+    "letter": "V",
     "term": "Vacancy Rate",
     "full": "",
     "plain": "The percentage of rentable units or square footage sitting empty — a key indicator of property and market health.",
@@ -5961,6 +6782,38 @@
     "sources": [
       "Cornell LII",
       "HUD"
+    ]
+  },
+  {
+    "letter": "W",
+    "term": "Walk-Through",
+    "full": "Final Walk-Through",
+    "plain": "The buyer's final inspection of the property — usually a day or hours before Closing — to confirm the seller has left it in agreed condition.",
+    "snappy": "Final pre-Closing inspection by buyer to verify property condition.",
+    "detail": "Walk-throughs are the buyer's last opportunity to catch problems before Closing. Standard issues: agreed-upon repairs completed, all included Fixtures in place, no new damage, utilities still on, premises clean. Problems found at Walk-Through typically resolve through: hold-back of funds at Closing (a portion of seller proceeds withheld pending fix), Closing delay (rare in tight residential markets), or post-Closing escrow with monetary remedy. Walk-Through is distinct from Inspection — Inspection happens early in Due Diligence; Walk-Through is verification at the end. Buyers should request a walk-through within 5 days of Closing.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "W",
+    "term": "Warehouse Line",
+    "full": "Warehouse Lending Facility",
+    "plain": "A short-term credit line that lets a Mortgage Banker fund Mortgages at Closing — repaid when the loan sells to a permanent investor weeks later.",
+    "snappy": "Short-term Lender credit funding Mortgages at Closing until sold to investors.",
+    "detail": "Warehouse lines are the lifeblood of independent Mortgage Bankers. The Mortgage Banker draws against the warehouse line to fund Mortgages at Closing, then immediately sells the closed loan to Fannie Mae, Freddie Mac, Ginnie Mae, or a private investor. Sale proceeds repay the warehouse draw. Typical pricing: SOFR + 175-300 bps, secured by the loans being funded. Major warehouse Lenders: JPMorgan, Wells Fargo, US Bank, Comerica, Texas Capital. Warehouse-line haircuts and aging-based mark-downs accelerated some 2022-2023 IMB failures when loans couldn't sell quickly into a rate-shocked secondary market.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "MBA"
     ]
   },
   {
@@ -6016,6 +6869,24 @@
   },
   {
     "letter": "W",
+    "term": "Workforce Housing",
+    "full": "",
+    "plain": "Multifamily property priced to be affordable to median-income workers — teachers, nurses, police officers, firefighters — without formal Affordable Housing subsidies.",
+    "snappy": "Multifamily priced for median-income workers, without formal Affordable subsidies.",
+    "detail": "Workforce Housing typically targets households earning 80-120% of Area Median Income — well above LIHTC affordability tiers but well below luxury-Class A pricing. The asset class is older Class B and Class C Multifamily in urban and suburban markets, market-priced without deed restrictions. Sponsor business plans: light-touch renovation to maintain affordability while improving NOI, focus on Tenant retention to minimise turnover costs, modest Cap-Ex pacing. The 2020s investor focus on workforce housing reflects both ESG considerations (impact alongside returns) and structural demand (median-income housing supply shortfall in nearly every major market).",
+    "indications": [
+      "Affordable",
+      "Multifamily",
+      "Investment"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "HUD",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "W",
     "term": "Workout",
     "full": "Loan Workout",
     "plain": "The negotiated restructuring of a Mortgage in Default — Lender and borrower agree to modified terms (rate reduction, term extension, Principal forgiveness) rather than Foreclose.",
@@ -6030,6 +6901,39 @@
     "sources": [
       "CFPB",
       "Investopedia"
+    ]
+  },
+  {
+    "letter": "W",
+    "term": "Wraparound Mortgage",
+    "full": "Wrap Mortgage",
+    "plain": "A junior Mortgage from seller to buyer that 'wraps' an existing first Mortgage — buyer pays the seller, seller continues paying the underlying Lender.",
+    "snappy": "Junior Mortgage from seller to buyer that wraps an existing first Mortgage.",
+    "detail": "Wraparound mortgages let buyers acquire property without qualifying for conventional financing and let sellers earn Interest above the underlying rate. Mechanics: existing $200K Mortgage at 4% stays in place. Seller carries a $280K Wraparound at 7%. Buyer pays seller on the $280K; seller continues to pay the underlying Lender on the $200K. Spread (7% on $280K minus 4% on $200K) flows to seller. Risk: most underlying Mortgages have due-on-sale clauses that can trigger acceleration if the Lender discovers the wrap. Wraps thrive in seller-finance markets and structured-deal niches.",
+    "indications": [
+      "Residential",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Cornell LII",
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "Y",
+    "term": "Yield Spread Premium",
+    "full": "YSP",
+    "plain": "A payment the wholesale Lender makes to a Mortgage Broker for delivering a Mortgage above the par rate — historically opaque, now heavily restricted by Dodd-Frank.",
+    "snappy": "Wholesale-Lender payment to Mortgage Broker for delivering a loan above par rate.",
+    "detail": "YSP was a major pre-2010 industry abuse. Lenders paid YSP to brokers who delivered higher-rate loans — incentivising brokers to steer borrowers toward worse pricing. Dodd-Frank's Loan Officer compensation rules now bar paying brokers (or Loan Officers) based on loan terms — only on loan volume. Modern YSP still flows in disguised form (lender credits paid to borrowers, accompanied by higher rates) but disclosure on Loan Estimate forces transparency. The transition gutted broker channel revenue 2011-2014; survivors adapted to fee-based borrower compensation models.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "Cornell LII"
     ]
   },
   {

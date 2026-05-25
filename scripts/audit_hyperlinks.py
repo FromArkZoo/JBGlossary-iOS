@@ -138,7 +138,16 @@ DANGLING_DENYLIST = {
     "Equinix", "Simon", "Prologis", "AvalonBay", "FedEx",
     "Walmart", "Amazon", "Citizens", "Rocket", "UWM",
     "Blackstone", "Tricon", "Welltower", "Ventas",
-    "Marriott", "Hilton", "Hyatt",
+    "Marriott", "Hilton", "Hyatt", "Wells Fargo", "US Bank",
+    "JPMorgan", "Chase", "Texas Capital", "Comerica",
+    "Mr. Cooper", "PennyMac", "Newrez", "Lakeview", "Stockbridge",
+    "EQT Exeter", "American Homes", "Invitation Homes", "Pretium",
+    "Spirit Realty Capital", "Realty Income",
+    "Public Storage", "Extra Space", "CubeSmart", "Life Storage",
+    "American Campus", "Sun Communities", "Equity LifeStyle",
+    "Lennar", "Pulte", "KB Home", "Toll Brothers",
+    # Specific named neighbourhoods / master-planned communities cited in examples.
+    "The Villages", "Summerlin", "Mountain House", "Florida",
     # PSF (per square foot) is industry-wide unit notation, not a glossary
     # entry candidate. CPI is cross-industry context surfaced in examples.
     # FEMA is an authoring agency rather than a glossary term.
@@ -273,23 +282,35 @@ def _is_sentence_start(body, pos):
 
 
 def _phrase_is_word_of_entry(phrase, name_lookup):
-    """True if `phrase` appears as a contiguous word-sequence inside any
-    existing entry name. Catches PHRASE_RE tail fragments where the linker
-    still resolves the full multi-word entry — "Common" inside "Tenancy in
-    Common", "Exit Cap" inside "Exit Cap Rate", "Value" inside "Loan-to-Value".
-    The Swift linker handles the full entry name in prose; the audit's
-    PHRASE_RE just can't follow lowercase connectors or single-letter words.
+    """True if `phrase` shares a contiguous word-slice with any existing
+    entry name — either the phrase is a sub-slice OF an entry name
+    ("Common" inside "Tenancy in Common", "Exit Cap" inside "Exit Cap Rate")
+    OR an entry name is a sub-slice of the phrase ("Servicing Rights" entry
+    inside "Mortgage Servicing Rights" phrase). In both cases the Swift
+    linker resolves the entry name where it appears in prose, even if the
+    audit's PHRASE_RE captured a longer or shorter span.
     """
     phrase_lower = phrase.lower()
     phrase_words = re.split(r"[ \-&]+", phrase_lower)
     for name in name_lookup:
-        if name.lower() == phrase_lower:
+        name_lower = name.lower()
+        if name_lower == phrase_lower:
             return False  # exact match — not a sub-word case
-        name_words = re.split(r"[ \-&]+", name.lower())
-        # Check if phrase_words appear as a contiguous slice of name_words
-        for i in range(len(name_words) - len(phrase_words) + 1):
-            if name_words[i:i + len(phrase_words)] == phrase_words:
-                return True
+        name_words = re.split(r"[ \-&]+", name_lower)
+        # Direction 1: phrase is a slice of entry name
+        if len(phrase_words) <= len(name_words):
+            for i in range(len(name_words) - len(phrase_words) + 1):
+                if name_words[i:i + len(phrase_words)] == phrase_words:
+                    return True
+        # Direction 2: entry name is a slice of the phrase, but only when
+        # the entry is multi-word (single-word entries already match via
+        # the +s/+es stem check, and skipping them here keeps the heuristic
+        # tight — we don't want "Mortgage" entry to swallow every phrase
+        # that contains the word "mortgage").
+        if len(name_words) >= 2 and len(name_words) <= len(phrase_words):
+            for i in range(len(phrase_words) - len(name_words) + 1):
+                if phrase_words[i:i + len(name_words)] == name_words:
+                    return True
     return False
 
 
