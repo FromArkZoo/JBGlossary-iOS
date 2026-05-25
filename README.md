@@ -4,7 +4,7 @@ Five native SwiftUI reference apps that turn dense professional jargon into clea
 
 | Pharma | AI | Finance | Law | Real Estate |
 |:---:|:---:|:---:|:---:|:---:|
-| <img src="Targets/Pharma/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/AI/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/Finance/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/Law/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | — |
+| <img src="Targets/Pharma/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/AI/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/Finance/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/Law/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/RealEstate/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> |
 | 499 terms | 785 terms | 722 terms | 836 terms | 803 terms |
 | Oncology + drug mechanisms | AI / ML concepts | Markets + instruments | US law (14 categories, 4 lenses) | Property, finance, leasing |
 
