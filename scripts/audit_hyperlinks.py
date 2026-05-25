@@ -146,6 +146,19 @@ DANGLING_DENYLIST = {
     "Public Storage", "Extra Space", "CubeSmart", "Life Storage",
     "American Campus", "Sun Communities", "Equity LifeStyle",
     "Lennar", "Pulte", "KB Home", "Toll Brothers",
+    "Best Buy", "Costco", "Target", "Home Depot", "Lowe",
+    "Whole Foods", "Kroger", "Publix", "Trader Joe",
+    "TJX", "Marshalls", "HomeGoods", "Ross", "Burlington",
+    "Five Below", "Dollar Tree", "PetSmart", "Ulta", "ALDI",
+    "Apple", "Sephora", "Anthropologie",
+    "STR", "CoStar Group", "STR", "NAIOP",
+    "Easton Town Center", "Domain", "Grove",
+    "Goldman Sachs", "KKR", "Brookfield", "Starwood",
+    "Cousins", "Equinix Asia",
+    "Mesa West", "MetLife", "Greystone", "Rialto Capital", "LNR Partners",
+    "Boston", "Dallas",
+    "Penn National", "GLPI", "Darden", "Olive Garden", "Four Corners",
+    "Ryman Hospitality",
     # Specific named neighbourhoods / master-planned communities cited in examples.
     "The Villages", "Summerlin", "Mountain House", "Florida",
     # PSF (per square foot) is industry-wide unit notation, not a glossary
@@ -161,6 +174,15 @@ DANGLING_DENYLIST = {
     "Eviction", "Convey",
     # Codified statute references that aren't standalone entries.
     "United States Code", "US Code", "United States",
+    # English conjunctions / words that PHRASE_RE picks up as acronyms.
+    "OR", "AND", "OF", "BY",
+    # Common compound plurals that are artifacts of bare-singular entries.
+    "Commercial Mortgages", "US Treasuries", "Retail Tenants",
+    "Retail Tenant",
+    # Specific Lease-form shorthand that's already covered by an entry.
+    "NNN Lease",  # Triple Net Lease + NNN both exist; NNN Lease combines them
+    # Inflected variants of existing entries
+    "Escalations",  # Escalation Clause exists
     # Federal agencies / acronyms used in passing.
     "DOJ", "DHS", "USCIS", "DOL", "DOI", "IRS",
     # Big-city shorthand used in concrete examples.

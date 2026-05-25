@@ -138,6 +138,24 @@
   },
   {
     "letter": "A",
+    "term": "ADR",
+    "full": "Average Daily Rate",
+    "plain": "The average revenue per occupied Hotel room — total room revenue divided by total rooms sold over a period.",
+    "snappy": "Average revenue per occupied Hotel room — room revenue divided by rooms sold.",
+    "detail": "ADR is one of three Hotel performance pillars (with Occupancy Rate and RevPAR). Calculation: total room revenue ÷ rooms sold. Excludes complimentary or no-show rooms. ADR sensitivity to demand: rises with strong booking pace, falls with promotional discounting. Brand chains report ADR by property class — luxury, upper upscale, upscale, upper midscale, midscale, economy. STR (now CoStar Group) publishes the industry-standard benchmark data. Hotel Underwriting models ADR growth assumptions carefully; aggressive ADR growth in pro formas is a flag for sophisticated investors.",
+    "indications": [
+      "Hospitality",
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "NCREIF",
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "ADU",
     "full": "Accessory Dwelling Unit",
     "plain": "A small secondary home on the same Lot as a main house — a granny flat, garage conversion, or backyard cottage.",
@@ -275,6 +293,22 @@
   },
   {
     "letter": "A",
+    "term": "ALTA Policy",
+    "full": "ALTA Form Policy",
+    "plain": "A standardised Title Insurance policy form developed by the American Land Title Association — the industry-default form used in most US transactions.",
+    "snappy": "Standardised Title Insurance form developed by ALTA — industry-default in most states.",
+    "detail": "ALTA Forms standardise Title Insurance contract language across most US jurisdictions. Owner's policies: ALTA Owner's Policy (covers fee-simple ownership), ALTA Homeowner's Policy (broader coverage for residential, including post-closing risks). Lender's policies: ALTA Loan Policy. Endorsement library: hundreds of ALTA-approved endorsements addressing specific risks. Each state may modify ALTA forms slightly via state-specific Land Title Association approvals (California Land Title Association, Texas Department of Insurance). ALTA's 2006 forms remain the working basis with periodic updates. Title insurance regulators (state insurance commissioners) approve form modifications.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "ALTA"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Amortization",
     "full": "",
     "plain": "The way each Mortgage payment chips away at what you owe — early payments mostly cover Interest, later ones mostly cover Principal.",
@@ -288,6 +322,22 @@
     "sources": [
       "CFPB",
       "Investopedia"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Anchor Tenant",
+    "full": "Anchor",
+    "plain": "The largest, most-trafficked Tenant in a Retail centre — typically a grocery store, department store, or major chain — draws shoppers who patronise smaller co-tenants.",
+    "snappy": "Largest Retail Tenant — draws shoppers who patronise smaller co-Tenants.",
+    "detail": "Anchor Tenants are the foot-traffic engines of Retail centres. Grocery anchors (Kroger, Whole Foods, Publix) drive frequent visits. Big-box anchors (Walmart, Target, Costco) drive destination trips. Department-store anchors (Macy's, Nordstrom, JCPenney) drove mall traffic but have decayed since 2000. Anchor Leases run long (15-25 years), at deeply discounted Rent (sometimes $5-$15 PSF when inline Tenants pay $30-$50), often with control over centre development. Loss of an anchor triggers Co-Tenancy Clause rights for surrounding Tenants — Rent reductions, termination rights, lease-extension blocks.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "NCREIF",
+      "ULI"
     ]
   },
   {
@@ -501,6 +551,23 @@
     "category": "Transactions",
     "sources": [
       "NAR"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Bad Boy",
+    "full": "Bad-Boy Carve-Out, Springing Recourse",
+    "plain": "Specific actions by a non-recourse loan borrower — fraud, bankruptcy, environmental contamination — that trigger personal recourse against the Sponsor despite the loan's non-recourse status.",
+    "snappy": "Borrower actions that trigger personal recourse on otherwise non-recourse Commercial loans.",
+    "detail": "Bad-Boy Carve-Outs preserve a non-recourse Commercial loan's structure while protecting the Lender against egregious borrower misconduct. Standard triggers (full recourse for the entire loan): fraud, intentional misrepresentation, criminal acts, voluntary bankruptcy filing by the borrower. Standard triggers (partial recourse for resulting losses only): waste, misappropriation of insurance or condemnation proceeds, environmental contamination, failure to pay Property Tax. Negotiated middle ground: Mezzanine-debt installation, transfers without consent. Bad-Boy enforcement during distress reshapes Sponsor calculus — Sponsors with cash will fight harder when bad-boy triggers personal liability.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Cornell LII",
+      "Investopedia"
     ]
   },
   {
@@ -919,6 +986,22 @@
   },
   {
     "letter": "C",
+    "term": "Cap Class",
+    "full": "Property Class",
+    "plain": "The grade of a commercial property (Class A / B / C) — defined relative to its market by age, location, finish quality, Tenant roster, and Rent positioning.",
+    "snappy": "Grade of a Commercial property (Class A / B / C) defined relative to its market.",
+    "detail": "Property Class is a market-relative judgment, not an absolute standard. A Class A suburban Phoenix office building is qualitatively different from a Class A midtown Manhattan office building — but each is at the top of its own market. NAIOP, BOMA, NCREIF, and individual brokerages publish market-specific Class definitions. Cap Class shapes Cap Rates (Class A trades tightest, Class C widest), debt availability (more Lenders chase Class A; specialty Lenders fill the Class C space), institutional investor appetite (pension funds concentrate in Class A; value-add capital targets Class B-C upgrades).",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "BOMA"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Cap Rate",
     "full": "Capitalization Rate",
     "plain": "A quick yardstick for what an investment property earns each year, expressed as a percentage of what it costs.",
@@ -942,6 +1025,23 @@
     "plain": "When investor capital flooding into Real Estate pushes purchase prices up faster than NOI grows — Cap Rates fall, meaning lower yield per dollar invested.",
     "snappy": "Falling Cap Rates driven by investor demand outpacing NOI growth — yields compress.",
     "detail": "Cap Rate compression dominated 2015-2022 Commercial Real Estate. Institutional capital chasing yield in a low-interest-rate environment pushed Multifamily Going-In Cap Rates from 6% to 4% in many markets — meaning a property generating $1M of NOI sold for $25M instead of $16.7M. Aggressive Sponsor pro formas extrapolated continued compression into Exit Cap Rate assumptions; when rates spiked in 2022, compression reversed and Exit Caps widened by 100-200 basis points, gutting projected IRR on deals underwritten at peak.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Cap Stack Modeling",
+    "full": "Capital Stack Modeling",
+    "plain": "Spreadsheet-based analysis of how senior debt, mezzanine, preferred equity, and common equity stack up in a deal — tests sensitivity to leverage, rates, and Sponsor returns.",
+    "snappy": "Spreadsheet analysis of senior debt, mezzanine, preferred equity, and common equity stacking.",
+    "detail": "Cap Stack Modeling is core institutional Real Estate analysis. The model layers each financing tier: senior debt at 60% LTV with X% rate, Mezzanine at +10% LTV with Y% rate, Preferred Equity at +10% LTV with Z% required return, Common Equity for the rest. Sensitivity tests: Sponsor IRR under varying senior rates, debt-coverage minimums for refinance, breakage costs from prepayment, recourse triggers. The model surfaces Capital Stack optimisation: replace senior with cheaper insurance-company debt, add Mezzanine to reduce equity, swap preferred for common to capture more upside. Required output for every institutional deal memo.",
     "indications": [
       "Commercial",
       "Investment"
@@ -1322,6 +1422,22 @@
   },
   {
     "letter": "C",
+    "term": "Co-GP",
+    "full": "Co-General Partner",
+    "plain": "A capital partner taking a GP economic stake alongside the primary Sponsor — typically larger LP commitments earn co-GP economics including Promote participation.",
+    "snappy": "Capital partner taking GP economics alongside the primary Sponsor.",
+    "detail": "Co-GP structures emerged in the 2010s as institutional LPs sought alignment beyond pure-LP economics. The capital partner commits LP capital plus an additional smaller commitment to the GP entity — gaining a share of the Sponsor's Promote and asset-management fees. Co-GP economics: typically 25-50% of Sponsor Promote in exchange for 10-25% of GP-level capital. Major institutional players in co-GP: Goldman Sachs's Real Estate Principal Investment Area, KKR, Brookfield, Blackstone. Pros for Sponsor: lower capital requirement, deeper relationship. Cons: dilution of Promote, additional governance to manage.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "ULI"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Co-op",
     "full": "Cooperative",
     "plain": "A building where owners hold shares in a corporation that owns the whole building, rather than owning their unit individually.",
@@ -1349,6 +1465,37 @@
     "category": "Transactions",
     "sources": [
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Co-Tenancy Clause",
+    "full": "Co-Tenancy Provision",
+    "plain": "A Lease provision letting Tenants reduce Rent or break their Lease if a key Anchor or specified Co-Tenant leaves the Retail centre — protects inline Tenants from traffic collapse.",
+    "snappy": "Lease provision letting Tenants cut Rent or exit if a key Co-Tenant leaves.",
+    "detail": "Co-Tenancy Clauses are the inline Tenant's protection against centre decline. Opening co-tenancy: Tenant doesn't have to open if specified anchors aren't operating at centre opening. Operating co-tenancy: Tenant can pay reduced Rent (often 50%) or terminate if Anchor occupancy drops below a threshold (typically 70% or specific anchors closing). Triggered: department-store bankruptcy waves (Macy's, JCPenney closures), grocery-store exits, big-box failures. Landlords push back with replacement-Anchor windows and substitution rights. Co-Tenancy litigation is common — what counts as 'open and operating' surfaces interpretive disputes.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "IREM",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Co-Tenant",
+    "full": "",
+    "plain": "Another Tenant in the same Retail centre or Multifamily property — Co-Tenants share Common Areas and may have rights tied to each other under Co-Tenancy Clauses.",
+    "snappy": "Other Tenants in the same centre — Co-Tenant rights flow from Co-Tenancy Clauses.",
+    "detail": "Co-Tenant is the umbrella term for any other Tenant in the same property — Retail centre, Office building, Multifamily, mixed-use. Each Tenant's Lease may reference Co-Tenants directly via Co-Tenancy Clauses (linking Rent reductions or termination rights to specific Co-Tenant occupancy). Co-Tenants share Common Area Maintenance pro-rata, Common Areas, and exposure to building-wide issues (parking, security, signage). Disputes between Co-Tenants over noise, smells, and Common Area use surface in commercial Property Management routinely.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "IREM"
     ]
   },
   {
@@ -1815,6 +1962,23 @@
   },
   {
     "letter": "D",
+    "term": "Debt Yield",
+    "full": "",
+    "plain": "A Lender's stress metric — NOI divided by loan amount — gauging the property's ability to service debt even under pessimistic Cap Rate scenarios.",
+    "snappy": "NOI divided by loan amount — Lender's stress metric for debt-coverage at varying Cap Rates.",
+    "detail": "Debt Yield is the Lender-side alternative to LTV. Calculation: NOI ÷ loan amount. A property with $1M NOI and an $8M loan has 12.5% debt yield. Debt Yield is insensitive to Cap Rate movements — unlike LTV which depends on Sale Price. Conservative Commercial Lenders require minimum debt yields: 8-9% Multifamily, 9-10% Office, 10-11% Retail, 11-12% Hotel. The metric drove post-2008 CMBS Underwriting reform — pre-crisis Lenders priced almost entirely on LTV and DSCR, missing that Cap Rate Compression had pushed property values artificially high. Debt Yield rose to prominence as the structural-floor metric in commercial mortgage analysis.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF",
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "Debt-to-Income Ratio",
     "full": "DTI",
     "plain": "The full spelling of DTI — the monthly-debt-to-monthly-income ratio Lenders use to size a Mortgage.",
@@ -1893,6 +2057,23 @@
     "category": "Financing & Lending",
     "sources": [
       "CFPB"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "Defeasance",
+    "full": "",
+    "plain": "The process of pre-paying a CMBS or other locked Commercial loan by substituting US Treasuries for the property as collateral — expensive, formulaic, the dominant exit when Sale or refinance is needed mid-Lease.",
+    "snappy": "Pre-paying a CMBS loan by substituting Treasuries for the property as collateral.",
+    "detail": "Defeasance was invented for CMBS to allow pre-payment without disturbing bond cash flows. Mechanics: the borrower purchases a portfolio of US Treasuries that generates exactly the Mortgage's remaining payment schedule. The Treasuries get substituted into the Mortgage's collateral; the borrower's property is released. Cost depends on rate environment: lower rates today than at origination push defeasance cost up (Treasuries cost more to generate the same cash flow); higher rates push cost down. Defeasance professionals (Chatham Financial, Commercial Defeasance LLC) shop the Treasury market and structure the transaction. Costs: $200,000-$500,000+ in fees and rate differential.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF",
+      "Investopedia"
     ]
   },
   {
@@ -2061,6 +2242,23 @@
     "sources": [
       "NCREIF",
       "ULI"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "Distressed Debt",
+    "full": "Distressed Mortgage",
+    "plain": "A Mortgage trading below face value — the borrower's distress or the property's value collapse pushes the loan's market price down, attracting opportunistic buyers.",
+    "snappy": "Mortgage trading below face value due to borrower distress or property collapse.",
+    "detail": "Distressed Debt investing in Real Estate revives in cycles: 1990 RTC, 2008-2012, 2023-2024 office. Investors buy the loan from the Lender (or Special Servicer in CMBS) at 40-70 cents on the dollar of face value, then pursue one of several exit paths: (1) Workout — renegotiate terms with the borrower, expecting partial loss but retention of cash-flowing asset. (2) Loan-to-Own — drive the borrower into Default and Foreclosure, taking the property at the loan's discounted basis. (3) Discounted payoff — borrower pays less than face but more than the investor's purchase price. Outcomes hinge on property quality, Sponsor cooperation, and special-servicer behaviour.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF",
+      "Investopedia"
     ]
   },
   {
@@ -2418,6 +2616,24 @@
   },
   {
     "letter": "E",
+    "term": "Estate Tax",
+    "full": "Federal Estate Tax",
+    "plain": "The federal tax on assets transferred at death — Real Estate held in the estate is included at fair-market value, with a high lifetime exemption sheltering most estates.",
+    "snappy": "Federal tax on assets transferred at death, including Real Estate at fair-market value.",
+    "detail": "Estate Tax applies to combined gross-estate value above the lifetime exemption ($13.61M per person in 2024, scheduled to drop to ~$7M in 2026 absent legislation). Rate: 18-40% graduated on amounts above the exemption. Marital deduction defers tax on assets transferred to a surviving spouse. Step-up in Basis at death eliminates Capital Gain on appreciated assets. Real Estate planning strategies: family limited partnerships, qualified personal residence trusts (QPRTs), grantor retained annuity trusts (GRATs), valuation discounts on illiquid Real Estate interests. State-level estate taxes apply in Connecticut, Hawaii, Illinois, Maine, Maryland, Massachusetts, Minnesota, New York, Oregon, Rhode Island, Vermont, Washington, and DC — with much lower exemption thresholds than federal.",
+    "indications": [
+      "Investment",
+      "Residential",
+      "Cross-sector"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Estoppel Certificate",
     "full": "Estoppel",
     "plain": "A signed Tenant document confirming key Lease terms — Rent paid, no defaults, no special claims against the Landlord — required at building sale or refinance.",
@@ -2447,6 +2663,22 @@
     "sources": [
       "Cornell LII",
       "HUD"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Exclusive Use Clause",
+    "full": "Exclusive",
+    "plain": "A Lease provision barring the Landlord from leasing space in the centre to a competing business — protects the Tenant from direct competition next door.",
+    "snappy": "Lease provision blocking the Landlord from leasing to direct competitors.",
+    "detail": "Exclusive Use Clauses are the Tenant's defence against in-centre competition. Common in Retail: a grocery store with exclusive against other supermarkets; a dental practice with exclusive against other dentists; a coffee shop with exclusive against competing chains. Landlord scope of restriction depends on Tenant leverage — Anchors get broad exclusives; smaller inline Tenants get narrow ones. Disputes arise: does a CVS prescription counter violate a Walgreen's pharmacy exclusive? Does a Starbucks at an outparcel violate a Dunkin' inline exclusive? Courts interpret narrowly in favour of Landlord flexibility. Modern Retail landlords push for narrower exclusives.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "IREM",
+      "Cornell LII"
     ]
   },
   {
@@ -2551,6 +2783,23 @@
     "sources": [
       "Cornell LII",
       "Investopedia"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "FF&E",
+    "full": "Furniture, Fixtures, and Equipment",
+    "plain": "The movable items inside a building — chairs, desks, beds, appliances, equipment — that aren't part of the Real Property but get included in Sales of Hotels, restaurants, and operating businesses.",
+    "snappy": "Movable contents of a building — furniture, fixtures, equipment — typically not Real Property.",
+    "detail": "FF&E sits between Real Property and Personal Property in operating-business Sales. Hotel transactions allocate Purchase Price between FF&E (furniture, beds, soft goods, kitchen equipment, IT gear), Real Property (building, Land), and intangibles (brand, going-concern value). Tax basis allocation matters — FF&E depreciates over 5-7 years (versus 39 years for commercial Real Property), generating front-loaded Depreciation deductions. Hotel and restaurant operators carry FF&E reserves — typically 3-5% of revenue — for periodic replacement of soft goods (every 5-7 years) and hard goods (10-15 years).",
+    "indications": [
+      "Hospitality",
+      "Commercial"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "IRS"
     ]
   },
   {
@@ -2823,6 +3072,23 @@
   },
   {
     "letter": "G",
+    "term": "Gift Tax",
+    "full": "Federal Gift Tax",
+    "plain": "The federal tax on lifetime transfers of property — including Real Estate gifted to family or others — with annual exclusions plus the lifetime estate-tax exemption.",
+    "snappy": "Federal tax on lifetime property transfers, with annual exclusion and lifetime exemption.",
+    "detail": "Annual Gift Tax exclusion: $18,000 per recipient (2024) — unlimited recipients, doubled for married couples ($36,000 per recipient). Gifts above the annual exclusion erode the unified lifetime exemption ($13.61M in 2024). No tax due until lifetime exemption is fully consumed; then gift-tax rates of 18-40% kick in. Common Real Estate gift strategies: gradual transfer of fractional interests in property to children, qualified personal residence trusts, family limited partnerships with discount-eligible interests. Gift Tax recipients take the donor's Cost Basis — distinct from inheritance (Step-up in Basis at death) — making gifts of highly appreciated Real Estate tax-inefficient compared to estate transfer.",
+    "indications": [
+      "Investment",
+      "Residential"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "G",
     "term": "Ginnie Mae",
     "full": "Government National Mortgage Association",
     "plain": "A federal agency that guarantees mortgage-backed securities made of FHA, VA, and USDA loans — full faith and credit of the US government.",
@@ -2852,6 +3118,22 @@
     "sources": [
       "NAHB",
       "Investopedia"
+    ]
+  },
+  {
+    "letter": "G",
+    "term": "Go-Dark Clause",
+    "full": "Continuous Operation Clause",
+    "plain": "A Retail Lease provision requiring the Tenant to actually operate the store — not just pay Rent — protecting Co-Tenants from a Tenant who pays but doesn't draw traffic.",
+    "snappy": "Lease provision requiring the Tenant to actually operate, not just pay Rent.",
+    "detail": "Go-Dark Clauses tackle the 'pay-and-go-dark' problem: a struggling chain might continue Rent but close the store to save operating costs, gutting Co-Tenant traffic. Landlord remedies: recapture rights (terminate the Lease and re-lease), Rent acceleration penalties, exclusive-clause cancellation. Tenant pushback: temporary closures should be permitted (renovation, force majeure, transitions). Standard formulations require continuous operation 'in accordance with usual business practices' or 'as a first-class Retail establishment'. Courts read remedy clauses strictly — Landlords with sloppy drafting lose enforceability.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "IREM",
+      "Cornell LII"
     ]
   },
   {
@@ -2886,6 +3168,38 @@
     "sources": [
       "CFPB",
       "HUD"
+    ]
+  },
+  {
+    "letter": "G",
+    "term": "GOP",
+    "full": "Gross Operating Profit",
+    "plain": "A Hotel's revenue minus departmental and undistributed operating expenses — sits before fixed charges (Property Tax, insurance) and management fees.",
+    "snappy": "Hotel revenue net of departmental and undistributed operating expenses, before fixed charges.",
+    "detail": "GOP is the Hotel-specific cousin of NOI. The Uniform System of Accounts for the Lodging Industry (USALI) standardises Hotel income-statement format. Revenue: rooms, food and beverage, ancillary. Less: departmental costs (rooms division payroll, F&B costs, marketing), undistributed operating expenses (admin, sales, IT, energy, repairs). The remainder is GOP. Below GOP: management fees, base brand fees, Property Tax, insurance — yielding NOI. GOP margin: 30-40% typical for full-service Hotels, 45-60% for limited-service. GOPPAR (GOP per Available Room) is the productivity benchmark.",
+    "indications": [
+      "Hospitality",
+      "Commercial"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "G",
+    "term": "GOPPAR",
+    "full": "Gross Operating Profit per Available Room",
+    "plain": "Gross Operating Profit divided by available room-nights — the Hotel productivity benchmark stripped of size differences.",
+    "snappy": "GOP per available room-night — productivity benchmark across Hotel portfolios.",
+    "detail": "GOPPAR normalises GOP by Hotel size — letting analysts compare a 100-room limited-service Hotel against a 500-room luxury Hotel on the same scale. Calculation: GOP ÷ available room-nights. Hotel REITs and brand managers track GOPPAR alongside RevPAR — RevPAR shows top-line demand, GOPPAR shows operational efficiency. Same-store GOPPAR growth is the headline metric in Hotel investor reporting. GOPPAR sensitivity to labour costs is high — Hotel sector wage inflation 2022-2024 compressed GOPPAR across most chains even as RevPAR recovered to pre-pandemic levels.",
+    "indications": [
+      "Hospitality",
+      "Commercial"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "NCREIF"
     ]
   },
   {
@@ -3207,6 +3521,22 @@
   },
   {
     "letter": "H",
+    "term": "Hotel Management Agreement",
+    "full": "HMA",
+    "plain": "The long-term contract between a Hotel owner and a brand operator (Marriott, Hilton, Hyatt) — the operator runs the property, the owner pays fees and keeps net cash flow.",
+    "snappy": "Long-term contract where a Hotel brand operates the property for the owner under fees.",
+    "detail": "HMAs structure most US Hotel operations. The owner provides Real Estate, FF&E reserves, working capital. The brand operator (Marriott, Hilton, Hyatt, IHG) provides brand standards, distribution channels, reservation systems, loyalty programs, employee training, operating policies. Fees: base fee (2-4% of total revenue), incentive fee (10-20% of GOP above a threshold), centralised services charges (1-3% of revenue). HMAs run 20-40 years with renewal options. Termination is heavily restricted — owners can rarely fire operators except for performance failure. Owners frustrated with operator performance may sue or pursue brand changes at significant cost.",
+    "indications": [
+      "Hospitality",
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "H",
     "term": "HUD",
     "full": "US Department of Housing and Urban Development",
     "plain": "The federal department in charge of US housing policy — runs FHA, Ginnie Mae, public housing, and fair-housing enforcement.",
@@ -3330,6 +3660,22 @@
   },
   {
     "letter": "I",
+    "term": "Inline Tenant",
+    "full": "Inline Shop",
+    "plain": "A small Retail Tenant in a centre's main shopping line — typically 800-3,000 SF — restaurants, services, specialty Retail dependent on Anchor traffic.",
+    "snappy": "Small Retail Tenant 800-3,000 SF in main shopping line — dependent on Anchor traffic.",
+    "detail": "Inline Tenants pay the highest Rents PSF in any Retail centre — typically $30-$80 PSF, sometimes $200+ in luxury locations. The premium reflects the small unit-size and the Anchor-driven traffic. Inline categories: restaurants, hair salons, dry cleaners, mobile-phone stores, jewellery, fast-casual chains, services (UPS, banks, medical). Inline Leases run 5-10 years, with annual Escalations and percentage Rent on Retail Tenants. Inline Tenants have the most leverage during Co-Tenancy Clause failures — anchor losses devastate inline foot traffic. Successful Retail centres carefully curate inline mix to drive cross-shopping.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "IREM",
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "I",
     "term": "Inspection",
     "full": "",
     "plain": "A buyer's visual examination of a property's condition — roof, foundation, plumbing, electrical, HVAC, pests — usually conducted by a licensed Inspector.",
@@ -3358,6 +3704,23 @@
     "category": "Transactions",
     "sources": [
       "NAR"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Intercreditor Agreement",
+    "full": "ICA",
+    "plain": "The contract between senior and Mezzanine (or other junior) Lenders defining their rights vis-à-vis each other in a Default — who can foreclose, when, on what.",
+    "snappy": "Contract between senior and junior Lenders defining their relative rights in Default.",
+    "detail": "Intercreditor Agreements coordinate Capital Stack participants on the same deal. Key provisions: senior Lender priority on cash flow distributions, junior Lender cure rights on senior Default (typically 30-60 days to cure missed payments), junior Lender purchase option on senior debt at par, standstill periods (junior cannot foreclose for X months after senior Default), restriction on junior taking ownership of senior collateral. Standard intercreditor terms exist for CMBS-Mezzanine pairings. Bespoke ICAs are common in private complex Capital Stack deals. Sponsor's ability to refinance under stress depends heavily on ICA terms.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Cornell LII",
+      "NCREIF"
     ]
   },
   {
@@ -3502,6 +3865,23 @@
   },
   {
     "letter": "J",
+    "term": "Joint Venture",
+    "full": "JV",
+    "plain": "A partnership between two or more parties — often a capital partner and a Sponsor — to acquire, develop, or operate Real Estate together.",
+    "snappy": "Partnership between capital partner and Sponsor to develop or operate Real Estate together.",
+    "detail": "Joint Venture structures dominate institutional Real Estate. Typical JV: a Sponsor (Operating Partner) contributes 5-10% of equity, deal-sourcing, and operational expertise. An institutional capital partner (pension fund, sovereign wealth, insurance company) contributes 90-95% of equity. The JV agreement defines: capital contributions, decision-making (some by Sponsor as Operating Partner, major decisions by both), profit waterfall (Preferred Return and Promote), removal rights for non-performance, exit timing. JV agreements are heavily negotiated and run 50-100+ pages. Programmatic JVs commit capital across multiple deals; one-off JVs structure each deal independently.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "J",
     "term": "Jumbo Loan",
     "full": "",
     "plain": "A Mortgage too big to be sold to Fannie Mae or Freddie Mac — used for higher-priced homes above Conforming Loan limits.",
@@ -3514,6 +3894,38 @@
     "sources": [
       "FHFA",
       "MBA"
+    ]
+  },
+  {
+    "letter": "J",
+    "term": "Junior Anchor",
+    "full": "Mid-Box",
+    "plain": "A medium-large Retail Tenant — typically 15,000-40,000 SF — sitting between the major Anchor Tenant and the small inline shops.",
+    "snappy": "Mid-sized Retail Tenant between Anchor and inline shops — 15,000-40,000 SF.",
+    "detail": "Junior Anchors hit the sweet spot for many Retail categories. Typical Junior Anchors: TJX/Marshalls/HomeGoods, Ross, Burlington, Five Below, Dollar Tree, PetSmart, Ulta, ALDI, Trader Joe's. Junior Anchor Rents run $15-$35 PSF — between Anchor and inline economics. Lease terms 10-15 years with multiple options. Junior Anchors are essential to power centres (where the centre's anchor is itself a big-box) and to neighbourhood centres looking to add destination draw beyond the grocery anchor. Junior Anchor categories migrating online (electronics, sporting goods) opened up significant Retail space supply in the 2010s-2020s.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "J",
+    "term": "JV",
+    "full": "Joint Venture",
+    "plain": "Common shorthand for a Joint Venture — a partnership between capital and Sponsor for Real Estate deals.",
+    "snappy": "Standard shorthand for Joint Venture in institutional Real Estate.",
+    "detail": "JV is universal industry shorthand for Joint Venture in institutional Commercial Real Estate. Sponsor-LP partnerships, programmatic JVs, and one-off deal partnerships all get called 'JVs' in daily conversation. See Joint Venture for the substantive structure, Operating Partner roles, governance terms, and Promote economics.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "ULI"
     ]
   },
   {
@@ -3568,6 +3980,23 @@
     "sources": [
       "NCREIF",
       "ULI"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Latent Defect",
+    "full": "Hidden Defect",
+    "plain": "A property defect hidden from view that the buyer could not discover through reasonable Inspection — slab leaks, mould behind drywall, structural problems — triggers stronger buyer remedies than Patent Defects.",
+    "snappy": "Hidden property defect undetectable through reasonable Inspection — stronger buyer remedies.",
+    "detail": "Latent Defects are the buyer's compensation for caveat emptor. The seller's duty to disclose extends to defects they know about and that aren't readily observable to the buyer. Failure to disclose latent defects is actionable: misrepresentation, fraud, breach of disclosure statute, rescission. Many states require seller disclosure statements covering specific risk categories (lead paint, asbestos, radon, known structural issues, prior insurance claims). Title Insurance can cover certain latent Title Defects (forged Deeds, missing heirs, undisclosed Easements) but not physical property latent defects. Home Warranty policies sometimes fill the physical-defect gap.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "Cornell LII",
+      "NAR"
     ]
   },
   {
@@ -3674,6 +4103,21 @@
   },
   {
     "letter": "L",
+    "term": "Letter of Credit",
+    "full": "LOC",
+    "plain": "A bank guarantee that one party will pay another if a specific condition isn't met — used in Commercial Real Estate to secure Tenant performance, Security Deposits, and lender requirements.",
+    "snappy": "Bank guarantee of payment if specific conditions aren't met — secures Tenant performance.",
+    "detail": "Commercial Tenants often post Letters of Credit in lieu of cash Security Deposits — the LOC ties up the Tenant's credit capacity but doesn't drain working capital. Lenders accept LOCs as collateral for environmental indemnification, completion guarantees, and Tenant Improvement reimbursement obligations. Cost to Tenant: 1-2% of face value annually as fees to the issuing bank. Sight LOCs pay on simple demand; standby LOCs require specific documentation. LOCs from investment-grade banks (BBB+ and above) are accepted broadly; LOCs from smaller banks may face additional scrutiny.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Letter of Intent",
     "full": "LOI",
     "plain": "A short, mostly non-binding written summary of the key deal terms — Sale Price, deposit, contingencies, timing — used as the starting point for the formal purchase contract.",
@@ -3723,6 +4167,22 @@
     "sources": [
       "Cornell LII",
       "ALTA"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Lifestyle Center",
+    "full": "Open-Air Lifestyle Center",
+    "plain": "A premium open-air Retail centre with high-end Tenants, walkable layout, restaurants and entertainment — designed to replace traditional enclosed mall with destination ambience.",
+    "snappy": "Premium open-air Retail with high-end Tenants, walkable layout, and entertainment.",
+    "detail": "Lifestyle Centers emerged in the late 1990s as alternatives to enclosed regional Mall. Layout: streets-and-sidewalks configuration with linear shopping rather than enclosed corridors, plaza-style gathering spaces, restaurants and entertainment alongside fashion Retail, generous landscaping, structured parking. Anchor Tenants: cinemas, upscale grocery (Whole Foods), high-end fitness, fast-casual restaurants. Inline Tenants: Apple, lululemon, Sephora, Anthropologie, premium chains. Higher Cap Rates than enclosed Mall as the format matures — though Mall has decayed faster, narrowing the relative gap. Common at suburban affluent locations: Easton Town Center (Columbus), The Domain (Austin), The Grove (LA).",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "ULI"
     ]
   },
   {
@@ -3909,6 +4369,21 @@
       "CFPB",
       "Fannie Mae",
       "Freddie Mac"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "LOC",
+    "full": "Letter of Credit",
+    "plain": "Common shorthand for a Letter of Credit — a bank guarantee letting one party assure another of payment performance.",
+    "snappy": "Standard shorthand for Letter of Credit in commercial transactions.",
+    "detail": "LOC is industry shorthand for Letter of Credit. Commercial Tenants, Lenders, and developers all use 'the LOC' in daily conversation. See Letter of Credit for the substantive mechanics of sight versus standby LOCs, issuance fees, and how LOCs replace cash Security Deposits in larger commercial transactions.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "Cornell LII"
     ]
   },
   {
@@ -4515,6 +4990,23 @@
   },
   {
     "letter": "N",
+    "term": "Net Lease Property",
+    "full": "Net Lease Asset",
+    "plain": "A commercial property leased to a single Tenant on a Triple Net basis — bond-like cash flow, low operating intensity, attractive for income-focused investors.",
+    "snappy": "Single-Tenant property on NNN Lease — bond-like cash flow, low operating intensity.",
+    "detail": "Net Lease Property dominates the smaller-deal Commercial Real Estate institutional market. Typical asset: 5,000-15,000 SF free-standing Retail (Walgreens, McDonald's, Chase Bank, AutoZone) on a 10-25 year NNN Lease with credit-rated Tenant. The Lease shifts virtually all operating risk and expense to the Tenant — the Landlord receives Rent net of nearly everything. NNN REITs (Realty Income, STORE Capital, W.P. Carey, Spirit Realty) built portfolios of thousands of net-lease properties. Cap Rates: 5-7% for investment-grade Tenants on long Leases. Sale-Leaseback transactions feed the supply pipeline.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "Nareit"
+    ]
+  },
+  {
+    "letter": "N",
     "term": "Net Present Value",
     "full": "NPV",
     "plain": "The value today of all future cash flows from an investment, discounted at a target return rate — a positive NPV means the investment beats the target return.",
@@ -4704,6 +5196,24 @@
   },
   {
     "letter": "O",
+    "term": "OpCo",
+    "full": "Operating Company",
+    "plain": "The operating-business entity in an OpCo/PropCo structure — holds operating contracts, employees, FF&E, brand affiliations — distinct from the property-owning PropCo.",
+    "snappy": "Operating-business entity in an OpCo/PropCo split — holds contracts, employees, FF&E.",
+    "detail": "OpCo is the operating-business entity in an OpCo/PropCo split — common in Hotel, healthcare, gaming, and other operating-intensive Real Estate. The OpCo holds employees, brand contracts, FF&E, working capital, operating-level licences. The PropCo holds Real Estate. The split serves bankruptcy-remoteness (OpCo distress doesn't reach PropCo), capital structure (PropCo can be financed at lower cost than mixed entity), and brand requirements (Hotel managers contract with OpCo separately). See Operating Partner for the JV-structure equivalent role.",
+    "indications": [
+      "Commercial",
+      "Hospitality",
+      "Investment"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "O",
     "term": "Operating Expense Ratio",
     "full": "OER",
     "plain": "Operating Expenses divided by Effective Gross Income — the percentage of property revenue consumed by running costs.",
@@ -4736,6 +5246,24 @@
     "sources": [
       "NCREIF",
       "IREM"
+    ]
+  },
+  {
+    "letter": "O",
+    "term": "Operating Partner",
+    "full": "OpCo",
+    "plain": "The party in a JV responsible for day-to-day execution — finding deals, negotiating Leases, managing Property Manager, executing business plans — typically the Sponsor.",
+    "snappy": "JV party handling day-to-day deal execution — typically the Sponsor.",
+    "detail": "Operating Partner is JV terminology for the Sponsor in its operating role. In larger deals the OpCo / PropCo split formalises: OpCo (Operating Company) holds operating contracts, employees, FF&E, brand affiliations. PropCo (Property Company) holds Real Estate. The split lets capital partners take majority economics on the PropCo while the Sponsor's OpCo holds operating fees, key-money payments, and brand contracts. Common in Hotel deals (Marriott-managed OpCo / Hyatt-managed OpCo). Bankruptcy-remoteness considerations favour OpCo/PropCo splits — PropCo Real Estate can survive an OpCo operating failure.",
+    "indications": [
+      "Commercial",
+      "Investment",
+      "Hospitality"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "ULI",
+      "Cornell LII"
     ]
   },
   {
@@ -4773,6 +5301,38 @@
     ]
   },
   {
+    "letter": "O",
+    "term": "Outparcel",
+    "full": "Pad Site",
+    "plain": "A small free-standing building on a Retail centre's parking lot perimeter — typically a fast-food restaurant, bank, gas station, or drive-through.",
+    "snappy": "Small free-standing Retail building on a centre's parking-lot perimeter.",
+    "detail": "Outparcels (also Pad Sites) generate high yield per square foot. Free-standing 2,000-6,000 SF buildings on visible parking-lot frontage, typically NNN Leased to credit Tenants (McDonald's, Starbucks, Chick-fil-A, Bank of America, AutoZone, Jiffy Lube). Outparcel Rents PSF run $40-$100+ — well above inline. Pad-site Tenants pay site-development costs (foundation, mechanical, finishes) and operate independently of the main Retail centre's CAM. Anchor-centre Owners often subdivide and sell pad sites to NNN Lease REIT buyers (Realty Income, STORE Capital) at low Cap Rates while retaining the main shopping centre.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Pari-Passu",
+    "full": "Pari Passu",
+    "plain": "Latin for 'on equal footing' — describing multiple debt or equity claims that rank equally in priority, sharing pro-rata in payments and losses.",
+    "snappy": "Latin for 'equal footing' — multiple claims at equal priority sharing pro-rata.",
+    "detail": "Pari-passu structures appear at multiple Capital Stack tiers. Pari-passu senior debt: two or more Lenders splitting a single first Mortgage, each at the same priority, sharing pro-rata in payments and Default proceedings. Pari-passu Mezzanine: multiple Mezzanine notes at equal junior priority. Pari-passu equity: LPs of the same fund class sharing economics equally per dollar invested. The opposite is 'subordinated' or 'A/B' structures where one tier ranks above another. Pari-passu syndications let large deals access multiple Lenders without restructuring priority — common in Commercial Mortgages above $50M.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Cornell LII",
+      "NCREIF"
+    ]
+  },
+  {
     "letter": "P",
     "term": "Passive Loss",
     "full": "Passive Activity Loss",
@@ -4787,6 +5347,23 @@
     "sources": [
       "IRS",
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Patent Defect",
+    "full": "",
+    "plain": "A property defect that is obvious or could be discovered through reasonable Inspection — distinct from a hidden defect, with weaker buyer remedies if undisclosed.",
+    "snappy": "Property defect obvious on Inspection — weaker buyer remedies than hidden defects.",
+    "detail": "Patent Defects are visible to any prudent buyer: peeling paint, missing shingles, cracked driveway, evidently outdated electrical panel. Buyers are charged with discovering them through Due Diligence and Inspection. Caveat emptor governs — the seller's failure to volunteer information about patent defects is not actionable in most states. Sellers retain disclosure obligations for material defects, but patent defects fail the materiality test if 'reasonably discoverable'. Compare Latent Defects: hidden problems (slab leaks, mould inside walls, foundation cracks behind drywall) that the buyer couldn't reasonably find — these trigger stronger remedies including misrepresentation claims and Title Insurance coverage.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "Cornell LII",
+      "NAR"
     ]
   },
   {
@@ -4892,6 +5469,22 @@
   },
   {
     "letter": "P",
+    "term": "Power Center",
+    "full": "Big-Box Center",
+    "plain": "A large Retail centre dominated by multiple big-box Tenants — Home Depot, Costco, Best Buy, Target — designed for destination shopping with abundant parking.",
+    "snappy": "Large Retail centre dominated by big-box Tenants and destination shopping.",
+    "detail": "Power Centers emerged in the 1990s as big-box Retail consolidated. Typical configuration: 250,000-500,000+ SF total, 3-5 big-box anchors of 20,000-150,000 SF each, modest inline complement, deep parking lots, regional draw. Tenants: Walmart, Target, Costco, Home Depot, Lowe's, Best Buy, Bed Bath & Beyond (pre-bankruptcy), TJX, Kohl's. Cap Rates: 6.5-7.5% historically. Co-Tenancy Clause risk concentrates here — losing one big-box anchor triggers cascading Tenant rights. The 2008-2024 cycle thinned power-center occupancy as Best Buy, Bed Bath, Toys R Us, and other big-boxes consolidated or failed. Mixed-Use redevelopment of underperforming power centers accelerated.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Pre-approval",
     "full": "",
     "plain": "A Lender's written commitment, after running your finances, to lend you up to a specific amount.",
@@ -4918,6 +5511,23 @@
     "category": "Financing & Lending",
     "sources": [
       "CFPB"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Preferred Equity",
+    "full": "Pref Equity",
+    "plain": "A capital tier sitting between Mezzanine debt and common equity — fixed return ahead of common equity but no Mortgage-style security, often with cure or step-in rights on Default.",
+    "snappy": "Capital tier above common equity but below debt — fixed return with step-in rights on Default.",
+    "detail": "Preferred Equity has grown sharply since 2010 as Lenders restricted Mezzanine availability. Structurally an equity interest (not a Loan), but economically behaves like junior debt: fixed Preferred Return (often 10-14%), accrued or current-pay, with mandatory redemption at a defined event (refinance, sale, term expiration). Step-in rights on Default: Preferred Equity holder can replace the common GP at the management level, gaining control without Foreclosure mechanics. Lenders prefer Preferred Equity to Mezzanine because it doesn't sit on the borrower's debt schedule for covenant purposes; Sponsors prefer it because step-in is less disruptive than Foreclosure.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF",
+      "ULI"
     ]
   },
   {
@@ -5021,6 +5631,23 @@
     "sources": [
       "ULI",
       "IRS"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "PropCo",
+    "full": "Property Company",
+    "plain": "The Real-Estate-owning entity in an OpCo/PropCo structure — holds Land and buildings, often as a separately financed and bankruptcy-remote special-purpose entity.",
+    "snappy": "Real-Estate-owning entity in an OpCo/PropCo split — holds Land and buildings.",
+    "detail": "PropCo is the Real-Estate-owning entity in an OpCo/PropCo split. Typically structured as a single-purpose LLC or LP holding just the Real Estate, with debt at the PropCo level non-recourse to the OpCo or other PropCo affiliates. Common in Hotel, healthcare, gaming, and Net Lease Properties. Bankruptcy-remoteness is central — PropCo creditors look only to PropCo assets, immune from operational distress at the OpCo. CMBS structures rely heavily on PropCo isolation. Sale-Leaseback transactions often create PropCo/OpCo structures by separating Real Estate from operating business.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "NCREIF",
+      "ULI"
     ]
   },
   {
@@ -5166,6 +5793,22 @@
     "category": "Financing & Lending",
     "sources": [
       "CFPB",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "Q",
+    "term": "Quiet Enjoyment",
+    "full": "Covenant of Quiet Enjoyment",
+    "plain": "The Tenant's right to occupy the leased premises without interference from the Landlord or anyone claiming a superior Title — a foundational Lease covenant.",
+    "snappy": "Tenant's right to undisturbed occupancy of the leased premises.",
+    "detail": "Quiet Enjoyment is the Tenant's foundational protection under any Lease. The Landlord covenants not to disturb Tenant's possession during the Lease term — no unauthorised entries, no harassment, no interference with normal use. The covenant also protects against eviction by third parties holding superior Title (paramount-title claims). Constructive Eviction doctrine extends Quiet Enjoyment: if the Landlord's failure to maintain the premises (or other actions) makes the property uninhabitable, the Tenant can vacate and claim Eviction without owing further Rent. Quiet Enjoyment claims are central to Landlord-Tenant disputes in both residential and commercial Leases.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
       "Cornell LII"
     ]
   },
@@ -5331,6 +5974,37 @@
   },
   {
     "letter": "R",
+    "term": "Recapture Right",
+    "full": "Recapture Clause",
+    "plain": "The Landlord's right to take back leased space — usually in response to a Tenant's notice of plans to vacate, sublet, or assign — rather than allowing the Tenant to control disposition.",
+    "snappy": "Landlord right to take back leased space when Tenant proposes to vacate, sublease, or assign.",
+    "detail": "Recapture Rights give Landlords portfolio control. Mechanics: Tenant gives notice of intent to sublease, assign, or surrender the space. Landlord has, typically, 30-60 days to either (a) consent to the Tenant's proposed disposition or (b) recapture the space, taking it back with the Lease terminated. Landlords use recapture to: control Tenant mix, capture market-rate Rent on a below-market lease, redevelop or re-merchandise the centre, prevent assignment to a Tenant the Landlord doesn't want. Tenants negotiate narrow recapture rights — limited to early years of the Lease or specific circumstances.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "IREM"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Receiver",
+    "full": "Court-Appointed Receiver",
+    "plain": "A court-appointed neutral third party that takes operational control of a distressed property pending Foreclosure resolution — collects Rent, pays expenses, prevents waste.",
+    "snappy": "Court-appointed neutral party taking control of a distressed property pending resolution.",
+    "detail": "Receivership protects collateral value during litigation or workout. The Lender petitions the court for receiver appointment after Default; the court appoints a neutral professional (often a Property Manager firm or specialist). Receiver duties: take possession, collect Rent, pay critical Operating Expenses (Property Tax, utilities, insurance, payroll), prevent Tenant flight, maintain physical condition. Receivers report monthly to the court. Common in: Foreclosure proceedings on income-producing property where the borrower might mismanage during litigation, contested ownership cases, environmental cleanup orders. Receivership fees come out of property cash flow — typically $5,000-$25,000/month plus expenses.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "Recording",
     "full": "Deed Recording, Recording the Deed",
     "plain": "Filing a Deed with the county recorder's office to put the world on notice of ownership — essential to protecting Title against later claims.",
@@ -5449,6 +6123,38 @@
       "IRS",
       "Nareit",
       "SEC"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "REIT IPO",
+    "full": "Initial Public Offering",
+    "plain": "A Real Estate Investment Trust's first sale of shares to public investors — converts a private REIT or pre-REIT structure into a listed company.",
+    "snappy": "REIT's first public-share Sale, converting private to listed structure.",
+    "detail": "REIT IPOs follow general IPO mechanics but with REIT-specific disclosures: NAV per share, property roster, Hold Period assumptions, Cap Rate analysis, debt schedule. The 'roll-up' IPO consolidates multiple private funds into a single listed entity, often delivering liquidity to legacy LPs. Listed REITs trade at premiums or discounts to NAV based on management quality, growth pipeline, and sector outlook. Major US REIT IPOs of recent years: Cousins (2019 merger / spin), Equinix Asia (private to public via separate vehicle), several specialty REITs. The post-2020 IPO window was challenging; private alternatives (non-traded REIT, BDC structures) drew more capital.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "Nareit",
+      "SEC"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Renewal Option",
+    "full": "Option to Renew",
+    "plain": "A Tenant's contractual right to extend the Lease beyond its initial term — at predetermined Rent or fair-market rent — without renegotiating from scratch.",
+    "snappy": "Tenant right to extend the Lease beyond initial term at predetermined terms.",
+    "detail": "Renewal Options come in two flavours. Fixed-rate renewals: Tenant can extend at a specific Rent (or with predetermined Escalation). Lower-risk for Tenant but worse for Landlord if market Rent moves up. Fair-market-rent renewals: Rent at renewal resets to market via Appraisal or negotiation, with arbitration if parties disagree. Standard structure: 5-10 year initial Lease with two or three 5-year renewal options. Tenant must exercise typically 9-12 months before expiration. Unexercised options expire. Renewal Options give Tenants long-term occupancy security while letting Landlords retain optionality if Tenant leaves.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "IREM"
     ]
   },
   {
@@ -5657,6 +6363,24 @@
     ]
   },
   {
+    "letter": "R",
+    "term": "RevPAR",
+    "full": "Revenue per Available Room",
+    "plain": "The headline Hotel performance metric — combines Occupancy Rate and ADR — measuring revenue per available room whether occupied or not.",
+    "snappy": "Hotel performance metric combining Occupancy Rate and ADR — revenue per available room.",
+    "detail": "RevPAR is the dominant Hotel metric in trade journalism and investor reporting. Calculation: ADR × Occupancy Rate, OR equivalently, total room revenue ÷ available room-nights. RevPAR captures the full demand picture — a Hotel running 80% Occupancy at $150 ADR (RevPAR $120) outperforms one at 70% Occupancy at $160 ADR (RevPAR $112). RevPAR growth year-over-year is the headline operating story for Hotel REITs. RevPAR excludes ancillary revenue (food, beverage, parking, banquets) — TRevPAR (Total RevPAR) is the broader metric some operators report.",
+    "indications": [
+      "Hospitality",
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "NCREIF",
+      "Investopedia"
+    ]
+  },
+  {
     "letter": "S",
     "term": "Sale Price",
     "full": "",
@@ -5722,6 +6446,22 @@
     "sources": [
       "IRS",
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "SBA Loan",
+    "full": "Small Business Administration Loan",
+    "plain": "A Small Business Administration-backed Mortgage used by owner-occupiers to buy or build commercial property — lower Down Payment and longer term than conventional CRE financing.",
+    "snappy": "SBA-backed Mortgage for owner-occupiers of commercial property.",
+    "detail": "SBA 7(a) and 504 Loans dominate small-business CRE financing. 7(a) covers any business purpose including Real Estate up to $5M, with SBA guaranteeing 75-85% of the loan amount. 504 specifically funds Real Estate or equipment with a structure: 50% bank first-lien, 40% SBA second-lien, 10% borrower Down Payment. Terms: 25 years on Real Estate, fixed-rate 504, variable 7(a). Owner-occupancy: 51%+ of square footage must be used by the owner's business. Common Tenants: dentists, restaurants, professional services, light manufacturing. Conventional CRE Mortgages require 25-35% Down Payment versus SBA's 10% — a major affordability gain for small businesses.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "Investopedia"
     ]
   },
   {
@@ -6031,6 +6771,22 @@
   },
   {
     "letter": "S",
+    "term": "Special Servicer",
+    "full": "Special Servicing",
+    "plain": "The CMBS-specific party that takes over a distressed Mortgage from the regular Master Servicer — has discretion to modify, extend, sell, or foreclose on behalf of bondholders.",
+    "snappy": "CMBS party taking over distressed Mortgages from the Master Servicer — workout authority.",
+    "detail": "Special Servicers manage CMBS Loans in or near Default. The Master Servicer handles routine collection on performing Loans; once a Loan is 60+ days delinquent or the borrower triggers specific events, control transfers to the Special Servicer. Major Special Servicers: LNR Partners (largest), Rialto Capital, KeyBank, Greystone. The Special Servicer's fiduciary duties run to the CMBS bondholders, not the Lender brand. Borrowers complain Special Servicers move too slowly, charge high fees, and prefer Foreclosure over modification. CMBS regulators and rating agencies monitor Special Servicer performance — failures during 2008-2012 produced major reform of conflict-of-interest rules.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Special Warranty Deed",
     "full": "Limited Warranty Deed",
     "plain": "A Deed where the seller warrants only the period of their own ownership — not the full Chain of Title — common in commercial transactions and tax sales.",
@@ -6044,6 +6800,24 @@
     "sources": [
       "ALTA",
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Spin-Off",
+    "full": "Corporate Spin-Off",
+    "plain": "A REIT or operating company distribution of a subsidiary's stock to existing shareholders — separating two businesses without a Sale.",
+    "snappy": "Distribution of a subsidiary's stock to existing shareholders, separating two businesses.",
+    "detail": "REIT spin-offs unlock value where management of two businesses creates dis-synergy. Notable examples: Penn National's gaming Real Estate into GLPI (2013), Darden's Olive Garden Real Estate into Four Corners (2015), Marriott's Hotel real estate from operating businesses (multiple), Ryman Hospitality's spin-out from operations. Tax-free under IRC §355 if structured correctly — five-year operating-purpose requirement and other rules. Shareholders end up with stock in both the parent and the spin-off proportional to their parent holdings. The spin-off often outperforms the parent post-separation as separated focus drives execution.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "IRS",
+      "SEC",
+      "Nareit"
     ]
   },
   {
@@ -6062,6 +6836,22 @@
     "sources": [
       "ULI",
       "NCREIF"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Springing Recourse",
+    "full": "Springing Guaranty",
+    "plain": "A Commercial loan structure that's non-recourse until a triggering event occurs — then 'springs' into recourse against the guarantor Sponsor.",
+    "snappy": "Non-recourse loan that springs into recourse after specified triggering events.",
+    "detail": "Springing Recourse is the structural framework that holds Bad-Boy Carve-Outs. The loan documents Section 1 declares the loan non-recourse. Section 2 enumerates triggers that 'spring' the loan into full or partial recourse. The Sponsor signs a springing guaranty — a guarantee that's contingent on triggers occurring. Until triggered, the Sponsor's personal assets are protected. After trigger, the Lender can pursue full recourse remedies (judgments, deficiency claims, asset attachment). Springing-guaranty enforcement is heavily litigated — Sponsors argue triggers weren't met, Lenders argue triggers were intentional bad-faith acts. CMBS Special Servicer enforcement of springing recourse generated thousands of disputes 2010-2014.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Cornell LII"
     ]
   },
   {
@@ -6118,6 +6908,22 @@
   },
   {
     "letter": "S",
+    "term": "Strip Center",
+    "full": "Strip Mall",
+    "plain": "A small Retail centre — typically 5-15 inline shops in a single row with shared parking in front — anchored or unanchored, suburban or urban edge.",
+    "snappy": "Small linear Retail centre of 5-15 inline shops with shared front parking.",
+    "detail": "Strip Centers are the dominant suburban Retail format. Unanchored strips: no major Tenant, foot traffic driven by individual destination Tenants. Anchored strips: typically a grocery or drugstore (CVS, Walgreens) anchoring 5-10 inline Tenants. Power strips: junior anchors (Marshalls, Five Below) instead of full grocery. Strip Center Cap Rates trade wider than Class A Mall or community Retail — typically 6.5-8% for stabilised — reflecting smaller Tenant credit, smaller absolute deal sizes, and more disparate ownership pool. National-platform Retail buyers (Phillips Edison, Brixmor) consolidated strip-Retail ownership through the 2010s.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Student Housing",
     "full": "Off-Campus Housing",
     "plain": "Multifamily property purpose-built for university students — typically rented by the bed rather than the unit, leased to match the academic calendar.",
@@ -6167,6 +6973,22 @@
   },
   {
     "letter": "S",
+    "term": "Subordination Agreement",
+    "full": "",
+    "plain": "A contract by which a Lender or other claim holder agrees its claim ranks below another claim — letting a new senior Mortgage take priority over a pre-existing junior Lien.",
+    "snappy": "Contract agreeing one claim ranks below another — letting new senior debt take priority.",
+    "detail": "Subordination Agreements rearrange Capital Stack priority. Common use: a homeowner with a first Mortgage and a HELOC wants to refinance the first Mortgage. Without subordination, the refinance would pay off the first Mortgage but the HELOC would rise to first position — unacceptable to the new Lender. The HELOC Lender signs a Subordination Agreement keeping its position behind the new first Mortgage. Commercial Real Estate uses subordinations extensively in Mezzanine, Preferred Equity, and multi-Lender structures. Junior Lenders charge subordination fees ($500-$5,000+) and may negotiate additional protections (Tenant non-disturbance, intercreditor terms).",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Survey",
     "full": "Land Survey",
     "plain": "A professional measurement of property boundaries, structures, and Easements — produces a drawing used at Closing and for new construction.",
@@ -6180,6 +7002,23 @@
     "category": "Title & Ownership",
     "sources": [
       "ALTA"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Take-Private",
+    "full": "Going Private, Public-to-Private",
+    "plain": "A private buyer acquires a listed REIT and takes it off the public exchange — typically at a premium to NAV when listed REITs trade at deep discounts.",
+    "snappy": "Private acquisition of a listed REIT, removing it from public markets.",
+    "detail": "Take-private transactions accelerated in 2020-2023 as listed REITs traded at discounts to private-market values. Notable deals: Blackstone's $13B take-private of American Campus Communities (2022), Blackstone + Starwood take-private of Extended Stay (2021), Brookfield's take-private of various asset-heavy REITs. Mechanics: cash tender offer typically 15-30% premium to undisturbed share price, board-and-shareholder approval, regulatory clearance. Once private, the REIT loses public-market liquidity but gains operational flexibility and avoids quarterly reporting pressure. The 2024 listed REIT recovery softened the take-private opportunity but didn't close it entirely.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "SEC",
+      "Nareit"
     ]
   },
   {
@@ -6326,6 +7165,21 @@
     "plain": "Texas's strong constitutional protection of a primary residence — caps Property Tax assessment growth, shields against most creditor claims, restricts forced sale.",
     "snappy": "Texas constitutional protection of primary residence — tax cap, creditor shield, forced-sale restriction.",
     "detail": "Texas Homestead protections sit in Article XVI of the Texas Constitution. Three layers. Property Tax: assessed value growth on a primary residence capped at 10% per year through the Homestead exemption, plus a $40,000 (or higher) reduction in taxable value. Creditor protection: the homestead cannot be reached by most unsecured creditors — federal tax liens and Mortgages can; credit-card debt and most lawsuits cannot. Forced sale: severely restricted — only for Property Tax, Mortgage, mechanic's lien for improvements, or home-equity loans. The protection makes Texas a popular asset-protection state.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Tax",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Texas Two-Step",
+    "full": "",
+    "plain": "A Real Estate financing technique using a Mortgage with both an Adjustable-Rate Mortgage feature and a Fixed-Rate component — also a slang for certain Foreclosure-defence tactics.",
+    "snappy": "Slang for both a multi-tranche Texas Mortgage structure and a Texas Foreclosure-defence tactic.",
+    "detail": "Two senses share the name. (1) Mortgage structure: a hybrid Loan with both fixed-rate Principal and a variable-rate component, popular in Texas in the 2000s. (2) Foreclosure-defence tactic: Texas homestead law protects primary residences from forced Sale for most debts but not Mortgages. The 'Texas Two-Step' involves using the homestead exemption defensively while also pursuing bankruptcy — making creditor collection extremely difficult. Both uses are colloquial; tax practitioners and Mortgage brokers in Texas use the term opportunistically. Distinct from the corporate-bankruptcy 'Texas Two-Step' that Johnson & Johnson and others used to manage mass-tort liability — a separate legal manoeuvre.",
     "indications": [
       "Residential"
     ],
@@ -6549,6 +7403,24 @@
   },
   {
     "letter": "T",
+    "term": "Trended Rent",
+    "full": "Trended Market Rent",
+    "plain": "Projected market Rent over a future hold period — usually with assumed annual growth — used in DCF underwriting to estimate future NOI.",
+    "snappy": "Projected market Rent over a future hold period with annual growth assumed.",
+    "detail": "Trended Rent assumptions shape DCF underwriting. Sponsor pro formas project Year 1 market Rent, then trend forward at assumed growth rates: 2-3% per year for stabilised Multifamily, 3-5% for value-add markets, 1-2% for mature Office. Sensitivity tables show NOI and IRR impact of 100-bp Rent-growth variances. Aggressive trended Rent in pro formas is a flag for institutional LPs — disciplined underwriting holds Rent growth at or below historical local norms, especially in later forecast years. Mark to Market and Trended Rent together drive NOI Growth assumptions.",
+    "indications": [
+      "Commercial",
+      "Multifamily",
+      "Investment"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "T",
     "term": "TRID",
     "full": "TILA-RESPA Integrated Disclosure",
     "plain": "The 2015 federal rule that combined two old Mortgage disclosure forms into the Loan Estimate and Closing Disclosure.",
@@ -6663,6 +7535,22 @@
     "category": "Financing & Lending",
     "sources": [
       "USDA Rural Housing"
+    ]
+  },
+  {
+    "letter": "U",
+    "term": "Use Clause",
+    "full": "Permitted Use Clause",
+    "plain": "The Lease provision defining what business the Tenant can run on the premises — narrow uses protect Co-Tenants from indirect competition; broad uses give Tenants flexibility to pivot.",
+    "snappy": "Lease provision defining what business the Tenant can operate on the premises.",
+    "detail": "Use Clauses interact with Co-Tenancy and Exclusive Use Clauses to govern Retail centre composition. Narrow use clauses ('full-service Italian restaurant') protect Co-Tenants but lock the Tenant into a category. Broad use clauses ('any lawful Retail purpose') give the Tenant flexibility to pivot or sublease. Landlords typically push for narrow uses; Tenants for broad. Use Clauses also matter for Office property — definitions like 'general office' versus 'medical' versus 'industrial' affect parking ratios, utility loads, and insurance categorisation. Use violations are a standard Lease default trigger.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "IREM",
+      "Cornell LII"
     ]
   },
   {
@@ -6917,6 +7805,23 @@
     "category": "Financing & Lending",
     "sources": [
       "Cornell LII",
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "Y",
+    "term": "Yield Maintenance",
+    "full": "",
+    "plain": "A pre-payment penalty on Commercial Mortgages — borrower pays the Lender enough to make up for lost Interest if the loan is paid off early during a falling-rate period.",
+    "snappy": "Pre-payment penalty making the Lender whole for lost Interest on early payoff.",
+    "detail": "Yield Maintenance ensures the Lender achieves the original Interest yield even if the loan pays off early. Formula: present value of remaining Mortgage payments discounted at current Treasury rate, minus the outstanding Principal balance. When rates have fallen below the Mortgage rate, the penalty is meaningful (often 5-15% of the outstanding balance). When rates have risen, the penalty can be zero or negligible. Compare Defeasance (substituting Treasuries) and step-down prepayment (penalty declining over loan life). Yield Maintenance dominates portfolio Lender pre-payment regimes; Defeasance dominates CMBS.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF",
       "Investopedia"
     ]
   },
