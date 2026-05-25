@@ -191,7 +191,7 @@
     "full": "",
     "plain": "The dollar number the Appraiser writes in their report — what the property is judged to be worth.",
     "snappy": "Stated dollar value from the Appraiser for a property in a written Appraisal report.",
-    "detail": "Appraised Value anchors the Lender's LTV calculation. When appraised value falls below the contract price, the Lender will only finance against the lower number — the buyer must come up with the gap in cash, renegotiate, or walk via the Appraisal Contingency. Appraised value is distinct from Assessed Value (used for Property Tax) and market value (what buyers will actually pay).",
+    "detail": "Appraised Value anchors the Lender's LTV calculation. When appraised value falls below the contract price, the Lender will only finance against the lower number — the buyer must come up with the gap in cash, renegotiate, or back out via the Appraisal Contingency. Appraised value is distinct from Assessed Value (used for Property Tax) and market value (what buyers will actually pay).",
     "indications": [
       "Residential",
       "Commercial"
@@ -481,6 +481,23 @@
   },
   {
     "letter": "B",
+    "term": "Buyer",
+    "full": "",
+    "plain": "The person or entity acquiring a property — represented in the transaction by a Buyer's Agent.",
+    "snappy": "Party acquiring the property in a real estate transaction.",
+    "detail": "The Buyer is the party purchasing the property — an individual, a couple, an LLC, a Trust, or a corporation. In most US residential transactions the Buyer works through a Buyer's Agent under a Buyer Representation Agreement. The Buyer makes the offer, signs the Mortgage, pays Closing Costs, takes Title at Closing, and assumes Property Tax and insurance from that date forward.",
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Cross-sector"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "Buyer Representation Agreement",
     "full": "",
     "plain": "A written contract between a buyer and a Buyer's Agent setting out the agent's duties and the buyer's Commission obligations.",
@@ -709,6 +726,26 @@
   },
   {
     "letter": "C",
+    "term": "Commercial Real Estate",
+    "full": "CRE",
+    "plain": "Income-producing real estate — offices, retail, industrial, hotels, multifamily — bought to generate rent rather than to live in.",
+    "snappy": "Income-producing real estate held as investment rather than primary residence.",
+    "detail": "Commercial Real Estate spans office, retail, industrial, multifamily (5+ units), hospitality, and specialty segments — anything held for rental income or investment return. CRE financing, valuation (Cap Rate, NOI, DSCR), Underwriting standards, and Leasing structures differ materially from residential. Owners are typically LLCs or partnerships rather than individuals; transactions involve longer Due Diligence and more sophisticated counsel.",
+    "indications": [
+      "Commercial",
+      "Multifamily",
+      "Industrial",
+      "Hospitality",
+      "Investment"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "ULI",
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Commission",
     "full": "",
     "plain": "The percentage of the sale price paid to real estate agents at Closing — historically 5-6% split between buyer and listing sides.",
@@ -898,6 +935,21 @@
     "category": "Financing & Lending",
     "sources": [
       "CFPB"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Curb Appeal",
+    "full": "",
+    "plain": "How attractive a property looks from the street — paint, landscaping, front door — strongly affects sale price.",
+    "snappy": "First-impression visual appeal of a property from the street.",
+    "detail": "Curb Appeal is the first signal buyers form about a property before stepping inside. Sellers invest in landscaping, exterior paint, front-door refresh, and tidy walkways to boost it before listing. Empirical studies suggest strong curb appeal lifts sale price 5-7% versus identical homes with poor exteriors. Agents almost universally recommend curb-appeal work as the highest-ROI pre-listing investment.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
     ]
   },
   {
@@ -1530,6 +1582,38 @@
   },
   {
     "letter": "L",
+    "term": "Listing Agent",
+    "full": "",
+    "plain": "The real estate Agent who represents the seller, lists the property on the MLS, and markets it to buyers.",
+    "snappy": "Real estate Agent representing the seller in a transaction.",
+    "detail": "The Listing Agent has a fiduciary duty to the seller — confidentiality, loyalty, full disclosure. Their job: price the property (often via CMA), market it on the MLS and beyond, host showings, negotiate offers, and shepherd Closing. Compensated via Commission split with the Buyer's Agent at Closing, traditionally 2.5-3% per side. Following the 2024 NAR settlement, buy-side Commission is no longer advertised in the MLS.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Listing Agreement",
+    "full": "",
+    "plain": "The written contract between a seller and the Listing Agent setting Commission, marketing rights, and how long the listing runs.",
+    "snappy": "Written contract granting a Listing Agent exclusive rights to sell.",
+    "detail": "Most US Listing Agreements are Exclusive Right to Sell — the Listing Agent earns Commission no matter who finds the buyer, including the seller themselves. Other forms are Exclusive Agency (seller can find buyer Commission-free) and Open Listing (any agent can sell, only the procuring one earns). Standard term is 90-180 days. Specifies marketing methods, MLS rules, and exact Commission percentage.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Loan Estimate",
     "full": "",
     "plain": "A three-page form the Lender must give you within three days of application showing the loan's expected terms and Closing Costs.",
@@ -1575,6 +1659,24 @@
     "category": "Financing & Lending",
     "sources": [
       "CFPB"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Market Value",
+    "full": "",
+    "plain": "What a willing buyer would pay a willing seller in an Arm's Length Transaction — the gold-standard valuation concept.",
+    "snappy": "Price a willing buyer would pay a willing seller, free of unusual pressures.",
+    "detail": "Market Value is the formal definition used by Appraisers under USPAP: the most probable price a property should bring in a competitive open market, both buyer and seller acting prudently, knowledgeably, and free from unusual incentives. Distinct from sale price (an actual transaction, which may or may not equal market value), Appraised Value (an Appraiser's opinion of market value), and Assessed Value (the tax authority's number).",
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Cross-sector"
+    ],
+    "category": "Valuation & Appraisal",
+    "sources": [
+      "Appraisal Institute",
+      "Appraisal Foundation"
     ]
   },
   {
@@ -1870,6 +1972,21 @@
   },
   {
     "letter": "R",
+    "term": "Real Estate",
+    "full": "",
+    "plain": "Land plus everything permanently attached to it — buildings, fences, trees — distinct from movable personal property.",
+    "snappy": "Land plus the buildings and improvements permanently attached to it.",
+    "detail": "Real Estate is land and everything permanently affixed to it: buildings, in-ground pools, fences, perennial plantings, mineral rights, water rights, and Fixtures. Distinct from personal property (furniture, appliances not built in, vehicles), which moves with the owner. Synonymous with real property in most legal contexts. The bundle of rights — possession, control, exclusion, enjoyment, and disposition — is what an owner actually buys when they take Title.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "Refinance",
     "full": "",
     "plain": "Replacing your current Mortgage with a new one — usually to lower the interest rate or pull out Equity.",
@@ -1901,6 +2018,72 @@
     "sources": [
       "HUD",
       "Fannie Mae"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Residential Real Estate",
+    "full": "",
+    "plain": "Real Estate intended primarily as a place for people to live — single-family homes, Condos, townhomes, and small Multifamily.",
+    "snappy": "Real Estate held primarily for residential occupancy by owners or renters.",
+    "detail": "Residential Real Estate covers properties intended as primary or secondary residences — Single-Family detached homes, Condos, townhomes, Co-ops, ADUs, and small Multifamily (1-4 units, which still qualify for residential Mortgage products like FHA Loans and VA Loans). 5+ unit Multifamily crosses into Commercial Real Estate for financing and Underwriting purposes. Residential transactions are far higher volume but lower individual size than commercial deals.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NAR",
+      "HUD"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Sale Price",
+    "full": "",
+    "plain": "What the property actually sold for — the number on the recorded Deed, not the original asking price.",
+    "snappy": "Final agreed price at which a property changed hands.",
+    "detail": "Sale Price is the dollar amount in the executed purchase contract, paid by the Buyer and received by the Seller (net of any concessions or credits). The Sale Price appears on the recorded Deed in most jurisdictions and is used to compute Property Tax transfer fees. List-to-Sale ratio compares Sale Price to the seller's original asking price — a market-temperature indicator (>100% = bidding war; <95% = soft market).",
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Cross-sector"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Seller",
+    "full": "",
+    "plain": "The party transferring ownership of a property — represented in the transaction by a Listing Agent.",
+    "snappy": "Party transferring property in a real estate transaction.",
+    "detail": "The Seller is the party transferring the property — an individual, a couple, an estate, an LLC, or a corporation. In most residential transactions the Seller works through a Listing Agent under a Listing Agreement. The Seller signs the Deed, pays the agreed Commission split from sale proceeds, and is bound by required Disclosure laws. Sellers may also offer concessions (credits at Closing) to sweeten an offer.",
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Cross-sector"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Single-Family",
+    "full": "",
+    "plain": "A detached home on its own Lot, designed for one household — the dominant US housing form.",
+    "snappy": "Detached home on its own Lot, designed for a single household.",
+    "detail": "Single-Family detached homes dominate the US housing stock, especially in suburbs. Each home sits on its own Lot, with no shared walls. Distinct from townhomes (attached but separately owned), Condos (units inside a larger building), and Multifamily (multiple rental units in one structure). Zoning that allows only single-family use is the most common American residential land-use designation — and the subject of recent reform debates in many cities.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NAHB",
+      "HUD"
     ]
   },
   {
