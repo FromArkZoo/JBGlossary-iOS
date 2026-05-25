@@ -138,7 +138,15 @@ DANGLING_DENYLIST = {
     "Equinix", "Simon", "Prologis", "AvalonBay", "FedEx",
     "Walmart", "Amazon", "Citizens",
     # Federal agencies / acronyms used in passing.
-    "DOJ", "DHS", "USCIS", "DOL", "DOI",
+    "DOJ", "DHS", "USCIS", "DOL", "DOI", "IRS",
+    # Big-city shorthand used in concrete examples.
+    "NYC", "LA", "SF", "DC", "ATL",
+    # More US states surfaced in geographic examples.
+    "New Mexico", "Alaska",
+    # Verb inflections of base concepts — Foreclose (of Foreclosure)
+    # is normal English usage and shouldn't be flagged when prose
+    # uses it as a verb.
+    "Foreclose", "Sell",
 }
 
 # High-risk multi-meaning glossary names. When these auto-link, the linker

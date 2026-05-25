@@ -122,6 +122,24 @@
   },
   {
     "letter": "A",
+    "term": "AFFH",
+    "full": "Affirmatively Furthering Fair Housing",
+    "plain": "The Fair Housing Act provision requiring HUD funding recipients to actively work to overcome historical patterns of housing discrimination — not just refrain from discriminating.",
+    "snappy": "Fair Housing Act duty to actively dismantle segregation, not just refrain from discrimination.",
+    "detail": "AFFH stems from Section 808 of the Fair Housing Act (1968). The 2015 Obama-era AFFH rule required local jurisdictions receiving HUD funds to conduct Assessments of Fair Housing — analysing local segregation, racially concentrated poverty, disparate access to opportunity — and adopt action plans. Trump suspended the rule in 2018, then formally repealed in 2020. Biden 2021 reinstated; the 2023 'AFFH 2.0' rule restored the assessment framework. Politically contentious — alternates with administrations. Localities historically resistant: zoning reforms that AFFH plans recommend conflict with single-family preservation.",
+    "indications": [
+      "Public Sector",
+      "Residential",
+      "Affordable"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "HUD",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Affidavit",
     "full": "",
     "plain": "A written statement of fact signed under oath — used in real estate to certify identity, marital status, or property condition.",
@@ -152,6 +170,25 @@
     "sources": [
       "NAR",
       "Federal Reserve"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Affordable Housing",
+    "full": "",
+    "plain": "Residential property whose Rent is restricted by Land use covenants, government subsidies, or income limits to remain affordable to lower-income households.",
+    "snappy": "Residential property with Rent or Sale price restricted to remain affordable to lower-income households.",
+    "detail": "Affordable housing in the US comes through three main channels. Federal Low-Income Housing Tax Credit (LIHTC) program — most common, subsidises new construction or substantial rehabilitation in exchange for 30+ year affordability covenants. Project-based Section 8 (HUD payments tied to specific buildings). Inclusionary Zoning (developer set-asides at below-market rents in exchange for density bonuses or fee waivers). All three carry deed restrictions or restrictive Covenants that survive ownership changes. Compliance monitoring is intense — annual income certifications, audits, and HUD inspections.",
+    "indications": [
+      "Affordable",
+      "Multifamily",
+      "Public Sector"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "HUD",
+      "IRS",
+      "ULI"
     ]
   },
   {
@@ -434,6 +471,39 @@
   },
   {
     "letter": "B",
+    "term": "Beneficiary",
+    "full": "",
+    "plain": "The Lender named in a Deed of Trust — the party entitled to be paid back, with the right to direct the Trustee to Foreclose on Default.",
+    "snappy": "The Lender in a Deed of Trust — entitled to repayment and Foreclosure-direction rights.",
+    "detail": "In a Deed of Trust, the Beneficiary is the Lender — the party entitled to repayment of the Mortgage. When the borrower pays in full, the Beneficiary directs the Trustee to record a reconveyance, clearing Title. When the borrower defaults, the Beneficiary directs the Trustee to commence non-judicial Foreclosure under the power-of-sale clause. Loan servicing rights can be sold; the new servicer becomes Beneficiary of record. In estate-planning Trusts and Title Insurance escrow trusts, 'beneficiary' refers to the person entitled to receive trust assets — same word, different mechanism.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Blockbusting",
+    "full": "",
+    "plain": "The illegal practice of frightening homeowners into selling cheap by claiming minorities are moving in, then reselling at higher prices to incoming buyers — a Fair Housing Act violation.",
+    "snappy": "Illegal Fair Housing Act practice of inducing panic sales through race-based scare tactics.",
+    "detail": "Blockbusting was a structural tactic in mid-20th-century US neighbourhood turnover. Real Estate operators would buy one home in a white neighbourhood, list it to a Black family, then canvass remaining white homeowners with predictions of plummeting values, urging quick sales at below-market prices. The operator then resold at substantially higher prices to incoming Black buyers — turning neighbourhoods over within years. Banned under the Fair Housing Act since 1968. Still surfaces in subtler forms: agent solicitation flyers in 'changing' neighbourhoods, deceptive market characterisations, predatory cash-buyer outreach.",
+    "indications": [
+      "Residential",
+      "Cross-sector"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "HUD",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "Bonus Depreciation",
     "full": "",
     "plain": "A federal tax break that lets owners write off a big chunk of certain Real Estate improvements in the first year, instead of spreading over decades.",
@@ -631,6 +701,23 @@
   },
   {
     "letter": "C",
+    "term": "Cap Rate Compression",
+    "full": "",
+    "plain": "When investor capital flooding into Real Estate pushes purchase prices up faster than NOI grows — Cap Rates fall, meaning lower yield per dollar invested.",
+    "snappy": "Falling Cap Rates driven by investor demand outpacing NOI growth — yields compress.",
+    "detail": "Cap Rate compression dominated 2015-2022 Commercial Real Estate. Institutional capital chasing yield in a low-interest-rate environment pushed Multifamily Going-In Cap Rates from 6% to 4% in many markets — meaning a property generating $1M of NOI sold for $25M instead of $16.7M. Aggressive Sponsor pro formas extrapolated continued compression into Exit Cap Rate assumptions; when rates spiked in 2022, compression reversed and Exit Caps widened by 100-200 basis points, gutting projected IRR on deals underwritten at peak.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Cap-Ex",
     "full": "Capital Expenditures, CapEx",
     "plain": "Big spending on a property that improves or replaces a long-lived asset — roof, HVAC, parking lot — rather than routine repair.",
@@ -697,6 +784,23 @@
     "sources": [
       "NCREIF",
       "ULI"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Carried Interest",
+    "full": "",
+    "plain": "The cross-industry term for what Real Estate calls Promote — the Sponsor's share of profits above an investor return hurdle, taxed at lower long-term Capital Gain rates.",
+    "snappy": "Sponsor's share of profits above hurdles, taxed at long-term Capital Gain rates.",
+    "detail": "Carried interest is the private-equity term that subsumes Real Estate's Promote, hedge-fund 20%, and venture-capital carry. Federal tax treats carry on holdings of three or more years as long-term Capital Gain — taxed at 20% rather than the 37% top ordinary rate. Many proposals to tax carry as ordinary income have failed (2016, 2017, 2021, 2022 negotiations). The TCJA tightened the rule by extending the holding-period threshold from 1 year to 3 years. Real Estate's typical 5-7 year Hold Period comfortably meets the 3-year bar.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
     ]
   },
   {
@@ -801,6 +905,21 @@
   },
   {
     "letter": "C",
+    "term": "Citizens Insurance",
+    "full": "State-Run Insurer of Last Resort",
+    "plain": "A state-created insurance company providing Homeowners Insurance in markets where private insurers won't write — Florida's is the largest, covering hurricane and flood risk many private carriers exit.",
+    "snappy": "State-run insurer of last resort for properties private carriers won't cover.",
+    "detail": "Florida's Citizens Property Insurance Corporation, created in 2002, is the prototype. It writes Homeowners Insurance in coastal and high-risk areas where private carriers withdraw — and has grown to roughly 1.4 million policies (2024) amid hurricane-driven private-market collapse. California FAIR Plan is the wildfire equivalent (~250,000 policies, growing). Louisiana Citizens, Texas Windstorm Insurance Association similar. Premiums are state-set, often below true risk-adjusted price; deficits trigger assessments on all in-state property-insurance policyholders. Insurance of last resort by design — broader, deeper, costlier coverage than private market.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Class A",
     "full": "",
     "plain": "The highest grade of commercial property — newest, best-located, premium finishes, top rents and lowest vacancy.",
@@ -897,6 +1016,23 @@
     "category": "Transactions",
     "sources": [
       "CFPB"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Cloud on Title",
+    "full": "Title Cloud",
+    "plain": "A pending claim or defect that makes Title less than marketable — anything from an unreleased Lien to a heir contesting Probate to a forged Deed in the chain.",
+    "snappy": "Pending claim or defect that makes Title less than marketable.",
+    "detail": "Clouds on title surface in title searches: unreleased Mortgages from prior owners, Liens that never got removed, deceased owners whose interest never transferred, forgeries, Adverse Possession claims, missing signatures on historical Deeds, recordings under wrong legal description. Curing a cloud might mean: tracking down a prior owner for a release, filing Quitclaim Deeds from heirs, court-ordered Quiet Title actions, statutory cure proceedings. Title Insurance covers some clouds the title search missed; uncured clouds disclosed at Closing typically delay or kill the transaction.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "ALTA",
+      "Cornell LII"
     ]
   },
   {
@@ -1016,6 +1152,23 @@
   },
   {
     "letter": "C",
+    "term": "Concessions",
+    "full": "Lease Concessions, Rent Concessions",
+    "plain": "Free or discounted Rent and other incentives Landlords offer to attract Tenants — months free, reduced Security Deposit, gift cards, TI allowances above market.",
+    "snappy": "Discounts or freebies Landlords offer to attract Tenants — months free, reduced deposit, TI bumps.",
+    "detail": "Concessions surge in soft Lease-up markets and disappear in tight ones. Multifamily: 1-2 months free on a 12-month Lease is a typical recession-era concession (effectively 8-17% Rent discount net of the free months). Office and Retail: above-market Tenant Improvement allowances, free Rent periods of 6-12+ months on long Leases. Economic occupancy distinguishes properties running market-rate Rent from those papering over with concessions — physical occupancy can be 95% while effective occupancy is 80%. Underwriting models 'effective Rent' net of concessions, not 'face Rent'.",
+    "indications": [
+      "Commercial",
+      "Multifamily"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "NCREIF",
+      "IREM"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Conditional Use Permit",
     "full": "CUP, Special Use Permit",
     "plain": "A Zoning approval for a use not allowed by right, but allowed if specific conditions are met — like a daycare in a residential zone.",
@@ -1045,6 +1198,23 @@
     "sources": [
       "HUD",
       "Fannie Mae"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Condo Conversion",
+    "full": "",
+    "plain": "The process of turning a rental Multifamily building into individually-owned Condo units — Tenants get the right to buy their units, then the rest sell to the open market.",
+    "snappy": "Process converting a rental Multifamily into individually-owned Condo units.",
+    "detail": "Condo conversion was a defining urban Real Estate move in the 1970s-1980s and revived periodically in hot markets. Local laws govern the process — Tenant protections (right of first refusal, relocation assistance, senior/disabled exemptions) vary widely. New York City and San Francisco have particularly tight rules. Economics work when Condo retail value per unit exceeds rental Sale Price by enough to cover conversion costs (legal, condo declaration, common-area renovation) and Tenant payouts. Tenants choosing not to buy must vacate or remain under rent-controlled terms depending on jurisdiction.",
+    "indications": [
+      "Multifamily",
+      "Residential"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "HUD",
+      "Cornell LII"
     ]
   },
   {
@@ -1112,6 +1282,41 @@
     "sources": [
       "Fannie Mae",
       "Freddie Mac"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Core",
+    "full": "Core Investment Strategy",
+    "plain": "A low-risk Real Estate investment strategy targeting stabilised, top-quality property — modest leverage, steady cash flow, single-digit IRR targets.",
+    "snappy": "Lowest-risk Real Estate strategy — stabilised Class A property, modest leverage, single-digit IRR.",
+    "detail": "Core sits at the low-risk end of the Real Estate strategy spectrum, alongside Core-Plus (slightly higher risk), Value-Add (moderate-risk Rehab), and Opportunistic (highest-risk development or distressed). Core deals target stabilised Class A property in major markets, leverage at 40-55% LTV, Hold Period 7-10+ years, IRR 7-10% (unlevered) or 8-12% (levered), with most of the return from cash yield rather than appreciation. Pension funds, sovereign wealth, and listed REITs dominate Core capital. Cap Rate Compression hit hardest in Core during 2015-2022.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Cost Approach",
+    "full": "Replacement Cost Approach",
+    "plain": "An Appraisal method that values a property as the cost to rebuild it from scratch, minus Depreciation for age and wear, plus Land value.",
+    "snappy": "Appraisal method valuing improvements at replacement cost less Depreciation plus Land value.",
+    "detail": "The cost approach works best for new or special-use property: a school, fire station, brand-new build, or unique property with no Comps. The Appraiser estimates the cost to construct an equivalent building today (Replacement Cost) or to reproduce the exact building (reproduction cost), subtracts accrued Depreciation (physical wear, Functional Obsolescence, External Obsolescence), and adds the Land's value to reach total value. For old, conventional property the cost approach is least reliable — accrued Depreciation estimates carry too much error.",
+    "indications": [
+      "Commercial",
+      "Residential",
+      "Development"
+    ],
+    "category": "Valuation & Appraisal",
+    "sources": [
+      "Appraisal Foundation",
+      "Appraisal Institute"
     ]
   },
   {
@@ -1207,6 +1412,22 @@
     "category": "Market & Investment",
     "sources": [
       "NAR"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "DCF",
+    "full": "Discounted Cash Flow",
+    "plain": "Common shorthand for Discounted Cash Flow — the valuation method projecting future cash flows and discounting them back to present value.",
+    "snappy": "Standard shorthand for Discounted Cash Flow in valuation.",
+    "detail": "DCF is universal industry shorthand for Discounted Cash Flow analysis. Real Estate analysts and institutional investors cite 'the DCF' as shorthand for the underwriting model itself. See Discounted Cash Flow for the methodology, sensitivities to Exit Cap Rate and discount rate, and how DCF compares to direct capitalisation as a valuation approach for stabilised property.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Valuation & Appraisal",
+    "sources": [
+      "Appraisal Institute"
     ]
   },
   {
@@ -1311,6 +1532,23 @@
   },
   {
     "letter": "D",
+    "term": "Depreciation Recapture",
+    "full": "§1245 Recapture, §1250 Recapture",
+    "plain": "A tax claw-back at the Sale of a depreciated property — gains attributable to prior Depreciation deductions are taxed at a higher rate than long-term Capital Gain.",
+    "snappy": "Tax claw-back at sale on gain previously deducted as Depreciation, at elevated rates.",
+    "detail": "When a depreciated property sells, IRS recharacterises a portion of the gain as ordinary depreciation recapture rather than long-term Capital Gain. For Real Property under §1250, the recapture rate is capped at 25%. For personal-property components (carpeting, appliances, parking lot improvements identified through Cost Segregation) under §1245, recapture is at full ordinary rates — up to 37%. 1031 Exchange defers depreciation recapture along with Capital Gain. Step-up in Basis at death eliminates both.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "Designated Agency",
     "full": "",
     "plain": "When buyer and seller use different Agents inside the same brokerage — the alternative to Dual Agency.",
@@ -1354,6 +1592,40 @@
     "category": "Financing & Lending",
     "sources": [
       "CFPB"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "Discounted Cash Flow",
+    "full": "DCF",
+    "plain": "A valuation method that projects every year's cash flow and the exit Sale Price, then discounts them back to present value using a target return rate.",
+    "snappy": "Valuation method discounting projected cash flows back to present value at a target rate.",
+    "detail": "DCF dominates institutional Commercial Real Estate underwriting. The model projects 5-10 years of annual NOI (after Cap-Ex and Replacement Reserve), an Exit Cap Rate applied to year-N+1 NOI for reversion value, and discounts every cash flow back at a target unlevered return (often 7-12% depending on risk). The IRR that makes NPV equal zero is the deal's projected return. DCF is more sensitive than direct capitalisation to: Rent growth assumptions, Exit Cap Rate, discount rate. Sensitivity tables surround the base case. The Income Approach uses DCF as its primary methodology for stabilised property.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Valuation & Appraisal",
+    "sources": [
+      "NCREIF",
+      "Appraisal Institute"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "Distressed Asset",
+    "full": "Distressed Property",
+    "plain": "A property whose owner can no longer service the debt or operate it profitably — opportunities for buyers with capital and patience to acquire below replacement cost.",
+    "snappy": "Property whose owner can't service debt or operate profitably — discount buying opportunity.",
+    "detail": "Distressed assets surface in down cycles. Causes: maturity defaults (loan comes due in a high-rate environment, can't refinance), operating shortfalls (vacancy, declining Rents), sponsor mismanagement, structural obsolescence. The acquisition path varies. Direct purchase from the owner at distressed pricing. Note acquisition from the Lender (buy the Mortgage, then negotiate with the borrower or foreclose). Foreclosure auction. Deed in Lieu negotiations. REO purchases after Foreclosure. Distressed cycles (1990 Resolution Trust, 2008-2012, 2023-2024 office) generate the largest one-time Real Estate fortunes — and the largest losses for sellers.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "NCREIF",
+      "ULI"
     ]
   },
   {
@@ -1507,6 +1779,39 @@
   },
   {
     "letter": "E",
+    "term": "ECOA",
+    "full": "Equal Credit Opportunity Act",
+    "plain": "The federal law banning Lender discrimination based on race, religion, sex, marital status, age, or receipt of public assistance — applies to Mortgages and all consumer credit.",
+    "snappy": "Federal anti-discrimination law in lending — covers all protected classes in credit.",
+    "detail": "Enacted 1974, codified at 15 USC §1691, implemented by CFPB's Regulation B. ECOA covers any extension of credit — Mortgages, auto loans, credit cards, business loans. Prohibited factors: race, colour, religion, national origin, sex, marital status, age (over 18), receipt of public-assistance income, exercise of consumer-protection rights. The CFPB has brought Redlining cases under ECOA against banks for branch placement, marketing, and Underwriting that disproportionately exclude minority neighbourhoods. Adverse-action notices required when an application is denied — listing specific reasons.",
+    "indications": [
+      "Residential",
+      "Cross-sector"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "CFPB",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Effective Age",
+    "full": "",
+    "plain": "An Appraiser's judgment of a property's apparent age — based on condition and modernisation — rather than its calendar age.",
+    "snappy": "Apparent age judged from condition and updates, distinct from chronological age.",
+    "detail": "A 1950 house gutted and modernised in 2022 might have an effective age of 5 years even though chronological age is 75. Effective Age drives the Depreciation deduction in the Cost Approach. A 1990 commercial building that has been kept in showroom condition could have effective age of 15; a poorly maintained 2010 building could have effective age of 25. Appraisers reconcile effective age against the property's economic life (typical service life for the type) to estimate accrued Depreciation as a percentage.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Valuation & Appraisal",
+    "sources": [
+      "Appraisal Foundation"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Effective Gross Income",
     "full": "EGI",
     "plain": "The property's actual collected Rent — Gross Rental Income minus what's lost to vacancy, concessions, and bad debt.",
@@ -1643,6 +1948,23 @@
     "sources": [
       "NCREIF",
       "CCIM Institute"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "External Obsolescence",
+    "full": "Economic Obsolescence",
+    "plain": "A loss in property value caused by factors outside the property — a noisy highway next door, a dying retail strip, a declining neighbourhood — that the owner can't fix.",
+    "snappy": "Loss in property value from factors outside the property the owner can't change.",
+    "detail": "External obsolescence is the third leg of Depreciation alongside physical wear and Functional Obsolescence. Examples: a new highway built behind a residential subdivision, an industrial plant moved next door to apartments, a regional employer's relocation gutting demand, neighbourhood decline pushing comparable values down. Always incurable from the property's perspective — the Appraiser deducts it as a value loss in the Cost Approach. The Income Approach and Sales Comparison Approach naturally pick up external obsolescence through depressed rents and falling Comps.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Valuation & Appraisal",
+    "sources": [
+      "Appraisal Foundation",
+      "Appraisal Institute"
     ]
   },
   {
@@ -1834,6 +2156,22 @@
   },
   {
     "letter": "F",
+    "term": "Forbearance",
+    "full": "",
+    "plain": "A temporary pause or reduction in Mortgage payments granted by the Lender during a borrower hardship — repayment is deferred but still owed.",
+    "snappy": "Temporary lender-approved pause or reduction in Mortgage payments during borrower hardship.",
+    "detail": "Forbearance differs from Loan Modification — it's temporary, not permanent. Common in three scenarios: natural disaster (federal disaster declarations trigger automatic forbearance offers from federally backed Loans), economic shock (the 2020 CARES Act allowed up to 18 months of forbearance on federally backed Mortgages), individual hardship (job loss, medical). Repayment options at the end: lump sum (rarely used), repayment plan (catch-up over months), Loan Modification rolling missed payments into Principal, partial claim (FHA buys back missed payments). Credit reporting is paused or suppressed during the forbearance.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "Fannie Mae"
+    ]
+  },
+  {
+    "letter": "F",
     "term": "Foreclosure",
     "full": "",
     "plain": "The legal process by which a Lender takes back a property after the borrower stops paying the Mortgage.",
@@ -1864,6 +2202,23 @@
     "sources": [
       "Freddie Mac",
       "FHFA"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "Functional Obsolescence",
+    "full": "",
+    "plain": "A loss in property value caused by outdated design, layout, or features — galleys kitchens, low ceilings, no garage, single bathrooms — that buyers no longer want.",
+    "snappy": "Loss in property value from outdated design, layout, or features inside the building.",
+    "detail": "Functional obsolescence is the design-side cousin of physical Depreciation. Examples: 8-foot ceilings when the market expects 9-foot, single bathrooms in 4-bedroom homes, drive-through tellers in renovated banks turned offices, narrow Office floor plates that don't suit open-plan layouts, awkward elevator location. Curable functional obsolescence (the cost to fix is less than the value gained) gets accounted for as a renovation budget. Incurable functional obsolescence (cost exceeds gain) gets deducted as a value loss. Distinct from External Obsolescence (which comes from outside the property).",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Valuation & Appraisal",
+    "sources": [
+      "Appraisal Foundation",
+      "Appraisal Institute"
     ]
   },
   {
@@ -2035,6 +2390,40 @@
   },
   {
     "letter": "H",
+    "term": "Highest and Best Use",
+    "full": "HBU",
+    "plain": "The Appraiser's judgment of the most profitable, physically possible, and legally permitted use of a property — sometimes different from how it's used today.",
+    "snappy": "Most profitable, possible, legal, and supported use of a property as judged by the Appraiser.",
+    "detail": "Highest and Best Use governs the entire Appraisal. Four tests: physically possible (Lot supports the use), legally permitted (Zoning, deed restrictions), financially feasible (market demand at viable Rents), maximally productive (highest value among feasible uses). A single-family home on a Lot zoned for higher-density Multifamily may have a higher-and-best-use as land for an apartment building — driving value above what the existing house would Sell for. Appraisers separate analysis as if vacant and as currently improved.",
+    "indications": [
+      "Commercial",
+      "Development",
+      "Investment"
+    ],
+    "category": "Valuation & Appraisal",
+    "sources": [
+      "Appraisal Foundation",
+      "Appraisal Institute"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "HMDA",
+    "full": "Home Mortgage Disclosure Act",
+    "plain": "The federal law requiring most Lenders to publicly report Mortgage application data — including race, income, and approval status — used by regulators to spot fair-lending violations.",
+    "snappy": "Federal mortgage-data disclosure law used to surface fair-lending violations.",
+    "detail": "Enacted 1975. HMDA forces banks, credit unions, and most non-bank Lenders above a small threshold to report annually on each Mortgage application — geography (census tract), applicant demographics (race, ethnicity, sex, income), loan amount, action taken (approved, denied, withdrawn). CFPB publishes the data publicly. Fair-lending regulators and journalists analyse HMDA to spot disparate impact in lending. The 2015 HMDA rule expanded reporting to include pricing data — flagging high-cost loans that may reflect Steering or pricing discrimination.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "CFPB",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "H",
     "term": "HOA",
     "full": "Homeowners Association",
     "plain": "The organisation that runs the common areas of a Condo or planned community — collects dues, sets rules, and enforces CC&Rs.",
@@ -2099,6 +2488,24 @@
   },
   {
     "letter": "H",
+    "term": "Hotel",
+    "full": "Hospitality Property",
+    "plain": "A property with rooms rented by the night to travellers — Hotels are a commercial Real Estate asset class with the most volatile income of any sector.",
+    "snappy": "Commercial property renting rooms by the night — highest income volatility of any sector.",
+    "detail": "Hotel underwriting differs from other Commercial Real Estate. Rent is set daily and reprices instantly with demand (yield management). Operating Expenses run 65-75% of revenue (versus 30-40% for Office) — labour, food and beverage, energy, brand fees, marketing. Performance metrics: ADR (Average Daily Rate), Occupancy Rate, RevPAR (Revenue per Available Room). Brand affiliation (Marriott, Hilton, Hyatt) and management contract terms matter as much as physical asset. Capital reserves run high — FF&E (furniture, fixtures, equipment) refresh cycles every 5-7 years.",
+    "indications": [
+      "Hospitality",
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "H",
     "term": "HUD",
     "full": "US Department of Housing and Urban Development",
     "plain": "The federal department in charge of US housing policy — runs FHA, Ginnie Mae, public housing, and fair-housing enforcement.",
@@ -2130,6 +2537,24 @@
     "sources": [
       "NAHB",
       "IREM"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Income Approach",
+    "full": "Income Capitalization Approach",
+    "plain": "An Appraisal method that values an investment property by its expected NOI — divide NOI by Cap Rate to get value.",
+    "snappy": "Appraisal method valuing income property by capitalising expected NOI.",
+    "detail": "The income approach dominates commercial and investment Appraisal. Two flavours. Direct capitalisation: a single year's NOI divided by a market Cap Rate produces value. Discounted Cash Flow: project annual NOI over the Hold Period, apply Discounted Cash Flow at a discount rate, add the reversion (exit Sale Price using an Exit Cap Rate), and sum to present value. Both flavours sit alongside Sales Comparison Approach for stabilised property; income approach gets primary weight for true investment assets.",
+    "indications": [
+      "Commercial",
+      "Investment",
+      "Multifamily"
+    ],
+    "category": "Valuation & Appraisal",
+    "sources": [
+      "Appraisal Foundation",
+      "Appraisal Institute"
     ]
   },
   {
@@ -2233,6 +2658,24 @@
     "sources": [
       "Federal Reserve",
       "Freddie Mac"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "IRC",
+    "full": "Internal Revenue Code",
+    "plain": "The federal tax code — Title 26 of the United States Code — that governs every federal tax rule touching Real Estate, from Mortgage interest deduction to 1031 Exchange.",
+    "snappy": "Title 26 of the US Code — the federal tax statute that governs Real Estate taxation.",
+    "detail": "IRC sections that matter for Real Estate: §121 (Primary Residence Exclusion), §163 (Mortgage interest deduction), §164 (SALT deduction), §168 (Depreciation, including Bonus Depreciation), §199A (pass-through deduction), §263 (Capital Expenditure capitalisation), §469 (Passive Loss limits), §1031 (1031 Exchange), §1245/§1250 (Depreciation Recapture), §1411 (net investment income tax). Tax practitioners cite by section number constantly. The 2017 TCJA was the largest single rewrite of these sections since 1986; provisions are scheduled to sunset in 2026 absent congressional action.",
+    "indications": [
+      "Investment",
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
     ]
   },
   {
@@ -2530,6 +2973,22 @@
   },
   {
     "letter": "L",
+    "term": "Loan Modification",
+    "full": "Mortgage Modification",
+    "plain": "A permanent change to a Mortgage's terms — rate reduction, term extension, Principal forgiveness — designed to keep a struggling borrower in their home.",
+    "snappy": "Permanent restructuring of Mortgage terms to keep a struggling borrower in their home.",
+    "detail": "Loan modifications became mainstream after 2008 through programs like HAMP (Home Affordable Modification Program, 2009-2016). Common modification levers: extend term to 30 or 40 years to lower payment, reduce Interest rate to current market, capitalise arrears into Principal, partial Principal forgiveness (rare, expensive for Lender). The borrower must demonstrate sustained hardship, then pass a trial-payment period (typically 3 months at the modified rate) before the modification becomes permanent. Federal programs require strict net-present-value tests — modification must cost Lender less than projected Foreclosure recovery.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "HUD"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Loan Officer",
     "full": "LO",
     "plain": "The person at a bank or Mortgage company who guides borrowers through the application — collects paperwork, quotes rates, submits to underwriting.",
@@ -2562,6 +3021,21 @@
       "CFPB",
       "Fannie Mae",
       "Freddie Mac"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Lockbox",
+    "full": "Real Estate Lockbox",
+    "plain": "A secure key holder mounted near a property's entrance — lets authorised Agents access vacant homes for showings without the Listing Agent physically present.",
+    "snappy": "Key holder mounted at a vacant home letting authorised Agents access for showings.",
+    "detail": "Lockboxes accelerate the showing pipeline. Electronic lockboxes (Supra, SentriLock) dominate professional Real Estate — they log every entry by Agent ID, time, and duration. Mechanical combination lockboxes survive in lower-cost markets. The Listing Agreement typically authorises the Listing Agent to install a lockbox; sellers sometimes opt out for privacy or security. Access codes are managed through MLS membership systems with daily rotating credentials. Compromised codes are a recurring industry security issue; biometric mobile-phone-pairing lockboxes are emerging.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "NAR"
     ]
   },
   {
@@ -2618,6 +3092,21 @@
   },
   {
     "letter": "M",
+    "term": "Mansion Tax",
+    "full": "",
+    "plain": "An extra Transfer Tax on high-priced property sales — New York's is the highest-profile, layered above the standard transfer tax for sales above $1 million.",
+    "snappy": "Extra Transfer Tax on high-priced property sales, above standard transfer tax.",
+    "detail": "New York's Mansion Tax: 1% on sales of $1M+ residential property, plus a graduated supplemental tax in NYC for sales above $2M reaching 3.9% on $25M+. New Jersey: 1% mansion tax on sales above $1M. Connecticut: graduated mansion tax up to 2.25%. The tax is the buyer's responsibility in most jurisdictions, hitting the cash-to-close calculation hard. Sellers occasionally offer concessions to offset. Politically popular as a 'tax the rich' lever; pricing levels have not been indexed for inflation, so the cap drifts down in real terms.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Tax",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Margin",
     "full": "",
     "plain": "The Lender's fixed markup added to the Index when an Adjustable-Rate Mortgage resets.",
@@ -2652,6 +3141,40 @@
   },
   {
     "letter": "M",
+    "term": "Marketable Title",
+    "full": "",
+    "plain": "A Title clear enough of defects that a reasonably prudent buyer would accept it — the standard buyers can demand and Title Insurance helps ensure.",
+    "snappy": "Title clear enough of defects that a reasonably prudent buyer would accept it.",
+    "detail": "Marketable title doesn't mean perfect title — it means clear of defects that would deter a reasonable buyer. Typical marketability bars: undisclosed Easements affecting use, off-record claims, gaps in the Chain of Title, unreleased prior Mortgages, unresolved Liens. Each state's Marketable Title Act (most states have one) lets the buyer reach back a statutory period (40 years, often) and treat anything older than that as cleared. Title companies issue marketable-title commitments before Closing; defects must be cured or insured around before funding. Purchase contracts typically require marketable title at Closing.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "ALTA",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Material Participation",
+    "full": "",
+    "plain": "An IRS test for whether a taxpayer is actively involved enough in a business or property to escape the Passive Loss limits.",
+    "snappy": "IRS test for active involvement that exempts an activity from Passive Loss limitations.",
+    "detail": "Material participation has seven tests under IRC §469; meeting any one qualifies. Most common: 500+ hours per year in the activity, OR substantially all participation in the activity, OR 100+ hours and no one else doing more. The hours bar combines with Real Estate Professional status to convert passive Real Estate losses to active. Material participation matters most for high-income investors trying to deduct paper losses from Bonus Depreciation against W-2 wages. IRS audits this hard — taxpayers should keep contemporaneous logs of hours.",
+    "indications": [
+      "Investment",
+      "Residential"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "MBS",
     "full": "Mortgage-Backed Security",
     "plain": "A bond made by bundling many home loans together so investors earn the monthly Mortgage payments.",
@@ -2681,6 +3204,23 @@
     "category": "Title & Ownership",
     "sources": [
       "ALTA"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Mezzanine",
+    "full": "Mezz, Mezzanine Debt",
+    "plain": "A layer of debt that sits between senior debt and equity in the Capital Stack — higher rate than Mortgage, secured by an ownership pledge rather than the property itself.",
+    "snappy": "Subordinate debt secured by entity ownership pledge, sitting between senior debt and equity.",
+    "detail": "Mezzanine debt fills the financing gap when a Sponsor's first Mortgage covers 50-65% LTV but the project needs 70-80% leverage. Mezz lenders take a pledge of the LLC membership interests in the property-owning entity — if Default occurs, the mezz lender forecloses on the LLC and steps into ownership without disturbing the senior Mortgage. Rates run 9-14% in 2024, with origination fees and exit fees on top. Intercreditor Agreements govern senior-versus-mezz rights at Default. Mezz preserves the senior Lender's cheap, low-LTV debt while still letting the Sponsor reach target leverage.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF",
+      "ULI"
     ]
   },
   {
@@ -2731,6 +3271,24 @@
     "category": "Transactions",
     "sources": [
       "NAR"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Mobile Home Park",
+    "full": "Manufactured Housing Community",
+    "plain": "A property where Tenants rent the Land Lot — but own the manufactured home (mobile home) sitting on it — historically a workforce-housing asset with cult-like investor following.",
+    "snappy": "Property where Tenants rent the Lot but own the manufactured home — a workforce-housing asset.",
+    "detail": "Mobile home parks combine the steady cash flow of Multifamily with the low operating cost of Self-Storage. The park owner provides Land, utilities, common areas, and infrastructure; the homeowner provides the dwelling. Tenants rarely move (relocating a mobile home costs $5,000-$10,000) — turnover and concessions are minimal. The sector was institutionalised in the 2010s as REITs (Sun Communities, Equity LifeStyle) consolidated mom-and-pop owners. Rent control and tenant-protection laws are tightening in several states — California, Florida, Oregon — creating regulatory risk for the asset class.",
+    "indications": [
+      "Multifamily",
+      "Affordable",
+      "Investment"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "Investopedia"
     ]
   },
   {
@@ -2853,6 +3411,23 @@
   },
   {
     "letter": "N",
+    "term": "Net Present Value",
+    "full": "NPV",
+    "plain": "The value today of all future cash flows from an investment, discounted at a target return rate — a positive NPV means the investment beats the target return.",
+    "snappy": "Sum of all future cash flows discounted to present at a target return rate.",
+    "detail": "NPV is DCF's headline output. Investors apply a discount rate equal to their required return (cost of capital, hurdle rate). If NPV is positive, the property's expected cash flows beat that hurdle; if negative, they fall short. In direct comparison terms, IRR answers 'what does this deal return' and NPV answers 'is that return high enough'. NPV depends entirely on the discount rate chosen — institutional LPs typically use 7-12% depending on strategy risk. NPV is most useful for comparing two deals against the same hurdle.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "NCREIF",
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "N",
     "term": "NNN",
     "full": "Triple Net Lease",
     "plain": "Common shorthand for a Triple Net Lease — the commercial Lease where the Tenant pays Property Tax, insurance, and maintenance on top of base Rent.",
@@ -2887,6 +3462,24 @@
   },
   {
     "letter": "N",
+    "term": "NOI Growth",
+    "full": "",
+    "plain": "The annual percentage increase in a property's NOI — the Sponsor's main lever for creating value above the going-in basis.",
+    "snappy": "Annual percentage increase in property NOI — main lever of Sponsor value creation.",
+    "detail": "NOI growth combines several inputs. Rent growth (tracking or beating market). Vacancy reduction (closing the gap between physical and economic occupancy). Other-income growth (parking, fees, ancillary revenue). Operating Expense control (water conservation, utility submetering, vendor renegotiation). Aggressive value-add Sponsors target 4-8% annual NOI growth in Multifamily during the Hold Period; institutional Core operators target 2-3%. The math is unforgiving — a 1% NOI growth shortfall over a 5-year hold compounds to 5%+ value miss at exit, often the difference between win and loss.",
+    "indications": [
+      "Commercial",
+      "Investment",
+      "Multifamily"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "NCREIF",
+      "IREM"
+    ]
+  },
+  {
+    "letter": "N",
     "term": "Nonconforming Use",
     "full": "Grandfathered Use",
     "plain": "A property use that was legal when established but no longer matches current Zoning — protected as 'grandfathered' from being shut down.",
@@ -2901,6 +3494,22 @@
     "sources": [
       "Cornell LII",
       "HUD"
+    ]
+  },
+  {
+    "letter": "N",
+    "term": "NPV",
+    "full": "Net Present Value",
+    "plain": "Common shorthand for Net Present Value — the present-value sum of all future cash flows discounted at a target return rate.",
+    "snappy": "Standard shorthand for Net Present Value in investment underwriting.",
+    "detail": "NPV is the universal shorthand in corporate finance and Real Estate underwriting for Net Present Value. Sponsors and Lenders cite NPV alongside IRR in offering memos and approval memos. See Net Present Value for the discount-rate mechanics and how NPV compares to IRR for ranking deals against a return hurdle.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "Investopedia"
     ]
   },
   {
@@ -2955,6 +3564,23 @@
     "sources": [
       "NCREIF",
       "IREM"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Passive Loss",
+    "full": "Passive Activity Loss",
+    "plain": "A tax loss from a Real Estate Investment that the IRS treats as passive — usable only against other passive income, not against W-2 wages.",
+    "snappy": "Tax loss from passive Real Estate activity, deductible only against passive income.",
+    "detail": "Passive activity loss rules (IRC §469) limit how Real Estate Investment losses can shelter other income. Rentals are passive by default — even with active management. Suspended passive losses carry forward indefinitely and free up against future passive income or when the property is sold. Two key escapes. (1) Real Estate Professional status — 750+ hours and >50% of work time in Real Estate trades — converts rental losses to active, deductible against W-2. (2) $25,000 active-participation allowance for taxpayers under $150K AGI lets some rental losses offset ordinary income.",
+    "indications": [
+      "Investment",
+      "Residential"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
     ]
   },
   {
@@ -3159,6 +3785,24 @@
   },
   {
     "letter": "P",
+    "term": "Property Manager",
+    "full": "PM",
+    "plain": "The person or company that runs a Real Estate property day-to-day — handles Tenant relations, collects Rent, oversees maintenance, manages Operating Expenses.",
+    "snappy": "Person or firm running day-to-day operations of a Real Estate property.",
+    "detail": "Property management splits into in-house (owner employs the PM) and third-party (separate management company under contract). Multifamily and Commercial Real Estate routinely use third-party PMs; small landlords often self-manage. Standard third-party fee: 3-5% of collected Rent for Multifamily, 1.5-3% for Office and Retail (negotiated lower at scale). The PM coordinates leasing, on-site staff, maintenance vendors, capital projects, financial reporting, and Tenant communications. IREM's CPM (Certified Property Manager) is the industry credential.",
+    "indications": [
+      "Commercial",
+      "Multifamily",
+      "Investment"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "IREM",
+      "BOMA"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Property Tax",
     "full": "",
     "plain": "An annual tax on real estate paid to local government — usually a percentage of the property's Assessed Value.",
@@ -3172,6 +3816,21 @@
     "category": "Tax",
     "sources": [
       "IRS"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Proposition 13",
+    "full": "Prop 13",
+    "plain": "California's 1978 constitutional amendment capping Property Tax at 1% of purchase price, with annual reassessment increases limited to 2% — a structural shape of California Real Estate.",
+    "snappy": "California 1978 amendment capping Property Tax and limiting annual reassessment increases.",
+    "detail": "Proposition 13 passed by 65% of California voters in June 1978. Three pillars: (1) Property Tax capped at 1% of assessed value. (2) Assessed value resets to market only at change of ownership or new construction — between, increases are limited to 2% per year regardless of market value. (3) Tax increases require two-thirds legislative or local-voter approval. Result: long-tenured homeowners pay a fraction of what neighbours who bought recently pay. Side effects: low residential turnover, sky-high Sale prices, lock-in effects, structural deficits in California public services. Repeal attempts repeatedly fail at the ballot box.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Tax",
+    "sources": [
+      "Cornell LII"
     ]
   },
   {
@@ -3270,6 +3929,39 @@
   },
   {
     "letter": "R",
+    "term": "Real Estate Investment Trust",
+    "full": "REIT",
+    "plain": "The full spelling of REIT — a public or private company owning income-producing Real Estate and distributing most earnings to shareholders.",
+    "snappy": "Full spelling of REIT — tax-advantaged Real Estate Investment vehicle.",
+    "detail": "Real Estate Investment Trust is the formal spelling of REIT. The structure dates to 1960 when Congress created it to let small investors access institutional-scale Commercial Real Estate. See REIT for the substantive 90% distribution requirement, asset and income tests, and how listed versus non-traded REITs differ on liquidity and reporting.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "IRS",
+      "Nareit"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Real Estate Professional",
+    "full": "REP",
+    "plain": "An IRS tax status for taxpayers spending 750+ hours and over half their working time in Real Estate trades — unlocks active deduction of rental losses against ordinary income.",
+    "snappy": "IRS tax status for full-time Real Estate workers, allowing active deduction of rental losses.",
+    "detail": "Real Estate Professional status requires meeting both tests in IRC §469(c)(7): (1) more than half of the taxpayer's personal services in trades or businesses during the year are in Real Property trades, AND (2) 750+ hours of service in Real Property trades. Real Property trades include development, construction, brokerage, leasing, management, and operations. W-2 jobs that aren't Real Estate-related don't count. Once qualified, all rental activities can convert to active treatment (when also Materially Participating), unlocking losses against ordinary income — a major tax tool for high-income investors.",
+    "indications": [
+      "Investment"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "Real Property",
     "full": "",
     "plain": "The Land itself plus anything permanently attached — buildings, fences, the bedrock under your feet.",
@@ -3354,6 +4046,22 @@
     "sources": [
       "CFPB",
       "Freddie Mac"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Regulation Z",
+    "full": "Reg Z",
+    "plain": "The CFPB regulation that implements TILA — spelling out the specific disclosures, calculations, and timing every consumer Lender must follow.",
+    "snappy": "CFPB regulation implementing TILA — governs disclosure forms, timing, and calculations.",
+    "detail": "Regulation Z lives at 12 CFR Part 1026 (formerly Federal Reserve's Regulation Z). Covers: APR calculation methodology, finance charge components, Loan Estimate and Closing Disclosure content (TRID), right of rescission for refinances (3-business-day cooling-off period), advertising rules (any rate quote triggers full disclosure), ability-to-repay and Qualified Mortgage rules under Dodd-Frank, Loan Officer compensation restrictions. Violations carry both private rights of action and CFPB enforcement. Frequent target of compliance officers, exam findings, and litigation.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "CFPB",
+      "Cornell LII"
     ]
   },
   {
@@ -3448,6 +4156,23 @@
   },
   {
     "letter": "R",
+    "term": "Reserve Study",
+    "full": "Capital Reserve Study",
+    "plain": "A professional analysis of an HOA or Condo association's long-term capital needs — Roof, HVAC, paving — and the funding required to meet them without Special Assessments.",
+    "snappy": "Analysis of an HOA's long-term Capital Expenditure needs and required reserve funding.",
+    "detail": "Reserve studies became standard practice after high-profile assessment disputes in the 1990s. The study inventories building components (Roof, façade, paving, HVAC, elevators, pool, mechanical), estimates remaining useful life and replacement cost for each, then computes annual reserve contributions needed to fund replacements without Special Assessments. Required by statute in California, Florida, Nevada, and a growing list of states. The 2021 Surfside condo collapse intensified reserve-study scrutiny — Florida 2022 reforms mandate reserve funding for structural integrity items, no waiver permitted. Lender Underwriting increasingly looks for current reserve studies as part of HOA review.",
+    "indications": [
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "NAHB",
+      "IREM"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "Residential Real Estate",
     "full": "",
     "plain": "Real Estate intended primarily as a place for people to live — single-family homes, Condos, townhomes, and small Multifamily.",
@@ -3515,6 +4240,40 @@
   },
   {
     "letter": "S",
+    "term": "Sale-Leaseback",
+    "full": "Sale-Leaseback Transaction",
+    "plain": "A transaction where the property owner sells the building and simultaneously signs a long-term Lease to stay as a Tenant — freeing capital while keeping operational use.",
+    "snappy": "Owner-occupier sells the property and simultaneously becomes long-term Tenant under a Lease.",
+    "detail": "Sale-leasebacks are a Commercial Real Estate financing tool. The owner (often a corporate operating business) frees up trapped capital by selling Real Estate to an investor (often a Triple Net Lease REIT) and signs a 10-25 year NNN Lease back at market or above-market Rent. Common in: retail chains, industrial manufacturing, healthcare, hotel operators. Tax considerations are complex — TCJA limits on rent deductibility for sale-leasebacks with above-market Rent. Lease-versus-buy analysis weighs the cost of capital trade-off. STORE Capital, Spirit Realty Capital, and Realty Income built large portfolios around sale-leaseback origination.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NCREIF",
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Sales Comparison Approach",
+    "full": "Market Approach",
+    "plain": "An Appraisal method that values a property by what similar properties have recently sold for — the everyday approach for residential homes.",
+    "snappy": "Appraisal method valuing a property against recent sales of comparable properties.",
+    "detail": "The sales comparison approach is the dominant residential Appraisal method. The Appraiser identifies three to six recent comparable sales (Comps), adjusts each upward or downward for differences in size, condition, location, age, and features, and reconciles the adjusted prices to estimate the subject's value. USPAP requires the Appraiser to bracket — using Comps that are both above and below the subject in each attribute. Strongest where there is a robust market of similar properties; weakest for unique properties or thin markets.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Valuation & Appraisal",
+    "sources": [
+      "Appraisal Foundation",
+      "Appraisal Institute"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "SALT",
     "full": "State and Local Tax",
     "plain": "The combined state and local taxes a homeowner pays — capped at $10,000 of federal deduction since the 2017 TCJA.",
@@ -3523,6 +4282,22 @@
     "indications": [
       "Residential",
       "Investment"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Section 121 Exclusion",
+    "full": "Primary Residence Exclusion, §121 Exclusion",
+    "plain": "A federal tax break letting homeowners exclude up to $250,000 ($500,000 married filing jointly) of Capital Gain from the sale of a primary residence.",
+    "snappy": "Federal tax break excluding up to $250K/$500K Capital Gain on primary-residence sale.",
+    "detail": "IRC §121 lets a homeowner exclude $250,000 ($500,000 married filing jointly) of Capital Gain from federal tax on the sale of a primary residence, provided the seller owned and used the home as principal residence for at least 24 months of the 60 months ending on the sale date. The exclusion can be reused every two years. Doesn't apply to investment property — that's where 1031 Exchange comes in. Partial exclusion is available for early sales due to change of employment, health, or unforeseen circumstances. The cap hasn't been adjusted for inflation since 1997 — high-price-market sellers increasingly exceed it.",
+    "indications": [
+      "Residential"
     ],
     "category": "Tax",
     "sources": [
@@ -3567,6 +4342,24 @@
   },
   {
     "letter": "S",
+    "term": "Self-Storage",
+    "full": "Storage Facility",
+    "plain": "A property with rentable storage units for personal or business goods — small individual units rented month-to-month, low operating costs, recession-resilient.",
+    "snappy": "Commercial property of rentable storage units, mostly month-to-month — recession-resilient.",
+    "detail": "Self-storage emerged as an institutional asset class through the 2000s and accelerated post-2010 with REITs like Public Storage, Extra Space, CubeSmart, and Life Storage. Operating Expenses are unusually low (often 25-35% of revenue) — minimal staffing (one office worker, automated gates), no Tenant Improvement, no HVAC in most unit types. Move-out cycles are constant but turnover costs are trivial. Demand is structural — household downsizing, life-event-driven (death, divorce, downsize, dislocation). Performed strongest in the sector through the 2008 recession and the 2020 pandemic.",
+    "indications": [
+      "Commercial",
+      "Investment",
+      "Specialty"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Seller",
     "full": "",
     "plain": "The party transferring ownership of a property — represented in the transaction by a Listing Agent.",
@@ -3580,6 +4373,24 @@
     "category": "Transactions",
     "sources": [
       "NAR"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Senior Housing",
+    "full": "Senior Living",
+    "plain": "Residential property purpose-built for older adults — independent living, assisted living, memory care, skilled nursing — a specialty Commercial asset class.",
+    "snappy": "Specialty Multifamily for older adults across independent, assisted, memory care, and skilled-nursing tiers.",
+    "detail": "Senior housing spans an acuity spectrum. Independent living (55+ communities, minimal services). Assisted living (meals, light medical, daily activities — most common subtype). Memory care (secured dementia units). Skilled nursing (medical care, Medicare/Medicaid reimbursed). Demand is demographically driven by ageing baby boomers. Operating intensity is high — labour 50-60% of revenue. Healthcare REITs (Welltower, Ventas, HCP) hold the largest institutional portfolios. Sector took a significant 2020-2021 hit from pandemic mortality and operating cost spikes; recovered through 2023.",
+    "indications": [
+      "Specialty",
+      "Multifamily",
+      "Investment"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "ULI"
     ]
   },
   {
@@ -3685,6 +4496,23 @@
   },
   {
     "letter": "S",
+    "term": "Special Warranty Deed",
+    "full": "Limited Warranty Deed",
+    "plain": "A Deed where the seller warrants only the period of their own ownership — not the full Chain of Title — common in commercial transactions and tax sales.",
+    "snappy": "Deed warranting only against defects arising during seller's ownership, not prior chain.",
+    "detail": "Special Warranty Deed is the middle ground between Warranty Deed (broad warranties going back forever) and Quitclaim Deed (no warranties at all). The grantor warrants only against defects that arose during their ownership — not defects predating it. Common in: commercial transactions where the seller refuses unlimited indemnification, tax sales (the state never had earlier history to warrant), estate sales by executors. Buyers protect against pre-grantor defects via Title Insurance. Texas, Florida, and some Western states call this 'Special Warranty Deed' as the dominant residential conveyance form, blurring the residential convention elsewhere.",
+    "indications": [
+      "Commercial",
+      "Residential"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "ALTA",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Sponsor",
     "full": "GP, General Partner",
     "plain": "The active manager of a Real Estate syndication — finds the deal, raises equity, oversees operations, and earns a Promote for performance.",
@@ -3751,6 +4579,24 @@
     "sources": [
       "IRS",
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Student Housing",
+    "full": "Off-Campus Housing",
+    "plain": "Multifamily property purpose-built for university students — typically rented by the bed rather than the unit, leased to match the academic calendar.",
+    "snappy": "Multifamily property built for and rented by the bed to university students.",
+    "detail": "Student housing operates on a unique cycle. Pre-leasing begins in fall for the following academic year; near-full occupancy expected by spring for August move-in. Rent is quoted per bed, with shared common areas and bedrooms inside units. Parents typically co-sign or guarantee, lifting credit risk. Returns track university enrollment trends — Power 5 schools with strong enrollment growth attract institutional capital; mid-tier schools face structural decline. American Campus Communities and Education Realty Trust built the listed REIT sector; Blackstone took ACC private in 2022 for $13B.",
+    "indications": [
+      "Multifamily",
+      "Specialty",
+      "Investment"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "ULI"
     ]
   },
   {
@@ -3892,6 +4738,36 @@
   },
   {
     "letter": "T",
+    "term": "Texas Homestead",
+    "full": "Homestead Exemption",
+    "plain": "Texas's strong constitutional protection of a primary residence — caps Property Tax assessment growth, shields against most creditor claims, restricts forced sale.",
+    "snappy": "Texas constitutional protection of primary residence — tax cap, creditor shield, forced-sale restriction.",
+    "detail": "Texas Homestead protections sit in Article XVI of the Texas Constitution. Three layers. Property Tax: assessed value growth on a primary residence capped at 10% per year through the Homestead exemption, plus a $40,000 (or higher) reduction in taxable value. Creditor protection: the homestead cannot be reached by most unsecured creditors — federal tax liens and Mortgages can; credit-card debt and most lawsuits cannot. Forced sale: severely restricted — only for Property Tax, Mortgage, mechanic's lien for improvements, or home-equity loans. The protection makes Texas a popular asset-protection state.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Tax",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "TI",
+    "full": "Tenant Improvement",
+    "plain": "Common shorthand for Tenant Improvement — the allowance or work funding interior customisation of leased space for a Tenant.",
+    "snappy": "Standard shorthand for Tenant Improvement in Commercial Real Estate.",
+    "detail": "TI is universal shorthand in Commercial Real Estate for Tenant Improvement. Lease negotiations centre on the TI allowance — typically $25-$150 PSF depending on market and Lease length. The 'TI package' refers to the full set of finishes, mechanical work, and Build-Out the Landlord funds. See Tenant Improvement for the negotiation economics, amortisation treatment, and how TI sizes against Lease length.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "IREM"
+    ]
+  },
+  {
+    "letter": "T",
     "term": "TILA",
     "full": "Truth in Lending Act",
     "plain": "A federal law making Lenders disclose the full cost of credit in standard form — APR, finance charges, payment schedule.",
@@ -3975,6 +4851,24 @@
   },
   {
     "letter": "T",
+    "term": "Transfer Tax",
+    "full": "Real Estate Transfer Tax, Deed Tax",
+    "plain": "A state or municipal tax owed when a property changes hands — calculated as a percentage of the Sale Price, usually paid at Closing.",
+    "snappy": "State or municipal tax on property transfers, calculated as a percentage of Sale Price.",
+    "detail": "Transfer tax rates vary wildly. No transfer tax: Texas, Mississippi, Alaska, Idaho, Indiana, Louisiana, Missouri, Montana, New Mexico, North Dakota, Oregon, Utah, Wyoming. High transfer tax: Delaware (4%), Pennsylvania (2%), New York City (1.4% + state). Buyer-paid, seller-paid, or split depends on state custom — California typically seller-paid, New York buyer-paid for new construction. Mansion Tax (NYC, NJ, some others) adds an extra layer above price thresholds. Recorded with the Deed at Closing; failure to pay can cloud Title.",
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Cross-sector"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "T",
     "term": "Treasury",
     "full": "",
     "plain": "Bonds issued by the US federal government — the 10-year Treasury yield is the main benchmark for fixed Mortgage rates.",
@@ -4038,6 +4932,23 @@
     "sources": [
       "Cornell LII",
       "IRS"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Trustee",
+    "full": "",
+    "plain": "A neutral party holding legal Title to a property until a debt is paid — the structural role in a Deed of Trust in states that use that financing form instead of a Mortgage.",
+    "snappy": "Neutral third party holding legal Title under a Deed of Trust until the loan is repaid.",
+    "detail": "In Deed of Trust states (California, Texas, Virginia, much of the West), a third-party Trustee holds bare legal Title while the borrower has equitable Title and possession. The Lender is the Beneficiary. On Default, the Trustee can conduct a non-judicial Foreclosure under the power-of-sale clause — substantially faster and cheaper than judicial Foreclosure in Mortgage states. Typical Trustees: title companies, trust companies, attorneys. The Trustee's duties are largely ministerial — record releases when loans are paid, conduct sales when Default occurs.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII",
+      "ALTA"
     ]
   },
   {
@@ -4206,6 +5117,24 @@
     "sources": [
       "NCREIF",
       "ULI"
+    ]
+  },
+  {
+    "letter": "W",
+    "term": "Workout",
+    "full": "Loan Workout",
+    "plain": "The negotiated restructuring of a Mortgage in Default — Lender and borrower agree to modified terms (rate reduction, term extension, Principal forgiveness) rather than Foreclose.",
+    "snappy": "Negotiated debt restructuring between Lender and defaulted borrower.",
+    "detail": "Workouts cover a spectrum from light to heavy intervention. Forbearance: temporary pause in payments. Loan Modification: permanent change to rate, term, or Principal. Discounted payoff: borrower pays less than full balance in exchange for full release. Short Sale: sale below mortgage balance with Lender consent. Deed in Lieu: voluntary Title transfer to Lender. Workouts cost less than Foreclosure for both sides — saving legal fees, time, and property deterioration. Special Servicers in the CMBS world handle distressed Loans on behalf of bondholders. The 2008-2012 cycle made the term and practice mainstream.",
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Cross-sector"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "Investopedia"
     ]
   },
   {
