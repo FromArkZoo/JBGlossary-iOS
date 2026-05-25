@@ -943,7 +943,7 @@ BATCH_2_DEPTH = [
     # --- Fair Housing & regulatory regime --------------------------------
     # Fair Housing Act already exists in the corpus from the previous session;
     # the entry below covers the same ground with stronger historical detail
-    # and was removed to avoid duplicate-content conflict (see Policy Rule 7).
+    # and was removed to avoid duplicate-content conflict (see Policy Rule 8).
     entry(
         "Section 8", "Housing Choice Voucher Program",
         "The federal rent-subsidy program that helps low-income Tenants pay private-market Rent — vouchers cover the gap between income and Rent.",
@@ -1053,10 +1053,10 @@ BATCH_2_DEPTH = [
 
 
 # ============================================================================
-# BATCH 2b — Post-batch-2 paired-entry fixes (12 terms, Rule 7)
+# BATCH 2b — Post-batch-2 paired-entry fixes (12 terms, Rule 8)
 #
 # Audit after batch 2 surfaced shorthand variants (LP 10x, GP 3x, FAR 6x,
-# NNN 3x, Dodd-Frank 3x bare) of newly added entries — Rule 7 dictates
+# NNN 3x, Dodd-Frank 3x bare) of newly added entries — Rule 8 dictates
 # that both forms should exist and one should be a stub. These are the
 # stub siblings, plus a handful of additional real entries (SALT, Class A,
 # Class B, Class C, Common Area, Capital Expenditure) the audit caught

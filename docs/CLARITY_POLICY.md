@@ -179,7 +179,20 @@ A separate, corpus-wide thoroughness rule: if a capitalised proper noun (Fannie 
 
 This rule applies before the others: write the entries first, then write the prose, so cross-references find live targets.
 
-### 7. Paired acronym + full-form entries
+### 7. Word-count drift on dense topics
+
+Complex topics (Defeasance, Strict Foreclosure, Capital Stack, Estate Tax, three-pronged Easement variants) sometimes need more words than the strict policy caps to convey the concept without sacrificing accuracy. After authoring the JB Real Estate corpus to ~570 entries, an audit found roughly 7% of `plain` lines and 17% of `detail` blocks exceed their caps by 3-25 words.
+
+**How to apply.** Stay inside the caps when you can. If a topic genuinely needs more, prefer:
+1. **Splitting the entry** — if `detail` is running long because the term has two distinct senses, author both senses or pair them as related entries.
+2. **Moving content** — if `plain` is overflowing because too much rides on it, push the depth into `detail` and keep `plain` to the headline metaphor.
+3. **Cutting examples** — most policy violations are caused by 2-3 examples in `detail` where one would suffice.
+
+Acceptable over-cap entries: 27-28 word `plain` lines (3-word grace), 80-90 word `detail` blocks (10-word grace). Beyond that, treat the violation as a quality bug worth addressing in the next corpus-wide review pass.
+
+**Final-pass policy.** A corpus-wide tightening pass should target the worst over-cap entries (>32 plain, >100 detail) for rewrites before any v1 submission. The audit script's word-count check (TBD) will surface them.
+
+### 8. Paired acronym + full-form entries
 
 Many concepts have both an acronym (LTV, DTI, ARM, REIT) and a full spelling (Loan-to-Value, Debt-to-Income Ratio, Adjustable-Rate Mortgage, Real Estate Investment Trust). When both deserve to be entries — so prose written either way auto-links — **one entry holds the rich content; the other is a short complementary stub that points to it**. Never duplicate the same prose under two names.
 
