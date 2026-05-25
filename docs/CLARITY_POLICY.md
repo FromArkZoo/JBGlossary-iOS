@@ -179,6 +179,18 @@ A separate, corpus-wide thoroughness rule: if a capitalised proper noun (Fannie 
 
 This rule applies before the others: write the entries first, then write the prose, so cross-references find live targets.
 
+### 7. Paired acronym + full-form entries
+
+Many concepts have both an acronym (LTV, DTI, ARM, REIT) and a full spelling (Loan-to-Value, Debt-to-Income Ratio, Adjustable-Rate Mortgage, Real Estate Investment Trust). When both deserve to be entries — so prose written either way auto-links — **one entry holds the rich content; the other is a short complementary stub that points to it**. Never duplicate the same prose under two names.
+
+The complementary stub still earns a `plain`, `snappy`, and `detail` line, but the detail focuses on naming convention (when each form is used in industry) or the relationship to the canonical entry, not on re-explaining the concept. See the existing ARM entry — *"common shorthand in US mortgage lending for an Adjustable-Rate Mortgage. Naming follows a fixed/variable convention: a 5/1 ARM has a 5-year fixed period..."* — for the model.
+
+**How to apply:**
+- When introducing a new entry, search the JSON first for an acronym or full-form sibling. Read its body before drafting yours.
+- If both exist, decide which holds the rich body (typically the form most commonly used in industry prose) and prune the other to a stub.
+- The stub's snappy can begin *"Common shorthand for…"* or *"Full spelling of…"* to signal its role.
+- Author the JSON so the canonical body and the stub stay in sync — when one is rewritten, re-read the other.
+
 ## What gets a `plain` line
 
 Every term, eventually. But prioritise by **reference frequency** — terms most cited in other definitions should get `plain` first, so chains terminate cleanly at the most-traversed nodes. The audit script ranks terms by frequency.

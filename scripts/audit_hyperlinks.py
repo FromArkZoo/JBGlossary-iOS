@@ -55,8 +55,8 @@ HIGH_DENSITY_SAMPLE_SIZE = 30
 # all-caps acronym 2–8 chars. Used by the dangling-link detector.
 PHRASE_RE = re.compile(
     r"\b("
-    r"[A-Z][a-zA-Z]+(?:[ \-][A-Z][a-zA-Z]+){0,3}"   # Capitalised Multi Word
-    r"|"
+    r"[A-Z][a-zA-Z]+(?:[ \-&][A-Z][a-zA-Z]+){0,3}"   # Capitalised Multi Word
+    r"|"                                              # (& joins handle CC&Rs)
     r"[A-Z]{2,8}"                                    # ACRONYM
     r")\b"
 )
@@ -94,6 +94,35 @@ DANGLING_DENYLIST = {
     # Government / regulator names with their own dedicated source links
     "Federal", "Fed", "Treasury", "Treasuries",
     "IOU",
+    # Hyphenated-entry prefixes whose tail is lowercase (Pre-approval, Co-op).
+    # PHRASE_RE only joins capitalised continuations, so the prefix lands here
+    # as a bare proper-noun candidate even though the linker handles the
+    # whole compound when it sits in prose.
+    "Pre", "Co",
+    # Federal-agency expansions that appear in `plain` lines for novice
+    # readability — the acronym entry's `full` field carries the same string
+    # in the UI. Listed here as known noise; if any component noun ever
+    # becomes its own entry (e.g. "Administration"), revisit Rule 4b.
+    "Federal Housing Administration", "Federal Housing",
+    "US Department", "Veterans Affairs",
+    "Department of Veterans Affairs", "US Department of Agriculture",
+    "US Department of Housing", "Section",  # 'Section 8' housing
+    # Statute shorthand surfaced in prose; not entries themselves.
+    "Dodd-Frank Act", "TCJA",  # candidate entries for batch 2
+    # Tail-fragment artifacts of PHRASE_RE breaking on lowercase connectors
+    # (Debt-to-Income → "Debt" then "Income Ratio"; FHFA Conforming Loan limits
+    # → "FHFA Conforming Loan"; US Mortgages → "US Mortgages" composite).
+    # Both halves link separately in the UI; the regex just can't see the join.
+    "Income Ratio", "US Mortgages", "FHFA Conforming Loan",
+    "Mortgage Interest", "Landlord-Tenant", "Closing Cost",
+    "Cash Return",
+    # Generic single-word artifacts — sentence fragments, compound titles,
+    # or generic English caught by PHRASE_RE despite not being missing entries.
+    "Debt", "Eligibility", "Ethics", "Code", "Development",
+    "Sale", "Tenancy", "Certificate", "Exchange",
+    # US states caught in prose (carriers of last resort, state-by-state law)
+    "Oregon", "Illinois", "Virginia", "West", "Carolina",
+    "Minnesota", "Louisiana", "Arizona", "Nevada", "Maryland",
 }
 
 # High-risk multi-meaning glossary names. When these auto-link, the linker
@@ -234,9 +263,17 @@ def detect_dangling(entry, all_terms, name_lookup):
                 continue
             if phrase.lower() in name_set_lower:
                 continue  # would link, no problem
-            # Strip trailing 's' / 'es' and re-check (matches linker plural rule)
-            stem = re.sub(r"e?s$", "", phrase, flags=re.IGNORECASE)
-            if stem.lower() in name_set_lower:
+            # The Swift linker accepts +s and +es plural suffixes via (?:e?s)?
+            # in Hyperlinks.swift. Try BOTH stems — greedy `e?s$` strips "es"
+            # first ("Mortgages" → "Mortgag"), which misses the +s case
+            # ("Mortgages" → "Mortgage"). Check the +s stem too.
+            phrase_lower = phrase.lower()
+            stemmed = False
+            if phrase_lower.endswith("es") and phrase_lower[:-2] in name_set_lower:
+                stemmed = True  # +es plural matches an entry
+            elif phrase_lower.endswith("s") and phrase_lower[:-1] in name_set_lower:
+                stemmed = True  # +s plural matches an entry
+            if stemmed:
                 continue
             key = (phrase, field)
             if key in seen:
