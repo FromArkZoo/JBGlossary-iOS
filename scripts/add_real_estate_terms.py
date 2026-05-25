@@ -3561,6 +3561,438 @@ BATCH_7_MECHANICS = [
 ]
 
 
+# ============================================================================
+# BATCH 8 — Sustainability, building specifics, NNN subtypes, title mechanics
+#           (50 terms)
+# ============================================================================
+
+BATCH_8_NICHE = [
+    # --- Sustainability & green building --------------------------
+    entry(
+        "LEED", "Leadership in Energy and Environmental Design",
+        "The dominant US green-building certification system — buildings earn LEED Certified, Silver, Gold, or Platinum status based on points across energy, water, materials, and site.",
+        "Dominant US green-building certification — Silver, Gold, Platinum tiers based on point system.",
+        "LEED was developed by the US Green Building Council (USGBC) starting in 1998. Buildings pursue LEED for design, construction, and operations across categories: location and transportation, site, water efficiency, energy and atmosphere, materials and resources, indoor environmental quality, innovation, and regional priority. Tiers: Certified (40+ points), Silver (50+), Gold (60+), Platinum (80+). Commercial LEED certification carries Rent premiums of 3-7% and Sale Price premiums of 5-15% relative to non-certified. New York's Local Law 97 and other municipal greenhouse-gas laws are pushing existing buildings toward LEED-equivalent retrofits.",
+        ["ULI", "HUD"],
+        indications=["Development", "Commercial"],
+        category="Development",
+    ),
+    entry(
+        "Energy Star", "Energy Star for Buildings",
+        "An EPA program rating commercial buildings on energy performance — 1-100 score relative to comparable buildings — Energy Star Certified at 75+.",
+        "EPA building-energy rating — 1-100 score; Energy Star certified at 75+.",
+        "Energy Star for Buildings rates whole-building energy performance using EPA's Portfolio Manager benchmarking tool. The 1-100 score reflects energy use intensity compared to similar buildings nationally. Energy Star Certified buildings score 75+ (top quartile). Major Commercial Real Estate operators publish portfolio Energy Star scores — institutional LPs and ESG-focused investors track them as proxy metrics. Many cities now require Energy Star benchmarking for buildings above size thresholds (NYC, Chicago, Philadelphia, Seattle, Washington DC). Energy Star certification renews annually; performance drift is common after initial certification.",
+        ["HUD"],
+        indications=["Commercial"],
+        category="Management & Operations",
+    ),
+    entry(
+        "Modular Construction", "",
+        "Building construction where entire room-sized modules are manufactured off-site in a factory, then transported to the site and assembled — faster build, controlled quality, lower waste.",
+        "Construction with factory-built room-sized modules transported and assembled on-site.",
+        "Modular Construction competes with traditional Stick-Built on cost, timeline, and quality. Modules manufactured in factories under controlled conditions reach 80-95% completion before shipping; on-site work focuses on foundation, site connections, and finishing. Build time: 30-50% shorter than Stick-Built. Total cost: comparable or slightly cheaper depending on transport distance. Quality: more consistent (factory QC) but design flexibility constrained. Common in: Hotels (Marriott has aggressive modular pipeline), Affordable Housing, Multifamily mid-rise, school construction. The technology is decades old; institutional adoption has accelerated post-2018 as labour shortages bite.",
+        ["NAHB", "ULI"],
+        indications=["Development", "Multifamily", "Hospitality"],
+        category="Development",
+    ),
+    entry(
+        "Stick-Built", "Stick Framing, Conventional Construction",
+        "Traditional Single-Family or low-rise construction using individual wood studs framed on-site — distinct from Modular Construction (factory-built) or Panelised Construction.",
+        "Traditional on-site wood-frame construction using individual studs.",
+        "Stick-Built dominates US Single-Family residential construction. Workers frame each wall, floor, and roof piece-by-piece on-site using 2x4 or 2x6 studs and beams. Pros: maximum design flexibility, well-understood by every contractor, easy field changes during construction. Cons: weather delays (rain, freeze), inconsistent quality based on crew skill, longer build cycle (8-14 months for typical Custom Home), more waste. Multi-family up to 4-5 storeys can be Stick-Built (Type V); above that, fire codes require steel or concrete. Skill labour shortages have made Stick-Built timelines unpredictable in many markets.",
+        ["NAHB"],
+        indications=["Residential", "Development"],
+        category="Development",
+    ),
+    entry(
+        "Mass Timber", "Cross-Laminated Timber, CLT",
+        "A construction system using engineered timber panels — Cross-Laminated Timber (CLT), Glued-Laminated Timber — that can support multi-story commercial buildings as a sustainable alternative to steel and concrete.",
+        "Engineered-timber construction supporting multi-story commercial buildings sustainably.",
+        "Mass Timber emerged as a sustainable alternative to steel and concrete in the 2010s. CLT (Cross-Laminated Timber) layers thick wood panels with grain in perpendicular directions, producing structural strength comparable to concrete. Carbon footprint dramatically lower than steel or concrete. Notable Mass Timber projects: 25 King (Brisbane, 10 stories), T3 Bayside (Toronto), Carbon12 (Portland), Ascent (Milwaukee, 25 stories — tallest as of 2024). Building codes evolved through 2021 IBC updates to permit mass timber up to 18 stories with appropriate fire ratings. Cost premium 5-15% over conventional construction, but ESG-conscious developers absorb it.",
+        ["ULI", "NAHB"],
+        indications=["Development", "Commercial"],
+        category="Development",
+    ),
+
+    # --- Office building specifics ---------------------------------
+    entry(
+        "R/U Factor", "Rentable-Usable Factor, Load Factor",
+        "The ratio of rentable square footage to usable square footage in an Office building — captures the Common Area allocated to each Tenant's billable space.",
+        "Office building Rentable-Usable ratio — captures Common Area allocated to billable space.",
+        "R/U Factor (also Load Factor) translates between usable space (what the Tenant actually occupies) and rentable space (what the Tenant pays Rent on). A 10,000 SF usable suite in a building with a 15% Load Factor pays Rent on 11,500 RSF. The factor allocates Common Area (lobby, hallways, restrooms, mechanical rooms) pro-rata to each Tenant. Typical R/U: 12-18% for Office, lower for Industrial (almost no Common Area), higher for Multifamily (substantial Common Areas in luxury buildings). BOMA's Standard Method for Measuring Floor Area in Office Buildings defines the calculation precisely.",
+        ["BOMA", "IREM"],
+        indications=["Commercial"],
+        category="Property Types",
+    ),
+    entry(
+        "Loss Factor", "",
+        "The percentage of an Office building's gross area that isn't directly leasable — the inverse of the R/U Factor.",
+        "Percentage of Office building's gross area not directly leasable.",
+        "Loss Factor measures the same concept as R/U Factor from a different angle. Loss Factor = (Rentable − Usable) / Rentable. A building with 15% Loss Factor has 15% of rentable space allocated to Common Areas. Boutique buildings (no large lobby, minimal common areas) run 10-12% Loss Factor; trophy towers with elaborate lobbies and amenities run 18-25%. Tenants comparing buildings normalise on Usable SF rather than Rentable SF to compare apples-to-apples. Brokers report Loss Factor as standard column in Office market intelligence.",
+        ["BOMA"],
+        indications=["Commercial"],
+        category="Property Types",
+    ),
+    entry(
+        "Floor Plate", "Floor Plate Size",
+        "The total floor area on one Office floor — drives Tenant fit, efficiency, and the leasing strategy.",
+        "Total floor area on one Office floor — drives Tenant fit and leasing strategy.",
+        "Floor Plates shape Office building strategy. Trophy CBD towers: 20,000-40,000 SF Floor Plates supporting large Tenants. Mid-rise suburban Office: 12,000-25,000 SF supporting multiple Tenants per floor. Smaller boutique buildings: 5,000-10,000 SF, single-Tenant floor configurations possible. Single-Tenant floor occupancy maximises Tenant brand expression; Multi-Tenant floors increase R/U Factor through shared elevator lobby and corridors. Large-Floor-Plate Tenant demand drove the post-2020 surge in dense urban-core leasing while small-Floor-Plate suburban Office struggled.",
+        ["BOMA", "NCREIF"],
+        indications=["Commercial"],
+        category="Property Types",
+    ),
+
+    # --- Industrial specifics --------------------------------------
+    entry(
+        "Clear Height", "Clear Ceiling Height",
+        "The vertical distance from the floor to the lowest hanging object inside an Industrial building — drives storage capacity per square foot.",
+        "Industrial building vertical clearance from floor to lowest hanging object.",
+        "Clear Height drives Industrial property economics. Old (pre-1980) warehouses: 18-22 foot clear. Modern bulk warehouses: 32-40+ foot clear. The taller the clear, the more pallet positions per square foot using vertical racking. Amazon-style fulfilment centres demand 36-40 foot clear; e-commerce-grade modern bulk space trades at substantial Rent premium over older warehouses. Cross-Dock facilities have varying clear heights by zone. Specialty: cold storage requires lower clear heights (16-22 foot typical) due to refrigeration costs and operational constraints. Clear Height plus Truck Court depth are the two structural variables driving Industrial Rent per square foot.",
+        ["NCREIF", "ULI"],
+        indications=["Industrial", "Commercial"],
+        category="Property Types",
+    ),
+    entry(
+        "Truck Court", "Truck Court Depth",
+        "The paved area outside the dock doors of an Industrial building where trucks back in to load and unload — measured in feet from the building face.",
+        "Paved area at Industrial building dock doors where trucks load and unload.",
+        "Truck Court depth drives Industrial functionality. Modern bulk warehouse: 130-185 foot Truck Court allowing 53-foot trailer trucks to back in and turn around. Older 1970s-1980s warehouses: 100-130 foot Truck Court — handles smaller trailers but constrains modern operations. Dock-high (4 foot above grade with dock doors at trailer-bed height) versus drive-in (grade-level with overhead doors for forklift drive-in) configurations both need adequate Truck Court. Trailer parking spots add: modern e-commerce facilities want 1.0-1.5 trailer parking positions per dock door. Truck Court inadequacy is the most common functional obsolescence driver pricing older Industrial below modern Comps.",
+        ["NCREIF", "ULI"],
+        indications=["Industrial"],
+        category="Property Types",
+    ),
+    entry(
+        "Cross-Dock", "Cross-Docking Facility",
+        "An Industrial building configured for through-flow logistics — inbound trucks on one side, outbound trucks on the other — minimising on-site storage.",
+        "Industrial building with through-flow logistics, dock doors on both sides.",
+        "Cross-Dock facilities trade storage for throughput. Configuration: dock doors on opposing long sides of the building, allowing inbound trailers to unload at one end and outbound to load at the other within hours, never inventorying in racking. Common Tenants: parcel carriers (FedEx, UPS), grocery distribution, retail consolidation. Building dimensions: typically 200-400 feet wide and 800-1,500 feet long, with 1:1 inbound-outbound dock door ratio. Truck Court depth is critical on both sides. Cross-Dock requires more land per square foot of building than conventional warehouse; suitable parcels are scarce in dense urban infill markets.",
+        ["NCREIF"],
+        indications=["Industrial"],
+        category="Property Types",
+    ),
+    entry(
+        "Bulk Warehouse", "Bulk Distribution",
+        "The largest category of Industrial property — 200,000-1,000,000+ SF buildings designed for high-volume product storage and distribution.",
+        "Largest Industrial category — 200,000-1M+ SF buildings for high-volume storage and distribution.",
+        "Bulk Warehouse anchors e-commerce supply chains. Typical specs: 32-40 foot clear height, 50x50+ foot column spacing for flexible racking, ESFR sprinklers, dock door counts 75-300+, Truck Court depths 130-185 feet, trailer parking 100-300+ positions. Tenant categories: third-party logistics (Prologis customers), retail distribution (Walmart, Target, Costco direct DCs), e-commerce fulfilment (Amazon, Wayfair), wholesale distribution (Sysco, US Foods). Cap Rates 4.5-6.5% for institutional-quality bulk in major markets. Lease terms: 10-15+ years NNN with credit Tenants. Functional obsolescence at 25+ years from original construction.",
+        ["NCREIF", "ULI"],
+        indications=["Industrial", "Investment"],
+        category="Property Types",
+    ),
+    entry(
+        "Cold Storage", "Refrigerated Warehouse",
+        "An Industrial property with refrigerated and frozen storage capacity — different building specs than conventional warehouse, with high construction and operating costs.",
+        "Industrial property with refrigerated and frozen storage capacity.",
+        "Cold Storage occupies a specialised Industrial niche. Construction costs 2-3x conventional warehouse — insulation, refrigeration equipment, fast-roll doors, specialised flooring. Operating costs likewise high — refrigeration is a power-hungry, 24/7 demand. Cap Rates 100-200 bps wider than conventional Industrial. Demand structurally growing with e-commerce grocery (Instacart, Amazon Fresh, Walmart Grocery), meal-kit delivery, frozen-food e-commerce. Major operators: Lineage Logistics (largest, private), Americold (listed REIT), United States Cold Storage. Build-to-Suit Cold Storage development is hot — Tenant credit and 20-year Lease commitments justify the substantial development cost premium.",
+        ["NCREIF", "ULI"],
+        indications=["Industrial", "Specialty"],
+        category="Property Types",
+    ),
+
+    # --- Multifamily operations ----------------------------------
+    entry(
+        "RUBS", "Ratio Utility Billing System",
+        "A Multifamily operations practice that bills Tenants for utilities based on a formula (unit size, occupants, square footage) rather than individual sub-metering — captures revenue from utilities without unit-level meters.",
+        "Multifamily billing system charging Tenants for utilities by formula, not individual meters.",
+        "RUBS lets Multifamily owners recover utility costs without installing unit-level meters. The formula allocates water, sewer, trash, sometimes gas across units based on bedroom count, square footage, or occupants. Pros: $20-$60/unit/month recovery without capex. Cons: Tenants resist (no incentive to conserve), state regulations limit RUBS in some jurisdictions (California, New York, Florida have restrictions), legal challenges over fairness. Submetering (actual per-unit meters) is the cleaner solution but requires significant Cap-Ex. RUBS revenue lifts NOI by 1-3% in stabilised Multifamily — value-add Sponsors often install RUBS as a quick NOI gain.",
+        ["IREM", "NAA"],
+        indications=["Multifamily"],
+        category="Management & Operations",
+    ),
+    entry(
+        "Submetering", "Sub-Metering",
+        "Installing individual utility meters at each rental unit — water, electricity, gas — to bill Tenants for actual consumption rather than including utilities in Rent or using RUBS.",
+        "Installing individual utility meters at each rental unit for actual-use billing.",
+        "Submetering competes with RUBS as utility-cost recovery. Investment: $150-$500 per unit for water submetering, more for electric or gas where utility company sub-meters available. Payback: 18-36 months at typical consumption levels. Tenant behaviour: 15-25% utility-cost reduction post-submetering as Tenants modify usage. State regulations: some states (Texas, Colorado, Arizona) explicitly permit submetering with consumer-protection rules; others (California for older properties) restrict. Conservation drives submetering as much as revenue recovery — increasing utility costs and water scarcity make submetering an ESG metric for Sponsor reporting.",
+        ["IREM", "NAA"],
+        indications=["Multifamily"],
+        category="Management & Operations",
+    ),
+    entry(
+        "Resident Retention", "Tenant Retention",
+        "The percentage of Multifamily Tenants renewing rather than moving out — drives turnover costs, vacancy, and Lease-up demand.",
+        "Percentage of Multifamily Tenants renewing rather than moving out.",
+        "Resident Retention is the operating metric Sponsors push hardest in soft markets. Typical Multifamily turnover: 40-55% per year, retention 45-60%. Pricing Rent at renewal is the central tactical lever: aggressive Rent push lifts in-place Rent but raises turnover; modest Rent restraint preserves retention. Turnover costs: Rent loss during vacancy (1-2 weeks), turnover costs (paint, carpet, cleaning — $1,000-$3,000), broker or marketing costs ($500-$2,000). Each unit turnover costs $3,000-$10,000+ in total. Sponsors who retain 70%+ outperform on NOI growth; those running below 40% see operating headwind even with strong Rent growth.",
+        ["IREM", "NCREIF"],
+        indications=["Multifamily"],
+        category="Management & Operations",
+    ),
+    entry(
+        "Turnover", "Unit Turnover",
+        "The process of preparing a vacated Multifamily unit for the next Tenant — cleaning, painting, repairs, possibly upgrades — with associated cost and vacancy time.",
+        "Process of preparing a vacated unit for the next Tenant — clean, paint, repair, possibly upgrade.",
+        "Turnover cycles drive Multifamily Operating Expenses. Standard turnover scope: deep clean, full repaint, carpet cleaning or replacement, repair drywall and trim, replace damaged fixtures, refresh appliances if needed. Direct cost: $800-$3,000 per turnover for basic; $3,000-$15,000 for renovation-level value-add turnovers. Indirect cost: vacancy days lost (typically 7-21 days from move-out to new Tenant move-in). High-turnover properties (50%+ annual) see turnover costs absorb 5-10% of NOI. Value-add Sponsors deliberately accept higher turnover during business plan execution to renovate units to push Rents at re-leasing.",
+        ["IREM", "NCREIF"],
+        indications=["Multifamily"],
+        category="Management & Operations",
+    ),
+    entry(
+        "Bad Debt", "Tenant Bad Debt",
+        "Rent owed but uncollectible — Tenants who don't pay and exit (often through Eviction) leaving unpaid balances written off as bad debt.",
+        "Uncollected Rent from non-paying Tenants written off as operating loss.",
+        "Bad Debt is a Multifamily operating-line cost averaging 0.5-2% of Gross Rental Income in stable markets, rising to 3-8% in distressed cycles. Sources: Tenants who skip out, evicted Tenants with unpaid balances, broken Lease commitments. Recovery efforts: collections agencies recover 5-20% of bad debt long-term; small claims court judgements rarely produce real recovery. Bad Debt sits below the EGI line — netting against Gross Rental Income to compute EGI. Sponsor pro formas modelling 0.5% bad debt are aggressive; conservative underwriting uses 1.5-2% reflecting typical operating reality.",
+        ["IREM", "NCREIF"],
+        indications=["Multifamily", "Commercial"],
+        category="Management & Operations",
+    ),
+
+    # --- Hospitality specifics ---------------------------------
+    entry(
+        "PIP", "Property Improvement Plan",
+        "A brand-required renovation plan triggered at Hotel transactions or franchise renewals — specifies upgrades the new owner or franchisee must complete to maintain brand standards.",
+        "Brand-required Hotel renovation plan triggered at transactions or franchise renewals.",
+        "PIP requirements protect the brand's market position. The brand (Marriott, Hilton, Hyatt, IHG) inspects the property and produces a PIP listing required upgrades — typically guest rooms, lobby, F&B, mechanical systems, brand standards (signage, technology). Cost ranges: $5,000-$50,000+ per key depending on tier and condition. PIP is binding — the buyer must complete the upgrades within 12-24 months of Closing or lose brand affiliation. PIP economics shape Sale Price negotiation: heavy-PIP properties trade at price discount equal to PIP cost. Smart buyers obtain PIP details during Due Diligence; sellers sometimes pre-negotiate softened PIP requirements with the brand before listing.",
+        ["NCREIF", "ULI"],
+        indications=["Hospitality"],
+        category="Management & Operations",
+    ),
+    entry(
+        "Comp Set", "Competitive Set",
+        "A Hotel's defined group of 3-7 competitor properties used for performance benchmarking — track ADR, Occupancy Rate, and RevPAR relative to peers.",
+        "Hotel's benchmark group of 3-7 competitors for ADR, Occupancy, RevPAR comparison.",
+        "Comp Set is the operating benchmark for Hotel performance. STR (now CoStar Group) provides comp-set reports comparing the subject Hotel's ADR, Occupancy Rate, and RevPAR to the average of designated competitors. RGI (RevPAR Generation Index): subject RevPAR ÷ comp set RevPAR × 100; above 100 means outperformance, below means underperformance. ARI (ADR Index) and MPI (Market Penetration Index for Occupancy) similar. Hotel asset managers track weekly STR reports closely. Choosing the Comp Set is itself political — including weaker competitors flatters the subject Hotel's relative performance. Brand standards require submission to brand-defined Comp Sets.",
+        ["NCREIF"],
+        indications=["Hospitality"],
+        category="Management & Operations",
+    ),
+    entry(
+        "Smith Travel Research", "STR, CoStar Hospitality",
+        "The hospitality-data company providing industry-standard ADR, Occupancy Rate, and RevPAR benchmarks — acquired by CoStar Group and now part of CoStar's broader Real Estate data platform.",
+        "Hotel industry-data company providing ADR, Occupancy, RevPAR benchmarks — now part of CoStar.",
+        "Smith Travel Research (STR) founded in 1985 became the de facto benchmark for US Hotel performance. The company collected weekly operating data from member Hotels, anonymised it, and produced market and Comp Set reports. CoStar Group acquired STR in 2019 for $450M, folding it into CoStar's broader CRE-data ecosystem alongside Office, Retail, Industrial, and Multifamily data. STR reports drive Hotel investor pro formas, brand-standard reporting, and operating-team incentive structures. The brand 'STR' persists in industry conversation even though the entity is now CoStar Hospitality.",
+        ["NCREIF"],
+        indications=["Hospitality"],
+        category="Management & Operations",
+    ),
+
+    # --- Tax depth: Depreciation mechanics, soft costs ----------
+    entry(
+        "MACRS", "Modified Accelerated Cost Recovery System",
+        "The federal tax-depreciation method — IRC §168 — that lets Real Estate investors deduct building cost over 27.5 years (residential) or 39 years (commercial) using accelerated schedules.",
+        "Federal Depreciation method letting investors deduct building cost over 27.5/39 years.",
+        "MACRS (Modified Accelerated Cost Recovery System) governs federal Depreciation since 1986. Residential rental property: 27.5-year recovery, straight-line method, half-month convention. Non-residential (Commercial) Real Property: 39-year recovery, straight-line, half-month. Personal-property components within a building (carpet, cabinets, parking lot improvements identified through Cost Segregation): 5, 7, or 15-year recovery with accelerated methods (200% declining balance), enabling Bonus Depreciation. Land doesn't depreciate. MACRS recapture (§1245 for personal property, §1250 for Real Property) reverses on Sale. Step-up in Basis at death eliminates MACRS-accumulated Depreciation.",
+        ["IRS", "Cornell LII"],
+        indications=["Investment", "Cross-sector"],
+        category="Tax",
+    ),
+    entry(
+        "Construction Period Interest", "",
+        "Interest paid on construction debt that's capitalised into the property's Cost Basis under IRC rules — rather than deducted in the year paid — recovers through Depreciation over the building's useful life.",
+        "Interest paid during construction capitalised into Cost Basis under IRC §263A.",
+        "Construction Period Interest is treated specially under tax law. IRC §263A's Uniform Capitalization Rules require capitalisation of Interest during the construction period, lengthening the Cost Basis recovery period to the building's MACRS life. Without capitalisation, Sponsors could deduct construction Interest immediately, generating large losses against other income — a tax shelter abused in pre-1986 Real Estate. Capitalised Interest applies to Substantial Completion; thereafter Mortgage Interest is currently deductible. Tax treatment differs from book treatment (some GAAP-based capitalisations are narrower). Cost Segregation studies properly account for construction-period Interest allocation across building components.",
+        ["IRS", "Cornell LII"],
+        indications=["Investment", "Development"],
+        category="Tax",
+    ),
+    entry(
+        "Soft Costs", "",
+        "Construction project costs that aren't physical building materials or labour — architecture, engineering, permitting, financing fees, insurance, project management, accounting.",
+        "Construction-project costs other than physical materials and labour — architecture, fees, permits.",
+        "Soft Costs typically run 15-25% of total project cost for ground-up commercial construction. Categories: architecture and engineering design (6-10%), permitting and impact fees (1-5%), construction loan Interest (3-6%), legal (1-2%), project management (2-4%), insurance (1-2%), accounting and tax (0.5-1%), marketing and leasing commissions (1-3%). Soft Costs capitalise into Cost Basis under §263A for tax purposes. Sponsor pro formas should bracket Soft Cost ranges carefully — overruns here are common but rarely catastrophic. Hard Costs (materials and labour) make up the remaining 75-85% of project cost.",
+        ["NAHB", "Investopedia"],
+        indications=["Development", "Commercial"],
+        category="Development",
+    ),
+
+    # --- Distress finance programs (federal) -------------------
+    entry(
+        "HAMP", "Home Affordable Modification Program",
+        "The federal Loan Modification program created in 2009 to help homeowners avoid Foreclosure after the financial crisis — formally ended 2016 but established the modern Loss Mitigation framework.",
+        "Federal 2009-2016 Loan Modification program for homeowners, source of modern Loss Mitigation framework.",
+        "HAMP was Treasury's centerpiece response to the 2008 foreclosure crisis. Mechanics: Lenders accepted Treasury incentive payments to modify Mortgages on Treasury-defined terms — target 31% housing DTI through rate reduction, term extension, Principal forgiveness. Eligibility: primary residence, hardship documentation, NPV-positive modification (modified Loan more valuable than Foreclosure). About 1.7M permanent modifications completed 2009-2016. Criticised for low completion rates and predatory servicer practices. The CFPB Mortgage Servicing Rules (Reg X) codified key HAMP elements into permanent law. HAMP successor: Flex Modification (GSEs) and FHA Loss Mitigation Waterfall continue similar structure.",
+        ["CFPB", "HUD"],
+        indications=["Residential"],
+        category="Financing & Lending",
+    ),
+    entry(
+        "HARP", "Home Affordable Refinance Program",
+        "The federal Refinance program — 2009-2018 — letting homeowners with negative or near-negative Equity Refinance into lower rates without traditional Underwriting.",
+        "Federal 2009-2018 Refinance program for homeowners with negative or thin Equity.",
+        "HARP enabled millions of Underwater homeowners to capture lower rates. Standard Refinance requires positive Equity to support new appraisal; HARP waived appraisal and LTV requirements (up to 125% then unlimited) for GSE-owned Mortgages. Eligibility: Loan owned by Fannie Mae or Freddie Mac, originated before May 2009, current on payments. About 3.5M HARP Refinances completed 2009-2018 before formal end. Successors: GSE high-LTV Refinance (RefiNow at Fannie, Refi Possible at Freddie) launched 2021 with similar concept but lower-LTV thresholds and income limits.",
+        ["CFPB", "Fannie Mae"],
+        indications=["Residential"],
+        category="Financing & Lending",
+    ),
+
+    # --- More NCREIF benchmarks -------------------------------
+    entry(
+        "NPI", "NCREIF Property Index",
+        "The dominant institutional Real Estate performance benchmark — quarterly NCREIF index tracking returns of institutionally-owned Commercial Real Estate by sector and region.",
+        "Quarterly NCREIF index tracking institutional Commercial Real Estate returns by sector and region.",
+        "NPI (NCREIF Property Index) is the institutional Real Estate equivalent of S&P 500 returns. NCREIF (National Council of Real Estate Investment Fiduciaries) collects quarterly property-level returns from member institutional investors and reports the NPI. Coverage: ~10,000 properties, $900B+ AUM. Returns: total return (income + appreciation), broken down by sector (Multifamily, Office, Retail, Industrial, Hotel), geography (East, Midwest, South, West). Investment consultants benchmark fund managers against NPI; LPs require above-NPI performance for top-tier fees. Sub-indices: NCREIF ODCE (open-end diversified Core), NCREIF Townsend Total Index (multiple categories).",
+        ["NCREIF"],
+        indications=["Investment", "Commercial"],
+        category="Market & Investment",
+    ),
+    entry(
+        "NCREIF ODCE", "Open-End Diversified Core Equity",
+        "The NCREIF benchmark tracking returns of the largest Core open-end Real Estate funds — the institutional standard for low-risk diversified Real Estate exposure.",
+        "NCREIF benchmark of the largest Core open-end Real Estate funds — institutional standard for low-risk diversified Real Estate.",
+        "NCREIF ODCE (Open-End Diversified Core Equity) tracks ~25 large institutional Core open-end funds. Members include JPMorgan Strategic Property, Prudential PRISA, UBS Trumbull, Heitman Core, Clarion Lion Industrial — names known to every institutional LP. ODCE returns: total (income + appreciation), reported quarterly. Long-run returns 2000-2024: 8-10% annual unlevered, lower in down years. Constituent funds offer quarterly liquidity windows and unique-NAV pricing — closest thing to a 'mutual fund' for institutional Real Estate. Performance fee structures benchmark to ODCE — outperformance above the benchmark drives Sponsor compensation in many institutional structures.",
+        ["NCREIF"],
+        indications=["Investment", "Commercial"],
+        category="Market & Investment",
+    ),
+
+    # --- Title detail: warranty doctrines -----------------------
+    entry(
+        "Bona Fide Purchaser", "BFP",
+        "A buyer who purchases for value without notice of competing claims — gets special protection under Title-recording statutes that preserves their ownership against prior unrecorded claims.",
+        "Buyer for value without notice of competing claims — protected by Title-recording statutes.",
+        "Bona Fide Purchaser (BFP) doctrine is core to US Real Property law. To qualify: (1) purchase for value (not gift), (2) without notice of competing claims (actual, constructive, or inquiry notice), (3) record the Deed properly. BFP status defeats unrecorded prior interests in most states' recording statutes (race-notice and notice states). Quintessential BFP scenario: buyer purchases property unaware that the prior owner had granted an unrecorded easement; under BFP doctrine, buyer takes Title free of the unrecorded easement. Lenders also can qualify as BFPs of their Mortgage interest. Title Insurance affirms BFP status as part of its coverage.",
+        ["Cornell LII", "ALTA"],
+        indications=["Residential", "Commercial"],
+        category="Title & Ownership",
+    ),
+    entry(
+        "Constructive Notice", "Record Notice",
+        "Legal notice imputed to a party because information is available in public records — even if the party didn't actually look — covers everything Recorded in the public-land registry.",
+        "Legal notice imputed because information is available in public records, regardless of actual knowledge.",
+        "Constructive Notice is what every Recording statute creates. Once a document (Deed, Mortgage, Lien, Easement, judgment) is properly Recorded with the county recorder, every subsequent person dealing with the property is legally on notice of its contents — whether or not they actually search the records. A buyer who fails to obtain a Title search is still legally bound by recorded prior interests. Distinct from Actual Notice (genuine awareness) and Inquiry Notice (red flags should have prompted further investigation). Constructive Notice is why Title Insurance is essential — protects against defects that constructive-notice doctrine wouldn't have surfaced from a careful Title Search.",
+        ["Cornell LII"],
+        indications=["Residential", "Commercial"],
+        category="Title & Ownership",
+    ),
+    entry(
+        "Actual Notice", "",
+        "Direct, personal awareness of a fact — Tenant interests, prior claims, defects — that legally binds the party who knew, regardless of public records.",
+        "Direct personal awareness of a fact, legally binding regardless of public records.",
+        "Actual Notice supplements Constructive Notice in property-law disputes. A buyer who is told by the seller about an unrecorded Easement, or who sees a visible Tenant in possession, has Actual Notice — and BFP protection fails. Examples: buyer sees a footpath worn across the corner of the property indicating a prescriptive Easement claim; seller discloses an unfiled mechanic's Lien; the buyer's broker mentions a Tenant's ongoing dispute. Actual Notice can come orally, by physical observation, or through informal communications. Once a party has Actual Notice, they cannot claim BFP status — Title takes subject to the known claim.",
+        ["Cornell LII"],
+        indications=["Residential", "Commercial"],
+        category="Title & Ownership",
+    ),
+    entry(
+        "Color of Title", "",
+        "Apparent legal ownership based on a written document — even if that document is technically defective — supports Adverse Possession claims with shorter statutory periods.",
+        "Apparent ownership from a written Deed even if defective — supports faster Adverse Possession.",
+        "Color of Title arises when a party holds a written document purporting to convey Real Property — but the document is defective. Examples: Deed from someone who didn't actually own the property; forged signature in the chain; legal description omits part of the property. The holder believes they own; their possession looks like ownership. Many states grant Color of Title holders shorter Adverse Possession periods (5-7 years) than required without (15-20+ years), reflecting that they were acting in good faith from a recorded document. Color of Title also expands the area claimed under Adverse Possession to the full scope of the Deed's description.",
+        ["Cornell LII"],
+        indications=["Residential", "Commercial", "Land"],
+        category="Title & Ownership",
+    ),
+
+    # --- Lease & habitability doctrines ----------------------
+    entry(
+        "Implied Warranty of Habitability", "",
+        "A doctrine in nearly every US state requiring residential Landlords to provide habitable premises — safe, sanitary, weather-tight — regardless of Lease language.",
+        "Residential Landlord's required-by-law duty to provide habitable premises.",
+        "Implied Warranty of Habitability protects residential Tenants. Standards: building meets local code, plumbing works, heating functions in cold seasons, no significant structural or pest infestation, hot water available. Lease language disclaiming habitability is generally unenforceable — public policy override. Tenant remedies for breach: repair-and-deduct (deduct repair cost from Rent), Rent withholding (deposit Rent in escrow until repairs), Constructive Eviction (vacate and stop paying Rent if uninhabitable), state housing-code enforcement against Landlord. Commercial Lease habitability is weaker — Tenants negotiate landlord-warranty provisions if needed.",
+        ["Cornell LII", "HUD"],
+        indications=["Residential", "Multifamily"],
+        category="Leasing",
+    ),
+    entry(
+        "Constructive Eviction", "",
+        "Doctrine letting a Tenant treat a Lease as terminated and vacate without owing Rent when the Landlord's serious failure to maintain the premises makes it effectively uninhabitable.",
+        "Tenant doctrine of treating Lease as terminated when Landlord fails to maintain habitability.",
+        "Constructive Eviction is the Tenant's nuclear-option remedy. Requirements: Landlord substantially failed to deliver promised possession or maintain habitability (broken heat in winter, unrepaired water damage, pest infestation, security failure exposing Tenant to danger). Tenant must give written notice and reasonable time to cure. If Landlord doesn't cure, Tenant can vacate, treat Lease as terminated, and sue Landlord for damages (relocation costs, higher Rent at next location). Commercial Constructive Eviction is harder to prove — courts apply less generously than residential. Landlord defense: cure the underlying habitability issue before Tenant abandons.",
+        ["Cornell LII"],
+        indications=["Residential", "Commercial"],
+        category="Leasing",
+    ),
+
+    # --- Net Lease subtypes ---------------------------------
+    entry(
+        "Single Net Lease", "N Lease",
+        "A commercial Lease where the Tenant pays Property Tax in addition to Base Rent — the simplest Net Lease structure.",
+        "Commercial Lease where Tenant pays Property Tax beyond Base Rent.",
+        "Single Net Lease (N Lease) is the entry-level Net Lease structure. The Tenant pays Base Rent plus Property Tax — but Landlord retains insurance and Common Area Maintenance obligations. Rare in modern Commercial Real Estate — most deals are Modified Gross Lease (split obligations) or Triple Net Lease (Tenant pays everything). Single Net survives in small-market Office, some Industrial, and Tenant-favorable Lease negotiations where the parties don't push for full triple-net structure. Tenant accepts Property Tax risk (the most predictable Operating Expense category) while preserving Landlord operating burden on insurance and maintenance.",
+        ["IREM", "NCREIF"],
+        indications=["Commercial"],
+        category="Leasing",
+    ),
+    entry(
+        "Double Net Lease", "NN Lease",
+        "A commercial Lease where the Tenant pays Property Tax and insurance — but not maintenance — in addition to Base Rent.",
+        "Commercial Lease where Tenant pays Property Tax and insurance, but not maintenance.",
+        "Double Net Lease (NN Lease) is the middle Net Lease tier. The Tenant absorbs Property Tax and insurance variability while the Landlord remains responsible for maintenance, repairs, and Cap-Ex. Common in older Commercial Real Estate transactions, some Industrial, and some Office. The Tenant shoulders inflation-sensitive line items (Property Tax growth, insurance market cycles) but doesn't take on structural maintenance risk. NN survives most often in inherited Leases — newer deals more commonly use NNN (Triple Net Lease) for clearer Landlord/Tenant cost separation. Specific NN allocations are heavily negotiated in renewal cycles.",
+        ["IREM", "NCREIF"],
+        indications=["Commercial"],
+        category="Leasing",
+    ),
+    entry(
+        "Lien Priority", "",
+        "The order in which Liens claim payment from a property's value in a Foreclosure or distress sale — generally first-in-time, first-in-right unless statute or subordination changes order.",
+        "Order in which Liens claim payment from property value — generally first-recorded first-paid.",
+        "Lien Priority follows the 'first in time, first in right' rule modified by statute and Subordination Agreements. Statutory exceptions: Property Tax Liens (Senior to everything), Mechanic's Liens (often senior to later-recorded Mortgages despite later filing), HOA Liens (Senior in some states). Foreclosure proceeds distribute by priority: Property Tax first, senior Mortgage second, junior Mortgages third, HOA Liens (where senior), unsecured judgments last, surplus to the borrower. Junior Lien holders may pay off seniors to preserve their position. Subordination Agreements rearrange priority by contract.",
+        ["Cornell LII", "ALTA"],
+        indications=["Residential", "Commercial"],
+        category="Title & Ownership",
+    ),
+
+    # --- More finance --------------------------------------
+    entry(
+        "Subrogation", "",
+        "The Lender's or Insurer's right to step into the shoes of the party they paid — pursuing third-party recoveries against those at fault.",
+        "Right to step into another party's claim and pursue recovery — used by Insurers and Lenders.",
+        "Subrogation appears across Real Estate finance. Title Insurance: insurer pays a claim, then subrogates against the party responsible for the Title Defect (fraudulent grantor, negligent attorney, prior owner). Mortgage: Lender pays off a senior Lien to preserve security, then subrogates to that senior Lien's position rather than losing priority. Homeowners Insurance: insurer pays a fire-damage claim, subrogates against the negligent contractor whose work caused the fire. Subrogation rights are typically built into policies and contracts. Without subrogation, Insurers and Lenders would bear losses that should fall on third parties.",
+        ["Cornell LII", "ALTA"],
+        indications=["Residential", "Commercial"],
+        category="Title & Ownership",
+    ),
+    entry(
+        "Indemnification", "Indemnity",
+        "A contractual obligation by one party to compensate another for specified losses — common in Real Estate purchase agreements, Lease provisions, and operating agreements.",
+        "Contractual obligation to compensate another party for specified losses.",
+        "Indemnification provisions allocate risk across Real Estate transactions. Common indemnities. Seller indemnifies buyer for pre-Closing environmental contamination, undisclosed defects, breach of representations. Tenant indemnifies Landlord for losses caused by Tenant operations, employees, or guests. GC indemnifies owner for personal-injury or property-damage claims arising from construction. Indemnification caps (typically 5-10% of Purchase Price for seller indemnification) and survival periods (12-24 months post-Closing typical) limit exposure. Insurance backs indemnification — Tenants typically required to name Landlords as additional insureds; GCs required to carry general liability with owner as additional insured.",
+        ["Cornell LII", "ALTA"],
+        indications=["Residential", "Commercial"],
+        category="Leasing",
+    ),
+
+    # --- PropTech & data ----------------------------------
+    entry(
+        "PropTech", "Property Technology",
+        "Technology applied to Real Estate — buying, selling, financing, managing, building — the broad umbrella covering listing portals, smart-building systems, blockchain Title, fractional ownership, and rental management software.",
+        "Technology applied to Real Estate — listings, smart buildings, blockchain Title, property management.",
+        "PropTech became a venture-capital category in the late 2010s. Subsectors. Listing portals: Zillow, Redfin, Compass, Trulia, Realtor.com. iBuyers: Opendoor (still active), Zillow Offers (shut down 2021), Offerpad. Smart buildings: VTS, Latch, Honeywell, Schneider Electric building management. PropTech finance: Fundrise, RealtyMogul, CrowdStreet, syndication platforms. Property management software: Yardi, RealPage, AppFolio, Buildium. Construction tech: Procore, Autodesk Construction Cloud, OpenSpace. Blockchain Title and fractional ownership: Propy, Lofty, Arrived (mostly experimental). Investment in PropTech peaked 2020-2021, contracted sharply with 2022-2023 rate environment.",
+        ["ULI", "Investopedia"],
+        indications=["Commercial", "Residential", "Cross-sector"],
+        category="Transactions",
+    ),
+    entry(
+        "Property Management Software", "PMS",
+        "Software platforms running day-to-day operations of Multifamily, Commercial, and Single-Family Rental property — rent collection, maintenance requests, financial reporting, tenant communication.",
+        "Software running Multifamily, Commercial, SFR property operations — rent, maintenance, reporting.",
+        "Property Management Software dominates institutional Real Estate operations. Multifamily: Yardi (largest, 20M+ units), RealPage, AppFolio (mid-market), Buildium (small landlord), Entrata (luxury Multifamily). Commercial: Yardi Voyager, MRI, Argus (more for Underwriting). Single-Family Rental: AppFolio, Buildium, RentManager. Functionality: online rent payment, maintenance ticketing, Tenant communications, accounting integration, financial reporting, lease tracking, vacancy management, marketing distribution to listing sites. Pricing: $1-$3 per unit per month for entry-level; substantially more for enterprise installations with multi-property reporting and treasury integration.",
+        ["IREM", "ULI"],
+        indications=["Multifamily", "Commercial", "Investment"],
+        category="Management & Operations",
+    ),
+
+    # --- State-specific NYC ------------------------------
+    entry(
+        "NYC Co-op", "",
+        "The dominant ownership form for pre-1990 NYC residential property — distinctive from Condo in that shareholders own corporation shares plus a Proprietary Lease, not Real Property.",
+        "Dominant NYC pre-1990 ownership form — shareholders own corporation shares plus Proprietary Lease.",
+        "NYC Co-ops represent roughly 75% of pre-1990 Manhattan residential apartment stock — a unique market structure. Each shareholder receives shares in the building's cooperative corporation plus a Proprietary Lease entitling them to occupy a specific apartment. Co-op boards have unusually strong powers: approving every new shareholder (financial review, interviews), restricting sublease, vetoing renovations. Underlying Mortgage on the corporation is rare; individual share Loans (not Mortgages) finance acquisitions at 60-80% of share value. Pricing trades 15-30% below comparable Condo (less marketable, board restrictions, financing constraints). NYC Co-op transactions involve specialised attorneys and brokers.",
+        ["Cornell LII"],
+        indications=["Residential", "Multifamily"],
+        category="Title & Ownership",
+    ),
+    entry(
+        "Easement in Gross", "",
+        "An Easement that benefits a person or entity — not another Lot — used by utilities, pipelines, conservation organisations to gain rights over Land without owning it.",
+        "Easement benefiting a person or entity rather than a Lot — utility lines, pipeline ROWs.",
+        "Easement in Gross differs from Easement Appurtenant: there's no dominant estate, only a servient estate. The Easement holder is a person or entity. Common examples: utility company's right to maintain power lines across private property; pipeline company's right-of-way; conservation organisation's right to enforce land-use restrictions; railroad right-of-way. Easements in gross can be commercial (transferable) or personal (extinguished at the holder's death). Commercial easements in gross attach to the holder's business and pass with sale of that business — a utility's easement portfolio transfers when the utility is acquired.",
+        ["Cornell LII", "ALTA"],
+        indications=["Commercial", "Land", "Public Sector"],
+        category="Title & Ownership",
+    ),
+    entry(
+        "License", "Property License",
+        "A revocable permission to use another's Land — distinct from an Easement (which is an interest in Land) — easily terminated by the property owner.",
+        "Revocable permission to use another's Land — distinct from the harder-to-terminate Easement.",
+        "License grants the same kind of right as an Easement (permission to use Land) but is structurally different. License is revocable at the property owner's discretion; Easement creates an interest in Land that transfers with ownership and is hard to terminate. Common License scenarios: granting a neighbour permission to cross a lawn temporarily, allowing a vendor to park trucks during a special event, permitting a contractor to access for a specific job. Long-running licences can ripen into Easements by Prescription if the use continues long enough — owners post 'permission to cross' signs to negate adverse-use claims.",
+        ["Cornell LII"],
+        indications=["Residential", "Commercial", "Land"],
+        category="Title & Ownership",
+    ),
+]
+
+
 BATCHES = {
     1: BATCH_1_FOUNDATIONS,
     2: BATCH_2_DEPTH,
@@ -3570,6 +4002,7 @@ BATCHES = {
     5: BATCH_5_PROCESS,
     6: BATCH_6_OPERATIONS,
     7: BATCH_7_MECHANICS,
+    8: BATCH_8_NICHE,
 }
 
 
