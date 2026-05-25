@@ -138,6 +138,35 @@ Some glossary terms share their name with common verbs or adjectives. The linker
 
 Other Finance watchwords: `spot`, `long`, `short`, `call`, `strike`, `swap`, `futures`, `dealers`. When in doubt, rephrase.
 
+### 5. Word-form variants (gerund / past tense / possessive)
+
+The linker's regex catches `+s` and `+es` plurals only. It does NOT catch `-ing`, `-ed`, `-'s`, `-d` (silent-e past tense), or `-ies` (y→ies) variations. Inflected forms of existing entries read like jargon to the novice but produce no hyperlink.
+
+| Variant in prose | Existing entry | Effect |
+|---|---|---|
+| *"escrowed"* | `Escrow` | won't link — past tense |
+| *"refinancing"* | `Refinance` | won't link — gerund |
+| *"appraiser's report"* | `Appraiser` | won't link — possessive |
+| *"deeded"* | `Deed` | won't link — past tense |
+| *"LIBOR's retirement"* | `LIBOR` | won't link — possessive |
+| *"Treasuries"* | `Treasury` | won't link — y→ies plural |
+
+**Two acceptable fixes:**
+
+1. **Rephrase to a linkable form**: *"held in Escrow"* (not "escrowed"); *"after the Refinance"* (not "refinancing"); *"the Appraiser report"* (not "appraiser's"); *"with its own Deed"* (not "deeded"); *"retirement of LIBOR"* (not "LIBOR's").
+2. **Accept the gap** when the alternative is unnaturally awkward, and ensure the term is hyperlinked at least once nearby in the same definition (so the chain isn't broken — the reader can still drill down).
+
+The audit script (`scripts/audit_hyperlinks.py`) flags inflected forms of existing entries via `--inflections`. Treat severity 3 (canonical-drift) findings here the same as elsewhere.
+
+### 6. Corpus-thoroughness check
+
+A separate, corpus-wide thoroughness rule: if a capitalised proper noun (Fannie Mae, Freddie Mac, HUD, USPAP) or a domain compound (Property Tax, Appraisal Contingency, NOI) appears **3+ times across the corpus** without being its own entry, it is almost always a missing entry. Frequency is the signal.
+
+- A novice hits the same unfamiliar word three times across the glossary and learns nothing about it → that's a corpus gap, not a per-entry gap.
+- The audit's `--repeated-dangling N` flag surfaces these. The default threshold is 3.
+
+This rule applies before the others: write the entries first, then write the prose, so cross-references find live targets.
+
 ## What gets a `plain` line
 
 Every term, eventually. But prioritise by **reference frequency** — terms most cited in other definitions should get `plain` first, so chains terminate cleanly at the most-traversed nodes. The audit script ranks terms by frequency.

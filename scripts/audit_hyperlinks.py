@@ -15,8 +15,10 @@ Usage:
 
 Severity ordering (highest impact first):
     1. dangling-link              — capitalised noun phrase that looks like a term but has no entry
+    1. repeated-dangling          — proper noun appears 3+ times corpus-wide without an entry
     2. self-link                  — entry's own name appears un-linked in its prose
     3. canonical-drift            — short form used where a longer canonical form would link
+    3. inflected-form             — gerund/past-tense/possessive of an entry won't auto-link
     4. semantic-risk-generic      — generic high-homonym name auto-linked; flag for human review
     5. homonym-shadow             — short term substring of longer; verifies longest-first ordering
     6. cross-industry-homonym     — info-only: term name reused across 2+ industries
@@ -331,6 +333,112 @@ def detect_canonical_drift(entry, name_lookup):
     return violations
 
 
+def _inflected_variants(name):
+    """Generate likely inflected forms of a single-word entry name.
+    Returns a list of (variant, kind) tuples. Skips multi-word names —
+    inflection of compounds is rare and harder to detect reliably."""
+    if " " in name or "-" in name or len(name) < 3:
+        return []
+    base = name
+    variants = []
+    # Possessive ('s)
+    variants.append((base + "'s", "possessive"))
+    # Past tense / past participle — only for verb-like names (heuristic: any).
+    if base.endswith("e"):
+        variants.append((base + "d", "past tense"))
+        variants.append((base[:-1] + "ing", "gerund"))
+    elif base.endswith("y") and len(base) > 1 and base[-2] not in "aeiou":
+        variants.append((base[:-1] + "ied", "past tense"))
+        variants.append((base[:-1] + "ies", "plural"))  # y→ies, not handled by linker's +s
+        variants.append((base + "ing", "gerund"))
+    else:
+        variants.append((base + "ed", "past tense"))
+        variants.append((base + "ing", "gerund"))
+    return variants
+
+
+def detect_inflected_forms(entry, all_terms, name_lookup):
+    """Find gerund/past-tense/possessive/ies-plural forms of OTHER existing
+    entries appearing in this entry's body. The linker's `(?:e?s)?` only catches
+    +s/+es plurals — these variants slip through.
+
+    One report per (variant, host_term, source_term).
+    """
+    violations = []
+    self_name = entry["term"]
+    other_names = [n for n in name_lookup if n != self_name]
+    seen = set()
+    for field in BODY_FIELDS:
+        body = entry.get(field, "") or ""
+        if not body:
+            continue
+        for source_name in other_names:
+            for variant, kind in _inflected_variants(source_name):
+                pattern = r"(?<![\w-])" + re.escape(variant) + r"(?![\w-])"
+                # Acronyms (LIBOR, SOFR) keep case-sensitive matching; mixed-case
+                # are case-insensitive (Mortgage's → mortgage's still counts).
+                has_lower = any(c.islower() for c in source_name)
+                flags = re.IGNORECASE if has_lower else 0
+                if re.search(pattern, body, flags=flags):
+                    key = (variant.lower(), source_name)
+                    if key in seen:
+                        continue
+                    seen.add(key)
+                    violations.append({
+                        "kind": "inflected-form",
+                        "msg": f"'{variant}' ({kind} of '{source_name}') in {field} — won't auto-link",
+                    })
+                    break  # one variant per (source_name, entry)
+    return violations
+
+
+def aggregate_repeated_dangling(all_terms, name_lookup, threshold=3):
+    """Corpus-wide scan: capitalised proper-noun phrases that appear N+ times
+    across the corpus and aren't entries. Reported once per phrase, attached
+    to the first entry where they appear.
+
+    Returns a dict: term_name -> list of {"kind", "msg"} violations.
+    The threshold defaults to 3 — fewer occurrences are handled by detect_dangling.
+    """
+    name_set_ci = {n.lower() for n in name_lookup}
+    phrase_counts = Counter()
+    phrase_first_seen = {}  # phrase -> (entry_name, field)
+
+    for entry in all_terms:
+        for field in BODY_FIELDS:
+            body = entry.get(field, "") or ""
+            if not body:
+                continue
+            for m in PHRASE_RE.finditer(body):
+                phrase = m.group(1)
+                if phrase in DANGLING_DENYLIST:
+                    continue
+                # Skip plural form of existing entries — linker handles +s/+es
+                if phrase.lower() in name_set_ci:
+                    continue
+                p_lower = phrase.lower()
+                if p_lower.endswith("es") and p_lower[:-2] in name_set_ci:
+                    continue
+                if p_lower.endswith("s") and p_lower[:-1] in name_set_ci:
+                    continue
+                if _is_sentence_start(body, m.start()):
+                    continue
+                phrase_counts[phrase] += 1
+                if phrase not in phrase_first_seen:
+                    phrase_first_seen[phrase] = (entry["term"], field)
+
+    out = defaultdict(list)
+    for phrase, count in phrase_counts.items():
+        if count < threshold:
+            continue
+        host_term, host_field = phrase_first_seen[phrase]
+        out[host_term].append({
+            "kind": "repeated-dangling",
+            "msg": f"'{phrase}' appears {count}x corpus-wide with no entry — likely missing term",
+        })
+    return out
+
+
 def _cluster_for(industry, category):
     clusters = CATEGORY_CLUSTERS.get(industry, {})
     for cluster_name, cats in clusters.items():
@@ -424,8 +532,10 @@ def link_density(entry, all_terms):
 
 RANK_FOR = {
     "dangling-link":           1,
+    "repeated-dangling":       1,
     "self-link":               2,
     "canonical-drift":         3,
+    "inflected-form":          3,
     "semantic-risk-generic":   4,
     "semantic-risk-category":  4,
     "homonym-shadow":          5,
@@ -434,9 +544,9 @@ RANK_FOR = {
 }
 
 SEV_LABEL = {
-    1: "DANGLING-LINK",
+    1: "DANGLING-LINK / REPEATED-DANGLING",
     2: "SELF-LINK",
-    3: "CANONICAL-DRIFT",
+    3: "CANONICAL-DRIFT / INFLECTED-FORM",
     4: "SEMANTIC-RISK",
     5: "HOMONYM-SHADOW",
     6: "CROSS-INDUSTRY-HOMONYM",
@@ -452,6 +562,7 @@ def audit_entry(entry, all_terms, name_lookup, industry):
     violations.extend(detect_dangling(entry, all_terms, name_lookup))
     violations.extend(detect_self_link(entry, all_terms))
     violations.extend(detect_canonical_drift(entry, name_lookup))
+    violations.extend(detect_inflected_forms(entry, all_terms, name_lookup))
     violations.extend(detect_semantic_risk(entry, all_terms, name_lookup, industry))
     if not violations:
         return 99, []
@@ -475,6 +586,8 @@ def main():
                    help="Emit CSV instead of human-readable text.")
     p.add_argument("--include-clean", action="store_true",
                    help="Also list entries with no violations.")
+    p.add_argument("--repeated-threshold", type=int, default=3,
+                   help="Minimum corpus-wide occurrences for repeated-dangling check (default 3).")
     args = p.parse_args()
 
     if args.cross_industry_only:
@@ -521,6 +634,11 @@ def _run_one(args):
     for v in shadow_violations:
         shadow_by_term[v["term"]].append({"kind": v["kind"], "msg": v["msg"]})
 
+    # Repeated-dangling is corpus-wide. One report per phrase, attached to the
+    # entry where it first appears.
+    repeated_by_term = aggregate_repeated_dangling(terms, name_lookup,
+                                                   threshold=args.repeated_threshold)
+
     rows = []
     for t in terms:
         if args.letter and t["letter"] != args.letter.upper():
@@ -530,6 +648,10 @@ def _run_one(args):
         if shadow_by_term.get(t["term"]):
             violations.extend(shadow_by_term[t["term"]])
             severity = min(severity, RANK_FOR["homonym-shadow"])
+        # Add repeated-dangling if this entry is the first occurrence of any.
+        if repeated_by_term.get(t["term"]):
+            violations.extend(repeated_by_term[t["term"]])
+            severity = min(severity, RANK_FOR["repeated-dangling"])
         # Density buckets.
         d = densities[t["term"]]
         if d >= HIGH_DENSITY_THRESHOLD:

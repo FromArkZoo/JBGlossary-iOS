@@ -6,9 +6,16 @@
     "plain": "A clause that lets the Lender demand the full Mortgage balance immediately if the borrower breaks the loan terms.",
     "snappy": "Lender's right to call the entire loan due upon Default.",
     "detail": "An acceleration clause is the trigger that turns a missed payment into a Foreclosure. When the borrower breaches the Mortgage (most often by Default on payments), the Lender can declare the full Principal balance due at once instead of just the missed installment. Acceleration is the legal predicate for Foreclosure proceedings in most US states.",
-    "indications": ["Residential", "Commercial", "Cross-sector"],
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Cross-sector"
+    ],
     "category": "Financing & Lending",
-    "sources": ["Cornell LII", "CFPB"]
+    "sources": [
+      "Cornell LII",
+      "CFPB"
+    ]
   },
   {
     "letter": "A",
@@ -16,21 +23,32 @@
     "full": "",
     "plain": "A home loan whose interest rate changes on a fixed schedule — cheaper at first than a Fixed-Rate Mortgage, but the payment can rise later.",
     "snappy": "Mortgage with an interest rate that resets periodically — lower teaser rate, payment risk later.",
-    "detail": "An ARM has a fixed introductory rate (commonly 3, 5, 7, or 10 years) followed by periodic adjustments tied to an Index plus a lender Margin. Each reset is bounded by Rate Caps. Conforming ARMs reset to SOFR since LIBOR's retirement. Borrowers trade lower upfront payments for reset-period risk versus a Fixed-Rate Mortgage.",
-    "indications": ["Residential", "Cross-sector"],
+    "detail": "An ARM has a fixed introductory rate (commonly 3, 5, 7, or 10 years) followed by periodic adjustments tied to an Index plus a lender Margin. Each reset is bounded by Rate Caps. Conforming ARMs reset to SOFR since the retirement of LIBOR. Borrowers trade lower upfront payments for reset-period risk versus a Fixed-Rate Mortgage.",
+    "indications": [
+      "Residential",
+      "Cross-sector"
+    ],
     "category": "Financing & Lending",
-    "sources": ["CFPB", "Freddie Mac"]
+    "sources": [
+      "CFPB",
+      "Freddie Mac"
+    ]
   },
   {
     "letter": "A",
-    "term": "ARV",
-    "full": "After-Repair Value",
-    "plain": "An investor's estimate of what a fixer-upper will be worth after renovation, used to size the purchase budget.",
-    "snappy": "Projected market value after planned renovations are complete.",
-    "detail": "ARV is the cornerstone metric in fix-and-flip and BRRRR (buy-rehab-rent-refinance-repeat) strategies. Investors back into a maximum purchase price by subtracting renovation costs and target profit from ARV. Hard-money Lenders typically cap loans at 70-75% of ARV. The Appraisal of an as-is distressed property is usually well below ARV — that's the spread the investor monetises.",
-    "indications": ["Residential", "Investment"],
-    "category": "Valuation & Appraisal",
-    "sources": ["Investopedia"]
+    "term": "Agent",
+    "full": "",
+    "plain": "A licensed real estate professional who represents a buyer or seller — paid through Commission at Closing.",
+    "snappy": "Licensed real estate professional working under a sponsoring Broker.",
+    "detail": "All US real estate Agents hold a state salesperson licence and operate under a sponsoring Broker. Agents come in two roles in a transaction: the listing Agent represents the seller, the Buyer's Agent represents the buyer. Following the 2024 NAR settlement, buyers and their Agents now sign written representation agreements before tours, with Commission terms negotiated directly. Don't confuse Agent (the licence) with Realtor (NAR membership).",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
   },
   {
     "letter": "A",
@@ -39,9 +57,14 @@
     "plain": "A purchase offer with no Mortgage — the buyer pays the full price from their own funds.",
     "snappy": "Purchase offer not contingent on financing — buyer covers the whole price.",
     "detail": "All-cash offers carry weight because they remove financing risk: no Appraisal Contingency, no Underwriting delays, no lender pulling out at the eleventh hour. Sellers in competitive markets routinely accept all-cash offers below the highest financed bid. Cash buyers often back into the strategy via investor capital or a later cash-out Refinance.",
-    "indications": ["Residential", "Investment"],
+    "indications": [
+      "Residential",
+      "Investment"
+    ],
     "category": "Transactions",
-    "sources": ["NAR"]
+    "sources": [
+      "NAR"
+    ]
   },
   {
     "letter": "A",
@@ -50,20 +73,15 @@
     "plain": "The way each Mortgage payment chips away at what you owe — early payments mostly cover Interest, later ones mostly cover Principal.",
     "snappy": "Schedule that splits each loan payment between Interest and Principal over time.",
     "detail": "Amortization is the systematic paydown of a Mortgage's Principal through scheduled payments. In the early years of a 30-year Fixed-Rate Mortgage, most of each payment covers Interest because the outstanding balance is largest; in the final years, almost all pays down Principal. Lenders provide an amortization schedule at Closing showing the split for every payment.",
-    "indications": ["Residential", "Cross-sector"],
+    "indications": [
+      "Residential",
+      "Cross-sector"
+    ],
     "category": "Financing & Lending",
-    "sources": ["CFPB", "Investopedia"]
-  },
-  {
-    "letter": "A",
-    "term": "APR",
-    "full": "Annual Percentage Rate",
-    "plain": "The all-in cost of a Mortgage per year, including the interest rate plus Closing Costs and Discount Points.",
-    "snappy": "True annual cost of a loan including fees, expressed as a percentage.",
-    "detail": "APR sits next to the headline interest rate on every Loan Estimate and Closing Disclosure so borrowers can compare apples to apples. A loan with a low interest rate but high Discount Points and origination fees can have a higher APR than a slightly higher rate with no points. APR assumes the borrower keeps the loan to maturity; in practice most Refinance or move first.",
-    "indications": ["Residential", "Cross-sector"],
-    "category": "Financing & Lending",
-    "sources": ["CFPB", "Cornell LII"]
+    "sources": [
+      "CFPB",
+      "Investopedia"
+    ]
   },
   {
     "letter": "A",
@@ -72,20 +90,48 @@
     "plain": "An independent expert's written estimate of what a property is worth, used by Lenders to decide how much to lend against it.",
     "snappy": "Licensed third-party valuation of a property's market value at a point in time.",
     "detail": "A residential appraisal is performed by a licensed Appraiser following USPAP methodology and forms the basis for the Lender's Loan-to-Value calculation. The appraiser inspects the property, pulls Comps, and applies adjustments to estimate market value. A low appraisal can derail a purchase if the Lender refuses to lend against the higher contract price, triggering the Appraisal Contingency.",
-    "indications": ["Residential", "Commercial", "Cross-sector"],
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Cross-sector"
+    ],
     "category": "Valuation & Appraisal",
-    "sources": ["Appraisal Foundation", "Appraisal Institute"]
+    "sources": [
+      "Appraisal Foundation",
+      "Appraisal Institute"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Appraisal Contingency",
+    "full": "",
+    "plain": "A clause in a purchase contract letting the buyer back out without penalty if the Appraisal comes in below the contract price.",
+    "snappy": "Contractual exit if the Appraisal under-values the property.",
+    "detail": "If the property's Appraised Value lands below the contract price, the Lender will only finance against the lower number — leaving the buyer to cover the gap in cash. The Appraisal Contingency lets the buyer renegotiate or walk and recover the Earnest Money Deposit. A standard residential Contingency, but waivable in competitive markets. Commercial transactions handle this through a broader Due Diligence period rather than a separate contingency.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
   },
   {
     "letter": "A",
     "term": "Appraised Value",
     "full": "",
     "plain": "The dollar number the Appraiser writes in their report — what the property is judged to be worth.",
-    "snappy": "Appraiser's stated dollar value for a property in a written Appraisal report.",
+    "snappy": "Stated dollar value from the Appraiser for a property in a written Appraisal report.",
     "detail": "Appraised Value anchors the Lender's Loan-to-Value calculation. When appraised value falls below the contract price, the Lender will only finance against the lower number — the buyer must come up with the gap in cash, renegotiate, or walk via the Appraisal Contingency. Appraised value is distinct from Assessed Value (used for Property Tax) and market value (what buyers will actually pay).",
-    "indications": ["Residential", "Commercial"],
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
     "category": "Valuation & Appraisal",
-    "sources": ["Appraisal Institute"]
+    "sources": [
+      "Appraisal Institute"
+    ]
   },
   {
     "letter": "A",
@@ -94,9 +140,47 @@
     "plain": "The licensed professional who writes an Appraisal — independent of the buyer, seller, and Lender.",
     "snappy": "Licensed third party who values property under USPAP standards.",
     "detail": "Appraisers are licensed at the state level under federal Appraiser Qualifications Board minimums. They must follow USPAP — Uniform Standards of Professional Appraisal Practice — and are independent of the parties to a transaction. The 2008 financial crisis tightened appraiser-independence rules: Lenders now order Appraisals through Appraisal Management Companies rather than directly, to prevent pressure on valuations.",
-    "indications": ["Residential", "Commercial"],
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
     "category": "Valuation & Appraisal",
-    "sources": ["Appraisal Foundation", "Appraisal Institute"]
+    "sources": [
+      "Appraisal Foundation",
+      "Appraisal Institute"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "APR",
+    "full": "Annual Percentage Rate",
+    "plain": "The all-in cost of a Mortgage per year, including the interest rate plus Closing Costs and Discount Points.",
+    "snappy": "True annual cost of a loan including fees, expressed as a percentage.",
+    "detail": "APR sits next to the headline interest rate on every Loan Estimate and Closing Disclosure so borrowers can compare apples to apples. A loan with a low interest rate but high Discount Points and origination fees can have a higher APR than a slightly higher rate with no points. APR assumes the borrower keeps the loan to maturity; in practice most Refinance or move first.",
+    "indications": [
+      "Residential",
+      "Cross-sector"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "ARM",
+    "full": "Adjustable-Rate Mortgage",
+    "plain": "A common shorthand for an Adjustable-Rate Mortgage.",
+    "snappy": "Standard shorthand for an Adjustable-Rate Mortgage.",
+    "detail": "ARM is universal shorthand in US mortgage lending for an Adjustable-Rate Mortgage. Naming follows a fixed/variable convention: a 5/1 ARM has a 5-year fixed period then annual resets; a 7/6 ARM has 7 years fixed then 6-month resets. Use the full term name in the first mention of a definition, then ARM thereafter — the reader knows the shorthand. See Adjustable-Rate Mortgage for full mechanics.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB"
+    ]
   },
   {
     "letter": "A",
@@ -105,9 +189,45 @@
     "plain": "A safety limit on how much the interest rate on an Adjustable-Rate Mortgage can rise — both at each adjustment and over the loan's life.",
     "snappy": "Rate ceiling on an Adjustable-Rate Mortgage, per-period and lifetime.",
     "detail": "ARM Caps protect borrowers from runaway resets. A typical 5/1 ARM has caps written as 2/2/5: 2% maximum first adjustment, 2% maximum per subsequent adjustment, 5% maximum over the loan's life. Without caps, a sudden Index spike (the 2022 Fed hiking cycle is the canonical example) could double a borrower's payment overnight. Caps are disclosed on the Loan Estimate.",
-    "indications": ["Residential"],
+    "indications": [
+      "Residential"
+    ],
     "category": "Financing & Lending",
-    "sources": ["CFPB"]
+    "sources": [
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "ARV",
+    "full": "After-Repair Value",
+    "plain": "An investor's estimate of what a fixer-upper will be worth after renovation, used to size the purchase budget.",
+    "snappy": "Projected market value after planned renovations are complete.",
+    "detail": "ARV is the cornerstone metric in fix-and-flip and BRRRR (buy-rehab-rent-refinance-repeat) strategies. Investors back into a maximum purchase price by subtracting renovation costs and target profit from ARV. Hard-money Lenders typically cap loans at 70-75% of ARV. The Appraisal of an as-is distressed property is usually well below ARV — that's the spread the investor monetises.",
+    "indications": [
+      "Residential",
+      "Investment"
+    ],
+    "category": "Valuation & Appraisal",
+    "sources": [
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Assessed Value",
+    "full": "",
+    "plain": "The dollar value a county assessor assigns to your property to calculate Property Tax — usually below market value.",
+    "snappy": "County assessor's value used to compute Property Tax.",
+    "detail": "Assessed Value is the figure local tax authorities assign for Property Tax purposes. It is typically a percentage of fair market value (the assessment ratio) and updates on a reassessment cycle that varies by jurisdiction — annually in some counties, every 3-5 years in others. Distinct from Appraised Value (a Lender's number, set by a licensed Appraiser) and from sale price (what a buyer actually pays).",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS"
+    ]
   },
   {
     "letter": "A",
@@ -116,9 +236,14 @@
     "plain": "A Mortgage the buyer can take over from the seller at the seller's existing interest rate — valuable when rates have risen since.",
     "snappy": "Mortgage that can be transferred from seller to buyer at the existing rate.",
     "detail": "VA Loans and FHA Loans are typically assumable; conventional Conforming Loans usually are not. Assumption became newly valuable after the 2022 rate spike: a buyer assuming a 3% Mortgage saved hundreds per month versus a fresh 7% loan. The new buyer must qualify with the Lender, and the seller often remains contingently liable unless formally released.",
-    "indications": ["Residential"],
+    "indications": [
+      "Residential"
+    ],
     "category": "Financing & Lending",
-    "sources": ["VA", "FHA"]
+    "sources": [
+      "VA",
+      "FHA"
+    ]
   },
   {
     "letter": "B",
@@ -126,10 +251,17 @@
     "full": "",
     "plain": "A big lump-sum payment due at the end of a loan that wasn't fully amortised over its term.",
     "snappy": "Final lump-sum payment that pays off the remaining loan balance.",
-    "detail": "Balloon loans have low monthly payments because they amortise as if the loan ran longer than its actual term — e.g., 30-year Amortization but a 7-year term with the full remaining Principal due as a balloon. Common in commercial Mortgages and Bridge Loans. Residential borrowers often refinance before the balloon hits, so a refinancing-market shock can leave a borrower trapped.",
-    "indications": ["Commercial", "Residential", "Cross-sector"],
+    "detail": "Balloon loans have low monthly payments because they amortise as if the loan ran longer than its actual term — e.g., 30-year Amortization but a 7-year term with the full remaining Principal due as a balloon. Common in commercial Mortgages and Bridge Loans. Residential borrowers often refinance before the balloon hits, so a Refinance market shock can leave a borrower trapped.",
+    "indications": [
+      "Commercial",
+      "Residential",
+      "Cross-sector"
+    ],
     "category": "Financing & Lending",
-    "sources": ["CFPB", "Investopedia"]
+    "sources": [
+      "CFPB",
+      "Investopedia"
+    ]
   },
   {
     "letter": "B",
@@ -138,20 +270,29 @@
     "plain": "One one-hundredth of a percent — the standard unit for talking about interest rate moves.",
     "snappy": "1/100 of one percent — the language of rate changes.",
     "detail": "A basis point — abbreviated bps and pronounced bips — is 0.01%. A Mortgage Rate moving from 6.50% to 6.75% rose 25 basis points. Used wherever small percentage differences matter: pricing the Margin on an Adjustable-Rate Mortgage, comparing Cap Rate compression between markets, or quoting Spread above a benchmark.",
-    "indications": ["Cross-sector"],
+    "indications": [
+      "Cross-sector"
+    ],
     "category": "Financing & Lending",
-    "sources": ["Investopedia"]
+    "sources": [
+      "Investopedia"
+    ]
   },
   {
     "letter": "B",
     "term": "BPO",
     "full": "Broker Price Opinion",
-    "plain": "A real estate Broker's quick estimate of what a home is worth, cheaper and faster than a full Appraisal.",
+    "plain": "A quick estimate by a real estate Broker of what a home is worth, cheaper and faster than a full Appraisal.",
     "snappy": "Licensed broker's informal valuation — quicker than a formal Appraisal.",
-    "detail": "A Broker Price Opinion is a written estimate of likely sale price prepared by a licensed real estate Broker. BPOs are used by Lenders and servicers for portfolio decisions — short sales, REO disposition, refinancing — where a full USPAP-compliant Appraisal is not required by regulation. BPOs cost a fraction of an Appraisal but carry less legal weight and cannot be used to set Loan-to-Value at origination.",
-    "indications": ["Residential", "Commercial"],
+    "detail": "A Broker Price Opinion is a written estimate of likely sale price prepared by a licensed real estate Broker. BPOs are used by Lenders and servicers for portfolio decisions — short sales, REO disposition, and Refinance — where a full Appraisal compliant with USPAP is not required by regulation. BPOs cost a fraction of an Appraisal but carry less legal weight and cannot be used to set Loan-to-Value at origination.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
     "category": "Valuation & Appraisal",
-    "sources": ["NAR"]
+    "sources": [
+      "NAR"
+    ]
   },
   {
     "letter": "B",
@@ -160,9 +301,14 @@
     "plain": "Short-term financing that lets a buyer purchase a new home before selling their current one.",
     "snappy": "Short-term Mortgage that bridges the gap between two transactions.",
     "detail": "Bridge Loans are 6-12 month loans secured against the borrower's existing home (or both homes) so they can put a non-contingent offer on the next property before selling the first. Higher interest rate than a standard Mortgage and often structured with a Balloon Payment at term end. Commercial real estate uses bridge loans for acquisition or repositioning before securing permanent financing.",
-    "indications": ["Residential", "Commercial"],
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
     "category": "Financing & Lending",
-    "sources": ["MBA"]
+    "sources": [
+      "MBA"
+    ]
   },
   {
     "letter": "B",
@@ -171,20 +317,14 @@
     "plain": "A licensed real estate professional who can run their own brokerage and supervise agents.",
     "snappy": "Licensed real estate professional senior to an agent; can run a brokerage.",
     "detail": "All US states distinguish between a salesperson licence (often called an agent) and a broker licence. Brokers complete more coursework and exam content, can operate independently, sponsor agent licences, hold escrow funds, and sign as Broker of Record on transactions. A Buyer's Agent and a listing agent typically work under a sponsoring Broker who shares the commission.",
-    "indications": ["Residential", "Commercial"],
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
     "category": "Transactions",
-    "sources": ["NAR"]
-  },
-  {
-    "letter": "B",
-    "term": "Buyer's Agent",
-    "full": "",
-    "plain": "The real estate agent who works for you when you're buying — they hunt for properties and negotiate on your side.",
-    "snappy": "Real estate agent representing the buyer in a transaction.",
-    "detail": "A buyer's agent has a fiduciary duty to the buyer — confidentiality, loyalty, disclosure — and is typically paid via Commission split with the listing agent at Closing. Following the 2024 NAR settlement, buyers and their agents now sign written representation agreements before tours, with Commission terms negotiated directly rather than implied through the MLS listing. A Buyer's Agent works under a sponsoring Broker.",
-    "indications": ["Residential"],
-    "category": "Transactions",
-    "sources": ["NAR"]
+    "sources": [
+      "NAR"
+    ]
   },
   {
     "letter": "B",
@@ -193,9 +333,28 @@
     "plain": "Paying upfront fees to permanently or temporarily reduce a Mortgage's interest rate.",
     "snappy": "Upfront cash to lower a Mortgage rate, permanent or for the first few years.",
     "detail": "A permanent buy-down works through Discount Points — each point typically lowers the rate ~0.25%. Temporary buy-downs (2-1 or 3-2-1) lower the rate for the first 2-3 years, then step back to the note rate. Builders and sellers often fund buy-downs as a buyer incentive when high interest rates suppress demand — concealing what amounts to a price cut as a financing perk.",
-    "indications": ["Residential"],
+    "indications": [
+      "Residential"
+    ],
     "category": "Financing & Lending",
-    "sources": ["CFPB"]
+    "sources": [
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Buyer's Agent",
+    "full": "",
+    "plain": "The real estate agent who works for you when you're buying — they hunt for properties and negotiate on your side.",
+    "snappy": "Real estate agent representing the buyer in a transaction.",
+    "detail": "A buyer's agent has a fiduciary duty to the buyer — confidentiality, loyalty, disclosure — and is typically paid via Commission split with the listing agent at Closing. Following the 2024 NAR settlement, buyers and their agents now sign written representation agreements before tours, with Commission terms negotiated directly rather than implied through the MLS listing. A Buyer's Agent works under a sponsoring Broker.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
   },
   {
     "letter": "C",
@@ -204,9 +363,16 @@
     "plain": "A quick yardstick for what an investment property earns each year, expressed as a percentage of what it costs.",
     "snappy": "Annual NOI divided by purchase price — back-of-envelope yield on a commercial property.",
     "detail": "Cap Rate equals Net Operating Income divided by property value. A 5% cap means $50,000 of NOI on a $1M property. Higher cap rates signal higher perceived risk or weaker markets; lower caps signal premium assets in strong markets. Cap rates ignore financing, taxes, and capex — useful for comparing deals quickly, dangerous as a sole metric. The reciprocal of cap rate is the price-to-NOI multiple.",
-    "indications": ["Commercial", "Multifamily", "Cross-sector"],
+    "indications": [
+      "Commercial",
+      "Multifamily",
+      "Cross-sector"
+    ],
     "category": "Valuation & Appraisal",
-    "sources": ["CCIM Institute", "NCREIF"]
+    "sources": [
+      "CCIM Institute",
+      "NCREIF"
+    ]
   },
   {
     "letter": "C",
@@ -215,9 +381,14 @@
     "plain": "The monthly bills of owning a property — Mortgage, Property Tax, insurance, utilities, upkeep.",
     "snappy": "Ongoing monthly costs of holding a property.",
     "detail": "Carrying costs include the Mortgage payment (Principal plus Interest), Property Tax, homeowners insurance, utilities, HOA dues if applicable, and routine maintenance. For investors, carrying costs are the burn during vacancy or rehab — the gap between purchase and rent commencement that has to be funded out of pocket. Cash-on-Cash Return is computed net of carrying costs.",
-    "indications": ["Residential", "Investment"],
+    "indications": [
+      "Residential",
+      "Investment"
+    ],
     "category": "Management & Operations",
-    "sources": ["Investopedia"]
+    "sources": [
+      "Investopedia"
+    ]
   },
   {
     "letter": "C",
@@ -226,9 +397,31 @@
     "plain": "Annual cash flow from a property divided by the cash you put in — your money's actual yield.",
     "snappy": "Annual pre-tax cash flow divided by initial cash invested.",
     "detail": "Cash-on-Cash Return measures the yield on the equity actually invested, not the property's total value — so it captures the leverage effect of a Mortgage. A property with a 5% Cap Rate financed at 75% Loan-to-Value can produce 10%+ cash-on-cash when rents cover the debt service. Used alongside Cap Rate and IRR to evaluate income properties; favoured for its simplicity.",
-    "indications": ["Commercial", "Multifamily", "Investment"],
+    "indications": [
+      "Commercial",
+      "Multifamily",
+      "Investment"
+    ],
     "category": "Market & Investment",
-    "sources": ["CCIM Institute"]
+    "sources": [
+      "CCIM Institute"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "CFPB",
+    "full": "Consumer Financial Protection Bureau",
+    "plain": "The federal agency that regulates consumer mortgages and writes the rules Lenders must follow when lending to homebuyers.",
+    "snappy": "US federal consumer-finance regulator overseeing Mortgages.",
+    "detail": "The CFPB was created in 2010 under the Dodd-Frank Act in response to the 2008 financial crisis. It enforces consumer-finance laws including TILA and RESPA, wrote the TRID disclosure rule, and supervises non-bank Mortgage Lenders. Its complaints database and enforcement actions discipline Lenders for unfair, deceptive, or abusive practices. Borrowers can file complaints directly with the CFPB if a Lender mishandles their loan.",
+    "indications": [
+      "Residential",
+      "Public Sector"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "CFPB"
+    ]
   },
   {
     "letter": "C",
@@ -237,9 +430,16 @@
     "plain": "The final step of a property sale where the Deed transfers and money changes hands.",
     "snappy": "Settlement meeting where ownership transfers and funds settle.",
     "detail": "At Closing the seller signs the Deed, the buyer signs the Mortgage and note, Escrow releases funds, Title Insurance attaches, and the Deed is recorded with the county. Closing also marks settlement of Closing Costs, prorated Property Tax, and remaining Earnest Money Deposit credits. Increasingly handled remotely with e-signatures and remote online notarisation. Also called settlement or completion depending on the region.",
-    "indications": ["Residential", "Commercial", "Cross-sector"],
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Cross-sector"
+    ],
     "category": "Transactions",
-    "sources": ["ALTA", "CFPB"]
+    "sources": [
+      "ALTA",
+      "CFPB"
+    ]
   },
   {
     "letter": "C",
@@ -248,9 +448,13 @@
     "plain": "All the fees you pay at the finish line of a home purchase — usually 2-5% of the price on top of the Down Payment.",
     "snappy": "Bundle of fees and prepaid items paid at Closing, separate from purchase price.",
     "detail": "Closing costs include Lender fees (origination, Underwriting, Appraisal), third-party fees (Title Insurance, Escrow, recording), prepaid items (Property Tax, insurance, Mortgage Interest), and government taxes. Buyers pay 2-5% of price in most US markets. The Loan Estimate and Closing Disclosure (TRID forms) itemise every charge. Sellers can be asked to cover some closing costs as a negotiation concession.",
-    "indications": ["Residential"],
+    "indications": [
+      "Residential"
+    ],
     "category": "Transactions",
-    "sources": ["CFPB"]
+    "sources": [
+      "CFPB"
+    ]
   },
   {
     "letter": "C",
@@ -259,64 +463,13 @@
     "plain": "The final paperwork the Lender must give you three days before Closing, listing every cost and term.",
     "snappy": "required by TRID form detailing final loan terms and Closing Costs.",
     "detail": "The Closing Disclosure replaced the HUD-1 Settlement Statement under TRID rules in 2015. Lenders must deliver it at least three business days before Closing so borrowers have time to verify costs against the earlier Loan Estimate. Material changes (different APR, different loan product, prepayment penalty added) reset the three-day clock. The form covers interest rate, monthly payment, every Closing Cost line item, and cash-to-close.",
-    "indications": ["Residential"],
+    "indications": [
+      "Residential"
+    ],
     "category": "Transactions",
-    "sources": ["CFPB"]
-  },
-  {
-    "letter": "C",
-    "term": "Comp",
-    "full": "Comparable Sale",
-    "plain": "A recently sold home similar to yours, used as evidence of what your home is worth.",
-    "snappy": "Recently sold property similar in size, location, and features — anchors a valuation.",
-    "detail": "Comps are the working currency of real estate valuation. Appraisers, agents, and investors pull three to six recently closed sales of similar properties within roughly a mile and adjust for differences in square footage, lot, bedrooms, condition, and view to estimate subject value. The sales comparison approach dominates residential Appraisal; commercial Appraisal uses income and cost approaches alongside it.",
-    "indications": ["Residential", "Commercial"],
-    "category": "Valuation & Appraisal",
-    "sources": ["Appraisal Institute"]
-  },
-  {
-    "letter": "C",
-    "term": "Condo",
-    "full": "Condominium",
-    "plain": "An individually owned unit inside a larger building where common areas are shared and run by an HOA.",
-    "snappy": "Individually deeded unit with shared common areas and HOA governance.",
-    "detail": "Condo owners hold fee simple Title to their unit plus an undivided interest in common areas — hallways, lobby, roof, amenities. The HOA collects monthly dues to maintain common areas and enforces CC&Rs. Condos finance like single-family homes (FHA Loan and conventional both available) but Lenders also underwrite the building's financials, owner-occupancy ratio, and reserve adequacy. Contrast with a Co-op.",
-    "indications": ["Residential"],
-    "category": "Property Types",
-    "sources": ["HUD", "Fannie Mae"]
-  },
-  {
-    "letter": "C",
-    "term": "Conforming Loan",
-    "full": "",
-    "plain": "A Mortgage small enough to meet the size limits Fannie Mae and Freddie Mac will buy — most everyday US Mortgages.",
-    "snappy": "Mortgage at or below the size limit Fannie Mae and Freddie Mac will purchase.",
-    "detail": "Conforming Loans meet underwriting and loan-size limits set annually by FHFA. The standard 2024 limit is $766,550 in most US counties, higher in designated high-cost areas. Conforming loans are routinely sold from Lenders to Fannie Mae or Freddie Mac, packaged into agency MBS, and resold to investors — that liquidity is why conforming rates are cheaper than jumbo. Above the limit it becomes a jumbo loan.",
-    "indications": ["Residential"],
-    "category": "Financing & Lending",
-    "sources": ["FHFA", "Fannie Mae", "Freddie Mac"]
-  },
-  {
-    "letter": "C",
-    "term": "Contingency",
-    "full": "",
-    "plain": "A clause in a purchase contract that lets the buyer back out without losing the Earnest Money Deposit if something specific goes wrong.",
-    "snappy": "Contractual escape hatch tied to a specific condition being met.",
-    "detail": "Common contingencies include the inspection contingency (buyer can walk if inspection finds problems), the Appraisal Contingency (buyer can walk if the property doesn't appraise at contract price), the financing contingency (buyer can walk if the Lender denies the loan), and the home-sale contingency (buyer can walk if their existing home doesn't sell). Removing contingencies makes an offer more attractive but riskier for the buyer.",
-    "indications": ["Residential", "Commercial"],
-    "category": "Transactions",
-    "sources": ["NAR"]
-  },
-  {
-    "letter": "C",
-    "term": "Conventional Loan",
-    "full": "",
-    "plain": "A Mortgage that is not government-backed — not an FHA Loan, VA Loan, or USDA Loan. Most US Mortgages are conventional.",
-    "snappy": "Non-government Mortgage; usually purchased by Fannie Mae or Freddie Mac.",
-    "detail": "Conventional Loans contrast with government-backed loans (FHA Loan, VA Loan, USDA). Most are Conforming Loans bought by Fannie Mae and Freddie Mac; some are non-conforming jumbos held on Lender balance sheets or sold to private investors. Conventional borrowers with Down Payment under 20% pay Private Mortgage Insurance (PMI) until they reach 20% Equity. Generally requires higher Credit Score than government-backed alternatives.",
-    "indications": ["Residential"],
-    "category": "Financing & Lending",
-    "sources": ["Fannie Mae", "Freddie Mac"]
+    "sources": [
+      "CFPB"
+    ]
   },
   {
     "letter": "C",
@@ -325,9 +478,109 @@
     "plain": "A building where owners hold shares in a corporation that owns the whole building, rather than owning their unit individually.",
     "snappy": "Building owned by a corporation; residents own shares plus a proprietary lease.",
     "detail": "Distinct from a Condo: a co-op shareholder doesn't own real estate at all — they own shares in the corporation that owns the building, plus a proprietary lease to a specific apartment. Co-op boards screen buyers, often rejecting applicants for opaque reasons. Financing is harder (many Lenders don't lend on co-ops; share loans replace Mortgages). Common in NYC where ~75% of pre-war buildings are co-ops; rare elsewhere.",
-    "indications": ["Residential"],
+    "indications": [
+      "Residential"
+    ],
     "category": "Property Types",
-    "sources": ["NAR"]
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Commission",
+    "full": "",
+    "plain": "The percentage of the sale price paid to real estate agents at Closing — historically 5-6% split between buyer and listing sides.",
+    "snappy": "Percentage of sale price paid to real estate agents at Closing.",
+    "detail": "Real estate Commission is paid by the seller out of sale proceeds, traditionally 5-6% split between the listing agent and the Buyer's Agent. The 2024 NAR settlement decoupled Commission from the MLS — buyers and their agents now sign written representation agreements with explicit Commission terms before tours, and the listing no longer advertises a buy-side Commission. Effects on average Commission rates are still settling out as of 2026.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Comp",
+    "full": "Comparable Sale",
+    "plain": "A recently sold home similar to yours, used as evidence of what your home is worth.",
+    "snappy": "Recently sold property similar in size, location, and features — anchors a valuation.",
+    "detail": "Comps are the working currency of real estate valuation. Appraisers, agents, and investors pull three to six recently closed sales of similar properties within roughly a mile and adjust for differences in square footage, lot, bedrooms, condition, and view to estimate subject value. The sales comparison approach dominates residential Appraisal; commercial Appraisal uses income and cost approaches alongside it.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Valuation & Appraisal",
+    "sources": [
+      "Appraisal Institute"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Condo",
+    "full": "Condominium",
+    "plain": "An individually owned unit inside a larger building where common areas are shared and run by an HOA.",
+    "snappy": "Individually owned unit (own Deed) with shared common areas and HOA governance.",
+    "detail": "Condo owners hold fee simple Title to their unit plus an undivided interest in common areas — hallways, lobby, roof, amenities. The HOA collects monthly dues to maintain common areas and enforces CC&Rs. Condos finance like single-family homes (FHA Loan and conventional both available) but Lenders also underwrite the building's financials, owner-occupancy ratio, and reserve adequacy. Contrast with a Co-op.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "HUD",
+      "Fannie Mae"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Conforming Loan",
+    "full": "",
+    "plain": "A Mortgage small enough to meet the size limits Fannie Mae and Freddie Mac will buy — most everyday US Mortgages.",
+    "snappy": "Mortgage at or below the size limit Fannie Mae and Freddie Mac will purchase.",
+    "detail": "Conforming Loans meet underwriting and loan-size limits set annually by FHFA. The standard 2024 limit is $766,550 in most US counties, higher in designated high-cost areas. Conforming loans are routinely sold from Lenders to Fannie Mae or Freddie Mac, packaged into agency MBS, and resold to investors — that liquidity is why conforming rates are cheaper than jumbo. Above the limit it becomes a jumbo loan.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "FHFA",
+      "Fannie Mae",
+      "Freddie Mac"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Contingency",
+    "full": "",
+    "plain": "A clause in a purchase contract that lets the buyer back out without losing the Earnest Money Deposit if something specific goes wrong.",
+    "snappy": "Contractual escape hatch tied to a specific condition being met.",
+    "detail": "Common contingencies include the inspection contingency (buyer can walk if inspection finds problems), the Appraisal Contingency (buyer can walk if the property doesn't appraise at contract price), the financing contingency (buyer can walk if the Lender denies the loan), and the home-sale contingency (buyer can walk if their existing home doesn't sell). Removing contingencies makes an offer more attractive but riskier for the buyer.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Conventional Loan",
+    "full": "",
+    "plain": "A Mortgage that is not government-backed — not an FHA Loan, VA Loan, or USDA Loan. Most US Mortgages are conventional.",
+    "snappy": "Non-government Mortgage; usually purchased by Fannie Mae or Freddie Mac.",
+    "detail": "Conventional Loans contrast with government-backed loans (FHA Loan, VA Loan, USDA). Most are Conforming Loans bought by Fannie Mae and Freddie Mac; some are non-conforming jumbos held on Lender balance sheets or sold to private investors. Conventional borrowers with Down Payment under 20% pay Private Mortgage Insurance (PMI) until they reach 20% Equity. Generally requires higher Credit Score than government-backed alternatives.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Fannie Mae",
+      "Freddie Mac"
+    ]
   },
   {
     "letter": "C",
@@ -336,9 +589,14 @@
     "plain": "A seller's modified response to a buyer's offer — usually a different price or terms.",
     "snappy": "Modified response to an offer that becomes a new offer requiring acceptance.",
     "detail": "A counteroffer legally rejects the original offer and substitutes new terms — the original is dead. The party who counter-offers becomes the new offeror; the other party must accept, counter again, or walk. Counters typically adjust price, Closing date, Contingency timing, or specific concessions like seller-paid Closing Costs. Sophisticated negotiations often involve three or four rounds of counters before signing.",
-    "indications": ["Residential", "Commercial"],
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
     "category": "Transactions",
-    "sources": ["NAR"]
+    "sources": [
+      "NAR"
+    ]
   },
   {
     "letter": "C",
@@ -347,31 +605,13 @@
     "plain": "A three-digit summary of how reliably you've repaid debt — Lenders use it to price your Mortgage.",
     "snappy": "Numeric credit-risk score; FICO 300-850 is the dominant US scale.",
     "detail": "Mortgage Lenders use FICO scores from all three credit bureaus and typically take the middle score. Conventional Loans usually require 620+; FHA Loans go as low as 580 (or 500 with 10% Down Payment); VA and USDA have no hard minimum but Lenders impose their own (often 620). Higher scores access lower interest rates and lower PMI. A 100-point score difference can mean tens of thousands in lifetime interest.",
-    "indications": ["Residential"],
+    "indications": [
+      "Residential"
+    ],
     "category": "Financing & Lending",
-    "sources": ["CFPB"]
-  },
-  {
-    "letter": "D",
-    "term": "DTI",
-    "full": "Debt-to-Income Ratio",
-    "plain": "Your monthly debt payments divided by your monthly income — Lenders cap how high it can go to qualify.",
-    "snappy": "Monthly debt obligations divided by gross monthly income.",
-    "detail": "Lenders compute two DTIs: front-end (Mortgage payment, Property Tax, insurance, HOA divided by income) and back-end (all of the above plus car loans, student loans, minimum credit card payments). Most Conforming Loans cap back-end DTI at 43-45%, though Conventional Loan AUS approvals stretch to 50%. DTI is the single biggest determinant of Mortgage qualification alongside Credit Score.",
-    "indications": ["Residential"],
-    "category": "Financing & Lending",
-    "sources": ["CFPB", "Fannie Mae"]
-  },
-  {
-    "letter": "D",
-    "term": "DSCR",
-    "full": "Debt Service Coverage Ratio",
-    "plain": "For investment properties — how many times the rental income covers the Mortgage payment.",
-    "snappy": "NOI divided by annual debt service — coverage cushion on a commercial loan.",
-    "detail": "DSCR is the commercial real estate analogue of Debt-to-Income Ratio. NOI divided by annual debt service: 1.20 means the property generates 20% more income than required to cover the Mortgage. Most commercial Lenders require 1.20-1.25 minimum at Underwriting. DSCR loans for single-family rentals exploded post-2020 — they qualify the borrower based on the property's rent rather than personal income.",
-    "indications": ["Commercial", "Multifamily", "Investment"],
-    "category": "Financing & Lending",
-    "sources": ["MBA", "CCIM Institute"]
+    "sources": [
+      "CFPB"
+    ]
   },
   {
     "letter": "D",
@@ -380,9 +620,15 @@
     "plain": "The legal document that transfers ownership of a property from seller to buyer — signed at Closing and filed with the county.",
     "snappy": "Written instrument conveying real-property Title between parties.",
     "detail": "A deed transfers ownership from grantor to grantee. The instrument must be written, identify the parties and property, contain words of conveyance, and be signed by the grantor. Common types: warranty deed (full Title guarantees), special warranty deed (limited guarantees), Quitclaim Deed (no guarantees — common in divorce or family transfers), and Deed of Trust (used in place of a Mortgage in many states). Deeds must be recorded with the county to give public notice.",
-    "indications": ["Residential", "Commercial", "Cross-sector"],
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Cross-sector"
+    ],
     "category": "Title & Ownership",
-    "sources": ["Cornell LII"]
+    "sources": [
+      "Cornell LII"
+    ]
   },
   {
     "letter": "D",
@@ -391,9 +637,14 @@
     "plain": "An alternative to a Mortgage used in many US states — a third party (trustee) holds Title until the loan is paid.",
     "snappy": "Three-party security instrument with a trustee holding Title until payoff.",
     "detail": "States divide between Mortgage states and Deed of Trust states. In a Deed of Trust state (California, Texas, Virginia, and most of the West), the borrower conveys Title to a trustee who holds it for the Lender. On Default, the trustee can foreclose non-judicially — faster and cheaper than the judicial Foreclosure required in Mortgage states. Functionally equivalent to a Mortgage from the borrower's perspective.",
-    "indications": ["Residential", "Commercial"],
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
     "category": "Title & Ownership",
-    "sources": ["Cornell LII"]
+    "sources": [
+      "Cornell LII"
+    ]
   },
   {
     "letter": "D",
@@ -402,9 +653,14 @@
     "plain": "Failing to keep up with Mortgage payments or otherwise breaching the loan agreement.",
     "snappy": "Breach of the Mortgage contract, usually missed payments.",
     "detail": "Default is the breach that triggers the Acceleration Clause and ultimately Foreclosure. Most Mortgages enter technical default after 30 days late and serious default after 90. Lenders generally try to work with borrowers (forbearance, loan modification, short sale) before foreclosing because foreclosure is costly and produces a discounted REO sale. Loan loss provisioning and CMBS investor reporting use specific 60+ and 90+ day default metrics.",
-    "indications": ["Residential", "Commercial"],
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
     "category": "Financing & Lending",
-    "sources": ["CFPB"]
+    "sources": [
+      "CFPB"
+    ]
   },
   {
     "letter": "D",
@@ -413,9 +669,13 @@
     "plain": "Upfront fees you pay the Lender at Closing to permanently lower your Mortgage's interest rate.",
     "snappy": "Prepaid Interest fee at Closing, each point ~1% of loan size for ~0.25% rate cut.",
     "detail": "One discount point equals 1% of the loan amount and typically reduces the interest rate by 0.25%, though the exact ratio varies by Lender and market. Points are a form of Buy-Down: paying for a lower rate over the life of the loan. The break-even depends on how long the borrower keeps the Mortgage — generally 5-7 years to recover the upfront cost via lower monthly Interest. Disclosed on the Loan Estimate and rolled into APR.",
-    "indications": ["Residential"],
+    "indications": [
+      "Residential"
+    ],
     "category": "Financing & Lending",
-    "sources": ["CFPB"]
+    "sources": [
+      "CFPB"
+    ]
   },
   {
     "letter": "D",
@@ -424,9 +684,48 @@
     "plain": "The cash you put down upfront when buying a home — the rest is the Mortgage.",
     "snappy": "Cash paid by the buyer at Closing, with the Lender financing the balance.",
     "detail": "Conventional Loans typically require 5-20% down; FHA Loans allow 3.5% with mortgage insurance; VA Loans and USDA Loans permit zero down for eligible borrowers. A 20% Down Payment lets Conventional borrowers avoid PMI and often unlocks better pricing tiers. Down Payment combined with Loan-to-Value defines the borrower's initial Equity. Larger down payments increase loan approval odds and reduce interest rate.",
-    "indications": ["Residential"],
+    "indications": [
+      "Residential"
+    ],
     "category": "Financing & Lending",
-    "sources": ["CFPB", "Fannie Mae"]
+    "sources": [
+      "CFPB",
+      "Fannie Mae"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "DSCR",
+    "full": "Debt Service Coverage Ratio",
+    "plain": "For investment properties — how many times the rental income covers the Mortgage payment.",
+    "snappy": "NOI divided by annual debt service — coverage cushion on a commercial loan.",
+    "detail": "DSCR is the commercial real estate analogue of Debt-to-Income Ratio. NOI divided by annual debt service: 1.20 means the property generates 20% more income than required to cover the Mortgage. Most commercial Lenders require 1.20-1.25 minimum at Underwriting. DSCR loans for single-family rentals exploded post-2020 — they qualify the borrower based on the property's rent rather than personal income.",
+    "indications": [
+      "Commercial",
+      "Multifamily",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "MBA",
+      "CCIM Institute"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "DTI",
+    "full": "Debt-to-Income Ratio",
+    "plain": "Your monthly debt payments divided by your monthly income — Lenders cap how high it can go to qualify.",
+    "snappy": "Monthly debt obligations divided by gross monthly income.",
+    "detail": "Lenders compute two DTIs: front-end (Mortgage payment, Property Tax, insurance, HOA divided by income) and back-end (all of the above plus car loans, student loans, minimum credit card payments). Most Conforming Loans cap back-end DTI at 43-45%, though Conventional Loan AUS approvals stretch to 50%. DTI is the single biggest determinant of Mortgage qualification alongside Credit Score.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "Fannie Mae"
+    ]
   },
   {
     "letter": "D",
@@ -435,9 +734,13 @@
     "plain": "When one agent or brokerage represents both the buyer and the seller in the same transaction.",
     "snappy": "Single agent or Broker representing both buyer and seller in one deal.",
     "detail": "Dual Agency creates an inherent conflict — the agent owes fiduciary duties to both sides simultaneously. Some states ban it outright; others allow it with written disclosure and informed consent. Critics argue it incentivises closing the deal over advocating for either party. A variant — designated agency — assigns different agents within the same brokerage to each side, narrowing the conflict to the Broker level.",
-    "indications": ["Residential"],
+    "indications": [
+      "Residential"
+    ],
     "category": "Transactions",
-    "sources": ["NAR"]
+    "sources": [
+      "NAR"
+    ]
   },
   {
     "letter": "D",
@@ -446,9 +749,15 @@
     "plain": "The investigation period after going under contract — inspections, document review, surveys — before the deal closes.",
     "snappy": "Investigation period during which the buyer verifies the property and its records.",
     "detail": "In residential transactions, due diligence runs through the Contingency periods — typically 7-14 days for inspection, 14-21 for Appraisal. The buyer hires professionals (Inspector, Appraiser, surveyor) and reviews documents (HOA financials, CC&Rs, Title Insurance commitment, lead-paint disclosure). Commercial due diligence is longer (30-90 days) and broader: phase I environmental, tenant interviews, lease audit, market study. Findings drive renegotiation or termination via Contingency.",
-    "indications": ["Residential", "Commercial"],
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
     "category": "Transactions",
-    "sources": ["NAR", "ULI"]
+    "sources": [
+      "NAR",
+      "ULI"
+    ]
   },
   {
     "letter": "E",
@@ -457,9 +766,30 @@
     "plain": "Cash you put down with your offer to show the seller you're serious — applied to the purchase if the deal closes.",
     "snappy": "Good-faith deposit accompanying a purchase offer; credited at Closing.",
     "detail": "Earnest Money signals commitment. Typically 1-3% of price in normal markets, 5-10% in competitive ones. EMD is held in Escrow by the Broker, attorney, or title company. If the buyer terminates within Contingency periods (inspection, Appraisal, financing), the EMD is refunded. Walking away after Contingencies expire generally forfeits the EMD to the seller as liquidated damages.",
-    "indications": ["Residential"],
+    "indications": [
+      "Residential"
+    ],
     "category": "Transactions",
-    "sources": ["NAR"]
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Equity",
+    "full": "",
+    "plain": "What you actually own of your home — the gap between its current value and what you still owe on the Mortgage.",
+    "snappy": "Owner's share — current value minus outstanding Mortgage balance.",
+    "detail": "Equity equals current market value minus all outstanding debt secured against the property. A $500K home with a $300K Mortgage balance produces $200K in Equity. Equity builds two ways: Principal paydown via Amortization, and market appreciation. Owners tap Equity through cash-out Refinance, home Equity loans (a second mortgage), or HELOCs. Equity is the foundation of personal household wealth in the US — for most owners, it dwarfs other assets.",
+    "indications": [
+      "Residential",
+      "Cross-sector"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "Federal Reserve"
+    ]
   },
   {
     "letter": "E",
@@ -468,9 +798,51 @@
     "plain": "A neutral third party that holds money or documents on behalf of the buyer and seller until the deal closes.",
     "snappy": "Third-party holding of funds or documents pending Closing.",
     "detail": "Escrow holds the Earnest Money Deposit, Closing funds, and Deed between contract and Closing — releasing each only when the conditions are met. After Closing, many Mortgages keep an escrow account that collects monthly Property Tax and insurance premiums alongside the loan payment, then disburses them when due. Lenders typically require escrow accounts when Loan-to-Value exceeds 80%.",
-    "indications": ["Residential", "Commercial", "Cross-sector"],
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Cross-sector"
+    ],
     "category": "Transactions",
-    "sources": ["ALTA", "CFPB"]
+    "sources": [
+      "ALTA",
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "Fannie Mae",
+    "full": "Federal National Mortgage Association",
+    "plain": "The largest US government-sponsored buyer of home loans — Lenders sell Mortgages to Fannie Mae and Fannie repackages them for investors.",
+    "snappy": "Government-sponsored enterprise that buys Conforming Loans from Lenders.",
+    "detail": "Fannie Mae is a publicly traded but federally chartered company (a government-sponsored enterprise, or GSE) that buys Conforming Loans from Lenders, repackages them into mortgage-backed securities, and sells those to investors. This secondary market provides the liquidity that lets Lenders keep originating new Mortgages. Fannie Mae went into federal conservatorship in 2008 and remains there. Sister entity Freddie Mac plays the same role with slightly different operational rules.",
+    "indications": [
+      "Residential",
+      "Cross-sector"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Fannie Mae",
+      "FHFA"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "FHA",
+    "full": "Federal Housing Administration",
+    "plain": "The federal agency inside HUD that insures FHA Loans, letting buyers get a Mortgage with only 3.5% down.",
+    "snappy": "Federal agency inside HUD insuring low-Down-Payment FHA Loans.",
+    "detail": "The FHA insures Mortgages made to low-Down-Payment borrowers, letting them buy with as little as 3.5% down (or 10% down with Credit Score 500-579). The insurance — funded by borrower-paid MIP — covers Lender losses on Default, which is why Lenders accept lower Credit Scores and Down Payments on an FHA Loan than on a Conventional Loan. Part of HUD; distinct from FHFA (which oversees Fannie Mae and Freddie Mac).",
+    "indications": [
+      "Residential",
+      "Public Sector",
+      "Affordable"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "FHA",
+      "HUD"
+    ]
   },
   {
     "letter": "F",
@@ -479,9 +851,30 @@
     "plain": "A Mortgage insured by the Federal Housing Administration — easier to qualify for and lower Down Payment than conventional.",
     "snappy": "FHA-insured Mortgage with 3.5% Down Payment minimum.",
     "detail": "FHA Loans require 3.5% Down Payment with a Credit Score of 580+, or 10% down with scores 500-579. Borrowers pay both an upfront mortgage insurance premium (1.75% of loan amount) and an ongoing monthly premium for the life of the loan if Down Payment is under 10%. Loan limits track FHFA Conforming Loan limits but adjusted by county. FHA Loans are Assumable, which became newly valuable after the 2022 rate spike.",
-    "indications": ["Residential"],
+    "indications": [
+      "Residential"
+    ],
     "category": "Financing & Lending",
-    "sources": ["FHA", "HUD"]
+    "sources": [
+      "FHA",
+      "HUD"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "FHFA",
+    "full": "Federal Housing Finance Agency",
+    "plain": "The federal regulator that oversees Fannie Mae and Freddie Mac — sets the size limits on Conforming Loans.",
+    "snappy": "Federal regulator of Fannie Mae, Freddie Mac, and Conforming Loan limits.",
+    "detail": "The FHFA was created in 2008 to oversee the housing GSEs (Fannie Mae and Freddie Mac) plus the Federal Home Loan Banks. It sets the annual Conforming Loan limits, supervises the GSEs' Underwriting standards, and acts as their conservator since the 2008 financial crisis. Publishes the closely-watched FHFA House Price Index quarterly, a key benchmark for residential price trends.",
+    "indications": [
+      "Residential",
+      "Public Sector"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "FHFA"
+    ]
   },
   {
     "letter": "F",
@@ -489,10 +882,15 @@
     "full": "",
     "plain": "A Mortgage whose interest rate stays the same for the entire loan term — payment never changes.",
     "snappy": "Mortgage with a constant interest rate over the full term.",
-    "detail": "The 30-year Fixed-Rate Mortgage is the dominant US Mortgage product, available because Fannie Mae and Freddie Mac buy them and bear the prepayment risk. Other terms are 10, 15, 20, and 25 years. The borrower's monthly Principal-and-Interest payment never changes — only escrowed Property Tax and insurance adjust. Contrast with an Adjustable-Rate Mortgage, which is cheaper upfront but variable.",
-    "indications": ["Residential"],
+    "detail": "The 30-year Fixed-Rate Mortgage is the dominant US Mortgage product, available because Fannie Mae and Freddie Mac buy them and bear the prepayment risk. Other terms are 10, 15, 20, and 25 years. The borrower's monthly Principal and Interest payment never changes — only the Property Tax and insurance held in Escrow and insurance adjust. Contrast with an Adjustable-Rate Mortgage, which is cheaper upfront but variable.",
+    "indications": [
+      "Residential"
+    ],
     "category": "Financing & Lending",
-    "sources": ["Freddie Mac", "Fannie Mae"]
+    "sources": [
+      "Freddie Mac",
+      "Fannie Mae"
+    ]
   },
   {
     "letter": "F",
@@ -501,9 +899,64 @@
     "plain": "The legal process by which a Lender takes back a property after the borrower stops paying the Mortgage.",
     "snappy": "Legal process Lenders use to repossess and sell property after Default.",
     "detail": "Foreclosure is triggered by the Acceleration Clause after sustained Default. In Mortgage states, foreclosure is judicial — Lenders sue in court and the process takes 12-24 months on average. In Deed of Trust states the process is non-judicial — the trustee can sell at auction in 3-6 months. After auction, unsold properties become REO on the Lender's books. Foreclosure devastates Credit Scores and bars new federally backed Mortgages for 3-7 years.",
-    "indications": ["Residential", "Commercial"],
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
     "category": "Financing & Lending",
-    "sources": ["CFPB", "HUD"]
+    "sources": [
+      "CFPB",
+      "HUD"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "Freddie Mac",
+    "full": "Federal Home Loan Mortgage Corporation",
+    "plain": "Fannie Mae's sister GSE — buys Conforming Loans from Lenders and resells them to investors, keeping the Mortgage market liquid.",
+    "snappy": "Government-sponsored enterprise that buys Conforming Loans, alongside Fannie Mae.",
+    "detail": "Freddie Mac is the second of the two big housing GSEs alongside Fannie Mae. Created in 1970 to compete with Fannie Mae and add liquidity to the Mortgage market. Buys Conforming Loans from Lenders, securitises them, and publishes the Primary Mortgage Market Survey — the weekly 30-year average rate widely cited in the press. Like Fannie Mae, has been in FHFA conservatorship since 2008.",
+    "indications": [
+      "Residential",
+      "Cross-sector"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Freddie Mac",
+      "FHFA"
+    ]
+  },
+  {
+    "letter": "G",
+    "term": "Ginnie Mae",
+    "full": "Government National Mortgage Association",
+    "plain": "A federal agency that guarantees mortgage-backed securities made of FHA, VA, and USDA loans — full faith and credit of the US government.",
+    "snappy": "Federal guarantor of MBS made from FHA, VA, USDA loan pools.",
+    "detail": "Unlike Fannie Mae and Freddie Mac (privately owned GSEs), Ginnie Mae is a wholly federal agency inside HUD. It does not buy loans — instead it guarantees the timely payment of mortgage-backed securities made of government-insured loans (FHA Loan, VA Loan, USDA Loan). The full-faith-and-credit guarantee gives Ginnie MBS the lowest credit risk in the agency MBS space, just above US Treasuries.",
+    "indications": [
+      "Residential",
+      "Public Sector"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "HUD"
+    ]
+  },
+  {
+    "letter": "G",
+    "term": "GSE",
+    "full": "Government-Sponsored Enterprise",
+    "plain": "A private company with a federal charter — Fannie Mae and Freddie Mac are the two big housing GSEs.",
+    "snappy": "Federally chartered private company; Fannie Mae and Freddie Mac are the housing GSEs.",
+    "detail": "A GSE is a private corporation with a federal charter and an implicit (or, post-2008, near-explicit) federal backstop. Two GSEs dominate US housing finance — Fannie Mae and Freddie Mac — both in FHFA conservatorship since 2008. Ginnie Mae is not a GSE (it is a wholly federal agency). The GSE model concentrates housing finance risk on a few large entities, the source of intense post-crisis policy debate.",
+    "indications": [
+      "Residential",
+      "Public Sector"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "FHFA"
+    ]
   },
   {
     "letter": "H",
@@ -512,9 +965,30 @@
     "plain": "The organisation that runs the common areas of a Condo or planned community — collects dues, sets rules, and enforces CC&Rs.",
     "snappy": "Association managing common areas and rules of a Condo or planned community.",
     "detail": "An HOA is a legal entity (usually a non-profit corporation) governing a community of property owners. Membership is mandatory for owners within the community. The HOA collects monthly or annual dues, maintains common areas (pools, landscaping, roofs in some structures), and enforces CC&Rs — Covenants, Conditions, and Restrictions — that bind every owner. Powerful HOAs can fine, place Liens, and in extreme cases force a sale for unpaid dues. Buyers review HOA financials during Due Diligence.",
-    "indications": ["Residential"],
+    "indications": [
+      "Residential"
+    ],
     "category": "Management & Operations",
-    "sources": ["NAR"]
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "HUD",
+    "full": "US Department of Housing and Urban Development",
+    "plain": "The federal department in charge of US housing policy — runs FHA, Ginnie Mae, public housing, and fair-housing enforcement.",
+    "snappy": "Cabinet-level federal department for housing policy and FHA.",
+    "detail": "HUD is the federal department overseeing housing and urban policy, including FHA (the Federal Housing Administration that insures FHA Loans), Ginnie Mae, the Section 8 voucher program, public housing, and Fair Housing Act enforcement. Provides extensive consumer-facing resources for homebuyers and renters. Distinct from FHFA, which regulates Fannie Mae and Freddie Mac.",
+    "indications": [
+      "Residential",
+      "Public Sector",
+      "Affordable"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "HUD"
+    ]
   },
   {
     "letter": "I",
@@ -522,10 +996,30 @@
     "full": "",
     "plain": "A benchmark interest rate that an Adjustable-Rate Mortgage resets to plus a Margin.",
     "snappy": "Benchmark rate (SOFR, Treasury, etc.) an ARM resets against.",
-    "detail": "The index is the moving piece in an Adjustable-Rate Mortgage. The Lender doesn't set the rate at reset; they apply a contractual formula: index plus Margin, subject to ARM Caps. Common indices are SOFR (since LIBOR's retirement), the constant-maturity Treasury, and the one-year CMT. Index movement is the borrower's risk — the Lender just passes through what the market is doing.",
-    "indications": ["Residential", "Commercial"],
+    "detail": "The index is the moving piece in an Adjustable-Rate Mortgage. The Lender doesn't set the rate at reset; they apply a contractual formula: index plus Margin, subject to ARM Caps. Common indices are SOFR (since the retirement of LIBOR), the constant-maturity Treasury, and the one-year CMT. Index movement is the borrower's risk — the Lender just passes through what the market is doing.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
     "category": "Financing & Lending",
-    "sources": ["Federal Reserve"]
+    "sources": [
+      "Federal Reserve"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Inspector",
+    "full": "",
+    "plain": "A licensed professional who walks through a property before Closing and reports on its physical condition.",
+    "snappy": "Licensed professional reporting on a property's condition before Closing.",
+    "detail": "The home Inspector evaluates structure, roof, HVAC, plumbing, electrical, and visible safety issues — typically a 2-4 hour walk-through with a written report and photos. Findings drive renegotiation during the inspection Contingency: buyer can request repairs, credits, or walk away. Distinct from an Appraiser (who values, not condition) and from specialty inspectors (pest, sewer, mould) who may follow up on findings.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
   },
   {
     "letter": "I",
@@ -534,9 +1028,15 @@
     "plain": "The annual cost of borrowing expressed as a percentage of the loan balance.",
     "snappy": "Annual percentage cost of a Mortgage's outstanding Principal.",
     "detail": "interest rate is the headline number on a Mortgage, distinct from APR (which adds Closing Costs). Each monthly payment splits between Interest (calculated against current Principal) and Principal paydown — Amortization governs the split. A 1% rate change on a $400K Mortgage moves the monthly payment by roughly $260. Mortgage rates are loosely correlated with the 10-year Treasury yield, not the Fed's policy rate.",
-    "indications": ["Residential", "Cross-sector"],
+    "indications": [
+      "Residential",
+      "Cross-sector"
+    ],
     "category": "Financing & Lending",
-    "sources": ["Federal Reserve", "Freddie Mac"]
+    "sources": [
+      "Federal Reserve",
+      "Freddie Mac"
+    ]
   },
   {
     "letter": "L",
@@ -545,9 +1045,15 @@
     "plain": "The institution that loans you the Mortgage money — could be a bank, credit union, or non-bank.",
     "snappy": "Institution originating and funding a Mortgage.",
     "detail": "Lenders come in several flavours: depository banks, credit unions, mortgage banks, and non-bank Lenders (Rocket, United Wholesale, loanDepot). Many Lenders sell Conforming Loans to Fannie Mae or Freddie Mac immediately after origination, becoming servicers rather than holders. Non-bank Lenders now originate the majority of US Mortgages. The Lender sets the interest rate, runs Underwriting, and ultimately approves or denies the borrower.",
-    "indications": ["Residential", "Commercial"],
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
     "category": "Financing & Lending",
-    "sources": ["MBA", "CFPB"]
+    "sources": [
+      "MBA",
+      "CFPB"
+    ]
   },
   {
     "letter": "L",
@@ -556,9 +1062,34 @@
     "plain": "A retired benchmark interest rate that used to set the reset on many Adjustable-Rate Mortgages.",
     "snappy": "Retired benchmark replaced by SOFR for ARM resets after 2023.",
     "detail": "LIBOR was the dominant global benchmark for Adjustable-Rate Mortgages, derivatives, and corporate floating-rate debt — until manipulation scandals and a weak underlying market led regulators to phase it out. US Dollar LIBOR ceased publication on 30 June 2023. Pre-existing LIBOR ARMs migrated to SOFR based replacement rates under federal LIBOR Act safe harbours. New ARMs price off SOFR plus a Margin.",
-    "indications": ["Residential", "Commercial", "Cross-sector"],
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Cross-sector"
+    ],
     "category": "Financing & Lending",
-    "sources": ["Federal Reserve", "OCC"]
+    "sources": [
+      "Federal Reserve",
+      "OCC"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Lien",
+    "full": "",
+    "plain": "A legal claim against a property — usually for unpaid debt — that prevents sale until cleared.",
+    "snappy": "Legal claim attached to a property, blocking sale until resolved.",
+    "detail": "Liens give creditors a security interest in real property. A Mortgage is itself a voluntary Lien — the Lender's right to foreclose if the borrower defaults. Involuntary Liens arise from unpaid Property Tax, contractor disputes (mechanic's Liens), unpaid federal income tax (IRS Liens), or court judgments. Liens are recorded with the county and surface during a Title search. Title Insurance protects against undiscovered Liens that pre-date Closing.",
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Cross-sector"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII",
+      "ALTA"
+    ]
   },
   {
     "letter": "L",
@@ -567,9 +1098,13 @@
     "plain": "A three-page form the Lender must give you within three days of application showing the loan's expected terms and Closing Costs.",
     "snappy": "required by TRID disclosure of expected Mortgage terms and Closing Costs.",
     "detail": "The Loan Estimate replaced the Good Faith Estimate under TRID in 2015. It standardises Mortgage disclosure so borrowers can compare Lenders apples-to-apples: interest rate, APR, monthly payment, total Closing Costs, and the cash needed at Closing. Lenders cannot raise certain fees more than 10% between the Loan Estimate and Closing Disclosure without re-disclosing and resetting the three-day waiting period.",
-    "indications": ["Residential"],
+    "indications": [
+      "Residential"
+    ],
     "category": "Financing & Lending",
-    "sources": ["CFPB"]
+    "sources": [
+      "CFPB"
+    ]
   },
   {
     "letter": "L",
@@ -578,9 +1113,16 @@
     "plain": "How much you're borrowing as a percentage of the property's value — 80% LTV means a 20% Down Payment.",
     "snappy": "Mortgage balance divided by Appraised Value, expressed as a percentage.",
     "detail": "LTV is the single biggest input into Mortgage pricing. Conventional Loans below 80% LTV escape PMI; above 80% pay PMI until LTV drops back below 80% (or 78% automatic termination). FHA Loans go to 96.5% LTV; VA Loans and USDA Loans to 100%. Commercial Mortgages typically cap at 65-75% LTV. Higher LTV means thinner Equity cushion and higher Default risk — Lenders price accordingly.",
-    "indications": ["Residential", "Commercial", "Cross-sector"],
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Cross-sector"
+    ],
     "category": "Financing & Lending",
-    "sources": ["Fannie Mae", "Freddie Mac"]
+    "sources": [
+      "Fannie Mae",
+      "Freddie Mac"
+    ]
   },
   {
     "letter": "M",
@@ -589,9 +1131,47 @@
     "plain": "The Lender's fixed markup added to the Index when an Adjustable-Rate Mortgage resets.",
     "snappy": "Fixed Lender spread added to the Index at each ARM reset.",
     "detail": "Margin is the part of an Adjustable-Rate Mortgage's reset that the Lender controls — disclosed at origination and fixed for the loan's life. A common SOFR+2.75% Margin loan would reset to 2.75% above 30-day average SOFR at each adjustment, subject to ARM Caps. Margin captures the Lender's profit and credit-risk pricing; the Index captures the market.",
-    "indications": ["Residential", "Commercial"],
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
     "category": "Financing & Lending",
-    "sources": ["CFPB"]
+    "sources": [
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "MBS",
+    "full": "Mortgage-Backed Security",
+    "plain": "A bond made by bundling many home loans together so investors earn the monthly Mortgage payments.",
+    "snappy": "Bond backed by a pool of Mortgages, paying investors from borrower payments.",
+    "detail": "MBS turns illiquid Mortgages into tradable securities. Fannie Mae, Freddie Mac, and Ginnie Mae securitise government-backed and Conforming Loans into agency MBS — the dominant US fixed-income market alongside Treasuries. Non-agency (private-label) MBS securitise jumbo and non-conforming loans, smaller post-2008. The MBS market provides the liquidity that lets Lenders keep originating new Mortgages without holding them on balance sheet.",
+    "indications": [
+      "Residential",
+      "Cross-sector"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Federal Reserve",
+      "Ginnie Mae"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "MIP",
+    "full": "Mortgage Insurance Premium",
+    "plain": "FHA Loan's version of mortgage insurance — paid upfront and monthly, often for the loan's life.",
+    "snappy": "FHA Loan equivalent of PMI; usually runs for the loan's life.",
+    "detail": "MIP attaches to every FHA Loan: an upfront premium of 1.75% of the loan amount (rolled into the loan) plus an ongoing monthly premium of 0.5-1.05% annualised. Unlike PMI on Conventional Loans (which terminates at 78% Loan-to-Value), MIP usually runs for the loan's life if Down Payment was under 10%. The only way out is to Refinance into a Conventional Loan once Equity reaches 20%.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "FHA",
+      "HUD"
+    ]
   },
   {
     "letter": "M",
@@ -600,9 +1180,14 @@
     "plain": "The shared private database where real estate agents list properties for sale.",
     "snappy": "Cooperative database where listing agents publish properties for member access.",
     "detail": "MLS is operated by local Realtor associations under NAR oversight — there are over 500 regional MLSes in the US. Listing agents post properties with full data (square footage, condition notes, Commission split offered to Buyer's Agent), accessible to member agents and syndicated to public sites like Zillow and Redfin. The 2024 NAR settlement required removing offered Commission from the MLS listing.",
-    "indications": ["Residential", "Commercial"],
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
     "category": "Transactions",
-    "sources": ["NAR"]
+    "sources": [
+      "NAR"
+    ]
   },
   {
     "letter": "M",
@@ -611,53 +1196,66 @@
     "plain": "A loan to buy property where the property itself is the collateral — the Lender can take it back if you don't pay.",
     "snappy": "Loan secured by real property as collateral.",
     "detail": "A Mortgage is the security instrument that gives the Lender a Lien on the property until the loan is repaid. The two main categories are Fixed-Rate Mortgages and Adjustable-Rate Mortgages, further divided into Conforming Loan, jumbo, FHA Loan, VA Loan, and USDA Loan. In many states a Deed of Trust replaces the formal mortgage instrument with similar legal effect. Default triggers Foreclosure through the Acceleration Clause.",
-    "indications": ["Residential", "Commercial", "Cross-sector"],
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Cross-sector"
+    ],
     "category": "Financing & Lending",
-    "sources": ["CFPB", "MBA"]
+    "sources": [
+      "CFPB",
+      "MBA"
+    ]
   },
   {
     "letter": "M",
     "term": "Mortgage Insurance",
     "full": "",
     "plain": "Insurance the borrower pays that protects the Lender if you Default — required on low Down Payment loans.",
-    "snappy": "Lender-protective insurance paid by the borrower on low Down Payment loans.",
-    "detail": "Mortgage Insurance comes in two flavours. Private Mortgage Insurance (PMI) attaches to Conventional Loans with Loan-to-Value above 80% — typically 0.5-1.5% of loan amount annually, and falls off automatically when LTV reaches 78%. FHA Loans carry MIP (Mortgage Insurance Premium): both upfront 1.75% and monthly, often for the loan's life unless refinanced. Critics see MI as the cost of a small Down Payment.",
-    "indications": ["Residential"],
+    "snappy": "Lender protective insurance paid by the borrower on low Down Payment loans.",
+    "detail": "Mortgage Insurance comes in two flavours. Private Mortgage Insurance (PMI) attaches to Conventional Loans with Loan-to-Value above 80% — typically 0.5-1.5% of loan amount annually, and falls off automatically when LTV reaches 78%. FHA Loans carry MIP (Mortgage Insurance Premium): both upfront 1.75% and monthly, often for the life of the loan unless the borrower Refinances. Critics see MI as the cost of a small Down Payment.",
+    "indications": [
+      "Residential"
+    ],
     "category": "Financing & Lending",
-    "sources": ["CFPB", "FHA"]
+    "sources": [
+      "CFPB",
+      "FHA"
+    ]
   },
   {
-    "letter": "P",
-    "term": "Pre-approval",
-    "full": "",
-    "plain": "A Lender's written commitment, after running your finances, to lend you up to a specific amount.",
-    "snappy": "Lender's documented commitment to fund a Mortgage up to a stated amount.",
-    "detail": "Pre-approval requires submitting income documentation, credit pull, and asset verification — the Lender runs preliminary Underwriting and issues a letter committing to fund up to a specific loan amount subject to property review. Stronger than mere Pre-qualification (which relies on borrower-stated numbers). Pre-approval letters are typically valid 60-90 days and are now table-stakes in competitive offers.",
-    "indications": ["Residential"],
-    "category": "Financing & Lending",
-    "sources": ["CFPB"]
+    "letter": "N",
+    "term": "NAR",
+    "full": "National Association of Realtors",
+    "plain": "The largest US real estate trade association — its members can call themselves Realtors and use the MLS.",
+    "snappy": "Largest US real estate trade body; member Agents call themselves Realtors.",
+    "detail": "NAR is the largest US trade association in any industry by membership — roughly 1.5 million member Agents. Member benefits include MLS access (often gated by NAR membership) and the right to use the trademarked title Realtor. The 2024 NAR settlement reshaped buy-side Commission economics: Buyer's Agent fees can no longer be posted on the MLS and must be negotiated directly with the buyer in a written agreement.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
   },
   {
-    "letter": "P",
-    "term": "Pre-qualification",
-    "full": "",
-    "plain": "A quick estimate of how much you could borrow based on numbers you tell the Lender — no documents pulled.",
-    "snappy": "Informal estimate of borrowing capacity based on stated, unverified information.",
-    "detail": "Pre-qualification is the lightest form of Lender engagement — borrower states income, debts, and assets, the Lender runs a rough calculation, no credit pull. Useful as a first-pass budgeting tool. Many sellers no longer accept pre-qualification letters as proof of buying ability; Pre-approval is the credible signal. Some Lenders use the terms loosely or interchangeably — read the letter's fine print.",
-    "indications": ["Residential"],
-    "category": "Financing & Lending",
-    "sources": ["CFPB"]
-  },
-  {
-    "letter": "P",
-    "term": "Principal",
-    "full": "",
-    "plain": "The amount of money you actually borrowed, separate from the Interest you pay on it.",
-    "snappy": "Outstanding Mortgage balance excluding accrued Interest.",
-    "detail": "Each Mortgage payment splits between Interest (charged against current Principal) and Principal paydown (which reduces the balance). The Amortization schedule governs the split — early payments are mostly Interest, late ones mostly Principal. Extra payments toward Principal reduce total Interest cost and shorten the loan. Some Lenders apply extra payments to future installments instead of Principal unless explicitly instructed.",
-    "indications": ["Residential", "Cross-sector"],
-    "category": "Financing & Lending",
-    "sources": ["CFPB", "Investopedia"]
+    "letter": "N",
+    "term": "NOI",
+    "full": "Net Operating Income",
+    "plain": "An income property's gross rent minus its operating expenses — but before Mortgage payments and taxes on income.",
+    "snappy": "Gross rental income minus operating expenses, before debt service.",
+    "detail": "NOI is the income-side cornerstone of commercial real estate valuation. Equals gross potential rent, minus vacancy and credit loss, minus all operating expenses (Property Tax, insurance, utilities, repairs, management). It is reported before debt service (Mortgage Interest and Principal) and before federal income tax, so it isolates property performance from how the deal is financed or owned. NOI feeds Cap Rate, DSCR, and most institutional valuation models.",
+    "indications": [
+      "Commercial",
+      "Multifamily",
+      "Investment"
+    ],
+    "category": "Valuation & Appraisal",
+    "sources": [
+      "CCIM Institute",
+      "NCREIF"
+    ]
   },
   {
     "letter": "P",
@@ -666,9 +1264,78 @@
     "plain": "Insurance you pay monthly on a Conventional Loan with less than 20% Down Payment — protects the Lender, not you.",
     "snappy": "Monthly insurance on conventional Mortgages with LTV above 80%.",
     "detail": "PMI applies to Conventional Loans with Loan-to-Value above 80%. Costs 0.5-1.5% of loan amount annually depending on Credit Score and LTV, added to the monthly Mortgage payment. PMI automatically terminates when LTV reaches 78% based on the original Amortization schedule, or borrowers can request early cancellation at 80% if the property has appreciated and an Appraisal supports it. FHA Loans carry separate MIP that often runs for the loan's life.",
-    "indications": ["Residential"],
+    "indications": [
+      "Residential"
+    ],
     "category": "Financing & Lending",
-    "sources": ["CFPB", "Fannie Mae"]
+    "sources": [
+      "CFPB",
+      "Fannie Mae"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Pre-approval",
+    "full": "",
+    "plain": "A Lender's written commitment, after running your finances, to lend you up to a specific amount.",
+    "snappy": "Lender's documented commitment to fund a Mortgage up to a stated amount.",
+    "detail": "Pre-approval requires submitting income documentation, credit pull, and asset verification — the Lender runs preliminary Underwriting and issues a letter committing to fund up to a specific loan amount subject to property review. Stronger than mere Pre-qualification (which relies on borrower-stated numbers). Pre-approval letters are typically valid 60-90 days and are now table-stakes in competitive offers.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Pre-qualification",
+    "full": "",
+    "plain": "A quick estimate of how much you could borrow based on numbers you tell the Lender — no documents pulled.",
+    "snappy": "Informal estimate of borrowing capacity based on stated, unverified information.",
+    "detail": "Pre-qualification is the lightest form of Lender engagement — borrower states income, debts, and assets, the Lender runs a rough calculation, no credit pull. Useful as a first-pass budgeting tool. Many sellers no longer accept pre-qualification letters as proof of buying ability; Pre-approval is the credible signal. Some Lenders use the terms loosely or interchangeably — read the letter's fine print.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Principal",
+    "full": "",
+    "plain": "The amount of money you actually borrowed, separate from the Interest you pay on it.",
+    "snappy": "Outstanding Mortgage balance excluding accrued Interest.",
+    "detail": "Each Mortgage payment splits between Interest (charged against current Principal) and Principal paydown (which reduces the balance). The Amortization schedule governs the split — early payments are mostly Interest, late ones mostly Principal. Extra payments toward Principal reduce total Interest cost and shorten the loan. Some Lenders apply extra payments to future installments instead of Principal unless explicitly instructed.",
+    "indications": [
+      "Residential",
+      "Cross-sector"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Property Tax",
+    "full": "",
+    "plain": "An annual tax on real estate paid to local government — usually a percentage of the property's Assessed Value.",
+    "snappy": "Annual local tax on real property based on Assessed Value.",
+    "detail": "Property Tax is the largest revenue source for US local governments — funding schools, police, fire, and infrastructure. The rate (the mill rate or millage) applies to the property's Assessed Value, not its market value. Typical effective rates range from 0.3% (Hawaii) to 2.5% (Illinois, New Jersey). Paid annually or semi-annually, often held in Escrow monthly with the Mortgage payment. Federal income tax allows a partial deduction subject to the SALT cap.",
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Cross-sector"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS"
+    ]
   },
   {
     "letter": "R",
@@ -677,9 +1344,13 @@
     "plain": "A ceiling on how much an Adjustable-Rate Mortgage's interest rate can rise — per adjustment or over the loan's life.",
     "snappy": "Ceiling on ARM rate increases, per-period and lifetime.",
     "detail": "Rate Caps are the bedrock consumer protection in Adjustable-Rate Mortgages. Standard 5/1 ARMs carry 2/2/5 caps: 2% maximum first adjustment, 2% per subsequent adjustment, 5% lifetime. Without caps, a sudden Index spike could double a borrower's payment. The Lender must disclose caps on the Loan Estimate. Caps don't apply to the Margin — only to the rate itself after Index plus Margin is computed.",
-    "indications": ["Residential"],
+    "indications": [
+      "Residential"
+    ],
     "category": "Financing & Lending",
-    "sources": ["CFPB"]
+    "sources": [
+      "CFPB"
+    ]
   },
   {
     "letter": "R",
@@ -688,9 +1359,15 @@
     "plain": "Replacing your current Mortgage with a new one — usually to lower the interest rate or pull out Equity.",
     "snappy": "Paying off an existing Mortgage with a new one, usually at a lower interest rate.",
     "detail": "Two main flavours: rate-and-term refinance (lower the rate or shorten the term, no cash out) and cash-out refinance (new larger loan, pocket the difference as cash). Both require fresh Closing Costs, Appraisal, and Underwriting. Break-even on a rate-and-term refi runs 2-4 years depending on Closing Costs and rate savings. Refinance activity is dominated by interest rate trends — the 2020-2021 rate trough triggered the largest refi wave in US history.",
-    "indications": ["Residential", "Commercial"],
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
     "category": "Financing & Lending",
-    "sources": ["CFPB", "Freddie Mac"]
+    "sources": [
+      "CFPB",
+      "Freddie Mac"
+    ]
   },
   {
     "letter": "R",
@@ -699,9 +1376,16 @@
     "plain": "A property the Lender owns after a failed Foreclosure auction — now selling it to recover the loan.",
     "snappy": "Property owned by the Lender after Foreclosure auction failed to sell.",
     "detail": "REO inventory builds when Foreclosure auctions don't attract bidders above the Lender's reserve price — the property reverts to the Lender, who lists it for sale through an REO agent. Discount to market varies by Lender's hold tolerance and local market depth. REO sales typically use BPOs rather than full Appraisals for pricing decisions. Some investors specialise in REO acquisition for fix-and-flip or rental conversion.",
-    "indications": ["Residential", "Commercial", "Investment"],
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Investment"
+    ],
     "category": "Financing & Lending",
-    "sources": ["HUD", "Fannie Mae"]
+    "sources": [
+      "HUD",
+      "Fannie Mae"
+    ]
   },
   {
     "letter": "S",
@@ -710,9 +1394,15 @@
     "plain": "The replacement benchmark for LIBOR — what most Adjustable-Rate Mortgages now reset to.",
     "snappy": "Treasury-repo-based benchmark replacing LIBOR for ARM resets.",
     "detail": "SOFR is the Federal Reserve's chosen LIBOR successor — derived from actual overnight Treasury repo transactions rather than the survey-of-bank-quotes process that made LIBOR manipulable. The New York Fed publishes SOFR daily. Mortgages reference 30-day average SOFR (a backwards-looking compounded rate) plus Margin. SOFR is mechanically slightly different from LIBOR — typically lower, less volatile — so legacy LIBOR loans converted via a federally legislated spread adjustment.",
-    "indications": ["Residential", "Commercial", "Cross-sector"],
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Cross-sector"
+    ],
     "category": "Financing & Lending",
-    "sources": ["Federal Reserve"]
+    "sources": [
+      "Federal Reserve"
+    ]
   },
   {
     "letter": "T",
@@ -721,9 +1411,16 @@
     "plain": "Legal ownership of a property — proven by a Deed and protected by Title Insurance.",
     "snappy": "Legal ownership of real property, evidenced by a Deed.",
     "detail": "Title is the bundle of legal rights to a property. A Deed transfers Title from grantor to grantee. Title can be encumbered by Liens, easements, or other claims — Title Insurance protects against undiscovered defects. Title is held in various forms: fee simple (full ownership), joint tenancy (with right of survivorship), tenancy in common (separately transferable shares), or tenancy by the entirety (married couples).",
-    "indications": ["Residential", "Commercial", "Cross-sector"],
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Cross-sector"
+    ],
     "category": "Title & Ownership",
-    "sources": ["Cornell LII", "ALTA"]
+    "sources": [
+      "Cornell LII",
+      "ALTA"
+    ]
   },
   {
     "letter": "T",
@@ -731,10 +1428,31 @@
     "full": "",
     "plain": "Insurance protecting the buyer (and Lender) against undiscovered defects in the property's Title.",
     "snappy": "One-time insurance against Title defects undiscovered at Closing.",
-    "detail": "Title Insurance differs from other insurance — it covers past events (missed Liens, fraud, recording errors), not future ones, and is paid once at Closing. Two policies: the owner's policy protects the buyer; the lender's policy (mandatory if there's a Mortgage) protects the Lender for the loan amount. Title Insurance follows a search of public records by the title company; defects found pre-Closing become buyer's negotiation leverage.",
-    "indications": ["Residential", "Commercial"],
+    "detail": "Title Insurance differs from other insurance — it covers past events (missed Liens, fraud, recording errors), not future ones, and is paid once at Closing. Two policies: the owner's policy protects the buyer; the lender's policy (mandatory if there's a Mortgage) protects the Lender for the loan amount. Title Insurance follows a search of public records by the title company; defects found before Closing become buyer's negotiation leverage.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
     "category": "Title & Ownership",
-    "sources": ["ALTA"]
+    "sources": [
+      "ALTA"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Treasury",
+    "full": "",
+    "plain": "Bonds issued by the US federal government — the 10-year Treasury yield is the main benchmark for fixed Mortgage rates.",
+    "snappy": "US government bond; the 10-year yield benchmarks Mortgage rates.",
+    "detail": "US Treasury bonds are the benchmark risk-free rate underpinning Mortgage pricing. Fixed Mortgage rates loosely follow the 10-year Treasury yield plus a spread (which compensates for prepayment risk and credit risk). When the Fed hikes short-term policy rates, the 10-year Treasury — and Mortgage rates — may move much less, more, or even the opposite direction depending on what investors expect about future inflation and growth.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Federal Reserve",
+      "IRS"
+    ]
   },
   {
     "letter": "T",
@@ -743,9 +1461,13 @@
     "plain": "The 2015 federal rule that combined two old Mortgage disclosure forms into the Loan Estimate and Closing Disclosure.",
     "snappy": "2015 CFPB rule standardising Mortgage disclosure via Loan Estimate and Closing Disclosure.",
     "detail": "TRID — also called Know Before You Owe — replaced the Good Faith Estimate and HUD-1 Settlement Statement with the Loan Estimate (delivered within 3 days of application) and Closing Disclosure (delivered 3 days before Closing). Combined the disclosure regimes under TILA and RESPA into one cohesive set. Compliance is strict: certain changes between Loan Estimate and Closing Disclosure trigger a re-disclosure and reset of the 3-day waiting period.",
-    "indications": ["Residential"],
+    "indications": [
+      "Residential"
+    ],
     "category": "Law & Regulation",
-    "sources": ["CFPB"]
+    "sources": [
+      "CFPB"
+    ]
   },
   {
     "letter": "U",
@@ -754,9 +1476,48 @@
     "plain": "The Lender's process of deciding whether to approve your Mortgage — checking income, assets, credit, and the property.",
     "snappy": "Lender's analysis of borrower and property to approve a Mortgage.",
     "detail": "Underwriting evaluates the four Cs of credit: capacity (Debt-to-Income Ratio), credit (Credit Score and history), capital (Down Payment and reserves), and collateral (Appraised Value of the property). Most Conforming Loans run through Fannie Mae's Desktop Underwriter or Freddie Mac's Loan Product Advisor — automated underwriting systems that approve, refer, or refer-with-caution. Manual underwriting still applies to non-conforming loans and edge cases.",
-    "indications": ["Residential", "Commercial"],
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
     "category": "Financing & Lending",
-    "sources": ["Fannie Mae", "Freddie Mac"]
+    "sources": [
+      "Fannie Mae",
+      "Freddie Mac"
+    ]
+  },
+  {
+    "letter": "U",
+    "term": "USDA",
+    "full": "US Department of Agriculture",
+    "plain": "The federal department that guarantees USDA Loans for buyers in rural and small-town areas.",
+    "snappy": "Federal department; guarantees USDA Loans for rural buyers.",
+    "detail": "Most home-finance contexts say USDA to mean the Rural Housing Service inside the US Department of Agriculture, which guarantees zero-down USDA Loans for buyers in designated rural areas. USDA's geographic eligibility map is broader than most expect — covering many exurbs and small towns alongside true rural counties. The full department also runs farm credit, food stamps, and agricultural research.",
+    "indications": [
+      "Residential",
+      "Public Sector",
+      "Affordable"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "USDA Rural Housing"
+    ]
+  },
+  {
+    "letter": "U",
+    "term": "USDA Loan",
+    "full": "",
+    "plain": "A Mortgage guaranteed by the US Department of Agriculture for buyers in eligible rural and small-town areas.",
+    "snappy": "USDA-guaranteed Mortgage for rural and small-town buyers, zero Down Payment.",
+    "detail": "USDA Loans permit 100% Loan-to-Value (no Down Payment) for low-to-moderate-income buyers in USDA-designated rural areas — a much broader geographic footprint than most assume, covering many exurbs and small towns. No PMI; instead a 1% upfront guarantee fee and 0.35% annual fee. Income limits apply (typically 115% of area median income). Less common than FHA Loan or VA Loan but the only zero-down option for non-veterans in eligible areas.",
+    "indications": [
+      "Residential",
+      "Affordable"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "USDA Rural Housing"
+    ]
   },
   {
     "letter": "U",
@@ -765,9 +1526,30 @@
     "plain": "The rulebook every Appraiser must follow when writing an Appraisal.",
     "snappy": "Federal standards governing all US Appraisal practice.",
     "detail": "USPAP is promulgated by the Appraisal Foundation's Appraisal Standards Board and updated every two years. Every state Appraiser licence requires USPAP compliance; every federally related Appraisal must follow USPAP. The standards govern record-keeping, ethics, scope of work, the three approaches to value (sales, income, cost), and reporting. Failure to follow USPAP can cost an Appraiser their licence and trigger Lender liability.",
-    "indications": ["Residential", "Commercial"],
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
     "category": "Valuation & Appraisal",
-    "sources": ["Appraisal Foundation"]
+    "sources": [
+      "Appraisal Foundation"
+    ]
+  },
+  {
+    "letter": "V",
+    "term": "VA",
+    "full": "Department of Veterans Affairs",
+    "plain": "The federal department that guarantees VA Loans for veterans, active-duty servicemembers, and eligible spouses.",
+    "snappy": "Federal department guaranteeing VA Loans for veterans and servicemembers.",
+    "detail": "The Department of Veterans Affairs guarantees Mortgages for eligible veterans, active-duty servicemembers, surviving spouses, and some other categories. The VA guarantee covers a portion of the loan (typically 25%) — letting Lenders offer zero Down Payment, no PMI, and competitive interest rates. Eligibility requires a Certificate of Eligibility. The VA also operates VA health care and the VA disability system; only the home-loan guarantee is relevant to real estate.",
+    "indications": [
+      "Residential",
+      "Public Sector"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "VA"
+    ]
   },
   {
     "letter": "V",
@@ -776,8 +1558,12 @@
     "plain": "A Mortgage guaranteed by the Department of Veterans Affairs — for veterans, active-duty servicemembers, and eligible spouses.",
     "snappy": "VA-guaranteed Mortgage with zero Down Payment and no PMI.",
     "detail": "VA Loans permit 100% Loan-to-Value (no Down Payment) with no Mortgage Insurance, in exchange for a one-time VA funding fee (1.4-3.6% depending on Down Payment and prior VA usage). Eligibility requires a Certificate of Eligibility based on service history. VA Loans are Assumable, which became newly valuable after 2022 rate spikes. The VA guarantee covers a portion of the loan in the event of Default, letting Lenders offer terms they wouldn't otherwise.",
-    "indications": ["Residential"],
+    "indications": [
+      "Residential"
+    ],
     "category": "Financing & Lending",
-    "sources": ["VA"]
+    "sources": [
+      "VA"
+    ]
   }
 ]
