@@ -520,6 +520,23 @@
   },
   {
     "letter": "A",
+    "term": "AMI",
+    "full": "Area Median Income",
+    "plain": "Common shorthand for Area Median Income — HUD's metro-area middle-income benchmark used to set Affordable Housing eligibility.",
+    "snappy": "Standard shorthand for Area Median Income — sets Affordable Housing eligibility.",
+    "detail": "AMI is the universal shorthand for Area Median Income. Affordable Housing programs, LIHTC, Section 8, Inclusionary Zoning all key eligibility off percentages of AMI (30%, 50%, 60%, 80%, 120%). See Area Median Income for the HUD-published levels by metro and how programs use AMI tiers to set income limits.",
+    "indications": [
+      "Affordable",
+      "Residential",
+      "Public Sector"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "HUD"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Amortization",
     "full": "",
     "plain": "The way each Mortgage payment chips away at what you owe — early payments mostly cover Interest, later ones mostly cover Principal.",
@@ -2500,6 +2517,21 @@
   },
   {
     "letter": "C",
+    "term": "CMA",
+    "full": "Comparative Market Analysis",
+    "plain": "Common shorthand for a Comparative Market Analysis — an Agent's informal valuation using recent Comps.",
+    "snappy": "Standard shorthand for Comparative Market Analysis used by listing Agents.",
+    "detail": "CMA is universal industry shorthand for Comparative Market Analysis. Agents produce CMAs free as part of listing services; brokerage-house CMAs run weekly or monthly for active markets. See Comparative Market Analysis for the substantive methodology and how CMAs differ from a USPAP-compliant Appraisal.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Valuation & Appraisal",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "CMBS",
     "full": "Commercial Mortgage-Backed Securities",
     "plain": "Bonds backed by pools of Commercial Real Estate mortgages — investors get paid from the rent and Principal of the underlying buildings.",
@@ -4199,6 +4231,22 @@
     "category": "Management & Operations",
     "sources": [
       "NCREIF"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "EMD",
+    "full": "Earnest Money Deposit",
+    "plain": "Common shorthand for Earnest Money Deposit — the buyer's upfront good-faith deposit at offer acceptance.",
+    "snappy": "Standard shorthand for Earnest Money Deposit.",
+    "detail": "EMD is universal industry shorthand for Earnest Money Deposit. Buyers, sellers, Title Companies, and Agents all use 'the EMD' in offer discussions. See Earnest Money Deposit for typical amounts (0.5-3% of Sale Price), escrow holding, and Default-forfeiture mechanics.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
     ]
   },
   {

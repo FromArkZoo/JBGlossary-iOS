@@ -194,6 +194,29 @@ DANGLING_DENYLIST = {
     "USC", "Section 121", "Section 1031", "Section 199A",
     "Section 263", "Section 168", "Section 469",
     "Section 1245", "Section 1250", "Section 1411",
+    # More cities / regions caught in concrete examples.
+    "Atlanta", "Cambridge", "Detroit", "Manhattan",
+    "Boston", "St. Louis", "Cleveland", "Phoenix",
+    "Brooklyn", "Bay Area",
+    # Brand fragments.
+    "Chick", "America", "AppHarvest", "Bowery", "AeroFarms",
+    "Innovative Industrial", "AFC Gamma", "NewLake Capital",
+    "Healthcare Realty Trust", "Physicians Realty Trust", "MedEquities",
+    "Alexandria Real Estate", "BioMed Realty", "Healthpeak",
+    "American Tower", "Crown Castle", "SBA Communications",
+    "Safe Harbor", "Sun Communities", "Equity LifeStyle",
+    "Kimpton", "Hyatt Centric", "Joie de Vivre", "Curio Collection",
+    "Marriott Tribute", "Moxy", "Aloft", "Hyatt Place",
+    # Statute / legal-case references.
+    "CERCLA", "Burnett", "Article", "AB", "AB 1482",
+    "RA", "DUS", "URLA",
+    # Cross-industry acronyms used in passing.
+    "AUM", "HERS", "RESNET", "OTARD",
+    # Latin / legal terms.
+    "ESFR",
+    # Sub-words of multi-word entries handled by the bidirectional check
+    # but still appearing in repeated-dangling — explicit denylist for clarity.
+    "BIDs",
     # Compound phrases that are sub-references to entries already covered.
     "Sponsor Promote", "Commercial Mortgage",
     # State names not yet in denylist.
