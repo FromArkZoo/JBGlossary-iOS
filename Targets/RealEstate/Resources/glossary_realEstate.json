@@ -157,7 +157,7 @@
     "full": "",
     "plain": "An independent expert's written estimate of what a property is worth, used by Lenders to decide how much to lend against it.",
     "snappy": "Licensed third-party valuation of a property's market value at a point in time.",
-    "detail": "A residential appraisal is performed by a licensed Appraiser following USPAP methodology and forms the basis for the Lender's Loan-to-Value calculation. The appraiser inspects the property, pulls Comps, and applies adjustments to estimate market value. A low appraisal can derail a purchase if the Lender refuses to lend against the higher contract price, triggering the Appraisal Contingency.",
+    "detail": "A residential appraisal is performed by a licensed Appraiser following USPAP methodology and forms the basis for the Lender's LTV calculation. The appraiser inspects the property, pulls Comps, and applies adjustments to estimate market value. A low appraisal can derail a purchase if the Lender refuses to lend against the higher contract price, triggering the Appraisal Contingency.",
     "indications": [
       "Residential",
       "Commercial",
@@ -191,7 +191,7 @@
     "full": "",
     "plain": "The dollar number the Appraiser writes in their report — what the property is judged to be worth.",
     "snappy": "Stated dollar value from the Appraiser for a property in a written Appraisal report.",
-    "detail": "Appraised Value anchors the Lender's Loan-to-Value calculation. When appraised value falls below the contract price, the Lender will only finance against the lower number — the buyer must come up with the gap in cash, renegotiate, or walk via the Appraisal Contingency. Appraised value is distinct from Assessed Value (used for Property Tax) and market value (what buyers will actually pay).",
+    "detail": "Appraised Value anchors the Lender's LTV calculation. When appraised value falls below the contract price, the Lender will only finance against the lower number — the buyer must come up with the gap in cash, renegotiate, or walk via the Appraisal Contingency. Appraised value is distinct from Assessed Value (used for Property Tax) and market value (what buyers will actually pay).",
     "indications": [
       "Residential",
       "Commercial"
@@ -207,7 +207,7 @@
     "full": "",
     "plain": "The licensed professional who writes an Appraisal — independent of the buyer, seller, and Lender.",
     "snappy": "Licensed third party who values property under USPAP standards.",
-    "detail": "Appraisers are licensed at the state level under federal Appraiser Qualifications Board minimums. They must follow USPAP — Uniform Standards of Professional Appraisal Practice — and are independent of the parties to a transaction. The 2008 financial crisis tightened appraiser-independence rules: Lenders now order Appraisals through Appraisal Management Companies rather than directly, to prevent pressure on valuations.",
+    "detail": "Appraisers are licensed at the state level under federal Appraiser Qualifications Board minimums. They must follow USPAP and are independent of the parties to a transaction. The 2008 financial crisis tightened appraiser-independence rules: Lenders now order Appraisals through Appraisal Management Companies rather than directly, to prevent pressure on valuations.",
     "indications": [
       "Residential",
       "Commercial"
@@ -386,7 +386,7 @@
     "full": "Broker Price Opinion",
     "plain": "A quick estimate by a real estate Broker of what a home is worth, cheaper and faster than a full Appraisal.",
     "snappy": "Licensed broker's informal valuation — quicker than a formal Appraisal.",
-    "detail": "A Broker Price Opinion is a written estimate of likely sale price prepared by a licensed real estate Broker. BPOs are used by Lenders and servicers for portfolio decisions — short sales, REO disposition, and Refinance — where a full Appraisal compliant with USPAP is not required by regulation. BPOs cost a fraction of an Appraisal but carry less legal weight and cannot be used to set Loan-to-Value at origination.",
+    "detail": "A Broker Price Opinion is a written estimate of likely sale price prepared by a licensed real estate Broker. BPOs are used by Lenders and servicers for portfolio decisions — short sales, REO disposition, and Refinance — where a full Appraisal compliant with USPAP is not required by regulation. BPOs cost a fraction of an Appraisal but carry less legal weight and cannot be used to set LTV at origination.",
     "indications": [
       "Residential",
       "Commercial"
@@ -566,7 +566,7 @@
     "full": "",
     "plain": "Annual cash flow from a property divided by the cash you put in — your money's actual yield.",
     "snappy": "Annual pre-tax cash flow divided by initial cash invested.",
-    "detail": "Cash-on-Cash Return measures the yield on the equity actually invested, not the property's total value — so it captures the leverage effect of a Mortgage. A property with a 5% Cap Rate financed at 75% Loan-to-Value can produce 10%+ cash-on-cash when rents cover the debt service. Used alongside Cap Rate and IRR to evaluate income properties; favoured for its simplicity.",
+    "detail": "Cash-on-Cash Return measures the yield on the equity actually invested, not the property's total value — so it captures the leverage effect of a Mortgage. A property with a 5% Cap Rate financed at 75% LTV can produce 10%+ cash-on-cash when rents cover the debt service. Used alongside Cap Rate and IRR to evaluate income properties; favoured for its simplicity.",
     "indications": [
       "Commercial",
       "Multifamily",
@@ -1053,7 +1053,7 @@
     "full": "",
     "plain": "The cash you put down upfront when buying a home — the rest is the Mortgage.",
     "snappy": "Cash paid by the buyer at Closing, with the Lender financing the balance.",
-    "detail": "Conventional Loans typically require 5-20% down; FHA Loans allow 3.5% with mortgage insurance; VA Loans and USDA Loans permit zero down for eligible borrowers. A 20% Down Payment lets Conventional borrowers avoid PMI and often unlocks better pricing tiers. Down Payment combined with Loan-to-Value defines the borrower's initial Equity. Larger down payments increase loan approval odds and reduce interest rate.",
+    "detail": "Conventional Loans typically require 5-20% down; FHA Loans allow 3.5% with mortgage insurance; VA Loans and USDA Loans permit zero down for eligible borrowers. A 20% Down Payment lets Conventional borrowers avoid PMI and often unlocks better pricing tiers. Down Payment combined with LTV defines the borrower's initial Equity. Larger down payments increase loan approval odds and reduce interest rate.",
     "indications": [
       "Residential"
     ],
@@ -1167,7 +1167,7 @@
     "full": "",
     "plain": "A neutral third party that holds money or documents on behalf of the buyer and seller until the deal closes.",
     "snappy": "Third-party holding of funds or documents pending Closing.",
-    "detail": "Escrow holds the Earnest Money Deposit, Closing funds, and Deed between contract and Closing — releasing each only when the conditions are met. After Closing, many Mortgages keep an escrow account that collects monthly Property Tax and insurance premiums alongside the loan payment, then disburses them when due. Lenders typically require escrow accounts when Loan-to-Value exceeds 80%.",
+    "detail": "Escrow holds the Earnest Money Deposit, Closing funds, and Deed between contract and Closing — releasing each only when the conditions are met. After Closing, many Mortgages keep an escrow account that collects monthly Property Tax and insurance premiums alongside the loan payment, then disburses them when due. Lenders typically require escrow accounts when LTV exceeds 80%.",
     "indications": [
       "Residential",
       "Commercial",
@@ -1385,7 +1385,7 @@
     "full": "Homeowners Association",
     "plain": "The organisation that runs the common areas of a Condo or planned community — collects dues, sets rules, and enforces CC&Rs.",
     "snappy": "Association managing common areas and rules of a Condo or planned community.",
-    "detail": "An HOA is a legal entity (usually a non-profit corporation) governing a community of property owners. Membership is mandatory for owners within the community. The HOA collects monthly or annual dues, maintains common areas (pools, landscaping, roofs in some structures), and enforces CC&Rs — Covenants, Conditions, and Restrictions — that bind every owner. Powerful HOAs can fine, place Liens, and in extreme cases force a sale for unpaid dues. Buyers review HOA financials during Due Diligence.",
+    "detail": "An HOA is a legal entity (usually a non-profit corporation) governing a community of property owners. Membership is mandatory for owners within the community. The HOA collects monthly or annual dues, maintains common areas (pools, landscaping, roofs in some structures), and enforces the CC&Rs that bind every owner. Powerful HOAs can fine, place Liens, and in extreme cases force a sale for unpaid dues. Buyers review HOA financials during Due Diligence.",
     "indications": [
       "Residential"
     ],
@@ -1600,7 +1600,7 @@
     "full": "Mortgage Insurance Premium",
     "plain": "FHA Loan's version of mortgage insurance — paid upfront and monthly, often for the loan's life.",
     "snappy": "FHA Loan equivalent of PMI; usually runs for the loan's life.",
-    "detail": "MIP attaches to every FHA Loan: an upfront premium of 1.75% of the loan amount (rolled into the loan) plus an ongoing monthly premium of 0.5-1.05% annualised. Unlike PMI on Conventional Loans (which terminates at 78% Loan-to-Value), MIP usually runs for the loan's life if Down Payment was under 10%. The only way out is to Refinance into a Conventional Loan once Equity reaches 20%.",
+    "detail": "MIP attaches to every FHA Loan: an upfront premium of 1.75% of the loan amount (rolled into the loan) plus an ongoing monthly premium of 0.5-1.05% annualised. Unlike PMI on Conventional Loans (which terminates at 78% LTV), MIP usually runs for the loan's life if Down Payment was under 10%. The only way out is to Refinance into a Conventional Loan once Equity reaches 20%.",
     "indications": [
       "Residential"
     ],
@@ -1650,7 +1650,7 @@
     "full": "",
     "plain": "Insurance the borrower pays that protects the Lender if you Default — required on low Down Payment loans.",
     "snappy": "Lender protective insurance paid by the borrower on low Down Payment loans.",
-    "detail": "Mortgage Insurance comes in two flavours. Private Mortgage Insurance (PMI) attaches to Conventional Loans with Loan-to-Value above 80% — typically 0.5-1.5% of loan amount annually, and falls off automatically when LTV reaches 78%. FHA Loans carry MIP (Mortgage Insurance Premium): both upfront 1.75% and monthly, often for the life of the loan unless the borrower Refinances. Critics see MI as the cost of a small Down Payment.",
+    "detail": "Mortgage Insurance comes in two flavours. Private Mortgage Insurance (PMI) attaches to Conventional Loans with LTV above 80% — typically 0.5-1.5% of loan amount annually, and falls off automatically when LTV reaches 78%. FHA Loans carry MIP (Mortgage Insurance Premium): both upfront 1.75% and monthly, often for the life of the loan unless the borrower Refinances. Critics see MI as the cost of a small Down Payment.",
     "indications": [
       "Residential"
     ],
@@ -1700,7 +1700,7 @@
     "full": "Private Mortgage Insurance",
     "plain": "Insurance you pay monthly on a Conventional Loan with less than 20% Down Payment — protects the Lender, not you.",
     "snappy": "Monthly insurance on conventional Mortgages with LTV above 80%.",
-    "detail": "PMI applies to Conventional Loans with Loan-to-Value above 80%. Costs 0.5-1.5% of loan amount annually depending on Credit Score and LTV, added to the monthly Mortgage payment. PMI automatically terminates when LTV reaches 78% based on the original Amortization schedule, or borrowers can request early cancellation at 80% if the property has appreciated and an Appraisal supports it. FHA Loans carry separate MIP that often runs for the loan's life.",
+    "detail": "PMI applies to Conventional Loans with LTV above 80%. Costs 0.5-1.5% of loan amount annually depending on Credit Score and LTV, added to the monthly Mortgage payment. PMI automatically terminates when LTV reaches 78% based on the original Amortization schedule, or borrowers can request early cancellation at 80% if the property has appreciated and an Appraisal supports it. FHA Loans carry separate MIP that often runs for the loan's life.",
     "indications": [
       "Residential"
     ],
@@ -2025,7 +2025,7 @@
     "full": "",
     "plain": "A Mortgage guaranteed by the US Department of Agriculture for buyers in eligible rural and small-town areas.",
     "snappy": "USDA-guaranteed Mortgage for rural and small-town buyers, zero Down Payment.",
-    "detail": "USDA Loans permit 100% Loan-to-Value (no Down Payment) for low-to-moderate-income buyers in USDA-designated rural areas — a much broader geographic footprint than most assume, covering many exurbs and small towns. No PMI; instead a 1% upfront guarantee fee and 0.35% annual fee. Income limits apply (typically 115% of area median income). Less common than FHA Loan or VA Loan but the only zero-down option for non-veterans in eligible areas.",
+    "detail": "USDA Loans permit 100% LTV (no Down Payment) for low-to-moderate-income buyers in USDA-designated rural areas — a much broader geographic footprint than most assume, covering many exurbs and small towns. No PMI; instead a 1% upfront guarantee fee and 0.35% annual fee. Income limits apply (typically 115% of area median income). Less common than FHA Loan or VA Loan but the only zero-down option for non-veterans in eligible areas.",
     "indications": [
       "Residential",
       "Affordable"
@@ -2073,7 +2073,7 @@
     "full": "",
     "plain": "A Mortgage guaranteed by the Department of Veterans Affairs — for veterans, active-duty servicemembers, and eligible spouses.",
     "snappy": "VA-guaranteed Mortgage with zero Down Payment and no PMI.",
-    "detail": "VA Loans permit 100% Loan-to-Value (no Down Payment) with no Mortgage Insurance, in exchange for a one-time VA funding fee (1.4-3.6% depending on Down Payment and prior VA usage). Eligibility requires a Certificate of Eligibility based on service history. VA Loans are Assumable, which became newly valuable after 2022 rate spikes. The VA guarantee covers a portion of the loan in the event of Default, letting Lenders offer terms they wouldn't otherwise.",
+    "detail": "VA Loans permit 100% LTV (no Down Payment) with no Mortgage Insurance, in exchange for a one-time VA funding fee (1.4-3.6% depending on Down Payment and prior VA usage). Eligibility requires a Certificate of Eligibility based on service history. VA Loans are Assumable, which became newly valuable after 2022 rate spikes. The VA guarantee covers a portion of the loan in the event of Default, letting Lenders offer terms they wouldn't otherwise.",
     "indications": [
       "Residential"
     ],

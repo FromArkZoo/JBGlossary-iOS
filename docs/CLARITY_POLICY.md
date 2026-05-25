@@ -138,6 +138,18 @@ Some glossary terms share their name with common verbs or adjectives. The linker
 
 Other Finance watchwords: `spot`, `long`, `short`, `call`, `strike`, `swap`, `futures`, `dealers`. When in doubt, rephrase.
 
+### 4b. Don't inline-expand acronyms in prose
+
+When an entry's `full` field already shows the acronym's expansion in the UI, do NOT repeat the expansion as bare prose in another entry's body. The linker scans the prose word-by-word and will auto-link any component word that happens to be its own entry — creating semantically wrong links inside what the reader perceives as a single proper noun.
+
+| Bad (auto-link bleeds) | Good |
+|---|---|
+| *"…must follow USPAP — Uniform Standards of Professional Appraisal Practice — and are independent…"* — "Appraisal" inside the expansion auto-links to the standalone Appraisal entry. | *"…must follow USPAP and are independent…"* — USPAP's own entry shows the expansion in metadata. |
+| *"…enforces CC&Rs — Covenants, Conditions, and Restrictions — that bind every owner…"* — "Covenants" auto-links to Covenant entry via +s plural. | *"…enforces the CC&Rs that bind every owner…"* — tap CC&Rs for the expansion. |
+| *"…regulates GSEs (Government-Sponsored Enterprises)…"* — if "Enterprise" is its own entry, the expansion bleeds. | *"…regulates GSEs…"* — entry's `full` covers the expansion. |
+
+The reader gets the expansion by tapping the acronym, where the entry's UI shows it. Repeating it inline doubles the prose with no benefit and risks wrong-context links.
+
 ### 5. Word-form variants (gerund / past tense / possessive)
 
 The linker's regex catches `+s` and `+es` plurals only. It does NOT catch `-ing`, `-ed`, `-'s`, `-d` (silent-e past tense), or `-ies` (y→ies) variations. Inflected forms of existing entries read like jargon to the novice but produce no hyperlink.
