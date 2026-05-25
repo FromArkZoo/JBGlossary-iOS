@@ -17,6 +17,7 @@
 		18926DD04DD4EC74C6D66705 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F760FED30EDA2A6BC9D59 /* Typography.swift */; };
 		21AA03312658619ED1CB507F /* PaywallSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB84C1F45A94B21299BA4EBA /* PaywallSheet.swift */; };
 		2D317F6BF7557FD09C16943C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76097C8C0CDE60B86FF51EEE /* RootView.swift */; };
+		32364E68AD96ECC85F5C2E9F /* RealEstateBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC3A7D17AA946BC8578F54 /* RealEstateBrand.swift */; };
 		39214871FF177FC2DA858080 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59725A0C95008707447FF37 /* AboutView.swift */; };
 		41E1B91063ADB15EC5C973CE /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4934B9F5D89A2046403EF6 /* FavoritesView.swift */; };
 		56F9C1D8CA613E7F683EB86C /* Hyperlinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEA1B6DE6DFDEB53566F1B4 /* Hyperlinks.swift */; };
@@ -33,6 +34,7 @@
 		AD22A51C7A3E56CF8B75FA45 /* glossary_ai.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A08E98C81167BC567633D27 /* glossary_ai.json */; };
 		B23C3B6951C38794135EDA2D /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA0E7F492FA908C47699562 /* Brand.swift */; };
 		B506803939B0B9FE244FCFCA /* PharmaBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7744E4F7F2C1ED299CBD81 /* PharmaBrand.swift */; };
+		BAA3BE7791AF0BB6A80A5102 /* glossary_realEstate.json in Resources */ = {isa = PBXBuildFile; fileRef = A07C7BB19258A2BB0DFDA691 /* glossary_realEstate.json */; };
 		D72D7F78AB6BA8FED284CDF1 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 4031A2549BC0200FD7AC4470 /* PrivacyInfo.xcprivacy */; };
 		D763ED4E4E58769D060B3CA7 /* LetterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F8BD5F9CADAB36C6C7C5E6 /* LetterView.swift */; };
 		DE729F9CE69F92DEA24E3D29 /* LawBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0193436ED3CA2B9EC1B1F01A /* LawBrand.swift */; };
@@ -53,7 +55,7 @@
 		2F7744E4F7F2C1ED299CBD81 /* PharmaBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmaBrand.swift; sourceTree = "<group>"; };
 		38DC63501638BCC01B7FF226 /* glossary_pharma.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = glossary_pharma.json; sourceTree = "<group>"; };
 		390EDAD665B04AC01355E561 /* Lockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lockable.swift; sourceTree = "<group>"; };
-		4031A2549BC0200FD7AC4470 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		4031A2549BC0200FD7AC4470 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		427B99CE8C1F228786FA03CE /* IndustryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndustryPickerView.swift; sourceTree = "<group>"; };
 		43F8BD5F9CADAB36C6C7C5E6 /* LetterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterView.swift; sourceTree = "<group>"; };
 		5693A67B3D73F2D64EA12D91 /* ContentRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRouter.swift; sourceTree = "<group>"; };
@@ -65,17 +67,19 @@
 		7D4934B9F5D89A2046403EF6 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		7F1F760FED30EDA2A6BC9D59 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
 		95C79B229AE3CD86C0893D86 /* JBGlossaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBGlossaryApp.swift; sourceTree = "<group>"; };
+		A07C7BB19258A2BB0DFDA691 /* glossary_realEstate.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = glossary_realEstate.json; sourceTree = "<group>"; };
 		AA394CD8FC66E4498EBB3F7A /* PGBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGBackground.swift; sourceTree = "<group>"; };
 		AB84C1F45A94B21299BA4EBA /* PaywallSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallSheet.swift; sourceTree = "<group>"; };
 		B5920872047779114629FD51 /* FinanceBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceBrand.swift; sourceTree = "<group>"; };
 		B59725A0C95008707447FF37 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		B8050281258D995600F8E2B8 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		BBDC3A7D17AA946BC8578F54 /* RealEstateBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEstateBrand.swift; sourceTree = "<group>"; };
 		C64DB09B536A4C3A2CE4F19A /* IndustryConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndustryConfig.swift; sourceTree = "<group>"; };
 		D35EC9BCD1A88408B9754D76 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
 		D40E3085A21D0C678FE9E4DD /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		E5A56A473B2C0C6F71E894CC /* FilterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSheet.swift; sourceTree = "<group>"; };
 		F72F36455A190B3E1F17E963 /* PGSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGSearchBar.swift; sourceTree = "<group>"; };
-		FA81E1A9E59C4885A271E3FE /* JBGlossary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBGlossary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA81E1A9E59C4885A271E3FE /* JBGlossary.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = JBGlossary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBFE8CECC6298B8FF6E75186 /* AIBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIBrand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +91,7 @@
 				F751F59DE27CA0F716026E76 /* Finance */,
 				998919E2EA043CF18A73BC76 /* Law */,
 				98655C064F15EFC0EC1AD3E0 /* Pharma */,
+				478B5100B0747089FB6C2ADD /* RealEstate */,
 			);
 			path = Targets;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 				C64DB09B536A4C3A2CE4F19A /* IndustryConfig.swift */,
 				0193436ED3CA2B9EC1B1F01A /* LawBrand.swift */,
 				2F7744E4F7F2C1ED299CBD81 /* PharmaBrand.swift */,
+				BBDC3A7D17AA946BC8578F54 /* RealEstateBrand.swift */,
 			);
 			path = Industries;
 			sourceTree = "<group>";
@@ -162,6 +168,14 @@
 				0E2F7992DF302CFC6EDB0C5E /* Targets */,
 				2169E9DCC0431297A40A8674 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		478B5100B0747089FB6C2ADD /* RealEstate */ = {
+			isa = PBXGroup;
+			children = (
+				FF48A45D89A6A0D854441966 /* Resources */,
+			);
+			path = RealEstate;
 			sourceTree = "<group>";
 		};
 		6DB12865773A37504466581B /* Resources */ = {
@@ -240,6 +254,14 @@
 			path = Finance;
 			sourceTree = "<group>";
 		};
+		FF48A45D89A6A0D854441966 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A07C7BB19258A2BB0DFDA691 /* glossary_realEstate.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -305,6 +327,7 @@
 				002BBA6230741FE40DBA2654 /* glossary_finance.json in Resources */,
 				7F4F2708CD01A3519904CB02 /* glossary_law.json in Resources */,
 				A56A552B2B4D7AA9F713F9EB /* glossary_pharma.json in Resources */,
+				BAA3BE7791AF0BB6A80A5102 /* glossary_realEstate.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +361,7 @@
 				21AA03312658619ED1CB507F /* PaywallSheet.swift in Sources */,
 				B506803939B0B9FE244FCFCA /* PharmaBrand.swift in Sources */,
 				725477CA2726EE047D82B159 /* PurchaseManager.swift in Sources */,
+				32364E68AD96ECC85F5C2E9F /* RealEstateBrand.swift in Sources */,
 				2D317F6BF7557FD09C16943C /* RootView.swift in Sources */,
 				598AF1C4E684B0F65C2071CB /* SplashView.swift in Sources */,
 				1889F9EC6CD59F700C491D5B /* TermDetailView.swift in Sources */,
@@ -481,8 +505,6 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 278RL79DB5;
 				INFOPLIST_FILE = Targets/Pharma/Resources/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "JB Glossary";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -502,8 +524,6 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 278RL79DB5;
 				INFOPLIST_FILE = Targets/Pharma/Resources/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "JB Glossary";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -57,12 +57,28 @@ struct IndustryPickerView: View {
                     .foregroundStyle(PGColors.ink)
             }
 
-            Text("Free letters A–D in every industry. Unlock E–Z for $2.99.")
+            Text(headerTagline)
                 .font(PGFont.metaItalic)
                 .foregroundStyle(PGColors.inkLight)
                 .fixedSize(horizontal: false, vertical: true)
         }
         .frame(maxWidth: .infinity, alignment: .leading)
+    }
+
+    private var headerTagline: String {
+        if purchases.hasMasterUnlock {
+            return "All industries unlocked. Tap any to dive in."
+        }
+        return "Free letters A–D in every industry. Unlock E–Z for \(headerPriceText)."
+    }
+
+    private var headerPriceText: String {
+        for config in IndustryConfig.all {
+            if let price = purchases.product(for: config.id)?.displayPrice {
+                return price
+            }
+        }
+        return "$2.99"
     }
 }
 

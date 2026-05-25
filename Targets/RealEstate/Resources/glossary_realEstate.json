@@ -1,0 +1,112 @@
+[
+  {
+    "letter": "A",
+    "term": "Adjustable-Rate Mortgage",
+    "full": "",
+    "plain": "A home loan whose interest rate changes on a set schedule — usually cheaper at the start than a fixed-rate loan, but the payment can go up later.",
+    "snappy": "Mortgage with an interest rate that resets periodically — lower teaser rate, payment risk later.",
+    "detail": "An ARM has a fixed introductory rate (commonly 3, 5, 7, or 10 years) followed by periodic adjustments tied to an index plus a lender margin. Rate caps limit how much the rate can move per adjustment and over the loan's life. Conforming ARMs reset to the Secured Overnight Financing Rate (SOFR) since LIBOR's retirement. Borrowers trade lower upfront payments for reset-period risk.",
+    "indications": ["Residential", "Cross-sector"],
+    "category": "Financing & Lending",
+    "sources": ["CFPB", "Freddie Mac"]
+  },
+  {
+    "letter": "A",
+    "term": "Amortization",
+    "full": "",
+    "plain": "The way each mortgage payment chips away at what you owe — early payments mostly cover interest, later ones mostly cover the loan itself.",
+    "snappy": "Schedule that splits each loan payment between interest and principal over time.",
+    "detail": "Amortization is the systematic paydown of a loan's principal through scheduled payments. In the early years of a 30-year mortgage, the bulk of each payment covers interest because the outstanding balance is largest; in the final years, almost all of it pays down principal. Lenders provide an amortization schedule at closing showing the split for every payment.",
+    "indications": ["Residential", "Cross-sector"],
+    "category": "Financing & Lending",
+    "sources": ["CFPB", "Investopedia"]
+  },
+  {
+    "letter": "A",
+    "term": "Appraisal",
+    "full": "",
+    "plain": "An independent expert's written estimate of what a property is worth, used by lenders to decide how much they'll lend against it.",
+    "snappy": "Licensed third-party valuation of a property's market value at a point in time.",
+    "detail": "A real estate appraisal is performed by a licensed appraiser and forms the basis for a lender's loan-to-value calculation. The appraiser inspects the property, compares it to recent sales of similar nearby homes (comps), and applies standardised methodology under USPAP (Uniform Standards of Professional Appraisal Practice). A low appraisal can derail a purchase if the lender refuses to lend against the higher contract price.",
+    "indications": ["Residential", "Commercial", "Cross-sector"],
+    "category": "Valuation & Appraisal",
+    "sources": ["Appraisal Foundation", "Appraisal Institute"]
+  },
+  {
+    "letter": "B",
+    "term": "BPO",
+    "full": "Broker Price Opinion",
+    "plain": "A real estate agent's quick estimate of what a home is worth, cheaper and faster than a full appraisal.",
+    "snappy": "Licensed broker's informal valuation — quicker and less rigorous than a formal appraisal.",
+    "detail": "A Broker Price Opinion is a written estimate of a property's likely sale price prepared by a licensed real estate broker. BPOs are used by lenders and servicers for portfolio decisions like short sales, REO disposition, and refinancing where a full USPAP-compliant appraisal isn't required by regulation. They cost a fraction of an appraisal but carry less legal weight.",
+    "indications": ["Residential", "Commercial"],
+    "category": "Valuation & Appraisal",
+    "sources": ["NAR"]
+  },
+  {
+    "letter": "B",
+    "term": "Buyer's Agent",
+    "full": "",
+    "plain": "The real estate agent who works for you when you're buying — they hunt for properties and negotiate on your side of the deal.",
+    "snappy": "Real estate agent representing the buyer in a transaction.",
+    "detail": "A buyer's agent has a fiduciary duty to the buyer — confidentiality, loyalty, and disclosure — and is typically paid via commission split with the listing agent at closing. Following the 2024 NAR settlement, buyers and their agents now sign written representation agreements before tours, with commission terms negotiated directly rather than implied through the MLS listing.",
+    "indications": ["Residential"],
+    "category": "Transactions",
+    "sources": ["NAR"]
+  },
+  {
+    "letter": "C",
+    "term": "Cap Rate",
+    "full": "Capitalization Rate",
+    "plain": "A quick yardstick for what an investment property earns each year, expressed as a percentage of what it costs.",
+    "snappy": "Annual NOI divided by purchase price — back-of-envelope yield on a commercial property.",
+    "detail": "The capitalisation rate equals Net Operating Income divided by property value. A 5% cap means $50,000 of NOI on a $1M property. Higher cap rates signal higher perceived risk or weaker markets; lower caps signal premium assets in strong markets. Cap rates ignore financing, taxes, and capex — useful for comparing deals quickly, dangerous as a sole investment metric.",
+    "indications": ["Commercial", "Multifamily", "Cross-sector"],
+    "category": "Valuation & Appraisal",
+    "sources": ["CCIM Institute", "NCREIF"]
+  },
+  {
+    "letter": "C",
+    "term": "Closing Costs",
+    "full": "",
+    "plain": "All the fees you pay at the finish line of a home purchase, on top of the down payment — usually 2–5% of the price.",
+    "snappy": "Bundle of fees and prepaid items paid at settlement, separate from purchase price.",
+    "detail": "Closing costs include lender fees (origination, underwriting, appraisal), third-party fees (title insurance, escrow, recording, survey), prepaid items (property tax, homeowners insurance, mortgage interest), and government taxes. Buyers pay 2–5% of the purchase price in most US markets; the Loan Estimate and Closing Disclosure (TRID forms) itemise every charge before closing.",
+    "indications": ["Residential"],
+    "category": "Transactions",
+    "sources": ["CFPB"]
+  },
+  {
+    "letter": "C",
+    "term": "Comp",
+    "full": "Comparable Sale",
+    "plain": "A recently sold home similar to yours, used as evidence of what your home is worth.",
+    "snappy": "Recently sold property similar in size, location, and features — anchors a valuation.",
+    "detail": "Comps are the working currency of real estate valuation. Appraisers, agents, and investors pull three to six recently closed sales of similar properties within roughly a mile and adjust for differences (square footage, lot, bedrooms, condition, view) to estimate subject value. The sales comparison approach dominates residential appraisal; commercial appraisal also uses income and cost approaches alongside it.",
+    "indications": ["Residential", "Commercial"],
+    "category": "Valuation & Appraisal",
+    "sources": ["Appraisal Institute"]
+  },
+  {
+    "letter": "D",
+    "term": "Deed",
+    "full": "",
+    "plain": "The legal document that transfers ownership of a property from seller to buyer — signed at closing and filed with the county.",
+    "snappy": "Written instrument conveying real-property title between parties.",
+    "detail": "A deed transfers ownership of real property from grantor to grantee. The instrument must be in writing, identify the parties and property, contain words of conveyance, and be signed by the grantor. Common types include warranty deeds (full title guarantees), special warranty deeds (limited guarantees), and quitclaim deeds (no guarantees — common in divorce or family transfers). Deeds must be recorded with the county to give public notice of the transfer.",
+    "indications": ["Residential", "Commercial", "Cross-sector"],
+    "category": "Title & Ownership",
+    "sources": ["Cornell LII"]
+  },
+  {
+    "letter": "D",
+    "term": "Down Payment",
+    "full": "",
+    "plain": "The cash you put down upfront when buying a home — the rest is the loan.",
+    "snappy": "Cash paid by the buyer at closing, with the lender financing the balance.",
+    "detail": "The down payment is the portion of the purchase price the buyer pays from their own funds; the mortgage covers the rest. Conventional loans typically require 5–20% down; FHA loans allow 3.5% with mortgage insurance; VA and USDA loans permit zero down for eligible borrowers. A 20% down payment lets conventional borrowers avoid PMI and often unlocks better pricing tiers from lenders.",
+    "indications": ["Residential"],
+    "category": "Financing & Lending",
+    "sources": ["CFPB", "Fannie Mae"]
+  }
+]

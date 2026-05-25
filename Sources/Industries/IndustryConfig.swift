@@ -9,6 +9,7 @@ enum IndustryID: String, CaseIterable, Identifiable, Codable {
     case ai
     case law
     case finance
+    case realEstate
 
     var id: String { rawValue }
 }
@@ -32,10 +33,11 @@ extension IndustryConfig {
 
     /// Registry — order here is the canonical display order in the picker.
     static let all: [IndustryConfig] = [
-        .init(id: .pharma,  brand: pharmaBrand,  iapProductID: "com.jamesbrowne.JBGlossary.pharma"),
-        .init(id: .ai,      brand: aiBrand,      iapProductID: "com.jamesbrowne.JBGlossary.ai"),
-        .init(id: .law,     brand: lawBrand,     iapProductID: "com.jamesbrowne.JBGlossary.law"),
-        .init(id: .finance, brand: financeBrand, iapProductID: "com.jamesbrowne.JBGlossary.finance"),
+        .init(id: .pharma,     brand: pharmaBrand,     iapProductID: "com.jamesbrowne.JBGlossary.pharma"),
+        .init(id: .ai,         brand: aiBrand,         iapProductID: "com.jamesbrowne.JBGlossary.ai"),
+        .init(id: .law,        brand: lawBrand,        iapProductID: "com.jamesbrowne.JBGlossary.law"),
+        .init(id: .finance,    brand: financeBrand,    iapProductID: "com.jamesbrowne.JBGlossary.finance"),
+        .init(id: .realEstate, brand: realEstateBrand, iapProductID: "com.jamesbrowne.JBGlossary.realEstate"),
     ]
 
     /// Look up an industry by ID. Safe to force-unwrap because `IndustryID`

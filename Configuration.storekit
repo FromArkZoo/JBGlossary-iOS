@@ -73,6 +73,21 @@
       "type" : "NonConsumable"
     },
     {
+      "displayPrice" : "2.99",
+      "familyShareable" : true,
+      "internalID" : "JBG_REAL_ESTATE",
+      "localizations" : [
+        {
+          "description" : "Unlock the rest of the JB Glossary Real Estate industry — letters E–Z, the full set of property, mortgage, and real estate investment terms beyond the free A–D taster.",
+          "displayName" : "Unlock the rest of Real Estate",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.jamesbrowne.JBGlossary.realEstate",
+      "referenceName" : "Real Estate",
+      "type" : "NonConsumable"
+    },
+    {
       "displayPrice" : "9.99",
       "familyShareable" : true,
       "internalID" : "JBG_ALL",
