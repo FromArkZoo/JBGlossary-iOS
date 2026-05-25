@@ -32,10 +32,11 @@ from pathlib import Path
 ROOT = Path(__file__).parent.parent
 
 INDUSTRY_PATHS = {
-    "finance": ROOT / "Targets/Finance/Resources/glossary_finance.json",
-    "pharma":  ROOT / "Targets/Pharma/Resources/glossary_pharma.json",
-    "ai":      ROOT / "Targets/AI/Resources/glossary_ai.json",
-    "law":     ROOT / "Targets/Law/Resources/glossary_law.json",
+    "finance":    ROOT / "Targets/Finance/Resources/glossary_finance.json",
+    "pharma":     ROOT / "Targets/Pharma/Resources/glossary_pharma.json",
+    "ai":         ROOT / "Targets/AI/Resources/glossary_ai.json",
+    "law":        ROOT / "Targets/Law/Resources/glossary_law.json",
+    "realEstate": ROOT / "Targets/RealEstate/Resources/glossary_realEstate.json",
 }
 
 MAX_PLAIN_WORDS = 25
