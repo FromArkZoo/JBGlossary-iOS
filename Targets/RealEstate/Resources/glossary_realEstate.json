@@ -68,6 +68,23 @@
   },
   {
     "letter": "A",
+    "term": "AAI",
+    "full": "All Appropriate Inquiry",
+    "plain": "The CERCLA standard for environmental due diligence — satisfied by a compliant Phase I ESA — protects buyers from Superfund liability for pre-existing contamination.",
+    "snappy": "CERCLA standard for environmental due diligence; satisfied by compliant Phase I ESA.",
+    "detail": "All Appropriate Inquiry (AAI) is the federal standard under CERCLA §101(35) for environmental due diligence. EPA regulations (40 CFR §312) define AAI compliance — ASTM E1527-21 Phase I ESA satisfies AAI when conducted within 180 days before Closing. AAI compliance protects the buyer's Bona Fide Prospective Purchaser status, immunising from CERCLA liability for pre-existing contamination. Failure to conduct AAI before purchase exposes the buyer to potential Superfund liability even for contamination they didn't cause. AAI components: records review, site reconnaissance, interview, professional opinion on Recognized Environmental Conditions.",
+    "indications": [
+      "Commercial",
+      "Industrial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "HUD",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Abstract of Title",
     "full": "",
     "plain": "A condensed legal history of a property — every owner, Lien, and transfer back through time.",
@@ -216,6 +233,21 @@
     "sources": [
       "Cornell LII",
       "HUD"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "ADA Compliance Survey",
+    "full": "ADA Audit",
+    "plain": "A specialised inspection identifying ADA accessibility barriers in a commercial property — typically required before purchase or major renovation.",
+    "snappy": "Inspection identifying ADA accessibility barriers in a commercial property.",
+    "detail": "ADA Compliance Surveys document accessibility status of commercial properties. Components: building entry, parking, restrooms, signage, accessibility routes throughout the building, technology accessibility. Cost: $1,500-$10,000+ depending on property size. Common findings: missing accessible parking, non-compliant restroom dimensions, lack of curb cuts, missing tactile signage, inadequate visual alarms. Remediation timelines: federal ADA Title III requires 'readily achievable' barrier removal; new construction and renovations must meet full ADA Standards. Pre-Closing Due Diligence for Commercial Real Estate routinely includes ADA Compliance Survey.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "Cornell LII"
     ]
   },
   {
@@ -405,6 +437,22 @@
     "category": "Transactions",
     "sources": [
       "NAR"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "ALTA Best Practices",
+    "full": "",
+    "plain": "Voluntary industry standards — developed by the American Land Title Association — covering escrow handling, Title Insurance, wire fraud prevention, and consumer privacy.",
+    "snappy": "ALTA voluntary industry standards covering escrow, Title Insurance, and consumer protection.",
+    "detail": "ALTA Best Practices launched 2014 as Title industry's response to Dodd-Frank/CFPB scrutiny. Seven Pillars: (1) Licensing, (2) Escrow Trust Accounts, (3) Information Security and Wire Transfers, (4) Settlement Procedures, (5) Title Insurance Production, (6) Insurance Coverage, (7) Consumer Complaint Procedures. Compliance certification: Title Companies engage independent CPAs or attorneys to certify compliance. Major Lenders (Wells Fargo, JPMorgan) prefer or require ALTA Best Practices Certification before approving Title Company for transactions. Substantial Title Company resource investment in compliance maintenance.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "ALTA"
     ]
   },
   {
@@ -701,6 +749,23 @@
     "sources": [
       "NAHB",
       "ULI"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Asbestos Survey",
+    "full": "ACBM Survey",
+    "plain": "A specialised inspection identifying asbestos-containing building materials — common in pre-1980 commercial and Multifamily buildings.",
+    "snappy": "Inspection identifying asbestos-containing building materials in older buildings.",
+    "detail": "Asbestos was used in construction widely until phase-out in the 1970s-1980s. Pre-1980 buildings often contain asbestos in: insulation, floor tiles, ceiling tiles, roofing, joint compound, pipe insulation, transite siding. Surveys by licensed asbestos inspectors typically required for: commercial building renovations, multifamily renovations, demolitions. Cost: $1,500-$10,000 for surveys. Discovery triggers OSHA-regulated abatement procedures during work. Encapsulation (sealing asbestos in place) often acceptable; full removal required when materials are disturbed. Pre-acquisition asbestos surveys protect institutional buyers from undisclosed liability.",
+    "indications": [
+      "Commercial",
+      "Multifamily",
+      "Industrial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "HUD"
     ]
   },
   {
@@ -1178,6 +1243,23 @@
   },
   {
     "letter": "B",
+    "term": "Brownfield Cleanup",
+    "full": "Voluntary Cleanup Program",
+    "plain": "State environmental cleanup programs — providing oversight, liability protection, and sometimes funding — for redevelopment of contaminated Brownfield sites.",
+    "snappy": "State cleanup program with oversight and liability protection for Brownfield sites.",
+    "detail": "Brownfield Cleanup programs operate at both federal (EPA's Brownfields Program) and state level (Voluntary Cleanup Programs, or VCPs). VCP benefits: state oversight of cleanup, 'no further action' (NFA) letter at completion, liability protection for the cleanup completer. State-VCP examples: New York Voluntary Cleanup Program, New Jersey ISRA, California DTSC Voluntary Cleanup. Costs: $50,000-$5M+ depending on contamination scale. Federal Brownfield grants, state-funded cleanup matching, and Brownfield tax credits subsidise economics. Successful Brownfield Cleanup converts contaminated property to residential, Commercial, or recreational use.",
+    "indications": [
+      "Development",
+      "Industrial",
+      "Public Sector"
+    ],
+    "category": "Development",
+    "sources": [
+      "HUD"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "BRRRR",
     "full": "Buy, Rehab, Rent, Refinance, Repeat",
     "plain": "A real-estate investor strategy: buy cheap, fix up, rent out, Refinance to pull cash back out, and repeat with the next property.",
@@ -1348,6 +1430,23 @@
     "category": "Property Types",
     "sources": [
       "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Business Improvement District",
+    "full": "BID",
+    "plain": "A self-imposed Property Tax assessment on properties in a defined commercial district — funds extra services like security, cleaning, marketing, events — beyond municipal services.",
+    "snappy": "Self-imposed assessment on commercial-district properties funding extra services.",
+    "detail": "Business Improvement Districts (BIDs) emerged in the 1980s as urban revitalisation tools. Property owners and Tenants in a defined commercial district vote to impose additional Property Tax assessments on themselves, funding a non-profit district management entity. BID services: extra security/'ambassadors,' street cleaning, beautification, holiday lighting, marketing, special events, planning advocacy. Major US BIDs: Times Square Alliance (NYC), Downtown DC BID, Union Square BID (SF), Magnificent Mile BID (Chicago). Annual budgets: $500K-$25M+ depending on district size. Voluntary formation (often requires 51-67% property-owner support), then mandatory for all properties in the district.",
+    "indications": [
+      "Commercial",
+      "Public Sector"
+    ],
+    "category": "Tax",
+    "sources": [
+      "HUD",
       "ULI"
     ]
   },
@@ -1697,6 +1796,39 @@
     "category": "Management & Operations",
     "sources": [
       "Investopedia"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Cash Buyer",
+    "full": "All-Cash Buyer",
+    "plain": "A buyer purchasing without financing contingencies — typically faster Closing, no Appraisal risk, often preferred by sellers in competitive markets.",
+    "snappy": "Buyer purchasing without financing — faster Closing, no Appraisal risk.",
+    "detail": "Cash Buyers dominate distressed Sales and luxury markets. Pros from seller's perspective: no financing contingency, no Appraisal contingency, no Underwriting delays, fast Closing (5-15 days possible). Cons: typically lower offer price (cash buyers expect a discount for their leverage), proof-of-funds verification, sometimes investor-related repair-as-is conditions. Cash Buyer categories: opportunistic investors, foreign buyers parking capital, downsizing retirees with proceeds from previous Sale, institutional Single-Family Rental operators (Invitation Homes, American Homes 4 Rent), wholesalers. Cash Sales were ~30-35% of US transactions through 2023-2024.",
+    "indications": [
+      "Residential",
+      "Investment"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Cash-for-Keys",
+    "full": "Cash-for-Keys Agreement",
+    "plain": "A Landlord-to-Tenant payment in exchange for voluntary move-out — often used in Eviction Moratorium-protected situations, distressed property purchases, and Rent-Stabilized buyouts.",
+    "snappy": "Landlord payment to Tenant in exchange for voluntary move-out.",
+    "detail": "Cash-for-Keys lets Landlords accelerate Tenant departure when Eviction would be slow, contested, or impossible. Typical amounts: $2,000-$10,000 in standard rental markets; $50,000-$500,000+ for Rent-Stabilized buyouts in NYC where the Tenant gives up below-market Rent worth millions in long-term value. NYC's HSTPA reforms (2019) tightened disclosure and process for Rent-Stabilized buyouts to prevent predatory practices. California requires written disclosure that Tenant has the right to refuse, plus a 30-day rescission period. Common in: distressed-property acquisitions, condo conversions, redevelopment projects, Foreclosure sales of occupied properties.",
+    "indications": [
+      "Multifamily",
+      "Residential"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "HUD",
+      "Cornell LII"
     ]
   },
   {
@@ -2079,6 +2211,21 @@
   },
   {
     "letter": "C",
+    "term": "Closing Protection Letter",
+    "full": "CPL",
+    "plain": "A letter — issued by the Title Insurer — protecting the Lender from specific Title Agent errors or fraud during Closing, like wire-fund mishandling.",
+    "snappy": "Title Insurer letter protecting Lender from Title Agent errors during Closing.",
+    "detail": "Closing Protection Letters protect Lenders from Title Agent errors. Coverage: theft or misappropriation of Closing funds by the Title Agent, failure to follow the Lender's Closing instructions, certain Title Defects discovered post-Closing. The CPL is issued by the Title Insurer underwriting the policy, not the Title Company conducting the Closing. Cost: $25-$50 per transaction. Required by virtually every residential Mortgage Lender. CPL is the primary insurance source recovering from Wire Fraud at the Title Company level — though specific limitations and exclusions apply.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "ALTA"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Cloud on Title",
     "full": "Title Cloud",
     "plain": "A pending claim or defect that makes Title less than marketable — anything from an unreleased Lien to a heir contesting Probate to a forged Deed in the chain.",
@@ -2368,6 +2515,21 @@
     "sources": [
       "NCREIF",
       "IREM"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Conditional Approval",
+    "full": "Conditional Loan Approval",
+    "plain": "A Lender's commitment to fund a Mortgage subject to specific conditions — typically Appraisal, Title clearance, employment verification — issued after underwriting.",
+    "snappy": "Lender Mortgage commitment subject to specific conditions like Appraisal and Title clearance.",
+    "detail": "Conditional Approval comes after the Lender has fully underwritten the borrower. Conditions typically include: satisfactory Appraisal, clean Title commitment, current employment verification, no material credit changes, asset documentation. Distinct from Pre-Approval (preliminary, pre-property) and Clear-to-Close (final approval). Timeline from Conditional Approval to Closing: typically 7-21 days. Most conditions are routine; significant delays come from Appraisal coming in low, Title issues requiring curing, or borrower employment changes. Strong Conditional Approval letter is the gold standard for offer credibility in competitive markets.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB"
     ]
   },
   {
@@ -3351,6 +3513,38 @@
   },
   {
     "letter": "D",
+    "term": "Down Payment Assistance",
+    "full": "DPA",
+    "plain": "Government or non-profit programs helping first-time homebuyers cover the Down Payment — grants, forgivable Loans, or matched savings.",
+    "snappy": "Programs helping first-time homebuyers cover Down Payment via grants or forgivable Loans.",
+    "detail": "Down Payment Assistance (DPA) programs operate at federal, state, and local levels. Forgivable loans: $5,000-$50,000+ that forgive over 5-10 years if borrower stays in home. Grants: outright Down Payment cash, no repayment. Matched-savings programs (Individual Development Accounts): government matches savings dollar-for-dollar up to a limit. State housing finance agencies (CalHFA, NYS HCR, Texas HFA) operate the largest programs. Eligibility: typically First-Time Homebuyer, income below 80-120% of Area Median Income, occupancy requirements. Major programs: CalHFA MyHome Assistance Program, Florida Hometown Heroes, NY SONYMA Programs.",
+    "indications": [
+      "Residential",
+      "Affordable"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "HUD"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "Drone Photography",
+    "full": "Aerial Photography",
+    "plain": "Aerial property photos and video — captured by FAA-certified drone operators — showing properties from elevated angles for marketing and surveying.",
+    "snappy": "Aerial photos and video of property captured by FAA-certified drone operators.",
+    "detail": "Drone Photography has become standard listing marketing for higher-tier properties. Uses: aerial property photos showcasing Lot size and surroundings, neighbourhood orientation, video flythrough, roof and exterior inspection, agricultural Land documentation. FAA requires Part 107 commercial operator certification for paid drone work. Privacy concerns: neighbour complaints about drone flights over adjacent property; some HOAs and municipalities restrict drone use. Cost: $200-$1,500 for residential Drone Photography. Real Estate consistently among the largest commercial drone-use sectors.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "DSCR",
     "full": "Debt Service Coverage Ratio",
     "plain": "For investment properties — how many times the rental income covers the Mortgage payment.",
@@ -3920,6 +4114,23 @@
   },
   {
     "letter": "E",
+    "term": "Eviction Moratorium",
+    "full": "",
+    "plain": "A government order temporarily prohibiting evictions — typically during emergencies — used widely during 2020-2021 COVID pandemic to prevent mass homelessness.",
+    "snappy": "Government order temporarily prohibiting evictions during emergencies.",
+    "detail": "Eviction Moratoriums protect Tenants during widespread economic hardship. Federal moratorium: CARES Act (March 2020 — initial 4 months), CDC Eviction Moratorium (September 2020 — August 2021), struck down by Supreme Court August 2021. State moratoriums: California through August 2022, New York through January 2022, Massachusetts through March 2021, multiple others. Landlord impact: extended rent arrears (often without ability to evict), state rental-assistance programs (Emergency Rental Assistance Program, ERAP) compensated some shortfalls. Legacy: ongoing 'just cause eviction' legislation in California, Oregon, and major cities partly reflects moratorium-era political shift.",
+    "indications": [
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "HUD",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Exclusive Use Clause",
     "full": "Exclusive",
     "plain": "A Lease provision barring the Landlord from leasing space in the centre to a competing business — protects the Tenant from direct competition next door.",
@@ -4219,6 +4430,22 @@
     "sources": [
       "IRS",
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "First-Time Homebuyer",
+    "full": "FTHB",
+    "plain": "A buyer purchasing their primary residence for the first time — distinct from repeat buyers — eligible for specific government programs and tax benefits.",
+    "snappy": "Buyer purchasing first primary residence — eligible for specific programs.",
+    "detail": "First-Time Homebuyer status unlocks special programs: FHA 3.5% Down Payment Loans (anyone qualifies, but FTHB are typical), state housing-finance-agency Down Payment Assistance, USDA Section 502 Direct Loans, retirement-account withdrawal penalties waived for first-home purchase under $10K, Mortgage Credit Certificate programs. Definition: someone who hasn't owned a primary residence in the prior three years. FTHB share of US Sales: ~30-32% in 2024, down from historical 40% — Affordability constraints and competition from Cash Buyers squeeze the segment. Various First-Time Homebuyer tax-credit proposals consistently fail at federal level.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "HUD",
+      "CFPB"
     ]
   },
   {
@@ -4885,6 +5112,21 @@
   },
   {
     "letter": "H",
+    "term": "Highest and Best",
+    "full": "Highest and Best Offer",
+    "plain": "A seller's request — in multiple-offer situations — that all interested buyers submit their best offer by a specified deadline.",
+    "snappy": "Seller request for all buyers to submit best offers by a specified deadline.",
+    "detail": "Highest and Best procedure surfaces in competitive markets. Mechanics: Listing Agent receives multiple offers; instead of accepting one, asks all interested buyers to submit final 'Highest and Best' by a deadline (typically 24-48 hours). Buyers escalate their offers — higher price, larger Down Payment, faster Closing, waived contingencies. Seller selects from the final round. Buyer strategy: include Escalation Clauses (automatic Bid increases up to a cap), strong financing demonstration, personal letters (controversial — recent Fair Housing concerns), short Closing timelines. Seller agent ethics: must treat all offers fairly and disclose multiple-offer situations.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "H",
     "term": "Highest and Best Use",
     "full": "HBU",
     "plain": "The Appraiser's judgment of the most profitable, physically possible, and legally permitted use of a property — sometimes different from how it's used today.",
@@ -5176,6 +5418,22 @@
     "category": "Leasing",
     "sources": [
       "Cornell LII",
+      "HUD"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Improvement District",
+    "full": "Special Improvement District, SID",
+    "plain": "A local-government designation creating a Special Tax District — typically funded by Property Tax assessments — to pay for specific infrastructure improvements within the district.",
+    "snappy": "Local-government designation creating a Special Tax District for specific infrastructure.",
+    "detail": "Improvement Districts fund infrastructure benefiting a defined area through targeted property assessments. Typical projects: water mains, sewer extensions, road paving, sidewalks, drainage improvements, undergrounding utility lines. Assessment basis: typically front-footage of the affected property, sometimes by assessed value. Property owners can usually petition formation or vote on creation. Standard duration: 10-30 years. Common in: rural areas getting first sewer service, urban infrastructure modernisation, growing suburbs building out infrastructure. Major distinction from general municipal funding: only properties benefiting pay, not the broader tax base.",
+    "indications": [
+      "Development",
+      "Public Sector"
+    ],
+    "category": "Tax",
+    "sources": [
       "HUD"
     ]
   },
@@ -5488,6 +5746,22 @@
   },
   {
     "letter": "I",
+    "term": "Investor Buyer",
+    "full": "Investment Buyer",
+    "plain": "A buyer purchasing property as investment — not primary residence — typically faces higher Down Payment requirements, higher rates, and different tax treatment than Owner-Occupier.",
+    "snappy": "Buyer purchasing as investment — higher Down Payment, higher rates, different tax.",
+    "detail": "Investor Buyer pricing reflects Lender risk perception. Down Payment: 20-25% Conventional Loan minimum, sometimes 30% for multi-unit; FHA and VA generally not available for Investor purchases. Interest rates: 50-150 basis points above Owner-Occupier rates. PMI rules: even at 80%+ Down Payment, some Conventional Loans require MI on Investor Loans. Tax treatment: Property Tax and Mortgage Interest deductible against rental income (or otherwise); Cost Segregation, Bonus Depreciation, MACRS available. Common Investor categories: small Single-Family Rental investors, BRRRR practitioners, value-add Multifamily Sponsors, Cash Buyer professional investors.",
+    "indications": [
+      "Investment",
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "I",
     "term": "IO",
     "full": "Interest-Only",
     "plain": "Common shorthand for Interest-Only — a Mortgage where the borrower pays only Interest for an initial period before Amortization starts.",
@@ -5673,6 +5947,23 @@
   },
   {
     "letter": "J",
+    "term": "Just-Cause Eviction",
+    "full": "Good-Cause Eviction",
+    "plain": "A Tenant-protection law requiring Landlords to demonstrate a valid reason — non-payment, lease violation, owner move-in — before evicting Tenants.",
+    "snappy": "Law requiring Landlords to show valid reason before evicting Tenants.",
+    "detail": "Just-Cause Eviction restrictions limit no-fault terminations. Standard 'just causes': non-payment of Rent, material Lease violation, nuisance behaviour, criminal activity, owner or family move-in (limited circumstances), substantial renovation (with Tenant relocation rights), removal from residential rental use. Without good cause, Landlord cannot non-renew Lease or terminate month-to-month tenancy. California state law since 2020 (AB 1482) applies just-cause to most residential units. Oregon, Washington, New Jersey, and many cities (Los Angeles, Seattle, Portland, Newark, San Francisco) impose just-cause locally. Implementation requires written notice of reason and statutory cure periods.",
+    "indications": [
+      "Multifamily",
+      "Residential"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "HUD",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "J",
     "term": "JV",
     "full": "Joint Venture",
     "plain": "Common shorthand for a Joint Venture — a partnership between capital and Sponsor for Real Estate deals.",
@@ -5777,6 +6068,23 @@
   },
   {
     "letter": "L",
+    "term": "Lead-Based Paint Disclosure",
+    "full": "Lead Paint Disclosure",
+    "plain": "A federally required disclosure for residential properties built before 1978 — informs buyers and renters about potential lead-based paint hazards.",
+    "snappy": "Federal disclosure for pre-1978 residential properties about lead-based paint hazards.",
+    "detail": "The Residential Lead-Based Paint Hazard Reduction Act of 1992 requires sellers and Landlords of pre-1978 residential property to provide lead-based paint disclosure forms. Components: disclose any known lead paint or hazards, provide EPA pamphlet 'Protect Your Family from Lead in Your Home,' allow buyer 10-day inspection opportunity (residential Sales). Penalties for non-compliance: $20,000+ per violation, triple damages in lawsuits. Residential rentals in pre-1978 buildings face ongoing disclosure obligations. New construction is exempt. Renovate-Repair-Paint (RRP) regulations also apply to contractors disturbing painted surfaces.",
+    "indications": [
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "HUD",
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Lease",
     "full": "",
     "plain": "A written contract giving a Tenant the right to occupy a property for a set time in exchange for Rent.",
@@ -5791,6 +6099,22 @@
     "sources": [
       "Cornell LII",
       "NAR"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Lease Buyout",
+    "full": "Buyout, Lease Termination Buyout",
+    "plain": "A Tenant payment to Landlord — or Landlord to Tenant — to terminate a Lease before its scheduled end date.",
+    "snappy": "Payment between Tenant and Landlord to terminate a Lease early.",
+    "detail": "Lease Buyouts flow in both directions. Tenant-side buyouts: Tenant wants to break Lease (job relocation, financial hardship, life event), pays Landlord lump sum (typically 2-6 months Rent) to release from remaining obligations. Landlord-side buyouts: Landlord wants Tenant out (redevelopment, repositioning, owner move-in), pays Tenant relocation amount plus penalty Rent. Strategic considerations: buyer financial capacity, Mitigation of Damages doctrine (states like California require Landlord to mitigate by re-leasing), tax treatment of payments. Distinct from Cash-for-Keys (more informal, often used in distress).",
+    "indications": [
+      "Commercial",
+      "Residential"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "Cornell LII"
     ]
   },
   {
@@ -6297,6 +6621,23 @@
   },
   {
     "letter": "L",
+    "term": "Lockout",
+    "full": "Self-Help Lockout",
+    "plain": "A Landlord's illegal action of changing locks or physically excluding a Tenant — almost universally prohibited by state law, requires Eviction proceedings instead.",
+    "snappy": "Landlord's illegal lockout of Tenant — must use Eviction proceedings instead.",
+    "detail": "Lockouts are prohibited 'self-help' Eviction in virtually every US state. Even with Lease default, Landlords cannot: change locks, remove Tenant belongings, shut off utilities, board windows, or otherwise physically exclude Tenants without court order. Required process: file Eviction action, serve Tenant, obtain court judgment, request sheriff's writ of possession, sheriff executes lockout. Penalty for illegal Landlord lockouts: punitive damages, Tenant retention of unit, attorney's fees, statutory damages (typically 2-3x actual damages). Despite illegality, Landlord lockouts remain frequent — particularly small Landlords unfamiliar with procedure or in tight-money distress.",
+    "indications": [
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "Cornell LII",
+      "HUD"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Loss Factor",
     "full": "",
     "plain": "The percentage of an Office building's gross area that isn't directly leasable — the inverse of the R/U Factor.",
@@ -6649,6 +6990,22 @@
   },
   {
     "letter": "M",
+    "term": "Mello-Roos",
+    "full": "Mello-Roos District, CFD",
+    "plain": "California's special-tax district mechanism — created by the 1982 Mello-Roos Community Facilities Act — funds infrastructure for new Development through additional Property Tax assessments.",
+    "snappy": "California special-tax district funding infrastructure for new Development.",
+    "detail": "Mello-Roos surfaces in California new-construction transactions. Local governments create Community Facilities Districts (CFDs) under the 1982 Mello-Roos Act to fund: schools, parks, roads, sewers, parks, libraries. Property owners in the CFD pay additional Property Tax (the Mello-Roos assessment) on top of standard 1% Proposition 13 limit. Typical Mello-Roos: $1,500-$3,000/year on residential properties for 20-40 years. Disclosed in California Sales but often confuses buyers comparing properties. Mello-Roos rules apply only in California; comparable mechanisms (Special Assessment districts) exist in other states.",
+    "indications": [
+      "Residential",
+      "Development"
+    ],
+    "category": "Tax",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "MERS",
     "full": "Mortgage Electronic Registration Systems",
     "plain": "A private electronic registry tracking Mortgage ownership and servicing transfers — letting the industry move loans without recording assignments.",
@@ -6865,6 +7222,22 @@
   },
   {
     "letter": "M",
+    "term": "Mold Inspection",
+    "full": "Mould Inspection",
+    "plain": "An inspection identifying mould growth and moisture conditions — common buyer requests in humid climates and post-water-damage situations.",
+    "snappy": "Inspection identifying mould growth and moisture conditions in a property.",
+    "detail": "Mould Inspection includes: visual assessment, moisture readings (Tramex moisture meters), thermal imaging, sometimes air sampling and laboratory analysis. Causes: leaks (roof, plumbing, foundation), humidity (above 60% indoor), poor ventilation. Health concerns: respiratory irritation, allergic reactions, asthma triggering, rare toxic mould (Stachybotrys). Remediation costs: $500-$30,000+ depending on scale. Insurance treatment: most Homeowners Insurance policies exclude or sub-limit mould; specific mould-rider endorsements available. Florida, Louisiana, Texas, and other humid climates see most mould inspections.",
+    "indications": [
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Mortgage",
     "full": "",
     "plain": "A loan to buy property where the property itself is the collateral — the Lender can take it back if you don't pay.",
@@ -6913,6 +7286,23 @@
     "sources": [
       "CFPB",
       "NAR"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Mortgage Credit Certificate",
+    "full": "MCC",
+    "plain": "A federal tax credit for First-Time Homebuyers — reduces federal income tax based on Mortgage Interest paid — improves affordability of conventional Mortgage Loans.",
+    "snappy": "Federal tax credit reducing income tax based on Mortgage Interest, for First-Time Homebuyers.",
+    "detail": "Mortgage Credit Certificate (MCC) gives First-Time Homebuyers an annual federal tax credit. State housing finance agencies issue MCCs (using federal tax-exempt bond cap). Credit: 10-50% of annual Mortgage Interest paid, depending on state program — typically capped at $2,000/year. Unlike Mortgage Interest Deduction, MCC is a direct credit (not deduction) — more valuable to lower-income filers. Eligibility: First-Time Homebuyer, income below 80-115% AMI, property price below program-specific cap. Used in: Texas SETH Mortgage Credit Certificate, California CalHFA MCC. Combined with Down Payment Assistance, makes home purchase affordable to buyers with otherwise marginal qualification.",
+    "indications": [
+      "Residential",
+      "Affordable"
+    ],
+    "category": "Tax",
+    "sources": [
+      "HUD",
+      "IRS"
     ]
   },
   {
@@ -7534,6 +7924,21 @@
   },
   {
     "letter": "O",
+    "term": "Open House",
+    "full": "",
+    "plain": "A scheduled public showing of a residential listing — typically 1-3 hours on a weekend — anyone can attend without an appointment, conducted by the Listing Agent.",
+    "snappy": "Public scheduled showing of a listing — anyone attends without appointment.",
+    "detail": "Open Houses are the dominant residential marketing tactic. Typical structure: 1-3 hours Saturday or Sunday, listing Agent on-site, signs at major intersections directing traffic, listing flyer with property details. Purposes: build buyer interest, gauge market response to pricing, capture buyer Agent leads, support seller through visible activity. Effectiveness varies sharply: hot markets see high-attendance Open Houses with multiple offers; soft markets get one or two attendees. Some sellers decline Open Houses due to security concerns, child safety, pet stress. Virtual Open House emerged post-2020 — live-streamed walkthroughs replacing in-person events.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "O",
     "term": "Open Office",
     "full": "Open Plan Office",
     "plain": "An Office layout with minimal walls and partitions — large shared workspaces with desks in clusters or rows — popular 2000s-2020s before backlash drove hybrid configurations.",
@@ -7683,6 +8088,22 @@
     "category": "Property Types",
     "sources": [
       "NCREIF"
+    ]
+  },
+  {
+    "letter": "O",
+    "term": "Owner-Occupier",
+    "full": "Owner-Occupied",
+    "plain": "A property where the buyer/owner intends to live as primary residence — distinct from Investor Buyer — qualifies for better financing terms and tax benefits.",
+    "snappy": "Buyer/owner intends to live as primary residence — better financing and tax terms.",
+    "detail": "Owner-Occupier status drives Mortgage pricing, Down Payment requirements, and tax treatment. Owner-Occupier Mortgages: 3-5% Down Payment available (FHA, VA, USDA, some Conventional), best Mortgage rates, no Investment-property pricing premium. Investor Buyer Mortgages: 20-25% Down Payment required, rates 50-150 bps higher than Owner-Occupier. Occupancy fraud: misrepresenting Investor-purchase as Owner-Occupier — federal crime under 18 USC §1014. Detection: post-Closing audits, address mismatches with Mortgage Interest Deduction filings, drive-by checks. Owner-Occupier requirement typically applies for at least 12 months post-Closing.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "CFPB",
+      "Fannie Mae"
     ]
   },
   {
@@ -7855,6 +8276,39 @@
   },
   {
     "letter": "P",
+    "term": "Phase I ESA",
+    "full": "Phase I Environmental Site Assessment",
+    "plain": "An environmental investigation of a commercial property — historical records, site walk, no sampling — to identify Recognized Environmental Conditions before purchase.",
+    "snappy": "Environmental investigation through records and site walk — no sampling.",
+    "detail": "Phase I ESA is the standard environmental due diligence for Commercial Real Estate. ASTM E1527-21 standard methodology. Components: review historical records (Sanborn maps, regulatory databases, aerial photos), site reconnaissance walk, interview current and former owners, identify Recognized Environmental Conditions (RECs). Cost: $2,500-$8,000. Timeline: 3-6 weeks. Required by virtually every Commercial Real Estate Lender. Passing Phase I (no significant RECs) satisfies federal Bona Fide Prospective Purchaser due diligence under CERCLA. Failing Phase I (RECs identified) triggers Phase II ESA or deal abandonment.",
+    "indications": [
+      "Commercial",
+      "Industrial",
+      "Investment"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "HUD"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Phase II ESA",
+    "full": "Phase II Environmental Site Assessment",
+    "plain": "An environmental investigation including soil and groundwater sampling — triggered when Phase I ESA identifies a Recognized Environmental Condition.",
+    "snappy": "Environmental sampling investigation triggered by Phase I REC findings.",
+    "detail": "Phase II ESA includes physical testing where Phase I identified concerns. Components: soil borings, groundwater well installation, sampling, laboratory analysis, contamination delineation. Cost: $15,000-$100,000+ depending on site complexity. Timeline: 6-12 weeks. Phase II results determine whether Remediation is needed and at what scale. ASTM E1903 governs Phase II methodology. Buyer-side Phase II often kills deals when contamination found exceeds remediation budget. Lenders typically require Phase II before approving loans on Phase-I-flagged sites.",
+    "indications": [
+      "Commercial",
+      "Industrial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "HUD"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "PIP",
     "full": "Property Improvement Plan",
     "plain": "A brand-required renovation plan triggered at Hotel transactions or franchise renewals — specifies upgrades the new owner or franchisee must complete to maintain brand standards.",
@@ -7979,6 +8433,22 @@
     "category": "Financing & Lending",
     "sources": [
       "CFPB"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Pre-Listing Inspection",
+    "full": "Seller's Inspection",
+    "plain": "A property Inspection commissioned by the seller before listing — surfaces issues for repair or disclosure rather than risking deal collapse from buyer Inspection findings.",
+    "snappy": "Seller-commissioned Inspection before listing to surface issues for repair or disclosure.",
+    "detail": "Pre-Listing Inspections serve sellers who want to avoid deal collapse from surprise findings. Pros: seller can repair major issues at leisure (not under time pressure), reduce buyer leverage during Inspection-period negotiation, make full disclosure protecting against post-Closing claims, position for shorter Inspection contingencies (some buyers waive Inspection entirely with quality pre-listing report). Cons: cost ($400-$1,000), disclosure obligations triggered, repair costs. Pre-listing Inspections more common in: hot markets (where buyers waive contingencies), luxury listings, complex Commercial transactions, post-2020 institutional Single-Family Rental disposition.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
     ]
   },
   {
@@ -8466,6 +8936,21 @@
   },
   {
     "letter": "R",
+    "term": "Radon Test",
+    "full": "Radon Inspection",
+    "plain": "A test for radon gas — a naturally occurring radioactive gas — typically conducted during the Inspection window of residential transactions.",
+    "snappy": "Test for radon gas during the Inspection window of residential transactions.",
+    "detail": "Radon is a colourless, odourless radioactive gas seeping into homes from soil, posing lung cancer risk. EPA recommends action at levels above 4 pCi/L. Testing types: short-term (2-7 days, common in Real Estate transactions), long-term (90-day, more accurate). Cost: $100-$300 for residential test. Mitigation: sub-slab depressurisation systems, $1,500-$3,500. High-risk states: Iowa, Pennsylvania, Wisconsin, Ohio, Minnesota — many states require radon disclosure in residential Sales. Buyers can request seller remediation or close credit; failing radon mitigation rarely kills a deal but adjusts price.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "HUD"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "Rate Cap",
     "full": "",
     "plain": "A ceiling on how much an Adjustable-Rate Mortgage's interest rate can rise — per adjustment or over the loan's life.",
@@ -8594,6 +9079,40 @@
   },
   {
     "letter": "R",
+    "term": "Reasonable Accommodation",
+    "full": "",
+    "plain": "A Landlord's required modification of rules, policies, or services — for a Tenant with a disability — under the Fair Housing Act and ADA.",
+    "snappy": "Required Landlord modification of rules for Tenant with disability under Fair Housing Act.",
+    "detail": "Reasonable Accommodation under Fair Housing Act §3604(f)(3)(B) requires Landlords to modify rules for Tenants with disabilities. Examples: allow service animal despite no-pets policy, assign accessible parking space, adjust payment dates for Tenant on disability income, permit live-in caregiver, modify policies on noise during quiet hours for Tenant with PTSD. Required where the accommodation is reasonable and necessary; Landlord can refuse only with proof of fundamental alteration or undue hardship. Distinct from Reasonable Modification (physical changes to property). Documentation typically requires verification from healthcare provider; specific medical diagnosis not required.",
+    "indications": [
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "HUD",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Reasonable Modification",
+    "full": "",
+    "plain": "A Landlord's required allowance for a Tenant with a disability to make physical changes to the property — at the Tenant's expense — under the Fair Housing Act.",
+    "snappy": "Required Landlord allowance for Tenant disability-related physical property modifications.",
+    "detail": "Reasonable Modification under Fair Housing Act §3604(f)(3)(A) allows Tenants with disabilities to make physical property changes at their own expense. Examples: install grab bars in bathroom, widen doorways for wheelchair access, replace doorknobs with levers, install visual smoke alarms for hearing-impaired Tenants. Landlord can require: workmanlike completion, reasonable restoration at move-out (only for changes that would interfere with subsequent Tenants' use), advance approval for proposed modifications. Landlord cannot increase Security Deposit or charge fees for modifications. Distinct from Reasonable Accommodation (rule changes). Federal ADA also applies to public-accommodation areas.",
+    "indications": [
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "HUD",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "Recapture Right",
     "full": "Recapture Clause",
     "plain": "The Landlord's right to take back leased space — usually in response to a Tenant's notice of plans to vacate, sublet, or assign — rather than allowing the Tenant to control disposition.",
@@ -8621,6 +9140,22 @@
     "category": "Financing & Lending",
     "sources": [
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Recognized Environmental Condition",
+    "full": "REC",
+    "plain": "A finding from Phase I ESA — indicating presence or likely presence of hazardous substances at a property — that triggers Phase II ESA or deeper due diligence.",
+    "snappy": "Phase I finding of presence or likely presence of hazardous substances.",
+    "detail": "Recognized Environmental Conditions are the Phase I ESA's main output. Examples: historical operation as gas station or dry cleaner, evidence of underground storage tanks, neighbouring contamination migrating, soil staining, on-site chemical handling. Each REC must be documented with supporting evidence. REC categorisation: Controlled REC (active management, low risk), Historical REC (past issue resolved). REC findings trigger Phase II ESA or buyer negotiation around remediation responsibilities. Major Lenders and institutional buyers walk from properties with significant active RECs unless protected by indemnification or environmental insurance.",
+    "indications": [
+      "Commercial",
+      "Industrial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "HUD"
     ]
   },
   {
@@ -8797,6 +9332,23 @@
   },
   {
     "letter": "R",
+    "term": "Rent Control",
+    "full": "Rent Stabilization",
+    "plain": "A government regulation limiting how much a Landlord can raise rents on existing Tenants — common in tight-housing markets like NYC, San Francisco, Los Angeles.",
+    "snappy": "Regulation limiting Rent increases on existing Tenants in tight-housing markets.",
+    "detail": "Rent Control comes in multiple forms across the US. Strict Rent Control (true rent stabilisation): max annual Rent increase tied to CPI or fixed percentage (often 1-5%), no vacancy decontrol, requires good-cause eviction. Common in: NYC pre-1974 buildings, Berkeley, Santa Monica. Modern Rent Control: vacancy decontrol allowed (Rents reset to market when Tenants move), max annual increase capped on existing Tenants. Common in: California state-wide (since 2020 AB 1482), Oregon state-wide (since 2019), New York non-NYC controls. Strict Rent Control faces consistent academic criticism but political durability — rent caps remain popular among Tenants in high-cost markets.",
+    "indications": [
+      "Multifamily",
+      "Affordable"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "HUD",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "Rent Roll",
     "full": "",
     "plain": "The list of every Tenant in a property — unit, Lease term, Rent, security deposit — the foundational document for any rental property purchase or refinance.",
@@ -8811,6 +9363,23 @@
     "sources": [
       "IREM",
       "NCREIF"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Rent Stabilization",
+    "full": "Rent Stabilized",
+    "plain": "A formal Rent Control system — most prominent in NYC — that caps annual Rent increases on registered units and provides Tenant succession rights.",
+    "snappy": "Formal Rent Control system capping annual increases and providing succession rights.",
+    "detail": "Rent Stabilization is NYC's primary Rent Control system. Coverage: ~1 million NYC apartments in buildings built before 1974 with six or more units. Mechanics: annual Rent increase set by Rent Guidelines Board (typically 1.5-3% on one-year renewals, 2-5% on two-year renewals), succession rights for family members and longtime occupants, full Lease renewal rights at the regulated Rent. Tenants registered in Rent-Stabilized units often pay 30-60% below market Rent. Landlord workarounds (high-rent vacancy decontrol, major capital improvements) significantly weakened by 2019 HSTPA reforms — landlords now have far fewer ways out of regulation.",
+    "indications": [
+      "Multifamily",
+      "Affordable"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "HUD",
+      "Cornell LII"
     ]
   },
   {
@@ -9350,6 +9919,22 @@
   },
   {
     "letter": "S",
+    "term": "Self-Help Eviction",
+    "full": "",
+    "plain": "Any Landlord attempt to evict a Tenant outside the formal Eviction process — Lockouts, utility shutoffs, harassment — virtually always illegal in US residential rentals.",
+    "snappy": "Illegal Landlord attempt to evict Tenant outside formal Eviction process.",
+    "detail": "Self-Help Eviction tactics — Lockouts, shutting off utilities, removing Tenant property, harassment, threats — are prohibited in nearly every US state. Allowed Landlord actions in Lease Default: written notice of cure or quit, filing formal Eviction action, obtaining court judgment, lawful execution via sheriff. Self-Help Eviction penalties: punitive damages, Tenant entitlement to remain in property, statutory damages (often 2-3x actual damages plus attorney's fees), criminal charges in some jurisdictions. Commercial Tenants have weaker self-help protections than residential — some states allow narrow commercial Lockouts on Lease Default.",
+    "indications": [
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Self-Storage",
     "full": "Storage Facility",
     "plain": "A property with rentable storage units for personal or business goods — small individual units rented month-to-month, low operating costs, recession-resilient.",
@@ -9433,6 +10018,23 @@
     "sources": [
       "NAHB",
       "HUD"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Settlement Agent",
+    "full": "Closing Agent, Settlement Officer",
+    "plain": "The neutral third party — Title Company, attorney, or escrow company — conducting the Closing process, handling funds, recording documents, and ensuring proper transfer.",
+    "snappy": "Neutral third party conducting Closing — handles funds, records documents, ensures transfer.",
+    "detail": "Settlement Agents conduct Closings depending on state custom. Title Company states (much of the South and West): Settlement Agent is typically a Title Insurance underwriter or affiliated company. Attorney states (NY, MA, GA, NJ, much of the Northeast): each side has an attorney; both attorneys plus Title Insurance underwriter participate. Escrow company states (California, parts of West): independent escrow companies serve as neutral third parties. Roles: collect funds from buyer and Lender, pay off prior Liens, record Deed and Mortgage, distribute seller proceeds, ensure ALTA Best Practices compliance. Wire Fraud prevention is now a central responsibility.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "ALTA",
+      "NAR"
     ]
   },
   {
@@ -9716,6 +10318,23 @@
   },
   {
     "letter": "S",
+    "term": "Special Tax District",
+    "full": "STD, Special Assessment District",
+    "plain": "A geographic area where property owners pay extra taxes to fund specific improvements or services — schools, sewers, parks, infrastructure — beyond standard municipal services.",
+    "snappy": "Geographic area where property owners pay extra taxes for specific improvements or services.",
+    "detail": "Special Tax Districts (also Special Assessment Districts) are common throughout the US. Categories: school district overlays, water and sewer districts, park districts, lighting districts, transit improvement districts, business improvement districts (BIDs). Funding mechanism: line item on the annual Property Tax bill, separate from standard tax. Common in: new residential subdivisions where developers structure long-term infrastructure payback, downtown business areas where BIDs fund extra services. Property buyers should review all special assessment line items during Due Diligence — they can add $500-$5,000+/year to Property Tax.",
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Public Sector"
+    ],
+    "category": "Tax",
+    "sources": [
+      "HUD"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Special Warranty Deed",
     "full": "Limited Warranty Deed",
     "plain": "A Deed where the seller warrants only the period of their own ownership — not the full Chain of Title — common in commercial transactions and tax sales.",
@@ -9799,6 +10418,21 @@
     "sources": [
       "NCREIF",
       "Fannie Mae"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Staging",
+    "full": "Home Staging",
+    "plain": "The practice of furnishing and arranging a home — often with rented furniture and decor — to maximise its appeal to buyers and Sale Price.",
+    "snappy": "Furnishing and arranging a home to maximise buyer appeal and Sale Price.",
+    "detail": "Home Staging has become a standard residential listing practice in many markets. Approaches: full Staging (rental furniture installed by professional Stager), partial Staging (existing furniture rearranged), virtual Staging (digital furniture added to photos). Cost: $500-$5,000+ for partial; $2,000-$15,000+ for full home Staging over 30-90 days. ROI: median-priced homes see 5-10% Sale Price lift on Staged listings; vacant unstaged homes often Sale at meaningful discount. Major Staging companies: Vacant Home Pros, Showhomes, Meridith Baer. Higher-end markets (luxury, urban condo) almost always Stage.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
     ]
   },
   {
@@ -10079,6 +10713,23 @@
     "sources": [
       "SEC",
       "Nareit"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Tax Increment Financing",
+    "full": "TIF",
+    "plain": "A public-finance mechanism that earmarks future Property Tax revenue growth — within a designated district — to fund infrastructure or Development incentives in that district.",
+    "snappy": "Public-finance mechanism using future Property Tax growth to fund district infrastructure.",
+    "detail": "Tax Increment Financing (TIF) emerged 1950s and spread to 49 US states. Mechanics: city designates a 'TIF district' with a baseline Property Tax revenue. Future increases in Property Tax revenue (the 'tax increment') get diverted to fund infrastructure or Development incentives within the district rather than to general municipal budget. Common uses: brownfield redevelopment, downtown revitalisation, transit-oriented Development, infrastructure to support new Multifamily. Controversies: TIF diverts revenue from schools and county services for decades; some TIF projects have failed financially leaving taxpayer obligations. Chicago, St. Louis, Atlanta among heaviest US TIF users.",
+    "indications": [
+      "Development",
+      "Public Sector"
+    ],
+    "category": "Tax",
+    "sources": [
+      "HUD",
+      "Cornell LII"
     ]
   },
   {
@@ -10761,6 +11412,23 @@
   },
   {
     "letter": "U",
+    "term": "Underground Storage Tank",
+    "full": "UST",
+    "plain": "Underground tanks storing petroleum or hazardous substances — major environmental risk on former gas stations, fleet operations, and industrial properties.",
+    "snappy": "Underground tanks storing petroleum — major environmental risk requiring permit and monitoring.",
+    "detail": "Underground Storage Tanks (USTs) regulated under EPA's UST program (40 CFR Part 280). Federal rules: tanks installed before 1988 must be upgraded or replaced; tanks must have spill, overfill, and corrosion protection; release detection required; closure procedures govern decommissioning. State programs administer most enforcement. Real Estate impacts: legacy gas stations, fleet maintenance facilities, school heating tanks. Pre-purchase Phase I ESA identifies UST history; Phase II ESA tests for releases. Federal UST cleanup fund available for tanks meeting eligibility. Buyer indemnification or Environmental Insurance protects against undiscovered UST issues.",
+    "indications": [
+      "Industrial",
+      "Commercial",
+      "Land"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "HUD"
+    ]
+  },
+  {
+    "letter": "U",
     "term": "Underwriting",
     "full": "",
     "plain": "The Lender's process of deciding whether to approve your Mortgage — checking income, assets, credit, and the property.",
@@ -10922,6 +11590,22 @@
   },
   {
     "letter": "V",
+    "term": "Vacancy Decontrol",
+    "full": "Vacancy Bonus",
+    "plain": "A Rent Control provision letting Landlords reset Rent to market when a Tenant moves out — sharply weakens Rent Control's structural impact over time.",
+    "snappy": "Rent Control provision letting Landlords reset Rent to market on Tenant turnover.",
+    "detail": "Vacancy Decontrol fundamentally weakens Rent Control. In modern California Rent Control (AB 1482), Oregon Rent Control, and most cities: existing Tenants get capped Rent increases, but each turnover lets Landlord set new Rent at market rate. Over 10-15 year horizon, vacancy decontrol erodes effective Rent regulation — only long-term Tenants benefit. NYC's pre-2019 Rent Stabilization included high-rent vacancy decontrol (units above $2,500-$3,500 came out of regulation entirely on vacancy); 2019 HSTPA eliminated decontrol entirely, dramatically expanding NYC's Rent-Stabilized stock. Vacancy decontrol's role in housing-supply restriction is hotly debated.",
+    "indications": [
+      "Multifamily",
+      "Affordable"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "HUD"
+    ]
+  },
+  {
+    "letter": "V",
     "term": "Vacancy Loss",
     "full": "Vacancy and Collection Loss",
     "plain": "The Rent revenue a property loses to empty units and uncollected Rent — modeled as a percentage deduction from Gross Rental Income to reach Effective Gross Income.",
@@ -10990,6 +11674,22 @@
     "sources": [
       "Cornell LII",
       "HUD"
+    ]
+  },
+  {
+    "letter": "V",
+    "term": "Virtual Tour",
+    "full": "3D Virtual Tour",
+    "plain": "An online walkthrough of a property — typically generated from 360-degree photos or 3D scanning — letting prospective buyers explore the property remotely.",
+    "snappy": "Online walkthrough letting buyers explore the property remotely.",
+    "detail": "Virtual Tour formats expanded sharply 2020-2024. Matterport 3D Tour: full property scan letting users walk through floor by floor, measure dimensions, view from any angle. Zillow 3D Home: simpler 360-degree photo stitching, integrated with Zillow listing platform. Drone Photography + walkthrough video: aerial plus interior tour. Virtual Tours support: out-of-state buyers narrowing options before visits, remote investors closing without site visits, listing differentiation in competitive marketing. Cost: $300-$2,000 per Virtual Tour depending on size. Standard in luxury and Commercial Real Estate, increasingly common in mid-market residential.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
     ]
   },
   {
@@ -11121,6 +11821,23 @@
     "category": "Management & Operations",
     "sources": [
       "CFPB"
+    ]
+  },
+  {
+    "letter": "W",
+    "term": "Wire Fraud",
+    "full": "Real Estate Wire Fraud",
+    "plain": "A criminal fraud scheme — common in Real Estate Closings — where fraudsters impersonate Title Companies or buyers and redirect Closing-funds wire transfers to attacker-controlled accounts.",
+    "snappy": "Criminal scheme redirecting Real Estate Closing wire transfers to attacker accounts.",
+    "detail": "Real Estate Wire Fraud surged 2017-2024 as Closings shifted to wire-only. Mechanism: attackers compromise the email of Title Company, broker, or attorney; intercept Closing communications; send buyer false wire-transfer instructions to attacker-controlled accounts. Victim wires $200,000-$2M+ to fraudster, who immediately moves funds offshore. FBI IC3 reports $400M+ annual Real Estate wire fraud losses. Defenses: verify all wire instructions by phone to known number before sending, use ALTA's wire-fraud protocols, secure-portal communication. Title Insurance generally doesn't cover wire fraud; specialised cyber-fraud insurance fills the gap. ALTA Best Practices include wire-fraud protocols.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "CFPB",
+      "ALTA"
     ]
   },
   {
