@@ -443,6 +443,23 @@
   },
   {
     "letter": "A",
+    "term": "Appraisal Review",
+    "full": "Appraisal Audit",
+    "plain": "A second Appraiser's evaluation of a primary Appraisal — checks methodology, supporting data, and conclusions — required by Lenders for high-LTV or large transactions.",
+    "snappy": "Second Appraiser's evaluation of a primary Appraisal — checks methodology and conclusions.",
+    "detail": "Appraisal Reviews come in three flavours under USPAP. Desk Review: based solely on the report and any provided data, no field inspection. Field Review: includes physical inspection of subject and Comps. Critical Field Review: most comprehensive, includes independent valuation analysis. Lenders require reviews on high-LTV residential and large commercial transactions. The reviewer can agree, recommend adjustments, recommend Re-Appraisal, or reject the original.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Valuation & Appraisal",
+    "sources": [
+      "Appraisal Foundation",
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Appraised Value",
     "full": "",
     "plain": "The dollar number the Appraiser writes in their report — what the property is judged to be worth.",
@@ -919,6 +936,22 @@
   },
   {
     "letter": "B",
+    "term": "Broker License",
+    "full": "Real Estate Broker License",
+    "plain": "The senior Real Estate licence — requires more coursework and experience than Salesperson Licence — letting the holder operate independently and supervise other Agents.",
+    "snappy": "Senior Real Estate licence allowing independent operation and Agent supervision.",
+    "detail": "Broker Licence requirements: 90-300 hours of pre-licensing coursework, 1-3 years of active Salesperson experience, additional state exam, errors-and-omissions insurance maintenance. Brokers can operate their own brokerage, supervise Salespersons, hold client funds in escrow, structure commission splits. Three Broker subtypes in many states: Associate Broker (works under another), Managing Broker (operates a brokerage), Designated Broker (responsible legal contact). Realtor designation requires Broker or Salesperson Licence plus NAR membership.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "Brownfield",
     "full": "Brownfield Site",
     "plain": "A property contaminated by prior industrial use — old factories, gas stations, dry cleaners — that needs environmental remediation before redevelopment.",
@@ -1053,6 +1086,24 @@
     "category": "Law & Regulation",
     "sources": [
       "HUD",
+      "NAHB"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Building Height",
+    "full": "Maximum Building Height",
+    "plain": "The maximum vertical dimension of a building set by Zoning — measured from grade level to roof peak, eaves, or specific architectural elements.",
+    "snappy": "Maximum building height set by Zoning, measured from grade to roof.",
+    "detail": "Building Height limits vary by Zoning category. Single-Family residential: 25-35 feet typical (2-3 stories). Multifamily and Commercial: 35-100+ feet depending on tier. Downtown business districts: 100-500+ feet, often subject to airspace overlay restrictions near airports. Measurement methods differ: grade-to-eave, grade-to-mean-roof-height, grade-to-highest-architectural-element. Height bonuses occasionally available for public benefits.",
+    "indications": [
+      "Development",
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Development",
+    "sources": [
+      "ULI",
       "NAHB"
     ]
   },
@@ -1392,6 +1443,23 @@
   },
   {
     "letter": "C",
+    "term": "Carried Interest Holding Period",
+    "full": "Three-Year Holding Rule",
+    "plain": "The TCJA rule requiring carried-interest holdings to be at least three years to qualify for long-term Capital Gain rates — applies to Real Estate Promote payments.",
+    "snappy": "Three-year holding rule for carried interest to qualify as long-term Capital Gain.",
+    "detail": "TCJA extended the carried-interest holding requirement from one year to three years effective 2018. Promote payments to Sponsors recognised in year 1, 2, or 3 trigger short-term Capital Gain (ordinary rates up to 37%). Promote in year 4+ qualifies for long-term Capital Gain rates (20% top). Most Real Estate Hold Periods comfortably exceed three years. Short-Hold strategies (BRRRR with 12-24 month flips) lose long-term treatment. Reform to extend the rule further has failed; three-year rule remains intact through 2024.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Carryforward Loss",
     "full": "Tax Loss Carryforward",
     "plain": "Tax losses that can't be used in the current year — carried forward indefinitely to offset future income.",
@@ -1524,6 +1592,22 @@
   },
   {
     "letter": "C",
+    "term": "CGL",
+    "full": "Commercial General Liability",
+    "plain": "The standard liability insurance for Commercial Real Estate — covers third-party bodily injury, property damage, and personal/advertising injury claims.",
+    "snappy": "Standard liability insurance for Commercial Real Estate — third-party injury and damage.",
+    "detail": "CGL is required by virtually every Commercial Real Estate Lender and Lease. Standard limits: $1M per occurrence / $2M aggregate. Coverage: slip-and-fall on the property, water damage to neighbouring property, libel/slander in Tenant marketing, contractual indemnifications. Excluded: pollution, professional services (E&O Insurance), workers compensation, liquor liability. Tenant-required CGL with Landlord as additional insured is the standard Lease requirement. Annual premium: $2,000-$30,000+.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "IREM",
+      "BOMA"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Chain of Title",
     "full": "",
     "plain": "The full historical sequence of Deed transfers showing how the Title moved from owner to owner.",
@@ -1552,6 +1636,40 @@
     "category": "Development",
     "sources": [
       "NAHB"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Chattel Mortgage",
+    "full": "Chattel Loan",
+    "plain": "A Mortgage secured by Personal Property — most commonly the manufactured home itself — rather than Real Property — common in Mobile Home Park settings.",
+    "snappy": "Mortgage secured by Personal Property (typically the Manufactured Home), not Real Property.",
+    "detail": "Chattel Mortgages dominate Manufactured Home financing where the home sits on rented Land. Federal HMDA reporting separately tracks chattel-only Manufactured Home loans. Interest rates: 200-400 basis points higher than conventional Mortgages on Manufactured Homes financed as Real Property. Loan terms shorter (10-20 years versus 30). FHA Title I and USDA programs offer chattel-loan guarantees in eligible markets. Critics: chattel financing in Mobile Home Parks creates vulnerability.",
+    "indications": [
+      "Residential",
+      "Affordable"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Choice Neighborhoods",
+    "full": "",
+    "plain": "The HUD successor to HOPE VI — funds comprehensive neighbourhood revitalisation around distressed public housing — broader scope than housing-only.",
+    "snappy": "HUD successor to HOPE VI funding comprehensive neighbourhood revitalisation.",
+    "detail": "Choice Neighborhoods (created 2010) coordinates HUD investment with educational, transit, health, and community-service investments. Implementation Grants up to $50M fund neighbourhood transformation; smaller Planning Grants fund pre-grant strategy. Notable projects: Eastside Heritage (Atlanta), Yesler Terrace (Seattle), Iberville (New Orleans). The program emphasises permanent affordability covenants. Funding through annual congressional appropriations.",
+    "indications": [
+      "Affordable",
+      "Public Sector",
+      "Multifamily"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "HUD"
     ]
   },
   {
@@ -2100,6 +2218,24 @@
   },
   {
     "letter": "C",
+    "term": "Construction-to-Permanent Loan",
+    "full": "Construction-Perm, One-Time Close",
+    "plain": "A Mortgage that funds Construction during build then automatically converts to a Permanent Loan at Substantial Completion — single Closing covers both phases.",
+    "snappy": "Mortgage funding construction then converting to Permanent Loan at Substantial Completion.",
+    "detail": "Construction-to-Permanent Loans simplify residential and small-commercial construction financing. Mechanics: borrower signs at Closing on the combined construction-and-permanent loan; funds release in draws against milestones; at Substantial Completion the loan converts automatically to a fixed-rate Permanent Loan without re-Underwriting. Pros: one Closing, locked-in permanent rate. Cons: higher rate than separate Construction Loan + Permanent Loan. Common for Custom Homes and small Commercial owner-occupier construction.",
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Development"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "NAHB"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Constructive Eviction",
     "full": "",
     "plain": "Doctrine letting a Tenant treat a Lease as terminated and vacate without owing Rent when the Landlord's serious failure to maintain the premises makes it effectively uninhabitable.",
@@ -2267,6 +2403,23 @@
   },
   {
     "letter": "C",
+    "term": "Cost Segregation Study",
+    "full": "Cost Seg",
+    "plain": "A formal engineering-based analysis of a commercial property's components — identifying personal-property elements that qualify for 5, 7, or 15-year Depreciation versus 27.5/39-year Real Property.",
+    "snappy": "Engineering study identifying property components qualifying for accelerated Depreciation.",
+    "detail": "Cost Segregation Studies separate Personal Property and land improvements (5, 7, 15-year MACRS) from building shell (27.5 or 39-year). Eligible items: carpet, cabinets, decorative lighting, parking lot striping, landscaping, water features, signage. Typical reclassification: 20-30% of acquisition cost shifts to shorter MACRS lives. Bonus Depreciation amplifies this. Cost: $5,000-$20,000 for the study, paying for itself many times over through accelerated tax deductions.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Counteroffer",
     "full": "",
     "plain": "A seller's modified response to a buyer's offer — usually a different price or terms.",
@@ -2295,6 +2448,24 @@
     "category": "Title & Ownership",
     "sources": [
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "CRA",
+    "full": "Community Reinvestment Act",
+    "plain": "The federal law requiring banks to meet credit needs in all communities they serve — driving lending into low-income and minority neighbourhoods.",
+    "snappy": "Federal law requiring banks to lend in all communities, including low-income neighbourhoods.",
+    "detail": "CRA was enacted 1977 to combat Redlining. Federal banking regulators (OCC, FDIC, Federal Reserve) examine each bank's lending and rate it Outstanding, Satisfactory, Needs to Improve, or Substantial Non-Compliance. Below-Satisfactory ratings block mergers and branch openings. CRA-driven activity: small-business lending, LIHTC investment, community-development lending. Banks contribute hundreds of billions in housing-related capital annually under CRA pressure. The 2023 CRA reform updated assessment framework.",
+    "indications": [
+      "Residential",
+      "Affordable",
+      "Public Sector"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "CFPB",
+      "HUD"
     ]
   },
   {
@@ -2405,6 +2576,23 @@
     "category": "Property Types",
     "sources": [
       "NAHB"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "D&O Insurance",
+    "full": "Directors and Officers Insurance",
+    "plain": "Insurance covering corporate executives — REIT directors, syndication GP officers, Condo board members, HOA board members — against personal liability for board decisions.",
+    "snappy": "Insurance covering executives against personal liability for board decisions.",
+    "detail": "D&O coverage protects corporate decision-makers from personal liability. Real Estate scenarios: HOA boards sued over CAM decisions, Condo boards sued over Special Assessment imposition, REIT directors sued over Sale or acquisition decisions, syndication GP officers sued over fiduciary breach. Limits: $1M-$10M+. Personal-attribution exclusions apply — fraud, criminal acts, intentional misconduct. Side-A coverage protects officers when corporate indemnification is unavailable.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "IREM",
+      "Cornell LII"
     ]
   },
   {
@@ -2907,6 +3095,22 @@
   },
   {
     "letter": "E",
+    "term": "E&O Insurance",
+    "full": "Errors and Omissions Insurance, Professional Liability",
+    "plain": "Insurance covering Real Estate professionals — Agents, brokers, appraisers, property managers — against claims of negligence, errors, or breach of fiduciary duty.",
+    "snappy": "Insurance covering Real Estate professionals against negligence and breach of duty claims.",
+    "detail": "E&O Insurance is mandatory for licensed Real Estate Agents and brokers in nearly every US state. Coverage: claims from clients alleging negligent advice, failure to disclose material facts, misrepresentation of property condition. Typical limits: $500,000-$1M per claim. Premiums: $500-$2,000 annually for Agents. Common claims drivers: undisclosed defects, dual-agency conflicts, contract drafting errors, missed deadlines. The post-Burnett era has expanded litigation exposure.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Earnest Money Deposit",
     "full": "EMD",
     "plain": "Cash you put down with your offer to show the seller you're serious — applied to the purchase if the deal closes.",
@@ -3107,6 +3311,24 @@
   },
   {
     "letter": "E",
+    "term": "Eminent Domain",
+    "full": "Condemnation",
+    "plain": "The government's power to take private property for public use — paying just compensation to the owner — used for highways, schools, transit, parks.",
+    "snappy": "Government power to take private property for public use with just compensation.",
+    "detail": "Eminent Domain flows from the Fifth Amendment's Takings Clause — 'private property [shall not] be taken for public use, without just compensation.' Federal, state, and local governments hold the power, often delegated to public-utility companies. Common uses: highway widening, school site acquisition, transit ROW, flood-control easements. Just Compensation: fair market value as determined by Appraisal. Post-Kelo (2005) state-level reforms restricted private-purpose eminent domain in many states.",
+    "indications": [
+      "Public Sector",
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "Cornell LII",
+      "HUD"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Encroachment",
     "full": "",
     "plain": "When a structure or improvement crosses the property line onto a neighbour's Land — a fence, an overhanging eave, an extending driveway.",
@@ -3153,6 +3375,22 @@
     "category": "Management & Operations",
     "sources": [
       "HUD"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Energy-Efficient Mortgage",
+    "full": "EEM, Energy-Improvement Mortgage",
+    "plain": "A Mortgage that includes funds for energy-efficiency improvements — solar, insulation, HVAC upgrades — on top of the purchase or Refinance amount.",
+    "snappy": "Mortgage including funds for energy-efficiency improvements beyond purchase amount.",
+    "detail": "Energy-Efficient Mortgages come from multiple programs: FHA EEM, VA EEM, Conventional Energy-Improvement. Mechanics: buyer or Refinance borrower can finance up to $4,000-$8,000+ above the standard loan amount for specific energy improvements. Eligible: solar panels, insulation, HVAC efficiency, water heaters. Borrower must commission a HERS rating or RESNET audit. Improvements must show positive net present value through utility savings. EEM volume remains small but growing.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "HUD",
+      "Fannie Mae"
     ]
   },
   {
@@ -3326,6 +3564,22 @@
   },
   {
     "letter": "E",
+    "term": "Executor",
+    "full": "Personal Representative",
+    "plain": "The person named in a will to manage a deceased person's estate — including any Real Estate — through Probate.",
+    "snappy": "Person named in a will to manage the deceased's estate through Probate.",
+    "detail": "The Executor (Personal Representative in some states) is responsible for: filing the will with Probate Court, inventorying assets, notifying creditors, paying debts and taxes, managing property during probate, and distributing remaining assets. For Real Estate: maintaining property, paying Property Tax and insurance, sometimes selling property to pay debts or distribute proceeds. Executors carry personal liability for breach of fiduciary duty. Compensation: statutory fees ranging 2-5% of estate.",
+    "indications": [
+      "Residential",
+      "Cross-sector"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Exit Cap Rate",
     "full": "Reversion Cap Rate",
     "plain": "The Cap Rate assumed at sale at the end of the hold period — drives the projected Sale Price in any underwriting model.",
@@ -3465,6 +3719,23 @@
   },
   {
     "letter": "F",
+    "term": "FHA 203k",
+    "full": "203(k) Loan, Section 203k Rehabilitation Mortgage",
+    "plain": "An FHA-insured Mortgage that combines a home purchase or Refinance with funds for renovation — lets buyers acquire and Rehab properties needing work.",
+    "snappy": "FHA-insured combined purchase-and-Rehab Mortgage for properties needing work.",
+    "detail": "FHA 203k loans bridge a major gap in residential financing. Two flavours: Standard 203k (renovations over $35,000, requires HUD-approved consultant) and Limited 203k (under $35,000, simpler). Eligible work: structural repairs, modernisation, energy improvements, accessibility upgrades, additions. Excluded: luxury items. Maximum LTV up to 96.5% of as-completed value. Major use case: buyer wants distressed property, needs financing to Rehab without separate construction loan.",
+    "indications": [
+      "Residential",
+      "Affordable"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "HUD",
+      "FHA"
+    ]
+  },
+  {
+    "letter": "F",
     "term": "FHA Loan",
     "full": "",
     "plain": "A Mortgage insured by the Federal Housing Administration — easier to qualify for and lower Down Payment than conventional.",
@@ -3477,6 +3748,22 @@
     "sources": [
       "FHA",
       "HUD"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "FHA Streamline Refinance",
+    "full": "Streamline Refi",
+    "plain": "An FHA Refinance option that lets existing FHA borrowers Refinance into a lower rate with minimal Underwriting — no Appraisal, no new Credit Score check.",
+    "snappy": "FHA Refinance option with no Appraisal, no Credit check, no Income verification.",
+    "detail": "FHA Streamline Refinance is the federal equivalent of VA's IRRRL. Eligibility: existing FHA Loan, current on payments, 6+ months of payments made, Refinance produces 'net tangible benefit' (typically 0.5%+ rate reduction). No Appraisal required. No new Credit Score pull. No employment verification. Process completes in 2-4 weeks. Cost: Closing Costs plus the FHA's 1.75% upfront MIP. Borrower-friendly when rates have dropped significantly.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "HUD",
+      "CFPB"
     ]
   },
   {
@@ -3741,6 +4028,22 @@
     "sources": [
       "Appraisal Foundation",
       "Appraisal Institute"
+    ]
+  },
+  {
+    "letter": "G",
+    "term": "Garden Apartment",
+    "full": "Garden Style",
+    "plain": "Low-rise Multifamily — typically 2-3 stories — built around green space with surface parking and walking paths — the suburban Multifamily format dominant in the South and West.",
+    "snappy": "Low-rise 2-3 story Multifamily around green space with surface parking.",
+    "detail": "Garden Apartment is the suburban Multifamily format. Configuration: 2-3 story walk-up buildings, no elevators, surface parking, central landscaped courtyards, often with on-site amenities (pool, fitness, leasing office). Density: 18-30 units per acre. Construction: Stick-Built Type V wood frame keeps cost low. Common in Sun Belt growth markets (Texas, Florida, Arizona, Atlanta, Charlotte). Investment performance: stable Multifamily fundamentals, modest Cap Rates 4.5-6.5% in major markets.",
+    "indications": [
+      "Multifamily"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "NAHB"
     ]
   },
   {
@@ -4128,6 +4431,22 @@
   },
   {
     "letter": "H",
+    "term": "High-Rise Apartment",
+    "full": "High-Rise Multifamily",
+    "plain": "Multifamily of 8+ stories — concrete or steel construction with elevators, lobby, full amenity package — dominant in dense urban markets.",
+    "snappy": "Multifamily of 8+ stories with elevator and full amenities — dense urban.",
+    "detail": "High-Rise Multifamily concentrates in major urban cores: Manhattan, Brooklyn, downtown Chicago, central San Francisco, downtown Miami, downtown Seattle. Density: 100-500+ units per acre. Construction: full concrete or steel frame, much higher cost than Mid-Rise. Lease premiums: 20-50% over comparable Mid-Rise. Amenity packages: trophy lobby, concierge, doorman, pool, sky lounge, valet parking. Cap Rates: 3.5-5% for Class A in tier-1 markets. Slow-recovery sector post-2020 as remote work pulled some demand to suburbs.",
+    "indications": [
+      "Multifamily"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "H",
     "term": "Highest and Best Use",
     "full": "HBU",
     "plain": "The Appraiser's judgment of the most profitable, physically possible, and legally permitted use of a property — sometimes different from how it's used today.",
@@ -4194,6 +4513,23 @@
   },
   {
     "letter": "H",
+    "term": "HOLC",
+    "full": "Home Owners' Loan Corporation",
+    "plain": "The Depression-era federal agency (1933-1951) that refinanced Foreclosure-bound Mortgages — also produced colour-coded maps that institutionalised Redlining.",
+    "snappy": "Depression-era federal agency that refinanced Mortgages — also produced Redlining maps.",
+    "detail": "HOLC's positive role: refinanced ~1 million Mortgages 1933-1936 at long amortising terms, preventing mass Foreclosure. HOLC's negative legacy: produced 'residential security maps' colour-coding US neighbourhoods by perceived lending risk, with predominantly minority areas marked red as 'hazardous'. Banks adopted the maps as Underwriting standards through the 1960s, denying Mortgages in red-lined neighbourhoods. Direct lineage from HOLC maps to modern racial-wealth gap.",
+    "indications": [
+      "Residential",
+      "Affordable"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "HUD",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "H",
     "term": "Hold Period",
     "full": "Investment Horizon",
     "plain": "How long an investor plans to own the property before selling — usually 3-7 years for value-add, 7-10+ for Core deals.",
@@ -4238,6 +4574,38 @@
     "category": "Management & Operations",
     "sources": [
       "CFPB",
+      "HUD"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "HomeStyle Renovation",
+    "full": "",
+    "plain": "Fannie Mae's conventional alternative to FHA 203k — Mortgage combining home purchase or Refinance with Rehabilitation funding, often higher loan amounts.",
+    "snappy": "Fannie Mae conventional Mortgage combining purchase or Refinance with Rehab funding.",
+    "detail": "HomeStyle Renovation is Fannie Mae's competitor to FHA 203k. Pros over 203k: higher loan limits (matching conforming limits), simpler Underwriting, conventional Mortgage Insurance instead of FHA MIP. Eligible work: any improvements raising property value, including luxury items 203k excludes. Loan-to-Value: up to 97% on primary residence. Lender must release renovation funds in monitored draws. Freddie Mac CHOICERenovation is the equivalent product.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Fannie Mae"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "HOPE VI",
+    "full": "",
+    "plain": "The federal program — 1992-2010 — that demolished and rebuilt distressed public-housing projects as Mixed-Income communities — replaced by Choice Neighborhoods in 2010.",
+    "snappy": "Federal program 1992-2010 demolishing distressed public housing for Mixed-Income redevelopment.",
+    "detail": "HOPE VI replaced isolated high-rise housing projects with Mixed-Income, low-rise developments. Notable HOPE VI redevelopments: Cabrini-Green (Chicago), Robert Taylor Homes (Chicago), Lafayette Courts (Baltimore). Approach: demolish, build Mixed-Income housing replacing some units, displace remaining low-income tenants to Section 8 vouchers. Criticised for reducing net affordable units (typical replacement: 50-70% of original count), gentrification, displacement trauma. Choice Neighborhoods succeeded HOPE VI in 2010.",
+    "indications": [
+      "Affordable",
+      "Public Sector",
+      "Multifamily"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
       "HUD"
     ]
   },
@@ -4654,6 +5022,23 @@
     ]
   },
   {
+    "letter": "I",
+    "term": "Irrevocable Trust",
+    "full": "",
+    "plain": "A Trust that cannot be amended or revoked after creation — common in estate-tax planning, asset protection, and Medicaid planning — Real Estate inside is removed from the grantor's estate.",
+    "snappy": "Trust that cannot be amended after creation — used for tax and asset-protection planning.",
+    "detail": "Irrevocable Trusts are powerful estate-tax tools but lose grantor flexibility. Property transferred is removed from the grantor's taxable estate (subject to Gift Tax). Strategic uses: Qualified Personal Residence Trust (QPRT), Charitable Remainder Trust, Spousal Lifetime Access Trust (SLAT), Intentionally Defective Grantor Trust (IDGT), Medicaid Asset Protection Trust (MAPT). Loss of control is real — grantor cannot retake property. Trustees must operate genuinely independently.",
+    "indications": [
+      "Investment",
+      "Residential"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
     "letter": "J",
     "term": "Joint Tenancy",
     "full": "Joint Tenancy with Right of Survivorship",
@@ -4738,6 +5123,23 @@
   },
   {
     "letter": "J",
+    "term": "Just Compensation",
+    "full": "",
+    "plain": "The fair market value the government must pay the property owner when exercising Eminent Domain — defined as what a willing buyer would pay a willing seller.",
+    "snappy": "Fair market value the government pays when taking property by Eminent Domain.",
+    "detail": "Just Compensation under the Fifth Amendment requires fair market value. Methodology: Appraisal using the three standard approaches (Sales Comparison, Income, Cost). Contested elements: severance damages (when partial taking reduces value of remainder), going-concern value for active businesses, relocation costs (sometimes paid separately under Uniform Relocation Assistance Act), good will, sentimental value (not compensable). Property owners can challenge in court; majority of Eminent Domain proceedings settle.",
+    "indications": [
+      "Public Sector",
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "J",
     "term": "JV",
     "full": "Joint Venture",
     "plain": "Common shorthand for a Joint Venture — a partnership between capital and Sponsor for Real Estate deals.",
@@ -4768,6 +5170,23 @@
     "sources": [
       "NAR",
       "USDA Rural Housing"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Land Contract",
+    "full": "Contract for Deed, Installment Land Contract",
+    "plain": "A seller-financing structure where the buyer pays the seller over time — and the seller retains Title until full payment — used when conventional Mortgages aren't available.",
+    "snappy": "Seller-financing structure with seller retaining Title until full payment from buyer.",
+    "detail": "Land Contract differs from a Mortgage. The buyer takes possession and makes monthly payments to the seller; the seller retains legal Title. At full payment, the seller conveys a Deed. During the contract, the buyer is at risk: payment default lets the seller cancel quickly, often with no equity refund. Predatory operators in the 2010s-2020s exploited Land Contracts in distressed urban markets. The CFPB has increased scrutiny; consumer-protection legislation tightened rules in multiple states.",
+    "indications": [
+      "Residential",
+      "Affordable"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "Cornell LII"
     ]
   },
   {
@@ -5131,6 +5550,23 @@
   },
   {
     "letter": "L",
+    "term": "Liquor Liability",
+    "full": "Dram Shop Insurance",
+    "plain": "Insurance covering establishments that serve alcohol — bars, restaurants, hotels — against claims arising from over-serving Patrons who then cause injuries.",
+    "snappy": "Insurance covering alcohol-serving establishments against over-serving claims.",
+    "detail": "Liquor Liability protects against Dram Shop laws — state statutes letting victims of drunk drivers sue establishments that served them. Hotels with bar operations, restaurants with liquor licences, banquet venues, country clubs all carry Liquor Liability. Coverage: bodily injury, property damage, wrongful death from over-served Patrons. Premiums vary sharply by state. $1M-$3M limits standard. Bar and restaurant Tenants post Liquor Liability with Landlord as additional insured.",
+    "indications": [
+      "Hospitality",
+      "Commercial"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "IREM",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Lis Pendens",
     "full": "Notice of Pending Action",
     "plain": "A public-record filing warning anyone reading the Title that a lawsuit is pending against the property — freezes the market for it.",
@@ -5176,6 +5612,23 @@
     "category": "Transactions",
     "sources": [
       "NAR"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Living Trust",
+    "full": "Revocable Trust, Inter Vivos Trust",
+    "plain": "A Trust created during the grantor's lifetime to hold property — including Real Estate — and pass it to beneficiaries without going through Probate.",
+    "snappy": "Trust created during life to hold property and pass it outside Probate.",
+    "detail": "Living Trust is the dominant estate-planning tool for Real Estate. The grantor transfers property into the Trust during life, serving as initial Trustee with full control. At death, the successor Trustee distributes per Trust terms — bypassing Probate entirely. Pros: avoids probate, maintains privacy, eases multi-state Real Estate transfer. Cons: setup cost ($1,500-$5,000), retitling property required, ongoing administration. Living Trusts are revocable — grantor retains amendment power.",
+    "indications": [
+      "Residential",
+      "Cross-sector"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "IRS",
+      "Cornell LII"
     ]
   },
   {
@@ -5355,6 +5808,23 @@
     "category": "Property Types",
     "sources": [
       "Investopedia",
+      "NAHB"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Lot Coverage",
+    "full": "",
+    "plain": "The percentage of a Lot that can be covered by buildings and impervious surfaces — capped by Zoning to ensure open space, drainage, and visual character.",
+    "snappy": "Percentage of a Lot covered by buildings — capped by Zoning for open space.",
+    "detail": "Lot Coverage is one of the dimensional Zoning controls alongside Setback, height, FAR. Typical Single-Family residential: 30-50% lot coverage limits. Townhome and small Multifamily: 50-70%. Urban infill or high-density: 80-90% on small Lots. Commercial: 50-80%. Lot coverage limits include the main building footprint, garages, sheds, decks, pools, paved walks, driveways. Variance applications routinely seek lot-coverage relief for additions.",
+    "indications": [
+      "Development",
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Development",
+    "sources": [
       "NAHB"
     ]
   },
@@ -5630,6 +6100,22 @@
   },
   {
     "letter": "M",
+    "term": "MERS",
+    "full": "Mortgage Electronic Registration Systems",
+    "plain": "A private electronic registry tracking Mortgage ownership and servicing transfers — letting the industry move loans without recording assignments.",
+    "snappy": "Electronic registry tracking Mortgage ownership transfers without county recordings.",
+    "detail": "MERS was created in 1995 by the mortgage industry. Mortgages registered with MERS list MERS as nominal Mortgagee on the Recorded Deed of Trust; actual ownership tracks inside the electronic registry. Pros: no recording fees on transfers, faster GSE pool delivery, simpler servicing transitions. Cons: standing-to-foreclose litigation 2008-2014 challenged MERS authority (mostly resolved in MERS' favour). Roughly 60% of US Mortgages are MERS-registered.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Metes and Bounds",
     "full": "",
     "plain": "An older form of legal property description that walks the property boundary in surveyor's measurements — distances and compass bearings — instead of referencing a Plat.",
@@ -5656,6 +6142,22 @@
       "Investment"
     ],
     "category": "Financing & Lending",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Mid-Rise Apartment",
+    "full": "Mid-Rise Multifamily",
+    "plain": "Multifamily of 4-7 stories — taller than Garden Apartment, shorter than High-Rise — typically wood-frame above podium concrete in growth markets, full concrete in dense urban.",
+    "snappy": "Multifamily of 4-7 stories — taller than Garden Apartment, shorter than High-Rise.",
+    "detail": "Mid-Rise Multifamily dominates urban infill Development since 2010. Density: 40-90 units per acre. Construction: 'Five-over-One' wood-frame above podium concrete where building codes permit, full concrete or steel for 6-7 stories. Lease premiums 10-25% over Garden Apartment in same market. Amenity packages: elevators, fitness, sky decks, co-working, package rooms. Mid-Rise developers chase density-bonus opportunities in TOD overlays and Inclusionary Zoning. Major operators: Greystar, Bozzuto, Mill Creek Residential.",
+    "indications": [
+      "Multifamily"
+    ],
+    "category": "Property Types",
     "sources": [
       "NCREIF",
       "ULI"
@@ -5845,6 +6347,38 @@
     "sources": [
       "CFPB",
       "FHA"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Mortgage Insurance Cancellation",
+    "full": "PMI Removal",
+    "plain": "The process of removing PMI from a Mortgage once the borrower's Equity reaches 20% — automatic at 22% LTV under the Homeowners Protection Act.",
+    "snappy": "Removing PMI once Equity reaches 20% — automatic at 22% LTV under HPA.",
+    "detail": "PMI Removal mechanics depend on Loan type. Conventional Loans under Homeowners Protection Act (1998): borrower can request PMI cancellation at 80% LTV based on original purchase price; Lender must automatically cancel at 78% LTV. Subject to: current on payments, no junior Lien. Borrower-requested cancellation often requires current Appraisal. FHA Loans: MIP continues for the life of the Loan if Down Payment was below 10%; MIP cancels after 11 years if Down Payment was 10%+. VA Loans: no PMI at all.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB",
+      "Fannie Mae"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Mortgage Interest Deduction",
+    "full": "MID",
+    "plain": "The federal income-tax deduction for Mortgage Interest paid on a primary or secondary residence — capped under TCJA at $750,000 of acquisition debt.",
+    "snappy": "Federal income-tax deduction for Mortgage Interest, capped at $750K under TCJA.",
+    "detail": "Mortgage Interest Deduction is the largest US tax break for homeowners. TCJA changes: cap reduced from $1M (pre-2018) to $750,000 of acquisition debt for new loans from 2018 onward; grandfathered loans retain $1M cap. HELOC interest only deductible if used for 'substantial improvements' to the home. Itemisation required — the doubled standard deduction post-TCJA makes itemising less common; only ~10-15% of taxpayers benefit. Scheduled to sunset 2026 absent congressional action.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
     ]
   },
   {
@@ -6044,6 +6578,22 @@
     "sources": [
       "NCREIF",
       "Nareit"
+    ]
+  },
+  {
+    "letter": "N",
+    "term": "Net Operating Loss",
+    "full": "NOL",
+    "plain": "A tax loss that exceeds taxable income for the year — can be carried forward to offset future taxable income up to annual statutory limits.",
+    "snappy": "Tax loss exceeding current-year taxable income, carried forward to offset future income.",
+    "detail": "NOL carryforwards are a strategic tax tool for Real Estate investors. Post-2017 TCJA: NOL carryback eliminated for most taxpayers; carryforward unlimited but limited to 80% of taxable income in each future year. CARES Act briefly permitted 100% NOL deduction for tax years 2018-2020. Real Estate Professional status with Material Participation generates NOLs that offset ordinary income immediately, not as carryforward. State NOL rules vary widely.",
+    "indications": [
+      "Investment"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
     ]
   },
   {
@@ -6455,6 +7005,23 @@
   },
   {
     "letter": "P",
+    "term": "PACE Financing",
+    "full": "Property Assessed Clean Energy",
+    "plain": "A financing structure where energy or resilience improvements to a property are funded through the Property Tax bill — first-Lien priority, often available regardless of credit.",
+    "snappy": "Property-Tax-bill financing for energy or resilience improvements, with first-Lien priority.",
+    "detail": "PACE Financing emerged in 2008. Mechanics: state or local PACE authority issues bonds, lends to property owners for qualified improvements (solar, insulation, HVAC, hurricane retrofits), and recovers through a special-assessment line on the Property Tax bill repaid over 10-30 years. First-Lien priority. Residential PACE banned in many states post-2018 after subprime-style abuses; Commercial PACE (C-PACE) continues to grow. Major markets: California, Florida, Texas, Connecticut, New York.",
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Development"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "HUD"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Pad Lease",
     "full": "Outparcel Lease",
     "plain": "A long-term Ground Lease of a small Outparcel — typically a fast-food, drive-through, or bank — at a Retail centre's parking-lot edge.",
@@ -6687,6 +7254,22 @@
   },
   {
     "letter": "P",
+    "term": "Power of Attorney",
+    "full": "POA",
+    "plain": "A signed document letting one person make decisions for another — including Real Estate transactions — when the principal can't or doesn't want to act personally.",
+    "snappy": "Document letting one person make legal decisions including Real Estate for another.",
+    "detail": "Real Estate POA in three flavours. General POA: broad authority over financial and Real Estate decisions, terminates at principal's incapacity. Durable POA: continues through incapacity, required for Mortgage signings when the principal can't attend. Specific POA: limited to a single Closing. Notary acknowledgment is mandatory; many states require recording the POA before it can be used. Title Insurance scrutinises POAs closely — fraudulent POAs are a recurring source of Title fraud.",
+    "indications": [
+      "Residential",
+      "Cross-sector"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Pre-approval",
     "full": "",
     "plain": "A Lender's written commitment, after running your finances, to lend you up to a specific amount.",
@@ -6831,6 +7414,23 @@
     "category": "Title & Ownership",
     "sources": [
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Probate Court",
+    "full": "",
+    "plain": "The court that supervises the legal process of transferring a deceased person's property — including Real Estate — to their heirs.",
+    "snappy": "Court supervising the transfer of a deceased person's property to heirs.",
+    "detail": "Probate Court handles will validation, executor appointment, debt settlement, and asset distribution after death. For Real Estate, probate determines who inherits the property and when Title can transfer. Probate timelines: 6-18 months typical, 2-5+ years in contested estates. Living Trust ownership avoids probate. Joint Tenancy and Tenancy by the Entirety also skip probate via right of survivorship. Probate fees: 2-7% of estate value depending on state.",
+    "indications": [
+      "Residential",
+      "Cross-sector"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII",
+      "IRS"
     ]
   },
   {
@@ -7652,6 +8252,22 @@
   },
   {
     "letter": "R",
+    "term": "Restricted Appraisal Report",
+    "full": "Restricted Use Appraisal",
+    "plain": "The simplest of USPAP Appraisal report formats — minimal narrative, intended for the client only, not for third-party use.",
+    "snappy": "USPAP's simplest Appraisal report — minimal narrative, client-only use.",
+    "detail": "USPAP defines three appraisal report types. Restricted Appraisal Report: minimal narrative, intended only for the named client, no third-party reliance. The Appraiser still develops a full opinion of value internally but reports it in compact form. Lower fee than Summary or Self-Contained reports. Used for: internal portfolio decisions, mortgage qualification screening, property tax appeal support. Not acceptable for most Lender requirements (need Summary or fuller).",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Valuation & Appraisal",
+    "sources": [
+      "Appraisal Foundation"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "Retail",
     "full": "Retail Property",
     "plain": "A commercial building leased to stores, restaurants, and services — strip centres, big boxes, malls, urban street retail.",
@@ -7819,11 +8435,44 @@
   },
   {
     "letter": "S",
+    "term": "Salesperson License",
+    "full": "Real Estate Sales License",
+    "plain": "The entry-level Real Estate licence — required in every US state — letting the holder represent buyers and sellers under supervision of a licensed Broker.",
+    "snappy": "Entry-level Real Estate licence allowing representation under Broker supervision.",
+    "detail": "Salesperson Licence requirements vary by state. Typical: 60-180 hours of pre-licensing coursework, state-administered exam, background check, sponsoring Broker affiliation. Continuing education: 8-30 hours every 1-2 years. Salespersons cannot operate independently — must work under a sponsoring Broker who carries E&O Insurance and holds escrow funds. Distinct from Broker Licence (which has higher requirements). Commercial Agents typically hold salesperson licences in early career.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "NAR"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "SALT",
     "full": "State and Local Tax",
     "plain": "The combined state and local taxes a homeowner pays — capped at $10,000 of federal deduction since the 2017 TCJA.",
     "snappy": "Combined state and local tax burden — federal deduction capped at $10,000 since TCJA.",
     "detail": "Before 2018, homeowners could deduct unlimited Property Tax plus state income tax against federal income. The TCJA capped the SALT deduction at $10,000 — a major hit to high-Property-Tax states (New York, New Jersey, California, Illinois, Massachusetts). High-income owners in those states lost five-to-six-figure deductions. Multiple states designed workaround entity-level pass-through taxes for business income (PTET), but residential homeowners have no equivalent escape. SALT-cap repeal has been a recurring political flashpoint; through 2024 the cap survived intact.",
+    "indications": [
+      "Residential",
+      "Investment"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "SALT Cap",
+    "full": "State and Local Tax Cap",
+    "plain": "The $10,000 limit on the federal deduction for state and local taxes — including Property Tax — imposed by the 2017 TCJA.",
+    "snappy": "$10,000 federal deduction cap on state and local taxes including Property Tax.",
+    "detail": "SALT Cap is the most punishing TCJA provision for high-Property-Tax-state residents. Federal income tax allows itemised deductions for state income tax plus Property Tax, capped at $10,000 combined since 2018. High-cost states (New York, New Jersey, California, Illinois, Massachusetts, Connecticut) face the brunt. Workarounds: pass-through entity tax (PTET, permitted for business income). Repeal attempts consistently fail. Scheduled to sunset 2026 absent congressional action.",
     "indications": [
       "Residential",
       "Investment"
@@ -7885,6 +8534,23 @@
   },
   {
     "letter": "S",
+    "term": "Section 202",
+    "full": "Senior Housing Section 202",
+    "plain": "The HUD program funding capital and rental subsidy for very-low-income elderly housing — distinct from market-rate Senior Housing.",
+    "snappy": "HUD program for very-low-income elderly housing — capital plus rental subsidy.",
+    "detail": "HUD Section 202 funds Affordable Housing specifically for very-low-income seniors aged 62+. Two components: capital advance (zero-interest forgivable loan covering construction/Rehab) plus Project Rental Assistance Contract (PRAC, monthly rental subsidy covering operating costs and Tenant Rent below 30% of income). Sponsor must be a nonprofit. Roughly 400,000 units nationwide. Limited new construction since 2011 — annual appropriations support primarily existing-property Renovation. Section 811 (disabled-housing equivalent) operates similarly.",
+    "indications": [
+      "Affordable",
+      "Multifamily",
+      "Public Sector"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "HUD"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Section 8",
     "full": "Housing Choice Voucher Program",
     "plain": "The federal rent-subsidy program that helps low-income Tenants pay private-market Rent — vouchers cover the gap between income and Rent.",
@@ -7903,6 +8569,23 @@
   },
   {
     "letter": "S",
+    "term": "Section 8 Voucher",
+    "full": "Housing Choice Voucher",
+    "plain": "The portable rental-assistance voucher held by Section 8 Tenants — letting them rent in the private market at any property where the Landlord accepts the voucher.",
+    "snappy": "Portable Section 8 voucher letting Tenants rent in the private market.",
+    "detail": "Section 8 Housing Choice Voucher is the dominant federal rental-assistance program — roughly 2.3M households nationwide. Eligible Tenant pays 30% of adjusted income; HUD pays the rest up to the Fair Market Rent for the area. Tenant chooses the unit; Landlord must consent to accept the voucher (voluntary in most states, increasingly required by anti-discrimination ordinances). Tenant turnover in Section-8 units markedly lower than market — a feature that draws some private Landlords.",
+    "indications": [
+      "Affordable",
+      "Residential",
+      "Public Sector"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "HUD"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Security Deposit",
     "full": "",
     "plain": "Money the Tenant pays upfront, held by the Landlord to cover damage or unpaid Rent at the end of the Lease.",
@@ -7916,6 +8599,22 @@
     "sources": [
       "Cornell LII",
       "HUD"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Self-Contained Appraisal Report",
+    "full": "Comprehensive Appraisal Report",
+    "plain": "The most comprehensive USPAP Appraisal report format — full narrative, all supporting data and analysis included — used for high-stakes valuations.",
+    "snappy": "USPAP's most comprehensive Appraisal report — full narrative with supporting data.",
+    "detail": "Self-Contained reports lay out the full Appraisal analysis: subject description, market area analysis, all three valuation approaches (Sales Comparison, Income, Cost), reconciliation, supporting Comps with adjustments, exhibits. Length: 100-300+ pages. Required for large commercial transactions, Estate Tax valuations on substantial estates, Eminent Domain proceedings, mortgage transactions over $1M-$5M, divorce or litigation. Higher fee ($5,000-$30,000+) than Restricted or Summary.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Valuation & Appraisal",
+    "sources": [
+      "Appraisal Foundation"
     ]
   },
   {
@@ -8356,6 +9055,23 @@
   },
   {
     "letter": "S",
+    "term": "Step-Down in Basis",
+    "full": "",
+    "plain": "The opposite of Step-up in Basis — heirs receive property worth less than the deceased's Cost Basis — basis steps down to fair-market value, locking in the loss.",
+    "snappy": "Opposite of Step-up — basis lowered to fair-market value, locking in a loss.",
+    "detail": "Step-Down in Basis matters in deflated-market estates. If the deceased purchased at $400,000 and the property is worth $300,000 at death, the heir takes a $300,000 basis — losing the $100,000 unrealised loss that would have been deductible if the deceased had sold before death. Strategic planning: in declining markets, accelerating Sales before death to realise losses can outperform step-down. Estate planners run Sale-versus-Hold sensitivity analyses on appreciated and depreciated assets near end of life.",
+    "indications": [
+      "Investment",
+      "Residential"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Step-up in Basis",
     "full": "Stepped-up Basis",
     "plain": "A tax rule that resets a property's cost basis to its market value at the owner's death — heirs sell with little or no Capital Gain.",
@@ -8583,6 +9299,24 @@
     "category": "Tax",
     "sources": [
       "Cornell LII",
+      "IRS"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Tax-Exempt Bond Financing",
+    "full": "TEBI, Bond Financing",
+    "plain": "Affordable Housing financing using federal tax-exempt municipal bonds — paired with 4% LIHTC credits to fund construction of below-market-rent housing.",
+    "snappy": "Affordable Housing financing using federal tax-exempt bonds plus 4% LIHTC credits.",
+    "detail": "Tax-Exempt Bond Financing pairs with the 4% LIHTC program for Affordable Housing Development. State housing finance agency issues tax-exempt private-activity bonds; investors accept lower yields (federal income-tax-exempt); developer uses proceeds for construction or rehabilitation; LIHTC investors purchase 4% credits to provide additional equity. State-level bond cap is set by federal allocation; demand routinely exceeds supply. This approach has surged post-2010.",
+    "indications": [
+      "Affordable",
+      "Multifamily",
+      "Development"
+    ],
+    "category": "Tax",
+    "sources": [
+      "HUD",
       "IRS"
     ]
   },
@@ -8933,6 +9667,22 @@
   },
   {
     "letter": "T",
+    "term": "Townhome",
+    "full": "Townhouse",
+    "plain": "A residential building style with multi-story attached units — owners typically hold fee-simple Title to both their unit and the Land underneath — distinct from Condo.",
+    "snappy": "Multi-story attached residential unit — owners typically hold fee-simple Title.",
+    "detail": "Townhomes occupy a residential niche between Single-Family and Condo. Typical configuration: 2-3 story attached unit with private entry, small front and back yards, often a private garage. Owner holds fee-simple Title to the unit and its underlying Land (distinct from Condo, where owner holds airspace + undivided interest in Common Areas). HOA governs Common Area maintenance and exterior maintenance. Mortgages classify as Single-Family for Lender purposes.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NAR",
+      "NAHB"
+    ]
+  },
+  {
+    "letter": "T",
     "term": "Tract Home",
     "full": "Production Home",
     "plain": "A house built in a large subdivision of similar homes — limited floor-plan options, fixed finishes, faster delivery, lower price than custom.",
@@ -8996,6 +9746,22 @@
     "sources": [
       "NCREIF",
       "ULI"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Tri-Plex",
+    "full": "Triplex",
+    "plain": "A residential building with three separate units — typically two-three story with each unit on its own floor — financed as Multifamily under FHA/conventional rules.",
+    "snappy": "Residential building with three separate units — financed as small Multifamily.",
+    "detail": "Tri-Plex and Four-Plex (Quad-Plex) are the standard small-Multifamily formats. Both qualify for 1-4 unit conventional and FHA Loans (with owner-occupancy of one unit) — letting small investors enter Multifamily ownership at conventional Mortgage terms. Many tri-plexes were 1900-1940 city-row-house construction now converted; newer tri-plexes appear in suburban infill and ADU-permitted markets. Operating economics: low management intensity, scale economies versus Single-Family Rental, limited diversification.",
+    "indications": [
+      "Multifamily",
+      "Residential"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NAHB"
     ]
   },
   {
@@ -9199,6 +9965,23 @@
   },
   {
     "letter": "U",
+    "term": "USDA Section 502",
+    "full": "USDA Direct Loan, Single Family Direct Loan",
+    "plain": "The USDA's direct Mortgage program — government Lends directly to very-low and low-income rural homebuyers — distinct from the USDA Guaranteed Loan.",
+    "snappy": "USDA direct Mortgage program for very-low to low-income rural homebuyers.",
+    "detail": "USDA Section 502 Direct Loans serve borrowers below 80% of Area Median Income, often below 50%. The USDA originates and services directly, bypassing commercial Lenders. Interest rates: market-based but with Payment Assistance subsidies bringing effective rates to as low as 1%. Loan terms: 33-38 years. Maximum LTV 100% (no Down Payment required). Eligible areas: USDA-designated rural areas. Limited program volume: roughly 10,000 direct Loans annually.",
+    "indications": [
+      "Residential",
+      "Affordable",
+      "Public Sector"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "USDA Rural Housing"
+    ]
+  },
+  {
+    "letter": "U",
     "term": "Use Clause",
     "full": "Permitted Use Clause",
     "plain": "The Lease provision defining what business the Tenant can run on the premises — narrow uses protect Co-Tenants from indirect competition; broad uses give Tenants flexibility to pivot.",
@@ -9243,6 +10026,37 @@
     "category": "Law & Regulation",
     "sources": [
       "VA"
+    ]
+  },
+  {
+    "letter": "V",
+    "term": "VA Funding Fee",
+    "full": "",
+    "plain": "A one-time fee charged on VA Loans — funded into the loan — replacing the PMI that conventional Loans require for low-Down-Payment borrowers.",
+    "snappy": "One-time fee on VA Loans replacing the PMI conventional Loans require.",
+    "detail": "VA Funding Fee compensates the VA for the guarantee that lets veterans skip Down Payment and PMI. Rates: 1.4-3.6% of loan amount, varying by Down Payment, first-or-subsequent VA Loan use, and Active Duty versus Reservist status. Waived for: disabled veterans, surviving spouses of veterans killed in action. Typically financed into the Loan. Generates the funding base for the VA Loan program's continuing operations.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "VA"
+    ]
+  },
+  {
+    "letter": "V",
+    "term": "VA IRRRL",
+    "full": "Interest Rate Reduction Refinance Loan",
+    "plain": "The VA's streamline Refinance program — existing VA Loan holders can Refinance into lower rates with minimal Underwriting — no Appraisal, no Credit check.",
+    "snappy": "VA streamline Refinance with no Appraisal, no Credit check, no Income verification.",
+    "detail": "VA IRRRL mirrors FHA Streamline. Eligibility: existing VA Loan, current on payments, 'net tangible benefit' (typically 0.5%+ rate reduction). No Appraisal, no Credit check, no Income verification. Process completes in 2-4 weeks. Cost: VA Funding Fee (waived in some cases) and Closing Costs. The VA's loan-loss experience on IRRRLs is markedly better than other VA refinances — borrowers stay current.",
+    "indications": [
+      "Residential"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "VA",
+      "CFPB"
     ]
   },
   {
@@ -9413,6 +10227,22 @@
     "sources": [
       "CFPB",
       "MBA"
+    ]
+  },
+  {
+    "letter": "W",
+    "term": "Workers Compensation",
+    "full": "WC, Workers Comp",
+    "plain": "State-mandated insurance covering employees who are injured on the job — Real Estate property operators carry it for on-site staff, maintenance workers, and management employees.",
+    "snappy": "State-mandated insurance covering on-the-job employee injuries.",
+    "detail": "Workers Compensation is mandatory in nearly every US state for employers above small-employer thresholds. Coverage: medical care, lost wages, rehabilitation, death benefits for employees injured in the course of employment. Real Estate operators carry WC for: on-site Multifamily staff, Hotel staff, Office building employees, construction GCs. Premium varies by classification (clerical work cheap, construction expensive). Independent-contractor classification disputes recurring.",
+    "indications": [
+      "Commercial",
+      "Multifamily"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "IREM"
     ]
   },
   {
