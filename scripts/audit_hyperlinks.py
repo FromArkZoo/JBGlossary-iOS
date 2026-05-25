@@ -159,6 +159,31 @@ DANGLING_DENYLIST = {
     "Boston", "Dallas",
     "Penn National", "GLPI", "Darden", "Olive Garden", "Four Corners",
     "Ryman Hospitality",
+    # More chain names / brand examples used in concrete examples.
+    "AutoZone", "Bed Bath", "JCPenney", "Macy", "McDonald", "Macy's",
+    "Starbucks", "Chick-fil-A", "AMC", "Regal", "Top Golf",
+    "Sears", "Kmart", "Toys R Us",
+    "Brookdale", "Atria", "Sunrise", "Belmont Village", "Holiday Retirement",
+    "Acts Retirement", "Erickson Living", "Life Care Services", "ABHM",
+    "Sun City", "Robson Communities", "Trilogy", "K. Hovnanian",
+    "Provident Royalties", "LandAmerica",
+    "Travelers", "Liberty Mutual", "Zurich", "CNA",
+    "STR", "STORE", "STORE Capital", "Agree Realty",
+    "Coldwell Banker", "RE/MAX", "Keller Williams",
+    "Auction.com",
+    # Compound phrases that are sub-references to entries already covered.
+    "Sponsor Promote", "Commercial Mortgage",
+    # State names not yet in denylist.
+    "Connecticut", "Pennsylvania", "Indiana", "Iowa",
+    "Wisconsin", "Michigan", "Kansas",
+    # Insurance / construction codes used in passing.
+    "HO", "ALTA 9", "ALTA 17",
+    # Generic English nouns picked up by PHRASE_RE.
+    "English", "Board", "Title", "Mechanic",
+    # Architectural elements.
+    "Build-Out",
+    # Generic single-word product terms.
+    "Mall",
     # Specific named neighbourhoods / master-planned communities cited in examples.
     "The Villages", "Summerlin", "Mountain House", "Florida",
     # PSF (per square foot) is industry-wide unit notation, not a glossary

@@ -87,6 +87,41 @@
   },
   {
     "letter": "A",
+    "term": "Acquisition Fee",
+    "full": "",
+    "plain": "A fee a Sponsor charges to LPs for sourcing and closing a Real Estate investment — typically 1-2% of Sale Price, paid at Closing.",
+    "snappy": "Sponsor fee charged to LPs for sourcing and closing a deal — 1-2% of Sale Price.",
+    "detail": "Acquisition Fee compensates the Sponsor for the work of finding, underwriting, negotiating, and closing the deal. Typical: 1.0-2.0% of Sale Price, paid at acquisition Closing. Some Sponsors disclose acquisition fees prominently in offering memos; aggressive Sponsors hide acquisition fees inside Closing Costs or use related-party brokers to capture additional fees. Institutional LP Capital Partners scrutinise acquisition fees closely; some block them entirely. Programmatic JV structures may eliminate acquisition fees in favour of asset-management fees over the Hold Period. Acquisition fees crystalise immediately and aren't subject to investor return hurdles — major source of Sponsor cash flow on closed deals.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "ULI",
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Active Adult Community",
+    "full": "55+ Community",
+    "plain": "A residential community restricted to residents 55+ — typically independent living without nursing or medical services — Single-Family or Townhome focused.",
+    "snappy": "Residential community for 55+ residents with no medical or nursing services.",
+    "detail": "Active Adult Communities are the lowest-acuity Senior Housing subtype. Federally protected age-restriction (under HOPA — Housing for Older Persons Act, 1995) requires 80%+ of units occupied by at least one person 55+. Amenities focus on healthy active lifestyles: golf, fitness, pickleball, swimming, social programming. No medical care, no meals, no transportation services — residents live independently in their own units. The Villages (Florida, 130,000+ residents), Sun City (Arizona, original 1960), Robson Communities, Trilogy, K. Hovnanian Four Seasons are major operators. Generally Single-Family or Townhome, occasionally Multifamily.",
+    "indications": [
+      "Multifamily",
+      "Residential",
+      "Specialty"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NAHB",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "ADA",
     "full": "Americans with Disabilities Act",
     "plain": "The 1990 federal law requiring public accommodations and most commercial properties to be accessible to people with disabilities.",
@@ -326,6 +361,22 @@
   },
   {
     "letter": "A",
+    "term": "Anchor",
+    "full": "Centre Anchor",
+    "plain": "The largest Tenant in a Retail centre — typically a grocery, department store, or big-box chain — whose foot traffic draws shoppers to smaller Co-Tenants.",
+    "snappy": "Largest Retail-centre Tenant whose foot traffic drives smaller Tenant shopping.",
+    "detail": "Anchor Tenants drive Retail-centre value through traffic generation. Grocery anchors (Kroger, Whole Foods, Trader Joe's, Aldi, Publix) provide consistent weekly visits. Department store anchors (Macy's, Nordstrom, Dillard's, JCPenney) historically anchored enclosed Mall but have decayed sharply. Big-Box anchors (Walmart, Target, Costco) drive destination trips. Cinema and entertainment anchors (AMC, Regal, Top Golf) anchor Lifestyle Centers and Mixed-Use. Lease economics reflect traffic value: anchors pay $5-$15 PSF compared to inline at $30-$80 PSF. Loss of an anchor triggers cascading Co-Tenancy Clause issues for inline Tenants.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Anchor Tenant",
     "full": "Anchor",
     "plain": "The largest, most-trafficked Tenant in a Retail centre — typically a grocery store, department store, or major chain — draws shoppers who patronise smaller co-tenants.",
@@ -523,6 +574,38 @@
   },
   {
     "letter": "A",
+    "term": "Asset Management Fee",
+    "full": "Asset Mgmt Fee",
+    "plain": "An ongoing fee a Sponsor charges to LPs for managing a Real Estate investment over the Hold Period — typically 1-2% of equity per year, paid monthly or quarterly.",
+    "snappy": "Sponsor ongoing fee for managing a Real Estate investment — 1-2% of equity per year.",
+    "detail": "Asset Management Fees pay the Sponsor's team for monitoring property performance, managing the Property Manager, reporting to LPs, executing business plans, and handling refinances or dispositions. Range: 0.75-1.5% of equity for institutional structures, up to 2.0% for syndication Sponsors. Often deducted before Preferred Return calculation. Some structures use 1.0-1.5% of equity but also charge construction-management fees (3-5% of Capital Expenditure budget) on major renovation projects. Asset Management Fees compound over time — a 1.5% fee on $10M equity over 7 years generates $1.05M+ in Sponsor cash flow before any Promote payment.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "ULI"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Assisted Living",
+    "full": "ALF, Assisted Living Facility",
+    "plain": "Senior Housing for residents who need help with daily activities — bathing, dressing, medication — but not full nursing care — staffed 24/7 with care aides.",
+    "snappy": "Senior Housing with assistance for daily living activities but no nursing care.",
+    "detail": "Assisted Living sits between Independent Living and Skilled Nursing. Typical ALF: 50-150 apartment-style units, 24/7 care aide staffing (typically one aide per 6-12 residents), medication management, three daily meals, weekly housekeeping, organised activities, transportation. Monthly fees: $4,500-$8,000+ depending on market and care level. Memory Care wings (specialised for dementia) sometimes co-located. State-regulated under assisted-living-specific licensing (distinct from Skilled Nursing's CMS/Medicare regulation). Major operators: Brookdale (largest), Atria, Sunrise, Belmont Village, Holiday Retirement.",
+    "indications": [
+      "Multifamily",
+      "Specialty"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Assumable Mortgage",
     "full": "",
     "plain": "A Mortgage the buyer can take over from the seller at the seller's existing interest rate — valuable when rates have risen since.",
@@ -671,6 +754,22 @@
   },
   {
     "letter": "B",
+    "term": "Big-Box",
+    "full": "Big-Box Retail",
+    "plain": "A large standalone Retail building — typically 20,000-200,000 SF — designed for a single major Tenant: Walmart, Target, Costco, Home Depot, Lowe's, IKEA, etc.",
+    "snappy": "Large standalone Retail building for a single major Tenant: Walmart, Costco, Home Depot.",
+    "detail": "Big-Box Retail is the defining suburban Retail format of the 1990s-2010s. Standalone configurations: 80,000-200,000 SF buildings with 600-1,500 parking spaces, designed for destination shopping. Tenant categories: discount general merchandise (Walmart, Target, Costco), home improvement (Home Depot, Lowe's), specialty (Best Buy historically, Petsmart, Office Depot, Bed Bath & Beyond pre-bankruptcy). Anchor box closures (Bed Bath, Toys R Us, Kmart, Sears) generate disposition opportunities at fire-sale prices. Mixed-Use redevelopment of dead big boxes drives placemaking in stranded suburbs.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "Blockbusting",
     "full": "",
     "plain": "The illegal practice of frightening homeowners into selling cheap by claiming minorities are moving in, then reselling at higher prices to incoming buyers — a Fair Housing Act violation.",
@@ -803,6 +902,23 @@
   },
   {
     "letter": "B",
+    "term": "BTS",
+    "full": "Build-to-Suit",
+    "plain": "Common shorthand for Build-to-Suit — Commercial Real Estate Development for a specific Tenant under a pre-signed long-term Lease.",
+    "snappy": "Standard shorthand for Build-to-Suit Development in CRE.",
+    "detail": "BTS is universal CRE shorthand for Build-to-Suit. Developers, brokers, and corporate Tenants use 'BTS deal' in daily conversation for Tenant-specific construction projects. See Build-to-Suit for the substantive structure, BTS Lease economics, and how BTS differs from speculative Development.",
+    "indications": [
+      "Commercial",
+      "Industrial",
+      "Development"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "Build-to-Rent",
     "full": "BTR",
     "plain": "A development strategy of building Single-Family or townhome subdivisions specifically as Rental property — not for sale to homeowners — managed institutionally like Multifamily.",
@@ -835,6 +951,41 @@
     "sources": [
       "NCREIF",
       "ULI"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Build-to-Suit Lease",
+    "full": "BTS Lease",
+    "plain": "A Lease where the Landlord constructs a building specifically for the Tenant's needs — Tenant signs the Lease before construction begins, Landlord builds, Tenant occupies.",
+    "snappy": "Lease where Landlord constructs the building to Tenant specs before Tenant occupies.",
+    "detail": "Build-to-Suit Lease drives Build-to-Suit Development. The Tenant signs a binding Lease commitment — typically 10-20+ years, NNN, with credit Tenant guarantee — before the Landlord breaks ground. The Landlord uses the Lease to obtain construction financing, builds the property to the Tenant's design specifications, and delivers the completed building. Tenant takes occupancy and Rent commences at Substantial Completion. Variations: Reverse Build-to-Suit (Tenant builds and owns improvements on Landlord's Ground Lease), Sale-Leaseback BTS (Tenant builds and sells to investor with simultaneous lease-back), Tenant-funded BTS (Tenant funds construction with Landlord paying back through reduced Rent).",
+    "indications": [
+      "Commercial",
+      "Industrial",
+      "Development"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Builder's Risk Insurance",
+    "full": "BR Insurance, Course of Construction",
+    "plain": "Insurance covering a building under construction — fire, theft, vandalism, weather, materials damage — while in progress, before standard property insurance applies.",
+    "snappy": "Insurance covering a building under construction until completion and standard insurance applies.",
+    "detail": "Builder's Risk Insurance covers the construction phase, when standard Homeowners Insurance or commercial property policies don't yet apply. Coverage: damage to the structure under construction, materials on-site or in transit to the site, soft costs (lost Rent, debt service, fees) during covered loss-driven delays. Typical exclusions: design defects, workmanship errors, earthquake, flood. Policy term: project-specific, ending at Substantial Completion or Tenant occupancy. Premium: 0.2-0.5% of construction value, depending on project type and location. Required by virtually every construction Lender; the owner or GC pays depending on contract structure.",
+    "indications": [
+      "Development",
+      "Commercial"
+    ],
+    "category": "Development",
+    "sources": [
+      "NAHB",
+      "CFPB"
     ]
   },
   {
@@ -1054,6 +1205,23 @@
   },
   {
     "letter": "C",
+    "term": "Cap-and-Collar",
+    "full": "Interest Rate Cap, Rate Collar",
+    "plain": "A derivative product capping the floating Interest rate on a Mortgage above a strike — often combined with a floor that limits how low the rate can go — used by Sponsors to hedge floating-rate debt.",
+    "snappy": "Interest-rate derivative capping floating rate at a strike, often with a floor.",
+    "detail": "Interest Rate Caps and Collars hedge Commercial Real Estate floating-rate exposure. The borrower buys a cap from a counterparty (bank, dealer); cap pays the borrower if floating rate (SOFR, LIBOR historically) exceeds the strike. Premium: 1-3% of notional for typical 3-5 year caps, paid upfront. A collar adds a floor — borrower forgoes the benefit of rates dropping below the floor strike but reduces or eliminates cap premium. Lenders often require borrowers to maintain caps as a covenant on floating-rate Loans. The 2022-2023 rate spike turned previously-modest cap purchases into massive lifesavers for Sponsors with floating-rate exposure.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF",
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Cap-Ex",
     "full": "Capital Expenditures, CapEx",
     "plain": "Big spending on a property that improves or replaces a long-lived asset — roof, HVAC, parking lot — rather than routine repair.",
@@ -1103,6 +1271,22 @@
     "category": "Tax",
     "sources": [
       "IRS"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Capital Lease",
+    "full": "Finance Lease",
+    "plain": "A Lease classified as transferring ownership-like risks and rewards to the Tenant — the Tenant accounts as if buying the property over the Lease term.",
+    "snappy": "Lease accounting category where the Tenant accounts as if buying the property over the term.",
+    "detail": "Capital Lease (US GAAP) or Finance Lease (IFRS) treats long-Lease-term arrangements as substantially equivalent to ownership. Tests: ownership transfers at end of term, bargain purchase option, term covers majority of asset life, or present value of Lease payments equals substantially all of asset value. Effect: Tenant records the asset and corresponding liability on balance sheet, depreciates the asset, and recognises Interest expense on the liability — not Rent expense. Common in equipment leasing; rare in Commercial Real Estate (Lease terms rarely cover 75%+ of building life). Pre-2019 GAAP and Pre-IFRS-16, operating Lease was off-balance-sheet — the major reform was forcing operating Lease on-balance-sheet too.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "Cornell LII",
+      "Investopedia"
     ]
   },
   {
@@ -1222,6 +1406,23 @@
   },
   {
     "letter": "C",
+    "term": "CCRC",
+    "full": "Continuing Care Retirement Community",
+    "plain": "A Senior Housing community offering all care levels on one campus — Independent Living, Assisted Living, Memory Care, Skilled Nursing — residents pay an entry fee plus monthly charges.",
+    "snappy": "Senior community with all care levels on one campus and entry-fee-plus-monthly pricing.",
+    "detail": "CCRC is the most complex Senior Housing subtype. Residents pay a substantial entry fee ($100,000-$1M depending on community and unit, varies on refundability) plus monthly service fees, in exchange for guaranteed access to higher-acuity care as needs change — Independent Living → Assisted Living → Memory Care → Skilled Nursing — without leaving the campus. Three contract types: Type A (Life Care, fixed monthly fee for life regardless of care level), Type B (modified contract, partial service guarantee), Type C (fee-for-service, market rates for higher care). Major operators: Acts Retirement, Erickson Living, Life Care Services, ABHM. State regulation is heavy.",
+    "indications": [
+      "Specialty",
+      "Multifamily"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Certificate of Occupancy",
     "full": "CO",
     "plain": "The official local-government sign-off that a building is safe to live in — required before owners can move in.",
@@ -1269,6 +1470,21 @@
     "sources": [
       "ALTA",
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Change Order",
+    "full": "CO",
+    "plain": "A formal amendment to a construction contract modifying scope, schedule, or price — additive or deductive — signed by both owner and GC.",
+    "snappy": "Formal amendment to a construction contract modifying scope, schedule, or price.",
+    "detail": "Change Orders are the contractual mechanism for handling project changes during construction. Common drivers: owner-initiated upgrades, code-required modifications, unforeseen subsurface conditions, design errors, Tenant Improvement scope changes. Each Change Order documents: scope of work changed, cost impact, schedule impact, signature requirements. Cost-plus contracts handle changes more flexibly; stipulated-sum contracts treat each change as a separate negotiation. Aggressive change-order practice by contractors (over-billing on changes) is a recurring construction-fraud pattern; owners audit change orders carefully and require detailed back-up cost documentation.",
+    "indications": [
+      "Development"
+    ],
+    "category": "Development",
+    "sources": [
+      "NAHB"
     ]
   },
   {
@@ -1616,6 +1832,22 @@
   },
   {
     "letter": "C",
+    "term": "Conditional Lien Waiver",
+    "full": "",
+    "plain": "A Lien Waiver effective only when the corresponding payment actually clears — protects contractors against bounced checks while still giving owners progress-payment protection.",
+    "snappy": "Lien Waiver effective only when the corresponding payment actually clears.",
+    "detail": "Conditional Lien Waiver bridges the gap between payment-issuance and payment-clearance. The contractor signs at the moment of receiving the payment (often a check that hasn't cleared yet). The waiver is 'conditional on actual receipt of funds' — if the check bounces or the wire fails, the waiver doesn't take effect and the lien right preserves. Once the payment clears, the contractor signs an Unconditional Lien Waiver. State-specific forms exist for both. California (Civil Code §8132-§8138) has the most prescribed statutory forms. Failure to use conditional/unconditional distinction can produce double payment exposure for owners.",
+    "indications": [
+      "Development"
+    ],
+    "category": "Development",
+    "sources": [
+      "NAHB",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Conditional Use Permit",
     "full": "CUP, Special Use Permit",
     "plain": "A Zoning approval for a use not allowed by right, but allowed if specific conditions are met — like a daycare in a residential zone.",
@@ -1885,6 +2117,22 @@
   },
   {
     "letter": "C",
+    "term": "CRE",
+    "full": "Commercial Real Estate",
+    "plain": "Common shorthand for Commercial Real Estate — income-producing investment property like Office, Retail, Industrial, Multifamily, and Hotel.",
+    "snappy": "Standard shorthand for Commercial Real Estate in investment circles.",
+    "detail": "CRE is universal industry shorthand for Commercial Real Estate. Practitioners use 'CRE deals', 'CRE finance', 'CRE Cap Rates' constantly. See Commercial Real Estate for the substantive coverage of asset classes, return characteristics, and how CRE differs from residential ownership.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Credit Score",
     "full": "",
     "plain": "A three-digit summary of how reliably you've repaid debt — Lenders use it to price your Mortgage.",
@@ -1896,6 +2144,40 @@
     "category": "Financing & Lending",
     "sources": [
       "CFPB"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Cross-Collateralization",
+    "full": "Cross-Collateral",
+    "plain": "A loan structure where multiple properties secure a single loan — or multiple loans share a single collateral pool — concentrating Lender protection across the portfolio.",
+    "snappy": "Loan structure where multiple properties secure a single loan, or vice versa.",
+    "detail": "Cross-Collateralization gives Lenders broader recovery options. A Sponsor with three Multifamily properties might cross-collateralise them under a single $50M Mortgage — Default on the loan can trigger Foreclosure on all three properties. Alternatively, three separate loans (one per property) might cross-collateralise where Default on any one allows Foreclosure on all. Pros for Lender: broader collateral, harder for Sponsor to 'cherry-pick' good versus bad assets in distress. Cons for Sponsor: loss of optionality, inability to sell or refinance individual properties without releasing them from the cross-collateral structure. Release provisions in loan documents specify the conditions and pricing.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Cross-Default",
+    "full": "",
+    "plain": "A loan provision that treats Default on one loan as automatic Default on another related loan — typically across multiple loans to the same borrower or sponsor.",
+    "snappy": "Loan provision treating Default on one loan as automatic Default on another related loan.",
+    "detail": "Cross-Default provisions amplify Default consequences for borrowers with multiple Loans from the same Lender (or to the same Sponsor). Mechanics: Default on any one cross-defaulted Loan triggers Default on all linked Loans, often regardless of payment status on the others. Lenders use Cross-Default to prevent Sponsors from selectively defaulting on one Loan to preserve equity in others. Sponsors prefer ring-fencing — each property in a separate single-purpose entity with no Cross-Default to other holdings. Negotiation: large Sponsors often achieve full ring-fencing; smaller Sponsors face Cross-Default in their first deals as part of relationship-building with Lenders.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF",
+      "Cornell LII"
     ]
   },
   {
@@ -2229,6 +2511,22 @@
   },
   {
     "letter": "D",
+    "term": "Disposition Fee",
+    "full": "Sale Fee",
+    "plain": "A Sponsor fee charged to LPs at the Sale of a property — typically 1-2% of Sale Price — paid at closing of the disposition.",
+    "snappy": "Sponsor fee at the Sale of a property — 1-2% of Sale Price.",
+    "detail": "Disposition Fees pay the Sponsor for managing the Sale process — selecting brokers, marketing the property, evaluating offers, negotiating, navigating Due Diligence, and Closing. Range: 0.5-2.0% of Sale Price. Some institutional Sponsors waive or reduce disposition fees when commission to a broker is already substantial. Aggressive Sponsors charge disposition fees on top of broker commissions plus acquisition fees on the next deal — a 'churn' pattern LPs flag. Disposition Fees come off the top of Sale proceeds, reducing the cash available to investors and Promote. Institutional LP terms often limit or eliminate disposition fees in favour of higher Sponsor Promote alignment.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "ULI"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "Distressed Asset",
     "full": "Distressed Property",
     "plain": "A property whose owner can no longer service the debt or operate it profitably — opportunities for buyers with capital and patience to acquire below replacement cost.",
@@ -2331,6 +2629,23 @@
   },
   {
     "letter": "D",
+    "term": "DSCR Covenant",
+    "full": "Debt Service Coverage Covenant",
+    "plain": "A loan term requiring the borrower to maintain a minimum DSCR — typically 1.20x or 1.25x — throughout the loan term, with cures or Defaults for shortfalls.",
+    "snappy": "Loan covenant requiring minimum DSCR throughout the loan term.",
+    "detail": "DSCR Covenants are core Commercial Mortgage protections for Lenders. Typical: minimum 1.20x DSCR measured quarterly or annually. Below-covenant DSCR triggers: cash sweeping (excess cash flow held in Lender escrow rather than distributed to equity), cure options (sponsor injection to bring DSCR back above threshold), partial recourse, or technical Default. Loan documents typically include a 'springing cash management' provision: at the moment DSCR falls below covenant, all property cash flows route through Lender-controlled accounts. Sponsors carefully model DSCR through downside scenarios; covenant Defaults during 2020-2021 hospitality and 2023-2024 office cycles triggered widespread workout activity.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF",
+      "MBA"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "DTI",
     "full": "Debt-to-Income Ratio",
     "plain": "Your monthly debt payments divided by your monthly income — Lenders cap how high it can go to qualify.",
@@ -2424,6 +2739,72 @@
     "sources": [
       "Cornell LII",
       "ALTA"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Easement Appurtenant",
+    "full": "",
+    "plain": "An Easement that benefits one specific Lot — the dominant estate — and is recorded against another Lot — the servient estate — running with the Land for both.",
+    "snappy": "Easement benefiting one Lot (dominant) and burdening another (servient) — runs with the Land.",
+    "detail": "Easement Appurtenant attaches to two parcels — a dominant estate (the benefited Lot) and a servient estate (the burdened Lot). Both transfer automatically with the respective Lots. Common examples: shared driveway easement where Lot A has the right to use a driveway crossing Lot B; utility easement where the city has the right to access a strip of every Lot for water and sewer. Easement Appurtenant cannot be transferred separately from its dominant estate — selling just the easement is impossible. Compare Easement in Gross: benefits a person or entity (not a Lot), can be transferred independently. Most utility and pipeline easements are easements in gross.",
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Land"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII",
+      "ALTA"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Easement by Necessity",
+    "full": "",
+    "plain": "An Easement created by law — even without a Deed — when a landlocked Lot needs access across a neighbouring parcel to reach a public road.",
+    "snappy": "Law-created Easement letting a landlocked Lot reach a public road across a neighbour's Land.",
+    "detail": "Easement by Necessity arises automatically when severance from a common owner creates a landlocked parcel. Example: a 100-acre tract sold off as two 50-acre parcels — the back parcel has no road frontage. Common law creates an Easement by Necessity over the front parcel even though the Deed didn't mention it. Required elements: common ownership at severance, strict necessity (not just convenience), and the necessity exists at the moment of severance. Courts apply narrowly — courts strongly prefer recorded Easements over implied ones. Sale of the landlocked parcel surfaces the Easement issue at Title search.",
+    "indications": [
+      "Land",
+      "Residential"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII",
+      "ALTA"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Easement by Prescription",
+    "full": "Prescriptive Easement",
+    "plain": "An Easement acquired through long open use of another's Land — like Adverse Possession but creates only a right to use, not full ownership.",
+    "snappy": "Easement acquired through long open use of another's Land — like Adverse Possession.",
+    "detail": "Easement by Prescription arises through statutory-period use (typically 5-20 years) that is open and notorious, continuous, and adverse (without permission). The user gains a right to continue the use — typically a path or driveway across a neighbour's property — without acquiring ownership. Common scenarios: a neighbour cutting through a corner for decades, a path across a vacant Lot to reach a beach or trail. Prescriptive Easements bind successor owners. Property owners can defeat prescription by posting 'permission to cross' signs (negating adversity) or by interrupting the use briefly (resetting the clock).",
+    "indications": [
+      "Residential",
+      "Land"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "EAT",
+    "full": "Exchange Accommodation Titleholder",
+    "plain": "An entity that temporarily holds Title to a property in a Reverse 1031 Exchange — lets investors lock in replacement property before selling the relinquished one.",
+    "snappy": "Entity holding Title temporarily in a Reverse 1031 Exchange.",
+    "detail": "EAT is the IRS-mandated structure for Reverse 1031 Exchanges. The investor wants to buy the replacement property before selling the relinquished one. The EAT (typically a single-purpose LLC affiliated with the Qualified Intermediary) takes Title to either the replacement or the relinquished property for up to 180 days while the other side of the Exchange completes. EAT services typically cost $5,000-$15,000 beyond standard QI fees. IRS Revenue Procedure 2000-37 created the EAT safe harbour. Without an EAT, simultaneous timing requirements would make Reverse 1031 nearly impossible.",
+    "indications": [
+      "Investment"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS"
     ]
   },
   {
@@ -2543,6 +2924,22 @@
     "sources": [
       "ULI",
       "NAHB"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Equitable Redemption",
+    "full": "",
+    "plain": "The defaulted borrower's right — derived from common-law equity — to cure the Default and reinstate the loan at any time before Foreclosure Sale.",
+    "snappy": "Borrower's common-law right to cure Default and reinstate the loan before Foreclosure Sale.",
+    "detail": "Equitable Redemption is the universally-available pre-Sale cure right. Mechanics: at any time after Default and before the Foreclosure Sale, the borrower can pay the full outstanding loan balance plus accrued Interest, late fees, and Foreclosure costs — and the Lender must accept the cure, dismissing the Foreclosure. Once paid in full, the loan reinstates and the borrower keeps the property. Statutory rights sometimes augment Equitable Redemption (most state Mortgage statutes require Lenders to permit cure up until a specific time before sale). Distinct from Statutory Redemption (post-Sale repurchase right). Equitable Redemption survives every form of Foreclosure including Strict Foreclosure.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Cornell LII"
     ]
   },
   {
@@ -2870,6 +3267,39 @@
   },
   {
     "letter": "F",
+    "term": "Final Completion",
+    "full": "",
+    "plain": "The construction milestone when all work — including punch-list items — is fully complete and accepted by the owner.",
+    "snappy": "Construction milestone: all work including punch-list complete and accepted.",
+    "detail": "Final Completion follows Substantial Completion by weeks to months as the GC works through the punch list. Final Completion triggers: release of the GC's holdback (typically 5-10% of contract value), final payment, end of the GC's lien-filing rights. The owner's architect or owner's representative inspects and certifies Final Completion. Disputes at Final Completion can drag for months — the GC presses for release of holdback while the owner challenges punch-list quality. Lien Waivers from the GC and Subcontractors at Final Completion close the contractor's claims-window on the project.",
+    "indications": [
+      "Development",
+      "Commercial"
+    ],
+    "category": "Development",
+    "sources": [
+      "NAHB"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "Financial Covenant",
+    "full": "",
+    "plain": "A loan term requiring the borrower to maintain specific financial metrics — DSCR, LTV, Debt Yield, occupancy — with Defaults triggered by breach.",
+    "snappy": "Loan term requiring borrower to maintain specific financial metrics throughout the loan.",
+    "detail": "Financial Covenants give Commercial Lenders early warning and intervention rights as a borrower's financial position deteriorates. Common covenants: minimum DSCR, maximum LTV, minimum Debt Yield, minimum occupancy, minimum net worth (for guarantor), liquidity reserves. Breach triggers: cash management (cash sweep), springing recourse, cure rights, or formal Default. Negative covenants restrict borrower actions: additional debt without Lender consent, transfers without consent, distributions during periods of financial stress, change in management or ownership. Maintenance covenants test continuously; incurrence covenants test only at specific events. Financial covenants are heavily negotiated in middle-market and large CRE loans.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "F",
     "term": "Fixed-Rate Mortgage",
     "full": "",
     "plain": "A Mortgage whose interest rate stays the same for the entire loan term — payment never changes.",
@@ -2999,6 +3429,22 @@
     "sources": [
       "CFPB",
       "HUD"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "Foreclosure Sale",
+    "full": "",
+    "plain": "The public auction at the end of a Foreclosure proceeding — Real Estate sold to the highest bidder, with proceeds going first to the foreclosing Lender.",
+    "snappy": "Public auction at the end of Foreclosure — proceeds go first to the Lender.",
+    "detail": "Foreclosure Sale is the umbrella term for the auction concluding any Foreclosure — Judicial Foreclosure (Sheriff's Sale conducted by the county sheriff after court judgment) or Non-Judicial Foreclosure (Trustee's Sale conducted by the Trustee under power-of-sale clause). The Lender almost always credit-bids up to the loan balance — taking the property at a paper price equal to debt rather than paying cash. Excess proceeds above the loan amount go to junior Lien holders then to the borrower. Most properties revert to the Lender as REO when no third-party bidder exceeds the credit bid.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Cornell LII"
     ]
   },
   {
@@ -3572,6 +4018,22 @@
   },
   {
     "letter": "I",
+    "term": "Improvement Exchange",
+    "full": "Build-to-Suit Exchange, Construction Exchange",
+    "plain": "A 1031 Exchange where Sale proceeds are used to construct improvements on land the investor already owns or to enhance the replacement property — adds complexity but expands replacement options.",
+    "snappy": "1031 Exchange where proceeds fund construction on already-owned or new replacement Land.",
+    "detail": "Improvement Exchange handles the case where suitable like-kind replacement property doesn't exist as-is but would after construction. The Qualified Intermediary holds the Sale proceeds and uses them to acquire the replacement Land plus construct improvements within the 180-day Exchange window. Title temporarily holds with an Exchange Accommodation Titleholder (EAT). Strict timing: construction must reach substantial completion before the 180-day deadline. Often combined with Reverse 1031 Exchange where the Sponsor identifies the improvement plan before selling. Costs: $15,000-$50,000 in EAT, structuring, and tax-counsel fees beyond standard 1031 economics.",
+    "indications": [
+      "Investment"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "I",
     "term": "Inclusionary Zoning",
     "full": "IZ",
     "plain": "A local Zoning rule requiring new residential Development to include below-market Affordable units — either built on-site or paid into a housing fund.",
@@ -3603,6 +4065,23 @@
     "sources": [
       "Appraisal Foundation",
       "Appraisal Institute"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Independent Living",
+    "full": "ILF, Independent Living Facility",
+    "plain": "Senior Housing for active seniors who don't need medical or daily-activity assistance — apartments with meals, social activities, transportation, but no nursing care.",
+    "snappy": "Senior Housing for active seniors with apartments, meals, and activities — no medical care.",
+    "detail": "Independent Living sits between Active Adult Community (no services) and Assisted Living (assistance with daily activities). Typical ILF: Multifamily-style buildings with 50-200 apartments, communal dining, recreation, scheduled outings, fitness, optional housekeeping. Residents live independently but appreciate the social and convenience services. No regulated medical or nursing care provided. Monthly fees: $2,500-$6,500 depending on market and unit. Operating intensity is higher than Multifamily (dining, activities, transportation) but lower than Assisted Living (no nursing, no medication management, no dementia care). Distinct from CCRCs in that no continuing-care guarantees attach.",
+    "indications": [
+      "Multifamily",
+      "Specialty"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "ULI"
     ]
   },
   {
@@ -3878,6 +4357,23 @@
     "sources": [
       "NCREIF",
       "ULI"
+    ]
+  },
+  {
+    "letter": "J",
+    "term": "Judicial Foreclosure",
+    "full": "",
+    "plain": "A Foreclosure conducted through a court proceeding — required in some states for all Mortgages — typically slower and more expensive than Non-Judicial Foreclosure.",
+    "snappy": "Foreclosure conducted through court proceedings — required in some states.",
+    "detail": "Judicial Foreclosure is required in roughly 20 US states for traditional Mortgages: Florida, New York, New Jersey, Illinois, Pennsylvania, Ohio, much of the Midwest and Northeast. The Lender files a lawsuit, serves the borrower, allows defence (loan modification challenges, predatory-lending claims), and asks the court to enter a judgment of Foreclosure with an order of sale. The county sheriff conducts the auction. Timeline: 8-24 months from filing to sale, sometimes longer with borrower contestation. Borrowers have statutory Right of Redemption in some judicial states allowing post-sale repurchase for a period.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Cornell LII",
+      "HUD"
     ]
   },
   {
@@ -4171,6 +4667,23 @@
   },
   {
     "letter": "L",
+    "term": "Lien Waiver",
+    "full": "Lien Release",
+    "plain": "A document a contractor or Subcontractor signs giving up the right to file a Mechanic's Lien for work already paid for — required by owners and Lenders at every progress payment.",
+    "snappy": "Contractor or Sub signing away lien rights for work already paid for.",
+    "detail": "Lien Waivers protect owners and Lenders from prior-work liens after payment. Each progress payment from owner to GC, and from GC to Subcontractor, comes with a corresponding Lien Waiver covering the paid amount. Without Lien Waivers, an unpaid Subcontractor can lien the property even after the owner has paid the GC in full — leaving the owner exposed. Sophisticated owners require Conditional Lien Waivers (release effective on payment clearance) and follow-up Unconditional Lien Waivers (after the payment clears). Sloppy lien-waiver practice produces post-Closing Title surprises and expensive Title-Insurance claims.",
+    "indications": [
+      "Development",
+      "Commercial"
+    ],
+    "category": "Development",
+    "sources": [
+      "NAHB",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Lifestyle Center",
     "full": "Open-Air Lifestyle Center",
     "plain": "A premium open-air Retail centre with high-end Tenants, walkable layout, restaurants and entertainment — designed to replace traditional enclosed mall with destination ambience.",
@@ -4419,6 +4932,22 @@
   },
   {
     "letter": "L",
+    "term": "Loss of Use",
+    "full": "Loss of Use Coverage",
+    "plain": "Insurance coverage for additional living expenses or lost Rent when a covered loss makes a property uninhabitable — pays the difference between normal and elevated costs.",
+    "snappy": "Insurance for additional living expenses or lost Rent when a covered loss makes property uninhabitable.",
+    "detail": "Homeowners Insurance Loss of Use coverage pays for additional living expenses while the home is uninhabitable due to a covered loss (fire, storm, plumbing failure). Typical limit: 20-30% of dwelling coverage, paid as the difference between normal household expenses and elevated rental + temporary-living costs. Commercial property insurance has analogous coverage: Business Income coverage replaces lost Rent income (Net Rent before Operating Expenses) for the rebuild period. Coverage runs typically 12-24 months. Floods, earthquakes, and other excluded causes don't trigger Loss of Use; the specific policy controls.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Lot",
     "full": "",
     "plain": "A defined parcel of Land — usually a single building site with marked boundaries and a recorded Deed.",
@@ -4589,6 +5118,23 @@
   },
   {
     "letter": "M",
+    "term": "Master Lease",
+    "full": "Master Sub-Lease",
+    "plain": "A Lease where the Tenant takes the entire property — often with the right to sub-lease — covering full rent and operations independent of how the Tenant uses or subleases the space.",
+    "snappy": "Lease covering entire property with sub-lease rights — Tenant pays Rent regardless of sub-use.",
+    "detail": "Master Leases dominate distressed-asset workouts and turnkey investor strategies. The Master Tenant takes the whole building under a long-term Lease (often 5-20 years), commits to a fixed Rent, and then sub-leases units to end-Tenants at market rates. The spread between sub-Tenant Rent and Master Rent is the Master Tenant's profit. Owner loses upside but locks in stable cash flow. Common in: Hotel franchise structures, Office building turnaround, Retail mall pre-bankruptcy, distressed Multifamily. Master Lease accounting under ASC 842 treats Master Tenant as both Lessee (to owner) and Lessor (to sub-Tenants), with complex revenue and expense recognition.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "NCREIF",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Master Plan",
     "full": "Comprehensive Plan",
     "plain": "A long-range vision document — city, county, or large landowner — that maps out future Zoning, infrastructure, density, and land use over 10-20 years.",
@@ -4636,6 +5182,22 @@
     "sources": [
       "Federal Reserve",
       "Ginnie Mae"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Mechanic's Lien",
+    "full": "Mechanic Lien, Construction Lien",
+    "plain": "A statutory Lien that contractors, Subcontractors, and material suppliers can place on a property when they're not paid for work they performed — protects construction-trade creditors.",
+    "snappy": "Statutory Lien protecting contractors and suppliers from unpaid construction work.",
+    "detail": "Mechanic's Lien (also Construction Lien) gives contractors statutory protection independent of contract. State-by-state procedure: contractor performs work, isn't paid, files a Notice of Intent to Lien (in some states) then files the Lien itself within a statutory deadline (typically 60-120 days after last work). The Lien attaches to the Real Property and can support a Foreclosure-style sale to satisfy the debt. Lien Waivers — Conditional Lien Waiver at payment, Unconditional Lien Waiver after clearance — protect owners. Properly perfected Mechanic's Liens can take priority over even prior Mortgages in some states.",
+    "indications": [
+      "Development",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII"
     ]
   },
   {
@@ -4858,6 +5420,23 @@
   },
   {
     "letter": "M",
+    "term": "Mortgage Recording Tax",
+    "full": "MRT",
+    "plain": "A state or local tax on the act of recording a Mortgage — based on the loan amount — collected at Closing alongside Title and recording fees.",
+    "snappy": "State or local tax on recording a Mortgage, calculated on the loan amount.",
+    "detail": "Mortgage Recording Tax is a state-specific surcharge on Mortgage filings. New York has the highest — typically 1.8-2.8% of the Mortgage amount depending on county and amount, paid by the borrower at Closing. Florida charges a much smaller documentary stamp tax. Most states don't have a separate Mortgage Recording Tax. NYC borrowers face the combined state + city MRT plus the Mansion Tax — total Closing tax burden on a $2M purchase can exceed $35,000. CEMA (Consolidation, Extension, and Modification Agreement) transactions in New York let refinancing borrowers avoid paying MRT twice — a major saving for repeat refinancers.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Mortgage Servicer",
     "full": "Loan Servicer",
     "plain": "The company that collects monthly Mortgage payments, manages Escrow accounts, and handles delinquencies — often different from the original Lender.",
@@ -5073,6 +5652,22 @@
   },
   {
     "letter": "N",
+    "term": "NOD",
+    "full": "Notice of Default",
+    "plain": "Common shorthand for Notice of Default — the Lender's first formal step in Foreclosure proceedings.",
+    "snappy": "Standard shorthand for Notice of Default in Foreclosure proceedings.",
+    "detail": "NOD is universal shorthand for Notice of Default. Loan servicers, Foreclosure attorneys, and distressed-Real Estate investors all use 'NOD' in conversation and reporting. See Notice of Default for the substantive role of the recorded notice, statutory cure periods, and the path from NOD through Foreclosure Sale.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "N",
     "term": "NOI",
     "full": "Net Operating Income",
     "plain": "An income property's gross rent minus its operating expenses — but before Mortgage payments and taxes on income.",
@@ -5109,6 +5704,22 @@
   },
   {
     "letter": "N",
+    "term": "Non-Judicial Foreclosure",
+    "full": "Power-of-Sale Foreclosure",
+    "plain": "A Foreclosure conducted without court involvement — permitted in roughly half of states under Deed of Trust power-of-sale provisions — faster and cheaper than Judicial Foreclosure.",
+    "snappy": "Foreclosure conducted without court involvement under Deed of Trust power-of-sale clause.",
+    "detail": "Non-Judicial Foreclosure dominates in Deed of Trust states: California, Texas, Arizona, Nevada, Colorado, Virginia, much of the West and South. The Lender follows statutory notice and waiting-period requirements (Notice of Default → cure period → Notice of Sale → auction sale by the Trustee), bypassing the courts entirely. Timeline: 3-8 months from NOD to sale, sometimes shortened to 4 months in efficient states. Borrowers have fewer defences than in Judicial Foreclosure — they can sue to enjoin Sale only on specific procedural failures or wrongful-Foreclosure claims. Statutory redemption is often unavailable.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "N",
     "term": "Nonconforming Use",
     "full": "Grandfathered Use",
     "plain": "A property use that was legal when established but no longer matches current Zoning — protected as 'grandfathered' from being shut down.",
@@ -5140,6 +5751,23 @@
     "sources": [
       "ALTA",
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "N",
+    "term": "Notice of Default",
+    "full": "NOD",
+    "plain": "The Lender's first formal step in Foreclosure — a recorded notice telling the borrower the loan is in Default and demanding cure within a statutory period.",
+    "snappy": "Lender's first recorded notice of Default, demanding cure within a statutory period.",
+    "detail": "Notice of Default starts the Foreclosure clock. The Lender records the NOD with the county recorder after the borrower has missed enough payments to trigger the loan's Default provisions (typically 90+ days late). The recorded NOD puts the borrower's Default on the public record — visible to potential refinance Lenders, prospective buyers, and Title Insurance underwriters. State law sets a minimum cure period after NOD (90 days in California, 30 days in many states) before the next Foreclosure step. Borrowers facing NOD have multiple paths: cure (catch up payments), Loan Modification, Short Sale, Deed in Lieu, or proceed through Foreclosure.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Cornell LII",
+      "CFPB"
     ]
   },
   {
@@ -5250,6 +5878,22 @@
   },
   {
     "letter": "O",
+    "term": "Operating Lease",
+    "full": "",
+    "plain": "A Lease classified as not transferring ownership-like risks and rewards to the Tenant — the Tenant treats Rent as expense, the Landlord retains accounting ownership.",
+    "snappy": "Lease accounting category where Tenant treats Rent as expense, Landlord retains ownership.",
+    "detail": "Operating Lease accounting under ASC 842 (US GAAP since 2019) and IFRS 16 (international since 2019) substantially changed Tenant balance-sheet treatment. Operating Leases now appear on Tenant balance sheets as right-of-use asset and lease liability (similar to debt). Income statement impact: Tenant records straight-line Rent expense, Landlord recognises straight-line Rent income. Distinguished from Capital Lease (where Tenant accounts as if buying the property). Tests: Lease term less than 75% of asset life, present value of Lease payments less than 90% of asset value, no purchase option at end. Most Commercial Real Estate Leases qualify as Operating Leases despite the new on-balance-sheet treatment.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "Cornell LII",
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "O",
     "term": "Operating Partner",
     "full": "OpCo",
     "plain": "The party in a JV responsible for day-to-day execution — finding deals, negotiating Leases, managing Property Manager, executing business plans — typically the Sponsor.",
@@ -5317,6 +5961,21 @@
   },
   {
     "letter": "P",
+    "term": "Pad Lease",
+    "full": "Outparcel Lease",
+    "plain": "A long-term Ground Lease of a small Outparcel — typically a fast-food, drive-through, or bank — at a Retail centre's parking-lot edge.",
+    "snappy": "Long-term Ground Lease of an Outparcel at a Retail centre's perimeter.",
+    "detail": "Pad Leases combine Ground Lease structure with Outparcel positioning. The Pad Lease grants the Tenant rights to construct and operate a building on a pad-site, typically with 10-50 year term and renewal options. The Tenant builds and owns the improvements during the term; improvements revert to the Landlord at term-end (sometimes for nominal consideration, sometimes for fair-market value). Common Pad Lease Tenants: McDonald's, Chick-fil-A, Starbucks, Bank of America, AutoZone. Pad Leases trade at very low Cap Rates (4-6%) when sold to NNN REITs — strong credit, long term, minimal Landlord involvement.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Pari-Passu",
     "full": "Pari Passu",
     "plain": "Latin for 'on equal footing' — describing multiple debt or equity claims that rank equally in priority, sharing pro-rata in payments and losses.",
@@ -5368,6 +6027,23 @@
   },
   {
     "letter": "P",
+    "term": "Payment Bond",
+    "full": "",
+    "plain": "A surety bond guaranteeing that the GC will pay Subcontractors and material suppliers — protects owners and Lenders against unpaid-subcontractor lien claims.",
+    "snappy": "Surety bond guaranteeing the GC will pay Subs and material suppliers.",
+    "detail": "Payment Bonds work in tandem with Performance Bonds on most public-sector and large private construction projects. The surety guarantees that the GC will pay all Subcontractors and material suppliers — protecting the owner from Mechanic's Lien claims if the GC pockets payments without remitting to subs. Subcontractors with unpaid claims file directly against the bond rather than against the property. Payment Bonds and Performance Bonds together typically cost 1-3% of contract value, premiums paid by the GC. Federal and most state laws require both on public construction projects above thresholds.",
+    "indications": [
+      "Development",
+      "Public Sector"
+    ],
+    "category": "Development",
+    "sources": [
+      "NAHB",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Percentage Rent",
     "full": "Overage Rent",
     "plain": "Extra Rent paid by a Retail Tenant — a percentage of gross sales above a threshold — on top of Base Rent.",
@@ -5380,6 +6056,22 @@
     "sources": [
       "IREM",
       "NCREIF"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Performance Bond",
+    "full": "",
+    "plain": "An insurance product — issued by a surety company — guaranteeing the GC will complete the work per contract terms; if the GC defaults, the surety completes the work or pays the owner.",
+    "snappy": "Surety bond guaranteeing the GC will complete construction per contract terms.",
+    "detail": "Performance Bonds protect owners against GC failure. The owner requires the GC to post a performance bond equal to the contract amount; the surety company (Travelers, Liberty Mutual, Zurich, CNA) underwrites the GC's financial strength and operational capability before issuing. Premium: 0.5-3% of contract value, paid by the GC and embedded in the contract price. On GC Default, the owner files a claim; the surety either completes the work (selecting a replacement GC and funding completion) or pays the owner damages. Performance Bonds are required on virtually all public-sector construction (Miller Act federal projects, state little-Miller acts for state projects) and most institutional private construction.",
+    "indications": [
+      "Development",
+      "Commercial"
+    ],
+    "category": "Development",
+    "sources": [
+      "NAHB"
     ]
   },
   {
@@ -5550,6 +6242,22 @@
   },
   {
     "letter": "P",
+    "term": "Premises Liability",
+    "full": "",
+    "plain": "Legal liability of a Real Estate owner or occupier for injuries to people on the property — driven by negligence, dangerous conditions, and the visitor's status (invitee, licensee, trespasser).",
+    "snappy": "Legal liability of an owner/occupier for injuries to people on the property.",
+    "detail": "Premises Liability is the most common Real Estate-related liability claim. Three categories of visitors, each with different duties owed by the property owner. Invitees (business customers, Tenants): highest duty — owner must inspect for hazards and warn or fix. Licensees (social guests, salespeople): owner must warn of known hazards. Trespassers: minimal duty (warn against known traps; no duty to inspect or warn of natural conditions). Common claims: slip-and-fall on icy walkways, falls from poorly-maintained stairs, dog bites, swimming pool drownings, attacks by Tenants on Co-Tenants. Premises Liability is the primary risk driving commercial-property general-liability and umbrella coverage.",
+    "indications": [
+      "Commercial",
+      "Residential"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Prepayment Penalty",
     "full": "",
     "plain": "A fee some Mortgages charge if you pay off the loan early — banned on most residential loans since 2014.",
@@ -5683,6 +6391,41 @@
     "category": "Tax",
     "sources": [
       "IRS"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Property Tax Appeal",
+    "full": "Tax Assessment Appeal",
+    "plain": "A property owner's challenge to the assessed value used to calculate Property Tax — typically heard by a county Board of Assessment Appeals or equivalent.",
+    "snappy": "Property owner's challenge to the assessed value used for Property Tax calculation.",
+    "detail": "Property Tax Appeals can save thousands annually. The owner argues that the Assessor's valuation exceeds market value, typically supported by recent Comps, professional Appraisal, or evidence of property condition issues the Assessor missed. Most jurisdictions have a multi-tier appeal process: informal Assessor review, formal Board hearing, state-level Tax Court if needed. Filing deadlines are strict (typically 30-90 days after assessment notice). Professional Property Tax Appeal services (paid as % of savings) thrive on Commercial Real Estate. Successful appeals on a $5M commercial property assessment reducing taxable value by 10% can save $30,000-$80,000/year depending on local rates.",
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Tax",
+    "sources": [
+      "NAR",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Property Tax Assessor",
+    "full": "Assessor, Tax Assessor",
+    "plain": "The county or municipal official responsible for valuing every property in the jurisdiction for Property Tax calculation — usually elected or appointed.",
+    "snappy": "County or municipal official valuing properties for Property Tax calculation.",
+    "detail": "Tax Assessors set the taxable value of every property in their jurisdiction. Methodology varies: mass-appraisal models calibrated against recent Sales (residential), Income Approach for income-producing property, Cost Approach for special-purpose property. Assessments update on different cycles — annually in some states, every 2-4 years in others, only at change of ownership in California (Proposition 13). Equalisation: state-level oversight ensures assessment ratios across counties remain consistent. Aggressive Assessors (high valuations) face Property Tax Appeals; passive ones face state-level equalisation adjustments. Many Assessors are elected — politically pressured to keep valuations low.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
     ]
   },
   {
@@ -6229,6 +6972,23 @@
   },
   {
     "letter": "R",
+    "term": "REO Disposition",
+    "full": "REO Sale",
+    "plain": "The Lender's process of selling a property acquired through Foreclosure — typically at a discount to market, often through specialised brokers.",
+    "snappy": "Lender process of selling property acquired through Foreclosure, often at a discount.",
+    "detail": "REO Disposition is the Lender's pathway out of Foreclosure-acquired property. Strategy: list with a specialised REO broker (Coldwell Banker, RE/MAX, Keller Williams REO divisions, Auction.com), price 5-15% below market for fast disposition, accept as-is offers, work through Title curing issues, sell on standard timelines. Bulk REO Sales: portfolios of 50-500 properties sold to investors at deeper discounts (25-40% below retail). 2008-2012 cycle drove the rise of institutional Single-Family Rental (Invitation Homes, American Homes 4 Rent, Tricon) buying massive REO portfolios. Current cycle (2024) sees more commercial REO than residential.",
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "Replacement Reserve",
     "full": "",
     "plain": "Money set aside each year — modeled in the pro forma — to fund predictable future Cap-Ex like roof, HVAC, and parking lot.",
@@ -6378,6 +7138,38 @@
     "sources": [
       "NCREIF",
       "Investopedia"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Right of First Refusal",
+    "full": "ROFR",
+    "plain": "A Tenant's contractual right to match any third-party offer the Landlord receives on the property — the Tenant gets first crack at buying before the Landlord can sell to an outsider.",
+    "snappy": "Tenant right to match any third-party offer to buy the property — first chance at acquisition.",
+    "detail": "ROFR gives long-term Tenants protection against unwanted property sale to a competitor or hostile owner. Mechanics: Landlord receives a bona-fide offer from a third party; sends the terms to the Tenant; Tenant has a window (typically 30-60 days) to accept identical terms; if Tenant declines, Landlord can sell to the third party (but not at different terms without restarting the process). Common in: Hotel ground Leases, long-term Single-Tenant Net Lease Property, ground Leases. Distinct from Right of First Offer (Tenant gets first chance to buy at the Landlord's set price, not first chance to match a third party).",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Right of Redemption",
+    "full": "",
+    "plain": "A defaulted borrower's statutory right to recover the property after Foreclosure Sale by paying the outstanding debt plus costs — varies sharply by state, often months or years long.",
+    "snappy": "Defaulted borrower's right to recover the property after Foreclosure by paying off the debt.",
+    "detail": "Right of Redemption comes in two flavours. Equitable Redemption: pre-Sale, the borrower can stop Foreclosure at any time before the auction by paying off the full loan plus arrears and costs. Universally available; the heart of the Foreclosure cure process. Statutory Redemption: post-Sale, in some states the borrower (or junior Lien holders) can repurchase the property within a statutory period (3-12 months typical) by paying the auction price plus statutory Interest and fees. Statutory redemption is available in most Judicial Foreclosure states; absent in most Non-Judicial Foreclosure states. Redemption rights make post-Sale ownership uncertain for periods.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Cornell LII"
     ]
   },
   {
@@ -6638,6 +7430,22 @@
   },
   {
     "letter": "S",
+    "term": "Sheriff's Sale",
+    "full": "",
+    "plain": "The county-sheriff-conducted auction at the end of a Judicial Foreclosure — Real Estate is sold to the highest bidder, often the Lender by credit bid.",
+    "snappy": "County-sheriff-conducted auction ending Judicial Foreclosure proceedings.",
+    "detail": "Sheriff's Sale is the Judicial Foreclosure equivalent of Trustee's Sale. After the court enters judgment, the Sheriff publishes notice (typically newspaper ads for 3-6 weeks), conducts a public auction at the courthouse steps or designated location, and conveys Title via Sheriff's Deed. The Lender almost always credit-bids up to the outstanding loan balance. Bidder protections: as-is condition (no warranties), buyer responsibility for prior Liens, Quiet Title issues common. Sheriff's Sale produces a brief frenzy of investor activity in distressed markets; most properties revert to Lenders as REO when no third-party bidder exceeds the credit bid.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Short Sale",
     "full": "",
     "plain": "Selling a home for less than what's owed on the Mortgage, with the Lender agreeing to accept the shortfall instead of foreclosing.",
@@ -6874,6 +7682,22 @@
   },
   {
     "letter": "S",
+    "term": "Statutory Redemption",
+    "full": "",
+    "plain": "The defaulted borrower's right — under state statute — to repurchase the property after Foreclosure Sale by paying the auction price plus statutory Interest, available in most Judicial Foreclosure states.",
+    "snappy": "Borrower's statutory right to repurchase property after Foreclosure Sale by paying auction price plus Interest.",
+    "detail": "Statutory Redemption is the state-statute extension of Equitable Redemption past the moment of Sale. State laws vary widely. Available in most Judicial Foreclosure states (Illinois, Iowa, Wisconsin, Minnesota, Michigan, etc.); not in most Non-Judicial Foreclosure states (California, Texas). Redemption period: 3 months to 1 year depending on state. The borrower (sometimes junior Lien holders) can repurchase by paying the auction sale price plus statutory Interest (often 10-12%), restoring ownership. Redemption rights create uncertain post-Sale ownership periods — buyers at Foreclosure Sales discount their bids accordingly.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Steering",
     "full": "",
     "plain": "An illegal Real Estate Agent practice of guiding Buyers toward or away from neighbourhoods based on protected characteristics — race, family status, religion.",
@@ -6903,6 +7727,22 @@
     "category": "Tax",
     "sources": [
       "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Strict Foreclosure",
+    "full": "",
+    "plain": "An obsolete Foreclosure form where the court orders Title directly to the Lender without any public sale — survives only in Connecticut and Vermont.",
+    "snappy": "Court-ordered Title transfer to Lender without public Sale — Connecticut and Vermont only.",
+    "detail": "Strict Foreclosure was the original English form of Foreclosure — direct Title transfer to the Lender after Default and a court-ordered cure deadline. Almost every US state replaced it with sale-based Judicial Foreclosure or Non-Judicial Foreclosure in the 19th century, where a public auction at least gives the borrower a chance to recover any equity above the loan balance. Connecticut and Vermont retain Strict Foreclosure as the default — the court enters judgment, sets a deadline (typically 1-6 months), and at deadline expiration Title transfers to the Lender. No auction, no public sale, no recovery of equity for the borrower. Connecticut courts occasionally exercise discretion to convert Strict Foreclosure to Foreclosure by sale.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
       "Cornell LII"
     ]
   },
@@ -6984,6 +7824,23 @@
     ],
     "category": "Financing & Lending",
     "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Substantial Completion",
+    "full": "",
+    "plain": "The construction milestone when the building can be used for its intended purpose — even if minor punch-list items remain — triggers Lease commencement, warranty periods, and final-payment milestones.",
+    "snappy": "Construction milestone: building usable for intended purpose; triggers Lease and warranty clocks.",
+    "detail": "Substantial Completion is the critical contractual moment in any construction project. The architect issues a Certificate of Substantial Completion when the building can serve its intended use — Tenants can occupy, warehouses can operate. Punch List items may remain but the building works. Substantial Completion triggers: Lease Rent commencement, Tenant Improvement reimbursement, warranty-period start, Mechanic's Lien deadline, owner take-over for insurance and operations. Final Completion follows weeks-to-months later after punch-list completion. Disputes over Substantial Completion are common — contract definitions vary, and the trigger involves real money for the owner, GC, and Tenants.",
+    "indications": [
+      "Development",
+      "Commercial"
+    ],
+    "category": "Development",
+    "sources": [
+      "NAHB",
       "Cornell LII"
     ]
   },
@@ -7160,6 +8017,22 @@
   },
   {
     "letter": "T",
+    "term": "Tenant Improvement Allowance",
+    "full": "TI Allowance, TIA",
+    "plain": "A specific dollar-per-square-foot amount the Landlord agrees to spend or contribute toward building out the Tenant's space — heavily negotiated in commercial Lease economics.",
+    "snappy": "Specific dollar-per-square-foot amount Landlord contributes toward Tenant Build-Out.",
+    "detail": "TI Allowance translates Lease economics into upfront capital. Range: $25-$150 PSF for Office, $20-$80 PSF for Retail, $5-$30 PSF for Industrial — varying by market, Lease length, and Tenant credit. Long Leases justify higher TIA; short Leases get little. Method: the Landlord either pays for the Build-Out directly (turnkey) or reimburses the Tenant up to the TIA limit (Tenant-built TI). Unused TIA usually reverts to the Landlord. TI Allowance is amortised into Base Rent over the Lease term — effectively a Landlord loan paid back by the Tenant through above-market Rent. NER calculation nets TIA off the headline Rent.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "IREM",
+      "BOMA"
+    ]
+  },
+  {
+    "letter": "T",
     "term": "Texas Homestead",
     "full": "Homestead Exemption",
     "plain": "Texas's strong constitutional protection of a primary residence — caps Property Tax assessment growth, shields against most creditor claims, restricts forced sale.",
@@ -7195,6 +8068,21 @@
     "plain": "Common shorthand for Tenant Improvement — the allowance or work funding interior customisation of leased space for a Tenant.",
     "snappy": "Standard shorthand for Tenant Improvement in Commercial Real Estate.",
     "detail": "TI is universal shorthand in Commercial Real Estate for Tenant Improvement. Lease negotiations centre on the TI allowance — typically $25-$150 PSF depending on market and Lease length. The 'TI package' refers to the full set of finishes, mechanical work, and Build-Out the Landlord funds. See Tenant Improvement for the negotiation economics, amortisation treatment, and how TI sizes against Lease length.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "IREM"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "TIA",
+    "full": "Tenant Improvement Allowance",
+    "plain": "Common shorthand for Tenant Improvement Allowance — the Landlord's contribution toward customising leased space for a Tenant.",
+    "snappy": "Standard shorthand for Tenant Improvement Allowance.",
+    "detail": "TIA is universal industry shorthand for Tenant Improvement Allowance. Commercial brokers, Tenants, and Landlords use 'TIA' in conversation and Lease economics. See Tenant Improvement Allowance for the typical dollar-per-square-foot ranges, amortisation into Base Rent, and how TIA shapes NER calculations.",
     "indications": [
       "Commercial"
     ],
@@ -7453,6 +8341,23 @@
   },
   {
     "letter": "T",
+    "term": "Triple Net Property",
+    "full": "NNN Asset",
+    "plain": "An investment property leased to a single Tenant on a Triple Net basis — Tenant pays Property Tax, insurance, and maintenance, leaving the Landlord with bond-like cash flow.",
+    "snappy": "Investment property on Triple Net Lease — Tenant pays all operating costs.",
+    "detail": "Triple Net Property is the favourite of income-focused investors. Single-Tenant assets (free-standing Retail, Office, Industrial) on long-term NNN Leases with credit Tenants trade at Cap Rates of 5-7% for investment-grade Tenants, wider for non-rated. Operating intensity: nearly zero for the Landlord — Tenant manages everything, sends Rent monthly. NNN REITs (Realty Income, STORE Capital, W.P. Carey, Spirit Realty Capital, Agree Realty) hold portfolios of thousands of NNN assets. Sale-Leaseback transactions and Build-to-Suit Development feed the new-supply pipeline. Cap Rate Compression in NNN ran extreme 2015-2022 before reversing with rate increases.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "Nareit",
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "T",
     "term": "Trust",
     "full": "",
     "plain": "A legal arrangement where one party holds property for another's benefit — common for estate planning, asset protection, and lending.",
@@ -7485,6 +8390,38 @@
     "sources": [
       "Cornell LII",
       "ALTA"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Trustee's Sale",
+    "full": "Foreclosure Sale, Power-of-Sale",
+    "plain": "The public auction held by the Trustee at the end of a Non-Judicial Foreclosure — sold to the highest bidder, often the Lender by credit bid.",
+    "snappy": "Public auction by the Trustee at the end of Non-Judicial Foreclosure.",
+    "detail": "Trustee's Sale closes Non-Judicial Foreclosure proceedings. The Trustee announces date, time, place, and minimum bid (usually the outstanding loan balance plus costs) through statutory notice publications. Anyone may bid; the highest bidder takes Title via Trustee's Deed. The Lender typically credit-bids up to the loan balance — taking the property at a paper price equal to debt rather than paying cash. Third-party investors compete only when they think market value exceeds the loan balance. Trustee's Sale proceeds beyond the loan amount go to the borrower (junior Lien holders first, then the borrower).",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "U",
+    "term": "Umbrella Insurance",
+    "full": "Personal Umbrella, Excess Liability",
+    "plain": "Additional liability coverage that sits above standard Homeowners Insurance and auto insurance — kicks in when primary policy limits are exhausted on a major claim.",
+    "snappy": "Additional liability coverage above standard Homeowners and auto policy limits.",
+    "detail": "Umbrella Insurance protects high-net-worth households against catastrophic-judgment exposure. Coverage typically starts at $1M and ranges to $10M+ for substantial-asset families. Premium: $200-$500/year for first $1M, declining marginal cost above. Triggers: at-fault auto accident with major bodily injury, slip-and-fall on the homeowner's property exceeding HO-3 limits, dog-bite injury, defamation claim. Pre-condition: maintain minimum primary coverage on auto ($250K/500K), Homeowners ($300K-$500K liability). Investment Real Estate owners often run separate commercial umbrella structures for each LLC.",
+    "indications": [
+      "Residential",
+      "Investment"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "CFPB"
     ]
   },
   {
