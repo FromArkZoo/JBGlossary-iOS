@@ -34,6 +34,39 @@
     ]
   },
   {
+    "letter": "3",
+    "term": "363 Sale",
+    "full": "Section 363 Sale",
+    "plain": "A bankruptcy court-approved Sale of property — under 11 USC §363 — letting a debtor sell assets free and clear of Liens during Chapter 11 reorganisation.",
+    "snappy": "Bankruptcy court-approved Sale of property free and clear of Liens.",
+    "detail": "363 Sales let bankruptcy debtors sell Real Estate (or operating businesses) during Chapter 11 with the protection of Bankruptcy Court approval. The Sale typically uses a stalking-horse-bidder structure: an initial bidder commits to a baseline price (with breakup fees if outbid), then a court-supervised auction allows higher bids. Approved Sales transfer property free and clear of pre-existing Liens — those Liens attach to the Sale proceeds instead. Common in: distressed Hotel and Retail Sales, struggling restaurant chains, post-bankruptcy asset disposal. 363 Sale buyers benefit from clean Title at significant discount.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "A-Note",
+    "full": "Senior Tranche, A-Piece",
+    "plain": "The senior portion of a sliced Commercial Mortgage — gets paid first from cash flow, absorbs losses last — sold separately from the junior B-Note.",
+    "snappy": "Senior portion of a sliced Commercial Mortgage — paid first, absorbs losses last.",
+    "detail": "A-Note structure splits a large Whole Loan into senior and junior pieces. The A-Note holder receives priority on cash flow and is shielded from junior-piece losses. Common pairings: institutional Lender holds A-Note for portfolio yield; opportunistic Investor or Loan-to-Own player holds B-Note for higher yield and Foreclosure exposure. Intercreditor Agreements between A-Note and B-Note holders govern decisions, defaults, and modifications. Common in: Mezzanine financing structures, syndicated Commercial Mortgages, CMBS senior-subordinate Bonds within a single Loan.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF",
+      "Cornell LII"
+    ]
+  },
+  {
     "letter": "A",
     "term": "Abstract of Title",
     "full": "",
@@ -122,6 +155,22 @@
   },
   {
     "letter": "A",
+    "term": "Actual Cash Value",
+    "full": "ACV",
+    "plain": "An insurance coverage standard paying current value — replacement cost minus Depreciation — leaving the policyholder with a coverage gap on older property.",
+    "snappy": "Insurance standard paying replacement cost minus Depreciation — older property underinsured.",
+    "detail": "Actual Cash Value (ACV) coverage subtracts Depreciation from replacement cost. A 30-year-old roof with a 25-year useful life has zero ACV — even if replacement costs $30,000. ACV is the default for: older property where Replacement Cost is unavailable or unaffordable, secondary residence policies, certain endorsements (Roof Damage Limits often only ACV on older roofs). Significantly cheaper than Replacement Cost but leaves policyholders with substantial uninsured loss exposure on Depreciation. Most policyholders should aim for Replacement Cost coverage where available.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Actual Notice",
     "full": "",
     "plain": "Direct, personal awareness of a fact — Tenant interests, prior claims, defects — that legally binds the party who knew, regardless of public records.",
@@ -134,6 +183,22 @@
     "category": "Title & Ownership",
     "sources": [
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "ACV",
+    "full": "Actual Cash Value",
+    "plain": "Common shorthand for Actual Cash Value — insurance coverage paying replacement cost minus Depreciation, leaving a gap on older property.",
+    "snappy": "Standard shorthand for Actual Cash Value insurance coverage.",
+    "detail": "ACV is the universal industry shorthand for Actual Cash Value coverage on Homeowners and commercial property Insurance. Policyholders and adjusters cite 'ACV' constantly in claim discussions. See Actual Cash Value for the Depreciation calculation and how it differs from Replacement Cost coverage.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "CFPB"
     ]
   },
   {
@@ -510,6 +575,55 @@
   },
   {
     "letter": "A",
+    "term": "ARC",
+    "full": "Architectural Review Committee",
+    "plain": "Common shorthand for an Architectural Review Committee — the HOA committee reviewing owner-proposed exterior modifications for aesthetic consistency.",
+    "snappy": "Standard shorthand for Architectural Review Committee in HOA governance.",
+    "detail": "ARC is universal HOA shorthand for Architectural Review Committee. Owners filing modification applications interact with the ARC; HOA boards delegate aesthetic-review authority to ARCs. See Architectural Review Committee for the substantive role, CC&R-based authority, and tensions over solar panels and other recent technology installations.",
+    "indications": [
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Architectural Review Committee",
+    "full": "ARC",
+    "plain": "An HOA committee that reviews owner-proposed exterior modifications to property — paint, fences, additions, landscaping — and approves or denies to maintain neighbourhood aesthetics.",
+    "snappy": "HOA committee reviewing owner exterior modifications for aesthetic consistency.",
+    "detail": "Architectural Review Committees (ARC) gatekeep exterior changes in HOA communities. Owners submit applications for paint colour, fence type, addition, landscaping, solar panels, satellite dishes, etc. The ARC reviews against CC&R requirements and committee guidelines. Approval typically required before work begins. Tensions: ARC denials sometimes feel arbitrary; CC&R language often vague. State laws increasingly restrict ARC authority over: solar panels (Solar Easement statutes), satellite dishes (federal FCC OTARD rule), American flags. Aggressive ARCs face complaints, legal challenges, and reform. Moderate ARCs balance aesthetic consistency with owner autonomy.",
+    "indications": [
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Area Median Income",
+    "full": "AMI",
+    "plain": "The middle income level for households in a defined geographic area — used by HUD and state agencies to set Affordable Housing income limits and program eligibility.",
+    "snappy": "HUD-published middle income level for a geographic area, used for Affordable Housing eligibility.",
+    "detail": "Area Median Income (AMI) is published annually by HUD for every metropolitan area. Affordable Housing programs set income limits as percentages of AMI: 30% AMI (very low income), 50% AMI (low income), 60% AMI (LIHTC threshold), 80% AMI (workforce housing), 120% AMI (middle income). AMI varies wildly by metro: $50,000-$60,000 in low-cost metros, $130,000-$160,000 in high-cost metros. LIHTC, Section 8, USDA, FHA programs all key eligibility off AMI percentages.",
+    "indications": [
+      "Affordable",
+      "Residential",
+      "Public Sector"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "HUD"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "ARM",
     "full": "Adjustable-Rate Mortgage",
     "plain": "A common shorthand for an Adjustable-Rate Mortgage.",
@@ -623,6 +737,21 @@
   },
   {
     "letter": "A",
+    "term": "Assignment of Lease",
+    "full": "Lease Assignment",
+    "plain": "Transfer of a Tenant's Lease rights to a third party — distinct from Sublease (Tenant remains primarily liable) — Landlord consent typically required.",
+    "snappy": "Transfer of Tenant Lease rights to a third party — full transfer, Landlord consent required.",
+    "detail": "Assignment of Lease shifts full Tenant rights and obligations to a new party (the assignee). The original Tenant typically remains contingently liable but Landlord's recourse focuses on the assignee. Mechanics: Tenant identifies prospective assignee, submits financials and intended use to Landlord, Landlord consents or refuses (some Leases impose reasonableness standard). Common in: business sales (assignor wants to transfer their location), consolidation (assignor moving but doesn't want recapture), franchise transitions. Tenant guarantees and original Tenant continuing liability are heavily negotiated.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Assisted Living",
     "full": "ALF, Assisted Living Facility",
     "plain": "Senior Housing for residents who need help with daily activities — bathing, dressing, medication — but not full nursing care — staffed 24/7 with care aides.",
@@ -651,6 +780,53 @@
     "sources": [
       "VA",
       "FHA"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Audit Right",
+    "full": "Tenant Audit Right",
+    "plain": "A Lease provision letting the Tenant audit the Landlord's Operating Expense and CAM calculations — typically limited to 90-180 days after annual reconciliation.",
+    "snappy": "Lease provision letting Tenant audit Landlord's Operating Expense and CAM calculations.",
+    "detail": "Audit Rights protect Commercial Tenants from CAM overcharges. Standard provision: Tenant can audit the Landlord's books and records for Operating Expense and CAM line items, typically within 90-180 days after annual CAM Reconciliation. Auditor selection: Tenant's choice but Landlord must consent (often pre-approved firms). Cost allocation: Tenant pays audit cost unless overcharge exceeds threshold (typically 3-5%), in which case Landlord reimburses. Findings: incorrectly billed items get refunded or credited; ongoing methodology disputes resolve through negotiation or litigation. Audit Right exercises spike in soft Office markets.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "IREM"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "BFP",
+    "full": "Bona Fide Purchaser",
+    "plain": "Common shorthand for Bona Fide Purchaser — a buyer for value without notice of competing claims, protected by Title-Recording statutes.",
+    "snappy": "Standard shorthand for Bona Fide Purchaser in Title law.",
+    "detail": "BFP is universal industry shorthand for Bona Fide Purchaser. Real Estate attorneys, Title Insurance underwriters, and litigation specialists all use 'BFP' constantly. See Bona Fide Purchaser for the substantive doctrine — purchase for value, without notice, with proper recording.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "B-Note",
+    "full": "Subordinate Tranche, B-Piece",
+    "plain": "The junior portion of a sliced Commercial Mortgage — paid after the A-Note, absorbs losses first — higher yield as compensation for higher risk.",
+    "snappy": "Junior portion of a sliced Commercial Mortgage — paid second, absorbs losses first.",
+    "detail": "B-Note holders take first-loss position on a sliced Commercial Mortgage. Pricing: 200-400 basis points higher than the A-Note to compensate for subordination. B-Note holders care about loan structure and underwriting because they take first hits in distress — they earn workout control rights in many intercreditor structures. CMBS B-Piece buyers (LNR Partners, Rialto, Torchlight) gain Special Servicer rights on loans within their CMBS deals — substantial fee streams plus the ability to direct workouts. The B-Piece market thinned post-2008 but remains essential to CMBS issuance.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF"
     ]
   },
   {
@@ -740,6 +916,23 @@
   },
   {
     "letter": "B",
+    "term": "Bankruptcy Remote",
+    "full": "Bankruptcy-Remote Entity",
+    "plain": "A legal structure designed to insulate a property from the parent company's bankruptcy — typically a Single-Purpose Entity holding the Real Estate with independent governance.",
+    "snappy": "Legal structure insulating a property from parent-company bankruptcy.",
+    "detail": "Bankruptcy Remoteness is a structural requirement of nearly every CMBS Loan and many institutional Real Estate financings. The structure: a Single-Purpose Entity (SPE) holds just the Real Estate, with independent directors who must consent to bankruptcy filing, no other business or debt, restricted operations to property ownership. The goal: the property survives even if the parent or affiliates fail. Substantive consolidation risk: courts can pierce the SPE in egregious commingling cases, but bankruptcy-remote structuring substantially reduces the risk.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII",
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "Bargain and Sale Deed",
     "full": "",
     "plain": "A Deed conveying property with implied (but not explicit) ownership warranty — the grantor implies they own the property but warrants nothing further.",
@@ -800,6 +993,22 @@
     "category": "Title & Ownership",
     "sources": [
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "BIA",
+    "full": "Bureau of Indian Affairs",
+    "plain": "The federal agency within the Department of the Interior administering federal Indian policy and managing Tribal Trust Land — including Land transactions, leasing, environmental reviews.",
+    "snappy": "Federal agency managing Tribal Trust Land transactions and federal Indian policy.",
+    "detail": "BIA (1824, now within the Department of the Interior) administers federal Indian policy and manages Tribal Trust Land. Functions: approve land transactions on Trust Land (Sales, Leases, mortgages), maintain real-property records, conduct appraisals, oversee environmental review, manage trust funds. Land transactions on Trust Land are typically slow (months to years for BIA approval) and complex. The Indian Mineral Leasing Act, Indian Land Consolidation Act, and Land into Trust process all flow through BIA. Many tribes have negotiated self-governance compacts allowing tribal administration of certain BIA functions.",
+    "indications": [
+      "Land",
+      "Public Sector"
+    ],
+    "category": "Law & Regulation",
+    "sources": [
+      "HUD"
     ]
   },
   {
@@ -1525,6 +1734,22 @@
   },
   {
     "letter": "C",
+    "term": "CC&R",
+    "full": "Covenant, Condition, and Restriction (singular)",
+    "plain": "Singular form of CC&Rs — a recorded restriction on how a property can be used or modified, common in HOA and Condo neighbourhoods.",
+    "snappy": "Singular form of CC&R — a Recorded property-use restriction.",
+    "detail": "CC&R is the singular form of CC&Rs. Real Estate practitioners use both freely in conversation. A single CC&R might restrict paint colours, fence types, or commercial use; collectively the CC&Rs form the governing documents alongside the Condo Declaration and Bylaws. See CC&Rs for the substantive role in HOA and Condo governance, enforcement mechanisms, and Recordation requirements.",
+    "indications": [
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "CC&Rs",
     "full": "Covenants, Conditions, and Restrictions",
     "plain": "The rule book of a HOA or planned community — covers what owners can do with their property and what they pay.",
@@ -1537,6 +1762,23 @@
     "sources": [
       "NAR",
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "CC&Rs Enforcement",
+    "full": "Covenant Enforcement",
+    "plain": "The HOA's or Condo's process of enforcing CC&R restrictions against owners who violate — paint colours, parking, fences, additions — via fines, Liens, and ultimately legal action.",
+    "snappy": "HOA/Condo process of enforcing CC&R restrictions through fines, Liens, and legal action.",
+    "detail": "CC&Rs Enforcement varies sharply by HOA culture and state law. Typical escalation: written notice of violation, hearing before HOA board, fines (often $25-$200 per violation, cumulative over time), Lien filing against the property if fines unpaid, ultimately Foreclosure on the HOA Lien. Many states (California, Florida, Texas) impose limits on fine size and procedure to prevent abuse. Recent decade has seen pushback against aggressive HOAs imposing draconian fines for trivial violations (paint colours, holiday decorations, lawn maintenance). Critics: HOA enforcement creates disproportionate burdens on lower-income or non-traditional homeowners.",
+    "indications": [
+      "Residential",
+      "Multifamily"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII",
+      "HUD"
     ]
   },
   {
@@ -1636,6 +1878,37 @@
     "category": "Development",
     "sources": [
       "NAHB"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Chapter 11 Bankruptcy",
+    "full": "Chapter 11",
+    "plain": "Federal bankruptcy reorganisation — a debtor in distress restructures its debts and continues operating, eventually emerging with renegotiated obligations.",
+    "snappy": "Federal bankruptcy reorganisation — restructure debts while continuing to operate.",
+    "detail": "Chapter 11 lets Real Estate-heavy debtors (Hotels, Retail chains, Office building owners) restructure while preserving operating value. Debtor files petition; automatic stay halts creditor actions; court oversees plan of reorganisation. Property: typically retained by debtor; rejected Leases discharged; modified Leases continue. Cramdown lets the court approve plans over creditor objection if 'fair and equitable'. Notable Real Estate Chapter 11s: General Growth Properties (2009), Toys R Us (2017-2018), Bed Bath & Beyond (2023). Distinct from Chapter 7 (liquidation).",
+    "indications": [
+      "Commercial",
+      "Hospitality"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Chapter 7 Bankruptcy",
+    "full": "Chapter 7",
+    "plain": "Federal bankruptcy liquidation — a debtor's assets are sold and proceeds distributed to creditors — the debtor entity ceases to exist.",
+    "snappy": "Federal bankruptcy liquidation — assets sold, proceeds distributed, entity ceases.",
+    "detail": "Chapter 7 is the liquidation flavour of bankruptcy. Trustee appointed to liquidate debtor's assets; proceeds distributed to creditors per statutory priority (secured creditors first, then priority unsecured, then general unsecured). Real Estate held by Chapter 7 debtors typically sells at 363 Sales (court-approved auctions). Distinct from Chapter 11 (reorganisation while continuing operations). Common in: small-business Chapter 7s where reorganisation is unviable, individual consumer bankruptcies (most US bankruptcies). Real Estate ownership generally cannot continue post-Chapter 7 — Trustee Sales the property.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Cornell LII"
     ]
   },
   {
@@ -1852,6 +2125,22 @@
     "category": "Market & Investment",
     "sources": [
       "ULI"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Co-Insurance",
+    "full": "Coinsurance Clause",
+    "plain": "An insurance contract provision requiring the policyholder to insure the property to a specified percentage of value — typically 80% — or face a penalty proportional to underinsurance.",
+    "snappy": "Insurance provision requiring coverage to a specified percentage of value, or penalty applies.",
+    "detail": "Co-Insurance penalises underinsured policyholders. Typical clause: 80% Co-Insurance — policyholder must insure to at least 80% of property replacement cost. If actual coverage falls below the threshold, claim payment is reduced proportionally. Example: property worth $1M, 80% Co-Insurance requires $800K coverage; if owner insures to only $400K, claims pay 50% of loss (400K/800K = 50% Co-Insurance fulfillment). Co-Insurance is common on commercial property; agreed-value or eliminated-coinsurance endorsements are available at higher premium. Policyholders must update coverage as property values rise.",
+    "indications": [
+      "Commercial",
+      "Residential"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "IREM"
     ]
   },
   {
@@ -2183,6 +2472,24 @@
   },
   {
     "letter": "C",
+    "term": "Conservation Easement",
+    "full": "",
+    "plain": "A voluntary, permanent Easement restricting the development or use of Land — granted to a land Trust or government in exchange for an income tax deduction equal to the development-rights value.",
+    "snappy": "Voluntary permanent Easement restricting development, generating tax deduction for grantor.",
+    "detail": "Conservation Easements protect Land while generating tax benefits. The landowner grants restrictive Easement (no development, agricultural-only use, view preservation) to a qualified land Trust or government entity. The reduction in property value (development rights restricted) creates a federal income-tax deduction. Land Trust holders include The Nature Conservancy, regional land trusts. Tax abuse: 'syndicated conservation easements' inflate development-rights appraisals to generate paper tax losses far exceeding economic substance. IRS has aggressively pursued syndicated easements since 2020; criminal indictments multiple appraisers and promoters.",
+    "indications": [
+      "Land",
+      "Investment",
+      "Public Sector"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Construction Loan",
     "full": "",
     "plain": "A short-term loan that funds the building of a new property — draws cash as the work progresses.",
@@ -2448,6 +2755,22 @@
     "category": "Title & Ownership",
     "sources": [
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Coworking",
+    "full": "Co-Working Space",
+    "plain": "A shared Office Tenant model — multiple companies and freelancers share a single workspace under flexible memberships — pioneered by WeWork, Regus, Industrious.",
+    "snappy": "Shared Office Tenant model — multiple companies share workspace under flexible memberships.",
+    "detail": "Coworking emerged in the 2000s and accelerated 2010-2020 before WeWork's collapse and post-2020 hybrid-work disruption. Models: dedicated desks (assigned), hot desks (rotating), private offices within shared facility, virtual office (mailing address + occasional access). Members: freelancers, small startups, satellite teams of larger companies, project teams. Major operators: Regus (oldest, largest), WeWork (peaked 2019), Industrious, Spaces, Convene, Workspring. Cap Rate impact: Coworking-anchored Office buildings face Tenant-concentration risk; primary Tenant credit-quality drops; some institutional Lenders restrict Coworking exposure.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "ULI"
     ]
   },
   {
@@ -2814,6 +3137,22 @@
   },
   {
     "letter": "D",
+    "term": "DIP Financing",
+    "full": "Debtor-in-Possession Financing",
+    "plain": "Special Loan financing extended to a company in Chapter 11 bankruptcy — has Super-Senior priority over pre-petition Lenders, letting the company continue operating during reorganisation.",
+    "snappy": "Bankruptcy financing with Super-Senior priority over pre-petition Lenders.",
+    "detail": "DIP Financing keeps Chapter 11 debtors operational during reorganisation. Pre-petition Lenders typically agree to subordinate to DIP debt (or themselves provide DIP financing). Pricing: substantially above-market — typical DIP rates 10-15% in 2024 — given the borrower's distressed state. Court approval required for DIP Financing terms. Common in: hotel Chapter 11s (during 2020), retail Chapter 11s, large commercial workouts. DIP Lenders monitor borrower operations closely; reorganisation plans typically convert DIP into exit financing.",
+    "indications": [
+      "Commercial",
+      "Hospitality"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "Direct Capitalization",
     "full": "Direct Cap",
     "plain": "A simple valuation method: take a property's NOI for one year and divide by the market Cap Rate to get value.",
@@ -3126,6 +3465,22 @@
   },
   {
     "letter": "E",
+    "term": "Earthquake Endorsement",
+    "full": "EQ Endorsement",
+    "plain": "An optional addition to Homeowners Insurance covering earthquake damage — typically with high deductibles (10-25% of dwelling value) and limited coverage scope.",
+    "snappy": "Optional Homeowners Insurance addition for earthquake damage — high deductibles, limited scope.",
+    "detail": "Earthquake Endorsements supplement standard Homeowners Insurance which excludes earthquake. Deductibles: 10-25% of dwelling coverage value — much higher than standard policy deductibles. Coverage scope: dwelling damage only, some endorsements include contents; loss-of-use coverage variable. Premium: $1,500-$5,000+/year in California, less in moderate-risk states (Washington, Oregon, Utah, Missouri). Most Homeowners decline EQ Endorsements due to cost. California Earthquake Authority dominates that state's EQ market; private endorsements available in lower-risk states. Mortgage Lenders typically don't require EQ Endorsements.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Earthquake Insurance",
     "full": "EQ Insurance",
     "plain": "Insurance covering damage from earthquake events — separate from Homeowners Insurance, mostly provided through the California Earthquake Authority in California or as private endorsements elsewhere.",
@@ -3408,6 +3763,23 @@
     "sources": [
       "ULI",
       "NAHB"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Environmental Insurance",
+    "full": "Environmental Impairment Liability, EIL",
+    "plain": "Insurance covering Real Estate owners against pollution and contamination claims — historical, current, or unknown — distinct from standard CGL which excludes pollution.",
+    "snappy": "Insurance covering Real Estate against pollution and contamination claims excluded from CGL.",
+    "detail": "Environmental Insurance fills the pollution exclusion gap in standard CGL policies. Coverage: discovery of pre-existing contamination on owned property, third-party claims from migrating contamination, regulatory remediation costs, post-acquisition environmental liability. Common scenarios: former gas-station Lot redevelopment, dry cleaner property acquisition, industrial site purchase. Premium: highly variable, dependent on property history and current use; 0.5-3% of property value annually for high-risk sites. Major carriers: Liberty Mutual, AIG, Chubb. Brownfield redevelopment particularly depends on environmental insurance.",
+    "indications": [
+      "Commercial",
+      "Industrial",
+      "Development"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "CFPB"
     ]
   },
   {
@@ -3833,6 +4205,24 @@
   },
   {
     "letter": "F",
+    "term": "FIRPTA",
+    "full": "Foreign Investment in Real Property Tax Act",
+    "plain": "The federal law requiring foreign Real Estate sellers to have 15% of Sale Price withheld at Closing — collected toward potential US federal Capital Gain tax.",
+    "snappy": "Federal law requiring 15% withholding from foreign Real Estate sellers at Closing.",
+    "detail": "FIRPTA (1980) treats Real Property gains by foreign persons as US-sourced income. The buyer or Closing Agent withholds 15% of Sale Price and remits to the IRS within 20 days. Reduced or zero withholding available with IRS Form 8288-B (withholding certificate) where the actual tax liability would be lower. Foreign sellers can recover overpayment through later US tax return. Affects: foreign nationals selling US property, foreign corporations, foreign-controlled US entities. FIRPTA reduces foreign investor appetite for direct US Real Estate ownership; many use US-corporation blockers to manage.",
+    "indications": [
+      "Residential",
+      "Commercial",
+      "Cross-sector"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "F",
     "term": "Fixed-Rate Mortgage",
     "full": "",
     "plain": "A Mortgage whose interest rate stays the same for the entire loan term — payment never changes.",
@@ -3880,6 +4270,22 @@
     "sources": [
       "NCREIF",
       "BOMA"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "Flex Office",
+    "full": "Flexible Office Space",
+    "plain": "Office space leased under flexible short-term terms — Coworking memberships, short-term subleases, on-demand meeting rooms — distinct from traditional 5-10 year Office Leases.",
+    "snappy": "Office space under flexible short-term terms — Coworking, subleases, on-demand meeting rooms.",
+    "detail": "Flex Office grew as Office Tenants sought to match space to actual headcount in hybrid-work era. Standard formats: month-to-month memberships, 3-12 month leases through Coworking operators, on-demand meeting rooms (via Convene, LiquidSpace platforms), sublease takeovers with shortened terms. Tenant benefits: avoid long-term commitments, scale up/down with team size. Landlord challenges: lower per-square-foot revenue than traditional Leases, Tenant concentration in operating partners (WeWork, Industrious), credit-quality concerns. Post-2020 hybrid-work trends accelerated Flex Office adoption; major Office investors now budget Flex Office in pro formas.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "ULI"
     ]
   },
   {
@@ -3965,6 +4371,21 @@
   },
   {
     "letter": "F",
+    "term": "Force Majeure",
+    "full": "Force Majeure Clause",
+    "plain": "A Lease provision excusing Landlord or Tenant from performance during specific extraordinary events — hurricanes, wars, government orders — without breach.",
+    "snappy": "Lease provision excusing performance during extraordinary events without breach.",
+    "detail": "Force Majeure clauses allocate risk for events beyond either party's control. Standard scope: natural disasters (hurricane, fire, earthquake), wars, terrorism, government orders, strikes. Pre-2020, Force Majeure rarely invoked outside acts of God. The COVID-19 government shutdowns 2020 triggered Force Majeure disputes across Retail and restaurant Leases — courts often interpreted narrowly against Tenants. Post-2020 Lease drafting explicitly addresses pandemic, government shutdown, and supply-chain failure. Tenant burden: prove Force Majeure prevented specific lease obligations. Force Majeure typically doesn't excuse Rent payment unless explicitly stated.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "F",
     "term": "Foreclosure",
     "full": "",
     "plain": "The legal process by which a Lender takes back a property after the borrower stops paying the Mortgage.",
@@ -3993,6 +4414,23 @@
     ],
     "category": "Financing & Lending",
     "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "Foreign Buyer",
+    "full": "Foreign National Buyer",
+    "plain": "A non-US-resident individual or entity purchasing US Real Estate — subject to FIRPTA on Sale, restrictions in some states, and specific Title and tax compliance requirements.",
+    "snappy": "Non-US-resident individual or entity purchasing US Real Estate.",
+    "detail": "Foreign Buyer activity in US Real Estate concentrates in: gateway cities (NYC, Miami, San Francisco, Los Angeles), luxury condos (Manhattan, Florida coast), commercial trophy assets, distressed-debt opportunities. Major buyer countries: Canada (largest residential buyer source), China, Mexico, India, Brazil. Restrictions: Florida 2023 SB 264 banned certain Chinese buyers from buying near military bases; similar laws spread through state legislatures. Tax: ITIN required for sellers, FIRPTA withholding at Sale (15% of Sale Price typically), special partnership-level withholding on K-1 income. Title companies require additional documentation (passport, foreign tax ID) for foreign buyers.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Transactions",
+    "sources": [
+      "IRS",
       "Cornell LII"
     ]
   },
@@ -4547,6 +4985,21 @@
   },
   {
     "letter": "H",
+    "term": "Holdover Penalty Rent",
+    "full": "Holdover Rent",
+    "plain": "An elevated Rent — typically 125-200% of contract Rent — that applies to Tenants who remain in possession after Lease expiration without Landlord consent.",
+    "snappy": "Elevated Rent (125-200% of contract) applied to Tenants holding over past Lease end.",
+    "detail": "Holdover Penalty Rent gives Landlords financial leverage against Holdover Tenants. Common provisions: 125% of holdover Rent for first month of holdover, 150-200% thereafter. Provides strong incentive for Tenant departure or quick Lease renewal. Tenant pushback: Landlords sometimes implicitly encourage holdover (accepting normal Rent for several months) only to assert penalty Rent later. Courts apply contract terms strictly. Holdover for less than two months often resolves with month-to-month Rent at penalty rates; longer holdovers may trigger Eviction proceedings. Residential Leases have weaker holdover provisions due to consumer-protection law.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "H",
     "term": "Holdover Tenant",
     "full": "",
     "plain": "A Tenant who stays in the property after the Lease has ended — without a new agreement.",
@@ -4611,6 +5064,22 @@
   },
   {
     "letter": "H",
+    "term": "Hot Desk",
+    "full": "Hot-Desking",
+    "plain": "An Office workplace strategy where workers don't have assigned desks — they reserve or take any available workspace each day — reducing total real estate footprint per employee.",
+    "snappy": "Office strategy without assigned desks — workers take any available workspace each day.",
+    "detail": "Hot Desking emerged from cost-reduction pressure and accelerated post-2020 hybrid work. Standard assumption: 60-70% utilisation rate for any given desk (employees sick, travelling, in meetings, working from home), so 100 desks support 130-150 employees in a hot-desk regime. Implementation: booking apps (Robin, Skedda), assigned-by-day systems, first-come-first-served pools. Pros: dramatic real-estate cost reduction ($10K-$25K per employee per year savings). Cons: loss of personalisation, productivity concerns from setup time, employee morale issues. Hot Desking dominates large-corporate Office strategy 2020-2024.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "ULI"
+    ]
+  },
+  {
+    "letter": "H",
     "term": "Hotel",
     "full": "Hospitality Property",
     "plain": "A property with rooms rented by the night to travellers — Hotels are a commercial Real Estate asset class with the most volatile income of any sector.",
@@ -4639,6 +5108,21 @@
       "Commercial"
     ],
     "category": "Leasing",
+    "sources": [
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "Hoteling",
+    "full": "Hotelling",
+    "plain": "An Office variant of Hot Desking where workers reserve desks for specific days or hours — like booking a Hotel room — managed through workplace booking software.",
+    "snappy": "Reservation-based Hot Desking — workers book desks for specific days or hours.",
+    "detail": "Hoteling adds structure to Hot Desking. Workers reserve specific desks or workstations in advance through booking systems (Robin, Skedda, Officespace). Reservation periods: full day, half day, by-hour blocks. Pros over pure Hot Desking: predictability, ability to coordinate teams in same area, reduced morning friction. Cons: requires technology investment, employee adoption challenges, scheduling complexity. Common implementations: consulting firms (Deloitte, EY), tech companies (corporate divisions), distributed-workforce firms transitioning to hybrid. Building infrastructure: wayfinding signage, individual storage lockers, IT plug-and-play setup at all desks.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Property Types",
     "sources": [
       "NCREIF"
     ]
@@ -4817,6 +5301,23 @@
   },
   {
     "letter": "I",
+    "term": "Industrial Revenue Bond",
+    "full": "IRB",
+    "plain": "A tax-exempt municipal bond issued by state or local authorities to finance industrial Development — proceeds go to private companies, debt service paid by those companies.",
+    "snappy": "Tax-exempt municipal bond financing private industrial Development.",
+    "detail": "Industrial Revenue Bonds (IRBs) channel tax-exempt financing to private industrial Development. The state or local issuer authority issues bonds; proceeds flow to a private company (often a manufacturer); the company makes lease or loan payments to the issuer, who uses them to service the bonds. Tax-exempt status: bond interest is exempt from federal income tax (and often state), letting the company access lower-rate financing. Federal cap: $10M per project, $20M per state per year (under the 1986 Tax Reform Act). Activity slowed since the federal cap, but IRBs remain popular for medium-sized industrial expansions.",
+    "indications": [
+      "Industrial",
+      "Development"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "IRS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "I",
     "term": "Infill",
     "full": "Infill Development",
     "plain": "Building on vacant or underused parcels inside existing developed areas — distinct from greenfield expansion at the edge.",
@@ -4831,6 +5332,22 @@
     "sources": [
       "ULI",
       "NAHB"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Inland Marine Insurance",
+    "full": "Inland Marine",
+    "plain": "Insurance covering Commercial Real Estate property in transit, on temporary locations, or otherwise not at a fixed location — historically maritime-related, now broader scope.",
+    "snappy": "Insurance covering property in transit or at temporary locations — broader than standard property.",
+    "detail": "Inland Marine Insurance covers movable Commercial Real Estate exposure: construction materials in transit and on-site before Builder's Risk applies, temporary structures, Tenant property at off-site locations, computer equipment portable across locations, audiovisual gear at events. Historical origin: maritime cargo insurance, expanded to inland transport. Modern scope: any property exposure that doesn't fit cleanly into standard property insurance. Real Estate uses: construction-phase coverage gaps, Hotel mobile FF&E, event-Tenant equipment, satellite-Office mobile assets. Premium typically modest relative to standard property insurance.",
+    "indications": [
+      "Commercial",
+      "Development"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "CFPB"
     ]
   },
   {
@@ -5036,6 +5553,22 @@
     "sources": [
       "IRS",
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "ITIN",
+    "full": "Individual Taxpayer Identification Number",
+    "plain": "The IRS-issued tax identification number for individuals who can't get a Social Security Number — used by foreign Real Estate sellers, foreign investors, and some immigrants for tax filings.",
+    "snappy": "IRS tax ID for individuals without Social Security Numbers — foreign sellers, investors.",
+    "detail": "ITIN (Individual Taxpayer Identification Number) lets non-SSN-eligible individuals file US tax returns. Application: IRS Form W-7 with passport or other identification documents, often facilitated by Certifying Acceptance Agents. Real Estate uses: foreign Real Estate sellers filing US returns for FIRPTA-withheld amounts, foreign investors filing partnership K-1 income, undocumented immigrants paying taxes despite SSN restrictions. ITIN doesn't authorise employment or grant immigration status. Renewal required every few years if not used on returns. Major source of foreign-investor tax compliance.",
+    "indications": [
+      "Investment",
+      "Cross-sector"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS"
     ]
   },
   {
@@ -5699,6 +6232,22 @@
   },
   {
     "letter": "L",
+    "term": "Loan-to-Own",
+    "full": "Loan to Own",
+    "plain": "A distressed-investing strategy of buying a Loan at discount specifically to acquire the property through Foreclosure — taking ownership at the discounted-Loan basis.",
+    "snappy": "Strategy of buying a distressed Loan to acquire the property via Foreclosure.",
+    "detail": "Loan-to-Own strategies emerge in distressed cycles. The investor buys an NPL or sub-performing Loan at 40-70% of face value, then pursues Foreclosure to take the property at that discounted basis. Pros: typically lower basis than buying the property directly from a stressed Sponsor (who has limited urgency to fire-Sale). Cons: Foreclosure timeline (6-24+ months), borrower contestation, environmental and Title risk inherent to acquired-via-Foreclosure property. Requires distressed-debt expertise plus property operational chops. Sponsors of Loan-to-Own funds: Brookfield, KKR, Lone Star, Blackstone Real Estate Debt Strategies.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Loan-to-Value",
     "full": "LTV",
     "plain": "The full spelling of LTV — the loan balance as a percentage of the property's Appraised Value.",
@@ -6149,6 +6698,23 @@
   },
   {
     "letter": "M",
+    "term": "Mezzanine Note",
+    "full": "Mezz Note",
+    "plain": "The debt instrument representing Mezzanine Loan obligations — secured by entity-ownership pledge rather than the property itself.",
+    "snappy": "Debt instrument for Mezzanine Loan obligations — secured by entity ownership.",
+    "detail": "Mezzanine Notes document the obligations under a Mezzanine Loan. Structurally: borrower entity (typically the parent LLC owning the property-owning SPE) signs the Note pledging the membership interests in the property-owning SPE as collateral. On Default, the Mezzanine Lender forecloses on the entity ownership — taking control of the property indirectly through the chain of ownership. Mezzanine Notes coordinate with senior Mortgage via Intercreditor Agreement. Maturity often matches the senior Mortgage. Pricing: 9-14% in 2024 rates, with 2-5 points origination plus exit fees.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Mid-Rise Apartment",
     "full": "Mid-Rise Multifamily",
     "plain": "Multifamily of 4-7 stories — taller than Garden Apartment, shorter than High-Rise — typically wood-frame above podium concrete in growth markets, full concrete in dense urban.",
@@ -6194,6 +6760,22 @@
     "sources": [
       "FHA",
       "HUD"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Mitigation of Damages",
+    "full": "Duty to Mitigate",
+    "plain": "A Landlord's legal duty — in some states — to mitigate Rent losses when a Tenant defaults or breaks a Lease — must make reasonable efforts to re-lease the space.",
+    "snappy": "Landlord legal duty to mitigate Rent losses when Tenant defaults — must re-lease the space.",
+    "detail": "Mitigation of Damages doctrine varies by state. Tenant-favourable states (California, New York commercial, Texas residential): Landlord must make reasonable efforts to re-lease abandoned space; failure to do so reduces damages claimable from breaching Tenant. Landlord-favourable states (some southern, midwestern jurisdictions): Landlord can sit on the space and claim accelerated Rent through Lease expiration. Reasonable mitigation includes: listing the space at market Rent, advertising, accepting reasonable replacement Tenants. Failure to mitigate exposes Landlord to damages reduction or summary judgment dismissal of claims.",
+    "indications": [
+      "Commercial",
+      "Residential"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "Cornell LII"
     ]
   },
   {
@@ -6464,6 +7046,22 @@
       "Fannie Mae",
       "Freddie Mac",
       "NCREIF"
+    ]
+  },
+  {
+    "letter": "N",
+    "term": "Named Storm Deductible",
+    "full": "Hurricane Deductible",
+    "plain": "A separate, larger insurance deductible that applies only to named-storm losses — typically 1-10% of dwelling coverage rather than a fixed dollar amount.",
+    "snappy": "Separate insurance deductible for named-storm losses — typically 1-10% of coverage.",
+    "detail": "Named Storm Deductibles emerged after Hurricane Andrew (1992) reshaped Florida insurance. Standard Homeowners deductible: $500-$2,500 fixed. Named Storm Deductible: 2-10% of dwelling coverage — typically $4,000-$40,000+ on a $400,000 home. Triggered by: NOAA-named tropical systems (storms, hurricanes) impacting the property. Standard in Florida, Texas, Louisiana, Mississippi, and increasingly the Atlantic coast. Mortgage Lenders require coverage including Named Storm but often don't require lower deductibles. Policyholders should review Named Storm Deductible amounts annually — they reset against current dwelling values.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "CFPB"
     ]
   },
   {
@@ -6767,6 +7365,23 @@
   },
   {
     "letter": "N",
+    "term": "Note Sale",
+    "full": "Loan Sale",
+    "plain": "The transaction where a Lender sells a Mortgage to another investor — often at a discount to face value when the Loan is performing poorly or the Lender wants to exit.",
+    "snappy": "Lender selling a Mortgage to another investor, often at a discount to face value.",
+    "detail": "Note Sales let Lenders monetise non-core or distressed Loans. Categories: performing Note Sales (Lender exiting a market or asset class), Sub-Performing Note Sales (Loan paying but with risk), Non-Performing Loan (NPL) Sales (Loan in Default or imminent). Discount to face value: 0-5% for performing, 10-30% for sub-performing, 25-60% for NPL. Buyers: opportunistic Real Estate funds, specialty Loan investors, large institutional balance sheets. Major brokers: Mission Capital Advisors, Eastdil Secured, JLL Note Sales. The 2008-2012 cycle drove the largest US Note Sale volume; 2023-2024 commercial-loan cycle reviving the market.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF",
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "N",
     "term": "Notice of Default",
     "full": "NOD",
     "plain": "The Lender's first formal step in Foreclosure — a recorded notice telling the borrower the loan is in Default and demanding cure within a statutory period.",
@@ -6796,6 +7411,23 @@
     "category": "Market & Investment",
     "sources": [
       "NCREIF"
+    ]
+  },
+  {
+    "letter": "N",
+    "term": "NPL",
+    "full": "Non-Performing Loan",
+    "plain": "A Mortgage in or near Default — 90+ days delinquent on payments — sold at deep discount to opportunistic investors who pursue Workout or Foreclosure.",
+    "snappy": "Mortgage in Default — 90+ days delinquent, traded at deep discount to face value.",
+    "detail": "NPL designation typically applies at 90+ days delinquent. Banks and institutional Lenders sell NPLs to opportunistic investors at 25-60% discount to face value. NPL buyer strategies: (1) Workout — negotiate modified terms with borrower for partial recovery. (2) Discounted Payoff — accept lump-sum at deeper discount. (3) Loan-to-Own — drive borrower into Foreclosure, take property at NPL purchase basis. (4) Note Sale to next buyer at marginally smaller discount. Major NPL investors: Wilbur Ross post-2008, Blackstone Real Estate Debt Strategies, Brookfield, Lone Star Funds. Resurging activity in 2023-2024 commercial cycle.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF",
+      "Investopedia"
     ]
   },
   {
@@ -6868,6 +7500,22 @@
   },
   {
     "letter": "O",
+    "term": "Office Densification",
+    "full": "",
+    "plain": "An Office strategy reducing square footage per employee — through Hot Desking, Open Office, Hoteling — to lower Real Estate costs.",
+    "snappy": "Office strategy reducing square footage per employee through Hot Desking and Open Office.",
+    "detail": "Office Densification accelerated 2015-2020 then reversed somewhat post-2020. Standard metrics: pre-2010 Office at 250-350 SF per employee; densified Office at 150-200 SF; aggressive densification at 100-150 SF. Hot Desking layers on top: 100 desks supporting 130-150 employees, dropping effective SF per employee further. Drivers: rising Office Rent, executive cost pressure, sustainability messaging. Pushback post-2020: hybrid work makes total Office demand uncertain; densification reduces space per employee but employees often work elsewhere half the time. Net effect: lower Office Rent demand in nearly every major market.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "BOMA"
+    ]
+  },
+  {
+    "letter": "O",
     "term": "OpCo",
     "full": "Operating Company",
     "plain": "The operating-business entity in an OpCo/PropCo structure — holds operating contracts, employees, FF&E, brand affiliations — distinct from the property-owning PropCo.",
@@ -6882,6 +7530,22 @@
     "sources": [
       "NCREIF",
       "ULI"
+    ]
+  },
+  {
+    "letter": "O",
+    "term": "Open Office",
+    "full": "Open Plan Office",
+    "plain": "An Office layout with minimal walls and partitions — large shared workspaces with desks in clusters or rows — popular 2000s-2020s before backlash drove hybrid configurations.",
+    "snappy": "Office layout with minimal walls — large shared workspaces with clustered desks.",
+    "detail": "Open Office peaked 2005-2018 as the dominant Office layout for tech companies and creative firms. Configuration: low or no partitions, bench-style desks, communal break areas. Stated goals: collaboration, transparency, density, cost efficiency. Cons surfaced 2018-2023: noise, lack of focus, disease transmission (post-pandemic concern), employee dissatisfaction. Modern Office layouts mix Open Office with phone booths, focus rooms, collaboration spaces, individual offices for senior staff. Renovation cycles converting pure Open Office to mixed-format intensify the post-2020 Office Tenant-Improvement market.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Property Types",
+    "sources": [
+      "NCREIF",
+      "BOMA"
     ]
   },
   {
@@ -6970,6 +7634,24 @@
     "sources": [
       "NCREIF",
       "ULI"
+    ]
+  },
+  {
+    "letter": "O",
+    "term": "Opportunity Zone",
+    "full": "OZ, Qualified Opportunity Zone",
+    "plain": "A federal tax incentive — created by the 2017 TCJA — letting investors defer and reduce Capital Gain by investing in designated low-income census tracts.",
+    "snappy": "TCJA tax incentive deferring Capital Gain by investing in designated low-income census tracts.",
+    "detail": "Opportunity Zone investment offers three tax benefits: (1) Defer Capital Gain on the original Sale until December 2026 (or sooner if QOF is disposed). (2) Step-up in basis of 10% if held 5+ years (now mostly expired). (3) Tax-free appreciation on QOF investment if held 10+ years — the headline benefit. 8,700+ designated OZ census tracts nationwide. Eligibility requires investing through a Qualified Opportunity Fund within 180 days of the original gain. Major Real Estate Development driver 2018-2024; many billions invested. Scheduled to sunset 2026 absent congressional action.",
+    "indications": [
+      "Investment",
+      "Commercial",
+      "Multifamily"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
+      "Cornell LII"
     ]
   },
   {
@@ -7232,6 +7914,22 @@
       "Residential"
     ],
     "category": "Financing & Lending",
+    "sources": [
+      "CFPB"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Pollution Liability",
+    "full": "Premises Pollution Liability",
+    "plain": "Insurance covering Commercial Real Estate owners against claims arising from pollution events on the property — third-party bodily injury, property damage, cleanup costs.",
+    "snappy": "Insurance covering Real Estate against on-property pollution-event claims.",
+    "detail": "Pollution Liability Insurance protects against pollution-related claims that standard CGL excludes. Two main flavours. Premises Pollution Liability: pollution events on owned property — fuel spill, refrigerant leak, contamination from prior use, mould damage. Operations Pollution Liability: pollution caused by the insured's business operations off-site. Coverage includes third-party bodily injury and property damage claims plus regulatory remediation costs. Premium: $2,000-$50,000+ annually depending on property type and history. Required by some commercial Lenders, particularly for industrial property and properties with known prior contamination.",
+    "indications": [
+      "Commercial",
+      "Industrial"
+    ],
+    "category": "Management & Operations",
     "sources": [
       "CFPB"
     ]
@@ -7682,6 +8380,23 @@
     "category": "Financing & Lending",
     "sources": [
       "CFPB",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "Q",
+    "term": "Qualified Opportunity Fund",
+    "full": "QOF",
+    "plain": "The investment vehicle required to capture Opportunity Zone tax benefits — at least 90% of assets in Qualified Opportunity Zone property.",
+    "snappy": "Investment vehicle required to capture Opportunity Zone tax benefits.",
+    "detail": "QOFs are LLCs, partnerships, or corporations that self-certify as Qualified Opportunity Funds. Mandatory 90% asset test: at least 90% of fund assets must be Qualified Opportunity Zone Property (QOZP). QOZP categories: direct OZ property investments, QOZ Business Property, partnership interests in QOZ Businesses. Fund typically has 10+ year hold for full tax benefit. Substantial improvement requirement: developers must double the property's adjusted basis through Improvements within 30 months. Compliance reporting is intense — IRS Form 8996 with detailed asset tracking.",
+    "indications": [
+      "Investment",
+      "Commercial"
+    ],
+    "category": "Tax",
+    "sources": [
+      "IRS",
       "Cornell LII"
     ]
   },
@@ -8147,6 +8862,22 @@
     "category": "Financing & Lending",
     "sources": [
       "Investopedia"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Replacement Cost",
+    "full": "Replacement Cost Value, RCV",
+    "plain": "An insurance coverage standard paying to rebuild a property at current construction cost — distinct from Actual Cash Value which subtracts depreciation.",
+    "snappy": "Insurance standard paying current rebuild cost — distinct from Actual Cash Value.",
+    "detail": "Replacement Cost insurance pays to rebuild the property to its previous condition at today's construction costs, without subtracting Depreciation. Standard for homeowners and most commercial property insurance. Practical limits: typically capped at 110-125% of estimated replacement cost; full coverage available through extended-replacement-cost or guaranteed-replacement-cost policies. Significantly more expensive than Actual Cash Value coverage but standard for most owner-occupier residential and stabilised commercial. Mortgage Lenders typically require Replacement Cost coverage on residential property.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "CFPB"
     ]
   },
   {
@@ -8804,6 +9535,22 @@
   },
   {
     "letter": "S",
+    "term": "Single-Purpose Entity",
+    "full": "SPE",
+    "plain": "Full spelling of SPE — a legal entity formed exclusively to hold one Real Estate property.",
+    "snappy": "Full spelling of SPE — entity holding one specific Real Estate property.",
+    "detail": "Single-Purpose Entity is the formal name for an SPE — universal in Commercial Real Estate finance. See SPE for the substantive structural requirements, the Bankruptcy Remote rationale, and how SPEs interact with parent-company guarantees and recourse obligations.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Site Plan",
     "full": "",
     "plain": "An architect-drawn map showing how a proposed building sits on its Lot — Setbacks, parking, landscape, drainage, utilities — submitted for municipal approval.",
@@ -8883,6 +9630,39 @@
     "sources": [
       "NAHB",
       "Investopedia"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Solar Easement",
+    "full": "",
+    "plain": "A property right protecting Solar access — preventing neighbours from blocking sunlight to solar panels — increasingly recognised by state law in solar-friendly jurisdictions.",
+    "snappy": "Property right protecting Solar access from neighbour blocking.",
+    "detail": "Solar Easements protect solar-energy property investments. Voluntary Solar Easements: negotiated between neighbours, granting one party rights to sunlight across the other's property. Statutory Solar Access laws: California, New Mexico, Massachusetts, Wisconsin, and others restrict HOAs and neighbours from blocking solar installations. Federal: FCC OTARD rules apply to some installation rights. Real-world conflicts: tree growth blocking neighbour solar, new construction shadowing existing solar, HOA rules banning solar panels. Solar Easements can be recorded for permanence; transferable with the property.",
+    "indications": [
+      "Residential",
+      "Land"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "SPE",
+    "full": "Single-Purpose Entity, Special-Purpose Entity",
+    "plain": "A legal entity — typically an LLC — formed for the single purpose of holding one specific Real Estate property, with restrictions on other activities and debt.",
+    "snappy": "Legal entity holding one specific Real Estate property with restricted other activities.",
+    "detail": "SPE structures are mandatory in CMBS Loans and common in institutional Real Estate. Required restrictions: only one property held, no other business activities, separate books and bank accounts, no commingling with affiliates, independent directors with consent rights over bankruptcy filing, restricted debt (only the senior Mortgage and limited specified subordinate debt). The structure achieves Bankruptcy Remote status. Drawbacks: administrative overhead, restrictions on Sponsor cash management, intercreditor complexity if Mezzanine layered on.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "Cornell LII",
+      "NCREIF"
     ]
   },
   {
@@ -9253,6 +10033,22 @@
   },
   {
     "letter": "S",
+    "term": "Surrender",
+    "full": "Lease Surrender",
+    "plain": "A Tenant's voluntary giving-up of the leased premises before Lease expiration — typically by mutual agreement with the Landlord, often involving payment of remaining Rent or other consideration.",
+    "snappy": "Tenant voluntary giving-up of leased premises before Lease expiration.",
+    "detail": "Surrender lets Tenants exit Leases early with Landlord consent. Mechanics: Tenant proposes surrender terms; Landlord negotiates payment for early termination, often equal to remaining Rent or some discount. Landlord motivation to accept: gain control of space sooner, re-lease at higher market rate, redevelopment plans. Tenant motivation to surrender: business closure, downsizing, relocation. Surrender agreements should explicitly address: Security Deposit return, ongoing repair obligations, condition of premises on surrender, post-surrender confidentiality. Distinguish from abandonment (Tenant leaves without consent — usually treated as Default).",
+    "indications": [
+      "Commercial",
+      "Residential"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Survey",
     "full": "Land Survey",
     "plain": "A professional measurement of property boundaries, structures, and Easements — produces a drawing used at Closing and for new construction.",
@@ -9426,6 +10222,21 @@
   },
   {
     "letter": "T",
+    "term": "Tenant Audit",
+    "full": "",
+    "plain": "A Tenant's formal exercise of Lease Audit Right — examination of Landlord's Operating Expense and CAM books to verify accuracy of pass-through charges.",
+    "snappy": "Tenant exercise of Lease Audit Right — examination of Landlord's CAM books.",
+    "detail": "Tenant Audit converts the Audit Right from a Lease provision into actual examination. Process: Tenant retains an audit specialist (CPA firm, specialised Lease audit firms like Real Estate Audit Group, Optical Realty), submits formal audit notice to Landlord, Landlord provides records (typically within 30-60 days of request). Audit duration: 30-180 days. Common findings: ineligible expenses included in CAM, capital improvements wrongly classified as operating, management-fee overpayments. Recovery: Tenant credit for overcharges plus, if overcharge exceeds Lease-defined threshold, Landlord pays audit costs. Tenant Audit waves occur during soft markets.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "IREM"
+    ]
+  },
+  {
+    "letter": "T",
     "term": "Tenant Improvement",
     "full": "TI, Build-Out",
     "plain": "Money the Landlord spends — or credits the Tenant for — to customise a leased space before the Tenant moves in.",
@@ -9454,6 +10265,24 @@
     "sources": [
       "IREM",
       "BOMA"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Tenant Insurance",
+    "full": "Renters Insurance, Tenant Liability Insurance",
+    "plain": "Insurance the Tenant carries — typically required by Lease — covering Tenant's personal property and liability for damage to the leased premises or Co-Tenants.",
+    "snappy": "Tenant's required insurance covering personal property and liability for damage.",
+    "detail": "Tenant Insurance is Lease-required in nearly all institutional Multifamily and most commercial Leases. Residential Renter Insurance: covers Tenant's personal property and personal liability (slip-and-fall guests, dog bites, water damage to neighbours). Coverage typically $30K-$100K, premiums $10-$30/month. Commercial Tenant Insurance: CGL with Landlord as additional insured, plus business personal property coverage. Lease provisions require Tenant to maintain insurance and provide certificates to Landlord annually. Tenant failures to maintain coverage can trigger Lease Default. Some Landlords offer master Tenant insurance bundled into Rent.",
+    "indications": [
+      "Residential",
+      "Multifamily",
+      "Commercial"
+    ],
+    "category": "Leasing",
+    "sources": [
+      "CFPB",
+      "IREM"
     ]
   },
   {
@@ -9762,6 +10591,23 @@
     "category": "Property Types",
     "sources": [
       "NAHB"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Tribal Trust Land",
+    "full": "Indian Trust Land",
+    "plain": "Land held in trust by the federal government for the benefit of Native American tribes or individual members — limited transferability, special tax and regulatory status.",
+    "snappy": "Land held in federal trust for Native American tribes or members — limited transferability.",
+    "detail": "Tribal Trust Land covers approximately 55 million acres of US Land. Two main categories. Tribal Trust: land held in trust for an entire tribe; cannot be sold or leased without Secretary of the Interior approval. Allotted Trust: land held in trust for individual tribal members; can be leased but not freely sold. Tax status: exempt from state and local Property Tax; Tribal members exempt from federal income tax on certain reservation-sourced income. Development: requires BIA approval, environmental review, often gaming or natural-resource focused. Lease terms can be up to 99 years.",
+    "indications": [
+      "Land",
+      "Public Sector"
+    ],
+    "category": "Title & Ownership",
+    "sources": [
+      "HUD",
+      "Cornell LII"
     ]
   },
   {
@@ -10215,6 +11061,38 @@
   },
   {
     "letter": "W",
+    "term": "WeWork",
+    "full": "",
+    "plain": "The flagship Coworking operator — founded 2010, peaked 2019, filed Chapter 11 in 2023 — whose rise-and-fall reshaped Office Commercial Real Estate.",
+    "snappy": "Flagship Coworking operator that peaked 2019, filed Chapter 11 in 2023.",
+    "detail": "WeWork's trajectory illustrates Coworking risk. Founded 2010, grew aggressively with SoftBank capital, peaked at 770 locations and 740K members in 2019, valued at $47B pre-IPO. Failed 2019 IPO exposed business-model questions; SoftBank rescued at $5B valuation. Public via SPAC 2021 at $9B. Filed Chapter 11 in November 2023, emerging early 2024 with reduced footprint. Office Landlords with significant WeWork concentration faced major Lease repudiation losses. The collapse reinforced institutional caution around Coworking-anchored property valuations.",
+    "indications": [
+      "Commercial"
+    ],
+    "category": "Market & Investment",
+    "sources": [
+      "NCREIF"
+    ]
+  },
+  {
+    "letter": "W",
+    "term": "Whole Loan",
+    "full": "",
+    "plain": "A single Commercial Mortgage held by one Lender from origination through repayment — distinct from sliced, syndicated, or CMBS-pooled Loans.",
+    "snappy": "Single Commercial Mortgage held by one Lender — not sliced or syndicated.",
+    "detail": "Whole Loans are the simplest Commercial Mortgage structure. The originating Lender retains 100% of the Loan; collects all payments, makes all decisions, takes all losses. Pros: clean control over workout and modification, no syndicate or bondholder politics. Cons: high concentration risk, capital tied up. Major holders: insurance companies (MetLife, New York Life, Northwestern Mutual), pension funds, sovereign wealth, balance-sheet banks. Whole Loan portfolios traded as bilateral transactions, not securitized. Pricing: 25-50 basis points wider than CMBS for equivalent risk due to liquidity premium.",
+    "indications": [
+      "Commercial",
+      "Investment"
+    ],
+    "category": "Financing & Lending",
+    "sources": [
+      "NCREIF",
+      "MBA"
+    ]
+  },
+  {
+    "letter": "W",
     "term": "Wholesale Lender",
     "full": "Wholesale Mortgage Lender",
     "plain": "A Lender that funds Mortgages originated by independent Mortgage Brokers — the broker brings the borrower, the wholesale Lender provides capital and underwriting.",
@@ -10227,6 +11105,22 @@
     "sources": [
       "CFPB",
       "MBA"
+    ]
+  },
+  {
+    "letter": "W",
+    "term": "Wind Damage Coverage",
+    "full": "Wind Endorsement",
+    "plain": "An insurance coverage provision — sometimes a separate endorsement — covering damage from high winds, hurricanes, and tornadoes — often with separate deductibles in storm-prone regions.",
+    "snappy": "Insurance coverage for high-wind damage, often with separate hurricane/tornado deductibles.",
+    "detail": "Wind Damage Coverage varies by region. Coastal states (Florida, Texas, Louisiana, the Carolinas): wind/hurricane coverage often requires separate policy or endorsement; Named Storm Deductible applies. Tornado-prone Midwest: standard property insurance includes wind, no separate deductible. State wind pools (Texas Windstorm Insurance Association, Louisiana Citizens Wind, Florida Citizens) cover properties private market won't write. Roof Damage Limits often restrict wind coverage on older roofs. Policy structure varies significantly; Mortgage Lenders should require wind/hurricane coverage in coastal areas.",
+    "indications": [
+      "Residential",
+      "Commercial"
+    ],
+    "category": "Management & Operations",
+    "sources": [
+      "CFPB"
     ]
   },
   {

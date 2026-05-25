@@ -171,6 +171,29 @@ DANGLING_DENYLIST = {
     "STR", "STORE", "STORE Capital", "Agree Realty",
     "Coldwell Banker", "RE/MAX", "Keller Williams",
     "Auction.com",
+    # PMS / property management software brands.
+    "Yardi", "RealPage", "AppFolio", "Buildium", "Entrata",
+    "MRI", "Argus", "RentManager", "Procore", "Autodesk Construction",
+    "OpenSpace", "Robin", "Skedda", "LiquidSpace",
+    "VTS", "Latch", "Honeywell", "Schneider Electric",
+    "Fundrise", "RealtyMogul", "CrowdStreet", "Propy", "Lofty", "Arrived",
+    # More Real Estate companies / Coworking operators.
+    "Regus", "Industrious", "Spaces", "Convene", "Workspring",
+    "American Campus Communities", "Greystar", "Bozzuto",
+    "Mill Creek", "Trammell Crow", "AvalonBay Communities", "Equity Residential",
+    "UDR", "Camden Property Trust", "Highwoods", "Kilroy",
+    "BREEAM",
+    "Mission Capital", "Eastdil Secured", "JLL", "Phillips Edison",
+    "Brixmor", "MetLife", "Northwestern Mutual", "New York Life",
+    "SoftBank", "Lone Star", "Wilbur Ross",
+    "General Growth Properties", "Bed Bath",
+    # Common compound English phrases caught as multi-word.
+    "Commercial Tenants", "Commercial Mortgage", "Foreign Buyers",
+    "Department", "Beyond", "Open Plan",
+    # IRS terms.
+    "USC", "Section 121", "Section 1031", "Section 199A",
+    "Section 263", "Section 168", "Section 469",
+    "Section 1245", "Section 1250", "Section 1411",
     # Compound phrases that are sub-references to entries already covered.
     "Sponsor Promote", "Commercial Mortgage",
     # State names not yet in denylist.
