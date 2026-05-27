@@ -6473,6 +6473,167 @@ BATCH_FRONTIER_MFG = [
 
 
 # ============================================================================
+# BATCH 41 — Agents, tool use, MCP
+# ============================================================================
+
+BATCH_FRONTIER_AGENTS = [
+    entry(
+        "Model Context Protocol", "MCP",
+        "Anthropic-introduced open standard for connecting AI models to external tools, data sources, and prompts — the 'USB-C of AI integration'.",
+        "Released open-source by Anthropic in November 2024 and rapidly adopted across the industry. MCP defines a JSON-RPC protocol with stable primitives (tools, resources, prompts) that any AI client can call against any MCP server. Adopted by OpenAI, Google, Microsoft, GitHub, and thousands of community projects in its first year. Replaces ad-hoc per-vendor function-calling integrations with a single open standard.",
+        ["Anthropic"],
+        indications=["Frontier"],
+        category="Agents",
+        plain="An open standard from Anthropic that lets any AI model talk to any external tool or data source, the way USB-C lets any device charge from any cable.",
+    ),
+    entry(
+        "MCP Server", "",
+        "Process that exposes tools, resources, or prompts to MCP-aware AI clients via the Model Context Protocol.",
+        "Each MCP server publishes a set of capabilities (e.g. 'search GitHub issues', 'query Linear', 'read files') that any compatible AI client can invoke. Hosted as a local subprocess (stdio transport) or as a remote service (HTTP transport). The ecosystem includes thousands of community-built servers covering common SaaS, developer tools, and internal-data sources. Authentication and authorisation follow standard OAuth flows.",
+        ["Anthropic"],
+        indications=["Frontier"],
+        category="Agents",
+        plain="A small program that publishes tools or data sources an AI model can use, following the open MCP standard.",
+    ),
+    entry(
+        "MCP Client", "",
+        "AI runtime that consumes MCP servers — Claude.ai, ChatGPT, Cursor, and most modern coding-agent products are MCP clients.",
+        "An MCP client connects to one or more MCP servers and surfaces their tools, resources, and prompts to the AI model and the user. Claude.ai, ChatGPT, Cursor, VS Code Copilot, Windsurf, Cline, and many other AI products are MCP clients. The client handles transport, authentication, capability negotiation, and surfacing tool calls back to the model. The split between client and server is the key abstraction that lets the ecosystem compose.",
+        ["Anthropic"],
+        indications=["Frontier"],
+        category="Agents",
+        plain="An AI product (like Claude.ai or Cursor) that knows how to use tools published by MCP servers.",
+    ),
+    entry(
+        "Computer Use", "",
+        "Anthropic-introduced capability where an AI model controls a computer's screen, mouse, and keyboard through screenshots and synthetic input events.",
+        "Released October 2024 by Anthropic; OpenAI's Operator and Google's Project Mariner are the corresponding offerings. The model receives periodic screenshots, plans a sequence of actions, and emits coordinate-level mouse / keyboard events. Underpins browser agents, desktop-automation agents, and the broader 'computer-operator' category. Quality has improved sharply 2024-26 but remains brittle on complex multi-step workflows.",
+        ["Anthropic"],
+        indications=["Frontier"],
+        category="Agents",
+        plain="A capability where an AI model controls a computer screen with mouse and keyboard, like a person doing the work.",
+    ),
+    entry(
+        "Browser Agent", "",
+        "AI agent that drives a web browser to complete tasks — researching, booking, filling forms, scraping data — through computer-use or accessibility APIs.",
+        "Operator (OpenAI), Skyvern, Browserbase, Lindy, and many open-source projects in 2025-26. Two implementation styles: pixel-level (screenshots + mouse / keyboard, the computer-use approach) and DOM-level (read and interact with the page structure programmatically). DOM-level is faster and more reliable; pixel-level handles any visual interface. Most production browser agents use a hybrid.",
+        ["OpenAI"],
+        indications=["Frontier"],
+        category="Agents",
+        plain="An AI agent that opens a web browser and uses it like a person — researching, booking, filling forms, scraping data.",
+    ),
+    entry(
+        "Operator", "OpenAI Operator",
+        "OpenAI's general-purpose computer / browser agent — first commercial product from OpenAI's agent push, released January 2025.",
+        "Operator runs in a sandboxed cloud browser environment, taking high-level natural-language goals and breaking them into browser actions. Pricing is bundled into ChatGPT Pro and Team tiers. Reliability and step-to-step latency remain the limits of its usefulness for serious production work. The product establishes the agent-as-a-service category from the leading consumer-facing AI lab.",
+        ["OpenAI"],
+        indications=["Frontier"],
+        category="Agents",
+        plain="OpenAI's first general computer-using agent, launched January 2025 to handle web tasks like booking or researching for users.",
+    ),
+    entry(
+        "Claude Computer Use", "",
+        "Anthropic's first computer-use API — exposed Claude's screen-and-keyboard control capability to developers in October 2024.",
+        "Claude Computer Use returns mouse / keyboard / type actions in response to screenshots, with the developer responsible for executing them. The October 2024 release was the first frontier-lab API offering of computer-use; OpenAI Operator followed in January 2025. Used in production by browser-agent startups and internal-automation tooling. Capability has expanded across Claude generations (3.5 Sonnet, Sonnet 4, Opus 4) into 2026.",
+        ["Anthropic"],
+        indications=["Frontier"],
+        category="Agents",
+        plain="Anthropic's API for letting Claude control a computer's screen, mouse, and keyboard — the first commercial computer-use API.",
+    ),
+    entry(
+        "Devin", "",
+        "Cognition Labs' autonomous software-engineering agent — produces pull requests from natural-language tickets without per-step human supervision.",
+        "Released as preview March 2024 by Cognition Labs. Devin takes a GitHub issue or natural-language ticket and produces a working pull request: writes code, runs tests, debugs failures, opens the PR. Operates in a long-running sandboxed cloud environment. Sparked the autonomous-SWE-agent category alongside Replit Agents, GitHub Copilot Workspace, OpenAI's Codex agent, and Cursor's agent mode.",
+        ["Cognition Labs"],
+        indications=["Frontier"],
+        category="Agents",
+        plain="An autonomous AI coding agent from Cognition Labs that takes a software task description and produces a working pull request on its own.",
+    ),
+    entry(
+        "Agent Sandbox", "",
+        "Isolated execution environment (VM, container, browser, ephemeral cloud account) where an agent runs without access to the host system.",
+        "Modern agent runtimes route tool execution through sandboxes for safety: file writes, shell commands, network requests, and browser actions happen inside a disposable environment. E2B, Daytona, and Modal are sandbox-as-a-service vendors; many agents self-host using Docker, Firecracker, or browser containers. Permission models within the sandbox typically enumerate allowed network destinations, file paths, and command patterns.",
+        ["E2B"],
+        indications=["Frontier"],
+        category="Agents",
+        plain="A locked-down play area where an AI agent runs code or browses the web, so any damage stays inside the sandbox.",
+    ),
+    entry(
+        "Subagent", "",
+        "An agent spawned by another agent to handle a delegated sub-task — enables divide-and-conquer patterns and specialised tool routing.",
+        "Common in Claude Code, Cursor agents, and most modern agent frameworks. A parent agent identifies a sub-task that needs different context, tools, or expertise, spawns a subagent with a fresh context and tailored toolset, and incorporates the result. Useful for hiding large search results, parallelising independent work, and routing to specialist personas. Token-efficient pattern when the parent context is precious.",
+        ["Anthropic"],
+        indications=["Frontier"],
+        category="Agents",
+        plain="A smaller AI agent that a bigger AI agent spins up to handle a specific sub-task, keeping the main conversation tidy.",
+    ),
+    entry(
+        "Multi-Agent Orchestration", "",
+        "Patterns and frameworks for coordinating multiple AI agents — planner / executor, judge / generator, supervisor / workers.",
+        "Frameworks include LangGraph, CrewAI, Autogen, and Anthropic's own Claude Code agent-team system. Common patterns: a single planner spawns workers; a generator-judge pair iterates on output quality; a supervisor routes between specialists. The pattern works when agent boundaries map to natural task boundaries (different roles, different tools, different contexts) and adds overhead otherwise.",
+        ["Microsoft"],
+        indications=["Frontier"],
+        category="Agents",
+        plain="Designs for letting multiple AI agents work together on one job — like a manager directing workers, or a writer with a critic.",
+    ),
+    entry(
+        "Plan-and-Solve", "",
+        "Agent pattern where the model first writes an explicit plan, then executes each step — variant of ReAct with planning hoisted up front.",
+        "Improves performance on multi-step problems by forcing the model to commit to a strategy before acting. Plan revisions are allowed during execution but require explicit reasoning. Particularly effective for code, math, and complex tool-use tasks. Modern reasoning models (o3, Claude Opus 4 extended-thinking, R1) absorb much of this pattern into their default behaviour, reducing the need for explicit prompting.",
+        ["Google"],
+        indications=["Frontier"],
+        category="Agents",
+        plain="An AI agent design where the model writes out a plan first, then carries out each step — instead of reacting one step at a time.",
+    ),
+    entry(
+        "Tool Calling Schema", "",
+        "JSON-schema definition of a tool's name, description, and parameters that an AI model uses to decide when and how to call the tool.",
+        "Every major LLM API (OpenAI, Anthropic, Google, Mistral, DeepSeek) accepts tool schemas. The schema is part of the system prompt or a dedicated API field. Quality of the description directly affects how often the model calls the tool correctly. MCP standardised the schema format so a tool defined once can be called from any compliant client without rewriting.",
+        ["OpenAI"],
+        indications=["Frontier"],
+        category="Agents",
+        plain="The standard format for describing a tool — name, what it does, what arguments it takes — so an AI model can use it correctly.",
+    ),
+    entry(
+        "Agentic Loop", "",
+        "Bounded iterate-until-done execution loop where an agent repeatedly reasons, calls tools, and observes results until a goal is met or a stop condition fires.",
+        "The defining control structure of modern AI agents. Each iteration: model sees current state and history, decides on next action (tool call or final answer), tool result is added to context, loop continues. Stop conditions: final answer, step budget exhausted, error threshold, user interrupt. Bounded by token budget, wall-clock time, and explicit step caps. The simplest abstraction that distinguishes 'agent' from 'one-shot chat'.",
+        ["LangChain"],
+        indications=["Frontier"],
+        category="Agents",
+        plain="The basic loop an AI agent runs through — think, take an action, see the result, think again, until the job is done.",
+    ),
+    entry(
+        "Long-Horizon Task", "",
+        "Multi-step task that takes minutes to hours of autonomous agent execution — the frontier capability bar for agentic AI.",
+        "METR's time-horizon benchmark measures how long an agent can act autonomously before failing; frontier models in 2026 push past several hours on focused software-engineering tasks. The capability scales sharply with reasoning-model quality and with robust tool use. Production examples: Devin's overnight PRs, OpenAI Operator multi-hour booking flows, AI agents running multi-day market-research projects.",
+        ["METR"],
+        indications=["Frontier"],
+        category="Agents",
+        plain="An AI task that takes minutes or hours of an agent working on its own — the kind of work that used to need a full-time human.",
+    ),
+    entry(
+        "RL Environment", "",
+        "Programmatic environment in which an agent can take actions, receive observations, and get reward signal — the building block of RL training for agents.",
+        "Classic RL environments are games and simulators (Atari, MuJoCo, StarCraft). 2025-26 agent training extends this to software environments: code-execution sandboxes, web simulators, computer-use VMs. SemiAnalysis-coined 'Data Foundries' specialise in producing high-quality RL environments at scale, since environment quality is the bottleneck for agentic-RL progress beyond what model scale alone can solve.",
+        ["DeepMind"],
+        indications=["Training", "Frontier"],
+        category="Training",
+        plain="A simulated world an AI agent can practise in — a game, a web sandbox, a code playground — used to train it through trial and error.",
+    ),
+    entry(
+        "Data Foundry", "",
+        "Company or organisation specialising in producing curated training data and RL environments at scale for frontier labs.",
+        "Term popularised by SemiAnalysis. Examples include Scale AI, Surge AI, Mercor, and a long tail of specialist firms. The work spans human-labelled data, expert demonstrations, RL environment construction, and rubric design for reasoning evaluations. As model scale plateaus, environment and data quality become the binding constraints — making Data Foundries a structurally important supplier category.",
+        ["Scale AI"],
+        indications=["Training", "Frontier"],
+        category="Industry",
+        plain="A specialist company that produces high-quality training data and practice environments for the frontier AI labs.",
+    ),
+]
+
+
+# ============================================================================
 # BATCH 40 — Test-time compute, reasoning & verifier methods
 # ============================================================================
 
@@ -7818,6 +7979,7 @@ BATCHES = {
     38: BATCH_FRONTIER_TRAIN,
     39: BATCH_FRONTIER_MODELS,
     40: BATCH_FRONTIER_TTC,
+    41: BATCH_FRONTIER_AGENTS,
 }
 
 

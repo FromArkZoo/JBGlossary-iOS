@@ -214,6 +214,21 @@
   },
   {
     "letter": "A",
+    "term": "Agent Sandbox",
+    "full": "",
+    "plain": "A locked-down play area where an AI agent runs code or browses the web, so any damage stays inside the sandbox.",
+    "snappy": "Isolated execution environment (VM, container, browser, ephemeral cloud account) where an agent runs without access to the host system.",
+    "detail": "Modern agent runtimes route tool execution through sandboxes for safety: file writes, shell commands, network requests, and browser actions happen inside a disposable environment. E2B, Daytona, and Modal are sandbox-as-a-service vendors; many agents self-host using Docker, Firecracker, or browser containers. Permission models within the sandbox typically enumerate allowed network destinations, file paths, and command patterns.",
+    "indications": [
+      "Frontier"
+    ],
+    "category": "Agents",
+    "sources": [
+      "E2B"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Agentic AI",
     "full": "",
     "snappy": "Buzzword for the next phase of AI — systems that take multi-step actions rather than producing single outputs.",
@@ -227,6 +242,21 @@
       "OpenAI"
     ],
     "plain": "Buzzword for AI that doesn't just answer questions but actually does multi-step tasks for you."
+  },
+  {
+    "letter": "A",
+    "term": "Agentic Loop",
+    "full": "",
+    "plain": "The basic loop an AI agent runs through — think, take an action, see the result, think again, until the job is done.",
+    "snappy": "Bounded iterate-until-done execution loop where an agent repeatedly reasons, calls tools, and observes results until a goal is met or a stop condition fires.",
+    "detail": "The defining control structure of modern AI agents. Each iteration: model sees current state and history, decides on next action (tool call or final answer), tool result is added to context, loop continues. Stop conditions: final answer, step budget exhausted, error threshold, user interrupt. Bounded by token budget, wall-clock time, and explicit step caps. The simplest abstraction that distinguishes 'agent' from 'one-shot chat'.",
+    "indications": [
+      "Frontier"
+    ],
+    "category": "Agents",
+    "sources": [
+      "LangChain"
+    ]
   },
   {
     "letter": "A",
@@ -2289,6 +2319,21 @@
   },
   {
     "letter": "C",
+    "term": "Claude Computer Use",
+    "full": "",
+    "plain": "Anthropic's API for letting Claude control a computer's screen, mouse, and keyboard — the first commercial computer-use API.",
+    "snappy": "Anthropic's first computer-use API — exposed Claude's screen-and-keyboard control capability to developers in October 2024.",
+    "detail": "Claude Computer Use returns mouse / keyboard / type actions in response to screenshots, with the developer responsible for executing them. The October 2024 release was the first frontier-lab API offering of computer-use; OpenAI Operator followed in January 2025. Used in production by browser-agent startups and internal-automation tooling. Capability has expanded across Claude generations (3.5 Sonnet, Sonnet 4, Opus 4) into 2026.",
+    "indications": [
+      "Frontier"
+    ],
+    "category": "Agents",
+    "sources": [
+      "Anthropic"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Claude Opus 4",
     "full": "",
     "plain": "Anthropic's most capable Claude model in 2025, especially good at long thinking and writing code.",
@@ -3235,6 +3280,22 @@
       "Hugging Face"
     ],
     "plain": "Sifting through a giant pile of scraped web pages and keeping only the bits worth learning from."
+  },
+  {
+    "letter": "D",
+    "term": "Data Foundry",
+    "full": "",
+    "plain": "A specialist company that produces high-quality training data and practice environments for the frontier AI labs.",
+    "snappy": "Company or organisation specialising in producing curated training data and RL environments at scale for frontier labs.",
+    "detail": "Term popularised by SemiAnalysis. Examples include Scale AI, Surge AI, Mercor, and a long tail of specialist firms. The work spans human-labelled data, expert demonstrations, RL environment construction, and rubric design for reasoning evaluations. As model scale plateaus, environment and data quality become the binding constraints — making Data Foundries a structurally important supplier category.",
+    "indications": [
+      "Training",
+      "Frontier"
+    ],
+    "category": "Industry",
+    "sources": [
+      "Scale AI"
+    ]
   },
   {
     "letter": "D",
@@ -7763,6 +7824,36 @@
   },
   {
     "letter": "M",
+    "term": "MCP Client",
+    "full": "",
+    "plain": "An AI product (like Claude.ai or Cursor) that knows how to use tools published by MCP servers.",
+    "snappy": "AI runtime that consumes MCP servers — Claude.ai, ChatGPT, Cursor, and most modern coding-agent products are MCP clients.",
+    "detail": "An MCP client connects to one or more MCP servers and surfaces their tools, resources, and prompts to the AI model and the user. Claude.ai, ChatGPT, Cursor, VS Code Copilot, Windsurf, Cline, and many other AI products are MCP clients. The client handles transport, authentication, capability negotiation, and surfacing tool calls back to the model. The split between client and server is the key abstraction that lets the ecosystem compose.",
+    "indications": [
+      "Frontier"
+    ],
+    "category": "Agents",
+    "sources": [
+      "Anthropic"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "MCP Server",
+    "full": "",
+    "plain": "A small program that publishes tools or data sources an AI model can use, following the open MCP standard.",
+    "snappy": "Process that exposes tools, resources, or prompts to MCP-aware AI clients via the Model Context Protocol.",
+    "detail": "Each MCP server publishes a set of capabilities (e.g. 'search GitHub issues', 'query Linear', 'read files') that any compatible AI client can invoke. Hosted as a local subprocess (stdio transport) or as a remote service (HTTP transport). The ecosystem includes thousands of community-built servers covering common SaaS, developer tools, and internal-data sources. Authentication and authorisation follow standard OAuth flows.",
+    "indications": [
+      "Frontier"
+    ],
+    "category": "Agents",
+    "sources": [
+      "Anthropic"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "MCTS",
     "full": "Monte Carlo Tree Search",
     "snappy": "Search algorithm that builds a tree of future possibilities by rolling out random or learned playthroughs.",
@@ -8366,6 +8457,21 @@
   },
   {
     "letter": "M",
+    "term": "Model Context Protocol",
+    "full": "MCP",
+    "plain": "An open standard from Anthropic that lets any AI model talk to any external tool or data source, the way USB-C lets any device charge from any cable.",
+    "snappy": "Anthropic-introduced open standard for connecting AI models to external tools, data sources, and prompts — the 'USB-C of AI integration'.",
+    "detail": "Released open-source by Anthropic in November 2024 and rapidly adopted across the industry. MCP defines a JSON-RPC protocol with stable primitives (tools, resources, prompts) that any AI client can call against any MCP server. Adopted by OpenAI, Google, Microsoft, GitHub, and thousands of community projects in its first year. Replaces ad-hoc per-vendor function-calling integrations with a single open standard.",
+    "indications": [
+      "Frontier"
+    ],
+    "category": "Agents",
+    "sources": [
+      "Anthropic"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Model merging",
     "full": "",
     "snappy": "Combining the weights of multiple fine-tuned models into one — a cheap way to get capabilities from multiple specialised models.",
@@ -8438,6 +8544,21 @@
     "sources": [
       "Intel",
       "AMD"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Multi-Agent Orchestration",
+    "full": "",
+    "plain": "Designs for letting multiple AI agents work together on one job — like a manager directing workers, or a writer with a critic.",
+    "snappy": "Patterns and frameworks for coordinating multiple AI agents — planner / executor, judge / generator, supervisor / workers.",
+    "detail": "Frameworks include LangGraph, CrewAI, Autogen, and Anthropic's own Claude Code agent-team system. Common patterns: a single planner spawns workers; a generator-judge pair iterates on output quality; a supervisor routes between specialists. The pattern works when agent boundaries map to natural task boundaries (different roles, different tools, different contexts) and adds overhead otherwise.",
+    "indications": [
+      "Frontier"
+    ],
+    "category": "Agents",
+    "sources": [
+      "Microsoft"
     ]
   },
   {
@@ -9200,6 +9321,21 @@
   },
   {
     "letter": "O",
+    "term": "Operator",
+    "full": "OpenAI Operator",
+    "plain": "OpenAI's first general computer-using agent, launched January 2025 to handle web tasks like booking or researching for users.",
+    "snappy": "OpenAI's general-purpose computer / browser agent — first commercial product from OpenAI's agent push, released January 2025.",
+    "detail": "Operator runs in a sandboxed cloud browser environment, taking high-level natural-language goals and breaking them into browser actions. Pricing is bundled into ChatGPT Pro and Team tiers. Reliability and step-to-step latency remain the limits of its usefulness for serious production work. The product establishes the agent-as-a-service category from the leading consumer-facing AI lab.",
+    "indications": [
+      "Frontier"
+    ],
+    "category": "Agents",
+    "sources": [
+      "OpenAI"
+    ]
+  },
+  {
+    "letter": "O",
     "term": "Optical flow",
     "full": "",
     "snappy": "Computer-vision task — track the apparent motion of each pixel between consecutive video frames.",
@@ -9713,6 +9849,21 @@
       "Mistral"
     ],
     "plain": "Mistral's open AI model family that can look at pictures and charts, not just read text."
+  },
+  {
+    "letter": "P",
+    "term": "Plan-and-Solve",
+    "full": "",
+    "plain": "An AI agent design where the model writes out a plan first, then carries out each step — instead of reacting one step at a time.",
+    "snappy": "Agent pattern where the model first writes an explicit plan, then executes each step — variant of ReAct with planning hoisted up front.",
+    "detail": "Improves performance on multi-step problems by forcing the model to commit to a strategy before acting. Plan revisions are allowed during execution but require explicit reasoning. Particularly effective for code, math, and complex tool-use tasks. Modern reasoning models (o3, Claude Opus 4 extended-thinking, R1) absorb much of this pattern into their default behaviour, reducing the need for explicit prompting.",
+    "indications": [
+      "Frontier"
+    ],
+    "category": "Agents",
+    "sources": [
+      "Google"
+    ]
   },
   {
     "letter": "P",
@@ -10882,6 +11033,22 @@
       "UC Berkeley"
     ],
     "plain": "A way of splitting a long document across many graphics cards arranged in a circle, so each sees a piece and they share notes."
+  },
+  {
+    "letter": "R",
+    "term": "RL Environment",
+    "full": "",
+    "plain": "A simulated world an AI agent can practise in — a game, a web sandbox, a code playground — used to train it through trial and error.",
+    "snappy": "Programmatic environment in which an agent can take actions, receive observations, and get reward signal — the building block of RL training for agents.",
+    "detail": "Classic RL environments are games and simulators (Atari, MuJoCo, StarCraft). 2025-26 agent training extends this to software environments: code-execution sandboxes, web simulators, computer-use VMs. SemiAnalysis-coined 'Data Foundries' specialise in producing high-quality RL environments at scale, since environment quality is the bottleneck for agentic-RL progress beyond what model scale alone can solve.",
+    "indications": [
+      "Training",
+      "Frontier"
+    ],
+    "category": "Training",
+    "sources": [
+      "DeepMind"
+    ]
   },
   {
     "letter": "R",
@@ -12929,6 +13096,21 @@
     "category": "Interconnect",
     "sources": [
       "Broadcom"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Tool Calling Schema",
+    "full": "",
+    "plain": "The standard format for describing a tool — name, what it does, what arguments it takes — so an AI model can use it correctly.",
+    "snappy": "JSON-schema definition of a tool's name, description, and parameters that an AI model uses to decide when and how to call the tool.",
+    "detail": "Every major LLM API (OpenAI, Anthropic, Google, Mistral, DeepSeek) accepts tool schemas. The schema is part of the system prompt or a dedicated API field. Quality of the description directly affects how often the model calls the tool correctly. MCP standardised the schema format so a tool defined once can be called from any compliant client without rewriting.",
+    "indications": [
+      "Frontier"
+    ],
+    "category": "Agents",
+    "sources": [
+      "OpenAI"
     ]
   },
   {
