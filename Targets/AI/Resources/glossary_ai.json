@@ -2152,6 +2152,21 @@
   },
   {
     "letter": "C",
+    "term": "Chunked Prefill",
+    "full": "",
+    "plain": "A way of running long prompts in small bites so other users don't have to wait too long for their replies.",
+    "snappy": "Breaking a long prompt's prefill into smaller chunks that interleave with ongoing decode steps — keeps inference latency smooth across concurrent users.",
+    "detail": "Without chunked prefill, a single long-prompt request can monopolise a GPU for seconds while other users wait. Chunked prefill cuts the prompt into smaller pieces that run between decode steps for other in-flight requests, keeping per-token latency predictable. Default in vLLM V1 and SGLang. Pairs naturally with continuous batching.",
+    "indications": [
+      "Inference"
+    ],
+    "category": "Inference",
+    "sources": [
+      "UC Berkeley"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Circuit",
     "full": "",
     "snappy": "A specific computational pathway inside a neural network — a group of features and weights that together implement a function.",
@@ -3650,6 +3665,21 @@
   },
   {
     "letter": "D",
+    "term": "Disaggregated Serving",
+    "full": "",
+    "plain": "Running the two phases of AI inference — reading the prompt and generating the answer — on separate sets of GPUs tuned for each job.",
+    "snappy": "Splitting prefill (long, compute-bound) and decode (short, memory-bandwidth-bound) onto different GPU pools.",
+    "detail": "A naive inference server runs prefill and decode on the same GPUs, leaving either compute or memory bandwidth underused depending on workload mix. Disaggregated serving pools specialise: prefill nodes run dense matrix multiplies; decode nodes optimise for KV-cache memory bandwidth. Shipped in NVIDIA's Dynamo inference framework and in several hyperscaler internal stacks. Particularly effective for reasoning models where prefill and decode workloads diverge sharply.",
+    "indications": [
+      "Inference"
+    ],
+    "category": "Inference",
+    "sources": [
+      "NVIDIA"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "Distillation",
     "full": "",
     "snappy": "Training a small model to mimic the outputs of a large one — cheaper to run, often surprisingly good.",
@@ -3833,6 +3863,21 @@
       "ASML"
     ],
     "plain": "An older chip-printing technology that uses deep-ultraviolet light — still the workhorse for most chips that aren't bleeding edge."
+  },
+  {
+    "letter": "E",
+    "term": "EAGLE-3",
+    "full": "",
+    "plain": "A clever speed-up trick that lets language models generate text 2-6x faster by training a small helper to predict ahead.",
+    "snappy": "Third-generation EAGLE speculative-decoding draft head — feature-level prediction with uncertainty estimates, 2-6x decode speedup.",
+    "detail": "Trains a small draft head on the target model's intermediate features (not just embeddings) plus an uncertainty estimator that decides how aggressive to be at each step. Released 2024 by Tsinghua + others. Among the highest-performing draft methods on most LLM benchmarks. Distinct from Medusa (which predicts multiple positions independently) and Lookahead (which uses no draft model at all). Supported in vLLM V1 and SGLang for several model families.",
+    "indications": [
+      "Inference"
+    ],
+    "category": "Inference",
+    "sources": [
+      "Tsinghua"
+    ]
   },
   {
     "letter": "E",
@@ -6372,6 +6417,21 @@
   },
   {
     "letter": "I",
+    "term": "Inter-Token Latency",
+    "full": "ITL",
+    "plain": "How fast an AI generates each word after the first — the metric that makes streaming responses feel smooth or choppy.",
+    "snappy": "Time between successive output tokens during decode — the SLA metric for generation streaming smoothness.",
+    "detail": "Once the first token is out, ITL measures the gap between subsequent tokens. Determined by decode-phase compute, memory bandwidth, and contention with other requests. Production targets: 20-50 ms per token for responsive chat, 5-15 ms for inference where the user is waiting on every word (voice). Speculative decoding (EAGLE-3, Medusa) and disaggregated serving are the main ways to push ITL down.",
+    "indications": [
+      "Inference"
+    ],
+    "category": "Inference",
+    "sources": [
+      "NVIDIA"
+    ]
+  },
+  {
+    "letter": "I",
     "term": "Interposer",
     "full": "",
     "snappy": "Passive silicon layer that sits beneath multiple dies and routes signals between them.",
@@ -6611,6 +6671,36 @@
       "NVIDIA"
     ],
     "plain": "A scratchpad of past work that lets a language model add each new word without redoing all the earlier ones from scratch."
+  },
+  {
+    "letter": "K",
+    "term": "KV Cache Offload",
+    "full": "",
+    "plain": "Moving older parts of a long chat from fast GPU memory to slower storage, so the GPU can handle more concurrent users.",
+    "snappy": "Spilling cold KV-cache entries to CPU memory, SSD, or CXL — extends effective context far beyond GPU memory at the cost of latency on cache misses.",
+    "detail": "Hot entries (recently accessed) stay on the GPU; cold entries move to slower tiers. LMCache is the most-used external implementation. Useful for agent workloads where a session may sit idle for minutes between turns — paying SSD latency on resume is cheaper than holding hot GPU memory. Also enables disaggregated serving designs where prefill and decode pools share state.",
+    "indications": [
+      "Inference"
+    ],
+    "category": "Inference",
+    "sources": [
+      "UC Berkeley"
+    ]
+  },
+  {
+    "letter": "K",
+    "term": "KV Cache Quantization",
+    "full": "",
+    "plain": "A way of compressing the running memory of AI chat sessions so a GPU can hold longer conversations without running out.",
+    "snappy": "Storing KV-cache entries at INT4 or FP8 instead of FP16 — shrinks memory footprint roughly 2-4x at small quality cost.",
+    "detail": "Each token generated by a transformer adds a per-layer key and value tensor to the cache. At full FP16 precision, this dominates inference memory at long context. Quantising the cache to FP8 or INT4 saves substantial memory with minimal perplexity impact for most models. Supported in vLLM V1, SGLang, and TensorRT-LLM. Combines naturally with KV cache offload for the largest memory savings.",
+    "indications": [
+      "Inference"
+    ],
+    "category": "Inference",
+    "sources": [
+      "NVIDIA"
+    ]
   },
   {
     "letter": "L",
@@ -7026,6 +7116,21 @@
   },
   {
     "letter": "L",
+    "term": "LMCache",
+    "full": "",
+    "plain": "An add-on for AI inference servers that lets them store the running memory of chats on cheaper storage outside the GPU.",
+    "snappy": "External KV-cache layer that plugs into vLLM and SGLang — stores cold cache entries on CPU memory, SSD, or remote servers.",
+    "detail": "Adds tiered KV-cache storage to inference engines without requiring those engines to rewrite their internals. Hot entries stay on GPU; LMCache spills cold entries to CPU memory, local SSD, or networked storage. Maintained as open source by University of Chicago and contributors. Used by several inference providers to extend effective context length cheaply and to enable disaggregated serving designs.",
+    "indications": [
+      "Inference"
+    ],
+    "category": "Software",
+    "sources": [
+      "University of Chicago"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Locomotion",
     "full": "",
     "snappy": "How a robot moves through space — walking, running, climbing.",
@@ -7113,6 +7218,21 @@
       "OpenAI"
     ],
     "plain": "A stash where an AI agent saves facts and preferences from past chats, so it remembers you the next time you come back."
+  },
+  {
+    "letter": "L",
+    "term": "Lookahead Decoding",
+    "full": "",
+    "plain": "A speed-up trick that lets a language model speculate using patterns from its own recent output, with no extra helper model needed.",
+    "snappy": "No-draft-model speculative decoding that uses n-gram pattern caching from the target model's own past output.",
+    "detail": "Maintains a small cache of n-gram patterns the target model has produced and proposes them as speculative continuations. Achieves 1.5-2x speedup without any extra model or training. Simpler to deploy than EAGLE-3 or Medusa but ceilings out lower. Useful when adding a draft head or model is operationally costly. Open-source implementations in vLLM V1 and SGLang.",
+    "indications": [
+      "Inference"
+    ],
+    "category": "Inference",
+    "sources": [
+      "LMSYS"
+    ]
   },
   {
     "letter": "L",
@@ -7438,6 +7558,21 @@
       "Anthropic"
     ],
     "plain": "Cracking open a trained neural network and figuring out which little circuits inside it do which jobs."
+  },
+  {
+    "letter": "M",
+    "term": "Medusa",
+    "full": "",
+    "plain": "A speed-up trick that adds several extra prediction heads to a language model so it can guess many words ahead at once.",
+    "snappy": "Speculative-decoding head that predicts several future positions in parallel — simpler than EAGLE, integrated into the model rather than a separate draft.",
+    "detail": "Adds multiple lightweight prediction heads to the target model itself, each forecasting a token a few positions ahead. Avoids the separate draft-model deployment cost of EAGLE. Speedup is typically 1.5-3x, slightly lower than EAGLE-3 but easier to deploy. Used by Together AI and several hyperscalers for medium-size open models. Named for the multi-headed creature.",
+    "indications": [
+      "Inference"
+    ],
+    "category": "Inference",
+    "sources": [
+      "Together AI"
+    ]
   },
   {
     "letter": "M",
@@ -8114,6 +8249,22 @@
       "NVIDIA"
     ],
     "plain": "Running jobs from different unrelated customers on the same physical hardware, kept safely apart from each other."
+  },
+  {
+    "letter": "M",
+    "term": "Multi-Token Prediction",
+    "full": "MTP",
+    "plain": "A DeepSeek training trick that teaches models to predict several words ahead at once, helping both training quality and inference speed.",
+    "snappy": "DeepSeek V3 training-time objective that predicts several future tokens at once — doubles as a speculative-decoding mechanism at inference.",
+    "detail": "MTP adds auxiliary heads during pretraining that predict tokens 1, 2, 3, ... ahead of the standard next-token target. At inference, the auxiliary heads serve as a free speculative-decoding mechanism (no separate draft model needed). Improves training-data efficiency by roughly 20% and gives a 1.5-2x inference speedup. Adopted by DeepSeek V3, V3.2, V4, and adapted by GLM-5. One of the design choices most differentiated DeepSeek from contemporary open models.",
+    "indications": [
+      "Training",
+      "Inference"
+    ],
+    "category": "Training",
+    "sources": [
+      "DeepSeek"
+    ]
   },
   {
     "letter": "M",
@@ -9352,6 +9503,21 @@
       "Stanford CRFM"
     ],
     "plain": "Two scores for a classifier — precision asks how often its yes-es are right, recall asks how many real yes-es it caught."
+  },
+  {
+    "letter": "P",
+    "term": "Prefix Caching",
+    "full": "",
+    "plain": "A technique that lets AI servers skip recomputing the same prompt twice, slashing costs when many requests share the same opening words.",
+    "snappy": "Reuse of KV-cache entries across requests that share a common prompt prefix — the single biggest cost cut available to agent and chat workloads.",
+    "detail": "When two requests share a system prompt or a few-shot prefix, prefix caching lets the second request reuse the first request's already-computed KV entries instead of re-running prefill. Cost savings of 5-12x are routine on agentic and chat workloads, where long prompts repeat constantly. Default in vLLM V1, SGLang, and Anthropic / OpenAI's billing-tier Prompt Caching APIs.",
+    "indications": [
+      "Inference"
+    ],
+    "category": "Inference",
+    "sources": [
+      "UC Berkeley"
+    ]
   },
   {
     "letter": "P",
@@ -10821,6 +10987,21 @@
   },
   {
     "letter": "S",
+    "term": "SGLang",
+    "full": "",
+    "plain": "An open-source AI server good at making language models return structured data like JSON, instead of plain text.",
+    "snappy": "LMSYS-developed inference engine — structured-output strength, fast prefix caching, and 3x DeepSeek V3 throughput over vLLM on some configurations.",
+    "detail": "Originally from LMSYS (the team behind Chatbot Arena). SGLang's edge is structured output: it can constrain decoding to schemas, regular expressions, or JSON shapes natively, faster than alternatives that bolt grammar on top. Also strong on RadixAttention prefix caching for shared system prompts. Adopted by many DeepSeek and Qwen production deployments where structured tool-calling is on the hot path.",
+    "indications": [
+      "Inference"
+    ],
+    "category": "Software",
+    "sources": [
+      "LMSYS"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "ShareGPT",
     "full": "",
     "snappy": "Crowdsourced dump of ChatGPT conversations shared by users — used as fine-tuning data for early open chat models.",
@@ -12099,6 +12280,21 @@
   },
   {
     "letter": "T",
+    "term": "Time-to-First-Token",
+    "full": "TTFT",
+    "plain": "How long an AI takes between receiving a question and starting its answer — one of the two key speed metrics for AI services.",
+    "snappy": "Latency from receiving a request to producing the first output token — the SLA metric for prompt processing speed.",
+    "detail": "TTFT measures the prefill phase: how long the model takes to digest the input prompt before starting to generate. Dominated by prompt length, model size, and the prefill engine's efficiency. Production targets: under 1 second for short prompts on frontier-class models, under 5 seconds for long context. Chunked prefill and prefix caching are the two biggest TTFT-reduction techniques.",
+    "indications": [
+      "Inference"
+    ],
+    "category": "Inference",
+    "sources": [
+      "NVIDIA"
+    ]
+  },
+  {
+    "letter": "T",
     "term": "Token",
     "full": "",
     "snappy": "The atomic unit a language model reads or writes — usually a word fragment of 3–4 characters, not a full word.",
@@ -12998,6 +13194,21 @@
       "UC Berkeley"
     ],
     "plain": "Free software that runs open-source language models very efficiently — popular with startups serving many users at once."
+  },
+  {
+    "letter": "V",
+    "term": "vLLM V1",
+    "full": "",
+    "plain": "The 2025 rewrite of the popular vLLM software that runs language models efficiently on GPUs.",
+    "snappy": "Ground-up rewrite of the vLLM inference engine, shipped 2025 — faster, simpler, and the default front-end for most open-weight inference today.",
+    "detail": "V1 replaces vLLM's original event-loop architecture with a cleaner request scheduler, native FlashAttention 3 / FlashMLA / FlashInfer integration, chunked prefill, and LMCache hooks. Performance improvements on H100 / H200 / B200 run 20-60% versus the original vLLM depending on workload. Default for Hugging Face inference endpoints, several cloud inference products, and most open-source projects serving LLMs at scale.",
+    "indications": [
+      "Inference"
+    ],
+    "category": "Software",
+    "sources": [
+      "UC Berkeley"
+    ]
   },
   {
     "letter": "V",
