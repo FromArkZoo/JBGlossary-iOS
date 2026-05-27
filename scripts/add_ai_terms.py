@@ -6473,6 +6473,158 @@ BATCH_FRONTIER_MFG = [
 
 
 # ============================================================================
+# BATCH 33 — Frontier custom silicon & accelerators (2025-26 cycle)
+# ============================================================================
+
+BATCH_FRONTIER_SILICON = [
+    entry(
+        "Blackwell", "",
+        "NVIDIA's 2024-25 GPU architecture — first to use the CoWoS-L two-die layout with 192 GB of HBM3e per package.",
+        "Blackwell powers the B200 chip and the GB200 NVL72 rack system. The architecture pairs two reticle-sized GPU dies via a 10 TB/s NV-HBI link plus eight HBM3e stacks, all assembled with CoWoS-L. Named after statistician David Blackwell. Successor to Hopper (H100/H200); succeeded by Rubin in 2026. Powered the first wave of GPT-5- and Claude-class training runs.",
+        ["NVIDIA"],
+        indications=["Compute", "Frontier"],
+        category="Hardware",
+        plain="NVIDIA's GPU design that powers most of the world's frontier AI training and inference through 2025 and into 2026.",
+    ),
+    entry(
+        "Blackwell Ultra", "B300, GB300",
+        "Mid-cycle Blackwell refresh shipping mid-2025 — same architecture as B200 with upgraded HBM3e capacity and bandwidth.",
+        "B300 lifts per-package HBM3e from 192 GB to 288 GB and boosts inference FP4 throughput roughly 50% versus B200. GB300 is the Grace-paired CPU+GPU module. Targeted at inference-heavy customers including OpenAI and Microsoft. Bridges the architectural gap until Rubin volume in late 2026. Sometimes referred to externally as the Blackwell Ultra refresh; NVIDIA's internal designation is B300.",
+        ["NVIDIA"],
+        indications=["Compute", "Frontier"],
+        category="Hardware",
+        plain="A mid-2025 refresh of NVIDIA's Blackwell GPU with more on-package memory, aimed at AI inference customers.",
+    ),
+    entry(
+        "Rubin", "",
+        "NVIDIA's next GPU architecture after Blackwell — debuts mid-2026 with HBM4, NVLink 6, and 3nm-class silicon.",
+        "Rubin uses two reticle-sized GPU dies with eight HBM4 stacks per package and ships paired with the Vera CPU. NVLink 6 doubles per-GPU scale-up bandwidth to 3.6 TB/s. NVIDIA frames Rubin as a step-change for both training and reasoning-model inference. Named after Vera Rubin, the astronomer who discovered evidence for dark matter. Succeeds Blackwell; succeeded by Rubin Ultra in 2027.",
+        ["NVIDIA"],
+        indications=["Compute", "Frontier"],
+        category="Hardware",
+        plain="NVIDIA's 2026 GPU architecture replacing Blackwell, with bigger memory and faster connections between chips.",
+    ),
+    entry(
+        "Rubin Ultra", "",
+        "Four-die variant of Rubin debuting in 2027 — 1 TB of HBM4e per package and roughly 4x the compute density of a single Rubin.",
+        "Rubin Ultra stitches four reticle-sized GPU dies into one package via CoWoS-L and HBM4e. Targeted at the very largest training and reasoning-inference workloads where wall-power per FLOP is the binding constraint. NVIDIA's Vera Rubin NVL576 SuperPOD uses Rubin Ultra. Pushes packaging, power, and cooling well past Blackwell's already-aggressive envelope.",
+        ["NVIDIA"],
+        indications=["Compute", "Frontier"],
+        category="Hardware",
+        plain="A larger version of NVIDIA's 2027 Rubin GPU that stitches four chips into one package for the most demanding AI workloads.",
+    ),
+    entry(
+        "Vera", "Vera CPU",
+        "NVIDIA's first internally designed 88-core Arm server CPU — pairs with the Rubin GPU as a unified compute module.",
+        "Vera replaces Grace as NVIDIA's host CPU starting in 2026. The 88 custom Arm cores are connected to Rubin GPUs via NVLink-C2C at 1.8 TB/s of coherent bandwidth. Lower power than Grace and tuned for AI host-side work (data loading, KV-cache management). Named to pair with Rubin (Vera Rubin) for the flagship NVL72 and NVL576 systems.",
+        ["NVIDIA"],
+        indications=["Compute"],
+        category="Hardware",
+        plain="NVIDIA's first home-grown CPU, designed to sit alongside the Rubin GPU as a single compute unit.",
+    ),
+    entry(
+        "Vera Rubin NVL72", "",
+        "NVIDIA's flagship 2H-2026 rack system pairing 72 Rubin GPUs with 36 Vera CPUs in a single NVLink-6 domain.",
+        "Pitched as up to 5x the Blackwell GB200 NVL72's inference throughput at significantly lower cost per generated token. Liquid-cooled, ~140 kW per rack, target shipments late 2026. Anchors NVIDIA's pitch to hyperscalers for the next AI data-centre buildout cycle. Distinct from the older GB200 NVL72 which uses Blackwell silicon; the topology number (72 GPUs in one NVLink domain) is the same, the silicon is one generation newer.",
+        ["NVIDIA"],
+        indications=["Compute", "Frontier"],
+        category="Hardware",
+        plain="NVIDIA's 2026 rack-scale system packing 72 of its newest Rubin GPUs into one tightly connected cabinet.",
+    ),
+    entry(
+        "Vera Rubin NVL576", "",
+        "Eight-rack NVIDIA SuperPOD topology connecting 576 Rubin Ultra GPUs into one NVLink-6 scale-up domain.",
+        "NVL576 stitches eight Vera Rubin NVL72-style racks via NVLink Switch silicon, pushing the scale-up domain to 576 GPUs — the largest single-fabric domain NVIDIA has ever shipped. Targeted at frontier labs (OpenAI, Anthropic, Google, Meta, xAI) for training runs that exceed any single rack's memory and compute. Power-bound at well over a megawatt per pod; viable only with the most aggressive liquid cooling.",
+        ["NVIDIA"],
+        indications=["Compute", "Frontier"],
+        category="Hardware",
+        plain="NVIDIA's 2027 mega-system that ties 576 of its top Rubin Ultra GPUs together as if they were one giant computer.",
+    ),
+    entry(
+        "AMD MI400", "Helios",
+        "AMD's 2026 frontier accelerator — successor to MI350, built on HBM4 and AMD's next-generation CDNA architecture.",
+        "MI400 (codename Helios at the rack level) is AMD's direct response to NVIDIA's Rubin generation. Quoted FP4 throughput and memory capacity are competitive with Rubin; the rack-scale story (Helios) targets the same workloads as Vera Rubin NVL72. Anthropic and Microsoft are among the named customers, alongside continuing Meta investment. Anchors AMD's pitch that there is a credible non-NVIDIA frontier-training option.",
+        ["AMD"],
+        indications=["Compute", "Frontier"],
+        category="Hardware",
+        plain="AMD's flagship 2026 AI chip — the company's most credible head-to-head competitor to NVIDIA's Rubin.",
+    ),
+    entry(
+        "AWS Trainium2", "",
+        "Amazon's 2024 second-generation training accelerator — backbone of the Anthropic-AWS compute partnership.",
+        "Trainium2 ships in 16-chip Trn2 instances and 64-chip UltraServer configurations. Each chip delivers ~1.3 PFLOPS FP8 and pairs with 96 GB of HBM. Anthropic uses Trainium2 at scale, including for portions of Claude training. AWS positions it as a cost-competitive alternative to NVIDIA for predictable training and inference patterns, trading peak performance for lower $/FLOP at scale.",
+        ["Amazon"],
+        indications=["Compute"],
+        category="Hardware",
+        plain="Amazon's second-generation custom AI chip, used heavily for training and running models including Anthropic's Claude.",
+    ),
+    entry(
+        "AWS Trainium3", "",
+        "Amazon's 2025-26 third-generation training accelerator — 2.5 PFLOPS FP8 per chip on HBM3e, anchoring the Rainier cluster.",
+        "Trainium3 doubles per-chip throughput versus Trainium2 and adds HBM3e capacity. The Rainier cluster Anthropic and AWS announced in 2025 uses hundreds of thousands of Trainium3 chips. Improvements over the previous generation focus on better networking and more memory per chip, addressing the bottlenecks Trainium2 customers reported. Continues the AWS pattern of one generation behind NVIDIA on peak performance but ahead on cost at scale.",
+        ["Amazon"],
+        indications=["Compute"],
+        category="Hardware",
+        plain="Amazon's newest custom AI chip, faster than Trainium2 and powering the giant Rainier compute cluster.",
+    ),
+    entry(
+        "Google TPU v7", "Ironwood",
+        "Google's 2025 inference-tuned seventh-generation TPU — 192 GB HBM3e per chip, designed for reasoning-model workloads.",
+        "Ironwood is Google's first TPU explicitly tuned for inference rather than training, marking the importance of reasoning-model inference scaling. Each chip carries 192 GB HBM3e and delivers ~4.6 PFLOPS FP8. Available to external customers via Google Cloud as well as powering Gemini inference internally. Pod sizes scale to 9,216 chips with optical interconnect for very large-context reasoning workloads.",
+        ["Google"],
+        indications=["Compute", "Inference"],
+        category="Hardware",
+        plain="Google's seventh-generation custom AI chip, tuned for running reasoning models like Gemini rather than training them.",
+    ),
+    entry(
+        "Microsoft Maia", "",
+        "Microsoft's Azure-internal AI accelerator family — first generation (Maia 100) deployed in 2024, successor generations following annually.",
+        "Maia 100 was Microsoft's first deeply customised AI accelerator, co-designed for the workloads it cares most about (Azure OpenAI inference, Microsoft 365 Copilot). Built on TSMC 5nm with 64 GB of HBM2e per chip. Maia 200 and Maia 300 follow on a roughly annual cadence with HBM3e and HBM4 respectively. Sits alongside (not replacing) Microsoft's continued NVIDIA purchases.",
+        ["Microsoft"],
+        indications=["Compute"],
+        category="Hardware",
+        plain="Microsoft's family of custom AI chips for its own Azure cloud, built to run things like ChatGPT more cheaply than buying NVIDIA chips.",
+    ),
+    entry(
+        "Meta MTIA", "Meta Training and Inference Accelerator",
+        "Meta's family of in-house AI chips — originally inference-focused, expanding into training with later generations.",
+        "MTIA v1 (2023) handled ranking and recommendation inference at Meta scale. MTIA v2 (2024-25) extended into generative inference. Later generations are reported to take on training workloads, gradually displacing NVIDIA spend on the most predictable internal models. Built on TSMC and packaged with HBM3 / HBM3e depending on generation. Driven by Meta's enormous internal inference volume (newsfeed ranking, ads, Reels recommendations).",
+        ["Meta AI"],
+        indications=["Compute"],
+        category="Hardware",
+        plain="Meta's family of in-house AI chips, used inside Facebook and Instagram to recommend posts and run AI features.",
+    ),
+    entry(
+        "Etched Sohu", "",
+        "Specialised transformer-only ASIC from startup Etched — sacrifices flexibility for far-higher inference throughput on the dominant model family.",
+        "Sohu bakes the transformer dataflow directly into silicon: no general-purpose programmability, no support for other architectures. Trade-off is dramatic per-watt inference throughput on transformer LLMs — Etched claims an order of magnitude versus contemporary H100/B200. Risky bet that the transformer remains the dominant frontier architecture for the chip's lifetime; pays off massively if it does. Early customers include several inference-focused startups.",
+        ["Etched"],
+        indications=["Compute", "Inference"],
+        category="Hardware",
+        plain="An AI chip designed to run only one type of model (the transformer) but to run it many times faster than general-purpose GPUs.",
+    ),
+    entry(
+        "Tenstorrent Blackhole", "",
+        "Tenstorrent's RISC-V-based 2024-25 AI accelerator — competes on open-architecture, programmability, and price-performance.",
+        "Blackhole pairs Tenstorrent's Tensix AI cores with RISC-V CPUs on a chiplet design, with extensive support for community software stacks. Positions itself as the open alternative to NVIDIA's CUDA-bound ecosystem. Built on a 6nm-class node with GDDR6 memory, designed for customers who value programmability and price over raw peak performance. Led by Jim Keller, the chip architect behind several previous-generation breakthroughs at AMD, Apple, and Tesla.",
+        ["Tenstorrent"],
+        indications=["Compute"],
+        category="Hardware",
+        plain="An AI chip from Jim Keller's Tenstorrent company, designed to be more open and programmable than NVIDIA's GPUs.",
+    ),
+    entry(
+        "Huawei Ascend 910C", "",
+        "Huawei's flagship 2024-25 training accelerator — China's most credible response to NVIDIA in the sanctions era.",
+        "Ascend 910C is the most advanced AI accelerator Huawei has shipped despite US export controls. Built on SMIC's domestic 7nm-class process, paired with domestic HBM. Performance per chip trails Blackwell B200 by a meaningful margin, but volume deployment inside China for both training (DeepSeek, Alibaba, Tencent) and inference closes the gap. Symbolic of China's structural push for AI-compute independence.",
+        ["Huawei"],
+        indications=["Compute", "Frontier"],
+        category="Hardware",
+        plain="Huawei's top AI chip, made with Chinese tools after US sanctions blocked access to the best NVIDIA hardware.",
+    ),
+]
+
+
+# ============================================================================
 # BATCH 32 — Frontier packaging & HBM (2025-26 vintage)
 # ============================================================================
 
@@ -6657,6 +6809,7 @@ BATCHES = {
     30: BATCH_FILL,
     31: BATCH_FRONTIER_MFG,
     32: BATCH_FRONTIER_PKG,
+    33: BATCH_FRONTIER_SILICON,
 }
 
 
