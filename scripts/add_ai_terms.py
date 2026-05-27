@@ -6473,6 +6473,140 @@ BATCH_FRONTIER_MFG = [
 
 
 # ============================================================================
+# BATCH 34 — Frontier interconnect, networking & optics
+# ============================================================================
+
+BATCH_FRONTIER_NET = [
+    entry(
+        "NVLink 5", "",
+        "Fifth-generation NVLink — 1.8 TB/s of scale-up bandwidth per Blackwell GPU.",
+        "NVLink 5 is the fabric inside GB200 NVL72 racks, giving each of the 72 GPUs full 1.8 TB/s connectivity to every other GPU in the domain. Roughly 14x the per-GPU bandwidth of comparable PCIe links. Crucial for tensor-parallel training and for inference of very large reasoning models that need cross-GPU memory access on the hot path. Succeeded by NVLink 6 in the Rubin generation.",
+        ["NVIDIA"],
+        indications=["Compute"],
+        category="Interconnect",
+        plain="The fifth generation of NVIDIA's fast chip-to-chip link, used to make groups of GPUs act like one giant GPU.",
+    ),
+    entry(
+        "NVLink 6", "",
+        "Sixth-generation NVLink — 3.6 TB/s per Rubin GPU, doubling NVLink 5's per-GPU bandwidth.",
+        "NVLink 6 is the fabric inside the Vera Rubin NVL72 and NVL576 systems, extending the scale-up domain to 576 GPUs. Each Rubin GPU sees 3.6 TB/s of fabric bandwidth to every other GPU in the domain. The doubling versus NVLink 5 is achieved through both higher per-lane signalling and more lanes per GPU. NVSwitch silicon generations track NVLink generations.",
+        ["NVIDIA"],
+        indications=["Compute", "Frontier"],
+        category="Interconnect",
+        plain="The sixth generation of NVIDIA's chip-to-chip link, twice as fast as the previous one and used inside the Rubin systems.",
+    ),
+    entry(
+        "NVSwitch Gen5", "",
+        "Fifth-generation NVLink switching silicon — the crossbar chip that backs the NVL72 fabric.",
+        "NVSwitch Gen5 chips sit in the spine of every GB200 NVL72 rack, providing all-to-all NVLink 5 connectivity for the 72 GPUs. Each switch has terabytes-per-second of aggregate bandwidth and on-die SHARP collectives that speed up cross-GPU reductions. NVSwitch Gen6 follows in the Rubin generation. Distinct from network switches — NVSwitch is purely a scale-up GPU-to-GPU fabric.",
+        ["NVIDIA"],
+        indications=["Compute"],
+        category="Interconnect",
+        plain="The crossbar chip inside NVIDIA's racks that lets every GPU talk directly to every other GPU at full speed.",
+    ),
+    entry(
+        "UALink", "Ultra Accelerator Link",
+        "Open-consortium scale-up interconnect — pitched as an alternative to NVLink for non-NVIDIA accelerators.",
+        "UALink is backed by AMD, Google, Microsoft, AWS, Meta, Intel, Broadcom, and HP Enterprise. Specification 1.0 targets up to 1,024 accelerators in a scale-up domain at speeds competitive with NVLink. The play is to let AMD, AWS Trainium, and other non-NVIDIA accelerators reach NVL72-style scale-up topologies without licensing NVLink. First production deployments expected 2026.",
+        ["AMD", "Google", "Microsoft"],
+        indications=["Compute"],
+        category="Interconnect",
+        plain="An open competitor to NVIDIA's NVLink, backed by AMD and the major cloud providers to connect non-NVIDIA chips together.",
+    ),
+    entry(
+        "Spectrum-X", "",
+        "NVIDIA's lossless Ethernet networking stack — combines its Spectrum switch ASICs with BlueField SmartNICs to deliver RoCE at scale for AI clusters.",
+        "Spectrum-X targets the scale-out fabric (between racks) where Ethernet is preferred over InfiniBand for vendor diversity and cost. The Spectrum switch silicon plus BlueField DPUs add the congestion control and packet pacing needed to match InfiniBand's tail latency on AI workloads. Adopted by xAI's Colossus and several large enterprise AI clusters. Spectrum-6 is the latest switch chip generation.",
+        ["NVIDIA"],
+        indications=["Compute"],
+        category="Interconnect",
+        plain="NVIDIA's package of fast Ethernet switches and network cards, tuned to keep AI training jobs from waiting on the network.",
+    ),
+    entry(
+        "Spectrum-6", "",
+        "NVIDIA's 102.4 Tb/s Ethernet switch ASIC — pairs with co-packaged optics in the highest-bandwidth AI scale-out designs.",
+        "Spectrum-6 doubles aggregate bandwidth versus Spectrum-5 and is among the first NVIDIA switch chips to ship with Co-Packaged Optics for reduced power-per-bit on long links. Sits at the core of Spectrum-X scale-out deployments. Direct competitor to Broadcom's Tomahawk 6 in the merchant-silicon switch market that hyperscalers buy at volume.",
+        ["NVIDIA"],
+        indications=["Compute"],
+        category="Interconnect",
+        plain="NVIDIA's most powerful Ethernet switch chip, fast enough to handle the data flowing between thousands of AI accelerators.",
+    ),
+    entry(
+        "Quantum-X800", "",
+        "NVIDIA's 800 Gb/s-per-port InfiniBand switch silicon — the XDR-generation upgrade from earlier Quantum-2 NDR switches.",
+        "Quantum-X800 anchors NVIDIA's pitch for InfiniBand as the AI-cluster scale-out fabric of choice for the largest training jobs. Pair with ConnectX-8 SuperNICs for full 800 Gb/s host-to-fabric bandwidth. Used by the largest frontier-lab training clusters that prefer InfiniBand's deterministic latency to Ethernet's flexibility. Faces Ethernet pressure from Spectrum-X and Tomahawk 6 generations.",
+        ["NVIDIA"],
+        indications=["Compute"],
+        category="Interconnect",
+        plain="NVIDIA's fastest InfiniBand switch chip, used in the biggest AI training clusters for predictable network speed.",
+    ),
+    entry(
+        "InfiniBand XDR", "",
+        "800 Gb/s-per-port generation of the InfiniBand standard — current top-end for frontier AI scale-out fabric.",
+        "XDR (eXtreme Data Rate) doubles the NDR generation's 400 Gb/s per port. Hosts connect via ConnectX-8 or equivalent SuperNICs. Adoption is concentrated in the largest frontier-lab training clusters where deterministic latency and lossless behaviour matter more than vendor diversity. Successor generation (GDR) is on the IBTA roadmap for late 2020s.",
+        ["NVIDIA"],
+        indications=["Compute"],
+        category="Interconnect",
+        plain="The current top speed of the InfiniBand networking standard, used in the largest AI training data centres.",
+    ),
+    entry(
+        "CXL 4.0", "Compute Express Link 4.0",
+        "Fourth-generation CXL standard — 128 GT/s per lane and full multi-rack memory pooling, ratified November 2025.",
+        "CXL 4.0 doubles per-lane signalling versus CXL 3.0 and formalises composable multi-rack memory pooling. Lets a server attach pooled DRAM, persistent memory, or accelerator memory across racks with cache-coherent semantics. Targeted at hyperscaler memory disaggregation and at AI-inference clusters where KV-cache storage benefits from elastic capacity beyond a single server's DDR sockets.",
+        ["Intel"],
+        indications=["Memory"],
+        category="Interconnect",
+        plain="The newest version of CXL — a way for servers to share memory across racks, with twice the speed of the previous generation.",
+    ),
+    entry(
+        "Co-Packaged Optics", "CPO",
+        "Optical engines integrated inside the switch or compute package — cuts power-per-bit on long links versus pluggable optics.",
+        "CPO moves optics from front-panel pluggable modules into the switch package itself, eliminating long electrical PCB traces that dominate power at high signalling rates. Spectrum-6 and Broadcom's Tomahawk 6 are the first volume switch silicon to ship with CPO. NVIDIA, Broadcom, and TSMC (via CoUPe) are the lead investors. Critical enabler for the next decade of AI-cluster scale-out where power per bit becomes the binding constraint.",
+        ["NVIDIA", "Broadcom"],
+        indications=["Compute"],
+        category="Interconnect",
+        plain="A way of putting the laser-based optical links right inside switch chips, instead of using separate plug-in modules.",
+    ),
+    entry(
+        "Linear Pluggable Optics", "LPO",
+        "DSP-free pluggable optical module — bridges traditional pluggables and full Co-Packaged Optics.",
+        "LPOs strip the digital signal processor out of the pluggable optical module, dropping power consumption by roughly half. The host switch silicon must compensate for the missing DSP, which limits LPO to short-reach use cases. Adopted as an intermediate step on the path to CPO for cost-sensitive deployments. Standardised by OIF; widely supported by switch silicon vendors.",
+        ["Broadcom"],
+        indications=["Compute"],
+        category="Interconnect",
+        plain="A simplified plug-in optical module that uses less power than older versions by removing internal processing.",
+    ),
+    entry(
+        "Tomahawk 6", "",
+        "Broadcom's 102.4 Tb/s Ethernet switch ASIC — direct competitor to NVIDIA's Spectrum-6 in the AI scale-out market.",
+        "Tomahawk 6 doubles aggregate bandwidth versus the prior Tomahawk 5 generation and is among the first switch chips with native Co-Packaged Optics support. Ships in hyperscaler-built switches across Google, Meta, Microsoft and others. The merchant-silicon counterpart to NVIDIA's vertically integrated Spectrum-X stack — pick this when the hyperscaler wants to design its own switch hardware around a standard chip.",
+        ["Broadcom"],
+        indications=["Compute"],
+        category="Interconnect",
+        plain="Broadcom's most powerful network switch chip, competing with NVIDIA's Spectrum-6 to move data between AI accelerators.",
+    ),
+    entry(
+        "PCIe 6.0", "",
+        "Sixth-generation PCI Express — 64 GT/s per lane, doubling PCIe 5.0. Standard in 2026 server and accelerator designs.",
+        "PCIe 6.0 doubles per-lane signalling via PAM4 encoding and adds Flit Mode for predictable latency. Used to connect CPUs to accelerators, SmartNICs, and NVMe storage. Servers built for Blackwell, MI300X-class and later accelerators standardise on Gen 6 host links. Coexists with NVLink and CXL inside the same chassis — PCIe is the lingua franca that bridges to the slower I/O.",
+        ["Intel", "AMD"],
+        indications=["Compute"],
+        category="Interconnect",
+        plain="The sixth generation of the PCI Express standard, twice as fast as the previous version and standard in 2026 AI servers.",
+    ),
+    entry(
+        "Silicon Photonics", "",
+        "Photonic circuits fabricated on CMOS-process silicon — enables optical I/O integrated alongside or inside compute chips.",
+        "The underlying technology behind CoUPe, Co-Packaged Optics, and chip-edge optical I/O. By building waveguides, modulators, and detectors on the same silicon as logic, the industry can put optical interconnect where copper runs out of bandwidth-per-watt. Ayar Labs and Lightmatter are the high-profile startups; TSMC, Intel, and GlobalFoundries all offer silicon-photonics process options to foundry customers.",
+        ["TSMC", "Intel"],
+        indications=["Compute", "Manufacturing"],
+        category="Interconnect",
+        plain="A way of building tiny light-based circuits on the same kind of silicon used for computer chips.",
+    ),
+]
+
+
+# ============================================================================
 # BATCH 33 — Frontier custom silicon & accelerators (2025-26 cycle)
 # ============================================================================
 
@@ -6810,6 +6944,7 @@ BATCHES = {
     31: BATCH_FRONTIER_MFG,
     32: BATCH_FRONTIER_PKG,
     33: BATCH_FRONTIER_SILICON,
+    34: BATCH_FRONTIER_NET,
 }
 
 
