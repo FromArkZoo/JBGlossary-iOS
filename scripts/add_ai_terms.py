@@ -6473,6 +6473,149 @@ BATCH_FRONTIER_MFG = [
 
 
 # ============================================================================
+# BATCH 42 — Eval, benchmarks & frontier capability measurement
+# ============================================================================
+
+BATCH_FRONTIER_EVAL = [
+    entry(
+        "FrontierMath", "",
+        "350 unpublished expert-level research-math problems — the most contamination-resistant math benchmark, maintained by Epoch AI.",
+        "Released November 2024 by Epoch AI in collaboration with 60+ professional mathematicians (including several Fields Medalists). Problems span graduate-level number theory, algebraic geometry, combinatorics, and analysis. Difficulty is calibrated to take expert humans hours to days. Frontier models scored under 2% on the original release; OpenAI's o3 was the first to break 25% in late 2024. The held-out portion of the dataset is not public, blocking pretraining contamination.",
+        ["Epoch AI"],
+        indications=["Frontier"],
+        category="Eval",
+        plain="The hardest public math benchmark for AI — 350 expert-level problems kept secret from training data to prevent cheating.",
+    ),
+    entry(
+        "Humanity's Last Exam", "HLE",
+        "2,500-question multi-subject expert benchmark — assembled across mathematics, physics, biology, history, linguistics, and more.",
+        "Released January 2025 by the Center for AI Safety and Scale AI. Questions sourced from PhD-level experts across 100+ subjects with the explicit goal of being hard for frontier AI. Designed to outlast MMLU and GPQA, which have saturated under reasoning-model scaling. Frontier model scores in 2025-26 climb from sub-10% at launch toward 30%+ as reasoning models improve. The benchmark of choice for tracking 'is the frontier moving' questions.",
+        ["Center for AI Safety"],
+        indications=["Frontier"],
+        category="Eval",
+        plain="A 2,500-question test of AI across every subject experts could think to ask — designed to outlast older benchmarks that AI has already beaten.",
+    ),
+    entry(
+        "ARC-AGI-1", "",
+        "François Chollet's pattern-induction grid-puzzle benchmark — designed to measure fluid intelligence rather than memorisation.",
+        "Released 2019 by Chollet alongside his 'On the Measure of Intelligence' paper. Each task shows a few input-output grid pairs, and the model must induce the rule and apply it to a new input. Frontier LLMs scored under 5% for years until OpenAI's o3 broke 75% in late 2024 (with heavy test-time compute). ARC-AGI-1's saturation motivated ARC-AGI-2 in 2025.",
+        ["ARC Prize"],
+        indications=["Frontier"],
+        category="Eval",
+        plain="A 2019 puzzle benchmark from François Chollet that proved AI models lacked basic visual pattern-finding skills, until o3 finally cracked it in 2024.",
+    ),
+    entry(
+        "ARC-AGI-2", "",
+        "Successor to ARC-AGI-1 — harder puzzles resistant to brute-force prompt search, released 2025 with continued ARC Prize structure.",
+        "Each puzzle in ARC-AGI-2 is calibrated to be solvable by humans but resistant to the strategies that broke ARC-AGI-1 (heavy test-time compute + brute search). Frontier scores in 2025-26 sit in the 10-25% range, far below the 75%+ ceiling on the original. Used as the headline benchmark for whether AI systems can do novel visual reasoning rather than retrieve known patterns.",
+        ["ARC Prize"],
+        indications=["Frontier"],
+        category="Eval",
+        plain="The 2025 follow-up to the ARC-AGI puzzle benchmark, harder than the original and designed to stay difficult even as AI gets better.",
+    ),
+    entry(
+        "GPQA Diamond", "Graduate-Level Google-Proof Q&A Diamond",
+        "198 PhD-expert physics, biology, and chemistry questions — the hardest subset of the GPQA benchmark and a key reasoning-model evaluation target.",
+        "GPQA was designed to be 'Google-proof' — even subject-matter experts spend 30+ minutes per question with web access. The Diamond subset is the 198 highest-quality questions. Frontier models in late 2024 scored 50-60%; by 2026, top reasoning models exceed 80%. The narrowing gap between top frontier and expert-human performance makes GPQA increasingly less discriminative than HLE or FrontierMath.",
+        ["NYU"],
+        indications=["Frontier"],
+        category="Eval",
+        plain="A 198-question PhD-expert science test that AI models couldn't crack with Google access — now solved at 80%+ by frontier reasoning models.",
+    ),
+    entry(
+        "SimpleBench", "",
+        "Common-sense reasoning benchmark resistant to memorisation — short trick questions where the obvious answer is wrong.",
+        "Released 2024 by Philip Lewer. Questions involve simple physical reasoning, social context, or counterfactuals where surface pattern-matching produces wrong answers. Frontier models score 40-60% — well below human baselines around 84%. Saturation pace has been slower than other reasoning benchmarks, suggesting it taps something distinct from pure mathematical reasoning. The most-cited 'AI still gets simple things wrong' benchmark.",
+        ["Independent"],
+        indications=["Frontier"],
+        category="Eval",
+        plain="A short test of common-sense reasoning where the obvious answer is wrong — AI models still trip on basic real-world thinking.",
+    ),
+    entry(
+        "SWE-bench Verified", "",
+        "Human-curated subset of SWE-bench — 500 real GitHub issues that OpenAI verified are solvable and well-specified.",
+        "SWE-bench's original 2,294 issues had noisy labels and underspecified problems. SWE-bench Verified was released 2024 by OpenAI as the cleaner 500-issue subset that fairly measures coding-agent capability. The headline benchmark for agentic coding: Devin, Claude Opus 4, GPT-5 reasoning modes all report SWE-bench Verified scores. Top scores in 2026 exceed 80% on the verified set — a remarkable jump from sub-5% at the benchmark's 2023 launch.",
+        ["OpenAI", "Princeton"],
+        indications=["Frontier"],
+        category="Eval",
+        plain="A cleaned-up version of the SWE-bench coding benchmark — 500 real GitHub bugs that AI agents now solve 80%+ of the time.",
+    ),
+    entry(
+        "MMLU-Pro", "",
+        "Harder revision of MMLU — adds reasoning-intensive questions and increases answer-choice count to reduce random-guess baseline.",
+        "MMLU saturated in 2024 with top models at 90%+, making it useless for differentiating frontier capability. MMLU-Pro released June 2024 with 10 answer choices (versus MMLU's 4) and more reasoning-intensive questions. Frontier models in 2026 cluster around 80-90%. Useful as a broad multi-subject sanity check; less load-bearing than HLE or FrontierMath for tracking the moving frontier.",
+        ["TIGER Lab"],
+        indications=["Frontier"],
+        category="Eval",
+        plain="A harder version of the famous MMLU AI test, with more answer choices and trickier questions, replacing the original now that AI has aced it.",
+    ),
+    entry(
+        "AIME", "American Invitational Mathematics Examination",
+        "US high-school maths competition used as a clean math benchmark for AI — 15 problems, integer answers, no calculus.",
+        "Annual AIME problems are well-known and well-documented but their integer answers make them easy to grade automatically. Used heavily as an RLVR training signal and as a reasoning-model benchmark. Frontier reasoning models in 2025-26 score 80-95% on recent AIME papers; contamination is the main concern for older years. AIME 2025 became one of the first new benchmarks specifically held out for post-2024 reasoning-model evaluation.",
+        ["MAA"],
+        indications=["Frontier"],
+        category="Eval",
+        plain="A US high-school math competition with integer answers, now widely used as a clean test for AI reasoning models.",
+    ),
+    entry(
+        "LiveBench", "",
+        "Contamination-resistant rotating benchmark — adds fresh problems monthly to outpace pretraining cutoffs.",
+        "Released 2024 by Yann LeCun's group at NYU and Abacus.AI. New questions added each month across math, code, reasoning, language, instruction-following, and data analysis. Older subsets retire as they become contamination risks. The single most-tracked 'is the model knowledge actually generalising' leaderboard. Scores update as new model releases land, providing a continuous frontier-tracking signal.",
+        ["NYU"],
+        indications=["Frontier"],
+        category="Eval",
+        plain="An AI benchmark that adds fresh test questions every month to stop models from cheating by having seen them during training.",
+    ),
+    entry(
+        "METR Time Horizon", "",
+        "Evaluation that measures the length of autonomous task an agent can complete reliably — explicitly time-scaled.",
+        "Released 2025 by METR (Model Evaluation and Threat Research). Calibrates difficulty by 'how long would a competent human take?' rather than by question complexity. Frontier agents in 2025-26 pass tasks that take competent humans 1-4 hours, with the time-horizon doubling roughly every 7 months on METR's series. The most-cited measure for whether AI agents can take on substantive autonomous work.",
+        ["METR"],
+        indications=["Frontier"],
+        category="Eval",
+        plain="A benchmark that measures how long an AI agent can work on its own before failing — currently measured in hours and growing fast.",
+    ),
+    entry(
+        "OSWorld", "",
+        "Agent benchmark on desktop computer-use tasks across multiple operating systems — 369 real-world tasks requiring screen and keyboard control.",
+        "Released 2024 by HKU and friends. Tasks span file management, browser navigation, productivity apps (Office, LibreOffice), and developer tools. The agent receives screenshots and emits mouse / keyboard events; success is judged by automated environment state checking. Frontier computer-use agents in 2025-26 score 30-50% on OSWorld, leaving substantial headroom. The premier agentic-evaluation suite for desktop control.",
+        ["HKU"],
+        indications=["Frontier"],
+        category="Eval",
+        plain="A test of how well AI agents can use a real desktop computer to get things done — currently scoring 30-50% on real-world tasks.",
+    ),
+    entry(
+        "HarmBench", "",
+        "Standardised red-team / jailbreak evaluation suite — 510 harmful behaviours grouped into seven categories.",
+        "Released 2024 by Center for AI Safety. Tests both single-turn and multi-turn jailbreak attempts. Provides a consistent scaffold for comparing safety-training effectiveness across labs and models. Categories include illegal activity, harassment, malware, misinformation, and bio / chem / cyber capability proxies. The most-cited safety benchmark for measuring how well a model resists adversarial prompting.",
+        ["Center for AI Safety"],
+        indications=["Safety", "Frontier"],
+        category="Eval",
+        plain="A standard test of whether AI models can be tricked into producing harmful content — used to compare safety across models and labs.",
+    ),
+    entry(
+        "WMDP", "Weapons of Mass Destruction Proxy",
+        "4,000-question benchmark of dual-use knowledge in biology, chemistry, and cybersecurity — proxy for catastrophic-misuse risk.",
+        "Released 2024 by Scale AI and Center for AI Safety. Designed to measure how much frontier-relevant dual-use knowledge a model holds; pre-2024 models scored 30-50%, with frontier 2026 models near 80%+. The benchmark is also used as a target for 'unlearning' research — removing dangerous capabilities post-hoc. Featured in several lab safety policies (Responsible Scaling Policy, Preparedness Framework).",
+        ["Center for AI Safety"],
+        indications=["Safety", "Frontier"],
+        category="Eval",
+        plain="A test of how much dangerous-knowledge AI models hold about weapons, chemistry, and hacking — used to gauge catastrophic-misuse risk.",
+    ),
+    entry(
+        "Benchmark Contamination", "",
+        "When test-set questions leak into pretraining data, inflating measured benchmark scores without genuine capability gain.",
+        "A persistent challenge in AI evaluation. Common contamination sources: scraped academic papers, Stack Overflow, public GitHub repos. Mitigations include held-out evaluation subsets (FrontierMath, HLE), rotating benchmarks (LiveBench), and direct contamination detection (n-gram overlap, perplexity probing). The 'contamination tax' on saturated benchmarks like MMLU is real and one of the reasons newer benchmarks are continuously needed.",
+        ["Epoch AI"],
+        indications=["Frontier"],
+        category="Eval",
+        plain="When AI test questions accidentally end up in the model's training data, making scores look better than the model really is.",
+    ),
+]
+
+
+# ============================================================================
 # BATCH 41 — Agents, tool use, MCP
 # ============================================================================
 
@@ -7980,6 +8123,7 @@ BATCHES = {
     39: BATCH_FRONTIER_MODELS,
     40: BATCH_FRONTIER_TTC,
     41: BATCH_FRONTIER_AGENTS,
+    42: BATCH_FRONTIER_EVAL,
 }
 
 
