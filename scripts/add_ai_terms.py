@@ -6473,6 +6473,131 @@ BATCH_FRONTIER_MFG = [
 
 
 # ============================================================================
+# BATCH 40 — Test-time compute, reasoning & verifier methods
+# ============================================================================
+
+BATCH_FRONTIER_TTC = [
+    entry(
+        "Test-Time Compute", "",
+        "Spending more inference compute to reason longer at answer time — the defining insight behind OpenAI's o-series and the broader reasoning-model wave.",
+        "Where earlier scaling stories focused on training compute, test-time compute shifts the lever to inference. A reasoning model uses 10-1000x more tokens than a chat model on the same question, generating a long internal chain-of-thought before answering. Quality scales empirically with reasoning-token count for many tasks. Epoch AI's analysis projects reasoning-training and inference compute will converge with frontier-training compute by 2026-27.",
+        ["OpenAI"],
+        indications=["Frontier"],
+        category="Concepts",
+        plain="The idea that AI models can get smarter answers by thinking longer at the moment of the question, not just by being bigger.",
+    ),
+    entry(
+        "Inference-Time Scaling", "",
+        "Empirical scaling law showing accuracy rises with reasoning-token count on many tasks — the test-time-compute analog of pretraining scaling.",
+        "Measured first by OpenAI for o1 in 2024 and extended by multiple labs. On benchmarks like AIME, GPQA, and SWE-bench, doubling reasoning tokens predictably lifts accuracy by a roughly fixed margin. The relationship eventually plateaus (the reasoning-compute paradox) and varies sharply by task. Underpins the economics of charging per reasoning-token — customers pay for the depth of thinking the model does.",
+        ["OpenAI"],
+        indications=["Frontier"],
+        category="Concepts",
+        plain="The pattern that AI models give better answers when allowed to think longer — measured precisely on math and reasoning benchmarks.",
+    ),
+    entry(
+        "Reasoning Model", "",
+        "Model class trained to emit long internal chain-of-thought before answering — distinct from chat models, which respond directly.",
+        "OpenAI's o-series (o1, o3, o4-mini, o5), DeepSeek R1, Anthropic's extended-thinking Claude, Google's Gemini Thinking, and Qwen's QwQ are the canonical examples. The reasoning trace may be hidden (OpenAI's o-series) or visible (DeepSeek R1, Claude). Distinct training recipe: typically RLVR or RLAIF on base models with strong math and code grounding. Most useful for math, code, science, and multi-step planning; less differentiated for short open-ended tasks.",
+        ["OpenAI"],
+        indications=["Frontier"],
+        category="Concepts",
+        plain="A type of AI model that thinks through problems step by step before answering, instead of responding right away.",
+    ),
+    entry(
+        "Long Chain-of-Thought", "Long CoT",
+        "Extended reasoning trace — 10x to 100x longer than the base model's natural output, generated before the final answer.",
+        "Reasoning models routinely emit 1,000-100,000 tokens of thinking before answering. The length is what makes test-time compute scaling work. Some models (DeepSeek R1, Claude extended-thinking) expose the trace to users; others (OpenAI o-series) hide it. Long CoT is what the customer pays for in reasoning-tier API pricing — the output token count covers both visible answer tokens and (when billable) thinking tokens.",
+        ["DeepSeek"],
+        indications=["Frontier"],
+        category="Concepts",
+        plain="The very long step-by-step thinking a reasoning model does before giving its final answer.",
+    ),
+    entry(
+        "Reasoning Trace", "",
+        "The visible or hidden chain-of-thought a reasoning model emits before its final answer — sometimes called 'thinking tokens'.",
+        "Distinguished from the final answer by tagging or by API field. DeepSeek R1 and Claude expose the trace; OpenAI's o-series hides it but bills for it. Useful for debugging model behaviour, for verifier-model training, and for transparency. Privacy-sensitive when traces reveal training-data fragments or internal-team-specific shortcuts. Increasingly the surface customers want to log and analyse for production agent debugging.",
+        ["Anthropic", "OpenAI"],
+        indications=["Frontier"],
+        category="Concepts",
+        plain="The step-by-step reasoning a reasoning model shows or hides while working out its answer.",
+    ),
+    entry(
+        "Thinking Budget", "",
+        "Caller-supplied limit on how many reasoning tokens a model can use before being forced to answer.",
+        "Exposed in the Anthropic and Google APIs (extended-thinking budgets, Gemini thinking limits). Lets callers trade off cost and depth on a per-request basis. Useful in agent loops where some sub-tasks need deep reasoning and others can settle for shallow responses. OpenAI's o-series exposes a similar concept via reasoning-effort levels rather than explicit token caps.",
+        ["Anthropic", "Google"],
+        indications=["Inference"],
+        category="Inference",
+        plain="A setting that lets a developer cap how much an AI model is allowed to think before giving its answer, controlling cost.",
+    ),
+    entry(
+        "Best-of-N Sampling", "",
+        "Generate N candidate answers, pick the best by a verifier or reward model — the simplest test-time-compute strategy.",
+        "Sample N candidates (typically 8-128) for the same input, score each, return the highest-scoring. Used in production for both raw quality lift and for collecting RFT training data. Combines naturally with self-consistency (vote across N when no verifier is available) and with process reward models (score each step rather than just the final answer). Scales sub-linearly: doubling N gives diminishing returns past N=16 for most tasks.",
+        ["Google"],
+        indications=["Inference"],
+        category="Inference",
+        plain="Generating several candidate answers and picking the best one — the simplest way to spend more compute for higher quality.",
+    ),
+    entry(
+        "Process Reward Model", "PRM",
+        "Reward model that scores individual reasoning steps, not just the final answer — enables denser RL training signal for reasoning models.",
+        "Where an outcome reward model gives one signal per trajectory (right or wrong final answer), a process reward model gives one signal per step. Lets training distinguish good and bad reasoning paths that both arrive at the right answer. Notable open implementations: OpenAI's PRM800K dataset (2023), DeepSeek's process-reward work. Hard to scale because step-level labels are expensive — most production stacks use a cheap heuristic-based PRM rather than human-labelled steps.",
+        ["OpenAI"],
+        indications=["Training"],
+        category="Alignment",
+        plain="A scoring model that grades each step of a reasoning chain, not just the final answer — used to train reasoning models more precisely.",
+    ),
+    entry(
+        "Outcome Reward Model", "ORM",
+        "Reward model that scores only the final answer — the simpler, cheaper alternative to a process reward model.",
+        "ORMs are easier to train and label (just need correct-vs-incorrect signal on final answers) but provide less guidance during RL. Used in RLVR for math and code, where the verifier IS the ORM. Less effective for ill-defined tasks where multiple final answers might be valid. Often paired with a PRM in hybrid training stacks for richer training signal.",
+        ["DeepSeek"],
+        indications=["Training"],
+        category="Alignment",
+        plain="A scoring model that judges only the final answer of a reasoning chain — simpler and cheaper than scoring every step.",
+    ),
+    entry(
+        "Verifier Model", "",
+        "Model trained to check whether an answer is correct — the workhorse of RLVR, best-of-N, and PRM-driven training stacks.",
+        "Verifiers come in two flavours: programmatic (run the code, check the math, compare the answer string) and learned (a separate model trained to predict correctness). Programmatic is the gold standard when the task admits it. Learned verifiers handle softer judgement tasks (writing quality, factuality) but inherit the reward-hacking risks that programmatic checkers avoid. The choice of verifier shapes everything downstream in reasoning-model training.",
+        ["DeepSeek"],
+        indications=["Training"],
+        category="Alignment",
+        plain="An AI model whose job is to check if another model's answer is correct, used to train reasoning models efficiently.",
+    ),
+    entry(
+        "Test-Time RL", "",
+        "Reinforcement-learning policy updates at inference time, using on-the-fly reward signal from the deployment environment.",
+        "Emerging direction: instead of freezing the model after training, update its policy on each customer interaction based on observed reward. Risky (catastrophic forgetting, reward-hacking exploits), but powerful in narrow domains where the environment provides clean signal (game playing, certain RL-environment-based agent settings). Distinct from continual fine-tuning by being done online, per-request or per-session.",
+        ["DeepMind"],
+        indications=["Training"],
+        category="Concepts",
+        plain="Continuing to train an AI model on the fly while it's serving users, based on whether each interaction went well.",
+    ),
+    entry(
+        "Adaptive Compute", "",
+        "Letting a model choose its own thinking depth per query, instead of having a fixed reasoning budget for every input.",
+        "Implementations include router models that classify question difficulty and dispatch to different reasoning depths, and self-routing models that learn to stop thinking when confident. GPT-5's unified reasoning-and-chat routing is a public example. Cuts cost on easy questions (most of the production traffic) while preserving depth on hard ones. The natural production complement to inference-time scaling.",
+        ["OpenAI"],
+        indications=["Inference", "Frontier"],
+        category="Concepts",
+        plain="A model that automatically thinks longer on hard questions and answers quickly on easy ones, instead of always using the same effort.",
+    ),
+    entry(
+        "Reasoning Distillation", "",
+        "Transferring long-CoT capability from a strong reasoning model to a smaller one via supervised fine-tuning on traces.",
+        "Take a frontier reasoning model (R1, o3, Claude Opus 4) and generate reasoning traces on a diverse problem set. Fine-tune a smaller model on the traces. The student inherits much of the teacher's reasoning capability at a fraction of the inference cost. DeepSeek R1 paper showed this works for student models as small as 1.5B parameters. Now standard practice across the open-source community for cost-efficient reasoning model production.",
+        ["DeepSeek"],
+        indications=["Training"],
+        category="Training",
+        plain="Teaching a smaller AI model to reason like a bigger one by training it on the bigger model's step-by-step thinking.",
+    ),
+]
+
+
+# ============================================================================
 # BATCH 39 — Frontier model families (2025-26 generation)
 # ============================================================================
 
@@ -7692,6 +7817,7 @@ BATCHES = {
     37: BATCH_FRONTIER_INF,
     38: BATCH_FRONTIER_TRAIN,
     39: BATCH_FRONTIER_MODELS,
+    40: BATCH_FRONTIER_TTC,
 }
 
 
