@@ -1723,6 +1723,22 @@
   },
   {
     "letter": "B",
+    "term": "BSPDN",
+    "full": "Backside Power Delivery Network",
+    "plain": "Industry shorthand for the technique of feeding power to chips from underneath the wafer.",
+    "snappy": "Common acronym for Backside power delivery — the technique of routing chip power from underneath the wafer instead of the top.",
+    "detail": "Used interchangeably with the spelled-out form in industry coverage and in vendor branding. TSMC's implementation is Super Power Rail; Intel's is PowerVia; Samsung's variant is still on the SF2 roadmap. See the Backside power delivery entry for the full technical explanation; BSPDN is the form most often seen in industry analyst coverage and academic paper titles.",
+    "indications": [
+      "Manufacturing"
+    ],
+    "category": "Manufacturing",
+    "sources": [
+      "TSMC",
+      "Intel"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "Bump",
     "full": "Solder bump",
     "snappy": "Tiny solder ball that connects a chip die to its package substrate.",
@@ -3139,6 +3155,21 @@
   },
   {
     "letter": "D",
+    "term": "Defect Density",
+    "full": "D0",
+    "plain": "How many tiny manufacturing flaws appear on each wafer — the smaller this number, the more chips actually work.",
+    "snappy": "Defects per square centimetre of finished wafer — the underlying number that determines yield at a given chip size.",
+    "detail": "Lower defect density means larger chips can be built without one fatal flaw landing on each die. TSMC famously publishes a defect-density chart for each new node as it ramps; flat or declining curves signal a healthy ramp. It is the binding constraint on big-die designs like Blackwell B200 and Rubin, where a single bad spot can ruin a 800-1500mm² die.",
+    "indications": [
+      "Manufacturing"
+    ],
+    "category": "Manufacturing",
+    "sources": [
+      "TSMC"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "Dennard scaling",
     "full": "",
     "snappy": "Earlier rule of thumb that said as transistors got smaller, they also got proportionally faster and more power-efficient.",
@@ -3833,6 +3864,21 @@
   },
   {
     "letter": "E",
+    "term": "EXE:5200",
+    "full": "",
+    "plain": "The newest version of ASML's giant chip-printing machine, used to print patterns small enough for the next generation of chips.",
+    "snappy": "ASML's latest production High-NA EUV lithography scanner, qualifying at imec in 2026 for sub-2nm chip-making.",
+    "detail": "The EXE:5200 is the second-generation High-NA EUV system from ASML, with higher wafer-per-hour rate than the original EXE:5000 and refined optics. Imec's 2026 qualification milestone unblocks Intel 14A and TSMC A14 process integration, both of which depend on High-NA for their most critical mask levels. Each scanner sells for north of $380M, weighs about 165 tonnes, and ships in dozens of crates.",
+    "indications": [
+      "Manufacturing"
+    ],
+    "category": "Manufacturing",
+    "sources": [
+      "ASML"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Existential risk",
     "full": "X-risk",
     "snappy": "Risk that AI development could lead to human extinction or permanent loss of human autonomy.",
@@ -4340,6 +4386,21 @@
   },
   {
     "letter": "G",
+    "term": "GAAFET",
+    "full": "Gate-All-Around FET",
+    "plain": "The full engineering name for the new transistor design replacing FinFET at the smallest chip generations.",
+    "snappy": "Common acronym for the gate-all-around transistor architecture — see the GAA entry for the full technical explanation.",
+    "detail": "GAAFET is the spelled-out engineering term; GAA is the casual shorthand. Both refer to the same family of nanosheet transistors that replaced FinFET at the 2nm generation across TSMC (as GAA), Intel (as RibbonFET), and Samsung Foundry. The vendor brands map to the same underlying physics. It is the form most common in academic chip-design papers.",
+    "indications": [
+      "Manufacturing"
+    ],
+    "category": "Manufacturing",
+    "sources": [
+      "IEEE"
+    ]
+  },
+  {
+    "letter": "G",
     "term": "Gaudi",
     "full": "Intel Gaudi",
     "snappy": "Intel's AI accelerator line, inherited from the Habana Labs acquisition.",
@@ -4551,6 +4612,21 @@
       "NVIDIA"
     ],
     "plain": "NVIDIA's earlier combined board pairing one of their AI GPUs with a custom processor, now mostly replaced by the GB200."
+  },
+  {
+    "letter": "G",
+    "term": "Gigafab",
+    "full": "",
+    "plain": "A chip factory big enough to produce roughly 100,000 silicon wafers per month — TSMC's pioneering scale-up of the 2000s.",
+    "snappy": "A single fab site running at roughly 100,000 wafer-starts per month — the unit of capacity TSMC pioneered in the 2000s.",
+    "detail": "TSMC's Gigafabs (Fab 12, Fab 14, Fab 15, Fab 18, Fab 20) are each multi-building complexes outputting more than 100,000 wafers per month at maturity. The naming was a contrast to earlier single-building fabs. The TeraFab project deliberately extends the naming convention to signal another order-of-magnitude jump in single-site scale.",
+    "indications": [
+      "Manufacturing"
+    ],
+    "category": "Manufacturing",
+    "sources": [
+      "TSMC"
+    ]
   },
   {
     "letter": "G",
@@ -5685,6 +5761,36 @@
       "Intel"
     ],
     "plain": "The chip giant that long ran most laptops and servers, now scrambling to catch up on AI chips and modern factories."
+  },
+  {
+    "letter": "I",
+    "term": "Intel 14A",
+    "full": "",
+    "plain": "Intel's next chip generation after 18A, and the one that Elon Musk's TeraFab project will use to make AI chips.",
+    "snappy": "Intel's 1.4nm-class node — successor to Intel 18A and the technology that SpaceX's TeraFab project will license to manufacture AI chips.",
+    "detail": "14A keeps RibbonFET and PowerVia, adds High-NA EUV for the most critical mask levels, and is targeted for production in 2027. The TeraFab deal — disclosed in mid-2026 — has SpaceX taking responsibility for high-volume manufacturing using Intel's process tech, effectively licensing 14A to a buyer with terawatt-scale ambitions. It's the largest external commitment Intel's external foundry business has secured.",
+    "indications": [
+      "Manufacturing"
+    ],
+    "category": "Manufacturing",
+    "sources": [
+      "Intel"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Intel 18A",
+    "full": "",
+    "plain": "Intel's first 2nm-class process — its attempt to retake the chip-making lead after years behind TSMC.",
+    "snappy": "Intel's 2nm-class node — its comeback bid for the leading edge, combining RibbonFET transistors with PowerVia backside power delivery.",
+    "detail": "Intel skipped a generation versus TSMC's N3 and went straight to PowerVia, betting on backside power as a step-change differentiator. Volume production began in 2025 at Arizona Fab 52. Microsoft, Amazon (for Trainium), and Intel's own Panther Lake CPUs are the first publicly named customers. Yield ramp has been the persistent question; Intel reports steady progress without disclosing numbers.",
+    "indications": [
+      "Manufacturing"
+    ],
+    "category": "Manufacturing",
+    "sources": [
+      "Intel"
+    ]
   },
   {
     "letter": "I",
@@ -7246,6 +7352,22 @@
   },
   {
     "letter": "M",
+    "term": "Multi-Patterning",
+    "full": "",
+    "plain": "A chip-printing trick that uses several passes of light to make patterns smaller than a single pass can manage.",
+    "snappy": "Lithography workaround that prints a single chip level in multiple exposures to achieve features smaller than a single light pulse can resolve.",
+    "detail": "Used heavily with DUV at sub-10nm nodes — Chinese fabs (notably SMIC) build 7nm-class chips this way after losing access to EUV. Each extra exposure adds cost, registration risk, and defect opportunities. EUV reduced the need for multi-patterning at advanced nodes; High-NA EUV eliminates it for the most critical mask levels on Intel 14A and TSMC A14, recovering yield and production rate simultaneously.",
+    "indications": [
+      "Manufacturing"
+    ],
+    "category": "Manufacturing",
+    "sources": [
+      "ASML",
+      "TSMC"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Multi-tenancy",
     "full": "",
     "snappy": "Hosting workloads from multiple unrelated customers on the same physical hardware.",
@@ -7365,6 +7487,23 @@
       "Micron"
     ],
     "plain": "The kind of memory inside every phone and SSD — cheap, dense, and keeps your files even when the power is off."
+  },
+  {
+    "letter": "N",
+    "term": "Nanosheet Transistor",
+    "full": "",
+    "plain": "The underlying transistor design used in the newest chips — tiny silicon ribbons fully surrounded by the controlling gate.",
+    "snappy": "The physical structure underlying every GAAFET implementation — a stack of horizontal silicon sheets fully surrounded by the gate.",
+    "detail": "Replaces the vertical fin of FinFET with a stack of two to four horizontal silicon ribbons, each a few nanometres thick. The gate material wraps all the way around each sheet, giving the most electrostatic control possible at modern geometries. TSMC N2, Intel 18A (as RibbonFET), and Samsung SF2 all use nanosheet transistors. Sheet count and width are tunable knobs designers use to balance speed against power.",
+    "indications": [
+      "Manufacturing"
+    ],
+    "category": "Manufacturing",
+    "sources": [
+      "TSMC",
+      "Intel",
+      "IEEE"
+    ]
   },
   {
     "letter": "N",
@@ -7977,6 +8116,21 @@
   },
   {
     "letter": "P",
+    "term": "PDK",
+    "full": "Process Design Kit",
+    "plain": "The technical rulebook a chip foundry gives to designers so they can lay out chips that the foundry's machines can actually build.",
+    "snappy": "The bundle of design rules, transistor models, and tooling files a foundry supplies so customers can lay out chips for a given node.",
+    "detail": "Without a PDK, no customer can design a chip for a node. TSMC, Intel, and Samsung each ship a PDK per node, with separate variants for different cell libraries, voltage corners, and EDA tools. PDK maturity is a key metric: an early PDK can mean speculative design starts; a mature PDK with silicon-validated models is what big customers wait for before committing tape-outs.",
+    "indications": [
+      "Manufacturing"
+    ],
+    "category": "Manufacturing",
+    "sources": [
+      "TSMC"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "PEFT",
     "full": "Parameter-Efficient Fine-Tuning",
     "snappy": "Umbrella term for fine-tuning methods that adjust only a small fraction of a model's parameters.",
@@ -8294,6 +8448,21 @@
       "Anthropic"
     ],
     "plain": "The worry that a capable AI agent will grab extra resources or influence as a side-effect of pursuing its real goal."
+  },
+  {
+    "letter": "P",
+    "term": "PowerVia",
+    "full": "",
+    "plain": "Intel's name for its way of delivering power to chips from underneath the wafer, freeing up the top for faster signal wiring.",
+    "snappy": "Intel's brand name for its backside power delivery network, in production on Intel 18A.",
+    "detail": "PowerVia routes all power wiring through the underside of the wafer, leaving the front entirely for signal traces. Intel was first to production with backside power — TSMC's Super Power Rail follows on A16. Internal data Intel disclosed at industry conferences in 2024 showed double-digit-percent improvements in voltage droop and standard-cell utilisation. It is the architectural bet that Intel hopes will close the leadership gap.",
+    "indications": [
+      "Manufacturing"
+    ],
+    "category": "Manufacturing",
+    "sources": [
+      "Intel"
+    ]
   },
   {
     "letter": "P",
@@ -9159,6 +9328,21 @@
   },
   {
     "letter": "R",
+    "term": "RibbonFET",
+    "full": "",
+    "plain": "Intel's brand name for the new transistor design that replaces FinFET at the smallest chip sizes.",
+    "snappy": "Intel's brand name for its gate-all-around nanosheet transistor, used on Intel 18A and beyond.",
+    "detail": "RibbonFET wraps the gate all the way around a stack of horizontal silicon nanosheets, replacing FinFET's three-sided fin gate. The extra control means less leakage at small geometries, which is why every leading foundry transitioned to a GAAFET design around the 2nm generation. TSMC and Samsung use the generic GAAFET name; Intel branded its variant RibbonFET to signal independence.",
+    "indications": [
+      "Manufacturing"
+    ],
+    "category": "Manufacturing",
+    "sources": [
+      "Intel"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "Ring attention",
     "full": "",
     "snappy": "Distributed attention algorithm that handles very long contexts by splitting them across many GPUs in a ring.",
@@ -9418,6 +9602,21 @@
       "Samsung"
     ],
     "plain": "Samsung's chip-making factory business — the second-biggest chip manufacturer-for-hire in the world."
+  },
+  {
+    "letter": "S",
+    "term": "Samsung SF2",
+    "full": "",
+    "plain": "Samsung's 2nm chip-making process, competing with TSMC and Intel at the leading edge.",
+    "snappy": "Samsung Foundry's 2nm-class node — its GAAFET-generation answer to TSMC N2.",
+    "detail": "SF2 is Samsung Foundry's continued push to win back leading-edge customers after losing several flagships to TSMC. Yields have reportedly been slow to ramp — public figures put them well below 40% in mid-2026 — and the customer commitment list is thinner than TSMC N2's. A backside-power-delivery variant is on the roadmap but trailing both Super Power Rail and PowerVia.",
+    "indications": [
+      "Manufacturing"
+    ],
+    "category": "Manufacturing",
+    "sources": [
+      "Samsung Foundry"
+    ]
   },
   {
     "letter": "S",
@@ -9941,6 +10140,22 @@
   },
   {
     "letter": "S",
+    "term": "SpaceX",
+    "full": "",
+    "plain": "Elon Musk's rocket company, also now leading the TeraFab project to manufacture AI chips at unprecedented scale.",
+    "snappy": "Elon Musk's space-launch company, leading the TeraFab project to manufacture AI chips at terawatt scale.",
+    "detail": "Best known for reusable rockets (Falcon 9, Starship) and the Starlink satellite network. In 2026 SpaceX expanded into semiconductor manufacturing via the TeraFab project — taking responsibility for high-volume chip production using Intel's 14A process. The move pairs SpaceX's capital-intensive construction expertise with Intel's process technology, framing AI compute as the next infrastructure category SpaceX will scale.",
+    "indications": [
+      "Frontier",
+      "Manufacturing"
+    ],
+    "category": "Company",
+    "sources": [
+      "SpaceX"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Sparse autoencoder",
     "full": "SAE",
     "snappy": "Tool for interpretability: decompose a model's internal activations into a sparse set of interpretable features.",
@@ -10270,6 +10485,21 @@
       "TSMC"
     ],
     "plain": "The small printed circuit board sitting underneath a chip — carries the chip itself and wires its signals out to the rest of the device."
+  },
+  {
+    "letter": "S",
+    "term": "Super Power Rail",
+    "full": "SPR",
+    "plain": "TSMC's name for its technique of delivering power to chips from underneath the wafer instead of from above.",
+    "snappy": "TSMC's brand name for its backside power delivery network, debuting on TSMC A16.",
+    "detail": "Super Power Rail moves the power-distribution wiring from the front of the wafer to the back, where it can be made thicker and lower-resistance without crowding signal routing on top. The result is 15-20% better power efficiency at iso-performance and modestly tighter cell density. Intel's competing implementation is PowerVia; Samsung's variant is on the SF2 roadmap.",
+    "indications": [
+      "Manufacturing"
+    ],
+    "category": "Manufacturing",
+    "sources": [
+      "TSMC"
+    ]
   },
   {
     "letter": "S",
@@ -10607,6 +10837,22 @@
       "NVIDIA"
     ],
     "plain": "A Toronto startup led by famed chip designer Jim Keller, building open AI chips as a rival to NVIDIA."
+  },
+  {
+    "letter": "T",
+    "term": "TeraFab",
+    "full": "",
+    "plain": "An Elon-Musk-led plan to build the largest AI chip factory ever, using Intel's process to make chips at a scale never tried before.",
+    "snappy": "SpaceX-led project to build the largest single AI-chip manufacturing campus in history, licensing Intel 14A process technology.",
+    "detail": "Announced in 2026, TeraFab targets terawatt-scale chip output — orders of magnitude beyond any existing Gigafab. The deal pairs SpaceX's capital and construction muscle with Intel's process technology, with SpaceX taking responsibility for high-volume manufacturing on Intel 14A. The siting and grid-interconnect plan is still emerging, but the scale signals a belief that compute demand for frontier AI will outrun the existing TSMC + Samsung + Intel triumvirate.",
+    "indications": [
+      "Manufacturing",
+      "Frontier"
+    ],
+    "category": "Manufacturing",
+    "sources": [
+      "Intel"
+    ]
   },
   {
     "letter": "T",
@@ -11217,6 +11463,66 @@
       "TSMC"
     ],
     "plain": "The Taiwanese company that physically builds most of the world's advanced chips — including the silicon powering today's AI."
+  },
+  {
+    "letter": "T",
+    "term": "TSMC A14",
+    "full": "",
+    "plain": "The chip generation after TSMC A16, with even smaller features and the first use of next-generation light-based printing.",
+    "snappy": "TSMC's 1.4nm-class node — successor to A16, targeted for risk production in 2027 and high-volume in 2028.",
+    "detail": "A14 pushes Super Power Rail further and is expected to be the first TSMC node to use High-NA EUV for the most critical mask levels. Customer commitments from Apple and NVIDIA are already public. SpaceX's TeraFab project is reportedly building toward a parallel Intel 14A pipeline that targets the same generation, creating the first credible two-foundry race at the leading edge in over a decade.",
+    "indications": [
+      "Manufacturing"
+    ],
+    "category": "Manufacturing",
+    "sources": [
+      "TSMC"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "TSMC A16",
+    "full": "",
+    "plain": "The chip-making process after TSMC's 2nm, rerouting power through the back of the wafer for better efficiency.",
+    "snappy": "TSMC's first sub-2nm production node — combining nanosheet transistors with Super Power Rail backside power delivery.",
+    "detail": "A16 is TSMC's first production node to route power from the wafer's underside instead of the front, freeing the top metal routing for signals. Power efficiency improves by roughly 15-20% versus N2 at the same speed; density improves modestly. Volume production is targeted for Q4 2026. Apple and NVIDIA are the named launch customers. The 'A' prefix marks the shift from nanometre to angstrom naming.",
+    "indications": [
+      "Manufacturing"
+    ],
+    "category": "Manufacturing",
+    "sources": [
+      "TSMC"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "TSMC N2",
+    "full": "",
+    "plain": "The newest generation of chip-making process from TSMC, packing transistors so small they're measured in single-digit nanometres.",
+    "snappy": "TSMC's 2nm-class node — its first to use GAAFET transistors, in volume production from late 2025.",
+    "detail": "N2 replaces FinFET with nanosheet transistors for better drive current at lower voltage. Apple is the lead customer (iPhone application processor first); NVIDIA and AMD are expected to follow on later refreshes. Wafer prices are reportedly the highest TSMC has ever charged — north of $25,000 per wafer — reflecting both the node difficulty and the absence of a viable Samsung or Intel competitor at the leading edge.",
+    "indications": [
+      "Manufacturing"
+    ],
+    "category": "Manufacturing",
+    "sources": [
+      "TSMC"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "TSMC N2P",
+    "full": "",
+    "plain": "A faster version of TSMC's 2nm process, aimed at data-centre chips that need raw performance.",
+    "snappy": "Performance-tuned refresh of TSMC N2 — same transistor architecture, higher clocks and slightly better power.",
+    "detail": "Targeted for high-performance compute customers (data-centre GPUs, server CPUs) that prioritise speed over the mobile-friendly power profile of N2. Volume production is expected late 2026. Acts as a bridge between N2 and the first sub-2nm production node (TSMC A16), keeping leading-edge customers on a familiar GAAFET architecture while backside-power-delivery designs catch up.",
+    "indications": [
+      "Manufacturing"
+    ],
+    "category": "Manufacturing",
+    "sources": [
+      "TSMC"
+    ]
   },
   {
     "letter": "T",
