@@ -1524,6 +1524,21 @@
   },
   {
     "letter": "B",
+    "term": "Behind-the-Meter Generation",
+    "full": "",
+    "plain": "Building your own power plant next to a data centre so you don't have to wait years for the electric grid to add capacity.",
+    "snappy": "On-site electricity generation paired with the data centre — bypasses the grid-interconnect queue that delays new substations by years.",
+    "detail": "Stargate Abilene uses gas turbines onsite to bridge to grid interconnect, and multiple other 2026 builds follow the same pattern. The grid-interconnect queue at most US utilities now stretches 4-7 years for new gigawatt-class loads. Behind-the-meter sidesteps it. Trade-offs: emissions footprint, fuel cost, regulatory exposure. Increasingly common as the AI-build pace decouples from the slower grid-build pace.",
+    "indications": [
+      "Compute"
+    ],
+    "category": "Infrastructure",
+    "sources": [
+      "OpenAI"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "Benchmark",
     "full": "",
     "snappy": "A standard test used to compare AI models — a fixed set of problems with known correct answers.",
@@ -2377,6 +2392,22 @@
       "NVIDIA"
     ],
     "plain": "Renting space inside someone else's data centre to plug in your own servers, instead of building your own building."
+  },
+  {
+    "letter": "C",
+    "term": "Colossus",
+    "full": "xAI Colossus",
+    "plain": "xAI's enormous AI training cluster in Memphis, built unusually fast and used to train the Grok models.",
+    "snappy": "xAI's Memphis-based AI training cluster — built in record time and now expanding past gigawatt scale.",
+    "detail": "The first phase came online in 2024 with 100,000 H100 GPUs after a 122-day build, faster than any other AI cluster at that size. Phase 2 (Colossus 2) targets a million-class GPU count with Blackwell and Rubin. Located in a former Electrolux factory in Memphis. The combination of build speed and scale made it the poster-child for xAI's compute-first strategy, and a model competitors increasingly try to copy.",
+    "indications": [
+      "Compute",
+      "Frontier"
+    ],
+    "category": "Infrastructure",
+    "sources": [
+      "xAI"
+    ]
   },
   {
     "letter": "C",
@@ -3572,6 +3603,21 @@
   },
   {
     "letter": "D",
+    "term": "Direct-to-Chip Cooling",
+    "full": "D2C",
+    "plain": "A way of cooling AI chips by piping liquid directly onto each chip, instead of just blowing cool air around the rack.",
+    "snappy": "Liquid cooling that pipes coolant directly to a cold plate on the hottest chips — standard from GB200 onward.",
+    "detail": "Cold plates clamped to the GPU and CPU dies pull heat into a closed loop of dielectric coolant. Roughly 5-10x more effective per watt than air cooling at the chip level, enabling 130+ kW racks. NVIDIA's GB200 NVL72 and Vera Rubin NVL72 both ship D2C-only. Rear-door heat exchangers handle the residual air load. The infrastructure transition cost is real — most existing colocation space cannot accept D2C without retrofit.",
+    "indications": [
+      "Compute"
+    ],
+    "category": "Infrastructure",
+    "sources": [
+      "NVIDIA"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "Distillation",
     "full": "",
     "snappy": "Training a small model to mimic the outputs of a large one — cheaper to run, often surprisingly good.",
@@ -4005,6 +4051,22 @@
       "OpenAI"
     ],
     "plain": "One complete trip through all the training examples — some models do hundreds, modern giant ones often do less than one."
+  },
+  {
+    "letter": "E",
+    "term": "Epoch AI",
+    "full": "",
+    "plain": "A research group that publishes data on how big and powerful AI models are becoming over time.",
+    "snappy": "Research group tracking and forecasting AI compute, training data, and capability scaling.",
+    "detail": "Berkeley- and London-based research organisation. Publishes the most-cited data sets on training compute (the Epoch database), dataset sizes, capability benchmarks, and power-scaling projections. Its analyses are routinely cited in industry coverage, policy reports, and lab strategy. Distinct from the machine-learning sense of 'epoch' (one full pass through training data); the AI-policy community typically means this organisation when 'Epoch' appears unqualified.",
+    "indications": [
+      "Research",
+      "Frontier"
+    ],
+    "category": "Company",
+    "sources": [
+      "Epoch AI"
+    ]
   },
   {
     "letter": "E",
@@ -7834,6 +7896,22 @@
   },
   {
     "letter": "M",
+    "term": "Multi-Datacenter Training",
+    "full": "",
+    "plain": "A way of running one AI training job across multiple buildings tens of miles apart, when no single building has enough power.",
+    "snappy": "Training a single AI model across multiple geographically separate data centres — synchronising gradients across long-distance fibre.",
+    "detail": "Most AI training runs fit inside one campus today. Multi-DC training extends a single job across two or more sites tens to hundreds of kilometres apart, connected by dedicated fibre. Google has been the public leader; OpenAI, Anthropic, and Meta are all reportedly preparing for it. The motivation is straightforward: any single campus is now grid-constrained, but two campuses 100 km apart can together draw 4-5 GW. Software changes needed to tolerate the much higher inter-DC latency in gradient sync.",
+    "indications": [
+      "Training",
+      "Frontier"
+    ],
+    "category": "Infrastructure",
+    "sources": [
+      "Google"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Multi-head attention",
     "full": "",
     "snappy": "Several attention operations running in parallel, each learning to spot a different kind of pattern.",
@@ -8995,6 +9073,22 @@
   },
   {
     "letter": "P",
+    "term": "Power-Bound Horizon",
+    "full": "",
+    "plain": "The point in the late 2020s when there simply won't be enough electricity available to train ever-bigger AI models.",
+    "snappy": "Epoch AI's projection limit on training-compute scaling — the point at which electricity availability, not chip supply, caps frontier model scale.",
+    "detail": "Epoch AI's analysis puts the power-bound horizon at roughly 2030 for current trajectory: the largest single training runs cross the gigawatt threshold, multi-DC training pushes the practical limit toward 10 GW, and beyond that the global grid build cannot keep up. Used in industry coverage to discuss the long-run ceiling on training compute even if every other constraint (chips, packaging, networking) is solved. Quantitative; revised periodically by Epoch AI as deployment data lands.",
+    "indications": [
+      "Compute",
+      "Frontier"
+    ],
+    "category": "Infrastructure",
+    "sources": [
+      "Epoch AI"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Power-seeking",
     "full": "",
     "snappy": "Tendency of capable agents to acquire resources, capabilities, and influence as instrumental goals.",
@@ -9147,6 +9241,22 @@
       "OpenAI"
     ],
     "plain": "Training a model by grading each step of its working-out, not just whether the final answer is right."
+  },
+  {
+    "letter": "P",
+    "term": "Prometheus",
+    "full": "Meta Prometheus cluster",
+    "plain": "Meta's huge new AI data centre in Ohio, used to train the Llama family of open AI models.",
+    "snappy": "Meta's flagship 1.02 GW AI training cluster — anchor of the company's open-weight Llama programme.",
+    "detail": "Disclosed mid-2025 as Meta's first gigawatt-class single-campus AI cluster, located in Ohio. Hosts a mix of NVIDIA Blackwell and Meta's own MTIA accelerators. Powers Llama frontier training plus the recommendation-system workloads that drive most of Meta's commercial product. One of the first public examples of a single AI training campus crossing 1 GW.",
+    "indications": [
+      "Compute",
+      "Frontier"
+    ],
+    "category": "Infrastructure",
+    "sources": [
+      "Meta AI"
+    ]
   },
   {
     "letter": "P",
@@ -9452,6 +9562,23 @@
       "Hugging Face"
     ],
     "plain": "A way of giving a chatbot relevant documents pulled from a database before it answers, so its replies stay grounded in real sources."
+  },
+  {
+    "letter": "R",
+    "term": "Rainier",
+    "full": "Project Rainier",
+    "plain": "Anthropic's giant new compute cluster built with Amazon, used to train the next generations of Claude.",
+    "snappy": "Anthropic-AWS joint training cluster — hundreds of thousands of AWS Trainium3 chips dedicated to Claude training.",
+    "detail": "Anchors the Anthropic-AWS commercial partnership announced in 2025. Located across multiple Indiana and adjacent-state sites. Sized at roughly 780 MW initial IT load and scaling to multi-GW. Houses several large pods of AWS Trainium3, networked with AWS's proprietary fabric. Distinct from Anthropic's NVIDIA-based GPU capacity at other cloud partners. Represents one of the largest single bets on non-NVIDIA silicon at frontier scale.",
+    "indications": [
+      "Compute",
+      "Frontier"
+    ],
+    "category": "Infrastructure",
+    "sources": [
+      "Anthropic",
+      "Amazon"
+    ]
   },
   {
     "letter": "R",
@@ -10779,6 +10906,21 @@
   },
   {
     "letter": "S",
+    "term": "Sovereign AI",
+    "full": "",
+    "plain": "The trend of countries building their own AI capacity instead of buying everything from US tech giants like Google and Microsoft.",
+    "snappy": "National-scale AI infrastructure investments — countries building their own training compute, models, and data residency rather than relying on US hyperscalers.",
+    "detail": "UAE (G42 partnership with Stargate), Saudi Arabia (Humain), Japan, France (Mistral), India, Korea, and Singapore have all committed multi-billion-dollar sovereign AI strategies. Motivations span data residency, geopolitical autonomy, language coverage, and industrial policy. The buildout is a major driver of demand for NVIDIA hardware and TSMC capacity outside the US hyperscaler footprint. Cuts both ways for US export-control regimes.",
+    "indications": [
+      "Compute"
+    ],
+    "category": "Infrastructure",
+    "sources": [
+      "G42"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "SpaceX",
     "full": "",
     "plain": "Elon Musk's rocket company, also now leading the TeraFab project to manufacture AI chips at unprecedented scale.",
@@ -11036,6 +11178,22 @@
   },
   {
     "letter": "S",
+    "term": "Stargate Abilene",
+    "full": "",
+    "plain": "The first site in OpenAI's Stargate project, a giant data centre being built in Texas.",
+    "snappy": "Anchor Texas data centre site for OpenAI's Stargate programme — first phase brings 1.2 GW of IT load online by late 2026.",
+    "detail": "Located near Abilene, Texas. Built by Crusoe with Oracle as the compute operator. Land budget supports growth to multi-GW scale across subsequent buildings on the same campus. Bring-your-own-power model with on-site gas turbines to bridge to grid interconnect. Designed for very-high-density GB200 / Vera Rubin racks at 130 kW+ per rack with direct-to-chip liquid cooling throughout.",
+    "indications": [
+      "Compute",
+      "Frontier"
+    ],
+    "category": "Infrastructure",
+    "sources": [
+      "OpenAI"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Step-back prompting",
     "full": "",
     "snappy": "Asking the model to first restate the question at a higher level, then answer.",
@@ -11139,6 +11297,21 @@
       "NVIDIA"
     ],
     "plain": "An electrical facility that brings high-voltage power off the grid and steps it down to what a data centre can actually use."
+  },
+  {
+    "letter": "S",
+    "term": "Substation Bottleneck",
+    "full": "",
+    "plain": "The slow process of getting new electric substations built, which now limits how fast new AI data centres can come online.",
+    "snappy": "Grid-interconnect queue limiting new AI data centre buildouts — the constraint behind behind-the-meter generation strategies.",
+    "detail": "Utility approval cycles for new gigawatt-class loads now stretch 4-7 years in most US service territories — the substation, transformer, and long-lead-time grid equipment must be sized, financed, and built. AI buildout pace has outrun this cycle. Behind-the-meter generation, on-site SMRs, and queue-jumping via grandfathered existing capacity are the workarounds. The single most-cited non-silicon constraint in 2025-26 industry coverage.",
+    "indications": [
+      "Compute"
+    ],
+    "category": "Infrastructure",
+    "sources": [
+      "OpenAI"
+    ]
   },
   {
     "letter": "S",

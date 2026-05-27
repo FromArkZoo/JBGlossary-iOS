@@ -6473,6 +6473,140 @@ BATCH_FRONTIER_MFG = [
 
 
 # ============================================================================
+# BATCH 35 — Frontier datacenter & power
+# ============================================================================
+
+BATCH_FRONTIER_DC = [
+    entry(
+        "Stargate", "",
+        "OpenAI's $500B / 10 GW multi-site AI data centre programme — the largest single private infrastructure commitment in tech history.",
+        "Announced January 2025. Partners include SoftBank, Oracle, and the Abu Dhabi sovereign fund MGX. Funding committed at $100B for the first phase, scaling toward $500B over four years. Anchor site is Stargate Abilene in Texas. Additional sites planned across the US and via the UAE-anchored Stargate UAE programme. Built around custom Oracle compute paired with NVIDIA Blackwell and Rubin, with bring-your-own-power generation onsite to bypass grid bottlenecks.",
+        ["OpenAI"],
+        indications=["Compute", "Frontier"],
+        category="Infrastructure",
+        plain="OpenAI's massive multi-site project to build enough computer power for the next generation of AI, costing up to $500 billion.",
+    ),
+    entry(
+        "Stargate Abilene", "",
+        "Anchor Texas data centre site for OpenAI's Stargate programme — first phase brings 1.2 GW of IT load online by late 2026.",
+        "Located near Abilene, Texas. Built by Crusoe with Oracle as the compute operator. Land budget supports growth to multi-GW scale across subsequent buildings on the same campus. Bring-your-own-power model with on-site gas turbines to bridge to grid interconnect. Designed for very-high-density GB200 / Vera Rubin racks at 130 kW+ per rack with direct-to-chip liquid cooling throughout.",
+        ["OpenAI"],
+        indications=["Compute", "Frontier"],
+        category="Infrastructure",
+        plain="The first site in OpenAI's Stargate project, a giant data centre being built in Texas.",
+    ),
+    entry(
+        "Prometheus", "Meta Prometheus cluster",
+        "Meta's flagship 1.02 GW AI training cluster — anchor of the company's open-weight Llama programme.",
+        "Disclosed mid-2025 as Meta's first gigawatt-class single-campus AI cluster, located in Ohio. Hosts a mix of NVIDIA Blackwell and Meta's own MTIA accelerators. Powers Llama frontier training plus the recommendation-system workloads that drive most of Meta's commercial product. One of the first public examples of a single AI training campus crossing 1 GW.",
+        ["Meta AI"],
+        indications=["Compute", "Frontier"],
+        category="Infrastructure",
+        plain="Meta's huge new AI data centre in Ohio, used to train the Llama family of open AI models.",
+    ),
+    entry(
+        "Rainier", "Project Rainier",
+        "Anthropic-AWS joint training cluster — hundreds of thousands of AWS Trainium3 chips dedicated to Claude training.",
+        "Anchors the Anthropic-AWS commercial partnership announced in 2025. Located across multiple Indiana and adjacent-state sites. Sized at roughly 780 MW initial IT load and scaling to multi-GW. Houses several large pods of AWS Trainium3, networked with AWS's proprietary fabric. Distinct from Anthropic's NVIDIA-based GPU capacity at other cloud partners. Represents one of the largest single bets on non-NVIDIA silicon at frontier scale.",
+        ["Anthropic", "Amazon"],
+        indications=["Compute", "Frontier"],
+        category="Infrastructure",
+        plain="Anthropic's giant new compute cluster built with Amazon, used to train the next generations of Claude.",
+    ),
+    entry(
+        "Colossus", "xAI Colossus",
+        "xAI's Memphis-based AI training cluster — built in record time and now expanding past gigawatt scale.",
+        "First phase of Colossus came online in 2024 with 100,000 H100 GPUs after a 122-day build, faster than any other AI cluster at that size. Phase 2 (Colossus 2) targets a million-class GPU count with Blackwell and Rubin. Located in a former Electrolux factory in Memphis. The combination of build speed and scale made Colossus the poster-child for xAI's compute-first strategy, and a model competitors increasingly try to copy.",
+        ["xAI"],
+        indications=["Compute", "Frontier"],
+        category="Infrastructure",
+        plain="xAI's enormous AI training cluster in Memphis, built unusually fast and used to train the Grok models.",
+    ),
+    entry(
+        "Multi-Datacenter Training", "",
+        "Training a single AI model across multiple geographically separate data centres — synchronising gradients across long-distance fibre.",
+        "Most AI training runs fit inside one campus today. Multi-DC training extends a single job across two or more sites tens to hundreds of kilometres apart, connected by dedicated fibre. Google has been the public leader; OpenAI, Anthropic, and Meta are all reportedly preparing for it. The motivation is straightforward: any single campus is now grid-constrained, but two campuses 100 km apart can together draw 4-5 GW. Software changes needed to tolerate the much higher inter-DC latency in gradient sync.",
+        ["Google"],
+        indications=["Training", "Frontier"],
+        category="Infrastructure",
+        plain="A way of running one AI training job across multiple buildings tens of miles apart, when no single building has enough power.",
+    ),
+    entry(
+        "Gigawatt Cluster", "",
+        "AI training site drawing 1 GW or more of IT load — the new threshold for 'frontier-scale' infrastructure starting in 2025.",
+        "Crossed publicly first by Meta Prometheus, xAI Colossus 2, and Stargate Abilene's first phase. A 1 GW cluster needs the power of a small city — and the dedicated substations, transformers, and (in the most aggressive cases) on-site generation to deliver it. Multi-GW is the 2027-29 horizon: Stargate's full 10 GW plan, Project Rainier's growth path, and multi-DC training all push toward it.",
+        ["OpenAI"],
+        indications=["Compute", "Frontier"],
+        category="Infrastructure",
+        plain="An AI training site drawing as much electricity as a small city — the new bar for 'big' starting in 2025.",
+    ),
+    entry(
+        "Behind-the-Meter Generation", "",
+        "On-site electricity generation paired with the data centre — bypasses the grid-interconnect queue that delays new substations by years.",
+        "Stargate Abilene uses gas turbines onsite to bridge to grid interconnect, and multiple other 2026 builds follow the same pattern. The grid-interconnect queue at most US utilities now stretches 4-7 years for new gigawatt-class loads. Behind-the-meter sidesteps it. Trade-offs: emissions footprint, fuel cost, regulatory exposure. Increasingly common as the AI-build pace decouples from the slower grid-build pace.",
+        ["OpenAI"],
+        indications=["Compute"],
+        category="Infrastructure",
+        plain="Building your own power plant next to a data centre so you don't have to wait years for the electric grid to add capacity.",
+    ),
+    entry(
+        "Small Modular Reactor", "SMR",
+        "Compact nuclear reactor of roughly 50-300 MW designed for factory-build and on-site deployment — increasingly courted by AI hyperscalers.",
+        "Amazon, Google, and Microsoft have all signed offtake or development agreements with SMR startups (Oklo, X-Energy, NuScale, Kairos). Targets late-2020s commercial operation. Attractive because they pair clean baseload power with the small-footprint, modular siting that AI data centres need. Regulatory timelines remain the bottleneck — NRC approval cycles for new reactor designs stretch well past the AI buildout horizon.",
+        ["Amazon", "Google", "Microsoft"],
+        indications=["Compute"],
+        category="Infrastructure",
+        plain="A new generation of smaller nuclear reactors, being signed up by Amazon, Google, and Microsoft to power AI data centres with clean energy.",
+    ),
+    entry(
+        "Direct-to-Chip Cooling", "D2C",
+        "Liquid cooling that pipes coolant directly to a cold plate on the hottest chips — standard from GB200 onward.",
+        "Cold plates clamped to the GPU and CPU dies pull heat into a closed loop of dielectric coolant. Roughly 5-10x more effective per watt than air cooling at the chip level, enabling 130+ kW racks. NVIDIA's GB200 NVL72 and Vera Rubin NVL72 both ship D2C-only. Rear-door heat exchangers handle the residual air load. The infrastructure transition cost is real — most existing colocation space cannot accept D2C without retrofit.",
+        ["NVIDIA"],
+        indications=["Compute"],
+        category="Infrastructure",
+        plain="A way of cooling AI chips by piping liquid directly onto each chip, instead of just blowing cool air around the rack.",
+    ),
+    entry(
+        "Coolant Distribution Unit", "CDU",
+        "Rack-level manifold that distributes liquid coolant to multiple direct-to-chip cold plates and returns warm coolant to the facility loop.",
+        "Each CDU handles one or more racks' worth of direct-to-chip cooling. Two flavours: in-row (separate rack) and in-rack (occupies rack slots). NVIDIA's GB200 NVL72 ships with integrated CDU silicon, simplifying deployment for hyperscalers. Capacity sizing matters: a 130 kW rack needs a CDU rated well beyond peak draw for redundancy. The supplier base (CoolIT, Motivair, Vertiv) has become a bottleneck alongside CoWoS capacity.",
+        ["NVIDIA"],
+        indications=["Compute"],
+        category="Infrastructure",
+        plain="The piece of plumbing inside a rack that moves cooling liquid to each chip and pulls the heated liquid back out.",
+    ),
+    entry(
+        "Substation Bottleneck", "",
+        "Grid-interconnect queue limiting new AI data centre buildouts — the constraint behind behind-the-meter generation strategies.",
+        "Utility approval cycles for new gigawatt-class loads now stretch 4-7 years in most US service territories — the substation, transformer, and long-lead-time grid equipment must be sized, financed, and built. AI buildout pace has outrun this cycle. Behind-the-meter generation, on-site SMRs, and queue-jumping via grandfathered existing capacity are the workarounds. The single most-cited non-silicon constraint in 2025-26 industry coverage.",
+        ["OpenAI"],
+        indications=["Compute"],
+        category="Infrastructure",
+        plain="The slow process of getting new electric substations built, which now limits how fast new AI data centres can come online.",
+    ),
+    entry(
+        "Power-Bound Horizon", "",
+        "Epoch AI's projection limit on training-compute scaling — the point at which electricity availability, not chip supply, caps frontier model scale.",
+        "Epoch's analysis puts the power-bound horizon at roughly 2030 for current trajectory: the largest single training runs cross the gigawatt threshold, multi-DC training pushes the practical limit toward 10 GW, and beyond that the global grid build cannot keep up. Used in industry coverage to discuss the long-run ceiling on training compute even if every other constraint (chips, packaging, networking) is solved. Quantitative; revised periodically by Epoch as deployment data lands.",
+        ["Epoch AI"],
+        indications=["Compute", "Frontier"],
+        category="Infrastructure",
+        plain="The point in the late 2020s when there simply won't be enough electricity available to train ever-bigger AI models.",
+    ),
+    entry(
+        "Sovereign AI", "",
+        "National-scale AI infrastructure investments — countries building their own training compute, models, and data residency rather than relying on US hyperscalers.",
+        "UAE (G42 partnership with Stargate), Saudi Arabia (Humain), Japan, France (Mistral), India, Korea, and Singapore have all committed multi-billion-dollar sovereign AI strategies. Motivations span data residency, geopolitical autonomy, language coverage, and industrial policy. The buildout is a major driver of demand for NVIDIA hardware and TSMC capacity outside the US hyperscaler footprint. Cuts both ways for US export-control regimes.",
+        ["G42"],
+        indications=["Compute"],
+        category="Infrastructure",
+        plain="The trend of countries building their own AI capacity instead of buying everything from US tech giants like Google and Microsoft.",
+    ),
+]
+
+
+# ============================================================================
 # BATCH 34 — Frontier interconnect, networking & optics
 # ============================================================================
 
@@ -6945,6 +7079,7 @@ BATCHES = {
     32: BATCH_FRONTIER_PKG,
     33: BATCH_FRONTIER_SILICON,
     34: BATCH_FRONTIER_NET,
+    35: BATCH_FRONTIER_DC,
 }
 
 
