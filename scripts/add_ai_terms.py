@@ -6473,6 +6473,149 @@ BATCH_FRONTIER_MFG = [
 
 
 # ============================================================================
+# BATCH 36 — Frontier attention & efficiency techniques
+# ============================================================================
+
+BATCH_FRONTIER_ATTN = [
+    entry(
+        "Native Sparse Attention", "NSA",
+        "DeepSeek's 2025 trainable sparse attention — combines block compression, learned selection, and a sliding window in one mechanism.",
+        "Introduced February 2025 in a DeepSeek paper. NSA replaces dense attention with three parallel paths: a coarse compressed-token path, a fine-grained selected-token path, and a sliding window. The selection is learned end-to-end, so the model picks what to attend to rather than relying on fixed patterns. Cuts long-context compute by 5-10x while matching or exceeding dense-attention quality. Influenced DeepSeek V3.2-Exp's DSA mechanism and the broader 2025-26 sparse-attention wave.",
+        ["DeepSeek"],
+        indications=["NLP", "Frontier"],
+        category="Architecture",
+        plain="A 2025 DeepSeek invention that lets language models pay attention to only the most relevant parts of long inputs, instead of every word.",
+    ),
+    entry(
+        "DeepSeek Sparse Attention", "DSA",
+        "Sparse-attention mechanism debuting in DeepSeek V3.2-Exp — pairs a lightning indexer with sparse computation for long-context efficiency.",
+        "DSA evolves Native Sparse Attention by separating the indexing step (cheap, dense) from the actual attention computation (sparse, expensive). The lightning indexer learns to score relevance per token-pair; the sparse computation then only runs for the top-K scored pairs. Reduces long-context inference cost dramatically without retraining the base model from scratch. Shipped in DeepSeek V3.2-Exp September 2025 and adopted by GLM-5.",
+        ["DeepSeek"],
+        indications=["NLP", "Frontier"],
+        category="Architecture",
+        plain="DeepSeek's newer sparse-attention method, used in V3.2 and onwards to make long-context language models much cheaper to run.",
+    ),
+    entry(
+        "Mixture of Block Attention", "MoBA",
+        "Moonshot AI's sparse-attention mechanism — divides tokens into blocks and routes each query to its top-K most relevant blocks.",
+        "Introduced by Moonshot in 2025 for Kimi K2. Each query token picks a small number of token-blocks (typically 4-8) to attend to, rather than every other token. Reminiscent of mixture-of-experts routing but applied to attention rather than feed-forward layers. Trained end-to-end so the routing is learned, not fixed. Pairs well with very long context windows — Kimi K2 uses MoBA at 1M+ tokens.",
+        ["Moonshot AI"],
+        indications=["NLP", "Frontier"],
+        category="Architecture",
+        plain="Moonshot's way of running long-context language models cheaply by sending each word to only the most relevant nearby chunks.",
+    ),
+    entry(
+        "Sliding Window Attention", "SWA",
+        "Attention restricted to a fixed-size window of recent tokens — used as a local-context path inside hybrid attention architectures.",
+        "Mistral's 7B and other early open models popularised SWA at 4k-8k window sizes. Now most commonly used as one of several parallel attention paths inside hybrid architectures like Native Sparse Attention. Cheap to compute and good at capturing local syntactic structure; insufficient on its own for long-range reasoning. The complementary path in modern hybrids handles the long-range relationships SWA can't reach.",
+        ["Mistral AI"],
+        indications=["NLP"],
+        category="Architecture",
+        plain="A way of running attention only on a model's recent words, ignoring everything older — used as one piece of modern long-context designs.",
+    ),
+    entry(
+        "Multi-head Latent Attention", "MLA",
+        "DeepSeek attention variant that compresses keys and values into a small latent vector — cuts KV-cache memory 5-10x with minimal quality loss.",
+        "Introduced in DeepSeek V2 (2024), used in V3, V3.2, and likely V4. MLA projects the per-head key and value tensors down to a shared low-rank latent before caching. Inference recomputes per-head keys and values from the latent on demand. The KV-cache savings let DeepSeek serve very-long-context inference at frontier scale on far fewer GPUs than dense-attention peers. FlashMLA is the kernel implementation DeepSeek open-sourced.",
+        ["DeepSeek"],
+        indications=["NLP", "Inference"],
+        category="Architecture",
+        plain="DeepSeek's clever way of compressing the memory each token needs during inference, so very long conversations don't blow up the GPU.",
+    ),
+    entry(
+        "Grouped-Query Attention", "GQA",
+        "Attention variant where multiple query heads share a single set of key-value heads — midpoint between multi-query and multi-head attention.",
+        "Standard since Llama 2 (2023). Each query head still computes independently, but groups of query heads share the same keys and values. Reduces KV-cache memory and inference cost roughly proportionally to the group size, with negligible quality impact. Now nearly universal in production LLMs; Multi-head Latent Attention is the more aggressive successor.",
+        ["Meta AI"],
+        indications=["NLP", "Inference"],
+        category="Architecture",
+        plain="A way of letting groups of attention heads share their memory, making models cheaper to run with very little quality cost.",
+    ),
+    entry(
+        "Multi-Query Attention", "MQA",
+        "Most-aggressive variant — a single key-value head shared across all query heads. Maximum KV-cache savings, modest quality cost.",
+        "Introduced by Google in 2019. Cuts KV-cache memory to its smallest possible footprint per token, at the cost of some quality degradation versus full multi-head attention. Mostly displaced by Grouped-Query Attention (which trades a small amount of memory savings for noticeably better quality). Still appears in inference-heavy edge models where memory matters more than the last few quality points.",
+        ["Google"],
+        indications=["NLP", "Inference"],
+        category="Architecture",
+        plain="The most extreme version of sharing attention memory across heads — saves the most memory but loses some quality.",
+    ),
+    entry(
+        "FlashAttention 3", "FA3",
+        "Third-generation FlashAttention kernel — Hopper-optimised, asynchronous tile execution, 1.5-2x H100 throughput versus FlashAttention 2.",
+        "FA3 exploits Hopper's TMA (Tensor Memory Accelerator) and async kernel scheduling to overlap matrix-multiply and softmax phases. Released July 2024 by Tri Dao and Pradeep Ramani. Default attention kernel in vLLM V1, SGLang, and most production inference stacks running on H100/H200. Blackwell-optimised FA4 is in development. The FlashAttention family is one of the most-cited GPU-kernel optimisations of the modern era.",
+        ["Together AI"],
+        indications=["Inference"],
+        category="Software",
+        plain="The newest version of a clever way of running attention on NVIDIA's H100 chips, making inference 1.5-2x faster than the previous version.",
+    ),
+    entry(
+        "FlashInfer", "",
+        "Modular CUDA attention engine — drop-in inference kernels covering FlashAttention, paged attention, MLA, and prefix-cache reuse.",
+        "Maintained as an open-source project by University of Washington researchers and contributors from NVIDIA and Snowflake. Used as the default attention backend in vLLM V1 and SGLang. Provides a unified Python and CUDA interface across multiple attention variants — convenient for inference engines that need to support different model architectures with consistent performance. Sees substantial contributions tracking NVIDIA's silicon roadmap.",
+        ["NVIDIA"],
+        indications=["Inference"],
+        category="Software",
+        plain="An open-source toolkit of fast attention kernels used inside the main AI-inference servers that run language models.",
+    ),
+    entry(
+        "FlashMLA", "",
+        "Open-source CUDA kernel for Multi-head Latent Attention — DeepSeek-published, used in their own and third-party MLA-based inference.",
+        "Released by DeepSeek in early 2025 as part of their open-weight push. Provides Hopper- and Blackwell-tuned implementations of MLA inference that match or beat closed alternatives. Adopted into vLLM V1 and SGLang for serving DeepSeek V3 and V3.2 efficiently. Counterpart to FlashAttention 3 for the dense-attention case — both ship as production-grade open-source kernels.",
+        ["DeepSeek"],
+        indications=["Inference"],
+        category="Software",
+        plain="DeepSeek's open-source code for running its compressed-memory attention efficiently on NVIDIA chips.",
+    ),
+    entry(
+        "Ring Attention", "",
+        "Sequence-parallel attention that distributes one long sequence across multiple GPUs in a ring topology — enables million-token context training.",
+        "Each GPU holds one chunk of the sequence; chunks rotate around the ring while every GPU computes its partial attention. Total memory scales with the number of GPUs rather than with sequence length. Adopted by Google for Gemini's long-context training and by several open implementations. Less common in inference (where KV-cache management dominates) than in training. Pairs naturally with FlashAttention kernels.",
+        ["Google"],
+        indications=["Training"],
+        category="Architecture",
+        plain="A way of splitting one very long input across many GPUs so a model can train on million-word documents.",
+    ),
+    entry(
+        "Lightning Indexer", "",
+        "Cheap learned per-token relevance scorer inside DeepSeek Sparse Attention — runs before the actual attention computation to pick which pairs to score.",
+        "Trained jointly with the rest of the model. Outputs a relevance score for each token-pair using a small dot-product head, then DSA's sparse computation only runs on the top-K scored pairs. The 'lightning' name reflects the indexer being orders of magnitude cheaper than the full attention it replaces. Conceptually similar to the routing function in mixture-of-experts, applied to attention pairs instead of feed-forward experts.",
+        ["DeepSeek"],
+        indications=["NLP", "Inference"],
+        category="Architecture",
+        plain="The fast scoring step inside DeepSeek's sparse attention that decides which words deserve full attention before doing the expensive computation.",
+    ),
+    entry(
+        "Hybrid Attention Architecture", "",
+        "Model design that combines multiple attention variants (dense, sparse, linear, sliding window) in different layers.",
+        "GLM-5, several Mistral generations, and DeepSeek V3.2 all use hybrid designs. The motivation: different attention variants are good at different things, and the cost of running several in different layers is much less than running dense everywhere. Common patterns: dense in early layers (rich token mixing) + sparse / linear in later layers (cheap long-range), or interleaved by layer. Reduces inference cost for long context substantially.",
+        ["DeepSeek"],
+        indications=["NLP", "Frontier"],
+        category="Architecture",
+        plain="An AI model that uses several different kinds of attention in different parts of itself, instead of just one.",
+    ),
+    entry(
+        "Attention Sink", "",
+        "Empirical phenomenon — the first few tokens of an input act as 'sinks' that absorb attention mass, stabilising long-context inference.",
+        "Discovered by MIT researchers in 2023. Removing the first tokens from a streaming KV cache catastrophically degrades quality because remaining tokens have nowhere to dump their unused attention weight. StreamingLLM and similar techniques exploit this by always keeping the first few tokens cached, even as middle tokens get evicted. Now standard in long-context streaming inference. Subtle but load-bearing for serving chatbots with growing conversations.",
+        ["MIT"],
+        indications=["NLP", "Inference"],
+        category="Architecture",
+        plain="The discovery that the first few words of any input act like a sponge soaking up attention from the rest, so they must always be kept in memory.",
+    ),
+    entry(
+        "Paged Attention", "",
+        "Memory-management technique borrowed from operating-system virtual memory — fragments KV cache into fixed-size blocks for efficient packing.",
+        "Introduced by the original vLLM paper (2023). Treats the KV cache like virtual memory pages, so the inference engine can grow and shrink each request's cache without copying or fragmentation. Enabled continuous batching at frontier scale. Now standard in every production inference stack: vLLM V1, SGLang, TensorRT-LLM, FlashInfer all support paged attention. One of the most influential systems papers in modern LLM serving.",
+        ["UC Berkeley"],
+        indications=["Inference"],
+        category="Inference",
+        plain="A trick borrowed from how operating systems manage memory, used to make AI inference servers handle many users at once efficiently.",
+    ),
+]
+
+
+# ============================================================================
 # BATCH 35 — Frontier datacenter & power
 # ============================================================================
 
@@ -7080,6 +7223,7 @@ BATCHES = {
     33: BATCH_FRONTIER_SILICON,
     34: BATCH_FRONTIER_NET,
     35: BATCH_FRONTIER_DC,
+    36: BATCH_FRONTIER_ATTN,
 }
 
 
