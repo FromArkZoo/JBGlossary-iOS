@@ -6472,6 +6472,158 @@ BATCH_FRONTIER_MFG = [
 ]
 
 
+# ============================================================================
+# BATCH 32 — Frontier packaging & HBM (2025-26 vintage)
+# ============================================================================
+
+BATCH_FRONTIER_PKG = [
+    entry(
+        "CoWoS-S", "Chip-on-Wafer-on-Substrate, Silicon-interposer variant",
+        "Original TSMC CoWoS variant using a silicon interposer to wire compute dies and HBM stacks together at very high bandwidth.",
+        "CoWoS-S has carried every major AI accelerator from V100 onward — H100, MI300X, GH200 all use it. The silicon interposer is itself a chip-sized piece of silicon with fine-pitch wiring. Capacity at TSMC is the binding constraint on AI hardware supply through 2026, with TSMC investing aggressively to expand it. CoWoS-L is the larger-than-reticle variant; CoWoS-R is the cost-down RDL variant.",
+        ["TSMC"],
+        indications=["Manufacturing"],
+        category="Packaging",
+        plain="The most common technique for connecting AI compute chips and high-speed memory together on a shared silicon base.",
+    ),
+    entry(
+        "CoWoS-L", "Chip-on-Wafer-on-Substrate, Local-silicon-interconnect variant",
+        "Larger CoWoS variant using local silicon bridges instead of a single full-size interposer — enabling packages bigger than a reticle.",
+        "CoWoS-L removes the single-die size limit of CoWoS-S by stitching small silicon bridges (LSI) into an organic substrate. NVIDIA's Blackwell B200 was the first volume product on CoWoS-L, integrating two reticle-sized GPU dies plus eight HBM3e stacks. Rubin and Rubin Ultra extend the technique further. The trade-off is more complex assembly versus more die area per package.",
+        ["TSMC", "NVIDIA"],
+        indications=["Manufacturing"],
+        category="Packaging",
+        plain="A newer way of building giant chip packages bigger than a single piece of silicon could ever be.",
+    ),
+    entry(
+        "CoWoS-R", "Chip-on-Wafer-on-Substrate, RDL variant",
+        "Cost-reduced CoWoS variant that replaces the silicon interposer with an organic redistribution layer (RDL).",
+        "RDLs are cheaper and easier to manufacture than silicon interposers but carry less bandwidth and fewer connections. CoWoS-R targets mid-tier AI accelerators and high-end CPUs where the full CoWoS-S bandwidth is not needed but cost matters. AMD has used variants of this approach for several MI- and Instinct-line products. Helps TSMC stretch packaging capacity across more price points.",
+        ["TSMC"],
+        indications=["Manufacturing"],
+        category="Packaging",
+        plain="A cheaper version of CoWoS that uses simpler organic materials instead of a costly silicon base, traded against less performance.",
+    ),
+    entry(
+        "SoIC-X", "System on Integrated Chips, eXtended",
+        "Higher-density SoIC variant from TSMC targeted at HBM4 base-die integration and frontier accelerator stacking.",
+        "SoIC-X pushes hybrid-bonding pitch below 5 microns, enough to support HBM4's wider interface to a custom-logic base die. NVIDIA Rubin and AMD MI400 are expected to be among the first customers via HBM4 stacks. Distinct from regular SoIC by stacking density and base-die size budget. Sits below CoWoS in the integration hierarchy — SoIC handles the stack, CoWoS handles the package.",
+        ["TSMC"],
+        indications=["Manufacturing"],
+        category="Packaging",
+        plain="The next generation of TSMC's technique for stacking small chips vertically with extra-fine connections between them.",
+    ),
+    entry(
+        "CoUPe", "Compact Universal Photonic Engine",
+        "TSMC's silicon-photonics integration platform — co-packaging optical I/O alongside compute chips in advanced packages.",
+        "CoUPe brings optical engines into the CoWoS-style package, reducing electrical-to-optical conversion loss versus pluggable optics. TSMC announced CoUPe progress at OCP and other forums in 2025-26 alongside customer-specific projects. Expected to enable next-generation AI rack-scale designs where bandwidth between compute and switch fabric exceeds copper's reach. Adjacent to but separate from Co-Packaged Optics solutions from Broadcom and others.",
+        ["TSMC"],
+        indications=["Manufacturing"],
+        category="Packaging",
+        plain="TSMC's way of putting laser-based optical communication chips right next to compute chips in the same package.",
+    ),
+    entry(
+        "HBM4e", "",
+        "An enhanced refresh of HBM4 expected around 2027 — higher per-pin speed and per-stack capacity, refining rather than replacing the architecture.",
+        "Where HBM4 doubles channel width versus HBM3e, HBM4e is expected to push per-pin speed higher and increase die count per stack. SK Hynix and Samsung are both targeting it for NVIDIA's Rubin Ultra generation and AMD's MI450-class roadmap. The numerical naming convention follows the established HBM2e / HBM3e pattern — the 'e' suffix marks the mid-cycle speed bump on the same logical generation.",
+        ["SK Hynix", "Samsung Foundry"],
+        indications=["Compute"],
+        category="Memory",
+        plain="A faster refresh of the HBM4 memory generation, due around 2027 inside the chips after Rubin.",
+    ),
+    entry(
+        "HBM Base Die", "",
+        "The logic chip at the bottom of an HBM stack — handles signalling, refresh control, test, and increasingly customer-specific functions.",
+        "Historically supplied by the DRAM maker (SK Hynix, Samsung, Micron) as a standard component. From HBM4 onward, the base die is increasingly built on a logic process at TSMC and customised for the end customer's controller logic — a structural shift that pulls TSMC deeper into HBM economics. The base die also carries the TSV connections up through the stack of DRAM dies.",
+        ["SK Hynix"],
+        indications=["Compute", "Memory"],
+        category="Memory",
+        plain="The control chip that sits at the bottom of every HBM memory stack and manages the dies above it.",
+    ),
+    entry(
+        "Custom HBM Base Die", "",
+        "An HBM4-era trend where the base die under an HBM stack is built to the buyer's specification on a foundry logic process.",
+        "Whereas standard HBM is a commodity, a custom HBM base die can integrate buyer-specific controller logic, error-correction tuning, or test hooks. NVIDIA and AMD are both reportedly designing custom base dies for HBM4 variants of Rubin and MI400. Restructures HBM economics: the DRAM stack remains a memory-maker product but the base die is co-designed with the accelerator vendor and built at TSMC.",
+        ["NVIDIA", "AMD"],
+        indications=["Compute", "Memory"],
+        category="Memory",
+        plain="An HBM stack where the bottom control chip is custom-designed for one specific buyer like NVIDIA or AMD, instead of being off-the-shelf.",
+    ),
+    entry(
+        "Microbump", "",
+        "Solder bump roughly 25-40 microns in pitch — the workhorse interconnect between stacked dies before hybrid bonding became viable.",
+        "Microbumps sit between stacked dies in 2.5D packaging and the older generations of 3D packaging. Modern HBM still uses microbumps internally between the DRAM layers. The hybrid bonding push at sub-10-micron pitch eliminates the bump entirely on the most aggressive 3D designs, but microbumps remain dominant for everything else and will for years. A finer-pitch variant called Bump-on-Trace exists for cost-sensitive packages.",
+        ["TSMC", "Intel"],
+        indications=["Manufacturing"],
+        category="Packaging",
+        plain="The tiny solder balls used to connect chips that are stacked on top of each other.",
+    ),
+    entry(
+        "Wafer-to-Wafer Bonding", "",
+        "Hybrid bonding method that joins two full wafers face-to-face before dicing — highest throughput, requires identical die layouts on each wafer.",
+        "Used in CMOS image sensors for years and now spreading to AI memory and logic stacks. Lower cost per bond than die-to-wafer because alignment happens once per wafer pair, but it commits both wafers to the same die size. SoIC-X uses wafer-to-wafer in production. The high-yield variants achieve sub-1µm pitch on copper-to-copper bonds.",
+        ["TSMC"],
+        indications=["Manufacturing"],
+        category="Packaging",
+        plain="A way of permanently joining two whole silicon wafers face-to-face before cutting them into chips.",
+    ),
+    entry(
+        "Die-to-Wafer Bonding", "",
+        "Hybrid bonding method that places known-good individual dies onto a base wafer one-by-one — slower but more flexible than wafer-to-wafer.",
+        "Each die is tested and aligned individually before bonding, which lets the assembly mix die sizes and known-good-only parts. The throughput cost is higher per bond, but yield risk is lower for expensive compute dies. Used for stacking compute dies onto HBM base dies and similar mixed-size assemblies. The 'flexible' variant of hybrid bonding versus the 'high-throughput' wafer-to-wafer flavour.",
+        ["TSMC", "Intel"],
+        indications=["Manufacturing"],
+        category="Packaging",
+        plain="A way of bonding individual chips onto a silicon base one at a time — slower but easier to control quality.",
+    ),
+    entry(
+        "CoWoS Capacity", "",
+        "TSMC's monthly wafer-equivalent throughput for CoWoS packaging — the binding constraint on AI accelerator supply through 2026.",
+        "TSMC's CoWoS lines run from a few thousand wafer-equivalents per month in 2022 to a 2026 target around 75,000 and 2027 plans above 130,000. NVIDIA and AMD compete for allocation; smaller customers wait months. The capacity number drives quarterly AI hardware availability and is the most cited supply metric in industry analyst coverage. Building it requires new TSMC buildings plus equipment from a thin supplier base.",
+        ["TSMC"],
+        indications=["Manufacturing", "Frontier"],
+        category="Packaging",
+        plain="The single number — how many CoWoS-packaged chips TSMC can build per month — that determines how many AI accelerators the world can have.",
+    ),
+    entry(
+        "LPCAMM2", "Low-Power Compression Attached Memory Module",
+        "Detachable laptop memory module using LPDDR-class chips — replaces soldered LPDDR in AI-PC designs while preserving low power.",
+        "LPCAMM2 lets a laptop ship with up to 128 GB of LPDDR5X-class memory in a serviceable module, instead of memory soldered to the board. Lenovo, Dell, and Crucial have all shipped LPCAMM2 products in 2024-25. Relevant to AI inference on-device: more memory means larger models can run locally without cloud round-trips. Not used in datacentre servers; that's where MR-DIMM lives.",
+        ["Micron"],
+        indications=["Memory"],
+        category="Memory",
+        plain="A new kind of laptop memory module that can be replaced or upgraded — useful for running AI models locally with more memory.",
+    ),
+    entry(
+        "MR-DIMM", "Multi-Ranked Buffered DIMM",
+        "Server memory module type that buffers multiple DRAM ranks behind a single host interface — enables higher capacity and speed per channel.",
+        "MR-DIMMs run effective speeds above 8800 MT/s versus 6400 MT/s for standard DDR5 RDIMM, by interleaving accesses across two ranks behind a buffer chip. Used in Intel Xeon 6 and AMD EPYC 9005-class servers paired with AI accelerators. The buffer adds cost and a small latency penalty but unlocks the headroom needed for inference workloads that crave both capacity and bandwidth.",
+        ["Intel", "AMD"],
+        indications=["Memory"],
+        category="Memory",
+        plain="A faster, higher-capacity server memory module used in modern AI servers to feed the GPUs more data per second.",
+    ),
+    entry(
+        "CXL Memory", "Compute Express Link memory",
+        "Memory expansion or pooling that connects to a CPU over the CXL interface instead of a DDR channel — adds capacity at the cost of latency.",
+        "CXL.mem lets servers attach DRAM via PCIe-class lanes rather than direct DDR sockets. Useful for memory-tier expansion (cheap, lots of it) and for pooling memory across many servers in a rack. Microsoft and Meta have both published deployment results. Higher latency than direct DDR limits its use for hot inference paths; cold KV-cache and large embedding tables are the natural fits.",
+        ["Intel", "Microsoft"],
+        indications=["Memory"],
+        category="Memory",
+        plain="A way of adding extra memory to a server through a flexible cable-like connection, instead of plugging it directly into the motherboard.",
+    ),
+    entry(
+        "HBF", "High-Bandwidth Flash",
+        "Emerging HBM-form-factor NAND stack designed to sit on the same package as a GPU — bridging the gap between fast HBM and slow SSD storage.",
+        "HBF stacks NAND dies in an HBM-style package with a fast base die. Sandisk, SK Hynix, and Kioxia have all disclosed designs in 2025-26. Targeted at inference workloads where large model weights and long-lived KV cache exceed DRAM budgets but cannot tolerate full SSD latency. Costs less per GB than HBM but is much slower; complements HBM rather than replacing it.",
+        ["SK Hynix"],
+        indications=["Memory", "Inference"],
+        category="Memory",
+        plain="A new kind of flash storage built in the same shape as HBM, designed to sit right next to AI chips for fast access.",
+    ),
+]
+
+
 BATCHES = {
     1: BATCH_ARCHITECTURES,
     2: BATCH_TRAINING_ALIGNMENT,
@@ -6504,6 +6656,7 @@ BATCHES = {
     29: BATCH_ADVANCED,
     30: BATCH_FILL,
     31: BATCH_FRONTIER_MFG,
+    32: BATCH_FRONTIER_PKG,
 }
 
 
