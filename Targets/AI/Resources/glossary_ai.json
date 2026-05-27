@@ -3130,6 +3130,22 @@
   },
   {
     "letter": "D",
+    "term": "DAPO",
+    "full": "Decoupled-Advantage Policy Optimization",
+    "plain": "ByteDance's improvement to DeepSeek's GRPO training method, making it more stable when training reasoning models.",
+    "snappy": "ByteDance variant of GRPO — separates advantage estimation from policy update for more stable reasoning-model RL.",
+    "detail": "DAPO modifies GRPO's group-relative advantage by decoupling the advantage normalisation from the policy gradient step. Improves stability when the reward signal is sparse (math, code) and the group of samples is small. Published by ByteDance researchers in 2025 alongside the Seed series of open models. Adopted by several frontier labs and contributors to open-weight reasoning recipes.",
+    "indications": [
+      "Training",
+      "Frontier"
+    ],
+    "category": "Training",
+    "sources": [
+      "ByteDance"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "Data augmentation",
     "full": "",
     "snappy": "Producing more training data by transforming existing examples — rotating images, paraphrasing text, adding noise.",
@@ -4725,6 +4741,21 @@
       "NVIDIA"
     ],
     "plain": "An even smaller way to store numbers — uses just one byte each, making AI run much faster at a small cost to precision."
+  },
+  {
+    "letter": "F",
+    "term": "FP8 Training",
+    "full": "",
+    "plain": "A way of training AI models using 8-bit numbers instead of 16-bit ones, making training 30-50% faster on modern GPUs.",
+    "snappy": "Pretraining with 8-bit floating-point matrix multiplications — 30-50% throughput win versus BF16 on Hopper and later GPUs.",
+    "detail": "FP8 has two formats (E4M3 and E5M2) standardised by NVIDIA, Arm, and Intel. The Transformer Engine library handles auto-scaling between FP8 matrix multiplies and higher-precision accumulation. Most 2024-25 frontier pretraining runs use FP8 for the dominant matrix multiplications. DeepSeek V3 famously was trained largely in FP8, dropping training cost dramatically. Bridges to MXFP4 and NVFP4 in the Blackwell and Rubin generations.",
+    "indications": [
+      "Training"
+    ],
+    "category": "Training",
+    "sources": [
+      "NVIDIA"
+    ]
   },
   {
     "letter": "F",
@@ -6644,6 +6675,21 @@
   },
   {
     "letter": "K",
+    "term": "KTO",
+    "full": "Kahneman-Tversky Optimization",
+    "plain": "A way of fine-tuning AI models from simple 'good or bad' feedback on individual responses, instead of comparing pairs.",
+    "snappy": "Unpaired preference-learning loss inspired by prospect theory — trains from one-sided 'good / bad' labels, not paired comparisons.",
+    "detail": "DPO and most preference methods require chosen-versus-rejected pairs. KTO accepts a stream of individual labels: this output good, that output bad. Easier to collect at scale because pairing isn't required. Inspired by Kahneman and Tversky's prospect theory: losses weighted more heavily than gains. Released 2024 by Contextual AI researchers. Useful when paired data is scarce.",
+    "indications": [
+      "Training"
+    ],
+    "category": "Alignment",
+    "sources": [
+      "Contextual AI"
+    ]
+  },
+  {
+    "letter": "K",
     "term": "Kubernetes",
     "full": "K8s",
     "snappy": "Container orchestration system — the standard for deploying and managing distributed applications, including AI workloads.",
@@ -7803,6 +7849,23 @@
   },
   {
     "letter": "M",
+    "term": "Microscaling Format",
+    "full": "MX",
+    "plain": "A family of number formats designed for AI chips, sharing exponents across small groups of numbers to keep precision useful at very low bit widths.",
+    "snappy": "Family of low-precision number formats with a shared exponent per small block — recovers dynamic range that naive low-precision loses.",
+    "detail": "Standardised by the Open Compute Project's microscaling subgroup in 2023, with NVIDIA, AMD, Arm, Intel, Microsoft, Meta, and Qualcomm as members. Variants: MXFP8, MXFP6, MXFP4, MXINT8. The block-shared exponent trick is what makes 4-bit training stable enough to be practical. Underpins the inference-precision roadmap across the whole industry through 2030 and beyond.",
+    "indications": [
+      "Training",
+      "Inference"
+    ],
+    "category": "Training",
+    "sources": [
+      "NVIDIA",
+      "AMD"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Microsoft",
     "full": "",
     "snappy": "Cloud + productivity giant — primary partner of OpenAI and operator of the Azure AI cloud.",
@@ -7829,6 +7892,22 @@
     "category": "Hardware",
     "sources": [
       "Microsoft"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Mid-Training",
+    "full": "",
+    "plain": "A new middle stage of AI training, sitting between the initial bulk learning and the final instruction-tuning, focused on specialised skills like math and code.",
+    "snappy": "Training stage between pretraining and post-training where the data mix shifts toward instruction-rich, domain-curated content.",
+    "detail": "A 2024-25 industry shift: instead of mixing all pretraining data uniformly, train on bulk web data first, then transition to a curated mid-training mix heavy on instruction-following, math, code, and reasoning data, then finally do post-training (SFT, RL). Allows the base model to absorb specialised skills before alignment. Used by DeepSeek, Qwen, GLM, and several closed-frontier models. Eats into what used to be called 'data curriculum' but is now a distinct stage.",
+    "indications": [
+      "Training",
+      "Frontier"
+    ],
+    "category": "Training",
+    "sources": [
+      "DeepSeek"
     ]
   },
   {
@@ -8358,6 +8437,22 @@
     "plain": "A DeepMind system that learns the rules of a game just by playing it, then plans winning moves inside its own head."
   },
   {
+    "letter": "M",
+    "term": "MXFP4",
+    "full": "Microscaling FP4",
+    "plain": "A way of running AI computations using only 4-bit numbers, doubled in speed versus 8-bit on the newest chips.",
+    "snappy": "4-bit floating-point with shared exponent blocks — Blackwell-native precision that doubles FP8 throughput at small quality cost.",
+    "detail": "Standardised by the Open Compute Project's microscaling group (OCP MX). 4-bit values share an exponent across small blocks of 32 elements, recovering the dynamic range a naive FP4 would lose. Native on NVIDIA Blackwell and AMD MI400 silicon. Used for inference broadly and increasingly for training of mature models. Pretraining stability tools still required; Anthropic and DeepSeek published 2025 papers showing FP4-trained models can match FP8 with care.",
+    "indications": [
+      "Training",
+      "Inference"
+    ],
+    "category": "Training",
+    "sources": [
+      "NVIDIA"
+    ]
+  },
+  {
     "letter": "N",
     "term": "NAND flash",
     "full": "",
@@ -8546,6 +8641,22 @@
       "Intel"
     ],
     "plain": "A small AI chip built into phones and laptops so they can run AI tasks without phoning the cloud."
+  },
+  {
+    "letter": "N",
+    "term": "NVFP4",
+    "full": "",
+    "plain": "NVIDIA's specific version of the 4-bit number format used for AI computations on its newest chips.",
+    "snappy": "NVIDIA's specific 4-bit microscaling format — one of two MX variants natively supported on Blackwell.",
+    "detail": "Variant of the broader MXFP4 standard tuned for NVIDIA's Blackwell silicon. Block size and exponent format follow the OCP microscaling spec, with NVIDIA-specific scaling and rounding behaviour. Default 4-bit format on Blackwell and Rubin for most production inference and increasing share of training. The format ecosystem is split between this and AMD/Intel/Arm's MXFP4, similar to FP8's E4M3 / E5M2 split.",
+    "indications": [
+      "Training",
+      "Inference"
+    ],
+    "category": "Training",
+    "sources": [
+      "NVIDIA"
+    ]
   },
   {
     "letter": "N",
@@ -8909,6 +9020,21 @@
       "NVIDIA"
     ],
     "plain": "Tesla's humanoid robot project — Elon Musk's bet that general-purpose robots will one day outsell cars."
+  },
+  {
+    "letter": "O",
+    "term": "ORPO",
+    "full": "Odds Ratio Preference Optimization",
+    "plain": "A preference-tuning method that combines two training stages into one, simplifying the recipe for fine-tuning chat models.",
+    "snappy": "Preference-learning method that folds SFT and DPO into a single training stage — eliminates the multi-stage post-training pipeline.",
+    "detail": "Released 2024. ORPO adds an odds-ratio penalty term to the standard supervised fine-tuning loss, so preferred responses are pushed up while rejected ones are pushed down inside one optimiser step. Cuts post-training from two stages (SFT then DPO) to one, with similar final-model quality. Used by several open-weight model trainers to compress the training pipeline.",
+    "indications": [
+      "Training"
+    ],
+    "category": "Alignment",
+    "sources": [
+      "KAIST"
+    ]
   },
   {
     "letter": "O",
@@ -10200,6 +10326,21 @@
   },
   {
     "letter": "R",
+    "term": "Rejection Sampling Fine-Tuning",
+    "full": "RFT",
+    "plain": "A simple way of improving AI models by generating many possible answers, keeping the best ones, and training on those.",
+    "snappy": "Generate many candidates, keep only the highest-scoring ones, then fine-tune on the winners — the simplest scalable RL alternative.",
+    "detail": "Sometimes called 'best-of-N distillation'. Sample 8-128 candidates per prompt, score each with a verifier or reward model, fine-tune the model on the top-K. Repeat. Avoids the complexity of PPO / GRPO at the cost of being less sample-efficient. Used by Meta for several Llama post-training stages and by countless open-source recipes. Pairs naturally with RLVR for math and code domains.",
+    "indications": [
+      "Training"
+    ],
+    "category": "Training",
+    "sources": [
+      "Meta AI"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "ReLU",
     "full": "Rectified Linear Unit",
     "snappy": "Activation function that's the identity for positive inputs and zero for negative ones — the dominant activation since around 2012.",
@@ -10445,6 +10586,22 @@
       "Anthropic"
     ],
     "plain": "A training step where humans pick which of a chatbot's answers they prefer, and the chatbot learns to give more of the preferred kind."
+  },
+  {
+    "letter": "R",
+    "term": "RLVR",
+    "full": "Reinforcement Learning with Verifiable Rewards",
+    "plain": "A way of training AI models using questions where you can automatically check if the answer is right, like math problems and code tests.",
+    "snappy": "RL setup where the reward is computed by a programmatic checker, not by a preference model — math, code, and logic puzzles are the natural domains.",
+    "detail": "DeepSeek-R1's training was the breakthrough RLVR example: math problems get a +1 reward if the final answer matches the ground truth, 0 otherwise. No reward model required. The lack of a learned reward avoids reward-hacking failure modes and dramatically simplifies the training stack. Heavily used for reasoning-model training across DeepSeek, OpenAI, Anthropic, Google, and the open-source community.",
+    "indications": [
+      "Training",
+      "Frontier"
+    ],
+    "category": "Training",
+    "sources": [
+      "DeepSeek"
+    ]
   },
   {
     "letter": "R",
@@ -11076,6 +11233,21 @@
       "NVIDIA"
     ],
     "plain": "A chip design where one command runs on a whole list of numbers at once — the basic reason GPUs are so fast."
+  },
+  {
+    "letter": "S",
+    "term": "SimPO",
+    "full": "Simple Preference Optimization",
+    "plain": "A simpler, lighter version of the DPO training method that drops some of the memory cost without losing much quality.",
+    "snappy": "Reference-free simplified-DPO variant — drops the reference-model term from DPO's loss for lower memory and similar quality.",
+    "detail": "Released 2024 by Princeton researchers. Removes DPO's need to keep the original reference model in memory during preference fine-tuning, cutting GPU footprint roughly in half. Adopted by several open-weight model trainers as the cost-conscious DPO alternative. Mixed evidence on whether quality matches full DPO across all domains; in practice often competitive.",
+    "indications": [
+      "Training"
+    ],
+    "category": "Training",
+    "sources": [
+      "Princeton"
+    ]
   },
   {
     "letter": "S",
@@ -11869,6 +12041,22 @@
   },
   {
     "letter": "S",
+    "term": "Synthetic Pretraining",
+    "full": "",
+    "plain": "Training AI models on text that other AI models wrote, increasingly used as the open web runs out of high-quality new content.",
+    "snappy": "Pretraining on a corpus largely or wholly generated by other AI models — increasingly common as web-scraped data approaches saturation.",
+    "detail": "Phi-3, Phi-4, and several DeepSeek-generation models trained heavily on synthetic data. Microsoft Research and DeepSeek have published recipes for generating math, code, reasoning, and dialogue corpora from frontier teacher models. Concerns about 'model collapse' from training on synthetic data alone have not panned out at the scales actually used; mixed natural + synthetic remains the dominant approach.",
+    "indications": [
+      "Training",
+      "Frontier"
+    ],
+    "category": "Training",
+    "sources": [
+      "Microsoft"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "System prompt",
     "full": "",
     "snappy": "Hidden instruction that sets a model's persona, ground rules, and context — placed before the user's first message.",
@@ -12597,6 +12785,21 @@
       "Vaswani 2017"
     ],
     "plain": "The model design behind almost every modern AI chatbot — lets every word in a sentence pay attention to every other word."
+  },
+  {
+    "letter": "T",
+    "term": "Transformer Engine",
+    "full": "",
+    "plain": "NVIDIA's helper library that handles the tricky details of training AI models with low-bit numbers, so engineers don't have to manage it themselves.",
+    "snappy": "NVIDIA library that auto-manages FP8 / FP4 scaling during transformer training — hides the precision-bookkeeping complexity from model code.",
+    "detail": "Wraps standard PyTorch / JAX linear layers with auto-scaled FP8 / FP4 paths that maintain a running exponent calibration. Released alongside Hopper in 2022 and extended for Blackwell. Default integration in Megatron-LM, NeMo, and most large training stacks. Without something like this, FP8 / FP4 training requires far more manual tuning to stay numerically stable.",
+    "indications": [
+      "Training"
+    ],
+    "category": "Software",
+    "sources": [
+      "NVIDIA"
+    ]
   },
   {
     "letter": "T",

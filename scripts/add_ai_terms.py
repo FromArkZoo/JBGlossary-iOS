@@ -6473,6 +6473,158 @@ BATCH_FRONTIER_MFG = [
 
 
 # ============================================================================
+# BATCH 38 — Frontier training innovations (precision + post-training RL)
+# ============================================================================
+
+BATCH_FRONTIER_TRAIN = [
+    entry(
+        "FP8 Training", "",
+        "Pretraining with 8-bit floating-point matrix multiplications — 30-50% throughput win versus BF16 on Hopper and later GPUs.",
+        "FP8 has two formats (E4M3 and E5M2) standardised by NVIDIA, Arm, and Intel. The Transformer Engine library handles auto-scaling between FP8 matrix multiplies and higher-precision accumulation. Most 2024-25 frontier pretraining runs use FP8 for the dominant matrix multiplications. DeepSeek V3 famously was trained largely in FP8, dropping training cost dramatically. Bridges to MXFP4 and NVFP4 in the Blackwell and Rubin generations.",
+        ["NVIDIA"],
+        indications=["Training"],
+        category="Training",
+        plain="A way of training AI models using 8-bit numbers instead of 16-bit ones, making training 30-50% faster on modern GPUs.",
+    ),
+    entry(
+        "MXFP4", "Microscaling FP4",
+        "4-bit floating-point with shared exponent blocks — Blackwell-native precision that doubles FP8 throughput at small quality cost.",
+        "Standardised by the Open Compute Project's microscaling group (OCP MX). 4-bit values share an exponent across small blocks of 32 elements, recovering the dynamic range a naive FP4 would lose. Native on NVIDIA Blackwell and AMD MI400 silicon. Used for inference broadly and increasingly for training of mature models. Pretraining stability tools still required; Anthropic and DeepSeek published 2025 papers showing FP4-trained models can match FP8 with care.",
+        ["NVIDIA"],
+        indications=["Training", "Inference"],
+        category="Training",
+        plain="A way of running AI computations using only 4-bit numbers, doubled in speed versus 8-bit on the newest chips.",
+    ),
+    entry(
+        "NVFP4", "",
+        "NVIDIA's specific 4-bit microscaling format — one of two MX variants natively supported on Blackwell.",
+        "Variant of the broader MXFP4 standard tuned for NVIDIA's Blackwell silicon. Block size and exponent format follow the OCP microscaling spec, with NVIDIA-specific scaling and rounding behaviour. Default 4-bit format on Blackwell and Rubin for most production inference and increasing share of training. The format ecosystem is split between this and AMD/Intel/Arm's MXFP4, similar to FP8's E4M3 / E5M2 split.",
+        ["NVIDIA"],
+        indications=["Training", "Inference"],
+        category="Training",
+        plain="NVIDIA's specific version of the 4-bit number format used for AI computations on its newest chips.",
+    ),
+    entry(
+        "Microscaling Format", "MX",
+        "Family of low-precision number formats with a shared exponent per small block — recovers dynamic range that naive low-precision loses.",
+        "Standardised by the Open Compute Project's microscaling subgroup in 2023, with NVIDIA, AMD, Arm, Intel, Microsoft, Meta, and Qualcomm as members. Variants: MXFP8, MXFP6, MXFP4, MXINT8. The block-shared exponent trick is what makes 4-bit training stable enough to be practical. Underpins the inference-precision roadmap across the whole industry through 2030 and beyond.",
+        ["NVIDIA", "AMD"],
+        indications=["Training", "Inference"],
+        category="Training",
+        plain="A family of number formats designed for AI chips, sharing exponents across small groups of numbers to keep precision useful at very low bit widths.",
+    ),
+    entry(
+        "Transformer Engine", "",
+        "NVIDIA library that auto-manages FP8 / FP4 scaling during transformer training — hides the precision-bookkeeping complexity from model code.",
+        "Wraps standard PyTorch / JAX linear layers with auto-scaled FP8 / FP4 paths that maintain a running exponent calibration. Released alongside Hopper in 2022 and extended for Blackwell. Default integration in Megatron-LM, NeMo, and most large training stacks. Without something like this, FP8 / FP4 training requires far more manual tuning to stay numerically stable.",
+        ["NVIDIA"],
+        indications=["Training"],
+        category="Software",
+        plain="NVIDIA's helper library that handles the tricky details of training AI models with low-bit numbers, so engineers don't have to manage it themselves.",
+    ),
+    entry(
+        "GRPO", "Group Relative Policy Optimization",
+        "DeepSeek-developed reinforcement-learning method — uses per-group baselines instead of a critic network, drastically cheaper than PPO.",
+        "GRPO computes advantage by comparing each sampled trajectory's reward to the mean reward of its group, eliminating the need for a separate value/critic model. The compute and memory savings are substantial — DeepSeek-R1's pure-RL training would have been infeasible with conventional PPO. Now widely adopted: GLM-5, Qwen3, and many open-weight reasoning models use GRPO variants. Spawned a family of follow-ups (DAPO, RLOO, others).",
+        ["DeepSeek"],
+        indications=["Training", "Frontier"],
+        category="Training",
+        plain="DeepSeek's training trick for reinforcement learning that doesn't need a separate scoring model, making RL much cheaper.",
+    ),
+    entry(
+        "DAPO", "Decoupled-Advantage Policy Optimization",
+        "ByteDance variant of GRPO — separates advantage estimation from policy update for more stable reasoning-model RL.",
+        "DAPO modifies GRPO's group-relative advantage by decoupling the advantage normalisation from the policy gradient step. Improves stability when the reward signal is sparse (math, code) and the group of samples is small. Published by ByteDance researchers in 2025 alongside the Seed series of open models. Adopted by several frontier labs and contributors to open-weight reasoning recipes.",
+        ["ByteDance"],
+        indications=["Training", "Frontier"],
+        category="Training",
+        plain="ByteDance's improvement to DeepSeek's GRPO training method, making it more stable when training reasoning models.",
+    ),
+    entry(
+        "RLVR", "Reinforcement Learning with Verifiable Rewards",
+        "RL setup where the reward is computed by a programmatic checker, not by a preference model — math, code, and logic puzzles are the natural domains.",
+        "DeepSeek-R1's training was the breakthrough RLVR example: math problems get a +1 reward if the final answer matches the ground truth, 0 otherwise. No reward model required. The lack of a learned reward avoids reward-hacking failure modes and dramatically simplifies the training stack. Heavily used for reasoning-model training across DeepSeek, OpenAI, Anthropic, Google, and the open-source community.",
+        ["DeepSeek"],
+        indications=["Training", "Frontier"],
+        category="Training",
+        plain="A way of training AI models using questions where you can automatically check if the answer is right, like math problems and code tests.",
+    ),
+    entry(
+        "SimPO", "Simple Preference Optimization",
+        "Reference-free simplified-DPO variant — drops the reference-model term from DPO's loss for lower memory and similar quality.",
+        "Released 2024 by Princeton researchers. Removes DPO's need to keep the original reference model in memory during preference fine-tuning, cutting GPU footprint roughly in half. Adopted by several open-weight model trainers as the cost-conscious DPO alternative. Mixed evidence on whether quality matches full DPO across all domains; in practice often competitive.",
+        ["Princeton"],
+        indications=["Training"],
+        category="Training",
+        plain="A simpler, lighter version of the DPO training method that drops some of the memory cost without losing much quality.",
+    ),
+    entry(
+        "KTO", "Kahneman-Tversky Optimization",
+        "Unpaired preference-learning loss inspired by prospect theory — trains from one-sided 'good / bad' labels, not paired comparisons.",
+        "DPO and most preference methods require chosen-versus-rejected pairs. KTO accepts a stream of individual labels: this output good, that output bad. Easier to collect at scale because pairing isn't required. Inspired by Kahneman and Tversky's prospect theory: losses weighted more heavily than gains. Released 2024 by Contextual AI researchers. Useful when paired data is scarce.",
+        ["Contextual AI"],
+        indications=["Training"],
+        category="Alignment",
+        plain="A way of fine-tuning AI models from simple 'good or bad' feedback on individual responses, instead of comparing pairs.",
+    ),
+    entry(
+        "ORPO", "Odds Ratio Preference Optimization",
+        "Preference-learning method that folds SFT and DPO into a single training stage — eliminates the multi-stage post-training pipeline.",
+        "Released 2024. ORPO adds an odds-ratio penalty term to the standard supervised fine-tuning loss, so preferred responses are pushed up while rejected ones are pushed down inside one optimiser step. Cuts post-training from two stages (SFT then DPO) to one, with similar final-model quality. Used by several open-weight model trainers to compress the training pipeline.",
+        ["KAIST"],
+        indications=["Training"],
+        category="Alignment",
+        plain="A preference-tuning method that combines two training stages into one, simplifying the recipe for fine-tuning chat models.",
+    ),
+    entry(
+        "Rejection Sampling Fine-Tuning", "RFT",
+        "Generate many candidates, keep only the highest-scoring ones, then fine-tune on the winners — the simplest scalable RL alternative.",
+        "Sometimes called 'best-of-N distillation'. Sample 8-128 candidates per prompt, score each with a verifier or reward model, fine-tune the model on the top-K. Repeat. Avoids the complexity of PPO / GRPO at the cost of being less sample-efficient. Used by Meta for several Llama post-training stages and by countless open-source recipes. Pairs naturally with RLVR for math and code domains.",
+        ["Meta AI"],
+        indications=["Training"],
+        category="Training",
+        plain="A simple way of improving AI models by generating many possible answers, keeping the best ones, and training on those.",
+    ),
+    entry(
+        "RLAIF", "Reinforcement Learning from AI Feedback",
+        "RL training where another AI model (often a stronger one or a constitutional judge) supplies the reward signal instead of human raters.",
+        "RLAIF lets training scale beyond what human labellers can produce. The AI judge can be a stronger model (distillation pattern), a constitutional self-critic (Anthropic's Constitutional AI), or a verifier (overlaps with RLVR for verifiable tasks). Used heavily by Anthropic, OpenAI, and Google for post-training. The reward-quality question becomes 'how good is the AI judge' rather than 'how good are the human annotators'.",
+        ["Anthropic"],
+        indications=["Training", "Frontier"],
+        category="Alignment",
+        plain="Training AI models using feedback from another AI model instead of human raters, so training can scale beyond what humans could label.",
+    ),
+    entry(
+        "Synthetic Pretraining", "",
+        "Pretraining on a corpus largely or wholly generated by other AI models — increasingly common as web-scraped data approaches saturation.",
+        "Phi-3, Phi-4, and several DeepSeek-generation models trained heavily on synthetic data. Microsoft Research and DeepSeek have published recipes for generating math, code, reasoning, and dialogue corpora from frontier teacher models. Concerns about 'model collapse' from training on synthetic data alone have not panned out at the scales actually used; mixed natural + synthetic remains the dominant approach.",
+        ["Microsoft"],
+        indications=["Training", "Frontier"],
+        category="Training",
+        plain="Training AI models on text that other AI models wrote, increasingly used as the open web runs out of high-quality new content.",
+    ),
+    entry(
+        "Mid-Training", "",
+        "Training stage between pretraining and post-training where the data mix shifts toward instruction-rich, domain-curated content.",
+        "A 2024-25 industry shift: instead of mixing all pretraining data uniformly, train on bulk web data first, then transition to a curated mid-training mix heavy on instruction-following, math, code, and reasoning data, then finally do post-training (SFT, RL). Allows the base model to absorb specialised skills before alignment. Used by DeepSeek, Qwen, GLM, and several closed-frontier models. Eats into what used to be called 'data curriculum' but is now a distinct stage.",
+        ["DeepSeek"],
+        indications=["Training", "Frontier"],
+        category="Training",
+        plain="A new middle stage of AI training, sitting between the initial bulk learning and the final instruction-tuning, focused on specialised skills like math and code.",
+    ),
+    entry(
+        "Curriculum Learning", "",
+        "Training with a staged easy-to-hard sequence of examples — improves convergence and final quality versus random ordering for many tasks.",
+        "Older idea (Bengio 2009) that has had a 2024-25 revival in reasoning-model training. Examples ordered from easy to hard either by source, by length, or by a separate difficulty predictor. Particularly effective for RL training of reasoning models, where starting on tractable problems and gradually expanding difficulty avoids early-training instability. Distinct from but related to mid-training and from RL with adaptive sampling.",
+        ["Yoshua Bengio"],
+        indications=["Training"],
+        category="Training",
+        plain="Training AI models by showing them easier examples first and gradually harder ones, mimicking how humans learn.",
+    ),
+]
+
+
+# ============================================================================
 # BATCH 37 — Frontier inference systems & KV-cache management
 # ============================================================================
 
@@ -7395,6 +7547,7 @@ BATCHES = {
     35: BATCH_FRONTIER_DC,
     36: BATCH_FRONTIER_ATTN,
     37: BATCH_FRONTIER_INF,
+    38: BATCH_FRONTIER_TRAIN,
 }
 
 
