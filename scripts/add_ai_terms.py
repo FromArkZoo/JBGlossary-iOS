@@ -6473,6 +6473,131 @@ BATCH_FRONTIER_MFG = [
 
 
 # ============================================================================
+# BATCH 44 — AI policy, geopolitics & export controls
+# ============================================================================
+
+BATCH_FRONTIER_POLICY = [
+    entry(
+        "AI Diffusion Rule", "",
+        "Biden-era tiered chip-export framework — rescinded May 2025 by the Trump administration before its compliance date.",
+        "Issued January 2025 by the Bureau of Industry and Security, the AI Diffusion Rule established a three-tier global framework for advanced-chip exports: trusted allies (no caps), restricted nations (tight caps), and barred adversaries (effectively zero). Industry pushback came from NVIDIA, hyperscalers, and several allied governments. Rescinded May 13, 2025 before it could take effect. Replaced by case-by-case export licensing rather than a tiered framework.",
+        ["BIS"],
+        indications=["Frontier"],
+        category="Regulation",
+        plain="A 2025 US rule that would have grouped countries into chip-export tiers — withdrawn before it took effect.",
+    ),
+    entry(
+        "CHIPS Act 2.0", "",
+        "Proposed reauthorisation and expansion of the 2022 CHIPS and Science Act — additional capex grants for semiconductor manufacturing in the US.",
+        "Active 2025-26 legislative discussion. CHIPS Act 1.0 directed roughly $52 billion in direct grants and tax credits to US semiconductor manufacturing. 2.0 proposals add another $30-100 billion focused on advanced packaging (CoWoS competitors), HBM manufacturing, and AI-accelerator-grade silicon. The TeraFab project's Intel-licensing structure is one of several deals influenced by CHIPS-style policy. Bipartisan support but uncertain timing.",
+        ["US Congress"],
+        indications=["Manufacturing"],
+        category="Regulation",
+        plain="A possible expansion of the 2022 CHIPS Act with more US government money for building chip factories on American soil.",
+    ),
+    entry(
+        "Export Control", "",
+        "Trade-restriction regime governing dual-use technology — the legal basis for US restrictions on AI chip exports to China and other adversaries.",
+        "Administered by the Bureau of Industry and Security (BIS) under the Export Administration Regulations (EAR). The October 2022 BIS rules first restricted advanced AI chip exports to China; updates in 2023 and 2024 tightened the rules and added new categories (HBM, lithography tools). Coordinated to varying degrees with allied export-control regimes (Japan, Netherlands). The mechanism that lets the US restrict NVIDIA, AMD, ASML, and tool-vendor sales to specific destinations.",
+        ["BIS"],
+        indications=["Frontier"],
+        category="Regulation",
+        plain="US trade laws that restrict which advanced AI chips and tools can be sold to which countries.",
+    ),
+    entry(
+        "Entity List", "",
+        "BIS-maintained restricted-end-user list — companies on it cannot receive US-origin technology without specific licences.",
+        "Most-cited example: Huawei on the Entity List since 2019, blocking direct sales of US-origin chips and tools. SMIC was added with restrictions in 2020. The Entity List is the surgical-strike side of export controls: rather than restricting whole technology classes, it restricts specific buyers. Updates roughly quarterly with new additions as US intelligence assesses end-users.",
+        ["BIS"],
+        indications=["Frontier"],
+        category="Regulation",
+        plain="A US government list of foreign companies banned from receiving American technology without special permission.",
+    ),
+    entry(
+        "De Minimis Rule", "",
+        "Carve-out under US export controls — foreign-made goods with less than 25% US content can be exported without US restrictions.",
+        "Defines when a foreign product is or isn't subject to US export controls. The 25% threshold is the default; certain sensitive items have lower 0% or 10% thresholds. The rule shapes how non-US foundries (TSMC, Samsung) think about which US-origin tools and IP they can use without inheriting US export controls. The Foreign Direct Product Rule (FDPR) extends US jurisdiction further when the foreign product was made with US-origin tools.",
+        ["BIS"],
+        indications=["Frontier"],
+        category="Regulation",
+        plain="A US export-control rule that says foreign-made products are exempt from US restrictions if they contain less than 25% US content.",
+    ),
+    entry(
+        "EAR", "Export Administration Regulations",
+        "The body of US regulations administered by BIS that governs dual-use technology exports — the underlying legal framework for AI chip export controls.",
+        "Sits alongside the State Department's ITAR (for military goods) as the two main US export-control regimes. Defines which items are controlled (the Commerce Control List), which destinations are restricted (country groups, embargoed nations), and which end-users are restricted (Entity List, Unverified List, Military End User List). The October 2022 AI chip restrictions and all subsequent updates are amendments to the EAR.",
+        ["BIS"],
+        indications=["Frontier"],
+        category="Regulation",
+        plain="The US government rulebook for exports of dual-use technology, where the AI chip export rules live.",
+    ),
+    entry(
+        "EU AI Act", "",
+        "European Union's risk-tiered AI regulation — in force from 2024 with staged compliance deadlines through 2027.",
+        "Categorises AI systems by risk level: prohibited (social scoring, manipulative tactics), high-risk (employment, education, critical infrastructure), limited-risk (chatbots, deepfakes), minimal-risk (everything else). Adds specific obligations for general-purpose AI models, with stricter rules for those crossing the systemic-risk compute threshold. The first comprehensive AI-regulation framework from a major jurisdiction; influences regulator approaches in the UK, Brazil, Japan, and others.",
+        ["EU"],
+        indications=["Frontier"],
+        category="Regulation",
+        plain="The EU's comprehensive 2024 law regulating AI by risk tier, the most thorough AI-specific regulation from any major jurisdiction.",
+    ),
+    entry(
+        "General-Purpose AI", "GPAI",
+        "EU AI Act category for foundation models — captures the largest LLMs and multimodal models with specific transparency and risk obligations.",
+        "GPAI models face transparency requirements (training data summaries, copyright compliance documentation) regardless of size. Those crossing the EU AI Act's systemic-risk compute threshold get additional obligations: model evaluation, adversarial testing, cybersecurity protection, incident reporting. The threshold (10^25 FLOPs of training compute) was set to capture the largest frontier models without burdening smaller open-source releases.",
+        ["EU"],
+        indications=["Frontier"],
+        category="Regulation",
+        plain="The EU AI Act's name for general-purpose foundation models, with extra rules for the very largest ones.",
+    ),
+    entry(
+        "Systemic Risk Tier", "",
+        "EU AI Act compute threshold (10^25 FLOPs of training compute) that triggers the strictest General-Purpose AI obligations.",
+        "Set deliberately to capture the largest frontier models (GPT-5, Claude Opus, Gemini, Llama-class flagships) without sweeping in smaller fine-tunes or open-weight specialty models. Models above the threshold must conduct model evaluation, adversarial testing, cybersecurity assessment, and incident reporting. Periodically reviewed and updateable by EU regulators as compute economics shift. The first regulatory threshold to use compute as the capability proxy.",
+        ["EU"],
+        indications=["Frontier"],
+        category="Regulation",
+        plain="The EU AI Act's compute threshold — once a model crosses it, much stricter rules apply, designed to catch only the biggest frontier models.",
+    ),
+    entry(
+        "NIST AI RMF", "NIST AI Risk Management Framework",
+        "Voluntary US framework for managing AI risk across an organisation — published by NIST, widely adopted by enterprise AI governance teams.",
+        "Released January 2023, profile additions and updates ongoing. The framework defines four functions (Govern, Map, Measure, Manage) for AI risk management, with detailed sub-categories under each. Non-binding but cited extensively as the reference point for US enterprise AI governance, particularly in regulated industries. Provides a common vocabulary for discussing AI risk that the US lacks an EU-AI-Act equivalent for.",
+        ["NIST"],
+        indications=["Safety"],
+        category="Regulation",
+        plain="A voluntary US framework for how organisations should manage AI risks, widely used as the default reference in US enterprises.",
+    ),
+    entry(
+        "Bletchley Summit", "",
+        "First international AI safety summit, hosted by the UK at Bletchley Park in November 2023 — produced the Bletchley Declaration on AI risk.",
+        "Brought together 28 countries plus the EU, frontier AI labs, and academic researchers. The Bletchley Declaration acknowledged frontier-AI risks across cybersecurity, CBRN, and disinformation, and committed to international cooperation. Followed by Seoul Summit (2024) and Paris Summit (2025). The summit series established a venue for international coordination on frontier AI safety that previously didn't exist.",
+        ["UK"],
+        indications=["Safety", "Frontier"],
+        category="Regulation",
+        plain="The first international AI safety meeting, held in the UK in late 2023 and starting an ongoing series of global summits.",
+    ),
+    entry(
+        "Compute Threshold", "",
+        "Regulator-defined training-compute level used as a capability proxy — triggers reporting, safety evaluation, or other obligations.",
+        "Both the EU AI Act (10^25 FLOPs) and the rescinded Biden Executive Order (10^26 FLOPs for reporting) used compute thresholds. The mechanism is policy-attractive because compute is easier to measure than capability and harder to obfuscate. Critics note that algorithm improvements can produce frontier capabilities at sub-threshold compute, making compute alone an imperfect proxy. Still the dominant capability-proxy mechanism in 2026 regulation discussions.",
+        ["EU", "BIS"],
+        indications=["Frontier"],
+        category="Regulation",
+        plain="A government rule that says 'AI models trained with more than X compute have to follow extra rules' — used as a proxy for capability.",
+    ),
+    entry(
+        "Foundry Subsidy", "",
+        "Government grants or tax credits supporting domestic semiconductor manufacturing — CHIPS Act, EU Chips Act, Japan METI funding, and others.",
+        "Modern semiconductor manufacturing is too capital-intensive for unsubsidised greenfield builds in most jurisdictions. The US CHIPS Act ($52B), EU Chips Act ($45B), Japan's METI funding ($25B+), and similar programmes across India, Korea, and elsewhere all subsidise foundry capacity. The competitive landscape between subsidies is itself a geopolitical dimension: which countries get TSMC's next fab depends in part on subsidy size.",
+        ["US Congress", "EU"],
+        indications=["Manufacturing"],
+        category="Regulation",
+        plain="Government money handed to chip-makers to encourage them to build factories in a particular country.",
+    ),
+]
+
+
+# ============================================================================
 # BATCH 43 — Alignment, safety & interpretability (2026 frontier)
 # ============================================================================
 
@@ -8277,6 +8402,7 @@ BATCHES = {
     41: BATCH_FRONTIER_AGENTS,
     42: BATCH_FRONTIER_EVAL,
     43: BATCH_FRONTIER_SAFETY,
+    44: BATCH_FRONTIER_POLICY,
 }
 
 
