@@ -6473,6 +6473,149 @@ BATCH_FRONTIER_MFG = [
 
 
 # ============================================================================
+# BATCH 39 — Frontier model families (2025-26 generation)
+# ============================================================================
+
+BATCH_FRONTIER_MODELS = [
+    entry(
+        "DeepSeek V3", "",
+        "DeepSeek's 671B-parameter MoE flagship — 37B active per token, MIT-licensed, training cost reportedly under $6M of compute.",
+        "Released December 2024. Used Multi-head Latent Attention, Mixture of Experts with auxiliary-loss-free routing, FP8 training, and Multi-Token Prediction. The reported sub-$6M training cost shook the industry's assumptions about frontier-model economics and triggered a re-rating of NVIDIA stock in January 2025. Parent architecture for V3.2-Exp and the speculated V4. MIT-licensed weights set a new bar for open-frontier release.",
+        ["DeepSeek"],
+        indications=["NLP", "Frontier"],
+        category="Models",
+        plain="DeepSeek's flagship language model released in late 2024 — open-weight, MIT-licensed, and shockingly cheap to train.",
+    ),
+    entry(
+        "DeepSeek V3.2-Exp", "",
+        "Experimental DeepSeek release introducing DeepSeek Sparse Attention — same base as V3 with long-context efficiency rewritten.",
+        "Released September 2025. The 'Exp' suffix signals DeepSeek treating it as a public research preview of the DSA mechanism before V4 lands. Long-context inference cost falls dramatically versus V3 at 128k+ tokens. Adopted quickly into vLLM V1 and SGLang with FlashMLA / FlashInfer kernel support. Bridge to the V4 generation.",
+        ["DeepSeek"],
+        indications=["NLP", "Frontier"],
+        category="Models",
+        plain="A DeepSeek release between V3 and V4 that introduced a new way of handling long inputs cheaply.",
+    ),
+    entry(
+        "DeepSeek V4", "",
+        "DeepSeek's 2026 frontier-class open-weight release — extends V3's MoE architecture with 1M-token context and full DSA throughout.",
+        "Released early 2026. Larger parameter count than V3, with refined MoE routing, native DSA, and 1M-token context window. Continues the MIT-license open-weight pattern. Trained on multi-GW class compute, mostly NVIDIA hardware procured before the late-2025 chip-export tightening. Closes the open-versus-closed gap further: V4 matches or beats GPT-5 and Claude Opus 4.x on several public benchmarks.",
+        ["DeepSeek"],
+        indications=["NLP", "Frontier"],
+        category="Models",
+        plain="DeepSeek's 2026 flagship — open-weight, with the biggest context window in any open model and benchmarks competitive with closed frontier models.",
+    ),
+    entry(
+        "DeepSeek R1", "",
+        "DeepSeek's pure-RL reasoning model — first major open release matching o1-class performance at a fraction of the cost.",
+        "Released January 2025. R1 was trained primarily via RLVR (verifiable math and code rewards) starting from a DeepSeek V3 base, with no supervised fine-tuning step. The training recipe and weights were both open. R1 demonstrated that reasoning capability could be elicited via pure RL on a strong base, removing the perceived need for vast curated chain-of-thought supervision. Triggered the second wave of open reasoning models (QwQ, GLM reasoning, Llama reasoning).",
+        ["DeepSeek"],
+        indications=["NLP", "Frontier"],
+        category="Models",
+        plain="DeepSeek's open-weight reasoning model that matched OpenAI's o1 quality but cost a fraction as much to use.",
+    ),
+    entry(
+        "GLM-5", "",
+        "Z.AI's frontier open-weight model — 745B-parameter MoE, 44B active, MIT-licensed, uses DeepSeek Sparse Attention.",
+        "Released 2025 by Z.AI (formerly Zhipu AI). The flagship of the GLM family. 745B-parameter MoE with 44B active per token, MIT-licensed weights, native DSA throughout. Trained with GRPO-family RL methods. Competes head-to-head with DeepSeek V3 / V4 on benchmarks and shares similar deployment story (efficient long-context inference via DSA + MLA). One of the leading Chinese open-frontier model families.",
+        ["Z.AI"],
+        indications=["NLP", "Frontier"],
+        category="Models",
+        plain="Z.AI's flagship open-weight language model, one of the leading Chinese frontier models alongside DeepSeek and Qwen.",
+    ),
+    entry(
+        "Kimi K2", "",
+        "Moonshot AI's 1T-parameter MoE model — agentic-first design with Mixture of Block Attention for million-token context.",
+        "Released 2025 by Moonshot. K2 differentiates by targeting agent workloads from the start — long tool-use traces, structured outputs, and very long context where MoBA shines. 1T total parameters with sparse activation. Native tool-calling fluency above most contemporary releases. The flagship of Moonshot's pivot from chat-app branding (the Kimi consumer product) to frontier-model serious-research positioning.",
+        ["Moonshot AI"],
+        indications=["NLP", "Frontier"],
+        category="Models",
+        plain="Moonshot AI's flagship model, built especially for AI agents that use tools and handle very long inputs.",
+    ),
+    entry(
+        "Qwen3", "",
+        "Alibaba's 2025 frontier open-weight model family — 235B-A22B flagship under Apache 2.0, plus a wide range of smaller variants.",
+        "Released 2025 by Alibaba. Family spans 0.6B to 235B-active parameters with multiple dense and MoE variants. Apache-2.0 licensed (looser than DeepSeek's MIT, but practically equivalent for most users). Strong multilingual coverage including non-English Asian languages where Western models often lag. The volume choice for open-weight agent infrastructure in Asia and increasingly globally.",
+        ["Alibaba"],
+        indications=["NLP", "Frontier"],
+        category="Models",
+        plain="Alibaba's 2025 family of open-weight AI models, very strong across many languages and the most-used open base in Asia.",
+    ),
+    entry(
+        "Llama 4", "",
+        "Meta's 2025-26 multimodal MoE generation — open-weight, integrates text, vision, and audio understanding natively.",
+        "Released 2025 by Meta AI. First Llama generation built natively multimodal rather than text-with-bolt-on-vision. Mixture-of-experts architecture across multiple size points (Behemoth, Maverick, Scout). Open weights under Meta's permissive Llama license. Trained on the Prometheus cluster. The reference open-weight Western family, even as Chinese open-weight models (DeepSeek, GLM, Qwen) match or exceed it on many benchmarks.",
+        ["Meta AI"],
+        indications=["Multimodal", "Frontier"],
+        category="Models",
+        plain="Meta's 2025-26 family of open AI models, built from the ground up to handle text, images, and audio together.",
+    ),
+    entry(
+        "GPT-5", "",
+        "OpenAI's 2025 flagship — first to make reasoning a default mode rather than an opt-in API surface, with extended reasoning available on demand.",
+        "Released 2025 by OpenAI. Single model surface that routes between fast and reasoning modes automatically rather than exposing separate o-series and chat-series endpoints. Multimodal across text, image, voice. Sets the consumer-facing ChatGPT experience and the API for enterprise. Distinct from the o-series (o3, o4-mini, o5) which remain available as specifically reasoning-tuned endpoints. The flagship most discussion of 'frontier model quality' currently anchors on.",
+        ["OpenAI"],
+        indications=["NLP", "Multimodal", "Frontier"],
+        category="Models",
+        plain="OpenAI's 2025 flagship AI model, the next generation after GPT-4 — the one that powers most of ChatGPT and the OpenAI API.",
+    ),
+    entry(
+        "o4-mini", "",
+        "OpenAI smaller reasoning model — successor to o3-mini, optimised for cost-effective long-CoT inference.",
+        "Released 2025. Targets the same niche o3-mini held: high-quality reasoning at much lower cost-per-token than the flagship o3 or o5. Heavily used in agent loops and code-generation pipelines where the per-step cost matters more than the absolute quality ceiling. Supports adjustable thinking budgets so callers can trade off cost and depth on demand.",
+        ["OpenAI"],
+        indications=["NLP", "Frontier"],
+        category="Models",
+        plain="A smaller, cheaper version of OpenAI's reasoning model line, useful for agents and code tools that need many cheap reasoning steps.",
+    ),
+    entry(
+        "Claude Opus 4", "",
+        "Anthropic's 2025 frontier flagship — extended thinking, agentic coding strength, and the most capable Claude generation through most of 2025.",
+        "Released 2025. The largest Anthropic model with full extended-thinking capability and the strongest agentic coding evaluations (SWE-bench Verified, code-execution benchmarks). Powers Claude.ai's Opus mode and the API's claude-opus-4 endpoint. Successor to Claude 3.5 Opus / 3.7 Sonnet line. Predecessor to Opus 4.5 and the 4.x point releases that incrementally improved capability and cost through 2025-26.",
+        ["Anthropic"],
+        indications=["NLP", "Frontier"],
+        category="Models",
+        plain="Anthropic's most capable Claude model in 2025, especially good at long thinking and writing code.",
+    ),
+    entry(
+        "Gemini 3 Pro", "",
+        "Google's 2025 flagship multimodal model — extended thinking, 2M-token context, deeply integrated with Workspace and Google's product surface.",
+        "Released 2025 by Google DeepMind. Successor to Gemini 2.5 Pro. Native multimodality across text, vision, audio, video; longest-context model from any major lab (2M tokens default). Powers Workspace AI features (Docs, Gmail, Sheets), AI Mode in Google Search, and the Gemini.com consumer experience. Reasoning depth competitive with GPT-5 and Claude Opus 4 on most public benchmarks.",
+        ["Google DeepMind"],
+        indications=["Multimodal", "Frontier"],
+        category="Models",
+        plain="Google's 2025 flagship AI model, with the longest context window of any major model and deep integration into Google products.",
+    ),
+    entry(
+        "Grok 4", "",
+        "xAI's 2025 flagship — trained on the Colossus Memphis cluster, paired with a distinctive personality and real-time X data integration.",
+        "Released 2025. Trained on Colossus phase 1, the 100k-GPU H100 cluster xAI built in record time. Differentiates on personality (more direct, less corporate than peers), real-time access to X/Twitter feeds, and Tesla / SpaceX integration via xAI's broader Musk-ecosystem position. Benchmark performance competitive on math and reasoning while typically trailing Claude Opus 4 / GPT-5 on coding and complex agentic tasks.",
+        ["xAI"],
+        indications=["NLP", "Frontier"],
+        category="Models",
+        plain="xAI's 2025 flagship AI model, trained on the giant Memphis cluster and known for a more direct personality than its rivals.",
+    ),
+    entry(
+        "MiniMax M1", "",
+        "MiniMax's 2025 long-context flagship — lightning-attention architecture enables million-token context at competitive cost.",
+        "Released 2025 by Chinese AI lab MiniMax. Uses a hybrid lightning-attention / standard-attention architecture to push context to 1M tokens while keeping training and inference cost manageable. Open-weight release. One of the strongest non-DeepSeek / non-Qwen Chinese open-frontier alternatives. Popular for long-document analysis, codebase reasoning, and other context-heavy use cases.",
+        ["MiniMax"],
+        indications=["NLP", "Frontier"],
+        category="Models",
+        plain="MiniMax's 2025 model that handles million-token inputs at much lower cost than typical large-context models.",
+    ),
+    entry(
+        "GPT-OSS", "",
+        "OpenAI's open-weight model release line — strategic move to participate in the open-weight ecosystem alongside its closed flagships.",
+        "Released 2025. OpenAI's first open-weight release since GPT-2 in 2019. Aimed at the developer-facing market that increasingly defaults to DeepSeek, Qwen, and Llama. The model architecture and training details are partially disclosed. Capability sits below the closed GPT-5 flagship but above older open releases. Distributed under a permissive licence that allows commercial use.",
+        ["OpenAI"],
+        indications=["NLP"],
+        category="Models",
+        plain="OpenAI's open-weight model release, their first since GPT-2 — a strategic move into the open-weight market.",
+    ),
+]
+
+
+# ============================================================================
 # BATCH 38 — Frontier training innovations (precision + post-training RL)
 # ============================================================================
 
@@ -7548,6 +7691,7 @@ BATCHES = {
     36: BATCH_FRONTIER_ATTN,
     37: BATCH_FRONTIER_INF,
     38: BATCH_FRONTIER_TRAIN,
+    39: BATCH_FRONTIER_MODELS,
 }
 
 
