@@ -46,6 +46,21 @@
   },
   {
     "letter": "A",
+    "term": "Abbott",
+    "full": "",
+    "plain": "A big healthcare company focused on medical tests and devices, which spun off its branded-drug business as AbbVie.",
+    "snappy": "A *diagnostics and devices powerhouse* — the parent that spun off its branded-drug arm as AbbVie while keeping tests, monitors, and generics.",
+    "detail": "Abbott is a broad healthcare company spanning diagnostics, medical devices, nutrition, and established medicines; it created AbbVie in 2013 by spinning off its research-based branded-drug business. Today it is best known for diagnostic testing and for continuous Glucose monitors used in diabetes care. You'll hear Abbott in diagnostics and device coverage, and paired with AbbVie when the two companies' split is explained.",
+    "indications": [
+      "General"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "AbbVie",
     "full": "",
     "plain": "The drug company behind Humira, now built around its successor immunology drugs Skyrizi and Rinvoq.",
@@ -179,6 +194,22 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A guided missile for cancer — a homing molecule that finds tumor cells and delivers a toxic payload straight to them."
+  },
+  {
+    "letter": "A",
+    "term": "Adderall",
+    "full": "",
+    "plain": "A widely prescribed brand of stimulant medicine used to treat ADHD by improving attention and reducing impulsiveness.",
+    "snappy": "An *amphetamine-based ADHD stimulant* — a widely prescribed brand for improving attention, and a frequent shortage headline.",
+    "detail": "Adderall is a brand of mixed amphetamine salts, a stimulant prescribed for ADHD that raises dopamine and norepinephrine signaling to sharpen focus and curb impulsivity. A controlled substance, it has been at the center of supply shortages and misuse concerns. You'll hear Adderall beside Ritalin in any discussion of stimulant therapy for attention disorders.",
+    "indications": [
+      "Mental Health"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NIH NIMH"
+    ]
   },
   {
     "letter": "A",
@@ -700,6 +731,22 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A cell's built-in self-destruct button — the body uses it to clear out damaged cells, and cancer often disables it."
+  },
+  {
+    "letter": "A",
+    "term": "ARB",
+    "full": "Angiotensin Receptor Blocker",
+    "plain": "A type of blood-pressure medicine that blocks the hormone signal making blood vessels tighten, so they relax instead.",
+    "snappy": "A *blood-pressure pill* that blocks the hormone signal telling vessels to tighten — cousin to the ACE Inhibitor but gentler on side effects.",
+    "detail": "An ARB lowers blood pressure by blocking the receptor that the hormone angiotensin uses to constrict blood vessels, relaxing them so pressure falls. It is a mainstay for Hypertension and Heart Failure, often chosen over an ACE Inhibitor because it rarely causes the nagging dry cough. Diovan is a well-known example. You'll hear ARB whenever clinicians weigh first-line options for high blood pressure or protecting the kidneys and heart.",
+    "indications": [
+      "Cardiovascular"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "FDA",
+      "NIH"
+    ]
   },
   {
     "letter": "A",
@@ -1778,6 +1825,39 @@
   },
   {
     "letter": "C",
+    "term": "CFTR",
+    "full": "Cystic Fibrosis Transmembrane Conductance Regulator",
+    "plain": "The faulty protein channel behind cystic fibrosis; modern drugs treat the disease by fixing how this protein works.",
+    "snappy": "The *broken salt gate* of cystic fibrosis — the faulty channel protein that a generation of breakthrough drugs now props open.",
+    "detail": "CFTR is the protein channel that moves chloride and water across cell surfaces; mutations in its gene cause Cystic Fibrosis, leaving thick mucus to clog the lungs and gut. Modulator drugs from Vertex correct or stabilize the faulty CFTR protein, treating the disease at its root rather than just its symptoms — a landmark in precision medicine. You'll hear CFTR whenever cystic fibrosis or its transformative modulator therapies are discussed.",
+    "indications": [
+      "Rare Disease",
+      "Respiratory"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "NIH",
+      "FDA"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "CGRP",
+    "full": "Calcitonin Gene-Related Peptide",
+    "plain": "A natural body chemical involved in migraine pain; a new group of migraine drugs works by blocking it.",
+    "snappy": "The *migraine messenger* — a peptide that dilates blood vessels and fans pain signals, now the target of a new drug class.",
+    "detail": "CGRP is a peptide released during a Migraine attack that widens blood vessels and amplifies pain transmission. A wave of modern migraine drugs works by blocking CGRP or its receptor, either to stop attacks as they start or to prevent them, marking the first migraine-specific preventive class. You'll hear CGRP at the heart of every discussion of the newer migraine treatments and how they differ from the old repurposed remedies.",
+    "indications": [
+      "Neurology"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "NIH",
+      "NIH MedlinePlus"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Checkpoint Inhibitor",
     "full": "",
     "snappy": "A class of cancer drugs that releases the immune system's brakes — letting your own T-cells recognize and attack tumors that have been hiding.",
@@ -2356,6 +2436,21 @@
   },
   {
     "letter": "C",
+    "term": "Crestor",
+    "full": "",
+    "plain": "A widely used brand of cholesterol medicine, one of the strongest statins, that lowers bad cholesterol.",
+    "snappy": "A *high-potency cholesterol pill* — the brand of rosuvastatin, one of the strongest statins.",
+    "detail": "Crestor is the brand of rosuvastatin, a Statin that lowers LDL Cholesterol and is among the most potent in the class. It is prescribed to bring a high Lipid level down and reduce cardiovascular risk. You'll hear Crestor alongside Lipitor as a familiar branded statin in cholesterol-lowering discussions.",
+    "indications": [
+      "Cardiovascular"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "CRISPR",
     "full": "",
     "snappy": "A precision gene-editing tool — molecular scissors that can cut, replace, or silence specific stretches of DNA — and the foundation of a new wave of therapies.",
@@ -2588,6 +2683,21 @@
   },
   {
     "letter": "D",
+    "term": "Diovan",
+    "full": "",
+    "plain": "A well-known brand of blood-pressure medicine in the ARB class, used as an alternative when an ACE inhibitor causes a cough.",
+    "snappy": "A *blood-pressure brand* of valsartan — one of the best-known examples of the ARB class.",
+    "detail": "Diovan is the brand of valsartan, an ARB that lowers blood pressure by blocking the angiotensin receptor that constricts blood vessels. It is used for Hypertension and Heart Failure, and is often reached for when an ACE Inhibitor causes a cough. You'll hear Diovan as a familiar reference point for the angiotensin-receptor-blocker class.",
+    "indications": [
+      "Cardiovascular"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "DIPG",
     "full": "Diffuse Intrinsic Pontine Glioma",
     "snappy": "A devastating childhood brain tumor that grows in a part of the brainstem too critical for surgery — historically nearly always fatal.",
@@ -2725,6 +2835,22 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "The body's spell-checker for DNA — when it breaks, errors pile up and cancer risk climbs."
+  },
+  {
+    "letter": "D",
+    "term": "DOAC",
+    "full": "Direct Oral Anticoagulant",
+    "plain": "A newer kind of blood thinner taken as a pill that works at a fixed dose without the regular blood tests older ones needed.",
+    "snappy": "The *modern blood thinner* — a pill that blocks a single clotting factor directly, needing no routine blood-test monitoring.",
+    "detail": "A DOAC is an Anticoagulant taken by mouth that targets one specific clotting factor, unlike the older warfarin that needs constant dose-tuning and diet care. Eliquis is a leading example. DOACs are first-line for preventing Stroke in Atrial Fibrillation and for treating clots, prized because they work at a fixed dose without routine monitoring. You'll hear DOAC whenever clinicians discuss long-term clot prevention and the move away from warfarin.",
+    "indications": [
+      "Cardiovascular"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "FDA",
+      "NIH"
+    ]
   },
   {
     "letter": "D",
@@ -3269,6 +3395,21 @@
   },
   {
     "letter": "E",
+    "term": "Eylea",
+    "full": "",
+    "plain": "An eye-injection medicine from Regeneron that protects vision by blocking the abnormal blood-vessel growth behind some retinal diseases.",
+    "snappy": "Regeneron's *eye-injection blockbuster* — an anti-VEGF drug that preserves sight in macular degeneration and diabetic eye disease.",
+    "detail": "Eylea is Regeneron's injectable VEGF blocker for retinal diseases including wet age-related macular degeneration and diabetic eye disease. By choking off the abnormal, leaky blood-vessel growth that VEGF drives, it protects vision, delivered as an injection into the eye. You'll hear Eylea as a cornerstone of retinal medicine and a major Regeneron franchise facing biosimilar competition.",
+    "indications": [
+      "Ophthalmology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "EZH2",
     "full": "",
     "snappy": "An enzyme that controls which genes get turned on or off — when mutated, it scrambles cellular instructions and helps drive certain blood cancers.",
@@ -3513,6 +3654,21 @@
   },
   {
     "letter": "F",
+    "term": "Foundation Medicine",
+    "full": "",
+    "plain": "A company that reads the full set of gene changes in a patient's tumor to help match them to the right targeted cancer drug.",
+    "snappy": "A *tumor-profiling specialist* — the diagnostics company that reads a cancer's full genetic fingerprint to guide targeted treatment.",
+    "detail": "Foundation Medicine is a molecular-diagnostics company that runs comprehensive NGS genomic profiling of tumors, scanning hundreds of cancer-linked genes from tissue or, via Liquid Biopsy, from blood. Its reports act as a Companion Diagnostic, matching patients to targeted therapies and trials. Now part of the Roche group, it is a reference name in precision oncology testing. You'll hear Foundation Medicine wherever tumor genomic profiling guides which targeted drug a patient should receive.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Diagnostics",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "F",
     "term": "Fusion Gene",
     "full": "",
     "snappy": "A hybrid gene formed when two normally separate genes accidentally join together — often producing an abnormal protein that drives cancer.",
@@ -3525,6 +3681,22 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A hybrid gene formed when two normally separate genes accidentally join together, often making an abnormal protein that drives cancer."
+  },
+  {
+    "letter": "G",
+    "term": "GABA",
+    "full": "Gamma-Aminobutyric Acid",
+    "plain": "The brain's main calming chemical, which quiets nerve signals; many anti-anxiety and anti-seizure drugs work by boosting it.",
+    "snappy": "The brain's *main brake pedal* — the calming neurotransmitter that quiets nerve signals to ease anxiety and seizures.",
+    "detail": "GABA is the chief inhibitory neurotransmitter in the brain: where excitatory signals speed things up, GABA dampens them down, producing calm. Many drugs work by boosting its effect, which is why GABA sits at the center of treatments for Anxiety Disorder, seizures, and sleep. Too little GABA activity leaves the brain over-excited. You'll hear GABA whenever the mechanism of a sedative, anti-seizure, or anti-anxiety medicine is explained.",
+    "indications": [
+      "Neurology"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "NIH",
+      "NIH MedlinePlus"
+    ]
   },
   {
     "letter": "G",
@@ -3607,6 +3779,21 @@
   },
   {
     "letter": "G",
+    "term": "Genentech",
+    "full": "",
+    "plain": "A pioneering biotech company, now part of Roche, known for inventing modern protein drugs and many cancer treatments.",
+    "snappy": "The *biotech pioneer* — the company that helped invent the industry, now the US arm of Roche behind a string of cancer blockbusters.",
+    "detail": "Genentech is the founding biotechnology company, credited with launching the recombinant-protein drug era and now operating as a member of the Roche group. Its oncology and immunology franchise includes drugs spanning antibody and targeted therapies, and it co-developed the BCL2 inhibitor Venetoclax. It remains a benchmark for science-led drug discovery. You'll hear Genentech in any history of biotech and in current oncology and immunology launches under the Roche umbrella.",
+    "indications": [
+      "General"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "G",
     "term": "Generic Drug",
     "full": "",
     "snappy": "A copy of a brand-name pill containing the same active ingredient — sold at much lower prices once the original patent expires.",
@@ -3662,6 +3849,22 @@
     ],
     "category": "Commercial / Market Access",
     "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "G",
+    "term": "GIP",
+    "full": "Glucose-Dependent Insulinotropic Polypeptide",
+    "plain": "A gut hormone that helps release insulin after eating; the newest weight and diabetes drugs switch it on alongside GLP-1.",
+    "snappy": "The *second gut hormone* — the incretin partner to GLP-1 that newer dual-action metabolic drugs switch on as well.",
+    "detail": "GIP is a gut hormone, an incretin, that helps trigger insulin release after eating. Long overshadowed by GLP-1, it returned to the spotlight when dual agonists that activate both pathways at once, such as the molecule behind Mounjaro and Zepbound, posted strong results for Type 2 Diabetes and Obesity. The two hormones together appear to do more than either alone. You'll hear GIP whenever the next generation of incretin and weight-loss drugs is described as going beyond the GLP-1 Agonist.",
+    "indications": [
+      "Metabolic"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "NIH",
       "FDA"
     ]
   },
@@ -3868,6 +4071,22 @@
     "plain": "The gap between a drug's sticker price and what the maker actually pockets after all the rebates and discounts come off."
   },
   {
+    "letter": "G",
+    "term": "GSK",
+    "full": "GlaxoSmithKline",
+    "plain": "A large British drug company best known for asthma inhalers, vaccines, and HIV medicines.",
+    "snappy": "A *British pharma giant* with deep roots in respiratory medicine, vaccines, and HIV.",
+    "detail": "GSK is one of the largest UK-based pharmaceutical companies, historically strongest in respiratory care — its Asthma and COPD inhalers built on the LABA class — plus vaccines and HIV therapies. It spun off its consumer-health arm to sharpen focus on prescription medicines and Vaccine science. You'll hear GSK in respiratory, vaccine, and infectious-disease contexts, and in UK pharma-industry coverage.",
+    "indications": [
+      "General"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA",
+      "EMA"
+    ]
+  },
+  {
     "letter": "H",
     "term": "Half-life",
     "full": "",
@@ -3988,6 +4207,21 @@
       "NIH MedlinePlus"
     ],
     "plain": "When the heart gets too weak or stiff to pump enough blood for the body — different from a heart attack, and now manageable for years."
+  },
+  {
+    "letter": "H",
+    "term": "HEDIS",
+    "full": "Healthcare Effectiveness Data and Information Set",
+    "plain": "A standard set of measures used to score how well health insurance plans manage their members' care.",
+    "snappy": "The *health-plan report card* — a standard set of quality measures used to score how well insurers manage care.",
+    "detail": "HEDIS is a widely used set of standardized performance measures that lets payers and employers compare how well health plans deliver care — tracking things like cancer screening rates or how many diabetic members keep their A1C in range. Because the measures are uniform, plans can be ranked against one another, and the scores feed Medicare Star Ratings and quality bonuses. You'll hear HEDIS whenever health-plan quality, value-based incentives, or payer report cards are discussed.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "CMS Glossary"
+    ]
   },
   {
     "letter": "H",
@@ -4148,6 +4382,21 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "Faulty genes passed down through families that make certain cancers far more likely — and often strike at younger ages."
+  },
+  {
+    "letter": "H",
+    "term": "HIF",
+    "full": "Hypoxia-Inducible Factor",
+    "plain": "A protein that switches on inside cells when oxygen is low, turning on survival genes; tumors exploit it to keep growing.",
+    "snappy": "The cell's *low-oxygen alarm* — a switch that flips on survival and blood-vessel growth genes when oxygen runs short.",
+    "detail": "HIF is a protein the cell builds up under low-oxygen Hypoxia, switching on genes that boost blood-vessel growth and energy salvage. Tumors hijack it to survive in poorly oxygenated cores, which makes the HIF pathway a cancer drug target — notably in Kidney Cancer linked to the VHL gene, whose loss leaves HIF stuck on. You'll hear HIF in oncology mechanism talks and in the science of how cells, and tumors, cope when starved of oxygen.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "H",
@@ -5228,6 +5477,22 @@
   },
   {
     "letter": "L",
+    "term": "LABA",
+    "full": "Long-Acting Beta Agonist",
+    "plain": "An inhaled medicine that relaxes the muscles around your airways to keep them open for many hours, used for asthma and COPD.",
+    "snappy": "The *all-day airway opener* — an inhaled drug that relaxes tightened airway muscles for many hours at a stretch.",
+    "detail": "A LABA relaxes the muscle around the airways to keep them open, delivering steady bronchodilation across many hours. It is a cornerstone of Asthma and COPD control, almost always paired with an inhaled steroid rather than used alone, because solo LABA use in asthma carries safety warnings. GSK and others build their respiratory franchises on it. You'll hear LABA in every discussion of maintenance inhalers and combination respiratory therapy.",
+    "indications": [
+      "Respiratory"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "FDA",
+      "NIH"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Label",
     "full": "Drug Label",
     "snappy": "The official document that tells doctors how to prescribe a drug — covering its approved indications, dosing, warnings, and known side effects.",
@@ -5320,6 +5585,21 @@
   },
   {
     "letter": "L",
+    "term": "Leqembi",
+    "full": "",
+    "plain": "An Alzheimer's Disease drug from Biogen and Eisai that clears a harmful brain protein to slow the disease in its early stages.",
+    "snappy": "An *Alzheimer's antibody* from Biogen and Eisai that clears amyloid plaque to slow early disease — the successor to Aduhelm.",
+    "detail": "Leqembi is an antibody drug for early Alzheimer's Disease, co-developed by Biogen and Eisai, that binds and clears the amyloid protein clumps in the brain to slow cognitive decline. It followed the controversial Aduhelm and carries similar requirements for MRI monitoring of brain swelling. You'll hear Leqembi in every discussion of amyloid-targeting Alzheimer's therapy and the debate over their real-world benefit.",
+    "indications": [
+      "Neurology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Leqvio",
     "full": "Inclisiran",
     "plain": "A cholesterol drug given just twice a year that silences a gene to keep 'bad' cholesterol low — a new way to take heart medicine.",
@@ -5397,6 +5677,21 @@
   },
   {
     "letter": "L",
+    "term": "Lipitor",
+    "full": "",
+    "plain": "Pfizer's hugely popular cholesterol pill, once the best-selling drug ever, whose sales crashed when its patent expired.",
+    "snappy": "The *best-selling drug in history* — Pfizer's brand of atorvastatin, the cholesterol pill that defined the Statin era.",
+    "detail": "Lipitor is Pfizer's brand of atorvastatin, a Statin that lowers LDL Cholesterol and once stood as the highest-grossing medicine ever sold. Its Loss of Exclusivity became the textbook Patent Cliff, with sales collapsing as generic atorvastatin arrived. You'll hear Lipitor cited both as the archetypal blockbuster and as the classic example of what happens when a giant drug loses its patent.",
+    "indications": [
+      "Cardiovascular"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Liquid Biopsy",
     "full": "",
     "snappy": "A blood test that detects fragments of tumor DNA — letting doctors track cancer or spot mutations without an invasive tissue biopsy.",
@@ -5440,6 +5735,21 @@
       "FDA"
     ],
     "plain": "An extra-large first dose to get the drug working quickly, followed by smaller regular doses to keep it going."
+  },
+  {
+    "letter": "L",
+    "term": "LOE",
+    "full": "Loss of Exclusivity",
+    "plain": "The point when a drug's patents expire and cheaper copies can be sold, usually causing its sales to crash.",
+    "snappy": "The *patent cliff moment* — when a drug's protection lapses and cheaper copies are free to flood in.",
+    "detail": "LOE is the industry's tag for Loss of Exclusivity: the date a brand's patents and regulatory protections expire, opening the door to a Generic or Biosimilar and triggering the revenue collapse known as the Patent Cliff. Companies brace for an LOE years ahead, defending it with new formulations and pipeline launches to replace the lost sales. A blockbuster's LOE can erase most of its revenue within a year. You'll hear LOE in every earnings call and forecast where a top-selling drug's protection is about to run out.",
+    "indications": [
+      "General"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "L",
@@ -6014,6 +6324,21 @@
   },
   {
     "letter": "M",
+    "term": "MHRA",
+    "full": "Medicines and Healthcare products Regulatory Agency",
+    "plain": "The United Kingdom's agency that approves medicines and collects reports of their side effects, similar to the US FDA.",
+    "snappy": "*Britain's drug regulator* — the UK body that approves medicines and runs the Yellow Card safety-reporting scheme.",
+    "detail": "The MHRA is the United Kingdom's regulator for medicines and medical devices, the rough counterpart to the FDA in the US and the EMA in Europe. It grants marketing approvals, inspects manufacturing, and gathers safety signals through its Yellow Card scheme for reporting an Adverse Event. Since Brexit it sets UK approvals independently of the EMA. You'll hear MHRA in any discussion of UK drug approval, safety monitoring, or post-Brexit regulatory divergence.",
+    "indications": [
+      "General"
+    ],
+    "category": "Regulatory",
+    "sources": [
+      "EMA"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Microbiome",
     "full": "",
     "snappy": "The trillions of bacteria, fungi, and viruses living in and on your body — increasingly recognized as a factor in how well drugs work, especially immunotherapy.",
@@ -6582,6 +6907,21 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A shortage of the white blood cells that fight infection, usually caused by chemo, leaving patients open to dangerous bugs."
+  },
+  {
+    "letter": "N",
+    "term": "Nexium",
+    "full": "",
+    "plain": "A popular brand of heartburn medicine that reduces stomach acid to treat acid reflux.",
+    "snappy": "The *purple pill* — a proton-pump inhibitor brand for heartburn and acid reflux.",
+    "detail": "Nexium is the brand of esomeprazole, a proton-pump inhibitor that cuts stomach acid production to treat acid reflux and ulcers. Famous for its marketing as 'the purple pill,' it is also a classic case study in lifecycle management, having launched as a single-isomer follow-on to an older acid drug nearing its Loss of Exclusivity. You'll hear Nexium in heartburn treatment and in business-school discussions of brand-extension strategy.",
+    "indications": [
+      "Gastroenterology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "N",
@@ -7838,6 +8178,21 @@
   },
   {
     "letter": "P",
+    "term": "PK",
+    "full": "Pharmacokinetics",
+    "plain": "A short way of saying how the body absorbs, spreads, and gets rid of a drug over time.",
+    "snappy": "*What the body does to a drug* — how fast it is absorbed, where it spreads, and how quickly it is cleared.",
+    "detail": "PK is shorthand for Pharmacokinetics, the study of a drug's journey through the body: absorption, distribution, metabolism, and excretion. It is the half of the PK/PD pairing that tracks concentration over time — the peak (Cmax), the exposure, the Half-Life — while pharmacodynamics tracks the effect. Modelers use PK to choose doses and predict how often a drug must be taken. You'll hear PK in early-phase trial readouts and on every label discussion of how a medicine moves through the body.",
+    "indications": [
+      "General"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "PK/PD",
     "full": "Pharmacokinetics/Pharmacodynamics",
     "snappy": "Pharmacokinetics is what your body does to the drug; pharmacodynamics is what the drug does to your body — together they predict how a treatment will behave.",
@@ -7924,6 +8279,21 @@
     "category": "Health Systems & Payers",
     "sources": [
       "CMS Glossary"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Praluent",
+    "full": "",
+    "plain": "An injectable cholesterol drug used when a statin isn't enough to bring a patient's bad cholesterol down.",
+    "snappy": "A *cholesterol-crushing antibody* — a PCSK9 inhibitor for patients whose LDL stays high despite a statin.",
+    "detail": "Praluent is an injectable PCSK9 inhibitor that sharply lowers LDL cholesterol, used when a Statin alone cannot bring a high Lipid level under control or is not tolerated. It belongs to the same antibody class as the rival Repatha. You'll hear Praluent in discussions of aggressive cholesterol lowering for high-risk cardiovascular patients.",
+    "indications": [
+      "Cardiovascular"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
     ]
   },
   {
@@ -8695,6 +9065,22 @@
   },
   {
     "letter": "R",
+    "term": "Ritalin",
+    "full": "",
+    "plain": "A long-established brand of stimulant medicine used to treat ADHD by improving focus and reducing impulsiveness.",
+    "snappy": "A *classic ADHD stimulant* — the brand of methylphenidate that sharpens focus by raising dopamine signaling.",
+    "detail": "Ritalin is a brand of methylphenidate, a stimulant used to treat ADHD by boosting dopamine and norepinephrine activity in the brain, which improves attention and impulse control. A controlled substance, it is one of the longest-established ADHD medicines. You'll hear Ritalin alongside Adderall whenever stimulant treatment for attention disorders is discussed.",
+    "indications": [
+      "Mental Health"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NIH NIMH"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "RNA",
     "full": "Ribonucleic Acid",
     "snappy": "The molecular messenger that carries genetic instructions from DNA to make proteins — and the basis for a new wave of vaccines and therapies.",
@@ -8817,6 +9203,21 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A broad family of cancers that start in connective tissues like bone, muscle, or fat, rather than in glands or skin."
+  },
+  {
+    "letter": "S",
+    "term": "SBRT",
+    "full": "Stereotactic Body Radiation Therapy",
+    "plain": "A precise form of radiation treatment that hits a tumor with a few high doses while protecting the healthy tissue nearby.",
+    "snappy": "*Pinpoint radiation* — a handful of very high, precisely aimed doses that hit a tumor while sparing the tissue around it.",
+    "detail": "SBRT delivers Radiation Therapy in a few intense, tightly targeted sessions, using precise imaging and beam shaping to concentrate the dose on a small tumor and spare healthy tissue. It builds on the shaping ideas of IMRT but trades many small daily doses for a few large ones, and is common for early lung tumors and oligometastatic disease. You'll hear SBRT in oncology treatment planning whenever radiation is delivered in a short, high-precision course.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "S",
@@ -9066,6 +9467,22 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "The aggressive flavour of lung cancer, tightly tied to smoking, that grows fast and has long resisted anything beyond chemotherapy."
+  },
+  {
+    "letter": "S",
+    "term": "SNRI",
+    "full": "Serotonin-Norepinephrine Reuptake Inhibitor",
+    "plain": "A type of antidepressant that raises two mood-related brain chemicals at once, going a step beyond the common SSRI.",
+    "snappy": "A *dual-action antidepressant* — it lifts two mood chemicals at once, broadening the reach of the older SSRI.",
+    "detail": "An SNRI blocks the reabsorption of both serotonin and norepinephrine, raising the levels of two neurotransmitters thought to govern mood and alertness — a step beyond the SSRI, which targets serotonin alone. It is prescribed for Major Depressive Disorder and Anxiety Disorder, and several SNRIs also treat certain chronic pain. You'll hear SNRI whenever clinicians weigh antidepressant options beyond the first-line SSRI.",
+    "indications": [
+      "Mental Health"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "FDA",
+      "NIH MedlinePlus"
+    ]
   },
   {
     "letter": "S",
@@ -9505,6 +9922,22 @@
   },
   {
     "letter": "T",
+    "term": "Takeda",
+    "full": "",
+    "plain": "Japan's largest drug company, focused on gut diseases, rare conditions, and cancer.",
+    "snappy": "Japan's *largest drugmaker* — a centuries-old company now built around gastroenterology, rare disease, and oncology.",
+    "detail": "Takeda is the biggest pharmaceutical company in Japan, with a global footprint sharpened by its acquisition of Shire. Its franchises center on gastroenterology — including Inflammatory Bowel Disease and Ulcerative Colitis — rare disease, plasma-derived therapies, and oncology. You'll hear Takeda in gastroenterology and rare-disease contexts and as the leading name in Japanese pharma.",
+    "indications": [
+      "General"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA",
+      "EMA"
+    ]
+  },
+  {
+    "letter": "T",
     "term": "Targeted Therapy",
     "full": "",
     "snappy": "A drug designed to hit a specific molecular feature of cancer — a particular mutation, fusion, or overexpressed protein — sparing the healthy cells that lack the target.",
@@ -9532,6 +9965,21 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "The molecular antenna a T-cell uses to spot what's foreign or cancerous — now also being engineered in the lab as a cancer therapy."
+  },
+  {
+    "letter": "T",
+    "term": "TCR-T",
+    "full": "T-Cell Receptor Therapy",
+    "plain": "A treatment that reprograms a patient's immune T-cells to spot tumor targets hidden inside cancer cells, not just on the surface.",
+    "snappy": "*Reprogrammed T-cells* aimed at targets hidden inside tumor cells, reaching where surface-only therapies cannot.",
+    "detail": "TCR-T is a Cell Therapy that engineers a patient's T-cell with a new TCR so it recognizes tumor proteins displayed on the cell surface — including antigens hidden inside the cell, which CAR-T cannot reach. That broadens it toward solid tumors, though it depends on the patient's tissue type. You'll hear TCR-T alongside CAR-T and TIL as the engineered arms of adoptive cell therapy.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "T",
@@ -9668,6 +10116,21 @@
     "category": "Clinical",
     "sources": [
       "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "TIL",
+    "full": "Tumor-Infiltrating Lymphocyte",
+    "plain": "Immune cells taken from a patient's own tumor, multiplied in the lab, and given back to help attack the cancer.",
+    "snappy": "The patient's own *tumor-hunting immune cells* — harvested from a cancer, grown by the billions, and given back to fight it.",
+    "detail": "A TIL is an immune cell, usually a T-cell, that has already migrated into a tumor. In TIL therapy these cells are extracted, expanded into a vast army in the lab, and reinfused — a form of Cell Therapy distinct from CAR-T because the cells are not genetically engineered. Amtagvi was the first approved TIL product. You'll hear TIL in melanoma and solid-tumor immunotherapy, often alongside the engineered cousins CAR-T and TCR-T.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Mechanism",
+    "sources": [
       "NCI Dictionary of Cancer Terms"
     ]
   },
@@ -11071,6 +11534,21 @@
     "sources": [
       "FDA",
       "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "Z",
+    "term": "Zepbound",
+    "full": "",
+    "plain": "Eli Lilly's brand of a weight-loss injection; it is the same medicine sold as Mounjaro for diabetes.",
+    "snappy": "Eli Lilly's *weight-loss brand* of tirzepatide — the same dual GIP/GLP-1 molecule sold as Mounjaro, marketed for obesity.",
+    "detail": "Zepbound is Eli Lilly's brand of the dual GIP and GLP-1 Agonist molecule tirzepatide, approved for chronic weight management in Obesity; the identical molecule is sold as Mounjaro for Type 2 Diabetes. By switching on two incretin pathways at once it drives substantial weight loss. You'll hear Zepbound throughout the obesity-drug boom, usually beside its diabetes-branded twin Mounjaro.",
+    "indications": [
+      "Metabolic"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
     ]
   },
   {
