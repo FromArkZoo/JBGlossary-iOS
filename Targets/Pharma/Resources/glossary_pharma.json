@@ -107,6 +107,21 @@
   },
   {
     "letter": "A",
+    "term": "ACO",
+    "full": "Accountable Care Organization",
+    "plain": "A group of doctors and hospitals that together take responsibility for the cost and quality of a group of patients' care.",
+    "snappy": "A group of providers who share responsibility — and the savings or losses — for the total cost and quality of a patient population's care.",
+    "detail": "An ACO is a network of doctors and hospitals jointly accountable for a defined population; if they keep spending below a benchmark while hitting quality targets, they share the savings. A flagship Medicare value-based-care model. You'll hear ACO in any payment-reform or population-health discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "CMS Glossary"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Adaptive Trial Design",
     "full": "",
     "snappy": "A clinical trial that lets researchers change course mid-study — adjusting dose, dropping a treatment arm, or expanding enrollment — based on what early data shows.",
@@ -936,6 +951,21 @@
   },
   {
     "letter": "B",
+    "term": "Basic Reproduction Number",
+    "full": "R₀ (R-nought)",
+    "plain": "How many people, on average, one sick person infects when no one is immune. Above one means it spreads; below one means it dies out.",
+    "snappy": "*R₀* — the average number of people one infected person passes a disease to in a fully susceptible population. Above 1 it spreads; below 1 it fades.",
+    "detail": "Written R₀ and said 'R-nought,' it is contagion's headline statistic: measles sits near 15, seasonal flu near 1.3. It sets the herd immunity threshold — the share who must be immune to halt spread — and predicts whether an outbreak grows into an epidemic. Teams also track a real-time cousin, the effective reproduction number, to judge whether control measures are working.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "CDC"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "Batch Release",
     "full": "",
     "snappy": "The QC checkpoint where a batch of manufactured drug is tested against specs and formally cleared for shipment — or held back if anything is off.",
@@ -1430,6 +1460,21 @@
   },
   {
     "letter": "B",
+    "term": "Bundled Payment",
+    "full": "Episode-Based Payment",
+    "plain": "One payment that covers everything for a single treatment episode — like a knee replacement — instead of paying each provider on its own.",
+    "snappy": "A single payment covering everything involved in one episode of care — say a hip replacement — instead of paying each provider separately.",
+    "detail": "A bundled payment pays one lump sum for an entire care episode (surgery plus hospital stay plus rehab), making providers split a fixed budget and coordinate. It's a core value-based-care model alongside ACOs. You'll hear bundled payment in surgical and CMS payment-reform discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "CMS Glossary"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "Burkitt Lymphoma",
     "full": "",
     "snappy": "A very fast-growing blood cancer of B-cells — one of the most aggressive cancers known, but often curable with intensive chemo when caught early.",
@@ -1457,6 +1502,21 @@
     "sources": [
       "FDA",
       "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Capitation",
+    "full": "",
+    "plain": "Paying a doctor a fixed monthly amount per patient to cover all their care — so the incentive shifts from volume to efficiency.",
+    "snappy": "Paying a provider a fixed amount per patient per month to cover all their care — flipping the incentive from volume to efficiency.",
+    "detail": "Under capitation a provider receives a set per-member-per-month payment regardless of services used, bearing the financial risk if care costs more. It underpins many HMOs and value-based-care arrangements. You'll hear capitation in managed-care and risk-sharing discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "CMS Glossary"
     ]
   },
   {
@@ -1503,6 +1563,36 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "Cancer that begins in the cells lining your skin and organs — the bucket that covers most cancers you've ever heard of."
+  },
+  {
+    "letter": "C",
+    "term": "Case Fatality Rate",
+    "full": "CFR",
+    "plain": "Out of everyone diagnosed with a disease, the percentage who die from it. A measure of how deadly it is once you catch it.",
+    "snappy": "The share of *diagnosed cases* who die of a disease — how lethal it is once caught, distinct from population mortality.",
+    "detail": "Deaths divided by confirmed cases — Ebola's can top 50%, seasonal flu's stays well under 1%. It gauges severity but is slippery early in an outbreak, when uncounted mild cases make it look scarier than it is. Don't confuse it with the infection fatality rate, which counts everyone infected including the undiagnosed, or with overall mortality. Reported constantly during any epidemic.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "CDC"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Case-Control Study",
+    "full": "",
+    "plain": "A study that starts with people who already have a disease and looks back to find what might have caused it, versus people who don't.",
+    "snappy": "An observational study that starts *with the sick*, then looks backward for their exposures — fast and cheap for rare diseases.",
+    "detail": "Compares people who have a disease (cases) with similar people who don't (controls), looking back for differences in exposure. It's efficient for rare conditions where a cohort study would take decades, but prone to recall bias and confounding, and it gives odds ratios rather than direct risk. It helped tie smoking to lung cancer, and is a staple of epidemiology and pharmacovigilance signal work.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "NIH"
+    ]
   },
   {
     "letter": "C",
@@ -1750,6 +1840,21 @@
   },
   {
     "letter": "C",
+    "term": "Claims Data",
+    "full": "Administrative Data",
+    "plain": "The billing records insurers create for every paid service — a huge real-world dataset researchers use to study how medicine is really used.",
+    "snappy": "The billing records insurers generate for every paid service — a vast real-world dataset researchers mine for how medicine is actually used.",
+    "detail": "Because every reimbursed visit, test, and prescription creates a claim, claims data offers population-scale evidence on utilization, outcomes, and cost — a backbone of health economics and real-world evidence, despite gaps versus the clinical record. You'll hear claims data in HEOR and outcomes-research discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "ISPOR"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Clinical Trial",
     "full": "",
     "snappy": "A research study that tests whether a new drug, device, or treatment is safe and works — done in carefully controlled groups of volunteer patients.",
@@ -1901,6 +2006,36 @@
   },
   {
     "letter": "C",
+    "term": "Cohort Study",
+    "full": "",
+    "plain": "A study that follows a group of people over time to see who gets sick, comparing those exposed to something with those who weren't.",
+    "snappy": "An observational study that *follows a group forward in time*, comparing disease rates in the exposed and unexposed — epidemiology's workhorse.",
+    "detail": "Tracks a defined group into the future, watching who develops disease based on exposures like smoking or a drug. Because it measures incidence directly, it can compute relative risk — but it's slow and costly for rare outcomes, and must adjust for confounding. Contrast the case-control study, which works backward from disease. Landmark cohorts like Framingham shaped what we know about cardiovascular risk; it ranks below the randomized controlled trial in evidence.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "NIH"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Coinsurance",
+    "full": "",
+    "plain": "Your share of a medical bill as a percentage — like 20% — that you pay after meeting your deductible.",
+    "snappy": "Your share of a medical bill expressed as a percentage — say 20% — that you keep paying after meeting your deductible.",
+    "detail": "Coinsurance is percentage-based cost-sharing (e.g., the plan pays 80%, you pay 20%) that kicks in after the deductible and continues until the out-of-pocket maximum. It differs from a flat copay. You'll hear coinsurance in benefit-design and specialty-drug affordability discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "CMS Glossary"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Cold Chain",
     "full": "",
     "snappy": "An unbroken refrigeration network from factory to patient — required for biologics, vaccines, and cell therapies that lose potency the moment they warm up.",
@@ -1960,6 +2095,36 @@
       "FDA"
     ],
     "plain": "A pathway letting very sick patients try an unapproved drug when nothing else works and the gamble seems worth taking."
+  },
+  {
+    "letter": "C",
+    "term": "Confounding",
+    "full": "",
+    "plain": "When a hidden factor fools you into thinking one thing causes another. Like blaming coffee for a disease that's really caused by smoking.",
+    "snappy": "When a *hidden third factor* distorts an apparent link between cause and effect — the bane of every observational study.",
+    "detail": "Happens when a variable tied to both the exposure and the outcome creates a misleading association — coffee seems to 'cause' cancer until you notice coffee drinkers smoked more. The intruder masquerades as a cause. A cohort study or case-control study fights it with matching and statistical adjustment; the randomized controlled trial defeats it by design, which is why it outranks them in evidence. Spotting it is core to reading any epidemiology paper.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "NIH"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Contact Tracing",
+    "full": "",
+    "plain": "Tracking down everyone a sick person may have exposed, then warning them, so they can stay home before spreading the disease further.",
+    "snappy": "Finding everyone an infected person *may have exposed*, then alerting or isolating them — shoe-leather epidemiology that breaks transmission chains.",
+    "detail": "Identifies, notifies, and monitors the people a confirmed case has been near, so they can quarantine or get tested before infecting others. A frontline tool against any outbreak — central to controlling TB, STIs, Ebola, and COVID-19. Paired with disease surveillance and rapid testing, it can hold an epidemic's reproduction number below one. Effectiveness collapses once cases outpace the tracers, as happened during the pandemic.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "CDC"
+    ]
   },
   {
     "letter": "C",
@@ -2165,6 +2330,21 @@
   },
   {
     "letter": "D",
+    "term": "Deductible",
+    "full": "",
+    "plain": "The amount you pay out of your own pocket each year before your insurance starts chipping in.",
+    "snappy": "The amount you pay out of pocket each year before your insurance starts paying.",
+    "detail": "A deductible is the annual threshold a patient must cover before the plan contributes; high-deductible plans trade lower premiums for more upfront cost. After it's met, coinsurance and copays apply up to the out-of-pocket maximum. You'll hear deductible in any benefit-design or patient-affordability discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "CMS Glossary"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "Degrader",
     "full": "Targeted Protein Degrader",
     "snappy": "A new class of drugs that don't just block a harmful protein — they tag it for the cell's own waste-disposal system to destroy it entirely.",
@@ -2194,6 +2374,37 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A devastating childhood brain tumor in a spot too critical for surgery, and historically almost always fatal."
+  },
+  {
+    "letter": "D",
+    "term": "Disease Surveillance",
+    "full": "",
+    "plain": "Constantly tracking who is getting sick across a population, so health officials can catch and stop outbreaks early.",
+    "snappy": "The continuous *watch* for disease in a population — collecting case data so outbreaks are spotted and stopped before they spread.",
+    "detail": "The ongoing collection and analysis of health data — lab reports, doctor visits, death records — to detect threats and guide response. Notifiable diseases must by law be reported into it. It's how the CDC and WHO spot an outbreak before it becomes an epidemic, follow incidence trends, and target immunization. Modern systems fold in wastewater, pharmacy sales, and search queries for faster signals.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "CDC",
+      "WHO"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "Disease Vector",
+    "full": "",
+    "plain": "A creature like a mosquito or tick that carries a disease from one person or animal to another without usually getting sick itself.",
+    "snappy": "A living carrier — usually a *mosquito, tick, or flea* — that ferries a pathogen between hosts, as mosquitoes do for malaria.",
+    "detail": "An organism that transmits a pathogen between hosts without necessarily falling ill itself. Mosquitoes (malaria, dengue, Zika), ticks (Lyme), and fleas (plague) are the classics. Many vector-borne diseases are a kind of zoonosis, jumping from animals to people, and climate change is widening their range — a growing worry for outbreak preparedness and disease surveillance.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "WHO"
+    ]
   },
   {
     "letter": "D",
@@ -2286,6 +2497,21 @@
       "FDA"
     ],
     "plain": "The careful early-trial process of slowly increasing how much of a new drug patients get until side effects become too much."
+  },
+  {
+    "letter": "D",
+    "term": "DRG",
+    "full": "Diagnosis-Related Group",
+    "plain": "The system that pays a hospital a flat amount for an admission based on the diagnosis, rather than per day or per service.",
+    "snappy": "The classification that pays a hospital a fixed amount per admission based on the diagnosis — not on how many days or services it racks up.",
+    "detail": "Medicare pays inpatient stays by DRG: each admission is grouped by diagnosis and procedure into a category with a set payment, so hospitals profit by being efficient. It reshaped hospital economics when introduced in the 1980s. You'll hear DRG in any hospital-reimbursement discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "CMS Glossary"
+    ]
   },
   {
     "letter": "D",
@@ -2490,6 +2716,21 @@
   },
   {
     "letter": "E",
+    "term": "Endemic",
+    "full": "",
+    "plain": "A disease that is always around at a steady, low level in a place — never gone, but not exploding either.",
+    "snappy": "A disease *constantly present* at a baseline level in an area — always smoldering, like malaria in the tropics, rather than surging or vanishing.",
+    "detail": "Describes a disease that circulates steadily without dying out or exploding. Malaria is endemic to much of the tropics; chickenpox was before vaccines. A disease can shift between states — an epidemic or pandemic may settle into this kind of steady equilibrium once enough herd immunity builds. Public-health teams work to push these baseline levels down through immunization and disease surveillance.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "WHO"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Endometrial Cancer",
     "full": "",
     "snappy": "Cancer of the lining of the uterus — the most common gynecologic cancer in developed countries, often linked to obesity and hormonal factors.",
@@ -2582,6 +2823,22 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A relatively rare tumor of the brain or spine that grows from the cells lining its fluid-filled cavities."
+  },
+  {
+    "letter": "E",
+    "term": "Epidemic",
+    "full": "",
+    "plain": "A disease spreading through a community much faster or wider than usual. Bigger than a local outbreak, but not yet worldwide.",
+    "snappy": "A sudden surge of a disease *above* its normal level in a region — bigger than an outbreak, more contained than a pandemic.",
+    "detail": "Cases climb well beyond what's expected for a place and time. It sits on a spectrum: a localized outbreak can grow into one, and when it crosses continents it becomes a pandemic. Whether it ignites depends partly on the Basic Reproduction Number and the population's herd immunity; a disease that never surges this way is instead called endemic. The CDC and WHO declare and track them.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "CDC",
+      "WHO"
+    ]
   },
   {
     "letter": "E",
@@ -2800,6 +3057,21 @@
       "FDA"
     ],
     "plain": "The US agency that decides whether new drugs, vaccines, and medical devices are safe and effective enough to sell in America."
+  },
+  {
+    "letter": "F",
+    "term": "Fee-for-Service",
+    "full": "FFS",
+    "plain": "Paying a doctor or hospital for each separate test or procedure — the old model critics say rewards doing more, not doing better.",
+    "snappy": "Paying providers for each test, visit, or procedure — the traditional model critics blame for rewarding volume over health.",
+    "detail": "Under fee-for-service, every service generates a separate payment, which can incentivize more care rather than better outcomes. It's the baseline that value-based care models — ACOs, bundled payments, capitation — are designed to replace. You'll hear FFS as the foil in any payment-reform discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "CMS Glossary"
+    ]
   },
   {
     "letter": "F",
@@ -3499,6 +3771,21 @@
   },
   {
     "letter": "H",
+    "term": "Herd Immunity",
+    "full": "",
+    "plain": "When so many people are immune to a disease that it can't spread easily, which protects even the few who aren't immune.",
+    "snappy": "The point where *enough* of a population is immune that a disease can't find new hosts — shielding even those who aren't immune themselves.",
+    "detail": "Also called community immunity, it kicks in once immune people — through vaccines or past infection — are dense enough to break chains of transmission. The threshold rises with the Basic Reproduction Number: highly contagious measles needs ~95% coverage. Immunization programs target it explicitly, which is why vaccine hesitancy can let an endemic disease flare into an outbreak. It guards infants and the immunocompromised who can't be vaccinated.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "CDC"
+    ]
+  },
+  {
+    "letter": "H",
     "term": "Hereditary Cancer Syndromes",
     "full": "",
     "snappy": "Inherited gene mutations that pass cancer risk down through families — the reason some people develop multiple cancers, or get them young.",
@@ -3528,6 +3815,21 @@
       "CDC"
     ],
     "plain": "The virus that attacks the body's immune defences — once a death sentence, now a manageable lifelong condition with daily pills."
+  },
+  {
+    "letter": "H",
+    "term": "HMO",
+    "full": "Health Maintenance Organization",
+    "plain": "A cheaper but stricter insurance plan: you pick a main doctor, need referrals for specialists, and must stay in its network.",
+    "snappy": "A managed-care plan that's cheaper but stricter — you pick a primary care doctor and need referrals to see specialists, all within a set network.",
+    "detail": "An HMO keeps premiums low by requiring care within its network and routing access through a primary care gatekeeper, with little out-of-network coverage. You'll hear HMO contrasted with the looser PPO whenever plan design or managed care comes up.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "CMS Glossary"
+    ]
   },
   {
     "letter": "H",
@@ -3823,6 +4125,22 @@
   },
   {
     "letter": "I",
+    "term": "Immunization",
+    "full": "",
+    "plain": "Making someone protected against a disease, usually with a vaccine. Also the programs that get shots to whole populations.",
+    "snappy": "The process of making someone *immune* to a disease — usually via a vaccine — and the programs built to deliver them at scale.",
+    "detail": "How a person becomes protected against an infection, most often by a vaccine that trains the immune system without causing illness. National schedules and campaigns aim to reach the herd immunity threshold that shields whole communities. Coverage gaps — from access barriers or vaccine hesitancy — let preventable diseases like measles resurge. The WHO and CDC set and monitor schedules; it's among the highest-return moves in public health.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "WHO",
+      "CDC"
+    ]
+  },
+  {
+    "letter": "I",
     "term": "Immunoglobulin",
     "full": "Ig",
     "snappy": "The technical name for an antibody — comes in five flavors (IgG, IgA, IgM, IgD, IgE) that handle different jobs in the immune system.",
@@ -3864,6 +4182,21 @@
     "category": "Clinical",
     "sources": [
       "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Incidence",
+    "full": "",
+    "plain": "How many people newly catch a disease in a given time. It measures how fast something is spreading, not how many already have it.",
+    "snappy": "The rate of *new* cases of a disease in a population over a period — the flow, versus the standing pool that prevalence measures.",
+    "detail": "This rate counts how many people develop a condition during a window — say, new flu cases per week. It captures risk and the speed of spread, which is why outbreak investigators and Disease Surveillance teams watch it. Distinguish it from prevalence, the total existing cases: a fast-killing or fast-curing disease can run high here but low there. You'll see these rates in every CDC field report.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "CDC"
     ]
   },
   {
@@ -4827,6 +5160,21 @@
   },
   {
     "letter": "M",
+    "term": "Managed Care",
+    "full": "",
+    "plain": "The dominant US insurance model where the insurer actively steers your care and costs, rather than just paying the bills.",
+    "snappy": "The dominant US model where an insurer actively steers cost and care through networks, prior authorization, and incentives — not just paying bills.",
+    "detail": "Managed care organizations (HMOs, PPOs, Medicare Advantage) use provider networks, utilization management, and payment incentives to control spending. It replaced passive fee-for-service indemnity insurance. You'll hear managed care behind every formulary, prior authorization, and network-design decision.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "CMS Glossary"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Mantle Cell Lymphoma",
     "full": "MCL",
     "snappy": "An aggressive, hard-to-cure non-Hodgkin lymphoma defined by a specific gene translocation that switches on a key cell-cycle regulator.",
@@ -4884,6 +5232,66 @@
       "FDA"
     ],
     "plain": "The story of how a drug actually works inside the body — which protein it grabs and what chain of events that sets off."
+  },
+  {
+    "letter": "M",
+    "term": "Medicaid",
+    "full": "",
+    "plain": "The joint federal-state program that covers low-income Americans — the largest single source of health coverage in the US.",
+    "snappy": "The joint federal-state program covering low-income Americans — the largest single source of health coverage in the US.",
+    "detail": "Medicaid is administered by states within federal rules and covers over 80 million people, including long-term care and a large share of births. Run with CMS oversight, its budgets and eligibility rules drive access for the poorest patients. You'll hear Medicaid in any coverage, safety-net, or 340B discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "CMS Glossary"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Medical Loss Ratio",
+    "full": "MLR",
+    "plain": "The share of your insurance premiums that, by law, must go to actual medical care rather than the insurer's profit and overhead.",
+    "snappy": "The share of insurance premiums an insurer must spend on actual care rather than profit and overhead — capped by law.",
+    "detail": "The Affordable Care Act requires insurers to spend at least 80-85% of premiums on medical care and quality (the medical loss ratio) or rebate the difference, limiting how much can go to administration and profit. You'll hear MLR in insurer-earnings and health-policy discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "CMS Glossary"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Medicare",
+    "full": "",
+    "plain": "The US government health insurance program for people 65 and older — and the single most powerful payer in the market.",
+    "snappy": "The US federal health insurance program for people 65 and older (and some younger people with disabilities) — and the market's most powerful payer.",
+    "detail": "Medicare covers ~65 million Americans across Part A (hospital), Part B (outpatient), Part C (Medicare Advantage), and Part D (drugs). Run by CMS, its coverage and payment rules — now including drug-price negotiation — set the tone for the whole system. You'll hear Medicare in every US reimbursement and drug-pricing discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "CMS Glossary"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Medicare Advantage",
+    "full": "MA",
+    "plain": "The private-insurer version of Medicare, where a company is paid a set amount to cover all of a member's care.",
+    "snappy": "Privately run Medicare — insurers are paid a fixed amount to cover a member's care, the fast-growing alternative to traditional Medicare.",
+    "detail": "Under Medicare Advantage (Part C), CMS pays a private insurer a capitated amount per enrollee to manage all their care, often with extra benefits and a network. It now covers more than half of Medicare beneficiaries. You'll hear Medicare Advantage in managed-care, risk-adjustment, and insurer-earnings discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "CMS Glossary"
+    ]
   },
   {
     "letter": "M",
@@ -5223,6 +5631,37 @@
       "FDA"
     ],
     "plain": "A single building-block unit that chains together with copies of itself to form a bigger molecule, like beads on a string."
+  },
+  {
+    "letter": "M",
+    "term": "Morbidity",
+    "full": "",
+    "plain": "How much disease and ill-health there is in a group of people — sickness and disability, separate from how many die.",
+    "snappy": "The burden of *illness* in a population — how much disease, disability, and ill-health there is, as distinct from mortality, which counts deaths.",
+    "detail": "This captures sickness rather than death: cases, complications, disability, and reduced quality of life. Agencies pair it with mortality to size a disease's total toll — the CDC's flagship bulletin is literally the Morbidity and Mortality Weekly Report. Chronic conditions with high prevalence drive most of it even when they rarely kill. You'll hear 'morbidity and mortality' as a fixed phrase at any health-policy briefing.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "CDC"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Mortality",
+    "full": "",
+    "plain": "How many people in a group die in a given time, often from a specific cause. The basic measure of how deadly something is.",
+    "snappy": "The rate of *death* in a population — overall or from a specific cause — the grim companion to morbidity in every public-health tally.",
+    "detail": "It measures deaths, usually per 100,000 people a year, all-cause or disease-specific. Epidemiologists read it alongside morbidity to judge how dangerous a condition is, while the case fatality rate narrows the lens to deaths among those who fall ill. Excess deaths above the expected baseline became a headline metric during the pandemic. The CDC and WHO publish death rates for every country.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "CDC",
+      "WHO"
+    ]
   },
   {
     "letter": "M",
@@ -5723,6 +6162,21 @@
   },
   {
     "letter": "N",
+    "term": "Notifiable Disease",
+    "full": "",
+    "plain": "A disease that doctors must legally report to health officials whenever they diagnose it, so authorities can track and respond to it.",
+    "snappy": "A condition doctors and labs are *legally required to report* to health authorities — the raw feed for disease surveillance.",
+    "detail": "Must by law be reported to public-health authorities on diagnosis — measles, tuberculosis, certain STIs, novel pathogens. The mandatory flow feeds disease surveillance and lets agencies launch contact tracing or quarantine fast. Each US state sets its own list; the CDC aggregates nationally while the WHO runs international reporting for events of global concern. It is the legal backbone of outbreak detection.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "CDC"
+    ]
+  },
+  {
+    "letter": "N",
     "term": "Novartis",
     "full": "",
     "plain": "A Swiss pharmaceutical giant behind the landmark cancer pill Gleevec and the first CAR-T cell therapy.",
@@ -6090,6 +6544,36 @@
   },
   {
     "letter": "O",
+    "term": "Out-of-Pocket Maximum",
+    "full": "OOP Max",
+    "plain": "The yearly limit on what you can be made to pay; once you reach it, insurance covers the rest of your covered care.",
+    "snappy": "The yearly cap on what you can be forced to pay; once you hit it, insurance covers 100% of covered care.",
+    "detail": "The out-of-pocket maximum limits a patient's total annual cost-sharing — deductible plus copays plus coinsurance — after which the plan pays everything for covered services. It's the backstop that makes catastrophic illness survivable financially. You'll hear it in benefit-design and affordability discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "CMS Glossary"
+    ]
+  },
+  {
+    "letter": "O",
+    "term": "Outbreak",
+    "full": "",
+    "plain": "A sudden jump in cases of a disease in one place or group. The earliest, most local stage before it can grow into an epidemic.",
+    "snappy": "A *sudden, localized* cluster of cases above the norm — the smallest fire, which contact tracing can contain before it grows into an epidemic.",
+    "detail": "A sharp, often local rise in cases above normal — a foodborne cluster, a measles flare in an under-vaccinated school. Caught early, contact tracing and quarantine can snuff it out before it becomes an epidemic. These events trigger disease surveillance and, for notifiable diseases, mandatory reporting to the CDC. The line between a large one and an epidemic is mostly a matter of scale.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "CDC"
+    ]
+  },
+  {
+    "letter": "O",
     "term": "Ovarian Cancer",
     "full": "",
     "snappy": "A frequently fatal gynecologic cancer that often spreads silently before being detected — and a disease where PARP inhibitors have been transformative.",
@@ -6196,6 +6680,21 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "One of the deadliest common cancers, usually caught late, with most patients surviving less than a year despite better chemo options."
+  },
+  {
+    "letter": "P",
+    "term": "Pandemic",
+    "full": "",
+    "plain": "An epidemic that has spread across many countries or the whole world at the same time, like COVID-19.",
+    "snappy": "An *epidemic gone global* — a disease spreading across many countries or continents at once, as COVID-19 and influenza have done.",
+    "detail": "An epidemic that has crossed international borders on a large scale, hitting whole regions of the world at once; the WHO formally declares them. These events strain disease surveillance, vaccine supply, and herd immunity all at the same time, and their toll is counted in excess mortality. After a pathogen settles into steady circulation, the crisis phase can fade toward an endemic equilibrium rather than vanishing.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "WHO"
+    ]
   },
   {
     "letter": "P",
@@ -6521,6 +7020,21 @@
   },
   {
     "letter": "P",
+    "term": "Pharmacy Benefit Manager",
+    "full": "PBM",
+    "plain": "The middlemen who run drug coverage for insurers — negotiating discounts and deciding which medicines you can get and at what cost.",
+    "snappy": "The middlemen who run drug benefits for insurers — negotiating rebates, building formularies, and steering which drugs you can get and what they cost.",
+    "detail": "PBMs sit between drugmakers, insurers, and pharmacies, negotiating rebates in exchange for formulary placement and processing prescription claims. The big three control most of the market, and their opaque economics draw constant scrutiny. You'll hear pharmacy benefit manager in every drug-pricing and gross-to-net discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "CMS Glossary"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Phase 1 Trial",
     "full": "",
     "snappy": "The first-in-human stage of drug development — small, focused on safety and dosing rather than whether the drug actually works.",
@@ -6689,6 +7203,21 @@
   },
   {
     "letter": "P",
+    "term": "PPO",
+    "full": "Preferred Provider Organization",
+    "plain": "A more flexible, pricier insurance plan: see specialists without referrals and go outside the network for a higher cost.",
+    "snappy": "A managed-care plan that costs more but offers flexibility — see specialists without referrals and go out-of-network for a higher share of the cost.",
+    "detail": "A PPO lets members see any provider, paying less for in-network 'preferred' ones, with no gatekeeper referrals. The trade-off versus an HMO is higher premiums for more freedom. You'll hear PPO in any plan-design or benefits discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "CMS Glossary"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Preclinical",
     "full": "",
     "snappy": "All the laboratory and animal testing a drug must complete before it can be given to humans — typically years of work and millions of dollars.",
@@ -6717,6 +7246,21 @@
       "CDC"
     ],
     "plain": "A pill or shot taken by HIV-negative people to cut their chance of catching the virus by around 99 percent."
+  },
+  {
+    "letter": "P",
+    "term": "Prevalence",
+    "full": "",
+    "plain": "Out of everyone in a group, the portion who have a disease right now — counting both new and long-standing cases.",
+    "snappy": "The share of a population that *has* a condition at a given moment — the standing pool, counting old and new cases alike, unlike incidence.",
+    "detail": "A snapshot: what fraction of people live with diabetes today, regardless of when they were diagnosed. It reflects both how often a disease arises — its incidence — and how long people live with it, so chronic conditions show high figures. The number drives budgeting and public-health planning, and pairs with morbidity to size total burden. Reporters quote it when they say '1 in 10 adults has...'; the CDC publishes it for major chronic diseases.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "CDC"
+    ]
   },
   {
     "letter": "P",
@@ -6946,6 +7490,21 @@
       "NIH MedlinePlus"
     ],
     "plain": "A lab method that copies a specific stretch of DNA over and over so you can measure exactly how much was there to start with."
+  },
+  {
+    "letter": "Q",
+    "term": "Quarantine",
+    "full": "",
+    "plain": "Keeping people who might have caught a contagious disease away from others for a while, in case they become sick and spread it.",
+    "snappy": "*Separating and restricting* people who may have been exposed to a contagious disease — distinct from isolating those already confirmed sick.",
+    "detail": "Keeps apart people who were exposed to a contagious disease but aren't yet known to be infected, during the incubation period; isolation, by contrast, separates the confirmed sick. The word traces to the 40-day ('quaranta') ship holds of plague-era Venice. Paired with contact tracing, it helps choke off an outbreak. Authorities hold legal quarantine powers for notifiable diseases, balanced against civil liberties.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "CDC"
+    ]
   },
   {
     "letter": "Q",
@@ -7460,6 +8019,21 @@
   },
   {
     "letter": "S",
+    "term": "Screening",
+    "full": "",
+    "plain": "Testing people who feel fine to catch a disease early, like mammograms or colonoscopies, when it's easier to treat.",
+    "snappy": "Testing *apparently healthy* people to catch disease early — mammograms, colonoscopies, newborn blood spots — before symptoms appear.",
+    "detail": "Looking for disease in people without symptoms, to catch it when treatment works best — cancer (mammography, colonoscopy, Pap), newborn metabolic panels, blood-pressure checks. A good program weighs a test's sensitivity and specificity against the harms of false alarms and overdiagnosis. Population programs can lower mortality, but only where early action helps, by shifting detected incidence toward earlier stages — and are most worthwhile where prevalence is high enough to justify mass testing. Coverage rules often hinge on task-force recommendations.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "NIH MedlinePlus"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Second-Line Therapy",
     "full": "",
     "snappy": "The treatment given when first-line therapy fails or stops working — usually less effective than first-line, with smaller patient populations and tougher commercial economics.",
@@ -7648,6 +8222,21 @@
   },
   {
     "letter": "S",
+    "term": "Social Determinants of Health",
+    "full": "SDOH",
+    "plain": "The everyday conditions — money, housing, schooling, food, neighborhood — that affect your health more than doctors and medicine do.",
+    "snappy": "The *non-medical* conditions — income, housing, education, food, neighborhood — that shape health long before any clinic visit does.",
+    "detail": "The circumstances people are born, live, and work in: economic standing, education, food security, housing, and access to care. They explain much of the gap in morbidity and mortality between populations — often more than medical care itself. Payers and value-based care programs increasingly screen for them, since fixing housing or nutrition can cut costly hospital use. You'll hear the term at every health-equity discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "CDC"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Somatic Mutation",
     "full": "",
     "snappy": "A genetic change that happens in a body cell during life — not inherited from parents, and only present in the descendants of that one cell.",
@@ -7675,6 +8264,21 @@
     "category": "Clinical",
     "sources": [
       "FDA"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Specialty Pharmacy",
+    "full": "",
+    "plain": "A pharmacy set up to handle complex, very expensive drugs — like biologics and cancer treatments — that need special care and support.",
+    "snappy": "A pharmacy built to handle complex, high-cost drugs — biologics, cancer and rare-disease therapies — that need special handling and support.",
+    "detail": "Specialty pharmacies dispense expensive, often injectable or refrigerated drugs requiring patient education, adherence support, and prior authorization. They're where most of pharma's revenue growth flows and a focus of PBM consolidation. You'll hear specialty pharmacy in any biologics or market-access discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "CMS Glossary"
     ]
   },
   {
@@ -8589,6 +9193,21 @@
   },
   {
     "letter": "U",
+    "term": "Utilization Management",
+    "full": "UM",
+    "plain": "The insurer's toolkit — prior approvals, 'try this cheaper drug first' rules, limits — for controlling what care gets paid for.",
+    "snappy": "The insurer toolkit — prior authorization, step therapy, quantity limits — for controlling which services and drugs get paid for.",
+    "detail": "Utilization management reviews care for medical necessity and cost before or during treatment, using prior authorization, step therapy, and concurrent review. It's the friction patients and providers feel most, and a perennial reform target. You'll hear UM behind every access-and-coverage complaint.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "CMS Glossary"
+    ]
+  },
+  {
+    "letter": "U",
     "term": "Uveal Melanoma",
     "full": "",
     "snappy": "A rare melanoma that arises in the eye rather than the skin — with very different genetics from skin melanoma and largely insensitive to checkpoint inhibitors.",
@@ -8623,6 +9242,21 @@
   },
   {
     "letter": "V",
+    "term": "Vaccine Hesitancy",
+    "full": "",
+    "plain": "When people delay or refuse vaccines even though they're available, often due to fear or misinformation. It lets old diseases return.",
+    "snappy": "*Reluctance or refusal* to vaccinate despite available shots — the WHO names it among the top threats to global health.",
+    "detail": "Delay or refusal of vaccines driven by mistrust, misinformation, complacency, or access barriers. When it pushes coverage below the herd immunity threshold, diseases like measles come roaring back, undercutting the whole point of an immunization program. The WHO listed it among the top-ten global health threats. Communicators counter it with trusted messengers rather than data dumps — a recurring theme at any disease surveillance and health-policy discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "WHO"
+    ]
+  },
+  {
+    "letter": "V",
     "term": "Validation",
     "full": "",
     "snappy": "Confirming through rigorous testing that a biomarker, target, drug, or process actually does what it's claimed to do — different from just observing it once.",
@@ -8635,6 +9269,21 @@
       "FDA"
     ],
     "plain": "Proving through careful, repeated testing that something actually works the way people claim it does, not just by lucky chance."
+  },
+  {
+    "letter": "V",
+    "term": "Value-Based Care",
+    "full": "VBC",
+    "plain": "Paying doctors and hospitals for keeping patients healthy and outcomes good, instead of for the sheer number of services they provide.",
+    "snappy": "Paying for health outcomes rather than the volume of services — the umbrella reform meant to replace fee-for-service.",
+    "detail": "Value-based care ties provider payment to quality and total cost through models like ACOs, bundled payments, and capitation, shifting financial risk onto providers to reward keeping people healthy. You'll hear VBC across CMS demonstrations and payer-strategy discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "CMS Glossary"
+    ]
   },
   {
     "letter": "V",
@@ -9394,6 +10043,21 @@
       "NIH MedlinePlus"
     ],
     "plain": "The clear ring around an antibiotic on a lab dish where bacteria can't grow, a simple eye-test of how well the drug kills bugs."
+  },
+  {
+    "letter": "Z",
+    "term": "Zoonosis",
+    "full": "",
+    "plain": "A disease that spreads from animals to humans, like rabies or COVID-19. Many brand-new human diseases start this way.",
+    "snappy": "A disease that *jumps from animals to humans* — rabies, COVID-19, and Ebola all crossed the species barrier this way.",
+    "detail": "An infection that spills over from animals to people, sometimes via a disease vector like a mosquito, sometimes by direct contact. Most new human pathogens — including the coronaviruses behind recent epidemics — arrive this way. Watching wildlife and livestock is a frontline defense, since spillover is where many an outbreak and the occasional pandemic begins. The 'One Health' approach links animal, human, and environmental disease surveillance.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "WHO"
+    ]
   },
   {
     "letter": "Z",
