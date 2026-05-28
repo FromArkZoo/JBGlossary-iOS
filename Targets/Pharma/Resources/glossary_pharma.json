@@ -137,6 +137,21 @@
   },
   {
     "letter": "A",
+    "term": "Acute Care",
+    "full": "",
+    "plain": "Short, active treatment for a sudden health problem, as opposed to the ongoing care of a long-term condition.",
+    "snappy": "*Short-term, active treatment* for a sudden illness, injury, or flare — the opposite of the slow management of a chronic condition.",
+    "detail": "Acute care is medicine in the urgent register: the emergency department visit, the intensive care unit admission, the surgery for appendicitis. It aims to stabilize and resolve, then hand the patient back to primary care or chronic care management for the long haul. The line matters for payment and planning, since acute episodes are unpredictable and expensive. You'll hear acute care set against chronic and post-acute care whenever hospitals and payers map where patients should be treated.",
+    "indications": [
+      "General"
+    ],
+    "category": "Care Delivery",
+    "sources": [
+      "NIH MedlinePlus"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Adaptive Trial Design",
     "full": "",
     "snappy": "A clinical trial that lets researchers change course mid-study — adjusting dose, dropping a treatment arm, or expanding enrollment — based on what early data shows.",
@@ -374,6 +389,21 @@
       "NIH NIA"
     ],
     "plain": "A brain disease where clumps of bad protein slowly destroy memory and thinking — the most common cause of dementia."
+  },
+  {
+    "letter": "A",
+    "term": "Ambulatory Care",
+    "full": "",
+    "plain": "Medical care given in clinics and day-surgery centers, where patients walk in and leave the same day without a hospital bed.",
+    "snappy": "Outpatient care delivered *on your own two feet* — clinics, day surgery, imaging, and infusion centers, no hospital bed required.",
+    "detail": "Ambulatory care is the umbrella for services provided outside the inpatient ward: physician offices, ambulatory surgery centers, urgent care, and dialysis units. Shifting procedures into ambulatory settings cuts cost and infection risk, a trend payers and value-based care arrangements actively reward. It leans on primary care and specialty care clinics as its backbone. You'll hear ambulatory care in any conversation about site-of-care shift and outpatient capacity.",
+    "indications": [
+      "General"
+    ],
+    "category": "Care Delivery",
+    "sources": [
+      "CMS Glossary"
+    ]
   },
   {
     "letter": "A",
@@ -1825,6 +1855,21 @@
   },
   {
     "letter": "C",
+    "term": "Chronic Care Management",
+    "full": "",
+    "plain": "The ongoing work of keeping long-term illnesses like diabetes under control, so they don't flare into emergencies.",
+    "snappy": "The *ongoing coordination* of care for people with long-term conditions — keeping diabetes and heart failure stable so they don't end up back in the hospital.",
+    "detail": "Chronic care management is the structured, continuous work of keeping long-term conditions — hypertension, type 2 diabetes, COPD, heart failure — under control between acute episodes. It lives mostly in primary care: medication management, monitoring, and coaching, increasingly paid for directly under value-based care because preventing a crisis is cheaper than treating one. Patients with several comorbidities benefit most. You'll hear chronic care management championed as the antidote to fragmented, reactive, expensive care.",
+    "indications": [
+      "General"
+    ],
+    "category": "Care Delivery",
+    "sources": [
+      "CMS Glossary"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Chronic Lymphocytic Leukemia",
     "full": "CLL",
     "snappy": "A slow-growing blood cancer of B-cells, usually in older adults — many patients live for years with monitoring before any treatment is needed.",
@@ -2095,6 +2140,21 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "Cancer of the colon or rectum — the third most common cancer worldwide, and one of the easiest to catch early with screening."
+  },
+  {
+    "letter": "C",
+    "term": "Comorbidity",
+    "full": "",
+    "plain": "Having more than one health condition at the same time, which makes treatment more complicated.",
+    "snappy": "*More than one condition at once* — the type 2 diabetes plus heart failure plus kidney disease that makes real patients so much harder to treat than trial subjects.",
+    "detail": "A comorbidity is an additional disease a patient carries alongside the main one, and most people with a chronic illness have several. Comorbidities complicate everything: they raise the risk of a hospital admission, lengthen the length of stay, multiply drug interactions, and are exactly the messy patients a clean randomized controlled trial tends to exclude. Managing them is the daily work of primary care and chronic care management. You'll hear comorbidity invoked whenever trial results are questioned for how well they transfer to ordinary patients.",
+    "indications": [
+      "General"
+    ],
+    "category": "Care Delivery",
+    "sources": [
+      "NIH MedlinePlus"
+    ]
   },
   {
     "letter": "C",
@@ -2467,6 +2527,21 @@
   },
   {
     "letter": "D",
+    "term": "Discharge",
+    "full": "",
+    "plain": "Being formally released from the hospital, along with instructions and a plan for follow-up care.",
+    "snappy": "The *formal release* from a hospital stay — paired with instructions, prescriptions, and a plan to keep you from coming back.",
+    "detail": "Discharge ends an inpatient admission and is a surprisingly risky moment: medications change, follow-up gets arranged, and a shaky handoff is a leading cause of readmission. A good discharge loops in primary care, reconciles the medication list, and sets up any follow-on care. Payers and value-based care programs scrutinize it because avoidable readmissions are expensive and often preventable. You'll hear discharge planning discussed wherever hospitals try to shorten the length of stay without sending people home too soon.",
+    "indications": [
+      "General"
+    ],
+    "category": "Care Delivery",
+    "sources": [
+      "CMS Glossary"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "Disease Surveillance",
     "full": "",
     "plain": "Constantly tracking who is getting sick across a population, so health officials can catch and stop outbreaks early.",
@@ -2818,6 +2893,21 @@
       "FDA"
     ],
     "plain": "Europe's drug regulator — the body that decides which medicines can be sold across the EU."
+  },
+  {
+    "letter": "E",
+    "term": "Emergency Department",
+    "full": "ED",
+    "plain": "The part of a hospital that treats sudden, serious problems at any hour, seeing the most urgent cases first.",
+    "snappy": "The hospital's *always-open front line* for sudden, serious illness and injury — where triage decides who is seen first.",
+    "detail": "The emergency department treats anyone who walks or is wheeled in, around the clock, sorting them by urgency through triage rather than appointment. It's the classic acute care setting and the main gateway to an inpatient admission for the seriously ill, while also absorbing primary care that patients couldn't get elsewhere — a costly mismatch payers track closely. Crowding and boarding are chronic operational headaches. You'll hear emergency department crowding cited in every debate about access and the safety-net role of hospitals.",
+    "indications": [
+      "General"
+    ],
+    "category": "Care Delivery",
+    "sources": [
+      "NIH MedlinePlus"
+    ]
   },
   {
     "letter": "E",
@@ -4074,6 +4164,36 @@
   },
   {
     "letter": "H",
+    "term": "Hospice",
+    "full": "",
+    "plain": "Comfort-focused care for people near the end of life, easing symptoms rather than trying to cure the illness.",
+    "snappy": "Comfort-focused care for the *end of life* — when the goal shifts from fighting a terminal illness to living the remaining time as well as possible.",
+    "detail": "Hospice is the care model for people expected to have months, not years: it sets aside curative treatment in favor of relieving pain and symptoms, usually at home, with a team that works alongside the patient's primary care doctor and supports the family too. It overlaps with palliative care but differs in timing and intent — palliative care runs alongside active treatment at any stage, while hospice begins when that treatment stops, often as the humane alternative to another intensive care unit admission. Medicare's hospice benefit makes it widely available in the US. You'll hear hospice discussed wherever goals-of-care and the cost and quality of dying are weighed.",
+    "indications": [
+      "General"
+    ],
+    "category": "Care Delivery",
+    "sources": [
+      "NIH MedlinePlus"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "Hospitalist",
+    "full": "",
+    "plain": "A doctor who only treats patients while they are admitted to the hospital, instead of in a regular clinic.",
+    "snappy": "A physician who works *only inside the hospital* — managing inpatients from admission to discharge while their regular doctor stays outside.",
+    "detail": "The hospitalist is a relatively new specialty built around the inpatient setting: rather than a primary care doctor rounding before clinic, a dedicated physician coordinates the whole stay, orders, and discharge. The model speeds decisions and can shorten the length of stay, but adds a handoff back to primary care that has to be managed carefully. Hospitalists now staff most US hospitals. You'll hear hospitalist whenever inpatient care models and care continuity are discussed.",
+    "indications": [
+      "General"
+    ],
+    "category": "Care Delivery",
+    "sources": [
+      "NIH MedlinePlus"
+    ]
+  },
+  {
+    "letter": "H",
     "term": "HPV",
     "full": "Human Papillomavirus",
     "snappy": "A common virus that causes cervical cancer and a growing share of head-and-neck cancers — and is largely preventable with vaccination.",
@@ -4473,6 +4593,21 @@
   },
   {
     "letter": "I",
+    "term": "Inpatient",
+    "full": "",
+    "plain": "A patient who is admitted and stays overnight in the hospital, rather than going home the same day.",
+    "snappy": "A patient *admitted to a hospital bed* — staying at least one night — as opposed to being treated and sent home the same day.",
+    "detail": "Inpatient status begins with a formal admission and is the line that drives how care is paid for: hospitals bill an inpatient stay under a DRG, a fixed sum keyed to the diagnosis rather than the number of days. The length of stay and any readmission then become quality and cost yardsticks. Inpatient care covers everyone from a routine overnight to the sickest patients in the intensive care unit. You'll hear inpatient set against outpatient in every discussion of hospital utilization and billing.",
+    "indications": [
+      "General"
+    ],
+    "category": "Care Delivery",
+    "sources": [
+      "CMS Glossary"
+    ]
+  },
+  {
+    "letter": "I",
     "term": "Insulin",
     "full": "",
     "snappy": "The hormone your pancreas makes to move sugar out of your blood and into your cells — and the lifesaving drug people with diabetes use when their bodies can't.",
@@ -4486,6 +4621,21 @@
       "NIH"
     ],
     "plain": "The hormone that moves sugar from your blood into your cells — and the daily lifesaver for people whose bodies can't make enough."
+  },
+  {
+    "letter": "I",
+    "term": "Intensive Care Unit",
+    "full": "ICU",
+    "plain": "The hospital unit with the most equipment and staff, caring for the sickest patients whose lives are at risk.",
+    "snappy": "The hospital unit for the *sickest patients* — continuous monitoring, ventilators, and intensive nursing for those whose lives hang in the balance.",
+    "detail": "The intensive care unit concentrates the staff and technology to keep failing organs going: mechanical ventilation, blood-pressure support, dialysis, and round-the-clock vital signs. It's the most resource-intensive corner of acute care, and a long intensive care unit stay drives both the length of stay and the cost of an inpatient admission sharply up. Demand for its beds became a household worry during the pandemic. You'll hear intensive care unit capacity invoked whenever a health system is stretched to its limit.",
+    "indications": [
+      "General"
+    ],
+    "category": "Care Delivery",
+    "sources": [
+      "NIH MedlinePlus"
+    ]
   },
   {
     "letter": "I",
@@ -5025,6 +5175,21 @@
     "category": "Mechanism",
     "sources": [
       "NIH"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Length of Stay",
+    "full": "LOS",
+    "plain": "The number of days a patient spends admitted in the hospital, from admission to discharge.",
+    "snappy": "*How many days* a patient occupies a hospital bed — the headline efficiency number for any inpatient admission.",
+    "detail": "Length of stay counts the days from admission to discharge, and trimming it — safely — is a constant hospital goal, because under a DRG the payment is fixed no matter how long the bed is used. A stay stretched by complications or a delayed discharge eats into margin and ties up capacity; one cut too aggressively risks a readmission. The intensive care unit and surgical wards watch it most closely. You'll hear length of stay tracked in every hospital operations and utilization review.",
+    "indications": [
+      "General"
+    ],
+    "category": "Care Delivery",
+    "sources": [
+      "CMS Glossary"
     ]
   },
   {
@@ -6508,6 +6673,21 @@
     ]
   },
   {
+    "letter": "N",
+    "term": "Nurse Practitioner",
+    "full": "NP",
+    "plain": "A nurse with advanced training who can diagnose illness, order tests, and prescribe medicine, often like a doctor.",
+    "snappy": "An *advanced-practice nurse* who can diagnose, treat, and prescribe — often running a primary care practice much like a physician.",
+    "detail": "A nurse practitioner is a registered nurse with graduate training and an expanded scope: in many US states they assess, diagnose, order tests, and prescribe independently. Alongside the physician assistant, they're central to filling the primary care gap, especially in rural and underserved areas where physicians are scarce, and increasingly staff specialty care and emergency department teams too. How much independence they get — full versus restricted practice — varies by state and is a running policy fight. You'll hear nurse practitioner discussed in every debate about the clinician workforce and access to care.",
+    "indications": [
+      "General"
+    ],
+    "category": "Care Delivery",
+    "sources": [
+      "HRSA"
+    ]
+  },
+  {
     "letter": "O",
     "term": "Obesity",
     "full": "",
@@ -6825,6 +7005,21 @@
     "category": "Public Health",
     "sources": [
       "CDC"
+    ]
+  },
+  {
+    "letter": "O",
+    "term": "Outpatient",
+    "full": "",
+    "plain": "Care you get without staying overnight — you come in, get treated, and leave the same day.",
+    "snappy": "Care delivered *without an overnight stay* — you arrive, get treated, and go home the same day.",
+    "detail": "Outpatient care spans the doctor's visit, the lab draw, the day surgery, and the infusion clinic — anything that doesn't convert you to inpatient status. Much of it happens in ambulatory care settings, and the long shift of procedures from hospital wards to outpatient sites is one of the biggest cost stories in modern medicine. Payers and value-based care models push hard to keep care outpatient when it's safe. You'll hear outpatient paired with inpatient whenever site-of-care and reimbursement are weighed.",
+    "indications": [
+      "General"
+    ],
+    "category": "Care Delivery",
+    "sources": [
+      "CMS Glossary"
     ]
   },
   {
@@ -7413,6 +7608,21 @@
   },
   {
     "letter": "P",
+    "term": "Physician Assistant",
+    "full": "PA",
+    "plain": "A licensed health professional trained to diagnose, treat, and prescribe, working together with doctors.",
+    "snappy": "A *licensed clinician* trained on the medical model who diagnoses, treats, and prescribes — practicing in partnership with physicians across every specialty.",
+    "detail": "A physician assistant completes a graduate medical-model program and is licensed to examine, diagnose, order tests, and prescribe, traditionally under a physician's collaboration. Like the nurse practitioner, the physician assistant helps close the primary care shortfall and flexibly fills gaps across specialty care, the emergency department, and surgery. The profession is debating a rebrand to 'physician associate,' a sign of its growing independence. You'll hear physician assistant alongside nurse practitioner whenever the future of the clinical workforce is discussed.",
+    "indications": [
+      "General"
+    ],
+    "category": "Care Delivery",
+    "sources": [
+      "HRSA"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "PI3K",
     "full": "Phosphatidylinositol 3-Kinase",
     "snappy": "A central signaling pathway that pushes cells to grow and survive — frequently mutated in cancer, and a perennial drug-development target with mixed results.",
@@ -7560,6 +7770,22 @@
     "category": "Public Health",
     "sources": [
       "CDC"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Primary Care",
+    "full": "",
+    "plain": "The regular doctor you see first for most health problems, who treats common issues and sends you to specialists when needed.",
+    "snappy": "Your *first point of contact* with the health system — the generalist who treats everyday problems, coordinates care, and follows you over the years.",
+    "detail": "Primary care is the front door to medicine: a family doctor, internist, or pediatrician who manages common conditions like hypertension and type 2 diabetes, catches new ones early, and writes the referral when you need specialty care. Under managed care it often serves as the gatekeeper to specialists, and it anchors chronic care management for people carrying several conditions at once. Its quiet strength is continuity — one clinician who knows your whole story. You'll hear primary care invoked in every debate about access, cost, and the shortage of generalist clinicians.",
+    "indications": [
+      "General"
+    ],
+    "category": "Care Delivery",
+    "sources": [
+      "NIH MedlinePlus",
+      "HRSA"
     ]
   },
   {
@@ -7915,6 +8141,21 @@
   },
   {
     "letter": "R",
+    "term": "Readmission",
+    "full": "",
+    "plain": "Going back into the hospital soon after leaving — usually counted within 30 days, and watched as a sign of care quality.",
+    "snappy": "A patient *back in the hospital* soon after discharge — often within 30 days, and often a sign something slipped.",
+    "detail": "A readmission is an unplanned return to inpatient care shortly after a discharge, conventionally measured at 30 days. It's a marquee quality metric: under value-based care, Medicare penalizes hospitals with high readmission rates, betting that better discharge planning and primary care follow-up could have prevented the bounce-back. Not every readmission is avoidable, which keeps the measure contentious. You'll hear readmission rates quoted whenever hospital quality and the DRG payment model are debated.",
+    "indications": [
+      "General"
+    ],
+    "category": "Care Delivery",
+    "sources": [
+      "CMS Glossary"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "Real-World Data",
     "full": "RWD",
     "plain": "Health data gathered during everyday care — from records, claims, and devices — rather than from a formal clinical trial.",
@@ -7988,6 +8229,21 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "When a cancer that seemed to be gone comes back, either at the original spot or somewhere new in the body."
+  },
+  {
+    "letter": "R",
+    "term": "Referral",
+    "full": "",
+    "plain": "When your regular doctor sends you to a specialist, often required before the specialist's visit is covered.",
+    "snappy": "A primary care doctor's *formal hand-off* to a specialist — the ticket you often need before specialty care will see you.",
+    "detail": "A referral is the request that moves a patient from primary care to specialty care, carrying the clinical reason and records with it. Under managed care it doubles as a cost-control valve: an insurer may require a referral, and sometimes a prior authorization, before it will cover the specialist visit. A smooth referral keeps care coordinated; a lost one is a classic crack patients fall through. You'll hear referral patterns analyzed in any look at access, network design, and care fragmentation.",
+    "indications": [
+      "General"
+    ],
+    "category": "Care Delivery",
+    "sources": [
+      "NIH MedlinePlus"
+    ]
   },
   {
     "letter": "R",
@@ -8669,6 +8925,21 @@
     "category": "Clinical",
     "sources": [
       "FDA"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Specialty Care",
+    "full": "",
+    "plain": "Care from a doctor who focuses on one area of medicine, like the heart or cancer, usually seen after a referral.",
+    "snappy": "Care from a *narrow expert* — a cardiologist, oncologist, or neurologist — usually reached through a referral rather than walking in off the street.",
+    "detail": "Specialty care picks up where primary care hands off: a clinician trained deep in one organ system or disease who manages the complex or unusual. Reaching it typically needs a referral, and under managed care a prior authorization as well. Specialists deliver much of the high-cost, high-acuity medicine — the cancer regimens, the heart failure devices — which makes them a focus of both clinical advance and spending control. You'll hear specialty care contrasted with primary care whenever access, wait times, or the cost of fragmented care comes up.",
+    "indications": [
+      "General"
+    ],
+    "category": "Care Delivery",
+    "sources": [
+      "NIH MedlinePlus"
     ]
   },
   {
@@ -9445,6 +9716,21 @@
   },
   {
     "letter": "T",
+    "term": "Triage",
+    "full": "",
+    "plain": "Quickly sorting patients so the most urgent cases are treated first, even if others arrived earlier.",
+    "snappy": "*Sorting patients by urgency* — so the heart attack is seen before the sprained ankle, no matter who arrived first.",
+    "detail": "Triage is the rapid sort that decides order of care when need outstrips capacity: a quick read of vital signs and chief complaint assigns each patient a priority level. It governs the emergency department every day and scales up to disasters and battlefields, where it can mean steering scarce resources to those most likely to benefit. The word now travels well beyond medicine. You'll hear triage in any emergency department, mass-casualty plan, or — metaphorically — overloaded inbox.",
+    "indications": [
+      "General"
+    ],
+    "category": "Care Delivery",
+    "sources": [
+      "NIH MedlinePlus"
+    ]
+  },
+  {
+    "letter": "T",
     "term": "Triglyceride",
     "full": "",
     "snappy": "The chemical form most fat is stored in — three fatty acids attached to a glycerol backbone — and a separate cardiovascular risk factor from cholesterol.",
@@ -9965,6 +10251,21 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "The first pill for advanced skin cancers of a kind that used to be very hard to treat once they spread."
+  },
+  {
+    "letter": "V",
+    "term": "Vital Signs",
+    "full": "",
+    "plain": "The basic body measurements — temperature, pulse, blood pressure, breathing, and oxygen — checked at almost every visit.",
+    "snappy": "The body's *basic readouts* — temperature, heart rate, blood pressure, breathing rate, and oxygen — the first numbers taken at every visit.",
+    "detail": "Vital signs are the quick, objective measures of how the body's core systems are doing: temperature, pulse, respiratory rate, blood pressure, and oxygen saturation, sometimes joined by pain. They drive triage in the emergency department, are tracked continuously in the intensive care unit, and a sudden swing is often the first warning of deterioration. Cheap and universal, they remain medicine's frontline dashboard. You'll hear vital signs taken at the start of essentially every clinical encounter.",
+    "indications": [
+      "General"
+    ],
+    "category": "Care Delivery",
+    "sources": [
+      "NIH MedlinePlus"
+    ]
   },
   {
     "letter": "V",
