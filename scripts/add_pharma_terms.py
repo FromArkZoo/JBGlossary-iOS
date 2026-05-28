@@ -1288,6 +1288,106 @@ BATCH_9 = [
 ]
 
 
+# ---------------------------------------------------------------------------
+# Batch 10 — HEOR / health economics & market-access depth. The corpus already
+# defines the org (ICER), HEOR, IRA, Gross-to-Net, Rebate, PBM, Formulary, and
+# the payer mechanics, but never the underlying value-and-pricing vocabulary:
+# QALY, the cost-effectiveness machinery, the price stack (list/WAC/net), the
+# affordability programs, and the value-based contracting/HTA layer. These are
+# cross-cutting commercial terms (indications=["General"]). NOTE the ICER
+# homonym: the org owns the headword, so the metric is authored as
+# "Incremental Cost-Effectiveness Ratio" and its prose hyphenates "ICE-ratio"
+# to avoid wrongly linking the bare acronym to the institute.
+# ---------------------------------------------------------------------------
+BATCH_10 = [
+    entry("QALY", "Quality-Adjusted Life Year",
+          "The *common currency of health value* — one year of life in perfect health, with sicker or shorter years scored as a fraction of it.",
+          "A QALY blends how long a treatment lets you live with how well, scoring a year on a scale from 1 (perfect health) down toward 0 (death), so half a year in full health and a full year at half quality both count as 0.5. It is the unit a Cost-Effectiveness Analysis divides spending by, feeding the Incremental Cost-Effectiveness Ratio and the Willingness-to-Pay Threshold that decide whether a drug looks worth it. Critics argue it can undervalue treatments for the disabled or elderly, and US law bars Medicare from using it directly. You'll hear QALY at the center of every Health Technology Assessment and value debate.",
+          ["ISPOR", "ICER"], indications=["General"], category="Commercial / Market Access",
+          plain="A measure combining how long you live with how good those years are, used to judge whether a treatment is worth its cost."),
+    entry("Incremental Cost-Effectiveness Ratio", "ICER (the metric, not the institute)",
+          "The *price of one extra unit of health* — the added cost of a new treatment divided by the added benefit it buys over the old one.",
+          "The incremental cost-effectiveness ratio is the workhorse number of Pharmacoeconomics: take the extra cost of a new therapy versus its comparator, divide by the extra QALYs it delivers, and you get a cost-per-QALY (the ICE-ratio). Health economists compare that figure against a Willingness-to-Pay Threshold to call a treatment good value or not, and it is the headline output of most Cost-Effectiveness Analysis. The acronym collides with the US value watchdog of the same letters, so context matters. You'll hear this ratio quoted in every Health Technology Assessment and coverage argument.",
+          ["ISPOR", "ICER"], indications=["General"], category="Commercial / Market Access",
+          plain="A number showing how much extra you pay for each extra bit of health a new treatment provides compared with the old one."),
+    entry("Cost-Effectiveness Analysis", "CEA",
+          "The *value math* of medicine — weighing what a treatment costs against the health it delivers, usually in cost per QALY.",
+          "Cost-Effectiveness Analysis compares two or more options by their costs and their outcomes, expressing the trade-off as an Incremental Cost-Effectiveness Ratio — typically cost per QALY gained. It is the core tool of Pharmacoeconomics and the analytical engine inside a Health Technology Assessment, used by payers and bodies like ICER to judge whether a price is justified. It answers value, not affordability — that second question belongs to Budget Impact Analysis. You'll hear Cost-Effectiveness Analysis cited whenever a new drug's price is defended or attacked.",
+          ["ISPOR", "ICER"], indications=["General"], category="Commercial / Market Access",
+          plain="A method that compares what a treatment costs with how much health it produces, to judge whether the price is worth it."),
+    entry("Pharmacoeconomics", "",
+          "The *economics of medicines* — the discipline that puts a value on what drugs cost and what health they buy.",
+          "Pharmacoeconomics is the branch of health economics focused on pharmaceuticals: it builds the Cost-Effectiveness Analysis, computes the Incremental Cost-Effectiveness Ratio, models QALYs, and runs the Budget Impact Analysis that together make the value case for a therapy. It draws on clinical trial data and Real-World Evidence to model long-term costs and outcomes, and its findings anchor a Health Technology Assessment and payer negotiations. Sitting beside HEOR, it is how manufacturers and payers argue over price. You'll hear Pharmacoeconomics whenever a launch price meets a payer's value bar.",
+          ["ISPOR"], indications=["General"], category="Commercial / Market Access",
+          plain="The study of how much medicines cost compared with the health benefits they deliver, used to argue over fair prices."),
+    entry("Health Technology Assessment", "HTA",
+          "A *formal verdict on value* — a structured review weighing a treatment's clinical benefit against its cost to guide coverage and price.",
+          "A Health Technology Assessment is the systematic appraisal a country or payer runs before deciding whether — and at what price — to cover a drug or device. It synthesizes the clinical evidence, a Cost-Effectiveness Analysis, the Incremental Cost-Effectiveness Ratio, and often a Budget Impact Analysis into a recommendation. Bodies like the UK's NICE and the US value watchdog ICER are its best-known practitioners, and their reports increasingly shape global pricing. You'll hear Health Technology Assessment invoked wherever access hinges on proving a therapy is worth its price.",
+          ["ISPOR", "ICER"], indications=["General"], category="Commercial / Market Access",
+          plain="A formal review that weighs a treatment's benefits against its cost to help decide whether health systems should pay for it."),
+    entry("Budget Impact Analysis", "BIA",
+          "The *affordability check* — not whether a drug is good value, but whether a payer can actually absorb the bill across its whole population.",
+          "Budget Impact Analysis estimates the total spending a new treatment will add to a payer's books over a few years, factoring in how many patients will use it, the Net Price after Rebate, and any offsetting savings. It answers a different question than Cost-Effectiveness Analysis: even a therapy with an excellent Incremental Cost-Effectiveness Ratio can blow a finite budget if enough people qualify. Payers and PBM analysts run it before adding a drug to the Formulary. You'll hear Budget Impact Analysis paired with value math in every Health Technology Assessment and coverage decision.",
+          ["ISPOR"], indications=["General"], category="Commercial / Market Access",
+          plain="An estimate of the total extra cost a new treatment adds to a health plan's budget across everyone who might use it."),
+    entry("List Price", "",
+          "The drug's *sticker price* — the official figure before any rebate or discount, which almost no one actually pays in full.",
+          "The list price is a manufacturer's published price for a medicine, anchored to its Wholesale Acquisition Cost, and it is the headline number in pricing outrage even though the Net Price after a Rebate is usually far lower. The gap between the two is the Gross-to-Net bridge. List price still matters because patient cost-sharing — a coinsurance or a deductible — is often calculated against it, so the uninsured and underinsured can be exposed to the full sticker. You'll hear list price quoted in every drug-pricing headline and political debate.",
+          ["CMS Glossary"], indications=["General"], category="Health Systems & Payers",
+          plain="A medicine's official published price before discounts — rarely what insurers actually pay, but sometimes what uninsured patients face."),
+    entry("Wholesale Acquisition Cost", "WAC",
+          "The *manufacturer's catalog price* to wholesalers — the benchmark list figure that sits before rebates and the discounts down the chain.",
+          "Wholesale Acquisition Cost is the published price a manufacturer sets for sales to wholesalers, excluding rebates and discounts; in practice it is the reference point people mean by List Price. Distributors, PBM negotiators, and payers all measure their discounts and a Rebate against it, and the spread between it and the Net Price is the Gross-to-Net gap. Because it is public, it drives benchmarks and patient cost-sharing math. You'll hear Wholesale Acquisition Cost cited as the starting line in every drug-pricing negotiation.",
+          ["CMS Glossary"], indications=["General"], category="Health Systems & Payers",
+          plain="The list price a drugmaker charges wholesalers before any discounts, used as the benchmark everyone measures their rebates against."),
+    entry("Net Price", "",
+          "What a drug *actually nets the maker* — the list price minus every rebate, discount, and fee that flows back out.",
+          "The net price is the real revenue a manufacturer keeps after stripping a Rebate, discounts, and chargebacks from the List Price or Wholesale Acquisition Cost. The journey from one to the other is the Gross-to-Net bridge, and the gap can be enormous — a drug with a soaring list price may have a flat or falling net price. PBM and payer negotiations are fought over exactly this number. You'll hear net price invoked whenever someone argues that list-price headlines overstate what is really being paid.",
+          ["CMS Glossary"], indications=["General"], category="Health Systems & Payers",
+          plain="The amount a drugmaker truly earns after all rebates and discounts are taken off the official list price."),
+    entry("Copay Accumulator", "",
+          "A payer tactic that *stops drug-company coupons from counting* toward your deductible — so the help runs out and you still owe the full amount.",
+          "A copay accumulator is a benefit-design rule used by a PBM or health plan that accepts a manufacturer's Copay assistance coupon but does not credit it toward the patient's deductible or out-of-pocket maximum. The patient gets short-term relief, then hits the full cost once the coupon is exhausted, having made no progress toward their limits. A close cousin, the copay maximizer, spreads the assistance to extract the most from it. You'll hear copay accumulator condemned by patient groups and defended by payers in every specialty-drug affordability fight.",
+          ["CMS Glossary"], indications=["General"], category="Health Systems & Payers",
+          plain="A health-plan rule that takes a drugmaker's copay coupon but doesn't count it toward your deductible, so you still owe the full amount later."),
+    entry("Patient Assistance Program", "PAP",
+          "A *safety net from the drugmaker* — free or discounted medicine for patients who can't afford it, usually the uninsured.",
+          "A Patient Assistance Program is a manufacturer-run scheme that supplies a drug at no or low cost to people who meet income rules and lack adequate coverage. It sits alongside Copay cards — which cut cost-sharing for the insured — as the industry's affordability tools, though both can be blunted by a Copay Accumulator. Critics note such programs also steer patients toward branded drugs and burnish reputations. You'll hear Patient Assistance Program mentioned wherever the gap between a high List Price and what patients can actually pay is discussed.",
+          ["NIH MedlinePlus"], indications=["General"], category="Health Systems & Payers",
+          plain="A drugmaker program that gives free or cheap medicine to people who can't afford it, usually those without good insurance."),
+    entry("Value-Based Contract", "VBC",
+          "A *pay-for-results deal* — the manufacturer's payment is tied to how well the drug actually works, with refunds if it falls short.",
+          "A value-based contract links what a payer pays for a therapy to real outcomes rather than volume: the manufacturer agrees to a Rebate or refund if the drug misses agreed targets measured in Real-World Evidence. Also called outcomes-based agreements, these deals are common for expensive one-time therapies where the long-term benefit is uncertain, and they embody the broader shift toward Value-Based Care. Tracking the outcomes and squaring them with Medicaid pricing rules is the hard part. You'll hear value-based contract cited whenever a sky-high gene-therapy price meets a nervous payer.",
+          ["ISPOR", "CMS"], indications=["General"], category="Commercial / Market Access",
+          plain="A deal where a drugmaker's payment depends on whether the medicine actually works, with money back if it doesn't."),
+    entry("Coverage with Evidence Development", "CED",
+          "*Pay now, prove it later* — a payer covers a promising treatment on condition that more evidence is gathered while patients use it.",
+          "Coverage with Evidence Development is a conditional reimbursement arrangement: a payer such as Medicare agrees to cover a treatment whose benefit is still uncertain, but only if patients are enrolled in a registry or study that builds the missing Real-World Evidence. It threads the needle between blocking access and paying blindly, and the data collected can later confirm or revoke coverage. It overlaps in spirit with a Value-Based Contract. You'll hear Coverage with Evidence Development invoked for costly therapies that clear the FDA on thin long-term data.",
+          ["CMS", "ISPOR"], indications=["General"], category="Commercial / Market Access",
+          plain="When an insurer agrees to pay for a new treatment only if more proof of its benefit is collected from patients who use it."),
+    entry("Maximum Fair Price", "MFP",
+          "The *negotiated ceiling price* the US government sets for certain top-selling drugs under the IRA's Medicare price talks.",
+          "The Maximum Fair Price is the capped amount Medicare will pay for a drug selected for negotiation under the IRA — the first US program to let the government directly bargain on medicine prices. It applies to high-spend therapies that have been on the market for years without competition, and the negotiated figure lands well below the List Price. Manufacturers that refuse to negotiate face steep excise taxes. You'll hear Maximum Fair Price discussed in every analysis of the IRA's effect on Medicare Part D and pharma revenue.",
+          ["CMS"], indications=["General"], category="Commercial / Market Access",
+          plain="The capped price the US government negotiates for certain expensive drugs that Medicare buys, under a 2022 law."),
+    entry("Comparative Effectiveness Research", "CER",
+          "*Head-to-head, real-world comparison* — studying which of several existing treatments actually works best in everyday practice.",
+          "Comparative Effectiveness Research evaluates competing treatments against each other, rather than against a placebo, to learn which delivers the most benefit in typical patients. It leans heavily on Real-World Evidence and pragmatic trials, complementing the tightly controlled Randomized Controlled Trial, and its findings feed a Health Technology Assessment and the value judgments of bodies like ICER. The aim is better-informed coverage and prescribing, not just regulatory approval. You'll hear Comparative Effectiveness Research cited wherever payers ask not 'does it work?' but 'does it work better than what we already have?'",
+          ["ISPOR", "FDA"], indications=["General"], category="Commercial / Market Access",
+          plain="Research that compares existing treatments against each other to find out which works best in real-life practice."),
+    entry("Willingness-to-Pay Threshold", "WTP",
+          "The *value line in the sand* — the most a health system will spend per QALY before calling a treatment too expensive.",
+          "The Willingness-to-Pay Threshold is the cost-per-QALY figure a payer or country uses as a benchmark: an Incremental Cost-Effectiveness Ratio below it suggests good value, above it suggests the price is too high. The UK's NICE famously works around a band of roughly £20,000–30,000 per QALY, while the US value watchdog ICER cites figures around $100,000–150,000. The threshold is a judgment call, not a law of nature, and it draws fierce debate. You'll hear Willingness-to-Pay Threshold quoted in every Health Technology Assessment verdict.",
+          ["ISPOR", "ICER"], indications=["General"], category="Commercial / Market Access",
+          plain="The most a health system is prepared to spend for one extra healthy year of life, used as a cut-off for judging a treatment's price."),
+    entry("NICE", "National Institute for Health and Care Excellence",
+          "Britain's *value gatekeeper* — the body that decides whether the health service will pay for a treatment, and the global model for cost-effectiveness review.",
+          "NICE is the UK agency that runs Health Technology Assessment for the national health service, judging treatments on clinical benefit and cost-effectiveness before they are funded. It weighs the Incremental Cost-Effectiveness Ratio against a Willingness-to-Pay Threshold of roughly £20,000–30,000 per QALY, and a 'no' can keep a drug off the UK market entirely. Its rigorous, transparent method made it the template that bodies like the US watchdog ICER consciously echo. You'll hear NICE invoked as the benchmark in every international drug-pricing and access comparison.",
+          ["ISPOR"], indications=["General"], category="Commercial / Market Access",
+          plain="The UK body that decides whether the national health service will pay for a treatment, judging both its benefit and its cost."),
+]
+
+
 BATCHES: dict[int, list] = {
     1: BATCH_1,
     2: BATCH_2,
@@ -1298,6 +1398,7 @@ BATCHES: dict[int, list] = {
     7: BATCH_7,
     8: BATCH_8,
     9: BATCH_9,
+    10: BATCH_10,
 }
 
 
