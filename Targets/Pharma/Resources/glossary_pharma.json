@@ -7031,22 +7031,6 @@
   },
   {
     "letter": "N",
-    "term": "Non-Small-Cell Lung Cancer",
-    "full": "NSCLC",
-    "snappy": "The most common form of lung cancer (about 85% of cases) — split into adenocarcinoma, squamous, and large-cell subtypes.",
-    "detail": "NSCLC is where most precision oncology drama plays out: targetable mutations like EGFR, ALK, ROS1, KRAS G12C, and MET each have approved targeted therapies, and PD-1/PD-L1 immunotherapy (Keytruda, Opdivo) is now standard in many lines. Companies routinely segment NSCLC trials by mutation status — a Keytruda earnings discussion will sound completely different from a Tagrisso one even though they're both NSCLC drugs.",
-    "indications": [
-      "Oncology"
-    ],
-    "category": "Clinical",
-    "sources": [
-      "NCI Dictionary of Cancer Terms",
-      "NIH"
-    ],
-    "plain": "The most common kind of lung cancer, accounting for about 85% of cases and now full of precision-medicine options."
-  },
-  {
-    "letter": "N",
     "term": "NOTCH",
     "full": "",
     "snappy": "A signaling pathway that decides cell fate during development — when mutated, it can drive certain leukemias and several solid tumors.",
