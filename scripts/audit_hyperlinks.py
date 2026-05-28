@@ -279,13 +279,17 @@ GENERIC_HOMONYM_HIGH_RISK = {
     # AI / cross-tech
     "Agent", "Attention", "Model", "Prompt", "Layer", "Token", "Weight",
     # Pharma / healthcare (common words that double as entries; "Agent" above
-    # is shared with AI). Senses multiply as the corpus broadens into payers
-    # and public health — insurance "Carrier", disease "Vector", drug vs
-    # regulatory "Clearance", chemical vs everyday "Solution"/"Reaction".
+    # is shared with AI). Senses multiply as the corpus broadens into payers,
+    # public health, and biostatistics — insurance "Carrier", disease "Vector",
+    # drug vs regulatory "Clearance", chemical vs everyday "Solution"/"Reaction".
+    # "Sensitivity"/"Specificity" are diagnostic-accuracy terms that collide with
+    # light/insulin/drug sensitivity and molecular specificity — and since those
+    # collisions stay inside the science cluster, only this generic check (not
+    # the category-cross check) can catch them.
     "Expression", "Vector", "Response", "Resistance", "Arm", "Label",
     "Target", "Lead", "Carrier", "Conjugate", "Clearance", "Culture",
     "Strain", "Host", "Vehicle", "Solution", "Reaction", "Base", "Buffer",
-    "Plate", "Well", "Reservoir",
+    "Plate", "Well", "Reservoir", "Sensitivity", "Specificity",
 }
 
 # Category-cluster definitions per industry. Categories in the same cluster

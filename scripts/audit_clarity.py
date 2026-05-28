@@ -95,7 +95,7 @@ HOMONYM_TERMS = {
     "expression", "vector", "response", "resistance", "arm", "label",
     "target", "lead", "carrier", "conjugate", "clearance", "culture",
     "strain", "host", "vehicle", "solution", "reaction", "base",
-    "buffer", "reservoir",
+    "buffer", "reservoir", "sensitivity", "specificity",
     # Law
     "answer", "breach", "complaint", "damages", "discovery",
     "motion", "standing", "tort", "venue", "will",

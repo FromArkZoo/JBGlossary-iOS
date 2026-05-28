@@ -1,6 +1,6 @@
 # JB Glossary — Clarity Policy
 
-**Status:** v1.0, 2026-05-19. Complements [CONTENT_STYLE_GUIDE.md](CONTENT_STYLE_GUIDE.md). Defines the rules for the **`plain` tier** (added 2026-05-19) and formalises how `snappy` and `detail` work alongside it.
+**Status:** v1.1, 2026-05-28. Complements [CONTENT_STYLE_GUIDE.md](CONTENT_STYLE_GUIDE.md). Defines the rules for the **`plain` tier** (added 2026-05-19) and formalises how `snappy` and `detail` work alongside it. Rule 4 gained a **Pharma / Healthcare watchwords** block (2026-05-28) during the JB Healthcare broaden.
 
 ## The three tiers
 
@@ -137,6 +137,27 @@ Some glossary terms share their name with common verbs or adjectives. The linker
   ✅ *"value-tilted versions underperformed"*
 
 Other Finance watchwords: `spot`, `long`, `short`, `call`, `strike`, `swap`, `futures`, `dealers`. When in doubt, rephrase.
+
+**Pharma / Healthcare watchwords.** The same trap runs through biopharma, payer, public-health, and biostatistics content: everyday words that double as a manufacturing, diagnostic, or mechanism entry. These surfaced during the JB Healthcare broaden — each ❌ below was a real auto-link the audit caught.
+
+- ❌ *"a case-control study yields odds ratios"* — `yields` auto-links to `Yield` (a manufacturing batch's output).
+  ✅ *"a case-control study gives odds ratios"*
+
+- ❌ *"the raw data is processed until it yields the real-world evidence"* — same `Yield` collision.
+  ✅ *"…until it becomes the real-world evidence"*
+
+- ❌ *"patients with housing and economic stability"* — `stability` auto-links to `Stability` (a drug's shelf-life).
+  ✅ *"patients with housing and economic standing"*
+
+- ❌ *"a migraine brings nausea and light sensitivity"* — `sensitivity` auto-links to `Sensitivity` (a test's true-positive rate).
+  ✅ *"a migraine brings nausea and aversion to light"*
+
+- ❌ *"any commercial pitch around biomarker-driven specificity"* — `specificity` auto-links to `Specificity` (a test's true-negative rate).
+  ✅ *"…biomarker-driven selectivity"*
+
+`Sensitivity` and `Specificity` are the subtle case: their wrong senses (sensory/insulin/drug sensitivity, molecular specificity) sit *inside* the science cluster alongside the real diagnostic terms, so the category-cross check can't see them — only the generic-homonym list catches them. Genuine diagnostic use ("a test's sensitivity and specificity") is correct and *should* link.
+
+Other Pharma / Healthcare watchwords: `Agent`, `Expression`, `Vector`, `Response`, `Resistance`, `Arm`, `Label`, `Lead`, `Target`, `Carrier`, `Conjugate`, `Clearance`, `Culture`, `Strain`, `Host`, `Vehicle`, `Solution`, `Reaction`, `Base`, `Buffer`, `Plate`, `Well`, `Reservoir`. Each carries a precise clinical or manufacturing sense a casual use will wrongly trigger — insurance `Carrier` vs. drug-delivery `Carrier`, disease `Vector` vs. gene-therapy `Vector`, drug `Clearance` vs. regulatory `Clearance`. When in doubt, rephrase.
 
 ### 4b. Don't inline-expand acronyms in prose
 
