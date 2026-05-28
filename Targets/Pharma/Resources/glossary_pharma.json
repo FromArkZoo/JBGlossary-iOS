@@ -31,6 +31,36 @@
   },
   {
     "letter": "A",
+    "term": "AACR",
+    "full": "American Association for Cancer Research",
+    "plain": "A major cancer-research society whose meetings showcase the early laboratory science behind future treatments.",
+    "snappy": "The major society for laboratory cancer research, where early science and translational data debut.",
+    "detail": "AACR is more bench-science focused than ASCO; its annual meeting often hosts first-in-human and mechanistic data that mature into later clinical readouts. You'll hear AACR in any discussion of early-stage oncology pipelines.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "AbbVie",
+    "full": "",
+    "plain": "The drug company behind Humira, now built around its successor immunology drugs Skyrizi and Rinvoq.",
+    "snappy": "The maker of Humira — and a case study in building a post-blockbuster franchise around Skyrizi and Rinvoq.",
+    "detail": "AbbVie was spun out of Abbott around Humira, the best-selling drug ever, and engineered a soft landing past its patent cliff with immunology successors Skyrizi and Rinvoq plus the Imbruvica oncology franchise. You'll hear AbbVie in any patent-cliff or immunology discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Accelerated Approval",
     "full": "",
     "snappy": "An FDA fast-track that lets a drug reach patients based on early evidence — but requires the company to confirm benefit in follow-up trials, or risk getting yanked.",
@@ -167,6 +197,21 @@
   },
   {
     "letter": "A",
+    "term": "Aduhelm",
+    "full": "Aducanumab",
+    "plain": "An Alzheimer's drug whose disputed approval — against the FDA's own advisers — became a major controversy before it was pulled.",
+    "snappy": "The anti-amyloid Alzheimer's antibody whose contested 2021 approval became a landmark FDA controversy.",
+    "detail": "Aduhelm targets amyloid plaques in Alzheimer's; the FDA's accelerated approval over its own advisers' objections triggered investigations and near-total payer refusal, and it was withdrawn. You'll hear Aduhelm as the cautionary tale behind later anti-amyloid drugs like Leqembi.",
+    "indications": [
+      "Neurology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Adverse Event",
     "full": "AE",
     "snappy": "Any unwanted or harmful effect a patient experiences during a clinical trial — whether or not the drug actually caused it.",
@@ -194,6 +239,21 @@
       "NIH MedlinePlus"
     ],
     "plain": "A drug that switches on a tiny dock on cells, telling them to do something — like flipping a light switch on."
+  },
+  {
+    "letter": "A",
+    "term": "AHA",
+    "full": "American Heart Association",
+    "plain": "The main US heart-health organization, whose meetings and guidelines shape how heart disease is treated.",
+    "snappy": "The leading cardiovascular organization, whose scientific sessions are a key venue for heart-drug data.",
+    "detail": "The American Heart Association sets influential guidelines and hosts a major annual scientific meeting where cardiovascular outcome trials — for SGLT2 inhibitors, PCSK9 drugs, and more — are presented. You'll hear AHA in any cardiometabolic readout discussion.",
+    "indications": [
+      "Cardiovascular"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "NIH"
+    ]
   },
   {
     "letter": "A",
@@ -287,6 +347,21 @@
   },
   {
     "letter": "A",
+    "term": "Amgen",
+    "full": "",
+    "plain": "One of the first biotech companies, a pioneer of protein-based 'biologic' medicines.",
+    "snappy": "One of the original biotechs, a pioneer of protein-based biologic drugs.",
+    "detail": "Amgen built biotech on biologics like Enbrel and the anemia drugs Epogen and Neupogen, and now markets the cholesterol antibody Repatha and the KRAS drug Lumakras, plus a growing biosimilars line. You'll hear Amgen in biologics and biosimilar discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Amino Acid",
     "full": "",
     "snappy": "The 20 chemical building blocks that proteins are made of — string them together in different orders and you get every protein in nature.",
@@ -314,6 +389,39 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A fast-moving blood cancer that takes over the bone marrow — mostly affects older adults and needs urgent treatment."
+  },
+  {
+    "letter": "A",
+    "term": "Amtagvi",
+    "full": "Lifileucel",
+    "plain": "A therapy that harvests a patient's own tumor-fighting immune cells, multiplies them in the lab, and gives billions back.",
+    "snappy": "The first tumor-infiltrating lymphocyte (TIL) therapy — it grows a patient's own tumor-fighting T-cells and gives them back.",
+    "detail": "Amtagvi expands T-cells harvested from a patient's own melanoma and reinfuses billions, a different cell-therapy approach from CAR-T, for advanced melanoma after other treatments fail. You'll hear Amtagvi as the first TIL therapy in cell-therapy discussion.",
+    "indications": [
+      "Oncology",
+      "Dermatology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Amyloidosis",
+    "full": "",
+    "plain": "A group of rare diseases where misfolded proteins build up in organs like the heart and nerves, gumming up how they work.",
+    "snappy": "Rare diseases of misfolded-protein deposits damaging heart or nerves; a hot area since RNA drugs like Onpattro arrived.",
+    "detail": "In amyloidosis, misfolded proteins (often transthyretin, ATTR) deposit in tissue. ATTR therapies — Onpattro, an siRNA, plus Vyndaqel — energized rare-disease pipelines. You'll hear amyloidosis in cardiology and rare-disease readouts and any RNA-therapeutics discussion.",
+    "indications": [
+      "Rare Disease",
+      "Cardiovascular"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "NIH"
+    ]
   },
   {
     "letter": "A",
@@ -535,6 +643,36 @@
   },
   {
     "letter": "A",
+    "term": "ASCO",
+    "full": "American Society of Clinical Oncology",
+    "plain": "The main professional society for cancer doctors; its yearly meeting is where big new cancer-treatment results are revealed.",
+    "snappy": "The largest cancer-doctor society; its annual meeting is where practice-changing oncology data lands.",
+    "detail": "ASCO's annual meeting each spring is the field's biggest stage — major trial readouts there can move stock prices and rewrite guidelines overnight. You'll hear 'at ASCO' as shorthand for where new cancer data is unveiled and debated.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "ASH",
+    "full": "American Society of Hematology",
+    "plain": "The big professional society for blood diseases; its yearly meeting is where major leukemia and lymphoma results are shown.",
+    "snappy": "The blood-disease equivalent of ASCO — its annual meeting is the marquee event for leukemia, lymphoma, and myeloma data.",
+    "detail": "ASH's December meeting is where blood-cancer and blood-disorder trials are presented, driving sentiment on franchises like BTK inhibitors and CAR-T. You'll hear 'at ASH' wherever leukemia, lymphoma, or multiple myeloma results are discussed.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Assay",
     "full": "",
     "snappy": "A laboratory test that measures something — usually whether a drug works, how much of it is present, or what it does to cells.",
@@ -563,6 +701,21 @@
       "NIH MedlinePlus"
     ],
     "plain": "A long-term lung condition where the airways tighten and swell up, making it hard to breathe — ranges from mild to life-threatening."
+  },
+  {
+    "letter": "A",
+    "term": "AstraZeneca",
+    "full": "AZ",
+    "plain": "An Anglo-Swedish pharmaceutical giant with an especially deep cancer-drug pipeline.",
+    "snappy": "The Anglo-Swedish pharma giant with a deep oncology pipeline — Tagrisso, Imfinzi, Lynparza, Enhertu.",
+    "detail": "AstraZeneca rebuilt around oncology (Tagrisso, Imfinzi, Calquence, Lynparza, Enhertu) and cardiometabolic drugs like Farxiga, after fending off a 2014 Pfizer takeover. You'll hear AstraZeneca across lung cancer and cardiometabolic readouts and biopharma M&A.",
+    "indications": [
+      "General"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "A",
@@ -609,6 +762,22 @@
       "NIH"
     ],
     "plain": "The smallest building block of any chemical element — tiny clusters of protons, neutrons, and electrons that everything is made of."
+  },
+  {
+    "letter": "A",
+    "term": "Atopic Dermatitis",
+    "full": "",
+    "plain": "The most common form of eczema — itchy, inflamed skin — now treatable with targeted biologic injections, not just creams.",
+    "snappy": "Chronic itchy, inflamed skin (eczema); the arrival of Dupixent turned it into a major biologics market.",
+    "detail": "Atopic dermatitis is driven by IL-4 and IL-13 immune signaling. Dupixent was the breakthrough biologic; JAK inhibitors like Rinvoq followed. You'll hear atopic dermatitis (often 'AD') in dermatology and immunology pipeline talk at JPMorgan.",
+    "indications": [
+      "Dermatology",
+      "Immunology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "NIH MedlinePlus"
+    ]
   },
   {
     "letter": "A",
@@ -672,6 +841,22 @@
     "plain": "When the immune system gets confused and starts attacking the body's own healthy cells instead of real invaders."
   },
   {
+    "letter": "A",
+    "term": "Avastin",
+    "full": "Bevacizumab",
+    "plain": "The first drug to starve tumors by cutting off their blood supply, blocking the signal cancers use to grow new vessels.",
+    "snappy": "The first anti-angiogenesis drug — it starves tumors by blocking VEGF, the signal they use to grow new blood vessels.",
+    "detail": "Avastin blocks VEGF to choke off a tumor's blood supply, used across colorectal, lung, kidney, and ovarian cancer, often with chemo. Now facing biosimilars. You'll hear Avastin as the founding angiogenesis story in oncology.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
     "letter": "B",
     "term": "B-cell",
     "full": "",
@@ -686,6 +871,22 @@
       "NIH"
     ],
     "plain": "The white blood cell that makes antibodies — a key player in the immune system and the source of many blood cancers."
+  },
+  {
+    "letter": "B",
+    "term": "Balversa",
+    "full": "Erdafitinib",
+    "plain": "A bladder cancer drug for tumors with a specific gene fault, chosen by testing the tumor's DNA first.",
+    "snappy": "An FGFR inhibitor for bladder cancer driven by FGFR gene alterations.",
+    "detail": "Balversa targets FGFR mutations and fusions in advanced bladder cancer, selected by genetic testing — another precision approach in a historically chemo-driven cancer. You'll hear Balversa in FGFR-altered bladder cancer discussion.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "B",
@@ -811,6 +1012,36 @@
   },
   {
     "letter": "B",
+    "term": "Bioequivalence",
+    "full": "",
+    "plain": "Proof that a generic drug behaves the same in the body as the brand — the basis for approving generics without new trials.",
+    "snappy": "The proof that a generic drug behaves the same in the body as the brand — the core of how generics get approved without new trials.",
+    "detail": "Bioequivalence studies compare a generic's Cmax and AUC against the brand; if they fall within a tight statistical window, the FDA deems them interchangeable. It's why a generic can skip efficacy trials. You'll hear bioequivalence in any generic drug or ANDA discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Regulatory",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Biogen",
+    "full": "",
+    "plain": "A biotech focused on brain diseases — long a leader in multiple sclerosis and central to the Alzheimer's drug debate.",
+    "snappy": "A neuroscience-focused biotech, long a leader in multiple sclerosis and a central figure in the Alzheimer's amyloid saga.",
+    "detail": "Biogen built its business in multiple sclerosis and co-developed the contested Alzheimer's drug Aduhelm and its successor Leqembi (with Eisai). You'll hear Biogen in any neurology or anti-amyloid discussion.",
+    "indications": [
+      "Neurology"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "Biologic",
     "full": "",
     "snappy": "A drug grown from living cells rather than synthesized in a chemistry lab — antibodies, proteins, vaccines, and gene therapies all fall under the biologic umbrella.",
@@ -841,6 +1072,22 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A measurable biological clue — like a fingerprint your body leaves behind — that tells doctors what's happening inside you."
+  },
+  {
+    "letter": "B",
+    "term": "BioNTech",
+    "full": "",
+    "plain": "A German biotech that co-created the Pfizer COVID-19 vaccine and is now applying mRNA to cancer.",
+    "snappy": "The German mRNA pioneer that co-developed the Pfizer COVID-19 vaccine and is pivoting to cancer.",
+    "detail": "BioNTech's mRNA technology powered the Pfizer-BioNTech COVID-19 vaccine and now drives a pipeline of mRNA cancer vaccines and immunotherapies. You'll hear BioNTech alongside Moderna in any mRNA-platform discussion.",
+    "indications": [
+      "Infectious Disease",
+      "Oncology"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "B",
@@ -982,6 +1229,21 @@
   },
   {
     "letter": "B",
+    "term": "Boxed Warning",
+    "full": "Black Box Warning",
+    "plain": "The FDA's strongest safety alert — a warning boxed at the top of a drug's label to flag a serious or life-threatening risk.",
+    "snappy": "The FDA's strongest safety alert, boxed at the top of a drug's label to flag a serious or life-threatening risk.",
+    "detail": "A boxed warning (the old 'black box') signals risks like clotting, suicidality, or organ damage and can sharply curb a drug's use — the JAK inhibitor class carries one. You'll hear boxed warning in any pharmacovigilance, label-negotiation, or commercial-risk discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Pharmacovigilance",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "BRAF",
     "full": "",
     "snappy": "A gene that, when mutated, drives uncontrolled cell growth — found in about half of all melanomas, plus some lung and colon cancers.",
@@ -1010,6 +1272,22 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "Cancer that started elsewhere — often lung, breast, or skin — and spread into the brain, where most drugs can't easily reach it."
+  },
+  {
+    "letter": "B",
+    "term": "BRCA",
+    "full": "BReast CAncer gene",
+    "plain": "Two genes that normally repair DNA. Inherited faults sharply raise breast and ovarian cancer risk — the 'Angelina Jolie gene.'",
+    "snappy": "The DNA-repair genes whose inherited mutations drive hereditary breast and ovarian cancer — and flag who benefits from PARP inhibitors.",
+    "detail": "BRCA1 and BRCA2 normally repair DNA. Inherited mutations sharply raise breast and ovarian cancer risk and leave a tumor unable to repair DNA well — making it vulnerable to PARP inhibitors like Lynparza. You'll hear BRCA in genetic-testing, HRD, and hereditary-cancer discussion at ASCO.",
+    "indications": [
+      "Oncology",
+      "Women's Health"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "NHGRI"
+    ]
   },
   {
     "letter": "B",
@@ -1075,6 +1353,53 @@
   },
   {
     "letter": "B",
+    "term": "Breyanzi",
+    "full": "Lisocabtagene Maraleucel",
+    "plain": "A 'living drug' of re-engineered immune cells for lymphoma, one of several rival CAR-T treatments.",
+    "snappy": "Bristol Myers Squibb's CD19-directed CAR-T therapy for large B-cell lymphoma and CLL.",
+    "detail": "Breyanzi is a CD19 CAR-T competing with Yescarta and Kymriah, with a profile that pushed CAR-T into earlier lines of lymphoma therapy. You'll hear Breyanzi in CAR-T competitive and manufacturing-capacity discussion at ASH.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Bristol Myers Squibb",
+    "full": "BMS",
+    "plain": "A pharmaceutical company best known for the cancer immunotherapy Opdivo and the blood thinner Eliquis.",
+    "snappy": "The pharma company behind the checkpoint inhibitor Opdivo and the blood thinner Eliquis.",
+    "detail": "Bristol Myers Squibb (BMS) built its immuno-oncology franchise on Opdivo and Yervoy, co-markets Eliquis with Pfizer, and added Celgene's blood-cancer portfolio. Recent launches include Krazati, Breyanzi, and Cobenfy. You'll hear BMS in immuno-oncology and patent-cliff discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Brukinsa",
+    "full": "Zanubrutinib",
+    "plain": "A blood cancer pill that blocks the same target as Imbruvica — notable as a major cancer drug developed largely in China.",
+    "snappy": "BeiGene's BTK inhibitor for CLL and lymphomas, notable as a major drug developed largely in China.",
+    "detail": "Brukinsa is a selective BTK inhibitor competing in CLL and several lymphomas, and a landmark for Chinese-originated oncology drugs reaching global markets. You'll hear Brukinsa in BTK-class share debates at ASH.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "BTK",
     "full": "Bruton's Tyrosine Kinase",
     "snappy": "A signaling protein that helps cancerous B-cells survive and multiply — and the target of a major class of leukemia and lymphoma drugs.",
@@ -1117,6 +1442,22 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A blood cancer so fast-growing the cells can double in under a day, but often curable with intense chemo when caught early."
+  },
+  {
+    "letter": "C",
+    "term": "Calquence",
+    "full": "Acalabrutinib",
+    "plain": "A more refined version of the first BTK-blocking blood cancer pill, designed to hit its target more cleanly.",
+    "snappy": "AstraZeneca's more selective second-generation BTK inhibitor for CLL and mantle cell lymphoma.",
+    "detail": "Calquence blocks BTK like Imbruvica but more selectively, aiming for fewer off-target side effects. A key AstraZeneca hematology product. You'll hear Calquence alongside Brukinsa in any next-generation BTK discussion at ASH.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "C",
@@ -1177,6 +1518,36 @@
       "NIH MedlinePlus"
     ],
     "plain": "The most-ordered blood test in medicine — counts red cells, white cells, and platelets to check for anemia, infection, and much more."
+  },
+  {
+    "letter": "C",
+    "term": "CD19",
+    "full": "Cluster of Differentiation 19",
+    "plain": "A flag found on B-cells. Because it marks them so reliably, it's the bullseye for CAR-T therapies that treat blood cancers.",
+    "snappy": "A protein on the surface of B-cells; because it marks them so reliably, it's the target of CAR-T cell therapies for blood cancers.",
+    "detail": "CD19 sits on nearly all B-cells, normal and cancerous. CAR-T therapies — Kymriah, Yescarta, Breyanzi — re-engineer a patient's T-cells to hunt CD19, curing some otherwise-fatal leukemias and lymphomas. You'll hear CD19 in any cell-therapy or B-cell-malignancy discussion at ASH.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "CDC",
+    "full": "Centers for Disease Control and Prevention",
+    "plain": "The US public-health agency that tracks diseases and sets guidance on prevention and vaccines.",
+    "snappy": "The US public-health agency that tracks disease, runs surveillance, and sets prevention and vaccine guidance.",
+    "detail": "The CDC monitors outbreaks, runs disease surveillance, and issues immunization and prevention recommendations that shape clinical practice and reimbursement. You'll hear the CDC in any public-health, epidemiology, or vaccine-policy discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "CDC"
+    ]
   },
   {
     "letter": "C",
@@ -1394,6 +1765,36 @@
   },
   {
     "letter": "C",
+    "term": "CLL",
+    "full": "Chronic Lymphocytic Leukemia",
+    "plain": "The most common adult leukemia — often slow-growing — now treated with targeted pills instead of chemo.",
+    "snappy": "The most common adult leukemia; BTK inhibitors like Imbruvica and the BCL2 blocker Venclexta largely replaced chemo.",
+    "detail": "CLL is a slow B-cell leukemia. Treatment shifted from chemo to targeted agents — BTK inhibitors Imbruvica, Calquence, and Brukinsa, plus BCL2 inhibitor Venclexta. You'll hear CLL dominate ASH hematology sessions and BTK-franchise earnings discussion.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Cmax",
+    "full": "Maximum Concentration",
+    "plain": "The peak level a drug reaches in your blood after a dose — the high-water mark.",
+    "snappy": "The peak blood concentration a drug reaches after a dose; paired with Tmax (the time to reach it) in every PK profile.",
+    "detail": "Cmax is the high-water mark of a drug in plasma; Tmax is when it occurs. With AUC and half-life they define pharmacokinetics and drive dosing. You'll hear Cmax in bioequivalence, formulation, and drug-interaction reviews at the FDA.",
+    "indications": [
+      "General"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Cmax/Tmax",
     "full": "",
     "snappy": "The two most-watched numbers when a drug is being measured in the blood — Cmax is the peak concentration it reaches, Tmax is how long it took to get there.",
@@ -1422,6 +1823,66 @@
       "FDA"
     ],
     "plain": "The detailed file describing exactly how a drug is made, tested, and kept the same batch after batch — required for FDA approval."
+  },
+  {
+    "letter": "C",
+    "term": "CML",
+    "full": "Chronic Myeloid Leukemia",
+    "plain": "A slow blood cancer driven by one gene glitch — the first cancer turned into a manageable condition by a targeted pill.",
+    "snappy": "A blood cancer caused by the BCR-ABL fusion gene; Gleevec turned it from fatal into a near-normal lifespan — oncology's targeted-therapy poster child.",
+    "detail": "CML is driven by the Philadelphia-chromosome BCR-ABL fusion. Gleevec and later tyrosine kinase inhibitors made near-normal life expectancy routine — the landmark proof that targeting a cancer's specific driver works. You'll hear CML at ASH and as the reference story in any targeted-therapy pitch.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "CMS",
+    "full": "Centers for Medicare & Medicaid Services",
+    "plain": "The US agency that runs Medicare and Medicaid — together the biggest payer for healthcare in the country.",
+    "snappy": "The federal agency that runs Medicare and Medicaid — the single biggest payer for healthcare in the US.",
+    "detail": "CMS administers Medicare and Medicaid, so its coverage and payment decisions — and now Medicare drug-price negotiation — move the entire market. You'll hear CMS in any reimbursement, formulary, or drug-pricing-policy discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "CMS"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "CNS",
+    "full": "Central Nervous System",
+    "plain": "The brain and spinal cord. Drugs struggle to reach it because of a protective barrier, which shapes how diseases there are treated.",
+    "snappy": "The brain and spinal cord; the blood-brain barrier makes it a pharmacological fortress, so 'CNS penetration' is a prized drug property.",
+    "detail": "Whether a drug crosses into the CNS determines its use against brain metastases and neurological disease. Newer kinase inhibitors like Tagrisso are valued for CNS penetration. You'll hear 'CNS activity' and 'CNS progression' in lung-cancer and neurology readouts and any blood-brain-barrier discussion.",
+    "indications": [
+      "Neurology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "NIH"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Cobenfy",
+    "full": "Xanomeline/Trospium",
+    "plain": "The first schizophrenia drug in decades to work in a brand-new way, aiming to avoid the side effects of older antipsychotics.",
+    "snappy": "The first schizophrenia drug in decades to work a new way — through muscarinic receptors rather than blocking dopamine.",
+    "detail": "Cobenfy targets muscarinic receptors, a mechanism shift from every prior antipsychotic and a chance to avoid their weight and movement side effects. A Bristol Myers Squibb product (via Karuna). You'll hear Cobenfy as the big mental-health launch and new mechanism story.",
+    "indications": [
+      "Mental Health"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "NIH NIMH"
+    ]
   },
   {
     "letter": "C",
@@ -1469,6 +1930,21 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "Cancer of the colon or rectum — the third most common cancer worldwide, and one of the easiest to catch early with screening."
+  },
+  {
+    "letter": "C",
+    "term": "Companion Diagnostic",
+    "full": "CDx",
+    "plain": "A test that decides who should get a drug — pairing a targeted therapy with the marker it needs to work.",
+    "snappy": "A test that decides who gets a drug — pairing a targeted therapy with the biomarker it requires, often approved alongside it.",
+    "detail": "A companion diagnostic identifies patients whose tumor or genetics match a drug's target — PD-L1 staining for Keytruda, EGFR testing for Tagrisso. The FDA often approves drug and test together. You'll hear 'CDx' in any precision-medicine or diagnostics-partnership discussion.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Diagnostics",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "C",
@@ -1875,6 +2351,23 @@
   },
   {
     "letter": "D",
+    "term": "Dupixent",
+    "full": "Dupilumab",
+    "plain": "A breakthrough injection for severe eczema and asthma that calms the specific kind of inflammation driving allergic disease.",
+    "snappy": "An IL-4/IL-13 blocker that opened the biologics era in atopic dermatitis, then asthma and beyond — a Sanofi/Regeneron megabrand.",
+    "detail": "Dupixent calms type-2 inflammation, transforming moderate-to-severe atopic dermatitis and asthma and expanding into COPD and other allergic diseases. You'll hear Dupixent as the breakout immunology drug on every Sanofi and Regeneron call.",
+    "indications": [
+      "Immunology",
+      "Dermatology",
+      "Respiratory"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "Duration of Response",
     "full": "DoR",
     "snappy": "How long a drug keeps working in patients who initially respond to it — a measure of staying power, not just whether tumors shrink at first.",
@@ -1937,6 +2430,36 @@
   },
   {
     "letter": "E",
+    "term": "Eli Lilly",
+    "full": "Lilly",
+    "plain": "A US pharmaceutical company that, with Novo Nordisk, leads the GLP-1 weight-loss and diabetes boom.",
+    "snappy": "The US pharma company that, with Novo Nordisk, leads the GLP-1 boom via Mounjaro and Zepbound.",
+    "detail": "Eli Lilly's tirzepatide (Mounjaro for diabetes, Zepbound for obesity) and the SGLT2 drug Jardiance made it a cardiometabolic powerhouse, alongside a growing Alzheimer's and oncology pipeline. You'll hear Lilly in every GLP-1 and obesity-market discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Eliquis",
+    "full": "Apixaban",
+    "plain": "A widely used blood thinner that prevents strokes and clots, simpler to take than the older warfarin it replaced.",
+    "snappy": "A factor Xa blood thinner — one of the world's top-selling drugs — used to prevent strokes and clots.",
+    "detail": "Eliquis is a direct oral anticoagulant (DOAC) that largely replaced warfarin for atrial fibrillation and clot prevention, with no routine monitoring. A BMS/Pfizer franchise facing looming generics. You'll hear Eliquis in any anticoagulant or Medicare drug-pricing discussion.",
+    "indications": [
+      "Cardiovascular"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "EMA",
     "full": "European Medicines Agency",
     "snappy": "The FDA's European counterpart — the body that approves drugs and biologics for use across the EU.",
@@ -1949,6 +2472,21 @@
       "FDA"
     ],
     "plain": "Europe's drug regulator — the body that decides which medicines can be sold across the EU."
+  },
+  {
+    "letter": "E",
+    "term": "Enbrel",
+    "full": "Etanercept",
+    "plain": "An early drug that calms the inflammation behind arthritis and psoriasis by soaking up an inflammatory signal.",
+    "snappy": "One of the first anti-TNF biologics, long a mainstay for rheumatoid arthritis and psoriasis.",
+    "detail": "Enbrel is a decoy receptor that mops up TNF, easing rheumatoid arthritis, psoriasis, and psoriatic arthritis. An early biologic blockbuster for Amgen and Pfizer. You'll hear Enbrel alongside Humira and Remicade as the founding anti-TNF trio.",
+    "indications": [
+      "Immunology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "E",
@@ -1995,6 +2533,23 @@
       "FDA"
     ],
     "plain": "What a clinical trial actually measures to decide if a drug works — survival, tumor shrinkage, or quality of life."
+  },
+  {
+    "letter": "E",
+    "term": "Enhertu",
+    "full": "Trastuzumab Deruxtecan",
+    "plain": "A 'guided missile' breast cancer drug so potent it helps even patients with very low levels of its target — a recent breakthrough.",
+    "snappy": "A next-generation HER2 antibody-drug conjugate that redefined the field by working even in 'HER2-low' breast cancer.",
+    "detail": "Enhertu is an ADC whose potent payload and 'bystander effect' expanded treatment to HER2-low tumors once thought HER2-negative. A major AstraZeneca/Daiichi Sankyo product, it's reshaped breast and lung cancer. You'll hear Enhertu as the standout ADC at every ASCO.",
+    "indications": [
+      "Oncology",
+      "Women's Health"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "E",
@@ -2107,6 +2662,22 @@
   },
   {
     "letter": "E",
+    "term": "Estrogen Receptor",
+    "full": "ER",
+    "plain": "A docking point for the hormone estrogen. Many breast cancers grow through it, so blocking it is a core treatment.",
+    "snappy": "The protein estrogen binds to; most breast cancers are 'ER-positive' and grow on estrogen — the rationale for endocrine therapy.",
+    "detail": "About 70% of breast cancers are ER-positive, meaning estrogen fuels them; endocrine therapies such as tamoxifen and aromatase inhibitors starve that signal. ER status, with the progesterone receptor and HER2, defines breast-cancer subtype and treatment. You'll hear 'ER-positive' in every breast cancer discussion at ASCO.",
+    "indications": [
+      "Oncology",
+      "Women's Health"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Ewing Sarcoma",
     "full": "",
     "snappy": "A rare bone and soft-tissue cancer that mostly affects teenagers and young adults — driven by a single, almost-defining gene fusion.",
@@ -2167,6 +2738,22 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "An inherited condition where someone grows hundreds or thousands of bowel polyps — almost all of which will turn into cancer without surgery."
+  },
+  {
+    "letter": "F",
+    "term": "Farxiga",
+    "full": "Dapagliflozin",
+    "plain": "A diabetes pill, like Jardiance, that also protects the heart and kidneys — now used for far more than blood sugar.",
+    "snappy": "AstraZeneca's SGLT2 inhibitor, like Jardiance a diabetes drug that became a heart-failure and kidney mainstay.",
+    "detail": "Farxiga spills glucose into urine and proved cardiovascular and kidney benefit in major outcome trials, broadening far beyond diabetes. You'll hear Farxiga alongside Jardiance as the leading SGLT2 inhibitors at AHA and ACC.",
+    "indications": [
+      "Metabolic",
+      "Cardiovascular"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "F",
@@ -2475,6 +3062,21 @@
   },
   {
     "letter": "G",
+    "term": "Gilead",
+    "full": "Gilead Sciences",
+    "plain": "A biotech company that made hepatitis C curable and leads in HIV treatment.",
+    "snappy": "The biotech that cured hepatitis C with Sovaldi and Harvoni and built the modern HIV-treatment market.",
+    "detail": "Gilead Sciences dominates HIV therapy and cured hepatitis C with Sovaldi and Harvoni — whose pricing sparked national debate — and entered cell therapy by buying Kite, maker of Yescarta. You'll hear Gilead in antiviral and drug-pricing discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "G",
     "term": "GIST",
     "full": "Gastrointestinal Stromal Tumor",
     "snappy": "A rare sarcoma of the digestive tract — and one of oncology's biggest precision-medicine wins after Gleevec turned a deadly cancer into a manageable disease.",
@@ -2489,6 +3091,22 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A rare digestive-tract cancer — one of precision medicine's biggest wins after a targeted drug turned a deadly disease into a manageable one."
+  },
+  {
+    "letter": "G",
+    "term": "Gleevec",
+    "full": "Imatinib",
+    "plain": "The pill that launched targeted cancer therapy — turning a once-fatal leukemia into a condition people live with for decades.",
+    "snappy": "The drug that started targeted therapy — a daily pill that turned BCR-ABL-driven CML from fatal into a near-normal lifespan.",
+    "detail": "Gleevec blocks the BCR-ABL tyrosine kinase that causes chronic myeloid leukemia, and also treats GIST. Its 2001 success proved a cancer's specific driver could be drugged. You'll hear Gleevec as the reference story in any targeted-therapy or TKI discussion.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "G",
@@ -2676,6 +3294,21 @@
   },
   {
     "letter": "H",
+    "term": "Harvoni",
+    "full": "Ledipasvir/Sofosbuvir",
+    "plain": "A one-pill-a-day cure for hepatitis C that made treatment simpler than the breakthrough drug before it.",
+    "snappy": "A single-pill hepatitis C cure that built on Sovaldi, simplifying treatment to one tablet a day.",
+    "detail": "Harvoni combined sofosbuvir with a second antiviral so most patients needed no interferon or ribavirin, achieving cure rates above 95%. A Gilead follow-up to Sovaldi. You'll hear Harvoni in any hepatitis C or drug-pricing retrospective.",
+    "indications": [
+      "Infectious Disease"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "H",
     "term": "Hazard Ratio",
     "full": "HR",
     "snappy": "A statistical number comparing the risk of an event happening between a treatment group and a control group — under 1.0 means the treatment helps.",
@@ -2849,6 +3482,23 @@
   },
   {
     "letter": "H",
+    "term": "Herceptin",
+    "full": "Trastuzumab",
+    "plain": "The first targeted drug for an aggressive breast cancer subtype, turning a once-grim diagnosis into a treatable one.",
+    "snappy": "The original anti-HER2 antibody — it turned HER2-positive breast cancer from a death sentence into a treatable disease.",
+    "detail": "Herceptin targets the HER2 protein overexpressed in ~20% of breast cancers and some stomach cancers. A landmark of targeted therapy, it now faces biosimilar competition. You'll hear Herceptin as the founding HER2 story in any breast cancer or biosimilars discussion.",
+    "indications": [
+      "Oncology",
+      "Women's Health"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "H",
     "term": "Hereditary Cancer Syndromes",
     "full": "",
     "snappy": "Inherited gene mutations that pass cancer risk down through families — the reason some people develop multiple cancers, or get them young.",
@@ -2959,6 +3609,36 @@
   },
   {
     "letter": "H",
+    "term": "HRSA",
+    "full": "Health Resources and Services Administration",
+    "plain": "The US agency that improves healthcare access for underserved communities and runs the 340B drug-discount program.",
+    "snappy": "The federal agency for healthcare access in underserved communities — and the administrator of the 340B drug-discount program.",
+    "detail": "HRSA funds community health centers and the safety net, and runs 340B, which requires drugmakers to discount outpatient drugs for qualifying hospitals and clinics — a growing flashpoint between pharma and providers. You'll hear HRSA mostly in 340B disputes.",
+    "indications": [
+      "General"
+    ],
+    "category": "Health Systems & Payers",
+    "sources": [
+      "HRSA"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "Humira",
+    "full": "Adalimumab",
+    "plain": "A drug that calms inflammation in arthritis and gut disease — and, for years, the single best-selling medicine in the world.",
+    "snappy": "The anti-TNF biologic that became the best-selling drug in history before biosimilars finally arrived.",
+    "detail": "Humira blocks TNF to calm rheumatoid arthritis, psoriasis, and inflammatory bowel disease. AbbVie's franchise peaked above $20B a year, and its long-delayed loss of exclusivity is a case study in patent strategy. You'll hear Humira whenever biosimilars or the patent cliff come up.",
+    "indications": [
+      "Immunology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "H",
     "term": "Hydrogen Bond",
     "full": "",
     "snappy": "A weak chemical attraction between a hydrogen atom and certain neighboring atoms — individually small, but biology stacks them by the millions to hold things together.",
@@ -3004,6 +3684,22 @@
   },
   {
     "letter": "I",
+    "term": "IBD",
+    "full": "Inflammatory Bowel Disease",
+    "plain": "Short for inflammatory bowel disease — long-term gut inflammation, mainly Crohn's disease and ulcerative colitis.",
+    "snappy": "The common abbreviation for inflammatory bowel disease — chronic gut inflammation, mainly Crohn's disease and ulcerative colitis.",
+    "detail": "IBD covers Crohn's disease and ulcerative colitis, both driven by an overactive gut immune response and treated with anti-TNF biologics, IL-23 blockers, and JAK inhibitors. You'll hear 'IBD' across gastroenterology and immunology pipeline talk.",
+    "indications": [
+      "Gastroenterology",
+      "Immunology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "NIH MedlinePlus"
+    ]
+  },
+  {
+    "letter": "I",
     "term": "ICER",
     "full": "Institute for Clinical and Economic Review",
     "snappy": "An independent US watchdog that crunches the numbers on whether a new drug is worth its price — and publishes verdicts that increasingly shape what insurers will pay.",
@@ -3016,6 +3712,21 @@
       "ICER"
     ],
     "plain": "An independent US group that crunches the math on whether a new drug is worth its price, and publishes verdicts insurers watch."
+  },
+  {
+    "letter": "I",
+    "term": "IDH",
+    "full": "Isocitrate Dehydrogenase",
+    "plain": "An enzyme that, when mutated, can drive certain leukemias and brain tumors — and a target for newer drugs.",
+    "snappy": "A metabolic enzyme whose mutations drive some AML and gliomas; IDH inhibitors are a targeted option in those cancers.",
+    "detail": "Mutated IDH1/IDH2 produce an 'oncometabolite' that blocks cells from maturing. Inhibitors such as Tibsovo treat IDH-mutant AML and glioma. You'll hear IDH in leukemia and brain-tumor readouts at ASH and ASCO and in precision-oncology pipeline talk.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "I",
@@ -3035,6 +3746,21 @@
   },
   {
     "letter": "I",
+    "term": "IL",
+    "full": "Interleukin",
+    "plain": "A family of messenger proteins immune cells use to talk. Blocking specific ones — like IL-23 — treats psoriasis and other diseases.",
+    "snappy": "Signaling cytokines immune cells use to coordinate; pinning down specific ones (IL-23, IL-17, IL-4) created precise inflammation drugs.",
+    "detail": "Interleukins are numbered cytokines. Targeting them spawned blockbusters: IL-23 blockers Skyrizi, Stelara, and Tremfya for psoriasis; IL-4/13 blocker Dupixent for atopic dermatitis. You'll hear specific IL numbers in every immunology pipeline pitch at JPMorgan.",
+    "indications": [
+      "Immunology"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "NIH"
+    ]
+  },
+  {
+    "letter": "I",
     "term": "Imatinib",
     "full": "Gleevec",
     "snappy": "The first true targeted cancer therapy — approved in 2001 for CML, and still the textbook proof that designing drugs against specific mutations works.",
@@ -3047,6 +3773,38 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "The first drug ever designed to hit a specific cancer mutation — and the proof that precision oncology could actually work."
+  },
+  {
+    "letter": "I",
+    "term": "Imbruvica",
+    "full": "Ibrutinib",
+    "plain": "The first pill to replace chemo for a common blood cancer, by blocking a switch the cancer cells depend on to survive.",
+    "snappy": "The first BTK inhibitor — it transformed CLL and other B-cell cancers from chemo to a daily pill.",
+    "detail": "Imbruvica blocks Bruton's tyrosine kinase (BTK) that B-cell cancers depend on, reshaping treatment of CLL and mantle cell lymphoma. A major AbbVie/J&J franchise. You'll hear Imbruvica as the pioneer BTK inhibitor at every ASH.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Imfinzi",
+    "full": "Durvalumab",
+    "plain": "A cancer immunotherapy that blocks a tumor's immune off-switch, used especially in lung cancer after chemo and radiation.",
+    "snappy": "AstraZeneca's anti-PD-L1 checkpoint inhibitor, established in lung, biliary, and liver cancer.",
+    "detail": "Imfinzi blocks PD-L1 and is a mainstay after chemoradiation in stage III NSCLC, plus small-cell lung and biliary cancer. It's central to AstraZeneca's oncology growth. You'll hear Imfinzi in lung and GI readouts at ASCO.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "I",
@@ -3092,6 +3850,21 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "Treatments that turn the body's own immune system loose on cancer — by lifting its brakes or sharpening its aim."
+  },
+  {
+    "letter": "I",
+    "term": "IMRT",
+    "full": "Intensity-Modulated Radiation Therapy",
+    "plain": "A precise form of radiation that shapes the beam to the tumor, sparing nearby healthy tissue.",
+    "snappy": "Radiation therapy that sculpts beam intensity to the tumor's shape, sparing surrounding organs.",
+    "detail": "IMRT uses computer-controlled beams of varying intensity to conform dose tightly to a tumor while sparing adjacent tissue. It's standard for head-and-neck, prostate, and many other cancers. You'll hear IMRT alongside proton therapy and SBRT in radiation-oncology discussion.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "I",
@@ -3312,6 +4085,21 @@
   },
   {
     "letter": "I",
+    "term": "ISPOR",
+    "full": "Professional Society for Health Economics and Outcomes Research",
+    "plain": "The professional society for the field that measures the value and cost-effectiveness of medical treatments.",
+    "snappy": "The professional society for health economics and outcomes research (HEOR) — the discipline of valuing medical care.",
+    "detail": "ISPOR sets methods and standards for HEOR — cost-effectiveness, quality-adjusted life years, and the evidence used in market-access and pricing decisions worldwide. You'll hear ISPOR alongside ICER in any value-assessment or reimbursement discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "ISPOR"
+    ]
+  },
+  {
+    "letter": "I",
     "term": "IV",
     "full": "Intravenous",
     "snappy": "Drug delivery directly into a vein — bypassing the digestive system entirely and giving you 100% bioavailability immediately.",
@@ -3324,6 +4112,21 @@
       "FDA"
     ],
     "plain": "Putting a drug straight into a vein through a needle — bypassing the gut and getting the full dose into the blood instantly."
+  },
+  {
+    "letter": "J",
+    "term": "JAK",
+    "full": "Janus Kinase",
+    "plain": "A signaling enzyme inside immune cells. Pills that block it calm inflammation in arthritis and other autoimmune diseases.",
+    "snappy": "An intracellular kinase relaying inflammatory signals; oral 'JAK inhibitors' like Rinvoq treat autoimmune disease.",
+    "detail": "JAK inhibitors — Rinvoq, Xeljanz — block the Janus-kinase pathway that immune cytokines use, offering an oral alternative to injected biologics for rheumatoid arthritis, atopic dermatitis, and inflammatory bowel disease. A boxed warning on cardiovascular and clotting risk shadows the class. You'll hear JAK debated at every immunology update.",
+    "indications": [
+      "Immunology"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "J",
@@ -3374,6 +4177,22 @@
   },
   {
     "letter": "J",
+    "term": "Jardiance",
+    "full": "Empagliflozin",
+    "plain": "A diabetes pill that turned out to protect the heart and kidneys, making it a cornerstone treatment well beyond blood sugar.",
+    "snappy": "An SGLT2 inhibitor that began as a diabetes pill and became a cornerstone heart-failure and kidney drug.",
+    "detail": "Jardiance lowers blood sugar by spilling glucose into urine, but its outcome trials in heart failure and chronic kidney disease reshaped cardiology guidelines. A Lilly/Boehringer product. You'll hear Jardiance in every SGLT2 and cardiometabolic discussion at AHA.",
+    "indications": [
+      "Metabolic",
+      "Cardiovascular"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "J",
     "term": "JMML",
     "full": "Juvenile Myelomonocytic Leukemia",
     "snappy": "A rare and aggressive childhood blood cancer driven by mutations in the RAS signaling pathway — and one of the few pediatric cancers with very limited treatment options.",
@@ -3390,6 +4209,21 @@
   },
   {
     "letter": "J",
+    "term": "Johnson & Johnson",
+    "full": "J&J",
+    "plain": "A healthcare giant whose drug arm makes major immunology and cancer treatments.",
+    "snappy": "The healthcare conglomerate whose pharma arm spans immunology (Stelara, Tremfya) and oncology (Imbruvica).",
+    "detail": "Johnson & Johnson's drug business (formerly Janssen) covers immunology blockbusters Stelara and Tremfya, the anti-TNF Remicade, and the oncology franchise Imbruvica. It spun off its consumer arm as Kenvue. You'll hear J&J across immunology and biosimilar discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "J",
     "term": "Joint Trial",
     "full": "",
     "snappy": "A clinical trial run at multiple sites simultaneously — usually because no single site can recruit enough patients quickly enough.",
@@ -3402,6 +4236,23 @@
       "FDA"
     ],
     "plain": "A study running at many hospitals at once — usually because no single hospital sees enough patients fast enough."
+  },
+  {
+    "letter": "K",
+    "term": "Kadcyla",
+    "full": "Trastuzumab Emtansine",
+    "plain": "A 'guided missile' drug: a targeted antibody carrying a chemo payload straight into breast cancer cells while sparing healthy ones.",
+    "snappy": "An antibody-drug conjugate — Herceptin wired to a chemo payload — that delivers poison straight into HER2-positive cancer cells.",
+    "detail": "Kadcyla is an ADC linking trastuzumab to a cytotoxic drug, sparing healthy tissue. It treats HER2-positive breast cancer, often after Herceptin. You'll hear Kadcyla cited as a proof-of-concept ADC alongside its successor Enhertu.",
+    "indications": [
+      "Oncology",
+      "Women's Health"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "K",
@@ -3432,6 +4283,22 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A snapshot of all someone's chromosomes lined up in order — a simple test that catches big genetic mix-ups driving disease."
+  },
+  {
+    "letter": "K",
+    "term": "Keytruda",
+    "full": "Pembrolizumab",
+    "plain": "A blockbuster cancer immunotherapy that releases a brake on the immune system, letting it attack tumors. Used across many cancers.",
+    "snappy": "Merck's anti-PD-1 checkpoint inhibitor — for years the world's top-selling drug, approved across dozens of cancers.",
+    "detail": "Keytruda blocks PD-1 to unleash T-cells against tumors. First in melanoma, it now spans lung, head-and-neck, MSI-H, and many other cancers — including a tissue-agnostic approval. You'll hear Keytruda headline every ASCO and Merck earnings call as the franchise facing a looming patent cliff.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "K",
@@ -3511,6 +4378,22 @@
   },
   {
     "letter": "K",
+    "term": "Krazati",
+    "full": "Adagrasib",
+    "plain": "A cancer drug, rival to Lumakras, that targets a gene mutation once thought impossible to block with medicine.",
+    "snappy": "A KRAS G12C inhibitor competing with Lumakras in lung and colorectal cancer.",
+    "detail": "Krazati blocks the same KRAS G12C mutation as Lumakras, with data in NSCLC and colorectal cancer. You'll hear Krazati in the KRAS-class competitive picture at ASCO.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "K",
     "term": "Krebs Cycle",
     "full": "Citric Acid Cycle / TCA Cycle",
     "snappy": "The mitochondrial chemical loop that finishes burning the products of glycolysis to extract most of the ATP from glucose and fat.",
@@ -3523,6 +4406,22 @@
       "NIH"
     ],
     "plain": "The loop of chemical reactions inside cells that finishes turning your food into usable energy."
+  },
+  {
+    "letter": "K",
+    "term": "Kymriah",
+    "full": "Tisagenlecleucel",
+    "plain": "The first 'living drug' approved — a patient's own immune cells, re-engineered to attack blood cancer in a single treatment.",
+    "snappy": "The first approved CAR-T therapy — a one-time, CD19-directed living drug for leukemia and lymphoma.",
+    "detail": "Kymriah was the first FDA-approved CAR-T (2017), re-engineering T-cells against CD19 for pediatric ALL and adult lymphoma. A Novartis product that opened the cell-therapy era. You'll hear Kymriah as the CAR-T pioneer at ASH.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "L",
@@ -3541,6 +4440,21 @@
   },
   {
     "letter": "L",
+    "term": "Latuda",
+    "full": "Lurasidone",
+    "plain": "A medication for schizophrenia and bipolar depression, one of the newer 'atypical' antipsychotics.",
+    "snappy": "An atypical antipsychotic for schizophrenia and bipolar depression.",
+    "detail": "Latuda is a second-generation antipsychotic used in schizophrenia and bipolar depression, known for a relatively favorable metabolic profile. You'll hear Latuda in mental-health prescribing and, on the business side, as a major loss-of-exclusivity event.",
+    "indications": [
+      "Mental Health"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "NIH NIMH"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "LD50",
     "full": "",
     "snappy": "The dose of a drug or substance that kills half the test animals in a toxicity study — historically the benchmark for how dangerous a chemical is.",
@@ -3554,6 +4468,52 @@
       "NIH"
     ],
     "plain": "The dose of a substance that kills half the test animals in a safety study — a rough yardstick for how dangerous something is."
+  },
+  {
+    "letter": "L",
+    "term": "LDL",
+    "full": "Low-Density Lipoprotein",
+    "plain": "The 'bad cholesterol' that builds up in artery walls. Lowering it is the main goal of statins and newer heart drugs.",
+    "snappy": "The 'bad cholesterol' particle that deposits in artery walls; lowering it is the central goal of statins and newer heart drugs.",
+    "detail": "LDL carries cholesterol into artery walls, driving the plaque behind heart attacks and strokes. Statins, PCSK9 inhibitors like Repatha, and Leqvio all push it down. You'll hear LDL as the headline number at AHA and in any cardiovascular outcomes discussion.",
+    "indications": [
+      "Cardiovascular"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "NIH"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Lenvima",
+    "full": "Lenvatinib",
+    "plain": "A pill that blocks several of a tumor's growth and blood-supply signals at once, often paired with an immunotherapy.",
+    "snappy": "A multikinase inhibitor blocking VEGF receptors and more, used in thyroid, liver, and kidney cancer, often with Keytruda.",
+    "detail": "Lenvima hits several kinases at once including VEGFR, and the Lenvima-plus-Keytruda combination is a notable chemo-free regimen in kidney and endometrial cancer. You'll hear Lenvima in those combination readouts at ASCO.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Leqvio",
+    "full": "Inclisiran",
+    "plain": "A cholesterol drug given just twice a year that silences a gene to keep 'bad' cholesterol low — a new way to take heart medicine.",
+    "snappy": "A twice-a-year siRNA injection that lowers cholesterol by silencing PCSK9 — a new way to dose chronic heart medicine.",
+    "detail": "Leqvio uses RNA interference to switch off PCSK9 in the liver, cutting LDL with just two doses a year — a novel adherence model. A Novartis product. You'll hear Leqvio in PCSK9 and RNA-therapeutics discussion and in value-based contracting debates.",
+    "indications": [
+      "Cardiovascular"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "L",
@@ -3665,6 +4625,22 @@
   },
   {
     "letter": "L",
+    "term": "Lumakras",
+    "full": "Sotorasib",
+    "plain": "A lung cancer drug that hits a mutation scientists spent 40 years calling 'undruggable' — until this and a rival broke through.",
+    "snappy": "Amgen's drug against KRAS G12C — cracking a mutation long considered 'undruggable.'",
+    "detail": "Lumakras was the first approved KRAS G12C inhibitor, a target that resisted drug development for decades, used in NSCLC. You'll hear Lumakras with Krazati in any discussion of finally drugging KRAS at ASCO.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Lung Adenocarcinoma",
     "full": "",
     "snappy": "The most common type of lung cancer — and the one most likely to carry targetable genetic mutations like EGFR, ALK, ROS1, and KRAS.",
@@ -3678,6 +4654,21 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "The most common type of lung cancer, and the one most likely to carry specific gene faults that targeted drugs can attack."
+  },
+  {
+    "letter": "L",
+    "term": "Lung Cancer",
+    "full": "",
+    "plain": "Cancer that starts in the lungs — the leading cause of cancer death, now split into types treated with very different targeted drugs.",
+    "snappy": "The leading cause of cancer death; molecular subtyping (EGFR, ALK, KRAS, PD-L1) now steers treatment far beyond old chemo.",
+    "detail": "Lung cancer is mostly non-small cell and small cell. NSCLC is now sub-divided by driver mutations — EGFR (Tagrisso), ALK (Xalkori), KRAS (Lumakras) — and PD-L1 for immunotherapy. You'll hear lung cancer headline every ASCO, the proving ground for precision oncology.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "L",
@@ -3740,6 +4731,23 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "An inherited fault in the cell's DNA-spellcheck system that sharply raises the chance of bowel and several other cancers."
+  },
+  {
+    "letter": "L",
+    "term": "Lynparza",
+    "full": "Olaparib",
+    "plain": "The first drug to exploit a weakness in cancers with faulty DNA repair, like those caused by BRCA mutations.",
+    "snappy": "The first PARP inhibitor — it exploits broken DNA repair in BRCA-mutant ovarian, breast, prostate, and pancreatic cancer.",
+    "detail": "Lynparza blocks PARP, killing cancers (especially BRCA-mutant) that already can't repair DNA — the synthetic-lethality idea made real. An AstraZeneca/Merck product. You'll hear Lynparza as the founding PARP inhibitor in ovarian and breast cancer readouts.",
+    "indications": [
+      "Oncology",
+      "Women's Health"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "L",
@@ -3941,6 +4949,23 @@
   },
   {
     "letter": "M",
+    "term": "Mekinist",
+    "full": "Trametinib",
+    "plain": "A cancer pill given with Tafinlar that blocks the same growth pathway at a second point, making the pair work better together.",
+    "snappy": "A MEK inhibitor given with Tafinlar to block the same cancer growth pathway at a second point.",
+    "detail": "Mekinist blocks MEK, one step below BRAF in the same signaling pathway; pairing it with Tafinlar hits the pathway twice and slows resistance in melanoma and other BRAF-mutant cancers. You'll hear Mekinist as half of a textbook combination regimen.",
+    "indications": [
+      "Oncology",
+      "Dermatology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Melanoma",
     "full": "",
     "snappy": "An aggressive skin cancer arising from pigment-producing cells — historically deadly when advanced, transformed by checkpoint inhibitors and BRAF-targeted therapy.",
@@ -3954,6 +4979,21 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "An aggressive skin cancer that starts in the cells that give skin its colour — once a near-death sentence, now often treatable."
+  },
+  {
+    "letter": "M",
+    "term": "Merck",
+    "full": "MSD",
+    "plain": "A US pharmaceutical giant, best known for the blockbuster cancer immunotherapy Keytruda.",
+    "snappy": "The US pharma giant behind Keytruda — the cancer immunotherapy that became the world's top-selling drug.",
+    "detail": "Merck (known as MSD outside North America) is anchored by Keytruda, plus vaccines like Gardasil. Keytruda's coming patent cliff is the company's defining strategic challenge. You'll hear Merck across every immuno-oncology and biopharma M&A discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "M",
@@ -4141,6 +5181,21 @@
   },
   {
     "letter": "M",
+    "term": "Moderna",
+    "full": "",
+    "plain": "The biotech whose COVID-19 vaccine proved that mRNA — a new kind of medicine — works at global scale.",
+    "snappy": "The mRNA biotech that, with its COVID-19 vaccine, validated a whole new class of medicine.",
+    "detail": "Moderna went from clinical-stage to global scale on its mRNA COVID-19 vaccine, and is applying the same platform to RSV, flu, and cancer vaccines. You'll hear Moderna as the proof that mRNA is a durable drug platform, not a one-off.",
+    "indications": [
+      "Infectious Disease"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Molecule",
     "full": "",
     "snappy": "Two or more atoms held together by chemical bonds — water, glucose, aspirin, DNA, antibodies all are molecules of varying sizes.",
@@ -4168,6 +5223,36 @@
       "FDA"
     ],
     "plain": "A single building-block unit that chains together with copies of itself to form a bigger molecule, like beads on a string."
+  },
+  {
+    "letter": "M",
+    "term": "Mounjaro",
+    "full": "Tirzepatide",
+    "plain": "A diabetes and weight-loss injection that copies two gut hormones at once, with especially strong effects.",
+    "snappy": "A dual GLP-1/GIP injection from Eli Lilly with especially strong blood-sugar and weight effects.",
+    "detail": "Mounjaro hits two gut-hormone receptors (GLP-1 and GIP) for type 2 diabetes; the same molecule is sold as Zepbound for obesity. It made Eli Lilly the GLP-1 co-leader with Novo Nordisk. You'll hear Mounjaro in every incretin and obesity-market discussion.",
+    "indications": [
+      "Metabolic"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "MRD",
+    "full": "Minimal Residual Disease",
+    "plain": "The tiny amount of cancer left after treatment — too small to see on scans but detectable with sensitive tests, hinting whether it may return.",
+    "snappy": "The trace cancer remaining after therapy, found by ultra-sensitive tests; 'MRD-negative' is an increasingly accepted goal and trial endpoint.",
+    "detail": "MRD detects one cancer cell among hundreds of thousands using flow cytometry or sequencing. MRD-negativity predicts longer remission in leukemia, multiple myeloma, and lymphoma, and regulators increasingly accept it as a surrogate endpoint to speed approvals. You'll hear MRD debated at ASH.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "M",
@@ -4219,6 +5304,21 @@
       "NIH"
     ],
     "plain": "A treatment that hands your cells a temporary instruction sheet telling them to make a specific protein — the same trick behind COVID vaccines."
+  },
+  {
+    "letter": "M",
+    "term": "MSI-H",
+    "full": "Microsatellite Instability-High",
+    "plain": "A tumor signature showing its DNA-proofreading is broken. These cancers often respond especially well to immunotherapy.",
+    "snappy": "A biomarker of broken DNA mismatch repair; MSI-H tumors are unusually responsive to checkpoint inhibitors like Keytruda.",
+    "detail": "MSI-H tumors accumulate mutations because DNA mismatch repair fails, making them visible to the immune system. Keytruda won the first-ever tissue-agnostic approval for MSI-H cancers anywhere in the body. You'll hear MSI-H in colorectal and endometrial cancer and immuno-oncology biomarker discussion.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Diagnostics",
+    "sources": [
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "M",
@@ -4532,6 +5632,21 @@
   },
   {
     "letter": "N",
+    "term": "NIH",
+    "full": "National Institutes of Health",
+    "plain": "The US government's medical-research agency — the world's largest public funder of health science.",
+    "snappy": "The US government's biomedical research agency — the world's largest public funder of medical science.",
+    "detail": "The NIH funds and conducts the basic and clinical research underpinning much of modern medicine, through institutes like the NCI (cancer) and NIMH (mental health). You'll hear NIH as the source of foundational science that companies later turn into drugs.",
+    "indications": [
+      "General"
+    ],
+    "category": "Public Health",
+    "sources": [
+      "NIH"
+    ]
+  },
+  {
+    "letter": "N",
     "term": "Non-Hodgkin Lymphoma",
     "full": "NHL",
     "snappy": "The umbrella name for dozens of distinct cancers of the lymphatic system — collectively the seventh-most-common cancer in the US.",
@@ -4559,6 +5674,21 @@
       "FDA"
     ],
     "plain": "A study designed to prove a new drug is roughly as good as the existing one — not better, just close enough to be acceptable."
+  },
+  {
+    "letter": "N",
+    "term": "Non-Small Cell Lung Cancer",
+    "full": "NSCLC",
+    "plain": "The most common type of lung cancer — the one whose treatment is now picked by testing the tumor's specific mutations.",
+    "snappy": "The most common lung cancer (~85%); the precision-oncology proving ground where driver mutations and PD-L1 dictate therapy.",
+    "detail": "NSCLC includes adenocarcinoma and squamous cell carcinoma. Treatment is chosen by biomarker: EGFR, ALK, ROS1, KRAS mutations get matched targeted drugs, while PD-L1 guides checkpoint inhibitors like Keytruda. You'll hear NSCLC subtyped in detail at every ASCO lung session.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "N",
@@ -4590,6 +5720,36 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A signaling system that helps decide what type of cell each one becomes; broken versions can drive certain leukemias and other cancers."
+  },
+  {
+    "letter": "N",
+    "term": "Novartis",
+    "full": "",
+    "plain": "A Swiss pharmaceutical giant behind the landmark cancer pill Gleevec and the first CAR-T cell therapy.",
+    "snappy": "The Swiss pharma giant behind Gleevec, the CAR-T pioneer Kymriah, and the RNA cholesterol drug Leqvio.",
+    "detail": "Novartis spans targeted oncology (Gleevec, Tafinlar, Mekinist), the first CAR-T Kymriah, and cardiovascular RNA therapy Leqvio, having spun off its generics arm Sandoz. You'll hear Novartis in cell-therapy and RNA-therapeutics discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "N",
+    "term": "Novo Nordisk",
+    "full": "Novo",
+    "plain": "The Danish company behind Ozempic and Wegovy that pioneered the GLP-1 weight-loss wave.",
+    "snappy": "The Danish company that pioneered the GLP-1 weight-loss wave with Ozempic and Wegovy.",
+    "detail": "Novo Nordisk, long the insulin and diabetes leader, became one of Europe's most valuable companies on semaglutide — Ozempic for diabetes and Wegovy for obesity. You'll hear Novo Nordisk in every obesity-market, supply, and pricing discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "N",
@@ -4776,6 +5936,37 @@
   },
   {
     "letter": "O",
+    "term": "Onpattro",
+    "full": "Patisiran",
+    "plain": "The first approved drug to work by silencing a faulty gene — treating a rare inherited disease that damages nerves and the heart.",
+    "snappy": "The first-ever approved RNA-interference drug — it silences a faulty gene to treat hereditary amyloidosis.",
+    "detail": "Onpattro was the landmark 2018 approval that made RNA interference (siRNA) a real drug class, silencing transthyretin to treat hereditary ATTR amyloidosis nerve damage. An Alnylam product. You'll hear Onpattro as the proof-of-concept in any RNA-therapeutics discussion.",
+    "indications": [
+      "Rare Disease"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "O",
+    "term": "Opdivo",
+    "full": "Nivolumab",
+    "plain": "A cancer immunotherapy that takes a brake off the immune system, often given with a partner drug to hit tumors harder.",
+    "snappy": "Bristol Myers Squibb's anti-PD-1 checkpoint inhibitor, often paired with Yervoy across melanoma, lung, and kidney cancer.",
+    "detail": "Opdivo blocks PD-1 like Keytruda and is frequently combined with the CTLA-4 inhibitor Yervoy for deeper responses. It anchors BMS's immuno-oncology franchise. You'll hear Opdivo in melanoma, NSCLC, and kidney cancer readouts at ASCO.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "O",
     "term": "Open-Label",
     "full": "",
     "snappy": "A clinical trial where everyone — patients, doctors, sponsors — knows who's getting what treatment, in contrast to blinded trials.",
@@ -4914,6 +6105,21 @@
     "plain": "A women's cancer that often spreads quietly before being caught, where a newer class of drugs has dramatically improved outcomes."
   },
   {
+    "letter": "O",
+    "term": "Ozempic",
+    "full": "Semaglutide",
+    "plain": "A diabetes injection that mimics a gut hormone to lower blood sugar and curb appetite — famous for causing weight loss.",
+    "snappy": "The GLP-1 injection for type 2 diabetes that became a cultural phenomenon for its weight-loss effect.",
+    "detail": "Ozempic mimics the GLP-1 gut hormone to lower blood sugar and curb appetite; off-label weight use drove global shortages. Novo Nordisk markets the same molecule as Wegovy for obesity. You'll hear Ozempic dominate every Novo earnings call and diabetes discussion.",
+    "indications": [
+      "Metabolic"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
     "letter": "P",
     "term": "p53",
     "full": "TP53",
@@ -5008,6 +6214,21 @@
   },
   {
     "letter": "P",
+    "term": "PARP",
+    "full": "Poly(ADP-ribose) Polymerase",
+    "plain": "A DNA-repair enzyme. Block it in tumors that already struggle to fix DNA — like BRCA cancers — and they collapse.",
+    "snappy": "A DNA-repair enzyme; blocking it kills tumors that have lost another repair route — the *synthetic lethality* behind BRCA-targeted drugs.",
+    "detail": "PARP inhibitors — Lynparza, Zejula — exploit synthetic lethality: cancers with BRCA mutations already can't repair DNA one way, so blocking PARP's backup route is fatal to them while sparing normal cells. You'll hear PARP in ovarian and breast cancer readouts at ASCO and in HRD-biomarker discussion.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "PARP Inhibitor",
     "full": "",
     "snappy": "A class of drugs that block a key DNA-repair enzyme — devastating to tumors that already have broken DNA-repair machinery (especially BRCA-mutated cancers).",
@@ -5068,6 +6289,36 @@
   },
   {
     "letter": "P",
+    "term": "PCSK9",
+    "full": "Proprotein Convertase Subtilisin/Kexin type 9",
+    "plain": "A protein that keeps 'bad' cholesterol high. Block it and LDL plummets — a newer option when statins aren't enough.",
+    "snappy": "A liver protein that degrades the receptors clearing 'bad' cholesterol; block it and LDL falls sharply — the target of Repatha and Leqvio.",
+    "detail": "PCSK9 inhibitors lower LDL by preserving the receptors that clear it. Repatha and Praluent are antibodies; Leqvio is a twice-yearly siRNA. You'll hear PCSK9 at AHA in any discussion of residual cardiovascular risk and the cost-effectiveness debates ICER has weighed in on.",
+    "indications": [
+      "Cardiovascular"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "NIH"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "PD-1",
+    "full": "Programmed cell Death protein 1",
+    "plain": "A brake on immune cells that tumors learn to press so the body leaves them alone. Drugs that release it can fight cancer.",
+    "snappy": "A receptor on T-cells that acts as an off-switch — tumors exploit it to hide, and *checkpoint inhibitors* exist to flip it back on.",
+    "detail": "PD-1 sits on T-cells; when it binds PD-L1 on another cell, the T-cell stands down. Many tumors display PD-L1 to switch off the immune response. Anti-PD-1 drugs like Keytruda and Opdivo block that handshake, freeing T-cells to attack. You'll hear PD-1 in every immuno-oncology readout at ASCO and in pipeline talk of combination therapy.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "PD-1/PD-L1",
     "full": "Programmed Death 1/Ligand 1",
     "snappy": "The immune checkpoint that cancer most often hijacks to hide — and the target of the biggest immunotherapy success story in oncology.",
@@ -5080,6 +6331,21 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "The immune system's 'off-switch' that cancer most often hijacks to hide — and the target of the biggest immunotherapy successes."
+  },
+  {
+    "letter": "P",
+    "term": "PD-L1",
+    "full": "Programmed Death-Ligand 1",
+    "plain": "The molecule tumors wave to switch off attacking immune cells — and a marker doctors test to predict who responds to certain cancer drugs.",
+    "snappy": "The 'don't attack me' flag tumors wave to engage PD-1 and shut down T-cells — and a biomarker that guides checkpoint-inhibitor use.",
+    "detail": "PD-L1 is the ligand that binds PD-1. Tumors expressing a lot of it evade immune attack, so pathologists score PD-L1 levels to predict response to Keytruda, Tecentriq, and Imfinzi. You'll hear PD-L1 status quoted in every NSCLC trial and as a companion-diagnostic talking point at ASCO.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Diagnostics",
+    "sources": [
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "P",
@@ -5146,6 +6412,23 @@
   },
   {
     "letter": "P",
+    "term": "Perjeta",
+    "full": "Pertuzumab",
+    "plain": "A targeted breast cancer drug given alongside Herceptin to shut down the same growth signal more completely.",
+    "snappy": "Roche's second anti-HER2 antibody, given with Herceptin to block HER2 signaling more completely in breast cancer.",
+    "detail": "Perjeta binds a different part of HER2 than Herceptin; the pair plus chemo is a standard for HER2-positive breast cancer. You'll hear Perjeta in breast cancer regimens and HER2-franchise lifecycle discussion at ASCO.",
+    "indications": [
+      "Oncology",
+      "Women's Health"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Personalized Medicine",
     "full": "Precision Medicine",
     "snappy": "Treatment chosen based on the specific genetic and molecular features of each patient's disease — instead of a one-size-fits-all approach.",
@@ -5159,6 +6442,21 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "Picking treatment based on the specific genetic features of each patient's disease instead of giving everyone the same thing."
+  },
+  {
+    "letter": "P",
+    "term": "Pfizer",
+    "full": "",
+    "plain": "A pharmaceutical giant, widely known for co-developing the first major COVID-19 vaccine.",
+    "snappy": "The pharma giant that co-developed the first widely used COVID-19 vaccine with BioNTech.",
+    "detail": "Pfizer's portfolio spans the blood thinner Eliquis (with BMS), oncology (Xalkori, Sutent), and the COVID vaccine and antiviral that briefly made it the largest drugmaker by revenue. You'll hear Pfizer in vaccine, M&A, and post-COVID-cliff discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "P",
@@ -5189,6 +6487,21 @@
       "NIH"
     ],
     "plain": "A 0-to-14 score for how acidic or alkaline something is, where 7 is neutral, lower is sour, higher is soapy."
+  },
+  {
+    "letter": "P",
+    "term": "Pharmacokinetics",
+    "full": "PK",
+    "plain": "What your body does to a drug — how it absorbs, spreads, breaks down, and clears it. Half of every dosing decision.",
+    "snappy": "What the body does to a drug — how it's absorbed, distributed, broken down, and cleared; the 'PK' half of every dosing decision.",
+    "detail": "Pharmacokinetics tracks a drug's journey via measures like Cmax, Tmax, half-life, volume of distribution, and AUC. It pairs with pharmacodynamics (what the drug does to the body) to set dose and schedule. You'll hear 'PK/PD' in every early-phase trial and FDA review.",
+    "indications": [
+      "General"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "P",
@@ -5449,6 +6762,22 @@
       "CMS Glossary"
     ],
     "plain": "The paperwork battle where a doctor must convince an insurance company that a specific drug is needed before they will pay for it."
+  },
+  {
+    "letter": "P",
+    "term": "Progesterone Receptor",
+    "full": "PR",
+    "plain": "A docking point for the hormone progesterone, read alongside the estrogen receptor to classify and guide breast-cancer treatment.",
+    "snappy": "The protein progesterone binds; PR status is read with the estrogen receptor and HER2 to subtype breast cancer and predict endocrine-therapy response.",
+    "detail": "Progesterone-receptor status appears with the estrogen receptor and HER2 on every breast cancer pathology report; PR-positive tumors generally respond better to endocrine therapy. You'll hear ER/PR/HER2 quoted in one breath in any breast cancer tumor board or ASCO discussion.",
+    "indications": [
+      "Oncology",
+      "Women's Health"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "P",
@@ -5774,6 +7103,21 @@
   },
   {
     "letter": "R",
+    "term": "Regeneron",
+    "full": "",
+    "plain": "A research-focused biotech whose antibody technology produced the blockbuster eczema drug Dupixent.",
+    "snappy": "A science-driven biotech whose antibody platform produced Dupixent and the eye drug Eylea.",
+    "detail": "Regeneron's antibody-discovery technology yielded the IL-4/13 blocker Dupixent (with Sanofi) and the retinal drug Eylea, plus an oncology pipeline. You'll hear Regeneron in immunology and antibody-engineering discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "Regulatory",
     "full": "",
     "snappy": "Everything related to the FDA, EMA, and other agencies that decide whether and how a drug can be sold — and the function within pharma that manages those interactions.",
@@ -5786,6 +7130,22 @@
       "FDA"
     ],
     "plain": "The world of government agencies, like the FDA, that decide whether a drug can be sold and exactly what its label can say."
+  },
+  {
+    "letter": "R",
+    "term": "Remicade",
+    "full": "Infliximab",
+    "plain": "An infused drug that was the first to treat inflammatory bowel disease by blocking an inflammatory signal.",
+    "snappy": "An anti-TNF antibody that pioneered biologic treatment of inflammatory bowel disease.",
+    "detail": "Remicade is an infused anti-TNF that transformed Crohn's disease and ulcerative colitis along with rheumatoid arthritis. A Johnson & Johnson product, now facing biosimilars. You'll hear Remicade as the founding IBD biologic in gastroenterology discussion.",
+    "indications": [
+      "Immunology",
+      "Gastroenterology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "R",
@@ -5817,6 +7177,21 @@
       "FDA"
     ],
     "plain": "A special FDA safety plan attached to risky drugs, requiring extra steps like monitoring or registries before patients can get them."
+  },
+  {
+    "letter": "R",
+    "term": "Repatha",
+    "full": "Evolocumab",
+    "plain": "An injection that drives down 'bad' cholesterol by blocking a key protein, for people statins can't help enough.",
+    "snappy": "An antibody that lowers LDL cholesterol by blocking PCSK9, used when statins aren't enough.",
+    "detail": "Repatha is a PCSK9-blocking antibody that drives LDL to very low levels and cut cardiovascular events in outcome trials. An Amgen product whose price ICER scrutinized. You'll hear Repatha with Praluent and Leqvio in any PCSK9 discussion.",
+    "indications": [
+      "Cardiovascular"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "R",
@@ -5898,6 +7273,22 @@
   },
   {
     "letter": "R",
+    "term": "Rinvoq",
+    "full": "Upadacitinib",
+    "plain": "A pill — instead of an injection — that calms many autoimmune diseases by blocking an inflammation-signaling enzyme.",
+    "snappy": "An oral JAK inhibitor across rheumatoid arthritis, atopic dermatitis, and inflammatory bowel disease — AbbVie's other post-Humira pillar.",
+    "detail": "Rinvoq blocks JAK enzymes, offering a pill alternative to injected biologics across many immune diseases, though the JAK class carries a boxed warning. With Skyrizi it anchors AbbVie's growth. You'll hear Rinvoq in every immunology pipeline update.",
+    "indications": [
+      "Immunology",
+      "Dermatology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "RNA",
     "full": "Ribonucleic Acid",
     "snappy": "The molecular messenger that carries genetic instructions from DNA to make proteins — and the basis for a new wave of vaccines and therapies.",
@@ -5931,6 +7322,21 @@
   },
   {
     "letter": "R",
+    "term": "Roche",
+    "full": "Genentech",
+    "plain": "A Swiss healthcare giant — owner of Genentech — that pioneered cancer antibody drugs and leads in medical testing.",
+    "snappy": "The Swiss group that owns Genentech — a pioneer of cancer antibodies and the leader in diagnostics.",
+    "detail": "Roche, through Genentech, pioneered antibody oncology (Herceptin, Avastin, Perjeta, Tecentriq, Rozlytrek) and pairs drugs with its world-leading diagnostics arm. You'll hear Roche in companion-diagnostic, biosimilar, and oncology discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "ROS1",
     "full": "",
     "snappy": "A receptor tyrosine kinase whose rare gene fusions drive a small subset of lung and other cancers — and that's strongly targetable with FDA-approved drugs.",
@@ -5943,6 +7349,22 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A docking-station protein that, in rare cases, fuses with other genes and drives a small slice of lung and other cancers."
+  },
+  {
+    "letter": "R",
+    "term": "Rozlytrek",
+    "full": "Entrectinib",
+    "plain": "A drug for rare cancers defined by a specific gene fusion — given based on the tumor's DNA, not where in the body it started.",
+    "snappy": "A tissue-agnostic drug for the rare cancers driven by an NTRK gene fusion, wherever in the body they arise.",
+    "detail": "Rozlytrek targets NTRK fusions (and ROS1), part of the shift to treating cancers by mutation rather than organ. You'll hear Rozlytrek with Vitrakvi in any discussion of NTRK fusions and tissue-agnostic approvals.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "R",
@@ -5961,6 +7383,21 @@
   },
   {
     "letter": "S",
+    "term": "Sanofi",
+    "full": "",
+    "plain": "A French pharmaceutical giant whose biggest drug, the eczema and asthma medicine Dupixent, is shared with Regeneron.",
+    "snappy": "The French pharma giant whose biggest product, Dupixent, it shares with Regeneron.",
+    "detail": "Sanofi's growth centers on the IL-4/13 blocker Dupixent (with Regeneron), alongside a major vaccines business. You'll hear Sanofi in immunology and vaccine discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Sarcoma",
     "full": "",
     "snappy": "A diverse family of cancers arising from connective tissues — bone, muscle, fat, cartilage — collectively rare but covering more than 70 distinct subtypes.",
@@ -5974,6 +7411,21 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A broad family of cancers that start in connective tissues like bone, muscle, or fat, rather than in glands or skin."
+  },
+  {
+    "letter": "S",
+    "term": "SCC",
+    "full": "Squamous Cell Carcinoma",
+    "plain": "Short for squamous cell carcinoma — a cancer of the flat surface cells that line the skin, lungs, and head and neck.",
+    "snappy": "The common abbreviation for squamous cell carcinoma — a cancer of the flat surface cells lining skin, lung, head and neck, and other organs.",
+    "detail": "SCC arises from squamous epithelium and is a major subtype of skin, lung, and head-and-neck cancer. You'll hear 'SCC' shorthand in pathology reports and at ASCO; the full picture lives under squamous cell carcinoma.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "S",
@@ -6055,6 +7507,22 @@
   },
   {
     "letter": "S",
+    "term": "SGLT2",
+    "full": "Sodium-Glucose Cotransporter-2",
+    "plain": "A kidney protein that reabsorbs sugar. Block it and you pass excess glucose in urine — a diabetes drug that also protects the heart.",
+    "snappy": "A kidney glucose-reabsorption pump; blocking it spills sugar into urine — the mechanism behind Jardiance, now a heart-failure mainstay.",
+    "detail": "SGLT2 inhibitors — Jardiance, Farxiga — were developed for type 2 diabetes but proved to cut heart-failure and kidney-disease events, reshaping cardiology guidelines. You'll hear SGLT2 at AHA and on every cardiometabolic earnings call as one of the decade's most important mechanisms.",
+    "indications": [
+      "Cardiovascular",
+      "Metabolic"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "SGLT2 Inhibitor",
     "full": "",
     "snappy": "A class of pills that lowers blood sugar by making the kidneys flush excess glucose into the urine — and unexpectedly turned out to also protect the heart.",
@@ -6119,6 +7587,22 @@
   },
   {
     "letter": "S",
+    "term": "Skyrizi",
+    "full": "Risankizumab",
+    "plain": "A newer psoriasis and gut-disease drug that blocks a specific inflammatory signal, picked to replace the blockbuster Humira.",
+    "snappy": "An IL-23 blocker for psoriasis and inflammatory bowel disease — AbbVie's designated successor to Humira.",
+    "detail": "Skyrizi targets IL-23 with infrequent dosing and strong skin-clearance results in psoriasis, expanding into Crohn's disease and ulcerative colitis. With Rinvoq it's AbbVie's post-Humira growth engine. You'll hear Skyrizi in every AbbVie immunology update.",
+    "indications": [
+      "Immunology",
+      "Dermatology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Small Molecule",
     "full": "",
     "snappy": "A traditional chemical drug — small enough to be made into a pill, swallowed, and absorbed. Most cancer drugs and almost everything in your medicine cabinet.",
@@ -6177,6 +7661,21 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A genetic typo that happens inside a single body cell during life, passed only to its descendants — not inherited, not passed to children."
+  },
+  {
+    "letter": "S",
+    "term": "Sovaldi",
+    "full": "Sofosbuvir",
+    "plain": "The pill that made hepatitis C curable — a real triumph whose very high price set off years of drug-cost debate.",
+    "snappy": "The hepatitis C pill that turned a chronic liver infection into a curable disease — and ignited the drug-pricing wars.",
+    "detail": "Sovaldi cures most hepatitis C with a short oral course, a genuine medical triumph. Its ~$1,000-per-pill launch price made it the flashpoint of US drug-pricing politics. A Gilead product. You'll hear Sovaldi as the case study in innovation-versus-affordability.",
+    "indications": [
+      "Infectious Disease"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "S",
@@ -6276,6 +7775,22 @@
   },
   {
     "letter": "S",
+    "term": "Stelara",
+    "full": "Ustekinumab",
+    "plain": "A drug for psoriasis and gut disease that blocks two related inflammatory signals at once.",
+    "snappy": "An IL-12/23 blocker for psoriasis and inflammatory bowel disease, a major Johnson & Johnson product now meeting biosimilars.",
+    "detail": "Stelara blocks the shared subunit of IL-12 and IL-23, treating psoriasis, psoriatic arthritis, Crohn's disease, and ulcerative colitis. You'll hear Stelara as a biosimilar target and the predecessor to selective IL-23 drugs like Skyrizi and Tremfya.",
+    "indications": [
+      "Immunology",
+      "Dermatology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Stem Cell",
     "full": "",
     "snappy": "An undifferentiated cell that can both renew itself and develop into specialized cell types — the source of every tissue in the body.",
@@ -6368,6 +7883,22 @@
   },
   {
     "letter": "S",
+    "term": "Sutent",
+    "full": "Sunitinib",
+    "plain": "An early 'multi-target' pill for kidney cancer that blocks several of a tumor's growth and blood-supply signals at once.",
+    "snappy": "An early multikinase inhibitor for kidney cancer and GIST, blocking VEGF receptors among other targets.",
+    "detail": "Sutent blocks multiple kinases to cut tumor blood supply and growth, long a standard in advanced kidney cancer and in GIST after Gleevec. You'll hear Sutent as a first-generation multikinase reference in any kidney cancer discussion.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Synthetic Lethality",
     "full": "",
     "snappy": "A drug-discovery strategy where a treatment is harmless to normal cells but lethal to cancer cells that already carry a specific defect — a one-two punch the cancer can't absorb.",
@@ -6400,6 +7931,39 @@
   },
   {
     "letter": "T",
+    "term": "Tafinlar",
+    "full": "Dabrafenib",
+    "plain": "A melanoma pill that blocks a specific gene fault, given with a partner drug to keep the cancer from outsmarting it.",
+    "snappy": "A BRAF inhibitor for melanoma and other BRAF-mutant cancers, almost always paired with Mekinist.",
+    "detail": "Tafinlar blocks the mutant BRAF protein driving about half of melanomas; combined with the MEK inhibitor Mekinist it delays resistance. Now used tissue-agnostically in BRAF-mutant cancers. You'll hear Tafinlar-plus-Mekinist as the classic combination-therapy example.",
+    "indications": [
+      "Oncology",
+      "Dermatology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Tagrisso",
+    "full": "Osimertinib",
+    "plain": "A lung cancer pill for tumors with a specific gene fault, valued because it reaches cancer that has spread to the brain.",
+    "snappy": "AstraZeneca's EGFR inhibitor, the standard for EGFR-mutated lung cancer and prized for reaching tumors in the brain.",
+    "detail": "Tagrisso is a third-generation EGFR TKI for EGFR-mutant NSCLC, valued for CNS penetration against brain metastases. A pillar of AstraZeneca oncology. You'll hear Tagrisso in every EGFR lung cancer readout at ASCO.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "T",
     "term": "Targeted Therapy",
     "full": "",
     "snappy": "A drug designed to hit a specific molecular feature of cancer — a particular mutation, fusion, or overexpressed protein — sparing the healthy cells that lack the target.",
@@ -6427,6 +7991,22 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "The molecular antenna a T-cell uses to spot what's foreign or cancerous — now also being engineered in the lab as a cancer therapy."
+  },
+  {
+    "letter": "T",
+    "term": "Tecentriq",
+    "full": "Atezolizumab",
+    "plain": "A cancer immunotherapy that blocks the 'don't attack me' signal tumors send, letting the immune system see and fight them.",
+    "snappy": "Roche's anti-PD-L1 checkpoint inhibitor, used in lung, bladder, and liver cancer.",
+    "detail": "Tecentriq blocks PD-L1 rather than PD-1, freeing T-cells to attack. It's used in NSCLC, small-cell lung, bladder, and liver cancer, often alongside chemo or Avastin. You'll hear Tecentriq in lung and bladder readouts at ASCO.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "T",
@@ -6506,6 +8086,22 @@
   },
   {
     "letter": "T",
+    "term": "Tibsovo",
+    "full": "Ivosidenib",
+    "plain": "A blood and bile-duct cancer drug that blocks a specific mutated enzyme, letting abnormal cells mature normally again.",
+    "snappy": "An IDH1 inhibitor for IDH1-mutant AML and bile-duct cancer.",
+    "detail": "Tibsovo blocks mutant IDH1, restoring normal maturation of leukemia cells, used in IDH1-mutant AML and cholangiocarcinoma. You'll hear Tibsovo in IDH-mutant disease discussion at ASH and ASCO.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "T",
     "term": "TILs",
     "full": "Tumor-Infiltrating Lymphocytes",
     "snappy": "Immune cells that have already entered a tumor on their own — and the basis for a cell therapy that grows them in a lab and infuses them back massively expanded.",
@@ -6533,6 +8129,21 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A pill that jams a particular signalling switch cancer cells rely on to keep growing — one of oncology's biggest success stories."
+  },
+  {
+    "letter": "T",
+    "term": "Tmax",
+    "full": "Time to Maximum Concentration",
+    "plain": "How long after a dose a drug hits its peak level in the blood.",
+    "snappy": "The time after a dose at which a drug hits its peak level (Cmax); a faster Tmax means quicker onset.",
+    "detail": "Tmax reflects how fast a drug is absorbed and matters for onset of action and for comparing formulations in bioequivalence studies. You'll hear Tmax alongside Cmax and AUC in any pharmacokinetics or generic-approval discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "T",
@@ -6579,6 +8190,21 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A breast cancer that lacks all three of the usual drug targets, leaving doctors with fewer easy options and historically forcing reliance on chemotherapy."
+  },
+  {
+    "letter": "T",
+    "term": "TNF",
+    "full": "Tumor Necrosis Factor",
+    "plain": "A messenger that drives inflammation. Blocking it calms diseases like rheumatoid arthritis — the job of some of the best-selling drugs ever.",
+    "snappy": "An inflammatory signaling protein; blocking it tames autoimmune disease — the mechanism behind Humira, Enbrel, and Remicade.",
+    "detail": "TNF is a cytokine central to inflammation. Anti-TNF biologics — Humira, Enbrel, Remicade — transformed rheumatoid arthritis, psoriasis, and inflammatory bowel disease, and Humira became the best-selling drug in history. You'll hear TNF whenever biosimilars or the immunology market come up at JPMorgan.",
+    "indications": [
+      "Immunology"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "NIH"
+    ]
   },
   {
     "letter": "T",
@@ -6716,6 +8342,22 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "The first antibody drug for breast cancer — a precision-medicine landmark that transformed an aggressive subtype into a treatable one."
+  },
+  {
+    "letter": "T",
+    "term": "Tremfya",
+    "full": "Guselkumab",
+    "plain": "A psoriasis and arthritis drug that precisely blocks one inflammatory signal driving the disease.",
+    "snappy": "A selective IL-23 blocker for psoriasis and psoriatic arthritis from Johnson & Johnson.",
+    "detail": "Tremfya targets IL-23 specifically, part of the wave of selective interleukin blockers that followed Stelara, with expansion into inflammatory bowel disease. You'll hear Tremfya alongside Skyrizi in the IL-23 competitive picture.",
+    "indications": [
+      "Immunology",
+      "Dermatology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "T",
@@ -6996,6 +8638,21 @@
   },
   {
     "letter": "V",
+    "term": "Vd",
+    "full": "Volume of Distribution",
+    "plain": "Short for volume of distribution — a measure of how widely a drug spreads into the body's tissues rather than staying in the blood.",
+    "snappy": "Shorthand for volume of distribution — a pharmacokinetic measure of how widely a drug spreads through the body versus staying in the blood.",
+    "detail": "Vd is a calculated volume relating the dose given to the resulting blood concentration; a large Vd means the drug parks heavily in tissues. It helps set loading doses. You'll hear Vd alongside half-life and clearance in any pharmacokinetics discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "V",
     "term": "VEGF",
     "full": "Vascular Endothelial Growth Factor",
     "snappy": "A signaling protein that drives blood vessel growth — and the target of a major class of cancer drugs that try to starve tumors of their blood supply.",
@@ -7043,6 +8700,22 @@
   },
   {
     "letter": "V",
+    "term": "Venclexta",
+    "full": "Venetoclax",
+    "plain": "A blood cancer pill that switches a cancer cell's self-destruct mechanism back on, after the cancer had disabled it.",
+    "snappy": "A BCL2 inhibitor that flips the self-destruct switch back on in leukemia cells, used in CLL and AML.",
+    "detail": "Venclexta blocks BCL2, a protein cancer cells use to dodge apoptosis, restoring their ability to die. Combined with other agents it's central in CLL and AML. You'll hear Venclexta in chemo-free CLL regimens and AML combinations at ASH.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "V",
     "term": "Venetoclax",
     "full": "Venclexta",
     "snappy": "A first-in-class BCL-2 inhibitor — the drug that finally made apoptosis-targeted therapy work in blood cancers.",
@@ -7055,6 +8728,21 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A blood-cancer drug that flips back on the self-destruct switch cancer cells had managed to disable."
+  },
+  {
+    "letter": "V",
+    "term": "Vertex",
+    "full": "",
+    "plain": "A biotech that built and dominates the market for cystic fibrosis medicines.",
+    "snappy": "The biotech that effectively built — and dominates — the market for cystic fibrosis drugs.",
+    "detail": "Vertex Pharmaceuticals transformed cystic fibrosis from fatal to manageable with a series of CFTR-modulator therapies, and has moved into gene editing and non-opioid pain. You'll hear Vertex in rare-disease and gene-editing discussion.",
+    "indications": [
+      "Rare Disease"
+    ],
+    "category": "Commercial / Market Access",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "V",
@@ -7214,6 +8902,22 @@
   },
   {
     "letter": "W",
+    "term": "Wegovy",
+    "full": "Semaglutide",
+    "plain": "The version of Ozempic's medicine approved for weight loss itself — the drug that made GLP-1 obesity treatment mainstream.",
+    "snappy": "The higher-dose version of Ozempic's molecule, approved specifically for obesity — the drug that mainstreamed GLP-1 weight loss.",
+    "detail": "Wegovy is semaglutide dosed for chronic weight management, delivering 15%+ weight loss and, in trials, fewer cardiovascular events. A Novo Nordisk megabrand. You'll hear Wegovy in every obesity-market, supply, and reimbursement debate.",
+    "indications": [
+      "Metabolic",
+      "Cardiovascular"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "W",
     "term": "Weight-Based Dosing",
     "full": "",
     "snappy": "Calculating drug dose based on a patient's body weight — vs. flat dosing where everyone gets the same amount regardless of size.",
@@ -7334,6 +9038,37 @@
       "NIH MedlinePlus"
     ],
     "plain": "A quick, cheap medical photo using a beam of radiation, still the first imaging step for many lung and bone checks."
+  },
+  {
+    "letter": "X",
+    "term": "Xalkori",
+    "full": "Crizotinib",
+    "plain": "The first pill for a rare lung cancer subtype caused by a specific gene rearrangement — proof that even small subsets can be targeted.",
+    "snappy": "Pfizer's ALK inhibitor — the first drug for the small slice of lung cancers driven by an ALK gene rearrangement.",
+    "detail": "Xalkori targets ALK (and ROS1) rearrangements in NSCLC, proving even rare molecular subsets are druggable. Newer ALK inhibitors followed it. You'll hear Xalkori as the pioneer in any ALK-positive lung cancer discussion at ASCO.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "X",
+    "term": "Xeljanz",
+    "full": "Tofacitinib",
+    "plain": "The first pill of its kind for arthritis — and the one whose safety study led regulators to warn about the whole drug class.",
+    "snappy": "The first oral JAK inhibitor, whose post-marketing safety study put a boxed warning on the whole class.",
+    "detail": "Xeljanz treats rheumatoid arthritis and ulcerative colitis, but a required safety trial flagged cardiovascular and clot risks, leading to class-wide boxed warnings. A Pfizer product. You'll hear Xeljanz cited in any discussion of JAK-class safety and FDA post-marketing requirements.",
+    "indications": [
+      "Immunology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "X",
@@ -7477,6 +9212,22 @@
   },
   {
     "letter": "Y",
+    "term": "Yescarta",
+    "full": "Axicabtagene Ciloleucel",
+    "plain": "A living drug made from a patient's own immune cells, re-engineered to hunt and cure some otherwise-fatal blood cancers.",
+    "snappy": "A CD19-directed CAR-T cell therapy that can cure some aggressive lymphomas by re-engineering a patient's own T-cells.",
+    "detail": "Yescarta reprograms a patient's T-cells to attack CD19 on B-cell lymphomas, delivering durable remissions in otherwise-fatal disease. A Gilead/Kite product. You'll hear Yescarta with Kymriah and Breyanzi in any CAR-T discussion at ASH.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "Y",
     "term": "Yield",
     "full": "",
     "snappy": "In manufacturing, the amount of drug actually produced compared to the theoretical maximum — a key economic and quality metric.",
@@ -7566,6 +9317,23 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A protein normally found in immune cells; when it pops up on certain leukaemia cells, it usually means a tougher, faster-moving disease."
+  },
+  {
+    "letter": "Z",
+    "term": "Zejula",
+    "full": "Niraparib",
+    "plain": "A PARP-blocking ovarian cancer drug given to keep the disease from coming back after it responds to chemo.",
+    "snappy": "GSK's PARP inhibitor for ovarian cancer, usable regardless of BRCA status as maintenance therapy.",
+    "detail": "Zejula blocks PARP and is given as maintenance to keep ovarian cancer in remission, including in patients without BRCA mutations. You'll hear Zejula alongside Lynparza in any ovarian cancer maintenance discussion.",
+    "indications": [
+      "Oncology",
+      "Women's Health"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "Z",
