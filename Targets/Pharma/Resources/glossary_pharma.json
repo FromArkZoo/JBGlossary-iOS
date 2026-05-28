@@ -1855,6 +1855,21 @@
   },
   {
     "letter": "C",
+    "term": "Clinical Decision Support",
+    "full": "CDS",
+    "plain": "Software that gives doctors alerts and reminders — like flagging a dangerous drug combination — to help them make safer choices.",
+    "snappy": "Software prompts — alerts, reminders, order sets — that *help clinicians decide*, usually built right into the electronic health record.",
+    "detail": "It delivers knowledge to clinicians at the point of care: drug-interaction alerts, dosing guidance, screening reminders, diagnostic suggestions. Embedded in the electronic health record, it can cut errors — but poorly tuned alerts cause 'alert fatigue.' Increasingly powered by AI and real-world evidence. You'll hear CDS in patient-safety, health-IT, and software-as-a-medical-device discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Digital Health",
+    "sources": [
+      "ONC"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Clinical Trial",
     "full": "",
     "snappy": "A research study that tests whether a new drug, device, or treatment is safe and works — done in carefully controlled groups of volunteer patients.",
@@ -2330,6 +2345,21 @@
   },
   {
     "letter": "D",
+    "term": "Decentralized Trial",
+    "full": "DCT",
+    "plain": "A clinical trial run partly or fully at patients' homes — using telehealth, apps, and local labs — instead of only at trial sites.",
+    "snappy": "A clinical trial brought *to the patient* — telehealth visits, home nursing, e-consent, wearables — rather than requiring travel to a site.",
+    "detail": "These shift study activities to participants' homes via telehealth, remote patient monitoring, electronic consent, and local labs, widening access and retention. Wearable devices and digital biomarkers supply continuous endpoints. The FDA has issued guidance encouraging the model, accelerated by the pandemic. You'll hear decentralized trial in clinical-operations and digital health discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Digital Health",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "Deductible",
     "full": "",
     "plain": "The amount you pay out of your own pocket each year before your insurance starts chipping in.",
@@ -2357,6 +2387,21 @@
       "FDA"
     ],
     "plain": "A new class of drug that doesn't just block a harmful protein — it tags the protein for the cell's own garbage disposal to destroy."
+  },
+  {
+    "letter": "D",
+    "term": "Digital Biomarker",
+    "full": "",
+    "plain": "A health signal measured by a digital device — like gait from a phone or heart rhythm from a watch — used to track disease.",
+    "snappy": "A *device-measured* physiological or behavioral signal — gait, sleep, heart rhythm — used like a lab biomarker to track disease or drug effect.",
+    "detail": "Objective measures captured by sensors and apps — typing speed in Parkinson's, nocturnal cough, continuous glucose — that stand in for disease state or treatment response. Drawn from wearables and phones, they enable continuous endpoints in decentralized trials and remote patient monitoring. Validation against clinical outcomes is the hurdle. You'll hear digital biomarker in trial-innovation and digital health discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Digital Health",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "D",
@@ -2656,6 +2701,36 @@
   },
   {
     "letter": "E",
+    "term": "Electronic Health Record",
+    "full": "EHR",
+    "plain": "The digital version of a patient's chart — diagnoses, medications, test results — shared across the clinicians who treat them.",
+    "snappy": "A patient's *digital chart* — meds, labs, diagnoses, notes — built to follow them across every clinician and setting, unlike a single practice's records.",
+    "detail": "The longitudinal digital record of a patient's health, built to be shared across providers — the backbone of modern care and a prerequisite for interoperability. Vendors like Epic and Cerner dominate US hospitals. These systems feed clinical decision support, patient portals, and real-world evidence, though clinician burnout from clunky interfaces is a chronic complaint. Distinguish it from the narrower electronic medical record, confined to one practice.",
+    "indications": [
+      "General"
+    ],
+    "category": "Digital Health",
+    "sources": [
+      "ONC"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Electronic Medical Record",
+    "full": "EMR",
+    "plain": "A digital chart within a single doctor's office or hospital — like a paper record gone electronic, but not easily shared elsewhere.",
+    "snappy": "A *single practice's* digital chart — the narrower, older cousin of the electronic health record, which is built to travel between providers.",
+    "detail": "An EMR digitizes the records of one practice or hospital — diagnoses, treatments, history — but isn't designed to move between organizations. The terms are often used interchangeably, though strictly the electronic health record is the broader, shareable version enabling interoperability and health information exchange. The distinction matters in health-IT policy and procurement.",
+    "indications": [
+      "General"
+    ],
+    "category": "Digital Health",
+    "sources": [
+      "ONC"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Eli Lilly",
     "full": "Lilly",
     "plain": "A US pharmaceutical company that, with Novo Nordisk, leads the GLP-1 weight-loss and diabetes boom.",
@@ -2869,6 +2944,21 @@
       "NIH"
     ],
     "plain": "The exact spot on a target that an antibody actually grabs onto — usually just a tiny patch of surface."
+  },
+  {
+    "letter": "E",
+    "term": "ePRO",
+    "full": "electronic Patient-Reported Outcome",
+    "plain": "Patients reporting their own symptoms and quality of life through an app or device during a study or their care.",
+    "snappy": "*Patient-reported* symptoms and outcomes captured electronically — on an app or device — rather than on paper at a clinic visit.",
+    "detail": "It captures what patients say about their own symptoms, function, and quality of life directly through apps or handheld devices, replacing paper diaries. This improves data quality and timeliness in trials and routine care, and is a natural fit for decentralized trials, remote patient monitoring, and real-world data. You'll hear ePRO in trial-design and digital health discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Digital Health",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "E",
@@ -3087,6 +3177,21 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A family of cell switches whose mutations drive several rare cancers — and the target of a small but growing group of precision drugs."
+  },
+  {
+    "letter": "F",
+    "term": "FHIR",
+    "full": "Fast Healthcare Interoperability Resources",
+    "plain": "A modern web-based standard that makes it much easier for health apps and systems to share specific pieces of data on demand.",
+    "snappy": "The *modern, app-friendly* standard (said 'fire') for exchanging health data — HL7's web-era successor, now mandated for US patient-data access.",
+    "detail": "Pronounced 'fire,' it is HL7's modern standard: it uses ordinary web APIs to share discrete data elements, making it far easier for apps to plug into an electronic health record. US regulations require FHIR-based patient-access APIs, accelerating interoperability. It's why a phone app can now pull your lab results — a staple of every health-IT integration discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Digital Health",
+    "sources": [
+      "ONC"
+    ]
   },
   {
     "letter": "F",
@@ -3627,6 +3732,21 @@
   },
   {
     "letter": "H",
+    "term": "Health Information Exchange",
+    "full": "HIE",
+    "plain": "Sharing patient records electronically between different hospitals and clinics, so providers can see care you received elsewhere.",
+    "snappy": "The *electronic sharing* of patient records across organizations — both the act and the regional networks that broker it.",
+    "detail": "It lets unaffiliated providers share records, so an emergency room can pull your history from another system. It depends on interoperability and standards like FHIR, and runs through regional or state networks. Done well, it cuts duplicate testing and medication errors. You'll hear HIE in health-IT policy and care-coordination talk, alongside the electronic health record systems it connects.",
+    "indications": [
+      "General"
+    ],
+    "category": "Digital Health",
+    "sources": [
+      "ONC"
+    ]
+  },
+  {
+    "letter": "H",
     "term": "Heart Failure",
     "full": "",
     "snappy": "A condition where the heart can't pump enough blood to meet the body's needs — not the same as a heart attack, and increasingly manageable as a chronic disease.",
@@ -3802,6 +3922,21 @@
   },
   {
     "letter": "H",
+    "term": "HIPAA",
+    "full": "Health Insurance Portability and Accountability Act",
+    "plain": "The US law that protects the privacy of your health information and limits who can see or share it.",
+    "snappy": "The 1996 US law that *protects health-data privacy* — its Privacy and Security Rules govern who may use protected health information.",
+    "detail": "It sets national rules for safeguarding patients' protected health information, governing how providers, insurers, and their vendors may use and disclose it. The Privacy and Security Rules carry real penalties for breaches. It shapes everything from electronic health record access to what a telehealth app may store. You'll hear HIPAA invoked in any health-data, privacy, or digital health discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Digital Health",
+    "sources": [
+      "HHS"
+    ]
+  },
+  {
+    "letter": "H",
     "term": "HIV",
     "full": "Human Immunodeficiency Virus",
     "snappy": "The virus that attacks immune cells and, untreated, leads to AIDS — but with modern antiretroviral therapy is now a chronic, manageable condition for life.",
@@ -3815,6 +3950,21 @@
       "CDC"
     ],
     "plain": "The virus that attacks the body's immune defences — once a death sentence, now a manageable lifelong condition with daily pills."
+  },
+  {
+    "letter": "H",
+    "term": "HL7",
+    "full": "Health Level Seven",
+    "plain": "A long-standing set of standards for how health computer systems format and swap messages, so they can understand each other.",
+    "snappy": "The *messaging-standards* body whose formats let health IT systems talk — the older foundation beneath the newer FHIR.",
+    "detail": "Health Level Seven sets the messaging standards that move data between health IT systems — lab results, admissions, orders. Its older 'v2' messages are still everywhere in hospitals, while its modern, web-friendly successor FHIR is taking over new work. Both serve interoperability. You'll hear HL7 whenever integration engineers and electronic health record vendors discuss connecting systems.",
+    "indications": [
+      "General"
+    ],
+    "category": "Digital Health",
+    "sources": [
+      "ONC"
+    ]
   },
   {
     "letter": "H",
@@ -4307,6 +4457,21 @@
       "ICH E9"
     ],
     "plain": "A rule that counts every trial patient in the group they were first assigned to, even if they dropped out or switched."
+  },
+  {
+    "letter": "I",
+    "term": "Interoperability",
+    "full": "",
+    "plain": "The ability of different health computer systems to share and actually use each other's data — so your records aren't trapped in one office.",
+    "snappy": "Whether health IT systems can *exchange and use* each other's data — the long-sought goal that lets records follow the patient.",
+    "detail": "The capacity of electronic health record systems and devices to exchange data and make it usable — not merely transmit it. It underpins health information exchange and is the reason standards like HL7 and FHIR exist. US rules now ban 'information blocking' to force it. Without it, data sits in silos; with it, clinical decision support and real-world evidence grow far richer.",
+    "indications": [
+      "General"
+    ],
+    "category": "Digital Health",
+    "sources": [
+      "ONC"
+    ]
   },
   {
     "letter": "I",
@@ -6773,6 +6938,21 @@
   },
   {
     "letter": "P",
+    "term": "Patient Portal",
+    "full": "",
+    "plain": "A secure website or app where you can see your test results, message your doctor, and book appointments.",
+    "snappy": "The *patient-facing window* into the electronic health record — view results, message clinicians, book visits, refill prescriptions.",
+    "detail": "The secure online front end to a provider's electronic health record, letting people read notes and labs, message care teams, and schedule visits. US rules now guarantee patients fast electronic access to their data, often via FHIR-based apps. Uptake varies with digital literacy. You'll hear patient portal in patient-engagement and interoperability discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Digital Health",
+    "sources": [
+      "ONC"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "PBM",
     "full": "Pharmacy Benefit Manager",
     "snappy": "The middleman between drugmakers, insurers, and pharmacies — they negotiate prices, decide what's covered, and ultimately shape what you pay at the counter.",
@@ -7355,6 +7535,21 @@
   },
   {
     "letter": "P",
+    "term": "Protected Health Information",
+    "full": "PHI",
+    "plain": "Any health data that can be tied to you — like your diagnoses or test results — that the law says must be kept private.",
+    "snappy": "*Individually identifiable* health data — the category HIPAA protects, from diagnoses to billing records to the very fact of a visit.",
+    "detail": "Any health data linked to an identifiable person — names, diagnoses, test results, even appointment dates. HIPAA governs its use; stripping identifiers ('de-identification') frees data for research and real-world evidence. Mishandling it — often from unsecured electronic health record systems — drives most healthcare data-breach penalties. You'll hear PHI in privacy, security, and data-sharing discussion across every digital health vendor.",
+    "indications": [
+      "General"
+    ],
+    "category": "Digital Health",
+    "sources": [
+      "HHS"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Protein",
     "full": "",
     "snappy": "The molecular workhorses of the cell — long chains of amino acids that fold into precise shapes to do almost every job in the body.",
@@ -7585,6 +7780,21 @@
   },
   {
     "letter": "R",
+    "term": "Real-World Data",
+    "full": "RWD",
+    "plain": "Health data gathered during everyday care — from records, claims, and devices — rather than from a formal clinical trial.",
+    "snappy": "The *raw data of everyday care* — electronic health records, claims, registries, wearables — that, once analyzed, becomes real-world evidence.",
+    "detail": "Health information collected outside controlled trials: electronic health record entries, claims data, disease registries, and wearable streams. Analyzed, it becomes the real-world evidence the FDA increasingly accepts for label expansions and safety monitoring. Its messiness — missing fields, confounding — is the central challenge. You'll hear RWD across HEOR, regulatory, and digital health discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Digital Health",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "Real-World Evidence",
     "full": "RWE",
     "snappy": "Data on how drugs perform in routine clinical practice — drawn from electronic health records, insurance claims, and patient registries — rather than controlled trials.",
@@ -7721,6 +7931,21 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A welcome stretch where cancer signs shrink or vanish, though some hidden disease may still be lurking out of sight."
+  },
+  {
+    "letter": "R",
+    "term": "Remote Patient Monitoring",
+    "full": "RPM",
+    "plain": "Using connected devices at home — like blood-pressure cuffs or glucose monitors — to send your health data to your care team between visits.",
+    "snappy": "Home *connected devices* streaming a patient's vitals to clinicians between visits — a pillar of telehealth for chronic-disease care.",
+    "detail": "It uses connected devices — blood-pressure cuffs, glucose meters, pulse oximeters, wearables — to capture health data at home and route it to clinicians. It extends telehealth into continuous care, helping manage chronic conditions and catch deterioration early. Medicare now reimburses it with dedicated codes. You'll hear RPM alongside wearable sensors and digital biomarkers in connected-health discussion.",
+    "indications": [
+      "General"
+    ],
+    "category": "Digital Health",
+    "sources": [
+      "HRSA"
+    ]
   },
   {
     "letter": "R",
@@ -8237,6 +8462,21 @@
   },
   {
     "letter": "S",
+    "term": "Software as a Medical Device",
+    "full": "SaMD",
+    "plain": "Software that does a medical job on its own — like an app that detects a heart problem — and is regulated as a medical device.",
+    "snappy": "*Software that is itself the medical device* — diagnosing or treating without hardware — and is regulated by the FDA as such.",
+    "detail": "It performs a medical function on its own — an algorithm flagging strokes on a CT scan, an app detecting arrhythmia — rather than running a physical instrument. The FDA regulates it, with evolving pathways for AI models that keep learning. It overlaps with digital therapeutics (DTx). You'll hear SaMD wherever health AI, regulatory clearance, and clinical decision support are discussed.",
+    "indications": [
+      "General"
+    ],
+    "category": "Digital Health",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Somatic Mutation",
     "full": "",
     "snappy": "A genetic change that happens in a body cell during life — not inherited from parents, and only present in the descendants of that one cell.",
@@ -8610,6 +8850,36 @@
     "sources": [
       "FDA",
       "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Telehealth",
+    "full": "",
+    "plain": "Getting care from a doctor remotely — by video, phone, or app — instead of traveling to an office.",
+    "snappy": "*Remote* delivery of health services — video visits, messaging, home monitoring — the broad umbrella over the narrower telemedicine.",
+    "detail": "Covers the full range of care delivered at a distance: video visits, secure messaging, remote patient monitoring, and clinician-to-clinician consults. It exploded during the pandemic when payers and Medicare temporarily relaxed coverage rules. Broader than telemedicine, which means specifically clinical care. You'll hear telehealth in access, rural-care, and reimbursement discussion, since coverage parity remains a live policy fight.",
+    "indications": [
+      "General"
+    ],
+    "category": "Digital Health",
+    "sources": [
+      "HRSA"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Telemedicine",
+    "full": "",
+    "plain": "Seeing a doctor for diagnosis or treatment over video or phone, rather than in person.",
+    "snappy": "*Clinical care at a distance* — diagnosis and treatment by video or phone — the medical core within the wider telehealth umbrella.",
+    "detail": "The remote practice of clinical medicine — a video consult, a teledermatology photo review, a tele-stroke assessment guiding emergency treatment. It's the clinical subset of telehealth, which also spans non-clinical services. Reimbursement and cross-state licensing are the perennial hurdles. You'll hear telemedicine wherever access gaps, rural health, or remote patient monitoring and wearable devices come up.",
+    "indications": [
+      "General"
+    ],
+    "category": "Digital Health",
+    "sources": [
+      "HRSA"
     ]
   },
   {
@@ -9548,6 +9818,21 @@
       "NIH MedlinePlus"
     ],
     "plain": "The body's army of infection-fighting blood cells, watched closely during chemotherapy because most treatments knock the numbers down."
+  },
+  {
+    "letter": "W",
+    "term": "Wearable",
+    "full": "",
+    "plain": "A device you wear, like a smartwatch, that tracks health data such as heart rate or steps.",
+    "snappy": "A body-worn *sensor* — smartwatch, patch, ring — that streams health signals, feeding remote patient monitoring and digital biomarkers.",
+    "detail": "Smartwatches, ECG patches, continuous glucose monitors, and rings passively capture physiological signals outside the clinic. They power remote patient monitoring and generate the digital biomarkers researchers increasingly use in trials. Data quality and clinical validation are the open questions. You'll hear wearable in connected-health, prevention, and decentralized trial discussion as consumer tech pushes into medicine.",
+    "indications": [
+      "General"
+    ],
+    "category": "Digital Health",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "W",
