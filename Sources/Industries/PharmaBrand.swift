@@ -28,7 +28,9 @@ let pharmaBrand = Brand(
                     "NHGRI — National Human Genome Research Institute",
                     "CDC — Centers for Disease Control and Prevention",
                     "CMS — Centers for Medicare & Medicaid Services",
-                    "HRSA — Health Resources and Services Administration"]
+                    "HRSA — Health Resources and Services Administration",
+                    "ONC — Office of the National Coordinator for Health IT",
+                    "HHS — Department of Health and Human Services"]
         ),
         BrandSource(
             heading: "International",
@@ -96,6 +98,8 @@ let pharmaBrand = Brand(
         "NIH NIA":          URL(string: "https://www.nia.nih.gov")!,
         "ICH GCP":          URL(string: "https://www.ich.org/page/efficacy-guidelines")!,
         "HRSA":             URL(string: "https://www.hrsa.gov")!,
+        "ONC":              URL(string: "https://www.healthit.gov")!,
+        "HHS":              URL(string: "https://www.hhs.gov")!,
         "ISPOR":            URL(string: "https://www.ispor.org")!,
         "ICER":             URL(string: "https://icer.org")!,
         "ICH E9":           URL(string: "https://www.ich.org/page/efficacy-guidelines")!,
