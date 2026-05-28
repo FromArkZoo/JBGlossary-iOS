@@ -1,12 +1,12 @@
 import SwiftUI
 
 let pharmaBrand = Brand(
-    appStoreName: "JB Pharma Glossary",
-    displayName: "JB Pharma",
-    navigationTitle: "JB Pharma",
+    appStoreName: "JB Healthcare Glossary",
+    displayName: "JB Healthcare",
+    navigationTitle: "JB Healthcare",
     titlePrefix: "JB",
-    titleBody: "Pharma",
-    subtitle: "decoding pharma jargon",
+    titleBody: "Healthcare",
+    subtitle: "decoding healthcare jargon",
     tagline: nil,
     entryNoun: "entries",
     dataResource: "glossary_pharma",
@@ -15,7 +15,7 @@ let pharmaBrand = Brand(
     bgColor: PGColors.bg,
     urlScheme: "pharma",
     aboutParagraphs: [
-        "JB Pharma is a generalist's reference for the language of pharma and healthcare — the jargon you encounter in news, earnings calls, regulatory filings, and conferences.",
+        "JB Healthcare is a generalist's reference for the language of healthcare — the drugs, biology, regulation, payers, and public-health jargon you encounter in news, earnings calls, regulatory filings, and conferences.",
         "Entries summarize publicly available information from the authoritative sources listed below. They are written for orientation, not for clinical decision-making."
     ],
     aboutDisclaimer: "This is reference material. It is not medical advice.",
@@ -77,7 +77,7 @@ let pharmaBrand = Brand(
             title: "Policy",
             subtitle: "Regulation, pricing, access",
             kind: .categoryFilter(
-                categories: ["Regulatory", "Commercial / Market Access"],
+                categories: ["Regulatory", "Commercial / Market Access", "Health Systems & Payers"],
                 excludedTerms: ["MSL", "Loss of Exclusivity", "Patent Cliff", "NCI", "HEOR", "Gross-to-Net", "Phase 4"]
             )
         )

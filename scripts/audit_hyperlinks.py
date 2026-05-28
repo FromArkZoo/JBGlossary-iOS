@@ -278,6 +278,14 @@ GENERIC_HOMONYM_HIGH_RISK = {
     "Lot", "Block", "Class", "Grade", "Site", "Unit", "Plot",
     # AI / cross-tech
     "Agent", "Attention", "Model", "Prompt", "Layer", "Token", "Weight",
+    # Pharma / healthcare (common words that double as entries; "Agent" above
+    # is shared with AI). Senses multiply as the corpus broadens into payers
+    # and public health — insurance "Carrier", disease "Vector", drug vs
+    # regulatory "Clearance", chemical vs everyday "Solution"/"Reaction".
+    "Expression", "Vector", "Response", "Resistance", "Arm", "Label",
+    "Target", "Lead", "Carrier", "Conjugate", "Clearance", "Culture",
+    "Strain", "Host", "Vehicle", "Solution", "Reaction", "Base", "Buffer",
+    "Plate", "Well", "Reservoir",
 }
 
 # Category-cluster definitions per industry. Categories in the same cluster
@@ -296,9 +304,9 @@ CATEGORY_CLUSTERS = {
         "context": {"Indexes & Benchmarks", "Corporate Actions", "Regulation"},
     },
     "pharma": {
-        "science": {"Mechanism", "Diagnostics", "Clinical"},
+        "science": {"Mechanism", "Diagnostics", "Clinical", "Public Health", "Care Delivery"},
         "operations": {"Manufacturing", "Pharmacovigilance"},
-        "business": {"Commercial / Market Access", "Regulatory", "Digital Health"},
+        "business": {"Commercial / Market Access", "Regulatory", "Digital Health", "Health Systems & Payers"},
     },
     "ai": {
         "modeling": {"Architecture", "Training", "Inference", "Models", "Concepts"},

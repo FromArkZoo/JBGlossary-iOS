@@ -90,8 +90,12 @@ HOMONYM_TERMS = {
     # AI
     "agent", "attention", "batch", "bias", "layer",
     "model", "prompt", "reasoning", "reward", "token", "weight",
-    # Pharma
+    # Pharma / healthcare ("agent" above is shared with AI)
     "assay", "cell", "protein", "receptor",
+    "expression", "vector", "response", "resistance", "arm", "label",
+    "target", "lead", "carrier", "conjugate", "clearance", "culture",
+    "strain", "host", "vehicle", "solution", "reaction", "base",
+    "buffer", "reservoir",
     # Law
     "answer", "breach", "complaint", "damages", "discovery",
     "motion", "standing", "tort", "venue", "will",
