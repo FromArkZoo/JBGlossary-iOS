@@ -76,6 +76,38 @@
   },
   {
     "letter": "A",
+    "term": "Abecma",
+    "full": "Idecabtagene vicleucel",
+    "plain": "A one-time treatment that re-engineers a patient's own immune cells to hunt down and kill blood cancer cells in the bone marrow.",
+    "snappy": "A BCMA-targeted CAR-T cell therapy for multiple myeloma, developed by Bristol Myers Squibb and 2seventy bio.",
+    "detail": "Abecma is a CAR-T cell therapy in which a patient's own T-cells are collected, genetically engineered to recognize B-cell maturation antigen (BCMA) on myeloma cells, and infused back to attack the cancer. It treats relapsed or refractory multiple myeloma after prior lines of therapy. As one of the first two BCMA-directed cell therapies, you'll hear Abecma discussed alongside Carvykti whenever the multiple myeloma cell-therapy landscape comes up.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Abilify",
+    "full": "Aripiprazole",
+    "plain": "A widely used medication for serious mental illness that helps steady mood and thinking by gently balancing a key brain chemical rather than simply blocking it.",
+    "snappy": "A second-generation antipsychotic that acts as a dopamine partial agonist, used for schizophrenia, bipolar disorder, and as an add-on for depression.",
+    "detail": "Abilify (aripiprazole) is an atypical antipsychotic with an unusual mechanism: as a dopamine partial agonist, it dials dopamine signaling up where it's too low and down where it's too high, rather than fully blocking the receptor like older drugs. It's approved for schizophrenia and bipolar disorder and as an adjunct for major depressive disorder. Developed by Otsuka and long co-marketed with Bristol Myers Squibb, it became one of psychiatry's top-selling brands before generics arrived.",
+    "indications": [
+      "Mental Health",
+      "Neurology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Absolute Risk Reduction",
     "full": "ARR",
     "plain": "The simple difference in how often something happens between two groups — if 10% drops to 6%, that's a 4-point reduction.",
@@ -333,6 +365,23 @@
   },
   {
     "letter": "A",
+    "term": "AIDS",
+    "full": "Acquired Immunodeficiency Syndrome",
+    "plain": "The most advanced stage of an untreated HIV infection, where the body's defenses collapse and ordinary germs can cause life-threatening illness.",
+    "snappy": "The late stage of untreated HIV, defined by severe loss of immune CD4 T-cells and the opportunistic infections that follow.",
+    "detail": "AIDS develops when HIV has destroyed enough of the immune system's T-cell defenses to leave the body open to opportunistic infections and certain cancers. It is diagnosed by a very low CD4 count or an AIDS-defining illness, often tracked alongside viral load. Modern antiviral therapy can suppress HIV so effectively that progression to AIDS is now largely preventable. You'll hear AIDS framed as the disease the HIV field was built to stop, with the conversation having shifted toward early treatment and prevention tools like PrEP.",
+    "indications": [
+      "Infectious Disease",
+      "Immunology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "CDC",
+      "WHO"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "AKT",
     "full": "Protein Kinase B",
     "snappy": "A key signaling protein that pushes cells to grow and survive — and is often hijacked by cancer to fuel its own growth.",
@@ -360,6 +409,22 @@
       "NIH"
     ],
     "plain": "One of the 20 small building blocks that proteins are made from — a simple, abundant one your body makes itself."
+  },
+  {
+    "letter": "A",
+    "term": "Alecensa",
+    "full": "Alectinib",
+    "plain": "A targeted pill for a specific kind of lung cancer driven by a faulty gene, helping patients live longer than chemotherapy would.",
+    "snappy": "Roche/Genentech's ALK inhibitor for ALK-positive lung cancer — a next-generation pill that displaced earlier drugs as the standard first treatment.",
+    "detail": "Alecensa is an ALK inhibitor, a TKI that shuts down the abnormal ALK protein driving a subset of NSCLC. It followed Xalkori as a more potent option and became a first-line therapy for ALK-positive disease, partly because it penetrates the brain well and controls brain metastases. You'll hear Alecensa cited at ASCO as a precision-medicine success and in Roche's oncology results.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
   },
   {
     "letter": "A",
@@ -1076,6 +1141,26 @@
   },
   {
     "letter": "B",
+    "term": "BCG",
+    "full": "Bacillus Calmette-Guerin",
+    "plain": "A weakened live bacterium dripped into the bladder to rev up the immune system against early bladder cancer; it is also the world's tuberculosis vaccine.",
+    "snappy": "A live attenuated bacterium given as intravesical immunotherapy for non-muscle-invasive bladder cancer, and the long-standing TB vaccine.",
+    "detail": "BCG is a weakened strain of cattle tuberculosis bacteria that provokes a strong local immune reaction. Instilled directly into the bladder after tumor removal, it acts as immunotherapy, training T-cells to attack residual cancer cells and cut the risk of recurrence in non-muscle-invasive bladder cancer. The same organism is given as a vaccine against tuberculosis in much of the world. You'll hear about chronic BCG shortages, since few manufacturers make this old, hard-to-produce biologic.",
+    "indications": [
+      "Oncology",
+      "Infectious Disease"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "NCI Dictionary of Cancer Terms",
+      "FDA"
+    ],
+    "aliases": [
+      "Bacillus Calmette-Guerin"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "BCL2",
     "full": "B-cell Lymphoma 2",
     "snappy": "A protein that helps cells avoid death — when it's overactive, cancer cells refuse to die, which is how many blood cancers stay alive.",
@@ -1679,6 +1764,22 @@
   },
   {
     "letter": "C",
+    "term": "Carvykti",
+    "full": "Ciltacabtagene autoleucel",
+    "plain": "A one-time treatment that re-engineers a patient's own immune cells to hunt and destroy blood-cancer cells in the bone marrow.",
+    "snappy": "A BCMA-directed CAR-T cell therapy from J&J and Legend Biotech for relapsed or refractory multiple myeloma.",
+    "detail": "Carvykti is a cell therapy in which a patient's own T-cells are collected, genetically reprogrammed to target the BCMA protein on myeloma cells, then infused back in as a living drug. It treats multiple myeloma that has come back or stopped responding to other treatments — a refractory setting where options are limited. You'll hear Carvykti compared head-to-head with Bristol Myers Squibb's rival BCMA CAR-T as the two race for share of the myeloma market.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Case Fatality Rate",
     "full": "CFR",
     "plain": "Out of everyone diagnosed with a disease, the percentage who die from it. A measure of how deadly it is once you catch it.",
@@ -1724,6 +1825,23 @@
   },
   {
     "letter": "C",
+    "term": "CBER",
+    "full": "Center for Biologics Evaluation and Research",
+    "plain": "The part of the FDA that reviews biological medicines — like vaccines, blood products, and gene therapies — to make sure they are safe and work.",
+    "snappy": "The FDA center that regulates biologics — vaccines, blood products, and gene and cell therapies — and approves their marketing applications.",
+    "detail": "CBER is the FDA division that oversees the most complex biological products: vaccines, blood and plasma products, and gene therapy and cell therapy treatments. Unlike small-molecule drugs (handled by CDER), these products go through CBER, which reviews each biologic's BLA before it can reach patients. You'll hear CBER named whenever a new vaccine or cell therapy faces an approval decision, and its leadership shapes how quickly cutting-edge biologics get to market.",
+    "indications": [
+      "General",
+      "Infectious Disease",
+      "Oncology"
+    ],
+    "category": "Regulatory",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "CD19",
     "full": "Cluster of Differentiation 19",
     "plain": "A flag found on B-cells. Because it marks them so reliably, it's the bullseye for CAR-T therapies that treat blood cancers.",
@@ -1750,6 +1868,21 @@
     "category": "Public Health",
     "sources": [
       "CDC"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "CDER",
+    "full": "Center for Drug Evaluation and Research",
+    "plain": "The part of the FDA that reviews and approves most medicines, checking that a new drug is safe and actually works before it reaches patients.",
+    "snappy": "The FDA center that evaluates small-molecule drugs and most therapeutic biologics for safety and effectiveness.",
+    "detail": "CDER is the FDA division responsible for ensuring that prescription and over-the-counter medicines are safe and effective. It reviews the NDA for traditional small molecule drugs and the BLA for most therapeutic biologics such as antibodies. You'll hear CDER cited whenever a sponsor talks about its FDA filing, an approval decision, or a labeling negotiation.",
+    "indications": [
+      "General"
+    ],
+    "category": "Regulatory",
+    "sources": [
+      "FDA"
     ]
   },
   {
@@ -2302,6 +2435,24 @@
       "FDA"
     ],
     "plain": "A pathway letting very sick patients try an unapproved drug when nothing else works and the gamble seems worth taking."
+  },
+  {
+    "letter": "C",
+    "term": "Complete Response Letter",
+    "full": "",
+    "plain": "An official letter the FDA sends a drugmaker to say it cannot approve the application as it stands, and what must be fixed first.",
+    "snappy": "The FDA's formal \"not yet\" — a regulatory action telling a sponsor their application can't be approved in its current form.",
+    "detail": "A Complete Response Letter, or CRL, is how the FDA closes out its review of an NDA or BLA when the drug cannot be approved as submitted, laying out the deficiencies — anything from manufacturing problems to a need for more clinical trial data. It is not an outright rejection; the sponsor can resubmit once the issues are addressed, which resets a fresh review clock. You'll hear a CRL described as the news that tanks a biotech's stock overnight, since it pushes any approval and product label months or years down the road.",
+    "indications": [
+      "General"
+    ],
+    "category": "Regulatory",
+    "sources": [
+      "FDA"
+    ],
+    "aliases": [
+      "CRL"
+    ]
   },
   {
     "letter": "C",
@@ -3431,6 +3582,22 @@
   },
   {
     "letter": "F",
+    "term": "Factor VIII",
+    "full": "",
+    "plain": "A blood protein that helps wounds clot; people born without enough of it have the bleeding disorder hemophilia A.",
+    "snappy": "A clotting protein in the coagulation cascade; its deficiency causes hemophilia A, distinct from the Factor IX deficiency behind hemophilia B.",
+    "detail": "Factor VIII is a protein in the blood-clotting cascade, and the one that is missing or faulty in hemophilia A. Treatment has long meant replacing it with infused factor concentrates, but the field has moved toward a bispecific antibody that mimics its action and, more recently, gene therapy that helps patients make their own. You'll hear Factor VIII discussed alongside Factor IX (the protein behind hemophilia B) whenever bleeding-disorder pipelines and pricing come up.",
+    "indications": [
+      "Rare Disease"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "NIH",
+      "FDA"
+    ]
+  },
+  {
+    "letter": "F",
     "term": "FAP",
     "full": "Familial Adenomatous Polyposis",
     "snappy": "An inherited cancer syndrome where people develop hundreds to thousands of polyps in the colon — virtually all of which will turn into cancer if untreated.",
@@ -3597,6 +3764,22 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "The treatment doctors try first when a patient is diagnosed — usually the regimen with the best track record for that disease."
+  },
+  {
+    "letter": "F",
+    "term": "FISH",
+    "full": "Fluorescence In Situ Hybridization",
+    "plain": "A lab test that uses glowing fluorescent tags to light up specific pieces of DNA on a chromosome, showing if a gene is missing, broken, or over-copied.",
+    "snappy": "A cytogenetic technique using fluorescent probes that bind specific DNA sequences to detect gene amplifications, deletions, or rearrangements on a chromosome.",
+    "detail": "FISH attaches fluorescent probes to a target stretch of DNA, then counts the glowing signals under a microscope to reveal extra copies of a gene, a missing region, or a fusion. It is more targeted than a whole-cell karyotype: instead of viewing every chromosome at once, it zooms in on one locus. You'll hear FISH most often in breast cancer, where it confirms HER2 amplification to guide therapy, making it a workhorse companion diagnostic in oncology.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Diagnostics",
+    "sources": [
+      "NCI Dictionary of Cancer Terms",
+      "FDA"
+    ]
   },
   {
     "letter": "F",
@@ -4030,6 +4213,26 @@
       "FDA"
     ],
     "plain": "The rulebook drugmakers must follow so every pill or vial is clean, pure, and the same from batch to batch."
+  },
+  {
+    "letter": "G",
+    "term": "GnRH",
+    "full": "Gonadotropin-Releasing Hormone",
+    "plain": "A hormone made in the brain that switches on the body's production of sex hormones, controlling fertility and reproduction in both women and men.",
+    "snappy": "A hypothalamic hormone that signals the pituitary gland to release the gonadotropins driving estrogen and testosterone production.",
+    "detail": "GnRH is released by the hypothalamus to make the pituitary secrete hormones that stimulate the ovaries and testes. Drugs that mimic it (agonists) or block it (antagonists) shut down this axis to lower sex-hormone levels — a strategy used in prostate cancer, endometriosis, and some uterine and breast tumors, as well as in fertility treatment. You'll hear GnRH analogs described as \"chemical castration\" in prostate care and as the workhorse of hormone-driven women's health therapy.",
+    "indications": [
+      "Oncology",
+      "Women's Health"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "NCI Dictionary of Cancer Terms",
+      "NIH"
+    ],
+    "aliases": [
+      "Gonadotropin-Releasing Hormone"
+    ]
   },
   {
     "letter": "G",
@@ -5402,6 +5605,21 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "An enzyme that flips other proteins on or off by sticking a tiny chemical tag on them — a favourite target for cancer drugs."
+  },
+  {
+    "letter": "K",
+    "term": "Kisunla",
+    "full": "Donanemab",
+    "plain": "A drug for people in the early stages of Alzheimer's that clears the sticky plaque buildup in the brain thought to drive the disease.",
+    "snappy": "Eli Lilly's anti-amyloid antibody for early Alzheimer's disease, designed to clear amyloid plaque from the brain.",
+    "detail": "Kisunla is a monoclonal antibody that binds amyloid plaque and helps the immune system remove it, slowing cognitive decline in early Alzheimer's disease. Like Leqembi, it requires confirmed amyloid buildup (a biomarker) before treatment and is given by infusion. You'll hear it discussed alongside Leqembi as the two anti-amyloid drugs that finally cleared the FDA after the troubled Aduhelm launch.",
+    "indications": [
+      "Neurology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "K",
@@ -7843,6 +8061,22 @@
   },
   {
     "letter": "P",
+    "term": "PDGFRA",
+    "full": "Platelet-Derived Growth Factor Receptor Alpha",
+    "plain": "A protein on the surface of cells that, when faulty, can get stuck switched on and drive certain tumors to keep growing.",
+    "snappy": "A cell-surface receptor tyrosine kinase whose activating mutations drive a subset of GIST that lack the more common KIT mutation.",
+    "detail": "PDGFRA is a receptor on the cell membrane; a growth signal normally docks onto it to tell the cell to divide. An activating mutation can lock it in the 'on' position, and such mutations drive a subset of GIST (gastrointestinal stromal tumors) that lack the usual KIT change. This matters for targeted therapy: the single most common PDGFRA mutation, D842V, resists imatinib (Gleevec) and instead needs avapritinib (Ayvakit). You'll hear PDGFRA alongside KIT whenever an oncologist orders molecular testing on a newly diagnosed GIST.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "NCI Dictionary of Cancer Terms",
+      "NIH"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "PDUFA",
     "full": "Prescription Drug User Fee Act",
     "snappy": "The deal where drug companies pay the FDA to review their applications on a clock — and Congress renews it every five years.",
@@ -7855,6 +8089,25 @@
       "FDA"
     ],
     "plain": "The deal where drug companies pay the FDA to review their applications on a clock, renewed by Congress every five years."
+  },
+  {
+    "letter": "P",
+    "term": "Pemazyre",
+    "full": "Pemigatinib",
+    "plain": "A targeted cancer pill for a specific type of bile-duct cancer driven by a faulty growth gene, used when a tumor carries that exact defect.",
+    "snappy": "Incyte's FGFR inhibitor for cholangiocarcinoma whose tumors carry an FGFR2 fusion.",
+    "detail": "Pemazyre (pemigatinib) blocks FGFR kinases, the growth-signaling enzymes that drive certain tumors. It treats cholangiocarcinoma (bile-duct cancer) in patients whose tumors harbor an FGFR2 fusion gene, making it a classic example of targeted therapy matched to a specific genetic driver. You'll hear Pemazyre cited as proof that even rare cancers can have a precision option once the right FGFR alteration is identified by testing.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ],
+    "aliases": [
+      "Pemigatinib"
+    ]
   },
   {
     "letter": "P",
@@ -7936,6 +8189,24 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "Picking treatment based on the specific genetic features of each patient's disease instead of giving everyone the same thing."
+  },
+  {
+    "letter": "P",
+    "term": "PET",
+    "full": "Positron Emission Tomography",
+    "plain": "A scan that injects a tiny dose of radioactive sugar and watches where your body burns it most, lighting up busy areas like tumors.",
+    "snappy": "A nuclear imaging scan that uses a radioactive tracer to map metabolic activity, highlighting where tissue is most active.",
+    "detail": "PET works by injecting a radiotracer built around a radioactive isotope — most often FDG, a sugar tagged with fluorine-18 — that collects in metabolically hungry cells and emits positrons the scanner detects. Because tumors burn glucose fast, PET is a workhorse for cancer staging, spotting metastasis, and judging whether treatment is working. You'll often see it paired with CT (PET/CT) and discussed alongside MRI when oncology teams plan and follow a patient's care.",
+    "indications": [
+      "Oncology",
+      "Neurology",
+      "General"
+    ],
+    "category": "Diagnostics",
+    "sources": [
+      "NCI Dictionary of Cancer Terms",
+      "NIH"
+    ]
   },
   {
     "letter": "P",
@@ -8228,6 +8499,23 @@
   },
   {
     "letter": "P",
+    "term": "POLE",
+    "full": "DNA polymerase epsilon",
+    "plain": "A gene whose job is to copy DNA accurately; certain faults in it mark a type of womb cancer that tends to have a very good outlook.",
+    "snappy": "The gene encoding DNA polymerase epsilon; \"POLE-ultramutated\" defines a favorable molecular subtype of endometrial cancer.",
+    "detail": "POLE provides the instructions for DNA polymerase epsilon, an enzyme that proofreads and copies DNA during cell division. When its proofreading region is mutated, tumors accumulate huge numbers of mutations — yet in endometrial cancer this \"POLE-ultramutated\" group, one of the four TCGA molecular subtypes, carries an unusually good prognosis, likely because the flood of mutations makes the tumor highly visible to the immune system. You'll hear POLE testing discussed as a biomarker that can spare favorable-risk patients from over-treatment and flag candidates for checkpoint inhibitor immunotherapy.",
+    "indications": [
+      "Oncology",
+      "Women's Health"
+    ],
+    "category": "Mechanism",
+    "sources": [
+      "NCI Dictionary of Cancer Terms",
+      "NIH"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Polymer",
     "full": "",
     "snappy": "A long molecule made by linking many small repeating units (monomers) together — proteins, DNA, starch, plastics are all polymers.",
@@ -8486,6 +8774,22 @@
   },
   {
     "letter": "P",
+    "term": "PSA",
+    "full": "Prostate-Specific Antigen",
+    "plain": "A protein measured in a simple blood test that helps doctors check for and keep an eye on prostate cancer.",
+    "snappy": "A blood biomarker — a protein made by the prostate — used to screen for and monitor prostate cancer.",
+    "detail": "PSA is a protein produced by prostate cells; a blood test measures its level, and a rising or elevated value can flag prostate cancer. It is the classic biomarker for screening and for monitoring patients after treatment, where a climbing PSA signals recurrence. Because it also rises with benign conditions, PSA-based screening is debated, so it is interpreted alongside biopsy and other findings rather than relied on alone.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Diagnostics",
+    "sources": [
+      "NCI Dictionary of Cancer Terms",
+      "FDA"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Psoriasis",
     "full": "",
     "snappy": "A chronic autoimmune skin disease where overactive immune signals make skin cells multiply too fast — leaving thick, scaly red patches that can crack and bleed.",
@@ -8514,6 +8818,23 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A natural brake gene that holds back cell growth, and when it breaks, cells multiply without restraint and tumors take hold."
+  },
+  {
+    "letter": "P",
+    "term": "PTSD",
+    "full": "Post-Traumatic Stress Disorder",
+    "plain": "A mental health condition that can develop after a terrifying event, causing flashbacks, nightmares, and severe anxiety that linger long after the danger has passed.",
+    "snappy": "A trauma- and stressor-related disorder marked by intrusive memories, avoidance, hyperarousal, and negative mood following a traumatic event.",
+    "detail": "PTSD is triggered by experiencing or witnessing trauma such as combat, assault, or disaster, and is grouped separately from anxiety disorder in modern classifications. Treatment combines trauma-focused psychotherapy with medication, where an SSRI is the usual first-line drug choice. It frequently shows comorbidity with major depressive disorder and substance use, and you'll hear PTSD discussed heavily in veterans' health, where it remains a major focus for new therapies.",
+    "indications": [
+      "Mental Health",
+      "Neurology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "NIH",
+      "WHO"
+    ]
   },
   {
     "letter": "Q",
@@ -8789,6 +9110,22 @@
       "NIH MedlinePlus"
     ],
     "plain": "A protein on or inside a cell that catches incoming signals, like a docking station, and most drugs work by latching onto one."
+  },
+  {
+    "letter": "R",
+    "term": "RECIST",
+    "full": "Response Evaluation Criteria In Solid Tumors",
+    "plain": "A standard rulebook for measuring tumors on scans so doctors can say whether a cancer treatment is shrinking, holding, or growing the disease.",
+    "snappy": "Standardized imaging-based criteria that classify tumor response in trials as complete, partial, stable, or progressive disease.",
+    "detail": "RECIST tells investigators which lesions to measure on CT or MRI and how to add up those measurements at each visit, sorting patients into complete response, partial response, stable disease, or progressive disease. By forcing everyone to read scans the same way, it makes results from different trials and sites comparable — the backbone of the objective response rate endpoint and of timing when a tumor or a metastasis has grown. You'll hear RECIST (and its immunotherapy cousin iRECIST) cited in nearly every oncology clinical trial, since it underpins surrogate readouts like response rate and duration of response.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Diagnostics",
+    "sources": [
+      "NCI Dictionary of Cancer Terms",
+      "FDA"
+    ]
   },
   {
     "letter": "R",
@@ -9973,11 +10310,43 @@
   },
   {
     "letter": "T",
+    "term": "Tecartus",
+    "full": "Brexucabtagene autoleucel",
+    "plain": "A one-time cancer treatment that re-engineers a patient's own immune cells so they hunt down and destroy certain blood cancers.",
+    "snappy": "Kite/Gilead's CD19-directed CAR-T cell therapy for mantle cell lymphoma and adult acute lymphoblastic leukemia.",
+    "detail": "Tecartus is a CAR-T therapy in which a patient's own T-cells are collected, genetically reprogrammed to target the CD19 antigen on cancerous B-cells, and infused back. Made by Kite, a Gilead company, it is approved for relapsed or refractory mantle cell lymphoma and adult acute lymphoblastic leukemia. You'll hear it discussed alongside Yescarta as part of Gilead's cell therapy franchise, with the same logistics and cytokine release risks that define the CAR-T field.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "T",
     "term": "Tecentriq",
     "full": "Atezolizumab",
     "plain": "A cancer immunotherapy that blocks the 'don't attack me' signal tumors send, letting the immune system see and fight them.",
     "snappy": "Roche's anti-PD-L1 checkpoint inhibitor, used in lung, bladder, and liver cancer.",
     "detail": "Tecentriq blocks PD-L1 rather than PD-1, freeing T-cells to attack. It's used in NSCLC, small-cell lung, bladder, and liver cancer, often alongside chemo or Avastin. You'll hear Tecentriq in lung and bladder readouts at ASCO.",
+    "indications": [
+      "Oncology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Tecvayli",
+    "full": "Teclistamab",
+    "plain": "A drug for a hard-to-treat blood cancer that grabs a cancer cell and an immune cell at once, so the immune cell destroys the tumor.",
+    "snappy": "Johnson & Johnson's BCMA x CD3 bispecific antibody for relapsed or refractory multiple myeloma.",
+    "detail": "Tecvayli is a bispecific antibody with two arms: one grips BCMA, a protein on myeloma cells, while the other grips CD3 on a T-cell, dragging the immune cell against the tumor to destroy it. It treats multiple myeloma that has come back or stopped responding after multiple prior therapies. As an off-the-shelf alternative to CAR-T, you'll hear Tecvayli discussed as part of the wave of T-cell-engaging therapies reshaping how this blood cancer is treated.",
     "indications": [
       "Oncology"
     ],
@@ -10446,6 +10815,26 @@
   },
   {
     "letter": "T",
+    "term": "Truseltiq",
+    "full": "Infigratinib",
+    "plain": "A pill for a rare bile-duct cancer driven by a specific genetic glitch, which blocks the faulty growth signal fueling the tumor.",
+    "snappy": "An oral FGFR inhibitor for FGFR2-fusion cholangiocarcinoma — later voluntarily pulled from the US market.",
+    "detail": "Truseltiq (infigratinib) is a targeted therapy that inhibits FGFR, a kinase whose signaling drives certain tumors. It was approved for previously treated cholangiocarcinoma carrying an FGFR2 fusion gene, a biomarker found by genomic testing. Marketed by Helsinn and BridgeBio, it was voluntarily withdrawn in the US in 2022 — you'll hear it cited as a cautionary tale about narrow oncology indications and commercial viability.",
+    "indications": [
+      "Oncology",
+      "Rare Disease"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ],
+    "aliases": [
+      "Infigratinib"
+    ]
+  },
+  {
+    "letter": "T",
     "term": "Tumor Heterogeneity",
     "full": "",
     "snappy": "The fact that cancer cells within a single tumor — let alone between tumors — aren't identical, with different mutations, behaviors, and drug sensitivities.",
@@ -10876,6 +11265,23 @@
   },
   {
     "letter": "V",
+    "term": "Verzenio",
+    "full": "Abemaciclib",
+    "plain": "A pill from Eli Lilly that slows certain breast cancers by blocking proteins the tumor cells need to keep dividing.",
+    "snappy": "Eli Lilly's oral CDK4/6 inhibitor for HR+/HER2- breast cancer, taken alongside hormone-blocking therapy.",
+    "detail": "Verzenio (abemaciclib) blocks the CDK4/6 kinases that drive cell division, stalling hormone-receptor-positive, HER2-negative breast cancer. It is paired with endocrine therapy in advanced disease and also used in the adjuvant setting to cut recurrence risk after surgery. You'll hear it discussed alongside Ibrance and Kisqali as the three rival CDK4/6 inhibitors competing in breast cancer.",
+    "indications": [
+      "Oncology",
+      "Women's Health"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA",
+      "NCI Dictionary of Cancer Terms"
+    ]
+  },
+  {
+    "letter": "V",
     "term": "VHL",
     "full": "Von Hippel-Lindau",
     "snappy": "A tumor-suppressor gene that, when broken, causes the inherited VHL syndrome — and is also lost in most clear cell kidney cancers.",
@@ -10966,6 +11372,21 @@
       "FDA"
     ],
     "plain": "How widely a drug spreads through the body after it's swallowed or injected, which shapes how big a dose needs to be."
+  },
+  {
+    "letter": "V",
+    "term": "Vraylar",
+    "full": "Cariprazine",
+    "plain": "A daily pill for serious mental illness that gently nudges the brain's dopamine system rather than fully blocking it, easing symptoms with fewer side effects for some people.",
+    "snappy": "AbbVie's atypical antipsychotic — a dopamine D3/D2 partial agonist used for schizophrenia, bipolar disorder, and add-on depression treatment.",
+    "detail": "Vraylar (cariprazine) is an oral atypical antipsychotic that acts as a partial agonist at dopamine D3 and D2 receptors, dialing signaling toward a middle range instead of shutting it off. It's approved for schizophrenia and bipolar disorder, and as add-on therapy for major depressive disorder. You'll hear Vraylar cited as one of AbbVie's key CNS growth drivers as the company diversifies beyond Humira.",
+    "indications": [
+      "Mental Health"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "W",
@@ -11248,6 +11669,21 @@
   },
   {
     "letter": "X",
+    "term": "Xarelto",
+    "full": "Rivaroxaban",
+    "plain": "A widely used blood thinner taken as a pill to prevent dangerous clots, working without the frequent blood tests older medicines required.",
+    "snappy": "An oral factor Xa inhibitor — a DOAC anticoagulant from J&J and Bayer that blocks a key clotting protein to prevent stroke and blood clots.",
+    "detail": "Xarelto blocks factor Xa, an enzyme central to the clotting cascade, making it a leading DOAC alternative to older anticoagulant therapy like warfarin. It is used to prevent stroke in atrial fibrillation and to treat and prevent deep-vein and lung clots, all without routine monitoring. You'll hear it spoken of alongside its rival Eliquis as one of the two dominant oral anticoagulants and a major Bayer and J&J franchise.",
+    "indications": [
+      "Cardiovascular"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
+  },
+  {
+    "letter": "X",
     "term": "Xeljanz",
     "full": "Tofacitinib",
     "plain": "The first pill of its kind for arthritis — and the one whose safety study led regulators to warn about the whole drug class.",
@@ -11323,6 +11759,23 @@
       "NCI Dictionary of Cancer Terms"
     ],
     "plain": "A protein that switches off a cell's self-destruct button, helping cancer cells survive treatments that should be killing them."
+  },
+  {
+    "letter": "X",
+    "term": "Xolair",
+    "full": "Omalizumab",
+    "plain": "An injected antibody drug that mops up the allergy-triggering molecule in your blood, used to calm severe allergic asthma, hives, and food allergies.",
+    "snappy": "An anti-IgE monoclonal antibody that binds immunoglobulin E to blunt the allergic cascade behind asthma, chronic hives, and food allergy.",
+    "detail": "Xolair is a monoclonal antibody that binds free IgE, the immunoglobulin that arms allergic responses, stopping it before it can set off the reaction. Marketed by Genentech and Novartis, it treats moderate-to-severe allergic asthma, chronic spontaneous urticaria (hives), and food allergy. You'll hear Xolair cited as one of the original respiratory biologics, the template later challenged by newer anti-eosinophil antibodies in severe asthma.",
+    "indications": [
+      "Respiratory",
+      "Immunology",
+      "Dermatology"
+    ],
+    "category": "Clinical",
+    "sources": [
+      "FDA"
+    ]
   },
   {
     "letter": "X",
