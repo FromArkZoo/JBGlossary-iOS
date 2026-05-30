@@ -3259,7 +3259,7 @@
     "term": "Epilepsy",
     "full": "",
     "snappy": "A neurological disorder defined by recurring seizures — sudden bursts of disordered electrical activity in the brain — affecting people of every age and background.",
-    "detail": "Epilepsy treatment leans on a long list of antiseizure drugs (older ones like phenytoin and valproate, newer ones like Vimpat/lacosamide and Briviact/brivaracetam), with surgery and devices for drug-resistant cases. Cannabidiol (Epidiolex) was the first FDA-approved cannabis-derived drug, indicated for rare pediatric epilepsies. You'll hear epilepsy on UCB, Jazz, and SK earnings calls as a steady specialty market, and at AES when readouts on novel mechanisms shift expectations.",
+    "detail": "Epilepsy treatment leans on a long list of antiseizure drugs (older ones like phenytoin and valproate, newer ones like Vimpat/lacosamide and Briviact/brivaracetam), with surgery and devices for refractory (drug-resistant) cases. Cannabidiol (Epidiolex) was the first FDA-approved cannabis-derived drug, indicated for rare pediatric epilepsies. You'll hear epilepsy on UCB, Jazz, and SK earnings calls as a steady specialty market, and at AES when readouts on novel mechanisms shift expectations.",
     "indications": [
       "Neurology"
     ],
@@ -3566,8 +3566,8 @@
     "letter": "F",
     "term": "First-in-Human",
     "full": "FIH",
-    "snappy": "The very first time a new drug is given to people — a high-stakes Phase 1 study where everything is unknown until it isn't.",
-    "detail": "FIH studies typically dose tiny cohorts of healthy volunteers or patients with carefully escalating amounts, watching for safety signals. Famous failures (TGN1412, BIA 10-2474) have made FIH design more cautious. You'll hear FIH in early biotech pipeline discussions, in conference posters reporting first safety data, and in any pitch where a novel mechanism is reaching humans for the first time.",
+    "snappy": "The very first time a new drug is given to people — a high-stakes Phase 1 Trial where everything is unknown until it isn't.",
+    "detail": "FIH studies typically dose tiny cohorts of healthy volunteers or patients with carefully escalating amounts (Dose Escalation), watching for safety signals. Famous failures (TGN1412, BIA 10-2474) have made FIH design more cautious. You'll hear FIH in early biotech pipeline discussions, in conference posters reporting first safety data, and in any pitch where a novel mechanism is reaching humans for the first time.",
     "indications": [
       "General"
     ],
@@ -7262,7 +7262,7 @@
     "term": "Oligometastatic",
     "full": "",
     "snappy": "Cancer that has spread, but only to a small number of sites — a state where aggressive local treatment of every spot may produce long-term disease control.",
-    "detail": "Oligometastatic disease (typically 1-5 metastases) is being increasingly treated with stereotactic radiosurgery or targeted surgery alongside systemic therapy, sometimes producing years of disease-free survival. The concept has reshaped how doctors think about advanced cancer. You'll hear oligometastatic at radiation-oncology meetings and in commercial discussions of localized-treatment platforms.",
+    "detail": "Oligometastatic disease (typically 1-5 sites of Metastasis) is being increasingly treated with stereotactic radiosurgery, a form of focused Radiation Therapy, or targeted surgery alongside systemic therapy, sometimes producing years of disease-free survival. The concept has reshaped how doctors think about advanced cancer. You'll hear oligometastatic at radiation-oncology meetings and in commercial discussions of localized-treatment platforms.",
     "indications": [
       "Oncology"
     ],
@@ -7307,7 +7307,7 @@
     "term": "Oncology",
     "full": "",
     "snappy": "The medical specialty dedicated to diagnosing and treating cancer — one of the largest, fastest-growing, and most innovation-heavy areas of medicine.",
-    "detail": "Oncology is divided into many subspecialties: medical, surgical, radiation, pediatric, hematologic, gynecologic, and so on. The field has been the leading edge of pharma innovation for two decades and accounts for the largest share of new drug approvals. You'll hear oncology referenced as the dominant therapeutic area in nearly every pharma strategy discussion.",
+    "detail": "Oncology is divided into many subspecialties: medical, surgical, radiation, pediatric, hematologic, gynecologic, and so on. The field has been the leading edge of pharma innovation for two decades and accounts for the largest share of new drug approvals; its drug arsenal spans Chemotherapy, Targeted Therapy, and Immunotherapy. You'll hear oncology referenced as the dominant therapeutic area in nearly every pharma strategy discussion.",
     "indications": [
       "Oncology"
     ],
@@ -8057,8 +8057,8 @@
     "letter": "P",
     "term": "Phase 2 Trial",
     "full": "",
-    "snappy": "Mid-stage trials in patients with the target disease — focused on whether the drug actually works at the doses chosen in Phase 1.",
-    "detail": "Phase 2 typically enrolls 100-500 patients across several months to a couple of years. This is the 'go/no-go' decision point for most programs — if Phase 2 efficacy doesn't impress, Phase 3 investment is hard to justify. Successful Phase 2 readouts often drive significant biotech stock moves; failures kill programs. The Phase 2-to-Phase 3 attrition rate is the single highest in drug development.",
+    "snappy": "Mid-stage trials in patients with the target disease — focused on whether the drug actually works at the doses chosen in a Phase 1 Trial.",
+    "detail": "Phase 2 typically enrolls 100-500 patients across several months to a couple of years. This is the 'go/no-go' decision point for most programs — if Phase 2 efficacy doesn't impress, Phase 3 Trial investment is hard to justify. Successful Phase 2 readouts often drive significant biotech stock moves; failures kill programs. The Phase 2-to-Phase 3 attrition rate is the single highest in drug development.",
     "indications": [
       "General"
     ],
@@ -8377,7 +8377,7 @@
     "term": "Prior Authorization",
     "full": "",
     "snappy": "The paperwork hurdle where your doctor has to convince your insurer that a specific drug is medically necessary before they'll cover it.",
-    "detail": "Prior auth — \"PA\" in industry shorthand — is the most common utilization-management tool insurers use to gate expensive drugs, often requiring documentation of failed alternatives or specific diagnostic criteria. Physicians complain it consumes hours of staff time per case and delays care. You'll see it cited as a launch barrier on pharma earnings calls, and it's a frequent target in policy reform conversations from both parties in Congress.",
+    "detail": "Prior auth — \"PA\" in industry shorthand — is the most common Utilization Management tool insurers use to gate expensive drugs, often requiring documentation of failed alternatives (Step Therapy) or specific diagnostic criteria. Physicians complain it consumes hours of staff time per case and delays care. You'll see it cited as a launch barrier on pharma earnings calls, and it's a frequent target in policy reform conversations from both parties in Congress.",
     "indications": [
       "General"
     ],
@@ -10046,8 +10046,8 @@
     "letter": "T",
     "term": "Therapeutic Index",
     "full": "TI",
-    "snappy": "The ratio between a drug's toxic dose and its effective dose — wider is safer, narrower is dangerous and requires careful monitoring.",
-    "detail": "Drugs with narrow therapeutic indices (warfarin, lithium, digoxin) need blood-level monitoring and careful dosing. Most chemo drugs have narrow TIs, which is why dose adjustments and supportive care matter so much. You'll hear TI in clinical-pharmacology discussions and in any drug-safety review.",
+    "snappy": "The ratio between a drug's toxic dose and its effective dose — wider is safer, narrower is dangerous and requires careful monitoring of the drug's Therapeutic Window.",
+    "detail": "Drugs with narrow therapeutic indices (warfarin, lithium, digoxin) need blood-level monitoring and careful dosing. Most cytotoxic chemo drugs have narrow TIs, which is why dose adjustments and supportive care matter so much. You'll hear TI in clinical-pharmacology discussions and in any drug-safety review.",
     "indications": [
       "General"
     ],
