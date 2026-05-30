@@ -563,7 +563,7 @@
     "letter": "A",
     "term": "Antibiotic",
     "full": "",
-    "snappy": "A drug that kills or stops the growth of bacteria — the foundation of modern medicine since penicillin, and increasingly under threat as bacteria evolve resistance.",
+    "snappy": "A drug that kills or stops the growth of bacteria — the foundation of modern medicine since penicillin, and increasingly under threat as bacteria evolve antimicrobial resistance.",
     "detail": "Antibiotic classes range from penicillins and cephalosporins to fluoroquinolones, macrolides, and last-resort drugs like vancomycin and carbapenems. Despite enormous public-health value, antibiotics earn poor commercial returns — most are short-course generics — and the pipeline has thinned. You'll hear antibiotics framed on policy panels and at JPMorgan as a market-failure problem, and in PASTEUR Act discussions about subscription-style government payment models to revive the pipeline.",
     "indications": [
       "Infectious Disease"
@@ -2672,7 +2672,7 @@
     "full": "",
     "plain": "A health signal measured by a digital device — like gait from a phone or heart rhythm from a watch — used to track disease.",
     "snappy": "A *device-measured* physiological or behavioral signal — gait, sleep, heart rhythm — used like a lab biomarker to track disease or drug effect.",
-    "detail": "Objective measures captured by sensors and apps — typing speed in Parkinson's, nocturnal cough, continuous glucose — that stand in for disease state or treatment response. Drawn from wearables and phones, they enable continuous endpoints in decentralized trials and remote patient monitoring. Validation against clinical outcomes is the hurdle. You'll hear digital biomarker in trial-innovation and digital health discussion.",
+    "detail": "Objective measures captured by sensors and apps — typing speed in Parkinson's Disease, nocturnal cough, continuous glucose — that stand in for disease state or treatment response. Drawn from wearables and phones, they enable continuous endpoints in decentralized trials and remote patient monitoring. Validation against clinical outcomes is the hurdle. You'll hear digital biomarker in trial-innovation and digital health discussion.",
     "indications": [
       "General"
     ],
@@ -3938,7 +3938,7 @@
     "term": "GLP-1 Agonist",
     "full": "",
     "snappy": "A drug that mimics a natural gut hormone to lower blood sugar and curb appetite — the engine behind the Ozempic and Wegovy phenomenon.",
-    "detail": "GLP-1 receptor agonists — Ozempic (semaglutide), Mounjaro (tirzepatide, dual GLP-1/GIP), Trulicity (dulaglutide), Wegovy — were originally approved for type 2 diabetes, then revolutionized obesity treatment with weight loss of 15-20%. New trials show benefit in heart failure, kidney disease, and possibly Alzheimer's. You'll hear GLP-1 dominate every Novo Nordisk and Eli Lilly earnings call, and at JPMorgan it's the single most-discussed therapeutic class — supply, oral formulations, and label expansions are the running storylines.",
+    "detail": "GLP-1 receptor agonists — Ozempic (semaglutide), Mounjaro (tirzepatide, dual GLP-1/GIP), Trulicity (dulaglutide), Wegovy — were originally approved for type 2 diabetes, then revolutionized obesity treatment with weight loss of 15-20%. New trials show benefit in heart failure, kidney disease, and possibly Alzheimer's Disease. You'll hear GLP-1 dominate every Novo Nordisk and Eli Lilly earnings call, and at JPMorgan it's the single most-discussed therapeutic class — supply, oral formulations, and label expansions are the running storylines.",
     "indications": [
       "Metabolic",
       "Cardiovascular"
@@ -4038,7 +4038,7 @@
     "sources": [
       "NIH"
     ],
-    "plain": "The cell's mailroom — a stack of pouches that wraps and labels proteins before shipping them off to where they're needed."
+    "plain": "The cell's mailroom — a stack of pouches that wraps and tags proteins before shipping them off to where they're needed."
   },
   {
     "letter": "G",
@@ -4940,7 +4940,7 @@
     "term": "Inhibitor",
     "full": "",
     "snappy": "A drug that blocks a protein from doing its job — most cancer drugs are inhibitors of one enzyme or receptor or another.",
-    "detail": "Inhibitors come in many flavors: small-molecule kinase inhibitors (Gleevec, Tagrisso), antibody-based receptor blockers (Herceptin), enzyme inhibitors (PARP inhibitors). The common thread is shutting down a specific protein the cancer depends on. You'll hear \"X inhibitor\" used to label drug classes across every pharma pipeline and trial readout.",
+    "detail": "Inhibitors come in many flavors: small-molecule kinase inhibitors (Gleevec, Tagrisso), antibody-based receptor blockers (Herceptin), enzyme inhibitors (PARP inhibitors). The common thread is shutting down a specific protein the cancer depends on. You'll hear \"X inhibitor\" used to name drug classes across every pharma pipeline and trial readout.",
     "indications": [
       "General"
     ],
@@ -5742,7 +5742,7 @@
     "full": "Loss of Exclusivity",
     "plain": "The point when a drug's patents expire and cheaper copies can be sold, usually causing its sales to crash.",
     "snappy": "The *patent cliff moment* — when a drug's protection lapses and cheaper copies are free to flood in.",
-    "detail": "LOE is the industry's tag for Loss of Exclusivity: the date a brand's patents and regulatory protections expire, opening the door to a Generic or Biosimilar and triggering the revenue collapse known as the Patent Cliff. Companies brace for an LOE years ahead, defending it with new formulations and pipeline launches to replace the lost sales. A blockbuster's LOE can erase most of its revenue within a year. You'll hear LOE in every earnings call and forecast where a top-selling drug's protection is about to run out.",
+    "detail": "LOE is the industry's tag for Loss of Exclusivity: the date a brand's patents and regulatory protections expire, opening the door to a Generic Drug or Biosimilar and triggering the revenue collapse known as the Patent Cliff. Companies brace for an LOE years ahead, defending it with new formulations and pipeline launches to replace the lost sales. A blockbuster's LOE can erase most of its revenue within a year. You'll hear LOE in every earnings call and forecast where a top-selling drug's protection is about to run out.",
     "indications": [
       "General"
     ],
@@ -6462,7 +6462,7 @@
     "term": "Monomer",
     "full": "",
     "snappy": "The single repeating subunit that gets chained together to form a polymer — amino acids are the monomers of proteins, nucleotides of DNA.",
-    "detail": "When biotech engineers a new protein or RNA drug, they're choosing the order of the monomer building blocks. Synthetic monomer chemistry also matters in pharma: the monomers in PEG, PLGA, and lipid nanoparticles all have to be carefully purified and characterized for regulatory approval. Trace impurities at the monomer stage can cause downstream issues with drug stability or immunogenicity.",
+    "detail": "When biotech engineers a new protein or RNA drug, they're choosing the order of the monomer building blocks. Synthetic monomer chemistry also matters in pharma: the monomers in PEG, PLGA, and lipid nanoparticles all have to be carefully purified and characterized for regulatory approval. Trace impurities at the monomer step can cause downstream issues with drug stability or immunogenicity.",
     "indications": [
       "General"
     ],
@@ -6997,7 +6997,7 @@
     "sources": [
       "NCI Dictionary of Cancer Terms"
     ],
-    "plain": "An umbrella label for dozens of different cancers of the body's immune-cell network, collectively one of the most common cancers in the US."
+    "plain": "An umbrella term for dozens of different cancers of the body's immune-cell network, collectively one of the most common cancers in the US."
   },
   {
     "letter": "N",
@@ -7490,7 +7490,7 @@
     "letter": "O",
     "term": "Outbreak",
     "full": "",
-    "plain": "A sudden jump in cases of a disease in one place or group. The earliest, most local stage before it can grow into an epidemic.",
+    "plain": "A sudden jump in cases of a disease in one place or group. The earliest, most local phase before it can grow into an epidemic.",
     "snappy": "A *sudden, localized* cluster of cases above the norm — the smallest fire, which contact tracing can contain before it grows into an epidemic.",
     "detail": "A sharp, often local rise in cases above normal — a foodborne cluster, a measles flare in an under-vaccinated school. Caught early, contact tracing and quarantine can snuff it out before it becomes an epidemic. These events trigger disease surveillance and, for notifiable diseases, mandatory reporting to the CDC. The line between a large one and an epidemic is mostly a matter of scale.",
     "indications": [
@@ -9721,7 +9721,7 @@
     "term": "Stem Cell",
     "full": "",
     "snappy": "An undifferentiated cell that can both renew itself and develop into specialized cell types — the source of every tissue in the body.",
-    "detail": "Hematopoietic stem-cell transplants (bone marrow transplants) are decades-old and used for blood cancers and severe immune disorders. Embryonic and induced pluripotent stem cells (iPSCs) underpin newer regenerative therapies in development for Parkinson's, diabetes (Vertex's VX-880 and zimislecel), and macular degeneration. The field has long been dogged by hype-vs-evidence tension; most actual approvals to date are in transplant rather than the 'grow-a-new-organ' future scenarios.",
+    "detail": "Hematopoietic stem-cell transplants (bone marrow transplants) are decades-old and used for blood cancers and severe immune disorders. Embryonic and induced pluripotent stem cells (iPSCs) underpin newer regenerative therapies in development for Parkinson's Disease, diabetes (Vertex's VX-880 and zimislecel), and macular degeneration. The field has long been dogged by hype-vs-evidence tension; most actual approvals to date are in transplant rather than the 'grow-a-new-organ' future scenarios.",
     "indications": [
       "Rare Disease"
     ],
@@ -10229,7 +10229,7 @@
     "term": "TNF Inhibitor",
     "full": "Tumor Necrosis Factor Inhibitor",
     "snappy": "A class of biologic drugs that block tumor necrosis factor — an inflammation-driving signal — to dial down overactive immune attacks in autoimmune disease.",
-    "detail": "TNF inhibitors — Humira (adalimumab), Enbrel (etanercept), Remicade (infliximab) — transformed treatment of rheumatoid arthritis, Crohn's, ulcerative colitis, and psoriasis starting in the late 1990s. Humira was the world's top-selling drug for years before biosimilars arrived in 2023. You'll hear TNF inhibitors on every AbbVie earnings call as the post-Humira-cliff transition story, and in formulary discussions about how aggressively PBMs steer patients to biosimilars to capture savings.",
+    "detail": "TNF inhibitors — Humira (adalimumab), Enbrel (etanercept), Remicade (infliximab) — transformed treatment of rheumatoid arthritis, Crohn's Disease, ulcerative colitis, and psoriasis starting in the late 1990s. Humira was the world's top-selling drug for years before biosimilars arrived in 2023. You'll hear TNF inhibitors on every AbbVie earnings call as the post-Humira-cliff transition story, and in formulary discussions about how aggressively PBMs steer patients to biosimilars to capture savings.",
     "indications": [
       "Immunology"
     ],
@@ -10517,7 +10517,7 @@
     "letter": "U",
     "term": "Ulcerative Colitis",
     "full": "UC",
-    "snappy": "An inflammatory bowel disease that causes chronic inflammation and ulcers in the colon and rectum — separate from but often discussed alongside Crohn's.",
+    "snappy": "An inflammatory bowel disease that causes chronic inflammation and ulcers in the colon and rectum — separate from but often discussed alongside Crohn's Disease.",
     "detail": "UC drug development closely tracks the broader IBD playbook: TNF blockers (Humira, Remicade) gave way to integrin and IL-23 mechanisms (Entyvio, Skyrizi, Tremfya), then to oral small molecules (Rinvoq, Xeljanz, Velsipity, Zeposia). Pfizer, AbbVie, J&J, Takeda, and BMS all have meaningful UC franchises. Expect biosimilar pressure on Humira/Remicade revenue lines on every IBD-heavy earnings call.",
     "indications": [
       "Gastroenterology",
@@ -10528,7 +10528,7 @@
       "NIH",
       "FDA"
     ],
-    "plain": "An inflammatory bowel disease that causes chronic raw sores and inflammation in the colon and rectum — distinct from but close cousin to Crohn's."
+    "plain": "An inflammatory bowel disease that causes chronic raw sores and inflammation in the colon and rectum — distinct from but close cousin to Crohn's Disease."
   },
   {
     "letter": "U",
