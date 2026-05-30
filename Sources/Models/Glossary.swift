@@ -13,6 +13,12 @@ struct Term: Codable, Identifiable, Hashable {
     let indications: [String]
     let category: String
     let sources: [String]
+    /// Extra surface forms that should also link to this entry — short/long forms,
+    /// acronyms, and hyphen variants the linker can't derive from the canonical name
+    /// (e.g. "ACE" → "ACE Inhibitor", "AMR" → "Antimicrobial Resistance", "BCL-2" →
+    /// "BCL2"). Optional in JSON; defaults to []. Curate conservatively — an alias that
+    /// collides with a common word or another entry's name creates wrong-sense links.
+    let aliases: [String]
 
     var id: String { "\(letter)::\(term)" }
 
@@ -35,7 +41,7 @@ struct Term: Codable, Identifiable, Hashable {
     // decode successfully — missing `plain` defaults to "". Swift still
     // synthesises encode(to:) from the CodingKeys enum below.
     enum CodingKeys: String, CodingKey {
-        case letter, term, full, plain, snappy, detail, indications, category, sources
+        case letter, term, full, plain, snappy, detail, indications, category, sources, aliases
     }
 
     init(from decoder: Decoder) throws {
@@ -49,6 +55,7 @@ struct Term: Codable, Identifiable, Hashable {
         indications = try c.decodeIfPresent([String].self, forKey: .indications) ?? []
         category = try c.decodeIfPresent(String.self, forKey: .category) ?? ""
         sources = try c.decodeIfPresent([String].self, forKey: .sources) ?? []
+        aliases = try c.decodeIfPresent([String].self, forKey: .aliases) ?? []
     }
 
     /// "Source: [FDA](https://www.fda.gov), [NIH](https://www.nih.gov)".

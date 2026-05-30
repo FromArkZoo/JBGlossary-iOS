@@ -39,6 +39,17 @@
          </BuildableReference>
       </MacroExpansion>
       <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C5621C0663FE9017C1BEAFBB"
+               BuildableName = "JBGlossaryTests.xctest"
+               BlueprintName = "JBGlossaryTests"
+               ReferencedContainer = "container:JBGlossary.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <CommandLineArguments>
       </CommandLineArguments>

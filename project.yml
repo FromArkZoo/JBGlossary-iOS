@@ -59,3 +59,18 @@ targets:
       # Local sandbox: every Run uses Configuration.storekit so the 4 IAPs
       # load with mock prices in the simulator without ASC setup.
       storeKitConfiguration: Configuration.storekit
+      testTargets:
+        - JBGlossaryTests
+  JBGlossaryTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: Tests
+    dependencies:
+      - target: JBGlossary
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.jamesbrowne.PharmaGlossaryTests
+        DEVELOPMENT_TEAM: 278RL79DB5

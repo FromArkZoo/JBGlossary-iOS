@@ -36,26 +36,31 @@ extension GlossaryStore {
         var attributed = AttributedString(body)
         guard !body.isEmpty else { return attributed }
 
-        // Sort longest-first so "monoclonal antibody" wins over "antibody" when both match.
-        // Skip self-references and single-char tokens that risk false positives (e.g. "I", "K").
-        let candidates = allTerms
-            .filter { $0.id != currentTermId && $0.term.count >= 2 }
-            .sorted { $0.term.count > $1.term.count }
+        // Build the set of strings to match: every other term's canonical name AND each
+        // of its aliases, every one resolving to that term's canonical URL. Sort longest-
+        // first (by the matched string) so "ACE Inhibitor" wins over the alias "ACE", and
+        // "monoclonal antibody" wins over "antibody". Skip self-references and single-char
+        // tokens that risk false positives (e.g. "I", "K").
+        var units: [(text: String, term: Term)] = []
+        for term in allTerms where term.id != currentTermId {
+            if term.term.count >= 2 { units.append((term.term, term)) }
+            for alias in term.aliases where alias.count >= 2 { units.append((alias, term)) }
+        }
+        units.sort { $0.text.count > $1.text.count }
 
-        let nsBody = body as NSString
-        let fullRange = NSRange(location: 0, length: nsBody.length)
+        let fullRange = NSRange(location: 0, length: (body as NSString).length)
 
         // Track NSRanges already linked so shorter matches don't overlap longer ones.
         var linked: [NSRange] = []
 
-        for candidate in candidates {
-            // Acronym terms (no lowercase letters, e.g. "ALL", "NET", "PD-1") match case-
-            // sensitively so common English words like "all" or "net" don't get linked.
-            // Mixed/lowercase terms ("Antibody", "Cmax") match case-insensitively so a
+        for unit in units {
+            // Acronym strings (no lowercase letters, e.g. "ALL", "AMR", "BCL-2") match case-
+            // sensitively so common English words like "all" or "ace" don't get linked.
+            // Mixed/lowercase strings ("Antibody", "Cmax") match case-insensitively so a
             // sentence-start "Antibody" still resolves to its lowercase canonical entry.
-            let hasLowercase = candidate.term.contains { $0.isLowercase }
+            let hasLowercase = unit.text.contains { $0.isLowercase }
             let options: NSRegularExpression.Options = hasLowercase ? [.caseInsensitive] : []
-            guard let regex = try? NSRegularExpression(pattern: Self.linkPattern(for: candidate.term), options: options) else { continue }
+            guard let regex = try? NSRegularExpression(pattern: Self.linkPattern(for: unit.text), options: options) else { continue }
 
             let matches = regex.matches(in: body, options: [], range: fullRange)
             for match in matches {
@@ -65,7 +70,7 @@ extension GlossaryStore {
                 guard
                     let stringRange = Range(r, in: body),
                     let attrRange = Range(stringRange, in: attributed),
-                    let url = Self.termURL(for: candidate, urlScheme: urlScheme)
+                    let url = Self.termURL(for: unit.term, urlScheme: urlScheme)
                 else { continue }
 
                 attributed[attrRange].link = url

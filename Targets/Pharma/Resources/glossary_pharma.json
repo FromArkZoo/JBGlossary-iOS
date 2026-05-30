@@ -419,7 +419,10 @@
     "sources": [
       "NIH NIA"
     ],
-    "plain": "A brain disease where clumps of bad protein slowly destroy memory and thinking — the most common cause of dementia."
+    "plain": "A brain disease where clumps of bad protein slowly destroy memory and thinking — the most common cause of dementia.",
+    "aliases": [
+      "Alzheimer's"
+    ]
   },
   {
     "letter": "A",
@@ -1084,7 +1087,10 @@
     "sources": [
       "NCI Dictionary of Cancer Terms"
     ],
-    "plain": "A protein that helps cells dodge death — when it's stuck on, cancer cells refuse to die, which is how many blood cancers stay alive."
+    "plain": "A protein that helps cells dodge death — when it's stuck on, cancer cells refuse to die, which is how many blood cancers stay alive.",
+    "aliases": [
+      "BCL-2"
+    ]
   },
   {
     "letter": "B",

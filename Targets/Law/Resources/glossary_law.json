@@ -333,7 +333,10 @@
       "Cornell LII",
       "Justia"
     ],
-    "plain": "The 1946 federal law that lays out how every agency must write rules and how courts can second-guess them."
+    "plain": "The 1946 federal law that lays out how every agency must write rules and how courts can second-guess them.",
+    "aliases": [
+      "APA"
+    ]
   },
   {
     "letter": "A",
@@ -953,7 +956,10 @@
       "Supreme Court of the United States",
       "Cornell LII"
     ],
-    "plain": "A rule where judges trust an agency's reading of its own fuzzy regulations, as long as the rule really is unclear."
+    "plain": "A rule where judges trust an agency's reading of its own fuzzy regulations, as long as the rule really is unclear.",
+    "aliases": [
+      "Auer"
+    ]
   },
   {
     "letter": "A",
@@ -1137,7 +1143,10 @@
       "Supreme Court of the United States",
       "Cornell LII"
     ],
-    "plain": "An objection that the other lawyer kicked someone off the jury because of their race or sex, which isn't allowed."
+    "plain": "An objection that the other lawyer kicked someone off the jury because of their race or sex, which isn't allowed.",
+    "aliases": [
+      "Batson"
+    ]
   },
   {
     "letter": "B",
@@ -1371,7 +1380,10 @@
       "Cornell LII",
       "Justia"
     ],
-    "plain": "Someone who buys property honestly, pays a fair price, and had no clue anyone else had a claim on it."
+    "plain": "Someone who buys property honestly, pays a fair price, and had no clue anyone else had a claim on it.",
+    "aliases": [
+      "BFP"
+    ]
   },
   {
     "letter": "B",
@@ -1738,7 +1750,10 @@
       "Supreme Court of the United States",
       "Cornell LII"
     ],
-    "plain": "An old rule where courts trusted government agencies to interpret fuzzy laws — scrapped by the Supreme Court in 2024."
+    "plain": "An old rule where courts trusted government agencies to interpret fuzzy laws — scrapped by the Supreme Court in 2024.",
+    "aliases": [
+      "Chevron"
+    ]
   },
   {
     "letter": "C",
@@ -2563,7 +2578,10 @@
       "Cornell LII",
       "CFPB"
     ],
-    "plain": "The federal agency created after the 2008 crash to police mortgages, credit cards, payday loans, and other consumer money products."
+    "plain": "The federal agency created after the 2008 crash to police mortgages, credit cards, payday loans, and other consumer money products.",
+    "aliases": [
+      "CFPB"
+    ]
   },
   {
     "letter": "C",
@@ -3100,7 +3118,10 @@
       "Supreme Court of the United States",
       "Federal Rules of Evidence"
     ],
-    "plain": "A test judges use to decide if an expert witness's science is solid enough for a jury to hear."
+    "plain": "A test judges use to decide if an expert witness's science is solid enough for a jury to hear.",
+    "aliases": [
+      "Daubert"
+    ]
   },
   {
     "letter": "D",
@@ -3218,7 +3239,10 @@
       "DOJ",
       "Cornell LII"
     ],
-    "plain": "A 2016 US law letting companies sue in federal court when someone steals their secret recipes, code, or methods."
+    "plain": "A 2016 US law letting companies sue in federal court when someone steals their secret recipes, code, or methods.",
+    "aliases": [
+      "DTSA"
+    ]
   },
   {
     "letter": "D",
@@ -3909,7 +3933,10 @@
       "IRS",
       "Cornell LII"
     ],
-    "plain": "A tax break for lower-paid workers that can actually pay them money back, even if they owe nothing."
+    "plain": "A tax break for lower-paid workers that can actually pay them money back, even if they owe nothing.",
+    "aliases": [
+      "EITC"
+    ]
   },
   {
     "letter": "E",
@@ -5358,7 +5385,10 @@
       "Cornell LII",
       "Justia"
     ],
-    "plain": "An older courtroom test: expert testimony is allowed only if the method is widely accepted by other scientists in the field."
+    "plain": "An older courtroom test: expert testimony is allowed only if the method is widely accepted by other scientists in the field.",
+    "aliases": [
+      "Frye"
+    ]
   },
   {
     "letter": "F",
@@ -5877,7 +5907,10 @@
       "USCIS",
       "Immigration and Nationality Act"
     ],
-    "plain": "The main federal law book covering who can come to the US, who can stay, and who can become a citizen."
+    "plain": "The main federal law book covering who can come to the US, who can stay, and who can become a citizen.",
+    "aliases": [
+      "INA"
+    ]
   },
   {
     "letter": "I",
@@ -6298,7 +6331,10 @@
       "Cornell LII",
       "Restatement of Torts"
     ],
-    "plain": "Behavior so shockingly cruel it causes serious mental suffering — and the bar for winning is set very high on purpose."
+    "plain": "Behavior so shockingly cruel it causes serious mental suffering — and the bar for winning is set very high on purpose.",
+    "aliases": [
+      "IIED"
+    ]
   },
   {
     "letter": "I",
@@ -6349,7 +6385,10 @@
       "IRS",
       "Cornell LII"
     ],
-    "plain": "The giant federal rulebook that spells out every US tax — income, estate, payroll, and the rest."
+    "plain": "The giant federal rulebook that spells out every US tax — income, estate, payroll, and the rest.",
+    "aliases": [
+      "IRC"
+    ]
   },
   {
     "letter": "I",
@@ -8969,7 +9008,10 @@
       "USPTO",
       "Cornell LII"
     ],
-    "plain": "An international system letting one filing reserve patent rights in over 150 countries at once."
+    "plain": "An international system letting one filing reserve patent rights in over 150 countries at once.",
+    "aliases": [
+      "PCT"
+    ]
   },
   {
     "letter": "P",
@@ -10612,7 +10654,10 @@
       "Delaware Court of Chancery",
       "Cornell LII"
     ],
-    "plain": "When a company is up for sale, the board's job switches to squeezing the highest possible price for shareholders."
+    "plain": "When a company is up for sale, the board's job switches to squeezing the highest possible price for shareholders.",
+    "aliases": [
+      "Revlon"
+    ]
   },
   {
     "letter": "R",
@@ -11485,7 +11530,10 @@
       "Supreme Court of the United States",
       "Cornell LII"
     ],
-    "plain": "Courts listen carefully to a government agency's read of a law, but only as much as the reasoning earns."
+    "plain": "Courts listen carefully to a government agency's read of a law, but only as much as the reasoning earns.",
+    "aliases": [
+      "Skidmore"
+    ]
   },
   {
     "letter": "S",
@@ -12897,7 +12945,10 @@
       "Supreme Court of the United States",
       "Cornell LII"
     ],
-    "plain": "A short stop and pat-down by police when they have a hunch backed by facts, but not enough for a full arrest."
+    "plain": "A short stop and pat-down by police when they have a hunch backed by facts, but not enough for a full arrest.",
+    "aliases": [
+      "Terry"
+    ]
   },
   {
     "letter": "T",
@@ -13201,7 +13252,10 @@
       "USPTO",
       "Cornell LII"
     ],
-    "plain": "A special panel of judges that settles fights over who gets to register a brand name or logo."
+    "plain": "A special panel of judges that settles fights over who gets to register a brand name or logo.",
+    "aliases": [
+      "TTAB"
+    ]
   },
   {
     "letter": "T",
@@ -13436,7 +13490,10 @@
       "Delaware Court of Chancery",
       "Cornell LII"
     ],
-    "plain": "A court check on company directors fighting off a hostile buyer — the threat must be real and the defence must fit the threat."
+    "plain": "A court check on company directors fighting off a hostile buyer — the threat must be real and the defence must fit the threat.",
+    "aliases": [
+      "Unocal"
+    ]
   },
   {
     "letter": "U",

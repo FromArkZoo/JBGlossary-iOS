@@ -1038,6 +1038,9 @@
     "sources": [
       "Cornell LII",
       "Investopedia"
+    ],
+    "aliases": [
+      "Bad-Boy"
     ]
   },
   {
@@ -1838,6 +1841,9 @@
     "sources": [
       "IRS",
       "NCREIF"
+    ],
+    "aliases": [
+      "CapEx"
     ]
   },
   {
@@ -2756,6 +2762,9 @@
     "category": "Property Types",
     "sources": [
       "NAR"
+    ],
+    "aliases": [
+      "Common-Area"
     ]
   },
   {
@@ -4517,6 +4526,9 @@
     "sources": [
       "IRS",
       "Cornell LII"
+    ],
+    "aliases": [
+      "Estate-Tax"
     ]
   },
   {
@@ -4749,6 +4761,9 @@
     "sources": [
       "Cornell LII",
       "Investopedia"
+    ],
+    "aliases": [
+      "Fee-Simple"
     ]
   },
   {
@@ -7764,6 +7779,9 @@
     "category": "Property Types",
     "sources": [
       "NCREIF"
+    ],
+    "aliases": [
+      "MOB"
     ]
   },
   {
@@ -8440,6 +8458,9 @@
     "sources": [
       "NCREIF",
       "IREM"
+    ],
+    "aliases": [
+      "Net-Lease"
     ]
   },
   {
@@ -8997,6 +9018,9 @@
     "sources": [
       "IRS",
       "Cornell LII"
+    ],
+    "aliases": [
+      "OZ"
     ]
   },
   {
@@ -9261,6 +9285,9 @@
     "sources": [
       "Cornell LII",
       "Investopedia"
+    ],
+    "aliases": [
+      "Personal-Property"
     ]
   },
   {
@@ -9809,6 +9836,9 @@
     "category": "Development",
     "sources": [
       "NAHB"
+    ],
+    "aliases": [
+      "Punch-List"
     ]
   },
   {
@@ -9920,6 +9950,9 @@
     "sources": [
       "IRS",
       "Cornell LII"
+    ],
+    "aliases": [
+      "QOF"
     ]
   },
   {
@@ -10126,6 +10159,9 @@
     "sources": [
       "Cornell LII",
       "Investopedia"
+    ],
+    "aliases": [
+      "Real-Property"
     ]
   },
   {
@@ -11298,6 +11334,9 @@
     "sources": [
       "NCREIF",
       "ULI"
+    ],
+    "aliases": [
+      "SFR"
     ]
   },
   {
@@ -13216,6 +13255,9 @@
     "sources": [
       "HUD",
       "ULI"
+    ],
+    "aliases": [
+      "Workforce-Housing"
     ]
   },
   {

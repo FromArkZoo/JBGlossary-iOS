@@ -368,19 +368,26 @@ def live_links(body, current_term, all_terms):
     """
     if not body:
         return []
-    candidates = sorted(
-        (t for t in all_terms if t["term"] != current_term and len(t["term"]) >= 2),
-        key=lambda t: -len(t["term"]),
-    )
+    # Match every other term's canonical name AND each of its aliases (short/long,
+    # acronym, hyphen variants), all resolving to the canonical name. Longest-first
+    # by the matched string so "ACE Inhibitor" wins over the alias "ACE".
+    units = []  # (match_text, canonical_name)
+    for t in all_terms:
+        if t["term"] == current_term:
+            continue
+        if len(t["term"]) >= 2:
+            units.append((t["term"], t["term"]))
+        for a in t.get("aliases", []):
+            if len(a) >= 2:
+                units.append((a, t["term"]))
+    units.sort(key=lambda u: -len(u[0]))
     linked_spans = []
     out = []
-    for c in candidates:
-        name = c["term"]
-        has_lower = any(ch.islower() for ch in name)
+    for text, canonical in units:
+        has_lower = any(ch.islower() for ch in text)
         flags = re.IGNORECASE if has_lower else 0
-        pattern = _link_pattern(name)
         try:
-            regex = re.compile(pattern, flags)
+            regex = re.compile(_link_pattern(text), flags)
         except re.error:
             continue
         for m in regex.finditer(body):
@@ -388,7 +395,7 @@ def live_links(body, current_term, all_terms):
             if any(not (e <= ls or s >= le) for ls, le in linked_spans):
                 continue
             linked_spans.append((s, e))
-            out.append((s, e, name))
+            out.append((s, e, canonical))
     return out
 
 

@@ -2139,7 +2139,10 @@
     "sources": [
       "BIS"
     ],
-    "plain": "A pricing rule saying the forward exchange rate must reflect the gap between the two countries' interest rates — otherwise free money would be possible."
+    "plain": "A pricing rule saying the forward exchange rate must reflect the gap between the two countries' interest rates — otherwise free money would be possible.",
+    "aliases": [
+      "CIP"
+    ]
   },
   {
     "letter": "C",
@@ -6295,7 +6298,10 @@
       "SEC",
       "BIS"
     ],
-    "plain": "Updating the value of an investment to today's market price every day, so gains and losses are visible immediately."
+    "plain": "Updating the value of an investment to today's market price every day, so gains and losses are visible immediately.",
+    "aliases": [
+      "MTM"
+    ]
   },
   {
     "letter": "M",
@@ -7301,7 +7307,10 @@
       "CFA Institute",
       "Federal Reserve FRED"
     ],
-    "plain": "Share price divided by earnings per share — tells you how many dollars investors pay for each dollar of company profit."
+    "plain": "Share price divided by earnings per share — tells you how many dollars investors pay for each dollar of company profit.",
+    "aliases": [
+      "P/E"
+    ]
   },
   {
     "letter": "P",
@@ -7814,7 +7823,10 @@
     "sources": [
       "BIS"
     ],
-    "plain": "Estimated chance a borrower won't be able to repay over a given period — a core input to credit pricing and bank capital."
+    "plain": "Estimated chance a borrower won't be able to repay over a given period — a core input to credit pricing and bank capital.",
+    "aliases": [
+      "PD"
+    ]
   },
   {
     "letter": "P",
@@ -11271,7 +11283,10 @@
       "BIS",
       "Federal Reserve"
     ],
-    "plain": "When a central bank promises to buy unlimited bonds at a chosen maturity to keep that yield pinned at a target level."
+    "plain": "When a central bank promises to buy unlimited bonds at a chosen maturity to keep that yield pinned at a target level.",
+    "aliases": [
+      "YCC"
+    ]
   },
   {
     "letter": "Y",

@@ -2042,7 +2042,10 @@
     "sources": [
       "OpenAI"
     ],
-    "plain": "A way of chopping text into pieces by starting with single letters and repeatedly gluing the most common pairs into new chunks."
+    "plain": "A way of chopping text into pieces by starting with single letters and repeatedly gluing the most common pairs into new chunks.",
+    "aliases": [
+      "BPE"
+    ]
   },
   {
     "letter": "C",
@@ -2562,6 +2565,9 @@
     "sources": [
       "NVIDIA",
       "Broadcom"
+    ],
+    "aliases": [
+      "CPO"
     ]
   },
   {
@@ -2990,7 +2996,10 @@
     "sources": [
       "NVIDIA"
     ],
-    "plain": "A type of neural network for images — it slides small pattern detectors across the picture to find edges, textures, and shapes."
+    "plain": "A type of neural network for images — it slides small pattern detectors across the picture to find edges, textures, and shapes.",
+    "aliases": [
+      "CNN"
+    ]
   },
   {
     "letter": "C",
@@ -3758,6 +3767,9 @@
     "category": "Architecture",
     "sources": [
       "DeepSeek"
+    ],
+    "aliases": [
+      "DSA"
     ]
   },
   {
@@ -6540,6 +6552,9 @@
     "category": "Eval",
     "sources": [
       "Center for AI Safety"
+    ],
+    "aliases": [
+      "HLE"
     ]
   },
   {
@@ -8037,7 +8052,10 @@
     "sources": [
       "Stanford CRFM"
     ],
-    "plain": "The broad field of getting computers to find patterns in data and improve at a task, instead of being programmed step by step."
+    "plain": "The broad field of getting computers to find patterns in data and improve at a task, instead of being programmed step by step.",
+    "aliases": [
+      "ML"
+    ]
   },
   {
     "letter": "M",
@@ -9287,7 +9305,10 @@
       "OpenAI",
       "Google Research"
     ],
-    "plain": "The branch of AI focused on understanding and producing human language — chat, translation, summaries, and answering questions."
+    "plain": "The branch of AI focused on understanding and producing human language — chat, translation, summaries, and answering questions.",
+    "aliases": [
+      "NLP"
+    ]
   },
   {
     "letter": "N",
@@ -10382,7 +10403,10 @@
     "sources": [
       "Microsoft Research"
     ],
-    "plain": "A long-term contract to buy electricity at a locked-in price, often from a wind or solar farm — popular with cloud giants."
+    "plain": "A long-term contract to buy electricity at a locked-in price, often from a wind or solar farm — popular with cloud giants.",
+    "aliases": [
+      "PPA"
+    ]
   },
   {
     "letter": "P",
@@ -10583,6 +10607,9 @@
     "category": "Alignment",
     "sources": [
       "OpenAI"
+    ],
+    "aliases": [
+      "PRM"
     ]
   },
   {
@@ -11123,7 +11150,10 @@
     "sources": [
       "Stanford CRFM"
     ],
-    "plain": "An older language network that reads a sentence one word at a time, keeping a running memory of what it has seen so far."
+    "plain": "An older language network that reads a sentence one word at a time, keeping a running memory of what it has seen so far.",
+    "aliases": [
+      "RNN"
+    ]
   },
   {
     "letter": "R",
@@ -11247,7 +11277,10 @@
     "sources": [
       "Google DeepMind"
     ],
-    "plain": "Teaching a computer by letting it try things and giving it points when it does well — like training a dog with treats."
+    "plain": "Teaching a computer by letting it try things and giving it points when it does well — like training a dog with treats.",
+    "aliases": [
+      "RL"
+    ]
   },
   {
     "letter": "R",
@@ -11384,7 +11417,10 @@
     "sources": [
       "Anthropic"
     ],
-    "plain": "A lab's written promise to pause or change course if its AI shows specific dangerous abilities, like helping make bioweapons."
+    "plain": "A lab's written promise to pause or change course if its AI shows specific dangerous abilities, like helping make bioweapons.",
+    "aliases": [
+      "RSP"
+    ]
   },
   {
     "letter": "R",
@@ -12097,7 +12133,10 @@
     "sources": [
       "OpenAI"
     ],
-    "plain": "A simple web standard for streaming words from a server to your browser one at a time, the way chatbots do."
+    "plain": "A simple web standard for streaming words from a server to your browser one at a time, the way chatbots do.",
+    "aliases": [
+      "SSE"
+    ]
   },
   {
     "letter": "S",
@@ -12341,7 +12380,10 @@
     "sources": [
       "Microsoft Research"
     ],
-    "plain": "A compact nuclear power plant built in a factory in pieces — pitched as a future power source for huge AI data centres."
+    "plain": "A compact nuclear power plant built in a factory in pieces — pitched as a future power source for huge AI data centres.",
+    "aliases": [
+      "SMR"
+    ]
   },
   {
     "letter": "S",
@@ -12751,7 +12793,10 @@
     "sources": [
       "Stanford CRFM"
     ],
-    "plain": "The basic learning recipe — show the model a small batch of examples, nudge its settings, and repeat millions of times."
+    "plain": "The basic learning recipe — show the model a small batch of examples, nudge its settings, and repeat millions of times.",
+    "aliases": [
+      "SGD"
+    ]
   },
   {
     "letter": "S",
@@ -12903,7 +12948,10 @@
       "OpenAI",
       "Anthropic"
     ],
-    "plain": "Showing a pretrained model thousands of example question-and-answer pairs so it learns to respond the way humans want."
+    "plain": "Showing a pretrained model thousands of example question-and-answer pairs so it learns to respond the way humans want.",
+    "aliases": [
+      "SFT"
+    ]
   },
   {
     "letter": "S",
