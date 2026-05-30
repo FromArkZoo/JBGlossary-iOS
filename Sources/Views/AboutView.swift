@@ -8,6 +8,7 @@ struct AboutView: View {
                 VStack(alignment: .leading, spacing: 24) {
                     disclaimer
                     sources
+                    trademarks
                     Spacer(minLength: 24)
                 }
                 .padding(.horizontal, 20)
@@ -52,6 +53,24 @@ struct AboutView: View {
             ForEach(Brand.current.aboutSources, id: \.heading) { group in
                 sourceGroup(heading: group.heading, items: group.items)
             }
+        }
+    }
+
+    /// Universal trademark / non-affiliation notice. Applies across every industry,
+    /// so it lives here in the shared About screen rather than per-brand. Brand,
+    /// company, and product names are referenced for editorial/reference purposes only.
+    private var trademarks: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text("TRADEMARKS")
+                .font(PGFont.eyebrow)
+                .tracking(1.8)
+                .foregroundStyle(PGColors.accent)
+                .padding(.top, 8)
+
+            Text("Trademarks, brand names, and product names are the property of their respective owners. This app is an independent educational reference and is not affiliated with, sponsored by, or endorsed by any company, product, or organization mentioned.")
+                .font(PGFont.metaItalic)
+                .foregroundStyle(PGColors.inkLight)
+                .lineSpacing(2)
         }
     }
 
