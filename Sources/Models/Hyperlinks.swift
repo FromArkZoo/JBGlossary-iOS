@@ -49,26 +49,13 @@ extension GlossaryStore {
         var linked: [NSRange] = []
 
         for candidate in candidates {
-            let escaped = NSRegularExpression.escapedPattern(for: candidate.term)
-            // Reject matches where either neighbor is a word character OR a hyphen.
-            // Plain \b would let "cell" match inside "B-cell" / "non-small-cell" because
-            // \b treats hyphens as boundaries — we don't want a substring of a hyphenated
-            // medical compound to win. The lookarounds skip those cases while still
-            // matching standalone occurrences ("cell." / "cell," / "the cell ").
-            //
-            // `(?:e?s)?` consumes an optional plural suffix so "Bond" links from "Bonds"
-            // and "Vanilla Option" links from "vanilla options". The non-capturing group
-            // is included in the match (so the underline covers the full word), but the
-            // URL is still built from the canonical term name — taps land on the right
-            // entry. Doesn't handle y→ies plurals (Equity → Equities) — acceptable gap.
-            let pattern = "(?<![\\w-])\(escaped)(?:e?s)?(?![\\w-])"
             // Acronym terms (no lowercase letters, e.g. "ALL", "NET", "PD-1") match case-
             // sensitively so common English words like "all" or "net" don't get linked.
             // Mixed/lowercase terms ("Antibody", "Cmax") match case-insensitively so a
             // sentence-start "Antibody" still resolves to its lowercase canonical entry.
             let hasLowercase = candidate.term.contains { $0.isLowercase }
             let options: NSRegularExpression.Options = hasLowercase ? [.caseInsensitive] : []
-            guard let regex = try? NSRegularExpression(pattern: pattern, options: options) else { continue }
+            guard let regex = try? NSRegularExpression(pattern: Self.linkPattern(for: candidate.term), options: options) else { continue }
 
             let matches = regex.matches(in: body, options: [], range: fullRange)
             for match in matches {
@@ -90,6 +77,34 @@ extension GlossaryStore {
         }
 
         return attributed
+    }
+
+    /// Builds the word-bounded regex used to find a term name in prose.
+    ///
+    /// - The lookarounds reject a `\w` or hyphen on either side, so a substring of a
+    ///   hyphenated medical compound ("cell" in "B-cell") never wins; standalone
+    ///   occurrences ("cell." / "the cell ") still match.
+    /// - `(?:e?s)?` consumes a regular plural suffix so "Bond" links from "Bonds" and
+    ///   "Vanilla Option" from "vanilla options".
+    /// - For a term ending in consonant + "y", an extra alternation matches the
+    ///   "y → ies" plural so "Antibody" also links from "Antibodies" and "Cell Therapy"
+    ///   from "Cell Therapies". Vowel + "y" terms ("Assay" → "Assays") already work via
+    ///   `e?s` and are deliberately left untouched.
+    ///
+    /// The suffix is included in the match (the underline covers the whole word), but
+    /// the tappable URL is always built from the canonical term name, so taps land on
+    /// the right entry regardless of inflection.
+    nonisolated static func linkPattern(for name: String) -> String {
+        let escaped = NSRegularExpression.escapedPattern(for: name)
+        let core: String
+        if name.count > 3, let last = name.last, last == "y" || last == "Y",
+           let penult = name.dropLast().last, !"aeiouAEIOU".contains(penult) {
+            let stem = NSRegularExpression.escapedPattern(for: String(name.dropLast()))
+            core = "(?:\(escaped)(?:e?s)?|\(stem)ies)"
+        } else {
+            core = "\(escaped)(?:e?s)?"
+        }
+        return "(?<![\\w-])\(core)(?![\\w-])"
     }
 
     /// Resolve a `<brand-scheme>://term/<encoded-name>` URL back to a Term in the store.

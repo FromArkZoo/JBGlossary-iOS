@@ -337,6 +337,23 @@ def load_terms(industry):
         return json.load(f)
 
 
+def _link_pattern(name):
+    """Mirror of Hyperlinks.swift:linkPattern(for:).
+
+    Word-bounded match for a term name, plus a regular plural suffix (e?s). For
+    a term ending in consonant+'y', an extra y->ies alternation matches the
+    plural (Antibody -> Antibodies, Cell Therapy -> Cell Therapies). Vowel+'y'
+    (Assay -> Assays) already works via e?s and is left untouched.
+    """
+    escaped = re.escape(name)
+    if len(name) > 3 and name[-1] in "yY" and name[-2] not in "aeiouAEIOU":
+        stem = re.escape(name[:-1])
+        core = r"(?:" + escaped + r"(?:e?s)?|" + stem + r"ies)"
+    else:
+        core = escaped + r"(?:e?s)?"
+    return r"(?<![\w-])" + core + r"(?![\w-])"
+
+
 def live_links(body, current_term, all_terms):
     """Replica of Sources/Models/Hyperlinks.swift:computeAttributedText.
 
@@ -361,7 +378,7 @@ def live_links(body, current_term, all_terms):
         name = c["term"]
         has_lower = any(ch.islower() for ch in name)
         flags = re.IGNORECASE if has_lower else 0
-        pattern = r"(?<![\w-])" + re.escape(name) + r"(?:e?s)?(?![\w-])"
+        pattern = _link_pattern(name)
         try:
             regex = re.compile(pattern, flags)
         except re.error:
