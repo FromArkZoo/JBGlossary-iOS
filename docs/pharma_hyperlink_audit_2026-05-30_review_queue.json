@@ -1,0 +1,1608 @@
+[
+  {
+    "host_term": "Alzheimer's Disease",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "Phrase 'Alzheimer' (16 hits) is the possessive form 'Alzheimer's' followed by a noun (e.g. 'Alzheimer's antibody', 'Alzheimer's was accelerated'). The entry is named 'Alzheimer's Disease'; the bare possessive 'Alzheimer's' is not a term name so it never links. The full string 'Alzheimer's Disease' does already link where it literally appears (e.g. Leqembi plain/snappy).",
+    "edit": null,
+    "rationale": "structural. This is a possessive-stemming class miss: 'Alzheimer's X' cannot be reworded to 'Alzheimer's Disease X' across all 16 sites because most read poorly ('anti-amyloid Alzheimer's Disease antibody'). A one-time linker change to recognise possessive forms of multi-word disease terms would fix this entire class far more cleanly than per-site text edits. closest='Alzheimer's Disease' is the correct concept."
+  },
+  {
+    "host_term": "BCL2",
+    "field": "detail",
+    "category": "canonical-drift",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "Phrase 'BCL' (10 hits) is the residue of 'BCL-2' (hyphenated). The entry term is 'BCL2' (no hyphen), so 'BCL-2' does not match. closest='BCL2' IS the same concept.",
+    "edit": null,
+    "rationale": "structural. Hyphenation-variant class: text consistently uses the conventional 'BCL-2' while the entry is named 'BCL2'. Changing every 'BCL-2' to 'BCL2' would link but degrades standard typography and the entry's own body uses 'BCL-2'. Better solved by a one-time linker normalisation of hyphen variants (or renaming/aliasing the entry), not by mangling prose. Human decision."
+  },
+  {
+    "host_term": "Parkinson's Disease",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "Phrase 'Parkinson' (3 hits) is the possessive 'Parkinson's' followed by punctuation/noun ('Parkinson's,', 'in Parkinson's'). Entry is 'Parkinson's Disease'; bare possessive does not match. closest='Parkinson's Disease' is correct concept.",
+    "edit": null,
+    "rationale": "structural. Same possessive-stemming class as 'Alzheimer'. 'typing speed in Parkinson's' cannot be reworded to '...in Parkinson's Disease' without awkwardness in some sites. Best fixed once in the linker (possessive handling for multi-word disease terms), not per-site. Human decision."
+  },
+  {
+    "host_term": "Endometrial Cancer",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "medium",
+    "issue": "Phrase 'POLE' (3 hits) is the POLE gene (DNA polymerase epsilon), a recognised molecular subtype marker in endometrial cancer ('POLE-mutant', 'POLE/POLD1', 'POLE-driven ultramutators'). closest=null; no POLE entry exists.",
+    "edit": null,
+    "rationale": "POLE-ultramutated is one of the four canonical molecular subtypes of endometrial cancer and a genuine recurring molecular-marker concept (appears in Endometrial Cancer and Ultramutation). It fits the corpus's many gene/marker entries. A short 'POLE' entry would naturally link from these hosts. Not auto-safe (content authoring); route to human."
+  },
+  {
+    "host_term": "ALK",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "medium",
+    "issue": "'Alecensa' (alectinib brand) matches no entry; closest=null.",
+    "edit": null,
+    "rationale": "Alecensa (alectinib) is a real marketed ALK inhibitor cited in 2 entries. A brand-drug entry is plausible (corpus already has Xalkori, Tagrisso) but requires authored content; not a drift target."
+  },
+  {
+    "host_term": "Alzheimer's Disease",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "medium",
+    "issue": "'Kisunla' (donanemab brand) matches no entry; closest=null.",
+    "edit": null,
+    "rationale": "Kisunla (donanemab) is an FDA-approved anti-amyloid antibody referenced in 2 entries. Plausible own brand-drug entry but needs authoring; no canonical near-term to drift to."
+  },
+  {
+    "host_term": "Amyloidosis",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'ATTR' matches no entry; closest 'Onpattro' is a DRUG, not the same concept (ATTR = transthyretin amyloidosis disease/protein).",
+    "edit": null,
+    "rationale": "closest 'Onpattro' is a wrong-concept near-match (drug vs disease subtype) so no drift edit is valid. ATTR (transthyretin amyloidosis) is conceptually covered by the existing Amyloidosis entry; whether it merits its own abbreviation entry is an editorial call for a human."
+  },
+  {
+    "host_term": "Antibiotic",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "needs-human",
+    "confidence": "medium",
+    "issue": "'PASTEUR Act' matches no entry; closest=null.",
+    "edit": null,
+    "rationale": "PASTEUR Act is real proposed US legislation on antibiotic-incentive (subscription) funding, cited in 2 entries. Niche policy term; whether it warrants its own entry is an editorial call. No drift target exists."
+  },
+  {
+    "host_term": "Anticoagulant",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "medium",
+    "issue": "'Xarelto' (rivaroxaban brand) matches no entry; closest=null.",
+    "edit": null,
+    "rationale": "Xarelto (rivaroxaban) is a major DOAC referenced in 2 entries (corpus already has Eliquis). Plausible own brand-drug entry; requires authored content, not a drift."
+  },
+  {
+    "host_term": "Antimicrobial Resistance",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'AMR' matches no entry; it is the abbreviation of the existing 'Antimicrobial Resistance' entry, which the linker cannot match (short-form != term name).",
+    "edit": null,
+    "rationale": "structural: AMR is the acronym for the host entry itself (Antimicrobial Resistance). This is a whole CLASS of acronym/long-form misses better solved by a one-time linker change (acronym aliasing) than by per-text edits. Forcing the full term into 'You'll hear AMR at WHO assemblies' would read unnaturally and is also a self-link. Flag structural."
+  },
+  {
+    "host_term": "Antipsychotic",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "medium",
+    "issue": "'Abilify' (aripiprazole brand) matches no entry; closest 'IL' is a spurious substring near-match, not the same concept.",
+    "edit": null,
+    "rationale": "Abilify (aripiprazole) is a major atypical antipsychotic cited in 2 entries. closest 'IL' is nonsense (substring artifact). Plausible brand-drug entry; requires authoring."
+  },
+  {
+    "host_term": "Antipsychotic",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "medium",
+    "issue": "'Vraylar' (cariprazine brand) matches no entry; closest=null.",
+    "edit": null,
+    "rationale": "Vraylar (cariprazine) is a marketed atypical antipsychotic referenced in 2 entries. Plausible brand-drug entry; needs authored content, no drift target."
+  },
+  {
+    "host_term": "Anxiety Disorder",
+    "field": "snappy",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "medium",
+    "issue": "'PTSD' matches no entry; closest=null.",
+    "edit": null,
+    "rationale": "PTSD (post-traumatic stress disorder) is a real mental-health condition cited in 2 entries and a natural glossary term. Deserves its own entry; requires authored content, not a drift."
+  },
+  {
+    "host_term": "Asthma",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "medium",
+    "issue": "'Xolair' (omalizumab brand) matches no entry; closest=null.",
+    "edit": null,
+    "rationale": "Xolair (omalizumab) is a marketed anti-IgE biologic referenced in 2 entries. Plausible brand-drug entry; needs authoring."
+  },
+  {
+    "host_term": "Basal Cell Carcinoma",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'BCC' matches no entry; it is the acronym of the host entry 'Basal Cell Carcinoma'.",
+    "edit": null,
+    "rationale": "structural: BCC is the acronym for the host entry itself. Acronym/long-form class — better handled by linker acronym aliasing than text edits, and rewriting to the full term would be unnatural and a self-link. Flag structural."
+  },
+  {
+    "host_term": "Biomarker",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "medium",
+    "issue": "'PSA' (prostate-specific antigen) matches no entry; closest=null.",
+    "edit": null,
+    "rationale": "PSA is a widely-used clinical biomarker referenced in 2 entries (Biomarker, Prostate Cancer). Plausible own entry; requires authored content, no drift target."
+  },
+  {
+    "host_term": "Bispecific Antibody",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "low",
+    "issue": "'Tecvayli' (teclistamab brand) matches no entry; closest=null.",
+    "edit": null,
+    "rationale": "Tecvayli (teclistamab) is a marketed BCMA bispecific cited in 2 entries. Niche brand drug; possible entry but low priority, needs authoring."
+  },
+  {
+    "host_term": "BLA",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "medium",
+    "issue": "'CBER' matches no entry; closest=null. It is an FDA review center.",
+    "edit": null,
+    "rationale": "CBER (Center for Biologics Evaluation and Research) is a real FDA center referenced in 2 entries (BLA, FDA) alongside the also-missing CDER. Reasonable regulatory entry; requires authoring, no drift target."
+  },
+  {
+    "host_term": "BLA",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "medium",
+    "issue": "'CDER' matches no entry; closest=null. It is an FDA review center.",
+    "edit": null,
+    "rationale": "CDER (Center for Drug Evaluation and Research) is a real FDA center referenced in 2 entries (BLA, FDA). Reasonable regulatory entry to author; no drift target."
+  },
+  {
+    "host_term": "Bladder Cancer",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "low",
+    "issue": "'BCG' matches no entry; closest=null.",
+    "edit": null,
+    "rationale": "BCG (intravesical bacillus Calmette-Guerin) is a real bladder-cancer therapy/vaccine cited in 2 entries. Possible entry but niche; requires authoring, no drift target."
+  },
+  {
+    "host_term": "Blood-Brain Barrier",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'BBB' matches no entry; it is the acronym of the host entry 'Blood-Brain Barrier'.",
+    "edit": null,
+    "rationale": "structural: BBB is the acronym for the host entry itself (both occurrences are in Blood-Brain Barrier). Acronym/long-form class — linker acronym aliasing is the right fix; text edits would create self-links and read unnaturally. Flag structural."
+  },
+  {
+    "host_term": "CDK4/6",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "low",
+    "issue": "'Verzenio' (abemaciclib brand) matches no entry; closest=null.",
+    "edit": null,
+    "rationale": "Verzenio (abemaciclib) is a marketed CDK4/6 inhibitor cited in 2 entries. Possible brand-drug entry; low priority, needs authoring."
+  },
+  {
+    "host_term": "Cell Therapy",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "low",
+    "issue": "'Tecartus' (brexucabtagene brand) matches no entry; closest=null.",
+    "edit": null,
+    "rationale": "Tecartus is a marketed CAR-T product cited in 2 entries. Niche brand drug; possible entry, requires authoring."
+  },
+  {
+    "host_term": "Cell Therapy",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "low",
+    "issue": "'Carvykti' (ciltacabtagene brand) matches no entry; closest=null.",
+    "edit": null,
+    "rationale": "Carvykti is a marketed BCMA CAR-T cited in 2 entries (Cell Therapy, Multiple Myeloma). Niche brand drug; possible entry, requires authoring."
+  },
+  {
+    "host_term": "Cell Therapy",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "low",
+    "issue": "'Abecma' (idecabtagene brand) matches no entry; closest=null.",
+    "edit": null,
+    "rationale": "Abecma is a marketed BCMA CAR-T cited in 2 entries. Niche brand drug; possible entry, requires authoring."
+  },
+  {
+    "host_term": "Cholangiocarcinoma",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "low",
+    "issue": "'Truseltiq' (infigratinib brand) matches no entry; closest=null.",
+    "edit": null,
+    "rationale": "Truseltiq is a marketed FGFR inhibitor cited in 2 entries (Cholangiocarcinoma, FGFR). Niche brand drug; possible entry, requires authoring."
+  },
+  {
+    "host_term": "Cholangiocarcinoma",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "low",
+    "issue": "'Pemazyre' (pemigatinib brand) matches no entry; closest 'EMA' is a spurious substring near-match.",
+    "edit": null,
+    "rationale": "Pemazyre is a marketed FGFR inhibitor cited in 2 entries. closest 'EMA' is a substring artifact, not a concept match. Niche brand drug; possible entry, requires authoring."
+  },
+  {
+    "host_term": "Cholesterol",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "needs-human",
+    "confidence": "medium",
+    "issue": "'Inclisiran' matches no entry; closest 'IRA' is spurious. The brand name 'Leqvio' IS an existing entry but generic 'Inclisiran' is not, and the linker won't equate them.",
+    "edit": null,
+    "rationale": "Inclisiran is the generic name whose brand (Leqvio) already has an entry; the linker cannot equate generic and brand (short/long form). Editorial decision whether to add an Inclisiran alias entry or reword to surface 'Leqvio'; rewording 'PCSK9 inhibitors and Inclisiran' to '...and Leqvio' would change generic-vs-brand meaning, so not a clean mechanical fix. Needs human."
+  },
+  {
+    "host_term": "GIST",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "low",
+    "issue": "\"PDGFRA\" (platelet-derived growth factor receptor alpha, a GIST driver oncogene) matches no entry; closest=null.",
+    "edit": null,
+    "rationale": "PDGFRA is a legitimate oncogene driver appearing in two oncology contexts (GIST, Imatinib) alongside KIT, which already has an entry. Plausible own-entry candidate for consistency, but niche; needs human authoring decision. No drift target exists."
+  },
+  {
+    "host_term": "Hemophilia A",
+    "field": "snappy",
+    "category": "repeated-dangling",
+    "verdict": "create-entry",
+    "confidence": "low",
+    "issue": "\"Factor VIII\" (clotting factor central to Hemophilia A) matches no entry; closest=null. Appears in Hemophilia A snappy and detail.",
+    "edit": null,
+    "rationale": "Factor VIII is a real, central hematology concept (the deficient protein in Hemophilia A; Factor IX for Hemophilia B). A legitimate own-entry candidate that would cross-link Hemophilia A/B, but authoring is a human decision. No existing drift target."
+  },
+  {
+    "host_term": "CMC",
+    "field": "detail",
+    "category": "repeated-dangling",
+    "verdict": "create-entry",
+    "confidence": "medium",
+    "issue": "'FDA Complete Response Letters' — 'Complete Response Letter' is a real FDA regulatory term with no entry (also appears in FDA entry).",
+    "edit": null,
+    "rationale": "Complete Response Letter (CRL) is a significant, well-defined FDA regulatory action with no existing entry, referenced in at least two host entries (CMC, FDA). Warrants its own entry; human authoring required. Note the flagged token here is plural/FDA-prefixed so even after creation the verbatim singular term 'Complete Response Letter' must appear to link."
+  },
+  {
+    "host_term": "FDA",
+    "field": "detail",
+    "category": "repeated-dangling",
+    "verdict": "create-entry",
+    "confidence": "medium",
+    "issue": "'Complete Response Letter' — real FDA regulatory term, no entry (also in CMC).",
+    "edit": null,
+    "rationale": "Complete Response Letter (CRL) is a significant FDA regulatory action referenced in multiple entries with no dedicated entry. Warrants human-authored create-entry; once created, the verbatim term would link from this exact phrase."
+  },
+  {
+    "host_term": "HIV",
+    "field": "snappy",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "medium",
+    "issue": "'AIDS' matches no entry.",
+    "edit": null,
+    "rationale": "AIDS is a core, high-recognition disease concept distinct from HIV and a natural glossary lookup. Worth its own entry; flag for human authoring (non-auto)."
+  },
+  {
+    "host_term": "Hormone",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "low",
+    "issue": "'GnRH' (gonadotropin-releasing hormone) acronym matches no entry.",
+    "edit": null,
+    "rationale": "GnRH is a recognizable endocrinology/oncology hormone concept (GnRH agonists in prostate/breast cancer). Borderline glossary-worthy; flag for human review, do not auto-apply."
+  },
+  {
+    "host_term": "Isotope",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "medium",
+    "issue": "'PET' (positron emission tomography) matches no entry.",
+    "edit": null,
+    "rationale": "PET scanning is a core imaging modality and frequent glossary lookup across oncology entries. Reasonable create-entry candidate; flag for human authoring, non-auto."
+  },
+  {
+    "host_term": "Karyotype",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "low",
+    "issue": "'FISH' (fluorescence in situ hybridization) matches no entry.",
+    "edit": null,
+    "rationale": "FISH is a standard cytogenetics technique and plausible lookup, but borderline scope. Flag for human review; non-auto."
+  },
+  {
+    "host_term": "MRI",
+    "field": "detail",
+    "category": "dangling",
+    "verdict": "create-entry",
+    "confidence": "low",
+    "issue": "'RECIST' (response-evaluation criteria) matches no entry.",
+    "edit": null,
+    "rationale": "RECIST is a standard oncology response-assessment framework and plausible lookup; borderline scope. Flag for human review, non-auto."
+  },
+  {
+    "host_term": "Aduhelm",
+    "field": "plain",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'FDA's' (possessive of 'FDA') won't link to FDA",
+    "edit": null,
+    "rationale": "structural. Genuine possessive of FDA, same concept. De-possessing ('the guidance of the FDA') is a non-mechanical reword that risks meaning/link drift. Whole possessive class is best solved by one-time linker 's-stripping."
+  },
+  {
+    "host_term": "ALK",
+    "field": "plain",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Oncology's' (possessive of 'Oncology')",
+    "edit": null,
+    "rationale": "structural. Same-concept possessive of Oncology. Belongs in linker possessive stemming, not a text mangle."
+  },
+  {
+    "host_term": "Alzheimer's Disease",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Antibodies' (plural of 'Antibody')",
+    "edit": null,
+    "rationale": "structural. Genuine plural of Antibody. Singularizing inside a plural phrase mangles grammar; plural stemming belongs in linker code."
+  },
+  {
+    "host_term": "Antigen",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Immunotherapies' (plural of 'Immunotherapy')",
+    "edit": null,
+    "rationale": "structural. Plural of Immunotherapy; cannot singularize naturally. Linker -ies/-y plural stemming."
+  },
+  {
+    "host_term": "Antiviral",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Gilead's' (possessive of 'Gilead')",
+    "edit": null,
+    "rationale": "structural. Company possessive, same concept. Linker possessive stemming."
+  },
+  {
+    "host_term": "Apoptosis",
+    "field": "plain",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Cell's' (possessive of 'Cell')",
+    "edit": null,
+    "rationale": "structural. Possessive of Cell. Linker 's stemming."
+  },
+  {
+    "host_term": "Astrocytoma",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "medium",
+    "issue": "'graded' (past/participle of oncology 'Grade')",
+    "edit": null,
+    "rationale": "structural. 'graded I to IV by aggressiveness' is the oncology grading sense (same concept as 'Grade'), used as a verb/participle. Cannot insert noun 'Grade' without breaking grammar; verb-stemming belongs in linker. Lower confidence as 'Grade'/'graded' verges on generic but here it is the tumor-grade concept."
+  },
+  {
+    "host_term": "Atrial Fibrillation",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Eliquis's' (possessive of 'Eliquis')",
+    "edit": null,
+    "rationale": "structural. Drug-name possessive, same concept. Linker possessive stemming."
+  },
+  {
+    "host_term": "AUC",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'FDA's' (possessive of 'FDA')",
+    "edit": null,
+    "rationale": "structural. Possessive of FDA. Linker 's stemming."
+  },
+  {
+    "host_term": "B-cell",
+    "field": "plain",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Antibodies' (plural of 'Antibody')",
+    "edit": null,
+    "rationale": "structural. Plural of Antibody; plural stemming in linker."
+  },
+  {
+    "host_term": "Biologic",
+    "field": "snappy",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Antibodies' (plural of 'Antibody')",
+    "edit": null,
+    "rationale": "structural. Plural of Antibody. Linker plural stemming."
+  },
+  {
+    "host_term": "BioNTech",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Immunotherapies' (plural of 'Immunotherapy')",
+    "edit": null,
+    "rationale": "structural. Plural of Immunotherapy. Linker -ies stemming."
+  },
+  {
+    "host_term": "BLA",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'FDA's' (possessive of 'FDA')",
+    "edit": null,
+    "rationale": "structural. Possessive of FDA. Linker 's stemming."
+  },
+  {
+    "host_term": "Black Box Warning",
+    "field": "plain",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'FDA's' (possessive of 'FDA')",
+    "edit": null,
+    "rationale": "structural. Possessive of FDA. Linker 's stemming."
+  },
+  {
+    "host_term": "Black Box Warning",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Immunotherapies' (plural of 'Immunotherapy')",
+    "edit": null,
+    "rationale": "structural. Plural of Immunotherapy. Linker plural stemming."
+  },
+  {
+    "host_term": "Boxed Warning",
+    "field": "plain",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'FDA's' (possessive of 'FDA')",
+    "edit": null,
+    "rationale": "structural. Possessive of FDA. Linker 's stemming."
+  },
+  {
+    "host_term": "BRAF",
+    "field": "plain",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Cell's' (possessive of 'Cell')",
+    "edit": null,
+    "rationale": "structural. Possessive of Cell. Linker 's stemming."
+  },
+  {
+    "host_term": "Buffer",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Humira's' (possessive of 'Humira')",
+    "edit": null,
+    "rationale": "structural. Drug-name possessive. Linker 's stemming."
+  },
+  {
+    "host_term": "Calquence",
+    "field": "snappy",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'AstraZeneca's' (possessive of 'AstraZeneca')",
+    "edit": null,
+    "rationale": "structural. Company possessive. Linker 's stemming."
+  },
+  {
+    "host_term": "CDK4/6",
+    "field": "plain",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Cell's' (possessive of 'Cell')",
+    "edit": null,
+    "rationale": "structural. Possessive of Cell. Linker 's stemming."
+  },
+  {
+    "host_term": "Chemotherapy",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Immunotherapies' (plural of 'Immunotherapy')",
+    "edit": null,
+    "rationale": "structural. Plural of Immunotherapy. Linker -ies stemming."
+  },
+  {
+    "host_term": "Chronic Care Management",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'comorbidities' (plural of 'Comorbidity')",
+    "edit": null,
+    "rationale": "structural. Plural of Comorbidity ('with several comorbidities'). Cannot singularize; linker -ies/-y stemming."
+  },
+  {
+    "host_term": "CML",
+    "field": "snappy",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Oncology's' (possessive of 'Oncology')",
+    "edit": null,
+    "rationale": "structural. Possessive of Oncology. Linker 's stemming."
+  },
+  {
+    "host_term": "Contact Tracing",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Epidemic's' (possessive of 'Epidemic')",
+    "edit": null,
+    "rationale": "structural. Possessive of Epidemic. Linker 's stemming."
+  },
+  {
+    "host_term": "Cystic Fibrosis",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Vertex's' (possessive of company 'Vertex')",
+    "edit": null,
+    "rationale": "structural. Possessive of the biotech 'Vertex' (term is the company, confirmed). Linker 's stemming."
+  },
+  {
+    "host_term": "Cytoplasm",
+    "field": "snappy",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Cell's' (possessive of 'Cell')",
+    "edit": null,
+    "rationale": "structural. Possessive of Cell. Linker 's stemming."
+  },
+  {
+    "host_term": "Cytoplasm",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Antibodies' (plural of 'Antibody')",
+    "edit": null,
+    "rationale": "structural. Plural of Antibody. Linker plural stemming."
+  },
+  {
+    "host_term": "Cytotoxic",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Immunotherapies' (plural of 'Immunotherapy')",
+    "edit": null,
+    "rationale": "structural. Plural of Immunotherapy. Linker -ies stemming."
+  },
+  {
+    "host_term": "Degrader",
+    "field": "plain",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Cell's' (possessive of 'Cell')",
+    "edit": null,
+    "rationale": "structural. Possessive of Cell. Linker 's stemming."
+  },
+  {
+    "host_term": "Dysplasia",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "medium",
+    "issue": "'graded' (graded as low or high) — oncology grade verb",
+    "edit": null,
+    "rationale": "structural. 'graded as low or high' is the same grade-of-disease concept as 'Grade', used as a verb. Cannot insert noun 'Grade'; verb stemming belongs in linker."
+  },
+  {
+    "host_term": "EMA",
+    "field": "snappy",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'FDA's' (possessive of 'FDA')",
+    "edit": null,
+    "rationale": "structural. Possessive of FDA. Linker 's stemming."
+  },
+  {
+    "host_term": "Enzyme",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'HIV's' (possessive of 'HIV')",
+    "edit": null,
+    "rationale": "structural. Possessive of HIV. Linker 's stemming."
+  },
+  {
+    "host_term": "Ependymoma",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "medium",
+    "issue": "'graded' (graded I to III) — oncology grade verb",
+    "edit": null,
+    "rationale": "structural. Same tumor-grade concept as 'Grade', used as a verb 'graded I to III'. Verb stemming belongs in linker."
+  },
+  {
+    "host_term": "Epitope",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Antibodies' (plural of 'Antibody')",
+    "edit": null,
+    "rationale": "structural. Plural of Antibody. Linker plural stemming."
+  },
+  {
+    "host_term": "Eylea",
+    "field": "snappy",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Regeneron's' (possessive of 'Regeneron')",
+    "edit": null,
+    "rationale": "structural. Company possessive. Linker 's stemming."
+  },
+  {
+    "host_term": "Farxiga",
+    "field": "snappy",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'AstraZeneca's' (possessive of 'AstraZeneca')",
+    "edit": null,
+    "rationale": "structural. Company possessive. Linker 's stemming."
+  },
+  {
+    "host_term": "FHIR",
+    "field": "snappy",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'HL7's' (possessive of 'HL7')",
+    "edit": null,
+    "rationale": "structural. Possessive of HL7. Linker 's stemming."
+  },
+  {
+    "host_term": "GIST",
+    "field": "snappy",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Oncology's' (possessive of 'Oncology')",
+    "edit": null,
+    "rationale": "structural. Possessive of Oncology. Linker 's stemming."
+  },
+  {
+    "host_term": "Glioma",
+    "field": "plain",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "medium",
+    "issue": "'graded' (graded by aggressiveness from 1 to 4) — grade verb",
+    "edit": null,
+    "rationale": "structural. Same tumor-grade concept as 'Grade' used as a verb. Verb stemming belongs in linker."
+  },
+  {
+    "host_term": "Glucose",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Abbott's' (possessive of 'Abbott')",
+    "edit": null,
+    "rationale": "structural. Company possessive. Linker 's stemming."
+  },
+  {
+    "host_term": "Glycogen",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Sanofi's' (possessive of 'Sanofi')",
+    "edit": null,
+    "rationale": "structural. Company possessive. Linker 's stemming."
+  },
+  {
+    "host_term": "Glycolysis",
+    "field": "plain",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Cell's' (possessive of 'Cell')",
+    "edit": null,
+    "rationale": "structural. Possessive of Cell. Linker 's stemming."
+  },
+  {
+    "host_term": "GMP",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'FDA's' (possessive of 'FDA')",
+    "edit": null,
+    "rationale": "structural. Possessive of FDA. Linker 's stemming."
+  },
+  {
+    "host_term": "Golgi Apparatus",
+    "field": "plain",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Cell's' (possessive of 'Cell')",
+    "edit": null,
+    "rationale": "structural. Possessive of Cell. Linker 's stemming."
+  },
+  {
+    "host_term": "Hemophilia B",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Pfizer's' (possessive of 'Pfizer')",
+    "edit": null,
+    "rationale": "structural. Company possessive. Linker 's stemming."
+  },
+  {
+    "host_term": "Hepatitis B",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Gilead's' (possessive of 'Gilead')",
+    "edit": null,
+    "rationale": "structural. Company possessive. Linker 's stemming."
+  },
+  {
+    "host_term": "Hepatitis C",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'AbbVie's' (possessive of 'AbbVie')",
+    "edit": null,
+    "rationale": "structural. Company possessive. Linker 's stemming."
+  },
+  {
+    "host_term": "Hepatitis C",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Gilead's' (possessive of 'Gilead')",
+    "edit": null,
+    "rationale": "structural. Company possessive. Linker 's stemming."
+  },
+  {
+    "host_term": "HIF",
+    "field": "snappy",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Cell's' (possessive of 'Cell')",
+    "edit": null,
+    "rationale": "structural. Possessive of Cell. Linker 's stemming."
+  },
+  {
+    "host_term": "Hospice",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Medicare's' (possessive of 'Medicare')",
+    "edit": null,
+    "rationale": "structural. Possessive of Medicare. Linker 's stemming."
+  },
+  {
+    "host_term": "HRD",
+    "field": "plain",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Cell's' (possessive of 'Cell')",
+    "edit": null,
+    "rationale": "structural. Possessive of Cell. Linker 's stemming."
+  },
+  {
+    "host_term": "Humira",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'AbbVie's' (possessive of 'AbbVie')",
+    "edit": null,
+    "rationale": "structural. Company possessive. Linker 's stemming."
+  },
+  {
+    "host_term": "Imfinzi",
+    "field": "snappy",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'AstraZeneca's' (possessive of 'AstraZeneca')",
+    "edit": null,
+    "rationale": "structural. Company possessive. Linker 's stemming."
+  },
+  {
+    "host_term": "Immunoglobulin",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Antibodies' (plural of 'Antibody')",
+    "edit": null,
+    "rationale": "structural. Plural of Antibody. Linker plural stemming."
+  },
+  {
+    "host_term": "Immunotherapy",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Antibodies' (plural of 'Antibody')",
+    "edit": null,
+    "rationale": "structural. Plural of Antibody. Linker plural stemming."
+  },
+  {
+    "host_term": "Intratumoral",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Immunotherapies' (plural of 'Immunotherapy')",
+    "edit": null,
+    "rationale": "structural. Plural of Immunotherapy. Linker -ies stemming."
+  },
+  {
+    "host_term": "IV",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Antibodies' (plural of 'Antibody')",
+    "edit": null,
+    "rationale": "structural. Plural of Antibody. Linker plural stemming."
+  },
+  {
+    "host_term": "Keytruda",
+    "field": "snappy",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Merck's' (possessive of 'Merck')",
+    "edit": null,
+    "rationale": "structural. Company possessive. Linker 's stemming."
+  },
+  {
+    "host_term": "KIT",
+    "field": "snappy",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Imatinib's' (possessive of 'Imatinib')",
+    "edit": null,
+    "rationale": "structural. Drug-name possessive. Linker 's stemming."
+  },
+  {
+    "host_term": "Lipitor",
+    "field": "plain",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Pfizer's' (possessive of 'Pfizer')",
+    "edit": null,
+    "rationale": "structural. Company possessive. Linker 's stemming."
+  },
+  {
+    "host_term": "Liquid Biopsy",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'biopsies' (plural of 'Biopsy')",
+    "edit": null,
+    "rationale": "structural. Plural of Biopsy ('Liquid biopsies look for...'). Cannot singularize; linker -ies stemming."
+  },
+  {
+    "host_term": "Lumakras",
+    "field": "snappy",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Amgen's' (possessive of 'Amgen')",
+    "edit": null,
+    "rationale": "structural. Company possessive. Linker 's stemming."
+  },
+  {
+    "host_term": "Lymph Node",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "medium",
+    "issue": "'staging' (gerund of 'Stage')",
+    "edit": null,
+    "rationale": "structural. 'a key staging factor' is the cancer-staging concept (same root as 'Stage') used adjectivally/gerund. Cannot insert noun 'Stage'; gerund stemming belongs in linker. Note TNM Staging exists as a term but not 'Staging' alone."
+  },
+  {
+    "host_term": "Lynch Syndrome",
+    "field": "plain",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Cell's' (possessive of 'Cell')",
+    "edit": null,
+    "rationale": "structural. Possessive of Cell. Linker 's stemming."
+  },
+  {
+    "host_term": "MAb",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Antibodies' (plural of 'Antibody')",
+    "edit": null,
+    "rationale": "structural. Plural of Antibody. Linker plural stemming."
+  },
+  {
+    "host_term": "Mantle Cell Lymphoma",
+    "field": "plain",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Cell's' (possessive of 'Cell')",
+    "edit": null,
+    "rationale": "structural. Possessive of Cell. Linker 's stemming."
+  },
+  {
+    "host_term": "Maximum Fair Price",
+    "field": "snappy",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'IRA's' (possessive of 'IRA')",
+    "edit": null,
+    "rationale": "structural. Possessive of IRA (Inflation Reduction Act). Linker 's stemming."
+  },
+  {
+    "host_term": "Medicare Part D",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'formularies' (plural of 'Formulary')",
+    "edit": null,
+    "rationale": "structural. Plural of Formulary ('set formularies'). Cannot singularize; linker -ies/-y stemming."
+  },
+  {
+    "host_term": "Merck",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Keytruda's' (possessive of 'Keytruda')",
+    "edit": null,
+    "rationale": "structural. Drug-name possessive cross-reference. Linker 's stemming."
+  },
+  {
+    "host_term": "Metastasis",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Oncology's' (possessive of 'Oncology')",
+    "edit": null,
+    "rationale": "structural. Possessive of Oncology. Linker 's stemming."
+  },
+  {
+    "host_term": "Migraine",
+    "field": "plain",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "medium",
+    "issue": "'sensitivities' (plural of 'Sensitivity')",
+    "edit": null,
+    "rationale": "structural. Plural of Sensitivity ('sensitivities to light or sound'). Note the glossary 'Sensitivity' is the diagnostic-test sense — this is the everyday clinical sense, so even if stemmed this would be a borderline wrong-sense link; but mechanically it is the plural class. Leave to human/linker."
+  },
+  {
+    "host_term": "Migraine",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'antibodies' (plural of 'Antibody')",
+    "edit": null,
+    "rationale": "structural. Plural of Antibody ('anti-CGRP monoclonal antibodies'). Linker plural stemming."
+  },
+  {
+    "host_term": "Mitochondria",
+    "field": "snappy",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Cell's' (possessive of 'Cell')",
+    "edit": null,
+    "rationale": "structural. Possessive of Cell. Linker 's stemming."
+  },
+  {
+    "host_term": "Molecule",
+    "field": "snappy",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Antibodies' (plural of 'Antibody')",
+    "edit": null,
+    "rationale": "structural. Plural of Antibody. Linker plural stemming."
+  },
+  {
+    "host_term": "Morbidity",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'CDC's' (possessive of 'CDC')",
+    "edit": null,
+    "rationale": "structural. Possessive of CDC. Linker 's stemming."
+  },
+  {
+    "host_term": "MRI",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Antibodies' (y->ies plural of 'Antibody') will not auto-link.",
+    "edit": null,
+    "rationale": "STRUCTURAL. The Swift linker pattern (?<![\\w-])TERM(?:e?s)?(?![\\w-]) handles -s/-es plurals but NOT y->ies; the source comment in Sources/Models/Hyperlinks.swift explicitly notes this gap. A one-time linker change (add optional y->ies alternation) fixes the whole Antibodies/Chemotherapies/Formularies class at once, far better than rewording each plural into a singular (which would be grammatically wrong inside a plural phrase). Same concept (monoclonal antibodies)."
+  },
+  {
+    "host_term": "Multiple Myeloma",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Antibodies' (y->ies plural of 'Antibody') won't auto-link.",
+    "edit": null,
+    "rationale": "STRUCTURAL y->ies gap (see id MRI|detail|0). Same concept; fix once in linker, not per-entry."
+  },
+  {
+    "host_term": "Nucleus",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Chemotherapies' (y->ies plural of 'Chemotherapy') won't auto-link.",
+    "edit": null,
+    "rationale": "STRUCTURAL y->ies gap. Same concept (chemotherapy). Best fixed once in the linker; rewording the plural to singular would break grammar."
+  },
+  {
+    "host_term": "Osteoporosis",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Antibodies' (y->ies plural of 'Antibody') won't auto-link.",
+    "edit": null,
+    "rationale": "STRUCTURAL y->ies gap. Same concept; fix in linker."
+  },
+  {
+    "host_term": "PBM",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Formularies' (y->ies plural of 'Formulary') won't auto-link.",
+    "edit": null,
+    "rationale": "STRUCTURAL y->ies gap. Same concept (formulary). Fix once in linker."
+  },
+  {
+    "host_term": "PCSK9",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Antibodies' (y->ies plural of 'Antibody') won't auto-link.",
+    "edit": null,
+    "rationale": "STRUCTURAL y->ies gap. Same concept; fix in linker."
+  },
+  {
+    "host_term": "Peptide",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Antibodies' (y->ies plural of 'Antibody') won't auto-link.",
+    "edit": null,
+    "rationale": "STRUCTURAL y->ies gap. Same concept; fix in linker."
+  },
+  {
+    "host_term": "Pharmacy Benefit Manager",
+    "field": "snappy",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Formularies' (y->ies plural of 'Formulary') won't auto-link.",
+    "edit": null,
+    "rationale": "STRUCTURAL y->ies gap. Same concept; fix in linker."
+  },
+  {
+    "host_term": "Protein",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Antibodies' (y->ies plural of 'Antibody') won't auto-link.",
+    "edit": null,
+    "rationale": "STRUCTURAL y->ies gap. Same concept; fix in linker."
+  },
+  {
+    "host_term": "Roche",
+    "field": "snappy",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Antibodies' (y->ies plural of 'Antibody') won't auto-link.",
+    "edit": null,
+    "rationale": "STRUCTURAL y->ies gap. Same concept; fix in linker."
+  },
+  {
+    "host_term": "Targeted Therapy",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Antibodies' (y->ies plural of 'Antibody') won't auto-link.",
+    "edit": null,
+    "rationale": "STRUCTURAL y->ies gap. Same concept; fix in linker."
+  },
+  {
+    "host_term": "Venetoclax",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Antibodies' (y->ies plural of 'Antibody') won't auto-link.",
+    "edit": null,
+    "rationale": "STRUCTURAL y->ies gap. Same concept; fix in linker."
+  },
+  {
+    "host_term": "Wild-type",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Antibodies' (y->ies plural of 'Antibody') won't auto-link.",
+    "edit": null,
+    "rationale": "STRUCTURAL y->ies gap. Same concept; fix in linker."
+  },
+  {
+    "host_term": "Y-90",
+    "field": "plain",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Antibodies' (y->ies plural of 'Antibody') won't auto-link.",
+    "edit": null,
+    "rationale": "STRUCTURAL y->ies gap. Same concept; fix in linker."
+  },
+  {
+    "host_term": "Yttrium",
+    "field": "detail",
+    "category": "inflected",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "'Antibodies' (y->ies plural of 'Antibody') won't auto-link.",
+    "edit": null,
+    "rationale": "STRUCTURAL y->ies gap. Same concept (labeled antibodies); fix in linker."
+  },
+  {
+    "host_term": "Hereditary Cancer Syndromes",
+    "field": "detail",
+    "category": "canonical-drift",
+    "verdict": "fix",
+    "confidence": "medium",
+    "issue": "'Li-Fraumeni' won't link to 'Li-Fraumeni Syndrome'",
+    "edit": null,
+    "rationale": "'Li-Fraumeni (TP53, many cancers)' is the same concept as Li-Fraumeni Syndrome, but it sits in a parallel list ('Lynch syndrome', 'BRCA1/BRCA2', 'Li-Fraumeni', 'FAP') where 'syndrome' is dropped stylistically for parallelism. Inserting 'Syndrome' only here breaks the list rhythm. Defer to human; not mechanical."
+  },
+  {
+    "host_term": "Stage",
+    "field": "detail",
+    "category": "canonical-drift",
+    "verdict": "fix",
+    "confidence": "medium",
+    "issue": "'TNM' flagged as short form of 'TNM Staging'",
+    "edit": {
+      "intent": "fix_drift",
+      "field": "detail",
+      "old": "using systems like TNM.",
+      "new": "using systems like TNM Staging.",
+      "creates_link_to": "TNM Staging",
+      "breaks_link_to": null
+    },
+    "rationale": "'using systems like TNM' means the TNM staging system = TNM Staging, same concept, but 'staging is done ... using systems like TNM Staging' is mildly redundant with the surrounding staging language. Plausible fix, but not cleanly mechanical; route to human."
+  },
+  {
+    "host_term": "Epilepsy",
+    "field": "detail",
+    "category": "zero-link",
+    "verdict": "fix",
+    "confidence": "high",
+    "issue": "Zero live links. Detail describes drug-resistant epilepsy and an FDA-approved drug; 'drug-resistant' is the lay form of the existing term Refractory, which can be woven in to create a cross-reference. (Note: 'FDA' already appears as a substring of 'FDA-approved' and should link to FDA via the linker's substring match; this edit adds an independent, unambiguous link.)",
+    "edit": {
+      "intent": "add_crossref",
+      "field": "detail",
+      "old": "with surgery and devices for drug-resistant cases.",
+      "new": "with surgery and devices for refractory (drug-resistant) cases.",
+      "creates_link_to": "Refractory",
+      "breaks_link_to": null
+    },
+    "rationale": "Content addition (review queue). 'drug-resistant cases' -> 'refractory (drug-resistant) cases' reads naturally, preserves meaning, and the word 'refractory' exactly matches the term Refractory (case-insensitive). No other term name is introduced. Single concrete cross-ref."
+  },
+  {
+    "host_term": "First-in-Human",
+    "field": "snappy",
+    "category": "zero-link",
+    "verdict": "fix",
+    "confidence": "high",
+    "issue": "Zero live links. Snappy references 'Phase 1 study'; the exact term is Phase 1 Trial, which links if used verbatim.",
+    "edit": {
+      "intent": "add_crossref",
+      "field": "snappy",
+      "old": "a high-stakes Phase 1 study where everything is unknown",
+      "new": "a high-stakes Phase 1 Trial where everything is unknown",
+      "creates_link_to": "Phase 1 Trial",
+      "breaks_link_to": null
+    },
+    "rationale": "Content addition (review queue). 'a high-stakes Phase 1 study' -> 'a high-stakes Phase 1 Trial' reads naturally and creates an exact match to Phase 1 Trial. FIH studies are by definition Phase 1, so the substitution is faithful. No accidental term introduced."
+  },
+  {
+    "host_term": "First-in-Human",
+    "field": "detail",
+    "category": "zero-link",
+    "verdict": "fix",
+    "confidence": "high",
+    "issue": "Zero live links. Detail describes 'carefully escalating amounts', which is exactly the Dose Escalation concept; naming the term verbatim creates a cross-reference.",
+    "edit": {
+      "intent": "add_crossref",
+      "field": "detail",
+      "old": "patients with carefully escalating amounts, watching for safety signals.",
+      "new": "patients with carefully escalating amounts (Dose Escalation), watching for safety signals.",
+      "creates_link_to": "Dose Escalation",
+      "breaks_link_to": null
+    },
+    "rationale": "Content addition (review queue). Appending '(Dose Escalation)' after 'carefully escalating amounts' reads naturally, is precisely correct for FIH design, and matches the term Dose Escalation. No other term name introduced."
+  },
+  {
+    "host_term": "Oligometastatic",
+    "field": "detail",
+    "category": "zero-link",
+    "verdict": "fix",
+    "confidence": "high",
+    "issue": "Zero live links. Detail mentions stereotactic radiosurgery (a form of focused radiation therapy) and 'metastases' (plural, which does not stem to the term Metastasis). Existing terms Radiation Therapy and Metastasis can be woven in.",
+    "edit": {
+      "intent": "add_crossref",
+      "field": "detail",
+      "old": "increasingly treated with stereotactic radiosurgery or targeted surgery alongside systemic therapy",
+      "new": "increasingly treated with stereotactic radiosurgery, a form of focused Radiation Therapy, or targeted surgery alongside systemic therapy",
+      "creates_link_to": "Radiation Therapy",
+      "breaks_link_to": null
+    },
+    "rationale": "Content addition (review queue). Recasting 'stereotactic radiosurgery or targeted surgery' to add 'focused Radiation Therapy' is medically faithful (SRS/SBRT are focused radiation therapy) and matches the term Radiation Therapy. Avoids fabricating SRS (which is MISSING). Reads naturally; no unintended term introduced."
+  },
+  {
+    "host_term": "Oligometastatic",
+    "field": "detail",
+    "category": "zero-link",
+    "verdict": "fix",
+    "confidence": "high",
+    "issue": "Zero live links. 'metastases' (plural) does not link to the term Metastasis. Naming the singular term verbatim adds a second cross-reference.",
+    "edit": {
+      "intent": "add_crossref",
+      "field": "detail",
+      "old": "Oligometastatic disease (typically 1-5 metastases) is being",
+      "new": "Oligometastatic disease (typically 1-5 sites of Metastasis) is being",
+      "creates_link_to": "Metastasis",
+      "breaks_link_to": null
+    },
+    "rationale": "Content addition (review queue). 'typically 1-5 metastases' -> 'typically 1-5 sites of Metastasis' reads naturally and matches the term Metastasis exactly. Meaning preserved. Independent of edit 4 (different substring), so both can apply."
+  },
+  {
+    "host_term": "Oncology",
+    "field": "detail",
+    "category": "zero-link",
+    "verdict": "fix",
+    "confidence": "high",
+    "issue": "Zero live links. The entry is the hub for cancer treatment but names no linkable modality. Adding a sentence naming the three drug-treatment pillars (Chemotherapy, Targeted Therapy, Immunotherapy) creates strong cross-references.",
+    "edit": {
+      "intent": "add_crossref",
+      "field": "detail",
+      "old": "accounts for the largest share of new drug approvals.",
+      "new": "accounts for the largest share of new drug approvals; its drug arsenal spans Chemotherapy, Targeted Therapy, and Immunotherapy.",
+      "creates_link_to": "Chemotherapy",
+      "breaks_link_to": null
+    },
+    "rationale": "Content addition (review queue). Adding 'Its drug arsenal spans Chemotherapy, Targeted Therapy, and Immunotherapy.' is accurate, natural, and yields three exact-term links. No unintended term names introduced (checked: no stray 'Cell', 'Stage', etc.)."
+  },
+  {
+    "host_term": "Phase 2 Trial",
+    "field": "snappy",
+    "category": "zero-link",
+    "verdict": "fix",
+    "confidence": "high",
+    "issue": "Zero live links. Snappy references 'doses chosen in Phase 1'; the exact term is Phase 1 Trial.",
+    "edit": {
+      "intent": "add_crossref",
+      "field": "snappy",
+      "old": "whether the drug actually works at the doses chosen in Phase 1.",
+      "new": "whether the drug actually works at the doses chosen in a Phase 1 Trial.",
+      "creates_link_to": "Phase 1 Trial",
+      "breaks_link_to": null
+    },
+    "rationale": "Content addition (review queue). 'doses chosen in Phase 1' -> 'doses chosen in a Phase 1 Trial' reads naturally and matches the term Phase 1 Trial. Meaning preserved."
+  },
+  {
+    "host_term": "Phase 2 Trial",
+    "field": "detail",
+    "category": "zero-link",
+    "verdict": "fix",
+    "confidence": "high",
+    "issue": "Zero live links. Detail mentions 'Phase 3 investment'; the exact term is Phase 3 Trial.",
+    "edit": {
+      "intent": "add_crossref",
+      "field": "detail",
+      "old": "if Phase 2 efficacy doesn't impress, Phase 3 investment is hard to justify.",
+      "new": "if Phase 2 efficacy doesn't impress, Phase 3 Trial investment is hard to justify.",
+      "creates_link_to": "Phase 3 Trial",
+      "breaks_link_to": null
+    },
+    "rationale": "Content addition (review queue). 'Phase 3 investment is hard to justify' -> 'Phase 3 Trial investment is hard to justify' reads naturally and links Phase 3 Trial. Note: bare 'Phase 2'/'Phase 3' do NOT match the '... Trial' term names, so this verbatim insertion is required. Independent substring from edit 7."
+  },
+  {
+    "host_term": "Prior Authorization",
+    "field": "detail",
+    "category": "zero-link",
+    "verdict": "fix",
+    "confidence": "high",
+    "issue": "Zero live links. Detail says 'utilization-management tool' (hyphenated, does not match) and 'documentation of failed alternatives' (the Step Therapy concept). Existing terms Utilization Management and Step Therapy can be woven in.",
+    "edit": {
+      "intent": "add_crossref",
+      "field": "detail",
+      "old": "is the most common utilization-management tool insurers use to gate expensive drugs, often requiring documentation of failed alternatives or specific diagnostic criteria.",
+      "new": "is the most common Utilization Management tool insurers use to gate expensive drugs, often requiring documentation of failed alternatives (Step Therapy) or specific diagnostic criteria.",
+      "creates_link_to": "Utilization Management",
+      "breaks_link_to": null
+    },
+    "rationale": "Content addition (review queue). Two faithful substitutions in one substring: 'utilization-management tool' -> 'Utilization Management tool' (drops hyphen so it matches the term), and 'documentation of failed alternatives' -> 'documentation of failed alternatives (Step Therapy)' which is exactly what step therapy requires. Both read naturally; links Utilization Management and Step Therapy."
+  },
+  {
+    "host_term": "Therapeutic Index",
+    "field": "detail",
+    "category": "zero-link",
+    "verdict": "fix",
+    "confidence": "high",
+    "issue": "Zero live links. Detail lists warfarin (an Anticoagulant) and 'chemo drugs' that are cytotoxic; the closely related concept Therapeutic Window is also a term. These can be woven in for cross-references.",
+    "edit": {
+      "intent": "add_crossref",
+      "field": "detail",
+      "old": "Most chemo drugs have narrow TIs, which is why dose adjustments",
+      "new": "Most cytotoxic chemo drugs have narrow TIs, which is why dose adjustments",
+      "creates_link_to": "Cytotoxic",
+      "breaks_link_to": null
+    },
+    "rationale": "Content addition (review queue). 'Most chemo drugs have narrow TIs' -> 'Most cytotoxic chemo drugs have narrow TIs' is faithful (chemo drugs are cytotoxic) and 'cytotoxic' matches the term Cytotoxic. Reads naturally; no unintended term introduced."
+  },
+  {
+    "host_term": "Therapeutic Index",
+    "field": "snappy",
+    "category": "zero-link",
+    "verdict": "fix",
+    "confidence": "high",
+    "issue": "Zero live links. The Therapeutic Index is the ratio bounding the Therapeutic Window (an existing term and near-synonym concept). Naming it adds a high-value cross-reference.",
+    "edit": {
+      "intent": "add_crossref",
+      "field": "snappy",
+      "old": "wider is safer, narrower is dangerous and requires careful monitoring.",
+      "new": "wider is safer, narrower is dangerous and requires careful monitoring of the drug's Therapeutic Window.",
+      "creates_link_to": "Therapeutic Window",
+      "breaks_link_to": null
+    },
+    "rationale": "Content addition (review queue). Appending '— defining the drug's Therapeutic Window' is medically accurate (TI quantifies the width of the therapeutic window) and links the existing term Therapeutic Window. Reads naturally; independent of the detail edit."
+  },
+  {
+    "host_term": "Base Pair",
+    "field": "detail",
+    "category": "wrong-sense-generic",
+    "verdict": "fix",
+    "confidence": "high",
+    "issue": "Context \"single-letter precision (base editing)\". Here \"base\" stands alone (not part of \"base pair\"), so it genuinely auto-links to `Base` — the acid/base chemistry entry. That is the wrong sense: this \"base\" is a DNA nucleotide base, not a chemical base. Cross-sense error.",
+    "edit": {
+      "intent": "break_link",
+      "field": "detail",
+      "old": "another with single-letter precision (base editing).",
+      "new": "another with single-letter precision (so-called nucleotide editing).",
+      "breaks_link_to": "Base",
+      "creates_link_to": "Nucleotide"
+    },
+    "rationale": "Rewording \"(base editing)\" to \"(so-called nucleotide editing)\" removes the standalone word \"base\", dropping the wrong-sense link to the chemistry entry `Base`, while introducing a correct, useful link to `Nucleotide` (base pairs are made of nucleotides). Reads naturally and preserves meaning. `Nucleotide` exists in the corpus."
+  },
+  {
+    "host_term": "Nucleotide",
+    "field": "detail",
+    "category": "wrong-sense-generic",
+    "verdict": "fix",
+    "confidence": "high",
+    "issue": "'bases' in 'one of four bases (A, T, G, C ...)' auto-links to the Mechanism entry 'Base' (acid/base chemistry). Here 'bases' means DNA/RNA nucleobases, a completely different concept — cross-sense nonsense.",
+    "edit": {
+      "intent": "break_link",
+      "field": "detail",
+      "old": "and one of four bases (A, T, G, C in DNA; A, U, G, C in RNA)",
+      "new": "and one of four letters — A, T, G, C in DNA; A, U, G, C in RNA",
+      "creates_link_to": null,
+      "breaks_link_to": "Base"
+    },
+    "rationale": "The DNA/RNA nucleobase sense is unrelated to the chemical acid/base entry 'Base'; the link is misleading. The entry itself already describes nucleotides as the chemical 'letters' of DNA/RNA in plain/snappy, so rewording 'four bases' to 'four letters' preserves meaning and reading level and removes the 'base' substring entirely (any variant containing 'base'/'nucleobase' would re-trigger the substring match). DNA/RNA were already present and linked in the original sentence; no new link introduced."
+  },
+  {
+    "host_term": "Philadelphia Chromosome",
+    "field": "detail",
+    "category": "wrong-sense-generic",
+    "verdict": "fix",
+    "confidence": "high",
+    "issue": "The bare token 'Ph' in 'Ph+ ALL has worse prognosis than Ph-negative ALL' auto-links to the entry 'pH' (the acidity scale). 'Ph' here abbreviates Philadelphia, not acidity — a clear wrong-sense link.",
+    "edit": {
+      "field": "detail",
+      "old": "Ph+ ALL has worse prognosis than Ph-negative ALL but is now treatable",
+      "new": "Philadelphia-positive ALL has worse prognosis than Philadelphia-negative ALL but is now treatable",
+      "breaks_link_to": "pH",
+      "creates_link_to": null,
+      "intent": "break_link"
+    },
+    "rationale": "Replacing 'Ph+ ... Ph-negative' with the spelled-out 'Philadelphia-positive ... Philadelphia-negative' removes both bare 'Ph' tokens, preserves meaning and grammar exactly, and introduces no new link (no term named 'Philadelphia' or 'Philadelphia-positive' exists; 'Philadelphia chromosome' does not appear in the replaced span)."
+  },
+  {
+    "host_term": "Amino Acid",
+    "field": "detail",
+    "category": "wrong-sense-generic",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "Within the Amino Acid entry, the word 'acid(s)' inside 'amino acids'/'amino acid' auto-links to the entry 'Acid' (the sour/corrosive stomach-acid concept), three times in detail. The self-match to 'Amino Acid' is suppressed (self-link), which exposes the shorter 'Acid' substring and produces a wrong-sense link to stomach Acid.",
+    "edit": null,
+    "rationale": "Genuine wrong-sense noise: 'Acid' (stomach acid) is the wrong concept for amino acids. But breaking it cleanly requires rewording 'amino acid(s)' throughout an entry whose subject IS amino acids, which would damage readability; any reword risks dropping the canonical phrase the term name should anchor on. This is a structural artifact of self-link suppression exposing a shorter substring inside the host term itself — better solved by a linker rule (do not let a shorter term match a fragment of the host term's own name) than by N prose edits. STRUCTURAL. Flagging for human review, not auto-applying."
+  },
+  {
+    "host_term": "Leqembi",
+    "field": "plain",
+    "category": "wrong-sense-generic",
+    "verdict": "fix",
+    "confidence": "medium",
+    "issue": "'in its early stages' links the substring 'stage' (within 'stages') to entry 'Stage' — which is specifically the cancer TNM stage 1-4. In an Alzheimer's drug entry this is a wrong-sense link. Other plain links (Alzheimer's Disease, protein, Biogen) are correct.",
+    "edit": {
+      "intent": "break_link",
+      "field": "plain",
+      "old": "to slow the disease in its early stages.",
+      "new": "to slow the disease while it is still early.",
+      "creates_link_to": null,
+      "breaks_link_to": "Stage"
+    },
+    "rationale": "The Stage entry is cancer-staging specific; Alzheimer's disease 'early stages' is a different sense. Rewording to 'while it is still early' preserves meaning and grammar and removes the spurious cancer-Stage link. No new term link introduced."
+  },
+  {
+    "host_term": "Molecule",
+    "field": "detail",
+    "category": "wrong-sense-generic",
+    "verdict": "fix",
+    "confidence": "medium",
+    "issue": "'nucleic acids' links the substring 'acid' (within 'acids') to entry 'Acid' — the sour/corrosive stomach-acid chemical entry — a wrong-sense generic auto-link. Other links (atoms, DNA, small molecules, biologics, proteins, cells, biosimilar, glucose) are correct.",
+    "edit": {
+      "intent": "break_link",
+      "field": "detail",
+      "old": "antibodies, proteins, nucleic acids — usually injected",
+      "new": "antibodies, proteins, RNA and DNA — usually injected",
+      "creates_link_to": "RNA",
+      "breaks_link_to": "Acid"
+    },
+    "rationale": "Nucleic acids (DNA/RNA) are unrelated to the corrosive 'Acid' entry. Rewriting 'nucleic acids' to 'RNA and DNA' removes the spurious Acid link while keeping the large-molecule example list accurate; it introduces RNA and DNA links, which are appropriate in context, so flag for human review rather than auto-apply."
+  },
+  {
+    "host_term": "Base Pair",
+    "field": "detail",
+    "category": "wrong-sense-generic",
+    "verdict": "needs-human",
+    "confidence": "high",
+    "issue": "The word 'base' fires 4x to the entry 'Base' (defined as the acid/base chemistry term: 'the chemical opposite of an acid'). In this entry 'base' always means a nucleotide base ('base pairs', 'base pair', 'base editing'), so all 4 links are the wrong sense.",
+    "edit": null,
+    "rationale": "Genuine wrong-sense link (acid/base chemistry vs DNA base). Cannot mechanically break: 'base pair(s)' and 'base editing' are core verbatim domain terms that must not be reworded, and there is no 'Base Pair' self-link to absorb the match. Best solved by a linker-side fix (suppress generic 'Base' inside 'base pair'/'base editing') or careful human rewording. STRUCTURAL: this generic single-word 'Base' link likely misfires across other nucleotide-context entries too."
+  },
+  {
+    "host_term": "Li-Fraumeni Syndrome",
+    "field": "detail",
+    "category": "wrong-sense-generic",
+    "verdict": "fix",
+    "confidence": "medium",
+    "issue": "'(Toronto protocol)' links the word 'protocol' to the Protocol entry, which is defined as 'the detailed playbook for a clinical trial'. The Toronto protocol is a cancer-surveillance/screening schedule, not a trial protocol -> wrong-sense link.",
+    "edit": {
+      "intent": "break_link",
+      "field": "detail",
+      "old": "Intensive screening (Toronto protocol) has improved outcomes.",
+      "new": "Intensive screening (the Toronto surveillance regimen) has improved outcomes.",
+      "creates_link_to": null,
+      "breaks_link_to": "Protocol"
+    },
+    "rationale": "'Toronto protocol' is a surveillance schedule, so linking to the clinical-trial Protocol entry is a wrong-sense cross-reference. Rewording to 'Toronto surveillance regimen' breaks the unwanted link while preserving meaning. Marked not-auto-safe: 'Toronto protocol' is a recognized proper-noun term so the rewrite is a judgement call for human review; also confirm 'Regimen' is not itself a term that would create a new link (it is not in the term set as 'regimen' lowercase mid-sentence would still need exact 'Regimen' match)."
+  }
+]

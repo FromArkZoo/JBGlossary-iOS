@@ -1,0 +1,156 @@
+[
+  {
+    "host_term": "Digital Biomarker",
+    "field": "detail",
+    "category": "canonical-drift",
+    "intent": "fix_drift",
+    "old": "typing speed in Parkinson's, nocturnal cough",
+    "new": "typing speed in Parkinson's Disease, nocturnal cough",
+    "creates_link_to": "Parkinson's Disease",
+    "breaks_link_to": null,
+    "rationale": "Short form -> canonical term, same concept, reads naturally in 'typing speed in Parkinson's Disease, nocturnal cough'."
+  },
+  {
+    "host_term": "GLP-1 Agonist",
+    "field": "detail",
+    "category": "canonical-drift",
+    "intent": "fix_drift",
+    "old": "and possibly Alzheimer's.",
+    "new": "and possibly Alzheimer's Disease.",
+    "creates_link_to": "Alzheimer's Disease",
+    "breaks_link_to": null,
+    "rationale": "Standalone possessive noun at sentence end: 'benefit in heart failure, kidney disease, and possibly Alzheimer's.' -> 'Alzheimer's Disease.' reads cleanly and is the same concept."
+  },
+  {
+    "host_term": "LOE",
+    "field": "detail",
+    "category": "canonical-drift",
+    "intent": "fix_drift",
+    "old": "the door to a Generic or Biosimilar",
+    "new": "the door to a Generic Drug or Biosimilar",
+    "creates_link_to": "Generic Drug",
+    "breaks_link_to": null,
+    "rationale": "'opening the door to a Generic or Biosimilar' clearly means a generic drug; 'a Generic Drug or Biosimilar' reads naturally and is the same concept ('Biosimilar' still links)."
+  },
+  {
+    "host_term": "Stem Cell",
+    "field": "detail",
+    "category": "canonical-drift",
+    "intent": "fix_drift",
+    "old": "in development for Parkinson's, diabetes",
+    "new": "in development for Parkinson's Disease, diabetes",
+    "creates_link_to": "Parkinson's Disease",
+    "breaks_link_to": null,
+    "rationale": "List item 'in development for Parkinson's, diabetes (...), and macular degeneration' — 'Parkinson's Disease' inserts cleanly and is the same concept."
+  },
+  {
+    "host_term": "TNF Inhibitor",
+    "field": "detail",
+    "category": "canonical-drift",
+    "intent": "fix_drift",
+    "old": "rheumatoid arthritis, Crohn's, ulcerative colitis",
+    "new": "rheumatoid arthritis, Crohn's Disease, ulcerative colitis",
+    "creates_link_to": "Crohn's Disease",
+    "breaks_link_to": null,
+    "rationale": "List 'rheumatoid arthritis, Crohn's, ulcerative colitis, and psoriasis' — 'Crohn's Disease' reads naturally in the list and is the exact same concept."
+  },
+  {
+    "host_term": "Ulcerative Colitis",
+    "field": "plain",
+    "category": "canonical-drift",
+    "intent": "fix_drift",
+    "old": "close cousin to Crohn's.",
+    "new": "close cousin to Crohn's Disease.",
+    "creates_link_to": "Crohn's Disease",
+    "breaks_link_to": null,
+    "rationale": "'close cousin to Crohn's.' -> 'close cousin to Crohn's Disease.' reads naturally and is the exact same concept."
+  },
+  {
+    "host_term": "Ulcerative Colitis",
+    "field": "snappy",
+    "category": "canonical-drift",
+    "intent": "fix_drift",
+    "old": "discussed alongside Crohn's.",
+    "new": "discussed alongside Crohn's Disease.",
+    "creates_link_to": "Crohn's Disease",
+    "breaks_link_to": null,
+    "rationale": "'often discussed alongside Crohn's.' -> 'alongside Crohn's Disease.' reads naturally, same concept."
+  },
+  {
+    "host_term": "Antibiotic",
+    "field": "snappy",
+    "category": "wrong-sense-generic",
+    "intent": "break_link",
+    "old": "and increasingly under threat as bacteria evolve resistance.",
+    "new": "and increasingly under threat as bacteria evolve antimicrobial resistance.",
+    "creates_link_to": "Antimicrobial Resistance",
+    "breaks_link_to": "Resistance",
+    "rationale": "Replacing \"evolve resistance\" with \"evolve antimicrobial resistance\" reads naturally, preserves meaning, and (via longest-match-first) links to the correct `Antimicrobial Resistance` entry instead of the wrong-sense `Resistance` (cancer) entry. Both target terms exist in the corpus."
+  },
+  {
+    "host_term": "Golgi Apparatus",
+    "field": "plain",
+    "category": "wrong-sense-generic",
+    "intent": "break_link",
+    "old": "a stack of pouches that wraps and labels proteins before shipping them off",
+    "new": "a stack of pouches that wraps and tags proteins before shipping them off",
+    "creates_link_to": null,
+    "breaks_link_to": "Label",
+    "rationale": "Changing \"wraps and labels proteins\" to \"wraps and tags proteins\" preserves the exact biological meaning (the Golgi tags proteins for sorting), removes the word \"label(s)\" entirely, and introduces no new term match (\"tags\" is not a term). Eliminates any wrong-sense link to the drug-label entry `Label`."
+  },
+  {
+    "host_term": "Inhibitor",
+    "field": "detail",
+    "category": "wrong-sense-generic",
+    "intent": "break_link",
+    "old": "used to label drug classes across every pharma pipeline",
+    "new": "used to name drug classes across every pharma pipeline",
+    "creates_link_to": null,
+    "breaks_link_to": "Label",
+    "rationale": "Generic verb use of 'label', wrong sense vs the Regulatory 'Label' document. Rewording to 'name' preserves meaning and grammar and breaks the unintended link. 'name' is not a term; surrounding accidental substrings (across/classes/pharma) are unchanged from the original."
+  },
+  {
+    "host_term": "Non-Hodgkin Lymphoma",
+    "field": "plain",
+    "category": "wrong-sense-generic",
+    "intent": "break_link",
+    "old": "An umbrella label for dozens of different cancers",
+    "new": "An umbrella term for dozens of different cancers",
+    "creates_link_to": null,
+    "breaks_link_to": "Label",
+    "rationale": "Generic 'umbrella label' (= umbrella name/category), wrong sense vs the Regulatory drug 'Label'. Rewording to 'umbrella term' preserves meaning/grammar and breaks the link; 'term' is not a glossary entry name, no new link introduced."
+  },
+  {
+    "host_term": "Inhibitor",
+    "field": "detail",
+    "category": "wrong-sense-generic",
+    "intent": "break_link",
+    "old": "used to label drug classes",
+    "new": "used to name drug classes",
+    "creates_link_to": null,
+    "breaks_link_to": "Label",
+    "rationale": "'label' is used as a verb meaning 'to name/categorize', unrelated to the regulatory Label entry. Replacing with 'name' breaks the unwanted link, preserves meaning and grammar, and introduces no new term link."
+  },
+  {
+    "host_term": "Monomer",
+    "field": "detail",
+    "category": "wrong-sense-generic",
+    "intent": "break_link",
+    "old": "Trace impurities at the monomer stage can cause",
+    "new": "Trace impurities at the monomer step can cause",
+    "creates_link_to": null,
+    "breaks_link_to": "Stage",
+    "rationale": "Clear wrong-sense generic noise link. Rewording 'stage' to 'step' preserves meaning and grammar exactly and removes the spurious link to the cancer-staging entry; 'step' is not a term name so no new link is created."
+  },
+  {
+    "host_term": "Outbreak",
+    "field": "plain",
+    "category": "wrong-sense-generic",
+    "intent": "break_link",
+    "old": "The earliest, most local stage before it can grow into an epidemic.",
+    "new": "The earliest, most local phase before it can grow into an epidemic.",
+    "creates_link_to": null,
+    "breaks_link_to": "Stage",
+    "rationale": "Clear wrong-sense noise: the oncology 'Stage' (cancer staging) entry is irrelevant to disease outbreaks. Reword 'stage' to 'phase' (not a term) to break the link; meaning and grammar preserved, no new link created."
+  }
+]
