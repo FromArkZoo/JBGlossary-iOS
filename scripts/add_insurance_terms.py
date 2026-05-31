@@ -5897,6 +5897,79 @@ BATCH_10_MARKET = [
 ]
 
 
+# ============================================================================
+# BATCH 11 — Alphabet completion (X / Y / Z). Insurance jargon is naturally
+# sparse at the end of the alphabet (the corpus otherwise ends at W), so this
+# small batch adds the genuinely standard terms under the last three letters so
+# the glossary runs a complete A–Z: XCU (X), four Y terms, and Zone Rating (Z).
+# All cross-checked as real US-market terms; sourced to III/IRMI/SOA, not the
+# republished glossary site that surfaced them.
+# ============================================================================
+
+BATCH_11_ALPHABET = [
+    entry(
+        "XCU", "Explosion, Collapse, and Underground",
+        "Contractor-insurance shorthand for three hazards — explosion, collapse, and underground damage — that a general liability policy often excludes.",
+        "A general liability designation for the explosion, collapse, and underground property-damage hazards that standard policies exclude for higher-risk contractors.",
+        "XCU stands for explosion, collapse, and underground property damage — three hazards that commercial general liability policies routinely exclude for certain contractor classifications. A firm that blasts rock, can undermine a neighbouring structure, or digs near buried utilities needs those exclusions removed or the coverage bought back by endorsement. On any contractor's policy, confirming whether XCU is included is a standard check, since a severed gas line or a collapsed trench is exactly the kind of loss it governs.",
+        ["IRMI", "ISO"],
+        indications=["Commercial & Liability"],
+        category="Coverage & Policies",
+        aliases=["Explosion, Collapse and Underground", "XCU Coverage", "XCU Exclusions"],
+    ),
+    entry(
+        "Yacht Insurance", "",
+        "Insurance for a pleasure boat — covering the vessel itself and liability for injuries or damage caused on the water.",
+        "Marine coverage for recreational boats, insuring the hull against damage and providing protection and indemnity liability for harm caused afloat.",
+        "Yacht insurance is the pleasure-boat branch of ocean marine insurance: it pairs hull coverage, which pays to repair or replace the boat after a grounding, fire, or storm, with protection and indemnity liability for injuring a swimmer, sinking another vessel, or causing pollution. Larger or faster boats are written on these marine forms rather than as a simple watercraft endorsement on a homeowners policy. Navigational limits — how far offshore the boat may roam — are a defining term of the cover.",
+        ["IRMI", "III"],
+        indications=["Home & Property"],
+        category="Coverage & Policies",
+        aliases=["Pleasure Boat Insurance"],
+    ),
+    entry(
+        "Yearly Renewable Term", "YRT",
+        "Term life insurance that renews every year at a higher premium, with no new health check needed to keep it.",
+        "A term life policy renewable annually without new evidence of insurability, where the premium rises each year as the insured ages.",
+        "Yearly renewable term is the most basic life insurance: one-year coverage that automatically renews each year without a fresh medical exam, but at a premium that climbs annually as mortality risk rises with age. Cheap when young and expensive later, it suits short-term needs and is the building block actuaries use to price longer level-premium term policies. The same structure names a common reinsurance basis, where a reinsurer charges yearly for the mortality risk it assumes.",
+        ["III", "SOA"],
+        indications=["Life & Annuities"],
+        category="Coverage & Policies",
+        aliases=["YRT", "Annual Renewable Term", "Annually Renewable Term"],
+    ),
+    entry(
+        "York Antwerp Rules", "",
+        "The international rules for fairly splitting the cost of a deliberate sacrifice at sea — like jettisoning cargo — among everyone aboard.",
+        "A long-standing set of rules governing how ocean-marine general average losses are shared among the ship and cargo owners.",
+        "When a captain sacrifices part of a voyage to save the rest — jettisoning cargo, flooding a hold to fight a fire — maritime law spreads that loss across everyone with a stake, a principle called general average. The York Antwerp Rules are the international standard for calculating and apportioning it, written into most ocean marine insurance and cargo insurance policies. They date to the 19th century and are periodically revised, and a marine adjuster applies them after a general-average event.",
+        ["IRMI", "Lloyd's"],
+        indications=["Commercial & Liability"],
+        category="Coverage & Policies",
+        aliases=["York-Antwerp Rules"],
+    ),
+    entry(
+        "Years Certain Annuity", "",
+        "An annuity that promises payments for a set number of years, to you or your heirs, whether or not you live that long.",
+        "An annuity guaranteeing income for a fixed number of years, paying any remaining installments to a beneficiary if the annuitant dies early.",
+        "A years-certain annuity guarantees payments for a stated term — ten or twenty years, say — regardless of whether the annuitant survives it; if they die early, a beneficiary collects the rest. It's the same idea as a period certain option on an annuity, trading some monthly income for the assurance that the money won't vanish if death comes soon after payments begin. Buyers often blend it with a life annuity to get lifetime income plus a minimum guaranteed payout.",
+        ["III", "Investopedia"],
+        indications=["Life & Annuities"],
+        category="Coverage & Policies",
+        aliases=["Annuity Certain", "Years Certain", "Period Certain Annuity"],
+    ),
+    entry(
+        "Zone Rating", "",
+        "A way of pricing commercial truck insurance by the regions a vehicle travels between, not just where it's based.",
+        "A commercial auto rating method that prices coverage by the geographic zones a vehicle operates in and travels between.",
+        "Zone rating prices long-haul commercial auto and trucking coverage by geography: the country is carved into zones, and the premium reflects both where a truck is garaged and the zones it routinely runs between, since a rig crossing many states faces more exposure than a local one. It refines the rating factors used for vehicles that don't stay put, capturing the road risk a single garaging address would miss. Fleets with wide operating territories feel it most.",
+        ["IRMI", "ISO"],
+        indications=["Commercial & Liability", "Auto"],
+        category="Pricing & Actuarial",
+        aliases=["Zone Rating System"],
+    ),
+]
+
+
 BATCHES = {
     1: BATCH_1_CORE,
     2: BATCH_2_HEALTH,
@@ -5908,6 +5981,7 @@ BATCHES = {
     8: BATCH_8_CLAIMS,
     9: BATCH_9_REINSURANCE,
     10: BATCH_10_MARKET,
+    11: BATCH_11_ALPHABET,
 }
 
 
