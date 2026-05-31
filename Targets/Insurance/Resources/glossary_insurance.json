@@ -36,6 +36,21 @@
   },
   {
     "letter": "A",
+    "term": "Accident Forgiveness",
+    "full": "",
+    "plain": "A feature that stops your first at-fault crash from raising your premium.",
+    "snappy": "A benefit waiving the premium surcharge for a driver's first at-fault accident, usually earned through a clean record.",
+    "detail": "Accident forgiveness spares you the surcharge after your first at-fault crash, so a single mistake doesn't spike your premium for years. Insurers grant it to drivers with a long clean record or sell it as an add-on. The fine print matters: it usually applies to one accident, may not transfer if you switch carriers, and doesn't erase the accident from your record — it just shields the rate.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Underwriting & Risk",
+    "sources": [
+      "III"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Accidental Death Benefit",
     "full": "Double Indemnity",
     "plain": "Extra life insurance money paid if you die in an accident rather than from illness.",
@@ -161,6 +176,22 @@
   },
   {
     "letter": "A",
+    "term": "Aftermarket Parts",
+    "full": "",
+    "plain": "Replacement car parts made by someone other than the original manufacturer, usually cheaper.",
+    "snappy": "Repair parts produced by third parties rather than the vehicle's maker, often used to lower claim costs.",
+    "detail": "Aftermarket parts are made by companies other than the carmaker and typically cost less than OEM parts, so insurers favour them to hold down repair bills, especially on older vehicles. Quality ranges from equivalent to inferior, which fuels disputes over fit and safety. Some states require insurers to disclose their use and let owners pay the difference for OEM parts. Body shops and owners often push back when a policy mandates them.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Claims & Settlement",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Aggregate Limit",
     "full": "",
     "plain": "The total an insurer will pay over the whole policy term, across all claims combined.",
@@ -276,6 +307,58 @@
   },
   {
     "letter": "A",
+    "term": "Appraisal Clause",
+    "full": "",
+    "plain": "A policy provision for settling a disagreement over how much a damaged car or home is worth.",
+    "snappy": "A clause letting insurer and insured each hire an appraiser, with an umpire deciding, to resolve a dispute over loss value.",
+    "detail": "When you and the insurer can't agree on the value of a total loss or repair, the appraisal clause offers a way out short of court: each side hires an independent appraiser, and the two pick an umpire to break any tie, with the result binding on the amount. It resolves how much, not whether something is covered. Common in auto and homeowners policies, it's an underused tool for owners who think a payout is too low.",
+    "indications": [
+      "Auto",
+      "Home & Property"
+    ],
+    "category": "Claims & Settlement",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Assigned Risk Plan",
+    "full": "Automobile Insurance Plan",
+    "plain": "The insurer-of-last-resort pool that covers drivers no company will voluntarily insure.",
+    "snappy": "A state mechanism distributing drivers who can't buy voluntary coverage among insurers, guaranteeing minimum access.",
+    "detail": "When no insurer will voluntarily cover a high-risk driver, a state assigned-risk plan steps in: applicants are parcelled out among all insurers doing business there, who must take their share. It guarantees that everyone legally required to carry insurance can buy at least the minimum — at a high price. It's the auto version of a residual market, the safety net beneath the nonstandard market.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "III"
+    ],
+    "aliases": [
+      "Automobile Insurance Plan"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "At-Fault Accident",
+    "full": "",
+    "plain": "A crash the insurer decides you primarily caused, which usually raises your premium.",
+    "snappy": "An accident an insurer assigns chiefly to its insured, typically triggering a surcharge or higher renewal premium.",
+    "detail": "When the insurer decides you were primarily to blame for a crash, it's an at-fault accident — and the consequences follow you: a surcharge, a lost safe-driver discount, or a higher premium for years. Insurers weigh police reports, statements, and damage patterns to assign fault. Accident-forgiveness features can spare a first at-fault accident. Comparative-negligence rules can split fault between drivers, softening the hit.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Claims & Settlement",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Attending Physician Statement",
     "full": "APS",
     "plain": "A report from your own doctor the life insurer requests to confirm your medical history.",
@@ -291,6 +374,25 @@
     ],
     "aliases": [
       "APS"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Auto Insurance",
+    "full": "Car Insurance",
+    "plain": "Coverage for your car that pays for crashes, theft, and the harm you cause others while driving.",
+    "snappy": "Coverage for vehicles bundling liability for others' losses with optional collision and comprehensive for your own car.",
+    "detail": "Auto insurance is mandatory almost everywhere you drive, combining liability coverage that pays for injury and damage you cause others with optional collision and comprehensive coverage for your own vehicle. Premiums hinge on your driving record, location, vehicle, and often a credit-based insurance score. Lenders require collision and comprehensive while a loan is outstanding. It's the policy most people buy first and shop most often as rates climb.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "Car Insurance"
     ]
   },
   {
@@ -343,6 +445,23 @@
   },
   {
     "letter": "B",
+    "term": "Betterment",
+    "full": "",
+    "plain": "A deduction insurers make when a repair leaves your car better than before the loss.",
+    "snappy": "A reduction in a claim payment reflecting the added value when worn parts are replaced with new ones during repair.",
+    "detail": "If a crash forces replacing a half-worn tyre or an ageing battery with a new one, the insurer may apply a betterment deduction, asking you to chip in for the upgrade since you ended up better off than before. The indemnity principle — restoring you to your pre-loss position, not improving it — is the logic. It surfaces most on wear-prone parts and is a common line-item dispute at the body shop.",
+    "indications": [
+      "Auto",
+      "Home & Property"
+    ],
+    "category": "Claims & Settlement",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "Binder",
     "full": "",
     "plain": "Temporary proof you're covered right now, before the full policy paperwork arrives.",
@@ -356,6 +475,25 @@
     "sources": [
       "NAIC",
       "III"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Bodily Injury Liability",
+    "full": "BI",
+    "plain": "The car insurance that pays the medical bills and lost wages of people you injure in a crash.",
+    "snappy": "Auto liability coverage paying others' medical costs, lost income, and pain-and-suffering claims when the insured is at fault.",
+    "detail": "Bodily injury liability covers the human cost of an at-fault crash — the other driver's and passengers' medical bills, lost wages, and pain-and-suffering claims, plus your legal defence. It's the first number in a split-limit policy, like the 25 and 50 in 25/50/25 (per-person and per-accident caps). Because injury awards can run into millions, low state-minimum limits are the biggest gap most drivers don't realise they have.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "BI"
     ]
   },
   {
@@ -532,6 +670,24 @@
   },
   {
     "letter": "C",
+    "term": "Classic Car Insurance",
+    "full": "Collector Car Insurance",
+    "plain": "Specialty coverage for collectible vehicles based on an agreed value, with limited annual mileage.",
+    "snappy": "Coverage for collector vehicles using an agreed value rather than actual cash value, usually capping annual mileage.",
+    "detail": "A restored 1960s muscle car isn't worth the depreciated value a standard policy would pay, so classic car insurance uses an agreed value set upfront, guaranteeing that amount on a total loss. Premiums are surprisingly low because these cars are driven little and garaged carefully — coverage typically caps annual mileage and bars daily commuting. Specialty insurers dominate the niche, prizing the low-risk way collectors use their vehicles.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III"
+    ],
+    "aliases": [
+      "Collector Car Insurance"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "COBRA",
     "full": "Consolidated Omnibus Budget Reconciliation Act",
     "plain": "A law letting you keep your job's health plan for a while after you leave — but you pay the full premium.",
@@ -568,6 +724,61 @@
   },
   {
     "letter": "C",
+    "term": "Collision Coverage",
+    "full": "Collision",
+    "plain": "The part of car insurance that pays to fix your own car after a crash, no matter who's at fault.",
+    "snappy": "First-party coverage paying to repair or replace the covered vehicle after a collision, subject to a deductible.",
+    "detail": "Collision coverage repairs your own car after you hit another vehicle or object or roll over, regardless of fault, after you pay the deductible. Lenders require it while a loan or lease is outstanding. On an older car whose value has fallen, drivers often drop it once the premium approaches the payout a total loss would bring. It pairs with comprehensive coverage as the \"full coverage\" most people picture.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "Collision"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Combined Single Limit",
+    "full": "CSL",
+    "plain": "One pooled liability limit covering injuries and property damage together, instead of separate caps.",
+    "snappy": "A single liability limit applied flexibly across bodily injury and property damage in one accident, rather than split caps.",
+    "detail": "A combined single limit gives one number — say $300,000 — that can flow to injuries, property damage, or both in any mix for a single accident, rather than the rigid buckets of split limits. It's more flexible and more protective when one part of a claim is unusually large, which is why higher-limit and commercial auto policies favour it. The trade-off is usually a somewhat higher premium for the added cushion.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "CSL"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Commercial Auto Insurance",
+    "full": "",
+    "plain": "Coverage for vehicles a business owns or uses, broader than a personal auto policy.",
+    "snappy": "Coverage for vehicles used in business, carrying higher limits and covering uses a personal auto policy excludes.",
+    "detail": "A personal auto policy excludes most business use, so companies — from a plumber's van to a delivery fleet — buy commercial auto insurance with higher liability limits, coverage for employees driving, and for hired or non-owned vehicles. It costs more because business driving means more miles and exposure. The line between personal and commercial use trips up gig workers and small-business owners who assume their personal policy covers work driving.",
+    "indications": [
+      "Auto",
+      "Commercial & Liability"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Community Rating",
     "full": "",
     "plain": "Pricing that charges everyone in an area the same, instead of charging sick people more.",
@@ -580,6 +791,42 @@
     "sources": [
       "CMS",
       "AAA"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Comparative Negligence",
+    "full": "",
+    "plain": "A rule that splits blame for a crash by percentage, reducing payouts by your own share of fault.",
+    "snappy": "A liability rule apportioning damages by each party's percentage of fault rather than barring a partly-at-fault claimant.",
+    "detail": "Under comparative negligence, if you're found 30% at fault for a crash, you recover 70% of your damages. It softens the old all-or-nothing contributory-negligence rule that barred any recovery for a plaintiff even slightly to blame. States vary: \"pure\" comparative lets you recover even at 99% fault, while \"modified\" versions cut you off at 50% or 51%. Adjusters and courts haggle over these percentages in nearly every disputed auto claim.",
+    "indications": [
+      "Auto",
+      "Commercial & Liability"
+    ],
+    "category": "Law & Liability",
+    "sources": [
+      "Cornell LII",
+      "III"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Comprehensive Coverage",
+    "full": "Other Than Collision",
+    "plain": "Car insurance for damage that isn't a crash — theft, fire, hail, vandalism, or hitting a deer.",
+    "snappy": "First-party coverage paying for non-collision losses to the covered vehicle: theft, fire, weather, vandalism, animal strikes.",
+    "detail": "Comprehensive coverage — sometimes called \"other than collision\" — handles the things that happen to a parked or driving car short of a crash: theft, a cracked windshield, hail, flood, fire, vandalism, or a deer in the road. It carries its own deductible and, like collision coverage, is required by lenders. Together the two make up \"full coverage.\" In hail- and flood-prone regions, comprehensive claims drive much of the premium.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "Comprehensive"
     ]
   },
   {
@@ -721,6 +968,26 @@
   },
   {
     "letter": "C",
+    "term": "Credit-Based Insurance Score",
+    "full": "Insurance Score",
+    "plain": "A score from your credit history that many insurers use to help set your premium.",
+    "snappy": "A score derived from credit data that insurers use, where allowed, as a predictor of future claims and pricing.",
+    "detail": "Insurers in most states use a credit-based insurance score — built from your credit history but distinct from a lending credit score — because it statistically predicts claims. Better credit often means a lower premium, a practice critics call unfair to lower-income drivers and that a few states (California, Hawaii, Massachusetts) ban for auto. It's a quiet but powerful factor that surprises drivers who don't realise credit affects their car insurance.",
+    "indications": [
+      "Auto",
+      "Home & Property"
+    ],
+    "category": "Underwriting & Risk",
+    "sources": [
+      "NAIC",
+      "III"
+    ],
+    "aliases": [
+      "Insurance Score"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Critical Illness Insurance",
     "full": "",
     "plain": "A policy that pays a lump sum of cash if you're diagnosed with a serious illness like cancer or a heart attack.",
@@ -837,6 +1104,22 @@
   },
   {
     "letter": "D",
+    "term": "Diminished Value",
+    "full": "",
+    "plain": "The drop in a car's resale worth after it's been in an accident, even once perfectly repaired.",
+    "snappy": "The loss in a vehicle's market value after a repaired accident, sometimes recoverable as a claim against the at-fault driver.",
+    "detail": "Even a flawless repair can't erase a crash from a car's history, so a repaired vehicle sells for less — that gap is diminished value. In many states you can claim it from the at-fault driver's insurer, though your own insurer usually won't pay it on a first-party claim. Proving the amount takes an appraisal. It surprises owners who assumed a good repair made them whole.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Claims & Settlement",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "Disability Insurance",
     "full": "",
     "plain": "Income protection that pays you part of your paycheck if illness or injury keeps you from working.",
@@ -869,6 +1152,25 @@
     ],
     "aliases": [
       "Policy Dividend"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "DUI",
+    "full": "Driving Under the Influence",
+    "plain": "Driving drunk or drugged — a conviction that sends car insurance costs soaring or gets you dropped.",
+    "snappy": "A conviction for operating a vehicle while impaired, treated by insurers as a major red flag that sharply raises premiums.",
+    "detail": "A DUI is among the costliest marks on a driving record. After a conviction, insurers surcharge heavily — often doubling or tripling the premium — may refuse to renew, and frequently require an SR-22 filing for years, pushing many drivers into the nonstandard market. The violation typically affects rates for three to five years or longer. It's the offense that most reliably turns a standard driver into a high-risk one.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Underwriting & Risk",
+    "sources": [
+      "NAIC",
+      "III"
+    ],
+    "aliases": [
+      "DWI"
     ]
   },
   {
@@ -1028,6 +1330,22 @@
   },
   {
     "letter": "E",
+    "term": "Excluded Driver",
+    "full": "",
+    "plain": "A household member specifically left off your policy, whose driving the insurer won't cover.",
+    "snappy": "A named person barred from coverage under a policy, used to keep a high-risk household member from raising the premium.",
+    "detail": "Naming an excluded driver lets you keep a high-risk household member — a teen with violations, a relative with a DUI — off your policy so their record doesn't inflate your premium. The catch: if that person drives your car and crashes, there's no coverage at all, leaving you personally liable. It's a deliberate trade some families make, and it must be signed and documented to be valid.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Underwriting & Risk",
+    "sources": [
+      "NAIC",
+      "III"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Exclusion",
     "full": "",
     "plain": "A loss your policy specifically refuses to cover, listed in black and white.",
@@ -1181,6 +1499,22 @@
   },
   {
     "letter": "F",
+    "term": "Financial Responsibility Law",
+    "full": "",
+    "plain": "State rules requiring drivers to prove they can pay for harm they cause, usually by carrying insurance.",
+    "snappy": "State laws requiring drivers to demonstrate the ability to pay for crash damage, almost always satisfied by liability insurance.",
+    "detail": "Every state has a financial responsibility law making drivers prove they can cover the harm they cause — in practice, by carrying at least minimum liability coverage, though a few allow a cash bond instead. Cause a serious crash while uninsured and the law can suspend your licence and registration until you file an SR-22. It's the legal backbone behind compulsory auto insurance and minimum-coverage requirements.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "F",
     "term": "First-Party Coverage",
     "full": "",
     "plain": "Insurance that pays you for your own losses.",
@@ -1283,6 +1617,57 @@
     "sources": [
       "III",
       "NAIC"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "Full Coverage",
+    "full": "",
+    "plain": "Everyday shorthand for carrying liability plus collision and comprehensive on your car.",
+    "snappy": "An informal term for an auto policy combining required liability with collision and comprehensive coverage.",
+    "detail": "\"Full coverage\" isn't a real policy type — it's how drivers and lenders describe carrying liability coverage plus collision and comprehensive, often with uninsured-motorist and medical coverage too. It's never truly complete: it still has limits, deductibles, and exclusions. Lenders demand it while financing a car. Buyers should look past the phrase to the actual limits and deductibles, since two \"full coverage\" quotes can protect very differently.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "G",
+    "term": "Gap Insurance",
+    "full": "",
+    "plain": "Coverage that pays the difference if your car is totaled but you owe more on the loan than it's worth.",
+    "snappy": "Coverage paying the gap between a vehicle's actual cash value and the loan or lease balance after a total loss.",
+    "detail": "New cars depreciate fast, so early in a loan you can owe more than the car is worth. Total it, and the insurer pays only the actual cash value, leaving you on the hook for the rest — unless you have gap insurance, which covers that shortfall. It's most valuable on long loans, low down payments, and leases. Dealers sell it at a markup; insurers usually offer it cheaper.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "GAP"
+    ]
+  },
+  {
+    "letter": "G",
+    "term": "Garaging Address",
+    "full": "",
+    "plain": "Where your car is mainly kept overnight — a key factor in what your insurance costs.",
+    "snappy": "The location where a vehicle is primarily parked, used to set territorial rates; misstating it is a form of fraud.",
+    "detail": "Your premium depends heavily on where the car lives, because theft, vandalism, accident, and repair-cost rates vary by neighbourhood. The garaging address — not necessarily your mailing address — sets the territorial rate. Listing a cheaper location than where the car actually sits is \"rate evasion,\" a misrepresentation that can void coverage at claim time. Students and commuters with cars in two places are common sources of honest confusion.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Underwriting & Risk",
+    "sources": [
+      "NAIC",
+      "III"
     ]
   },
   {
@@ -1549,6 +1934,41 @@
   },
   {
     "letter": "H",
+    "term": "High-Risk Driver",
+    "full": "Nonstandard Auto",
+    "plain": "A driver insurers consider likely to crash — and charge accordingly, or refuse outright.",
+    "snappy": "A driver with a record or profile that standard insurers decline or surcharge heavily, served by the nonstandard market.",
+    "detail": "A high-risk driver — multiple violations, a DUI, at-fault crashes, or a long coverage lapse — gets pushed into the nonstandard auto market, where specialist insurers charge steep premiums for the coverage standard carriers won't write. Those who can't find a voluntary insurer fall back on a state assigned-risk plan. Time and a clean record move drivers back toward standard rates, but the climb out is slow and expensive.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Underwriting & Risk",
+    "sources": [
+      "NAIC",
+      "III"
+    ],
+    "aliases": [
+      "Nonstandard Auto"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "Hit-and-Run",
+    "full": "",
+    "plain": "A crash where the at-fault driver flees, leaving you to claim under your own coverage.",
+    "snappy": "An accident where a responsible driver leaves the scene, often covered by the victim's uninsured motorist or collision coverage.",
+    "detail": "When the driver who hit you takes off, a hit-and-run leaves no one to bill — so you fall back on your own coverage: uninsured motorist for injuries (it usually treats a fleeing driver as uninsured) and collision for the car damage, minus the deductible. File a police report fast; it's often required to claim. These crashes are a major reason uninsured motorist coverage is worth carrying.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Claims & Settlement",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "H",
     "term": "HMO",
     "full": "Health Maintenance Organization",
     "plain": "A health plan that's cheaper but keeps you inside its own doctor network and routes care through one main doctor.",
@@ -1802,6 +2222,22 @@
   },
   {
     "letter": "L",
+    "term": "Liability Coverage",
+    "full": "",
+    "plain": "The part of car insurance that pays for the injuries and damage you cause to other people.",
+    "snappy": "Auto coverage paying third parties for bodily injury and property damage the insured driver is legally responsible for.",
+    "detail": "Liability coverage is the legally required core of an auto policy: it pays others — not you — when you're at fault, splitting into bodily injury liability for their medical costs and property damage liability for their car or property. It also funds your legal defence if you're sued. State minimums are notoriously low, so carrying only the minimum can leave you personally exposed, which is why advisers push higher limits and an umbrella policy.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Life Insurance",
     "full": "",
     "plain": "A policy that pays a chosen sum of money to your family or others when you die.",
@@ -1879,6 +2315,43 @@
     "sources": [
       "NAIC",
       "III"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Loss of Use",
+    "full": "",
+    "plain": "Compensation for not having your car (or home) while it's being repaired after a covered loss.",
+    "snappy": "Coverage or damages for the cost of being deprived of property during repair, such as a rental car or temporary lodging.",
+    "detail": "Loss of use covers the practical fallout of a claim: a rental car while yours is in the shop, or temporary lodging while a home is rebuilt. On auto policies it overlaps with rental reimbursement; against an at-fault driver it can be claimed directly. The amount is tied to reasonable substitute costs for the repair period, and drawn-out repairs test the per-day and total caps.",
+    "indications": [
+      "Auto",
+      "Home & Property"
+    ],
+    "category": "Claims & Settlement",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Loss Payee",
+    "full": "",
+    "plain": "The lender listed on your auto or property policy who gets paid alongside you on a big claim.",
+    "snappy": "A lender or lienholder named on a policy entitled to claim proceeds protecting its financial interest in the property.",
+    "detail": "When you finance a car or home, the lender is added as a loss payee (or lienholder) so that on a total loss the insurer's cheque protects the loan — often issued to you and the lender jointly. It guarantees the lender is repaid before you pocket anything. The lender also gets notice if the policy is cancelled, which is what triggers force-placed insurance when coverage lapses.",
+    "indications": [
+      "Auto",
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "NAIC",
+      "III"
+    ],
+    "aliases": [
+      "Lienholder"
     ]
   },
   {
@@ -1964,6 +2437,25 @@
     ],
     "aliases": [
       "MLR"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Medical Payments Coverage",
+    "full": "MedPay",
+    "plain": "A small auto coverage that pays medical bills for you and your passengers after a crash, no matter who's at fault.",
+    "snappy": "Optional first-party auto coverage paying medical or funeral costs for the insured and passengers regardless of fault.",
+    "detail": "Medical payments coverage is a modest, no-fault add-on that pays medical and sometimes funeral costs for you and anyone in your car after an accident, regardless of blame. It's cheaper and simpler than personal injury protection and can cover deductibles and copays your health plan leaves. In no-fault states it supplements PIP; in others it's the main first-party medical coverage drivers can buy.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "MedPay"
     ]
   },
   {
@@ -2114,6 +2606,22 @@
   },
   {
     "letter": "M",
+    "term": "Minimum Coverage",
+    "full": "",
+    "plain": "The least amount of auto liability insurance your state legally requires you to carry.",
+    "snappy": "The lowest liability limits a state requires drivers to carry, often well below what a serious crash actually costs.",
+    "detail": "Each state sets minimum coverage — the lowest liability limits you can legally drive with, like 25/50/25. Buying only the minimum keeps premiums down but is a common trap: one serious injury or a totaled luxury car can blow past these limits, leaving your wages and assets exposed. Advisers treat the legal minimum as a floor to clear, not a target, and pair higher limits with an umbrella policy.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "III"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Modified Endowment Contract",
     "full": "MEC",
     "plain": "A life policy stuffed with so much cash so fast that the IRS strips its tax perks on withdrawals.",
@@ -2184,6 +2692,45 @@
     ]
   },
   {
+    "letter": "M",
+    "term": "Motor Vehicle Report",
+    "full": "MVR",
+    "plain": "Your official driving record — tickets, crashes, licence status — that insurers pull to set your rate.",
+    "snappy": "A state record of a driver's violations, accidents, and licence status that insurers use to underwrite and price coverage.",
+    "detail": "Before quoting, an insurer pulls your motor vehicle report — the state's record of tickets, at-fault accidents, DUIs, and licence suspensions — to gauge risk. A clean record earns the best rates; a recent DUI or string of tickets can triple a premium or draw a decline. Violations typically affect rates for three to five years before ageing off. It's the single biggest driver-specific input to your price.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Underwriting & Risk",
+    "sources": [
+      "NAIC",
+      "III"
+    ],
+    "aliases": [
+      "MVR",
+      "Driving Record"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Multi-Policy Discount",
+    "full": "Bundling",
+    "plain": "The price break for buying more than one policy — like auto and home — from the same insurer.",
+    "snappy": "A premium discount for holding multiple policies, such as auto and home, with one insurer; also called bundling.",
+    "detail": "Insurers reward bundling — putting your auto and homeowners or renters policies with one company — with a multi-policy discount, because multi-line customers stay longer and cost less to service. The savings can be meaningful, but the bundled price isn't always the cheapest overall, so it pays to compare against separate policies. Bundling also simplifies billing and can ease claims that touch both a car and a home.",
+    "indications": [
+      "Auto",
+      "Home & Property"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "III"
+    ],
+    "aliases": [
+      "Bundling"
+    ]
+  },
+  {
     "letter": "N",
     "term": "Named Insured",
     "full": "",
@@ -2217,6 +2764,21 @@
   },
   {
     "letter": "N",
+    "term": "New Car Replacement",
+    "full": "",
+    "plain": "Coverage that buys you a brand-new equivalent car if you total a nearly-new one, instead of paying depreciated value.",
+    "snappy": "An add-on paying for a new vehicle of the same make and model after a total loss of a recently purchased car.",
+    "detail": "Standard collision coverage pays only actual cash value, so totaling a one-year-old car leaves you short of a replacement. New car replacement coverage closes that gap by paying for a brand-new equivalent — same make and model — usually if the car is under a year or two old with low mileage. It costs extra and matters most to buyers who'd be upset getting a depreciated check on a nearly-new vehicle.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III"
+    ]
+  },
+  {
+    "letter": "N",
     "term": "No Surprises Act",
     "full": "",
     "plain": "A 2022 law that stops you getting hit with surprise bills from out-of-network doctors you didn't choose.",
@@ -2229,6 +2791,38 @@
     "sources": [
       "CMS",
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "N",
+    "term": "No-Fault Insurance",
+    "full": "",
+    "plain": "A system where your own insurer pays your crash injuries regardless of who caused the accident.",
+    "snappy": "An auto regime where each driver's own policy pays their injury costs, limiting lawsuits over fault for minor claims.",
+    "detail": "In no-fault states, your own personal injury protection pays your medical bills and lost wages after a crash no matter who caused it, and your right to sue the other driver is limited unless injuries cross a serious-injury threshold. The aim is faster payment and fewer lawsuits; critics blame it for fraud and higher premiums. About a dozen states use some version, the rest run on the traditional tort system.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "III"
+    ]
+  },
+  {
+    "letter": "N",
+    "term": "Non-Owner Car Insurance",
+    "full": "",
+    "plain": "Liability coverage for someone who drives but doesn't own a car.",
+    "snappy": "A policy providing liability coverage to a driver without a vehicle, for borrowed or rented cars or to maintain continuous coverage.",
+    "detail": "Non-owner car insurance gives liability coverage to people who drive others' or rented cars but own none — useful for keeping continuous coverage between cars, satisfying an SR-22 requirement without a vehicle, or frequent renters who want more than a rental counter's coverage. It's secondary to any policy on the car itself and never covers physical damage to the borrowed vehicle. It's cheap because there's no owned car to insure.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
     ]
   },
   {
@@ -2309,6 +2903,25 @@
     "sources": [
       "Verisk",
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "O",
+    "term": "OEM Parts",
+    "full": "Original Equipment Manufacturer Parts",
+    "plain": "Replacement car parts made by the original manufacturer, not a third party.",
+    "snappy": "Repair parts produced by the vehicle's maker, generally costlier than aftermarket parts and sometimes required by policy.",
+    "detail": "OEM parts come from the vehicle's original manufacturer and match the factory exactly, but cost more than aftermarket equivalents. Insurers often specify aftermarket or used parts on older cars to control claim costs, while some policies or state laws guarantee OEM parts, especially on newer vehicles. Which parts a repair uses is a frequent flashpoint between owners who want factory parts and insurers watching the bill.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Claims & Settlement",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "Original Equipment Manufacturer Parts"
     ]
   },
   {
@@ -2396,6 +3009,21 @@
   },
   {
     "letter": "P",
+    "term": "Pay-Per-Mile Insurance",
+    "full": "",
+    "plain": "Car insurance billed mostly by how many miles you drive, suited to low-mileage drivers.",
+    "snappy": "Auto coverage charging a low base rate plus a per-mile fee, rewarding drivers who use their car little.",
+    "detail": "Pay-per-mile insurance splits the premium into a small monthly base plus a few cents per mile driven, tracked by a device or app. It rewards people who barely drive — remote workers, city dwellers, second-car owners — who subsidise heavy drivers under traditional pricing. Drive a lot and it costs more than a standard policy. It's a niche of usage-based insurance aimed squarely at the low-mileage market.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Underwriting & Risk",
+    "sources": [
+      "III"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Payout Phase",
     "full": "Distribution Phase",
     "plain": "The stage when an annuity stops growing and starts paying income to you.",
@@ -2460,6 +3088,41 @@
     "sources": [
       "III",
       "Investopedia"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Permissive Use",
+    "full": "",
+    "plain": "Coverage that extends to a friend you occasionally let borrow your car.",
+    "snappy": "Coverage applying when someone outside the policy drives the insured vehicle with the owner's permission, within limits.",
+    "detail": "Auto insurance generally follows the car, so under permissive use a friend you let borrow it is usually covered if they crash — your policy pays first. But regular drivers in the household must be listed, not treated as occasional borrowers, and an excluded driver gets no coverage even with permission. Lending your car to an unlicensed or excluded driver is where permissive use breaks down and claims get denied.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Personal Injury Protection",
+    "full": "PIP",
+    "plain": "No-fault coverage that pays your own medical bills after a crash regardless of who caused it.",
+    "snappy": "First-party coverage paying the medical costs, lost wages, and related expenses of the insured after a crash, regardless of fault.",
+    "detail": "Personal injury protection — the heart of no-fault insurance — pays your own and your passengers' medical bills, a share of lost wages, and sometimes essential services after a crash, no matter who caused it. Required in no-fault states and optional in some others, it speeds payment by skipping the fight over fault for basic costs. It overlaps with health insurance, so coordination rules decide which pays first.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "PIP"
     ]
   },
   {
@@ -2756,6 +3419,25 @@
     ]
   },
   {
+    "letter": "P",
+    "term": "Property Damage Liability",
+    "full": "PD",
+    "plain": "The car insurance that pays to fix what you damage with your car — usually someone else's vehicle.",
+    "snappy": "Auto liability coverage paying for damage the insured causes to others' vehicles or property, like fences or buildings.",
+    "detail": "Property damage liability pays to repair or replace what you wreck — most often another car, but also fences, mailboxes, or a storefront. It's the third number in a split-limit policy like 25/50/25. With average new-car values climbing, a low property-damage limit can be exhausted by a single collision with an expensive vehicle, leaving you owing the rest out of pocket.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "PD"
+    ]
+  },
+  {
     "letter": "Q",
     "term": "Qualified Annuity",
     "full": "",
@@ -2827,6 +3509,41 @@
   },
   {
     "letter": "R",
+    "term": "Rating Factor",
+    "full": "Rating Variable",
+    "plain": "Any characteristic — age, location, car, record — an insurer uses to calculate your premium.",
+    "snappy": "A variable, such as age, territory, vehicle, or driving record, that an insurer weighs to price a policy.",
+    "detail": "Rating factors are the inputs that build your premium: age, gender where allowed, garaging location, vehicle make and model, annual mileage, driving record, and credit-based insurance score. Actuaries weight each by how well it predicts losses, subject to state rules barring some factors. Understanding which ones you can influence — mileage, coverage choices, the car you buy — is how drivers shop their rate down.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Underwriting & Risk",
+    "sources": [
+      "SOA",
+      "NAIC"
+    ],
+    "aliases": [
+      "Rating Variable"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Rebuilt Title",
+    "full": "",
+    "plain": "A title given to a salvaged car that's been repaired and passed a state inspection to drive again.",
+    "snappy": "A title brand for a former total-loss vehicle repaired and inspected as roadworthy, still worth less than a clean title.",
+    "detail": "A car with a salvage title that's been repaired and passed a state inspection earns a rebuilt title, letting it return to the road legally. It's cheaper to buy than a clean-title car but carries lasting baggage: lower resale value, limited insurance options (often liability-only), and buyer wariness about hidden damage. Mechanics and buyers scrutinise rebuilt-title cars closely, since repair quality varies widely.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Claims & Settlement",
+    "sources": [
+      "NAIC",
+      "III"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "Reduced Paid-Up Insurance",
     "full": "",
     "plain": "Using your built-up cash value to buy a smaller life policy you never have to pay for again.",
@@ -2886,6 +3603,21 @@
     "category": "Coverage & Policies",
     "sources": [
       "NAIC",
+      "III"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Rental Reimbursement",
+    "full": "",
+    "plain": "An add-on that pays for a rental car while yours is being repaired after a covered claim.",
+    "snappy": "Optional coverage paying a daily allowance toward a rental vehicle while the covered car is repaired after a covered loss.",
+    "detail": "Rental reimbursement pays a set daily amount — say $30 or $50 — toward a rental while your car sits in the body shop after a covered collision or comprehensive claim. There's a per-day and per-claim cap, so a long repair can outrun it. It's cheap and spares you the cost of getting around during weeks of repairs, but it only applies to covered losses, not routine maintenance.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
       "III"
     ]
   },
@@ -2975,6 +3707,22 @@
   },
   {
     "letter": "R",
+    "term": "Rideshare Insurance",
+    "full": "",
+    "plain": "Coverage that fills the gap for drivers working for app-based rideshare services.",
+    "snappy": "Coverage bridging the gap between a personal auto policy and a rideshare platform's coverage while a driver is working.",
+    "detail": "Personal auto policies exclude driving for pay, while rideshare platforms cover drivers only during parts of a trip — leaving a gap when the app is on but no passenger is aboard. Rideshare insurance, sold as an endorsement or hybrid policy, fills it so a crash while waiting for a ride isn't uncovered. Drivers who skip it risk a denied claim and a cancelled personal policy for undisclosed commercial use.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "Risk",
     "full": "",
     "plain": "The chance that something bad and costly happens — the thing insurance exists to manage.",
@@ -2987,6 +3735,24 @@
     "sources": [
       "SOA",
       "III"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Roadside Assistance",
+    "full": "Towing and Labor",
+    "plain": "An add-on that covers towing, jump-starts, lockouts, and flat tyres when your car strands you.",
+    "snappy": "Optional coverage paying for towing, battery jumps, lockouts, fuel delivery, and minor roadside help.",
+    "detail": "Roadside assistance — also sold as towing and labor coverage — pays to tow a broken-down car, jump a dead battery, change a flat, deliver fuel, or get you back into a locked car. It's a low-cost convenience often bundled with auto policies or sold by auto clubs. The coverage pays for the service call, not for repairs, and heavy use can draw insurer attention at renewal.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III"
+    ],
+    "aliases": [
+      "Towing and Labor"
     ]
   },
   {
@@ -3004,6 +3770,22 @@
     "sources": [
       "III",
       "NAIC"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Salvage Title",
+    "full": "",
+    "plain": "A branded title warning that a car was once declared a total loss by an insurer.",
+    "snappy": "A title brand marking a vehicle previously written off as a total loss, lowering its value and complicating insurance.",
+    "detail": "When an insurer declares a car a total loss and takes it for salvage, the state issues a salvage title — a permanent brand warning future buyers the car was once written off. A salvage car can't be driven until repaired and re-inspected for a rebuilt title. The brand slashes resale value and makes full coverage hard to get, which is why buyers should always check a vehicle's title history.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Claims & Settlement",
+    "sources": [
+      "NAIC",
+      "III"
     ]
   },
   {
@@ -3132,6 +3914,38 @@
   },
   {
     "letter": "S",
+    "term": "Split Limits",
+    "full": "",
+    "plain": "Auto liability limits written as three numbers — per-person injury, per-accident injury, and property damage.",
+    "snappy": "Liability limits stated as three separate caps: bodily injury per person, bodily injury per accident, and property damage.",
+    "detail": "A policy quoted as 25/50/25 carries split limits: $25,000 for one person's injuries, $50,000 for all injuries in an accident, and $25,000 for property damage. The structure caps each bucket separately, so a multi-victim crash can exhaust the per-accident injury limit fast. Comparing the three numbers — not just the premium — is how drivers judge whether a policy actually protects their assets.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "SR-22",
+    "full": "",
+    "plain": "A state-required certificate proving a high-risk driver carries the minimum insurance, filed by the insurer.",
+    "snappy": "A form an insurer files with the state certifying a driver carries at least minimum liability coverage, for high-risk cases.",
+    "detail": "An SR-22 isn't insurance — it's a certificate your insurer files with the state to prove you carry the required minimum liability coverage, usually mandated after a DUI, an at-fault crash while uninsured, or a licence suspension. It flags you as high-risk, raises premiums, and must stay in force, often for three years; let the policy lapse and the insurer notifies the state, risking your licence again.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Step Therapy",
     "full": "Fail First",
     "plain": "A rule that makes you try a cheaper drug first and fail on it before the plan covers a pricier one.",
@@ -3248,6 +4062,22 @@
     "sources": [
       "Cornell LII",
       "III"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Surcharge",
+    "full": "",
+    "plain": "An extra charge added to your premium after an at-fault accident or violation.",
+    "snappy": "A premium increase an insurer applies after an at-fault accident, ticket, or other risk event, often lasting several years.",
+    "detail": "A surcharge is the penalty baked into your next premium after an at-fault accident, speeding ticket, or DUI — typically lasting three to five years before it rolls off. It's why one bad year can cost far more than the claim itself. Accident-forgiveness features waive the first surcharge for loyal drivers. Comparing how aggressively insurers surcharge, not just their base rates, matters for drivers with a blemish.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Underwriting & Risk",
+    "sources": [
+      "III",
+      "NAIC"
     ]
   },
   {
@@ -3372,6 +4202,60 @@
     ]
   },
   {
+    "letter": "T",
+    "term": "Tort Liability System",
+    "full": "Tort State",
+    "plain": "The traditional approach where the at-fault driver's insurer pays everyone they harmed.",
+    "snappy": "An auto regime where the driver at fault, through their liability coverage, is responsible for others' injury and damage.",
+    "detail": "In a tort state — the system in most of the US — the driver who caused the crash is liable, and their bodily injury and property damage liability coverage pays the victims, who can also sue for pain and suffering. It contrasts with no-fault, where each driver's own policy pays first. The tort system makes establishing fault central to every claim, which is why adjusters and police reports matter so much.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
+    ],
+    "aliases": [
+      "Tort State"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Total Loss",
+    "full": "Totaled",
+    "plain": "When repairing a damaged car would cost more than it's worth, so the insurer pays its value instead.",
+    "snappy": "A vehicle whose repair cost (plus salvage) exceeds its actual cash value or a state threshold, settled by paying its value.",
+    "detail": "A car is a total loss — \"totaled\" — when repairs would cost more than the vehicle is worth or exceed a state total-loss threshold. Rather than fix it, the insurer pays the actual cash value, takes the wreck for salvage, and you settle any loan, where gap insurance can cover a shortfall. Disputes usually centre on the actual cash value the insurer assigns, which owners often argue is too low.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Claims & Settlement",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "Totaled"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Total Loss Threshold",
+    "full": "",
+    "plain": "The point — set by state or insurer — where damage is bad enough to declare a car a total loss.",
+    "snappy": "The percentage of a vehicle's value at which damage triggers a total-loss settlement instead of repair.",
+    "detail": "States and insurers set a total loss threshold — often 70% to 80% of the car's value, or a formula comparing repair plus salvage to value — that decides when a damaged car is written off rather than fixed. Cross it and the insurer pays actual cash value and takes the salvage. The threshold explains why two similar dents can end differently: one repairs, the other totals, depending on the car's value.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Claims & Settlement",
+    "sources": [
+      "NAIC",
+      "III"
+    ]
+  },
+  {
     "letter": "U",
     "term": "Umbrella Insurance",
     "full": "",
@@ -3394,6 +4278,26 @@
   },
   {
     "letter": "U",
+    "term": "Underinsured Motorist Coverage",
+    "full": "UIM",
+    "plain": "Coverage that fills the gap when an at-fault driver's insurance is too small to cover your injuries.",
+    "snappy": "Coverage paying the insured when an at-fault driver's liability limits are too low to cover the full injury claim.",
+    "detail": "When the driver who hurt you carries only minimum liability coverage and your injuries cost far more, underinsured motorist coverage pays the difference up to your own limit. It pairs with uninsured motorist coverage, the two often bundled together. Given how low many state-minimum limits are, it's one of the most valuable and overlooked auto coverages, protecting you from other people's thin policies.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "UIM",
+      "Underinsured Motorist"
+    ]
+  },
+  {
+    "letter": "U",
     "term": "Unearned Premium",
     "full": "",
     "plain": "The part of premium you've paid for coverage that hasn't happened yet — refundable if you cancel early.",
@@ -3406,6 +4310,26 @@
     "sources": [
       "NAIC",
       "SOA"
+    ]
+  },
+  {
+    "letter": "U",
+    "term": "Uninsured Motorist Coverage",
+    "full": "UM",
+    "plain": "Coverage that pays you when an at-fault driver has no insurance to cover your injuries.",
+    "snappy": "Coverage paying the insured for injuries (and sometimes damage) caused by an at-fault driver who carries no insurance.",
+    "detail": "Roughly one in eight US drivers is uninsured, so uninsured motorist coverage steps in when the at-fault driver has no policy — paying your medical bills and lost wages as their liability coverage would have. It also typically covers hit-and-run crashes where the other driver flees. Many states require it. It's cheap relative to the protection it provides, filling the hole left by drivers who ignore the law.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "UM",
+      "Uninsured Motorist"
     ]
   },
   {
@@ -3426,6 +4350,26 @@
     "aliases": [
       "UL",
       "Universal Life"
+    ]
+  },
+  {
+    "letter": "U",
+    "term": "Usage-Based Insurance",
+    "full": "Telematics",
+    "plain": "Car insurance that prices your premium on how you actually drive, tracked by an app or device.",
+    "snappy": "Auto coverage that sets premiums from telematics data on mileage, braking, speed, and time of day rather than proxies alone.",
+    "detail": "Usage-based insurance uses a plug-in device or phone app to track how, when, and how far you drive — hard braking, speeding, late-night trips, total mileage — and prices the premium accordingly. Safe drivers can save; aggressive ones may pay more or lose the discount. Marketed as fairer than traditional rating, it raises privacy questions about who sees your driving data and how long it's kept.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Underwriting & Risk",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "Telematics",
+      "UBI"
     ]
   },
   {
@@ -3476,6 +4420,21 @@
     "category": "Health & Benefits",
     "sources": [
       "CMS"
+    ]
+  },
+  {
+    "letter": "V",
+    "term": "Vanishing Deductible",
+    "full": "",
+    "plain": "A feature that shrinks your deductible for every year you drive without a claim.",
+    "snappy": "A benefit reducing the deductible by a set amount for each claim-free year, rewarding safe driving over time.",
+    "detail": "A vanishing deductible — sometimes a paid add-on — knocks a set amount off your collision deductible for each year you go without an at-fault claim, often down to zero over five years. File a claim and it resets. It rewards loyalty and safe driving, though the feature itself usually carries a small cost, so the real benefit depends on whether you'd otherwise have claimed at all.",
+    "indications": [
+      "Auto"
+    ],
+    "category": "Underwriting & Risk",
+    "sources": [
+      "III"
     ]
   },
   {
