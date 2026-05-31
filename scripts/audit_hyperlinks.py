@@ -42,6 +42,7 @@ INDUSTRY_PATHS = {
     "ai":         ROOT / "Targets/AI/Resources/glossary_ai.json",
     "law":        ROOT / "Targets/Law/Resources/glossary_law.json",
     "realEstate": ROOT / "Targets/RealEstate/Resources/glossary_realEstate.json",
+    "insurance":  ROOT / "Targets/Insurance/Resources/glossary_insurance.json",
 }
 
 BODY_FIELDS = ("plain", "snappy", "detail")
@@ -323,6 +324,13 @@ CATEGORY_CLUSTERS = {
         "private": {"Contract", "Tort", "Property", "IP", "Corporate", "Employment", "Family"},
         "public": {"Criminal", "Constitutional", "Regulatory", "Immigration"},
         "procedural": {"Procedure", "Bankruptcy", "Tax"},
+    },
+    "insurance": {
+        "policyholder": {"Coverage & Policies", "Claims & Settlement",
+                         "Law & Liability", "Health & Benefits"},
+        "risk": {"Underwriting & Risk", "Pricing & Actuarial",
+                 "Reinsurance & Risk Transfer"},
+        "market": {"Regulation & Solvency", "Distribution & Markets"},
     },
 }
 

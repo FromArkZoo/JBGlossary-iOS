@@ -10,6 +10,7 @@ enum IndustryID: String, CaseIterable, Identifiable, Codable {
     case law
     case finance
     case realEstate
+    case insurance
 
     var id: String { rawValue }
 }
@@ -38,6 +39,7 @@ extension IndustryConfig {
         .init(id: .law,        brand: lawBrand,        iapProductID: "com.jamesbrowne.JBGlossary.law"),
         .init(id: .finance,    brand: financeBrand,    iapProductID: "com.jamesbrowne.JBGlossary.finance"),
         .init(id: .realEstate, brand: realEstateBrand, iapProductID: "com.jamesbrowne.JBGlossary.realEstate"),
+        .init(id: .insurance,  brand: insuranceBrand,  iapProductID: "com.jamesbrowne.JBGlossary.insurance"),
     ]
 
     /// Look up an industry by ID. Safe to force-unwrap because `IndustryID`
