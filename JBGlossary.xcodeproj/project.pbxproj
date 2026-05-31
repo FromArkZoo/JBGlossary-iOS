@@ -18,6 +18,8 @@
 		21AA03312658619ED1CB507F /* PaywallSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB84C1F45A94B21299BA4EBA /* PaywallSheet.swift */; };
 		2D317F6BF7557FD09C16943C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76097C8C0CDE60B86FF51EEE /* RootView.swift */; };
 		32364E68AD96ECC85F5C2E9F /* RealEstateBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDC3A7D17AA946BC8578F54 /* RealEstateBrand.swift */; };
+		37E3F5F2337EC415885AB1F0 /* glossary_insurance.json in Resources */ = {isa = PBXBuildFile; fileRef = B5832FA7C9A448BD99EC43D7 /* glossary_insurance.json */; };
+		37FA069DF62316655FCE4E07 /* InsuranceBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C049B63D130FEF5D49B69684 /* InsuranceBrand.swift */; };
 		39214871FF177FC2DA858080 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59725A0C95008707447FF37 /* AboutView.swift */; };
 		41E1B91063ADB15EC5C973CE /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4934B9F5D89A2046403EF6 /* FavoritesView.swift */; };
 		56F9C1D8CA613E7F683EB86C /* Hyperlinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEA1B6DE6DFDEB53566F1B4 /* Hyperlinks.swift */; };
@@ -82,10 +84,12 @@
 		AA394CD8FC66E4498EBB3F7A /* PGBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGBackground.swift; sourceTree = "<group>"; };
 		AB84C1F45A94B21299BA4EBA /* PaywallSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallSheet.swift; sourceTree = "<group>"; };
 		AF1C7E9BD8EE71C2A2A663C9 /* HyperlinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperlinkTests.swift; sourceTree = "<group>"; };
+		B5832FA7C9A448BD99EC43D7 /* glossary_insurance.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = glossary_insurance.json; sourceTree = "<group>"; };
 		B5920872047779114629FD51 /* FinanceBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceBrand.swift; sourceTree = "<group>"; };
 		B59725A0C95008707447FF37 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		B8050281258D995600F8E2B8 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		BBDC3A7D17AA946BC8578F54 /* RealEstateBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEstateBrand.swift; sourceTree = "<group>"; };
+		C049B63D130FEF5D49B69684 /* InsuranceBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceBrand.swift; sourceTree = "<group>"; };
 		C64DB09B536A4C3A2CE4F19A /* IndustryConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndustryConfig.swift; sourceTree = "<group>"; };
 		D35EC9BCD1A88408B9754D76 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
 		D40E3085A21D0C678FE9E4DD /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
@@ -97,11 +101,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		0C0AA5FD1C4C1E0565CBC2E9 /* Insurance */ = {
+			isa = PBXGroup;
+			children = (
+				D6AB4DD0CAF5E66D71EBE32A /* Resources */,
+			);
+			path = Insurance;
+			sourceTree = "<group>";
+		};
 		0E2F7992DF302CFC6EDB0C5E /* Targets */ = {
 			isa = PBXGroup;
 			children = (
 				1C009C9B83E5F4C4C3A541F4 /* AI */,
 				F751F59DE27CA0F716026E76 /* Finance */,
+				0C0AA5FD1C4C1E0565CBC2E9 /* Insurance */,
 				998919E2EA043CF18A73BC76 /* Law */,
 				98655C064F15EFC0EC1AD3E0 /* Pharma */,
 				478B5100B0747089FB6C2ADD /* RealEstate */,
@@ -168,6 +181,7 @@
 				FBFE8CECC6298B8FF6E75186 /* AIBrand.swift */,
 				B5920872047779114629FD51 /* FinanceBrand.swift */,
 				C64DB09B536A4C3A2CE4F19A /* IndustryConfig.swift */,
+				C049B63D130FEF5D49B69684 /* InsuranceBrand.swift */,
 				0193436ED3CA2B9EC1B1F01A /* LawBrand.swift */,
 				2F7744E4F7F2C1ED299CBD81 /* PharmaBrand.swift */,
 				BBDC3A7D17AA946BC8578F54 /* RealEstateBrand.swift */,
@@ -267,6 +281,14 @@
 				2A02A831AE6E234C4BFA3626 /* Views */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		D6AB4DD0CAF5E66D71EBE32A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5832FA7C9A448BD99EC43D7 /* glossary_insurance.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		F751F59DE27CA0F716026E76 /* Finance */ = {
@@ -370,6 +392,7 @@
 				D72D7F78AB6BA8FED284CDF1 /* PrivacyInfo.xcprivacy in Resources */,
 				AD22A51C7A3E56CF8B75FA45 /* glossary_ai.json in Resources */,
 				002BBA6230741FE40DBA2654 /* glossary_finance.json in Resources */,
+				37E3F5F2337EC415885AB1F0 /* glossary_insurance.json in Resources */,
 				7F4F2708CD01A3519904CB02 /* glossary_law.json in Resources */,
 				A56A552B2B4D7AA9F713F9EB /* glossary_pharma.json in Resources */,
 				BAA3BE7791AF0BB6A80A5102 /* glossary_realEstate.json in Resources */,
@@ -404,6 +427,7 @@
 				56F9C1D8CA613E7F683EB86C /* Hyperlinks.swift in Sources */,
 				9B59AE3EEFA90672137E6610 /* IndustryConfig.swift in Sources */,
 				7BE7536D4E5FD2955D0FEC40 /* IndustryPickerView.swift in Sources */,
+				37FA069DF62316655FCE4E07 /* InsuranceBrand.swift in Sources */,
 				6D0ACE12912DCAFD31BA235E /* JBGlossaryApp.swift in Sources */,
 				DE729F9CE69F92DEA24E3D29 /* LawBrand.swift in Sources */,
 				EAD56A2B433E6881E555B005 /* LensView.swift in Sources */,

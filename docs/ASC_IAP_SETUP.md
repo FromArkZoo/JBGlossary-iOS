@@ -1,9 +1,9 @@
 # App Store Connect — In-App Purchase setup for JB Glossary v2
 
-Create these **5 non-consumable** in-app purchases against the
+Create these **7 non-consumable** in-app purchases against the
 `com.jamesbrowne.PharmaGlossary` app record in App Store Connect. The
 product identifiers below MUST match exactly — they are hardcoded in
-`Sources/Industries/IndustryConfig.swift` (4 industry IDs) and
+`Sources/Industries/IndustryConfig.swift` (6 industry IDs) and
 `masterUnlockProductID` (1 master).
 
 **Monetization model**: every industry ships with letters **A–D free** as a
@@ -18,6 +18,8 @@ users see a clear bundle discount vs. buying 2+ industries individually.
 | `com.jamesbrowne.JBGlossary.ai` | AI | Unlock the rest of AI | $2.99 (Tier 3) | On |
 | `com.jamesbrowne.JBGlossary.law` | Law | Unlock the rest of Law | $2.99 (Tier 3) | On |
 | `com.jamesbrowne.JBGlossary.finance` | Finance | Unlock the rest of Finance | $2.99 (Tier 3) | On |
+| `com.jamesbrowne.JBGlossary.realEstate` | Real Estate | Unlock the rest of Real Estate | $2.99 (Tier 3) | On |
+| `com.jamesbrowne.JBGlossary.insurance` | Insurance | Unlock the rest of Insurance | $2.99 (Tier 3) | On |
 | `com.jamesbrowne.JBGlossary.all` | All Industries | Unlock All Industries | $9.99 (Tier 10) | On |
 
 ## Descriptions (used on the App Store IAP listing)
@@ -38,6 +40,15 @@ purchase, no subscription.
 E–Z, the full set of markets terms beyond the free A–D taster. One-time
 purchase, no subscription.
 
+**Real Estate** — Unlock the rest of the JB Glossary Real Estate industry:
+letters E–Z, the full set of property, mortgage, and real estate investment
+terms beyond the free A–D taster. One-time purchase, no subscription.
+
+**Insurance** — Unlock the rest of the JB Glossary Insurance industry:
+letters E–Z, the full set of life, health, auto, home, and commercial
+insurance terms beyond the free A–D taster. One-time purchase, no
+subscription.
+
 **All Industries** — Unlock the rest (E–Z) of every industry in JB
 Glossary, current and future. One purchase covers your current and future
 devices via Apple ID. Best value if you'd otherwise buy more than 3
@@ -47,7 +58,7 @@ individual industries.
 
 > JB Glossary ships with letters A–D free across every industry as a
 > "taster" — roughly 25–29% of each industry's terms are available without
-> any purchase (~750 terms total across the 4 industries). Letters E–Z in
+> any purchase. Letters E–Z in
 > each industry are gated behind a one-time non-consumable IAP at $2.99
 > per industry. The "Unlock All Industries" $9.99 IAP grants the E–Z
 > entitlement across every current and future industry. There are no
@@ -62,7 +73,7 @@ individual industries.
 
 The project ships with `Configuration.storekit` and the scheme is
 configured to use it (`scheme.storeKitConfiguration` in `project.yml`).
-Running on the simulator from Xcode resolves the four products against
+Running on the simulator from Xcode resolves all products against
 the local config, so the paywall sheet shows real prices ($2.99 / $9.99)
 and `Product.purchase()` simulates a transaction.
 

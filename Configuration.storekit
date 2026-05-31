@@ -88,6 +88,21 @@
       "type" : "NonConsumable"
     },
     {
+      "displayPrice" : "2.99",
+      "familyShareable" : true,
+      "internalID" : "JBG_INSURANCE",
+      "localizations" : [
+        {
+          "description" : "Unlock the rest of the JB Glossary Insurance industry — letters E–Z, the full set of insurance terms beyond the free A–D taster.",
+          "displayName" : "Unlock the rest of Insurance",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.jamesbrowne.JBGlossary.insurance",
+      "referenceName" : "Insurance",
+      "type" : "NonConsumable"
+    },
+    {
       "displayPrice" : "9.99",
       "familyShareable" : true,
       "internalID" : "JBG_ALL",

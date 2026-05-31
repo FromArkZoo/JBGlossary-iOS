@@ -1,0 +1,1149 @@
+[
+  {
+    "letter": "A",
+    "term": "Actual Cash Value",
+    "full": "ACV",
+    "plain": "What damaged property was worth at the moment it was lost — its replacement cost minus wear and tear.",
+    "snappy": "A settlement basis equal to replacement cost minus depreciation, paying what the property was actually worth when lost.",
+    "detail": "Total your ten-year-old roof and an actual cash value policy pays for a ten-year-old roof, not a new one — replacement cost less depreciation. It's cheaper to buy but leaves a gap you cover out of pocket. Many homeowners later wish they'd paid more for replacement cost coverage, especially on roofs, where insurers increasingly impose actual cash value to limit their payouts.",
+    "indications": [
+      "Home & Property",
+      "Auto"
+    ],
+    "category": "Claims & Settlement",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "ACV"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Additional Insured",
+    "full": "",
+    "plain": "Someone added to your policy so they're protected too — often a landlord or business partner who demands it.",
+    "snappy": "A party other than the named insured granted coverage under the policy, usually by endorsement to satisfy a contract.",
+    "detail": "Landlords, lenders, and clients routinely require that they be named on a tenant's or contractor's liability policy, so that it responds if they're sued over the work. The status is added by endorsement and usually doesn't raise the limit — the added party shares the coverage of the named insured. Construction contracts live and die on whether this language was drafted correctly.",
+    "indications": [
+      "Commercial & Liability"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Aggregate Limit",
+    "full": "",
+    "plain": "The total an insurer will pay over the whole policy term, across all claims combined.",
+    "snappy": "The maximum a policy pays for all covered losses during its term, separate from the per-occurrence limit on each event.",
+    "detail": "A general liability policy might carry a $1 million per-occurrence limit and a $2 million aggregate: any one claim is capped at a million, and once total payouts reach two million the policy is exhausted for the year. A string of claims can burn through the aggregate and leave you bare before renewal. Knowing how much aggregate is left is vital when a second loss follows a first.",
+    "indications": [
+      "Commercial & Liability"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "Verisk",
+      "III"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Application",
+    "full": "",
+    "plain": "The form where you tell the insurer about yourself so it can decide whether and how to cover you.",
+    "snappy": "The form on which a prospective insured discloses the facts underwriters use to accept, price, or decline the risk.",
+    "detail": "The application is the foundation of utmost good faith: answer honestly, because a material misrepresentation here can let the insurer rescind the policy and refuse a claim later. Underwriters lean on it to classify the risk and set the premium. For life and disability cover the application may trigger a medical exam and a check of prescription and claims databases before an offer is made.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Underwriting & Risk",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Bad Faith",
+    "full": "",
+    "plain": "When an insurer treats you unfairly — denying or dragging out a valid claim — and can be punished for it.",
+    "snappy": "Unreasonable handling of a claim or defence by an insurer, exposing it to damages beyond the policy limit.",
+    "detail": "Insurers owe their policyholders good faith and fair dealing. Deny a clearly covered claim, lowball a settlement, or refuse to defend without grounds and the insured can sue for bad faith, recovering not just the claim but extra-contractual and sometimes punitive damages. The threat keeps carriers honest and is why a reasonable but wrong denial is defensible while an arbitrary one is dangerous.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Law & Liability",
+    "sources": [
+      "Cornell LII",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Beneficiary",
+    "full": "",
+    "plain": "The person who collects the money when a life insurance policy pays out.",
+    "snappy": "The person or entity designated to receive the proceeds of a life insurance policy or annuity when the insured dies.",
+    "detail": "You name a beneficiary when you buy life insurance — a spouse, child, trust, or charity. Primary beneficiaries get paid first; contingent ones inherit only if the primary has died. Keeping the designation current is critical: proceeds go to whoever is named on the form, not whoever a will lists, which is why divorces and remarriages trigger so many disputed payouts. The named beneficiary generally takes the money free of income tax.",
+    "indications": [
+      "Life & Annuities"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Binder",
+    "full": "",
+    "plain": "Temporary proof you're covered right now, before the full policy paperwork arrives.",
+    "snappy": "A short-term agreement providing immediate coverage while the formal policy is being written and issued.",
+    "detail": "When you buy a car at noon, the agent issues a binder so you can legally drive it home before the printed policy exists. A binder carries the same coverage as the policy it stands in for, but only for a set period — often 30 to 90 days — until the real document is issued or declined. Lenders accept a binder as proof of insurance at a closing.",
+    "indications": [
+      "Auto",
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "NAIC",
+      "III"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Cancellation",
+    "full": "",
+    "plain": "Ending a policy before its term is up — by you or the insurer.",
+    "snappy": "Termination of a policy before its expiration date, by the insured or, for limited reasons, by the insurer.",
+    "detail": "You can usually cancel anytime and get back the unused premium. An insurer's power to cancel mid-term is tightly limited by state law — typically only for non-payment, fraud, or a big rise in the risk — because pulling coverage out from under someone is drastic. After a short initial window, most policies can't be cancelled for ordinary claims; the insurer must wait and nonrenew instead.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Claim",
+    "full": "",
+    "plain": "A formal request asking your insurer to pay for a loss the policy covers.",
+    "snappy": "A demand by the insured (or a third party) for payment under the policy after a covered loss occurs.",
+    "detail": "Filing a claim starts the payout process: you report the loss, an adjuster investigates, and the insurer pays, partly pays, or denies. Filing too many makes your premium rise or renewal harder. The word also means the eventual cost an insurer bears: \"claims came in higher than expected this quarter\" is the line that sinks an insurance stock when catastrophes strike.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Claims & Settlement",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Claimant",
+    "full": "",
+    "plain": "Whoever is asking the insurer to pay — you, or the person you injured.",
+    "snappy": "The party making a claim for payment, whether the policyholder (first-party) or an injured outsider (third-party).",
+    "detail": "In a first-party claim the claimant is the insured asking their own carrier to pay, as when you report a stolen laptop. In a third-party claim the claimant is the outsider you harmed — the driver you rear-ended files against your liability coverage. Adjusters separate the two because their duties differ: they owe good faith to their own insured, and only fair dealing to a third-party claimant.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Claims & Settlement",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Claims-Made Policy",
+    "full": "",
+    "plain": "Liability cover that only pays if the claim is reported while the policy is active.",
+    "snappy": "A liability policy that responds only to claims first made and reported during its term, often with a retroactive date.",
+    "detail": "Doctors and professionals usually carry claims-made coverage: it's cheaper at first but the trigger is when the claim is filed, not when the mistake happened. Let the policy end and an old error becomes uninsured unless you buy tail coverage. A retroactive date sets how far back covered acts can reach. Switching carriers requires careful handling so no period falls through the gap.",
+    "indications": [
+      "Commercial & Liability"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "Verisk",
+      "Cornell LII"
+    ],
+    "aliases": [
+      "Claims-Made"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Coinsurance",
+    "full": "",
+    "plain": "The share of a covered bill you keep paying even after the deductible — often a percentage.",
+    "snappy": "A cost-sharing percentage the insured pays after the deductible; in property, a clause penalising under-insurance.",
+    "detail": "In health insurance, 20% coinsurance means after your deductible you pay a fifth of each bill until you hit the out-of-pocket maximum. In property insurance the word means something different: a coinsurance clause requires you to insure a building to a set percentage of its value (often 80%) or the insurer pays only part of even a small loss. Same word, two traps for the unwary.",
+    "indications": [
+      "Health",
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "CMS",
+      "III"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Conditions",
+    "full": "",
+    "plain": "The fine-print duties you must meet — like reporting a loss promptly — or the insurer can refuse to pay.",
+    "snappy": "Policy provisions setting out the duties and procedures the insured must follow for coverage to apply.",
+    "detail": "Notify the insurer promptly, cooperate with the investigation, protect property from further damage, submit a proof of loss on time — these strings are attached to every grant of coverage. Break a material one and the insurer may deny an otherwise valid claim. This section is also where you find how disputes are resolved, how other insurance is coordinated, and the right of the insurer to inspect or audit.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "Cornell LII",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Copay",
+    "full": "Copayment",
+    "plain": "A flat fee — say $25 — you hand over at the doctor or pharmacy, with insurance covering the rest.",
+    "snappy": "A fixed dollar amount the insured pays for a covered health service, separate from the deductible and coinsurance.",
+    "detail": "A $30 copay for a primary-care visit or $10 for a generic drug is predictable, which is why plans use copays for routine care — you know the cost before you walk in. Copays may or may not count toward your deductible, but they do count toward the out-of-pocket maximum. You'll see them printed on your insurance card next to the network type so the front desk knows what to collect.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Coverage",
+    "full": "",
+    "plain": "The protection your policy actually provides — the specific losses it promises to pay for.",
+    "snappy": "The scope of protection a policy grants: which perils, people, and property it pays for, up to stated limits.",
+    "detail": "Coverage is what you're buying. A homeowners policy might pay for fire and theft but not flood; an auto policy splits protection into liability, collision, and comprehensive. Agents talk about \"gaps in coverage\" when a real-world loss falls outside every section of the policy. Reading which coverages you have — and at what limit — is the difference between a paid claim and an unpleasant surprise.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "Declarations Page",
+    "full": "Dec Page",
+    "plain": "The front page of your policy listing who's covered, for what, and for how much.",
+    "snappy": "The summary page of the policy stating the named insured, coverages, limits, deductibles, premium, and policy period.",
+    "detail": "The declarations page — \"the dec page\" — is the cheat sheet agents pull up first. It personalises the standard policy form with your name, address, vehicle or building, the coverages you bought, their limits and deductibles, and the premium. A lender asking for \"proof of insurance\" usually wants this page. If a fact here is wrong, the policy may not respond the way you expect when you file a claim.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "NAIC",
+      "III"
+    ],
+    "aliases": [
+      "Declarations"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "Deductible",
+    "full": "",
+    "plain": "The slice of a loss you pay yourself before the insurer pays the rest.",
+    "snappy": "A fixed amount the insured absorbs on each claim before coverage kicks in; higher deductibles mean lower premiums.",
+    "detail": "If your car repair costs $3,000 and your deductible is $500, you pay $500 and the insurer pays $2,500. It keeps small nuisance claims off the books and gives you a reason to drive carefully. Choosing a higher figure lowers your premium because you're shouldering more of the risk. Health, auto, and homeowners policies all use this tool, though health plans layer on coinsurance and copays too.",
+    "indications": [
+      "Auto",
+      "Home & Property",
+      "Health"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "Depreciation",
+    "full": "",
+    "plain": "The drop in an item's value as it ages and wears — subtracted when a policy pays actual cash value.",
+    "snappy": "The decline in property value from age, wear, and obsolescence, deducted from replacement cost to reach actual cash value.",
+    "detail": "A claims adjuster paying actual cash value depreciates your loss: a sofa half through its useful life is paid at roughly half its new price. The recoverable portion is what a replacement-cost policy holds back and releases once you rebuild. Arguments over how fast a roof or appliance wears are among the most common sticking points in property claims.",
+    "indications": [
+      "Home & Property",
+      "Auto"
+    ],
+    "category": "Claims & Settlement",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "Duty to Defend",
+    "full": "",
+    "plain": "The promise by your insurer to hire and pay lawyers to fight a covered lawsuit against you.",
+    "snappy": "A liability insurer's obligation to provide and fund a legal defence for claims that potentially fall within coverage.",
+    "detail": "The duty to defend is broader than the duty to pay: an insurer must defend a lawsuit if any allegation might be covered, even if it later proves it owes nothing. Defence costs often dwarf the eventual settlement, so this promise is a big part of a liability policy's value. Refuse to defend wrongly and the insurer risks a bad-faith judgment far above the policy limit.",
+    "indications": [
+      "Commercial & Liability"
+    ],
+    "category": "Law & Liability",
+    "sources": [
+      "Cornell LII",
+      "III"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Earned Premium",
+    "full": "",
+    "plain": "The slice of premium an insurer has truly earned because that part of the coverage period has already passed.",
+    "snappy": "The portion of a prepaid premium an insurer has earned as time elapses, recognised as revenue over the policy period.",
+    "detail": "Pay $1,200 for a year of cover and after one month the insurer has earned $100; the other $1,100 is unearned premium it would refund if you cancelled. Insurers report earned premium as revenue and measure their loss ratio against it. The distinction matters at cancellation and in accounting, where booking premium before it's earned overstates how well a carrier is really doing.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Pricing & Actuarial",
+    "sources": [
+      "NAIC",
+      "SOA"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Effective Date",
+    "full": "",
+    "plain": "The day your coverage switches on.",
+    "snappy": "The calendar date coverage under a policy begins; losses before it are not covered even if the premium is paid.",
+    "detail": "Coverage doesn't exist until the effective date, which is why buyers time it to the moment they take the car keys or close on a house. Backdating is generally barred to stop people insuring a loss that already happened. Lenders and motor-vehicle offices check it against the purchase to be sure there was never an uninsured gap.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "NAIC",
+      "III"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Endorsement",
+    "full": "Policy Endorsement",
+    "plain": "An add-on that changes your policy — adding, removing, or tweaking what's covered.",
+    "snappy": "A written amendment to a policy that adds, restricts, or modifies coverage; also called a rider in life and health.",
+    "detail": "Add a home office, schedule a wedding ring, or buy back flood coverage and the insurer issues an endorsement that becomes part of the contract. It can expand coverage or quietly cut it, so reading the change at renewal matters. Standardised industry forms mean the same numbered amendment carries identical wording across many carriers, which is why agents quote them by code.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "NAIC",
+      "Verisk"
+    ],
+    "aliases": [
+      "Endorsements"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Excess Insurance",
+    "full": "",
+    "plain": "Coverage that only pays after an underlying policy limit is used up.",
+    "snappy": "A policy that responds above a stated attachment point, paying only once the underlying coverage is exhausted.",
+    "detail": "A factory needing $50 million of liability cover stacks layers: a primary policy to $5 million, then excess policies for each band above. Each excess insurer pays only when the layer beneath is spent, so its premium is lower per dollar of limit. Towers of excess insurance are how big risks get covered when no single carrier wants the whole exposure.",
+    "indications": [
+      "Commercial & Liability"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "Verisk",
+      "III"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Exclusion",
+    "full": "",
+    "plain": "A loss your policy specifically refuses to cover, listed in black and white.",
+    "snappy": "A clause carving a peril, property, or circumstance out of coverage; the first place an adjuster looks to deny a claim.",
+    "detail": "Every policy has exclusions — flood and earthquake on a standard homeowners policy, intentional acts, war, normal wear and tear. They exist to keep premiums affordable and to push uninsurable or specialist risks into separate policies. When a claim is denied, the denial letter cites the exclusion by number. Knowing yours is how you discover you need a flood policy or a separate rider before the loss, not after.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Expiration Date",
+    "full": "",
+    "plain": "The day your coverage runs out unless you renew.",
+    "snappy": "The date coverage under a policy ends; without renewal or extension, the insured is bare from that moment on.",
+    "detail": "Miss the expiration date without renewing and you're uninsured the next morning, even if you never meant to cancel. Carriers send renewal offers weeks ahead; ignoring them is the most common way people accidentally let coverage drop. Claims-made liability policies make the date doubly important because reporting a claim after expiration — without tail coverage — leaves old work unprotected.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "NAIC",
+      "III"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Exposure",
+    "full": "",
+    "plain": "How much potential loss an insurer is on the hook for — the size of the bet it took.",
+    "snappy": "The measure of potential loss an insurer carries, by policy, peril, or region; the base on which premium is calculated.",
+    "detail": "An insurer measures hurricane exposure as the total it could pay if one storm hit every coastal home it covers. The word also names the rating base — payroll for workers' comp, sales for product liability, square footage for a building — that scales the premium. Managing accumulated exposure in one zip code or one peril is why carriers buy reinsurance and cap how much they'll write in a single area.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Underwriting & Risk",
+    "sources": [
+      "SOA",
+      "Verisk"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "First-Party Coverage",
+    "full": "",
+    "plain": "Insurance that pays you for your own losses.",
+    "snappy": "Coverage that pays the insured directly for their own damage or loss, as opposed to liability owed to outsiders.",
+    "detail": "Collision coverage that fixes your own car, the dwelling coverage that rebuilds your own house, the health plan that pays your own hospital bill — these are first-party. The insurer owes its own policyholder a duty of good faith in handling them. First-party claims contrast with third-party liability claims, where the policy pays someone else you harmed.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "Cornell LII",
+      "III"
+    ]
+  },
+  {
+    "letter": "G",
+    "term": "Grace Period",
+    "full": "",
+    "plain": "Extra days after a missed payment when your coverage still counts.",
+    "snappy": "A short window after the premium due date during which coverage continues and a late payment keeps the policy alive.",
+    "detail": "Life insurance typically grants a 30- or 31-day grace period; if the insured dies during it, the insurer pays the benefit minus the owed premium. Health and other policies have their own grace windows, lengthened for subsidised marketplace plans. The grace period is the safety net between a missed payment and a full lapse — pay inside it and nothing is lost.",
+    "indications": [
+      "Life & Annuities",
+      "Health"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "CMS",
+      "III"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "Hazard",
+    "full": "",
+    "plain": "A condition that makes a loss more likely or worse — a frayed wire, an icy step, a smoker's habit.",
+    "snappy": "A condition that increases the chance or severity of a loss from a peril; underwriters grade physical, moral, and morale hazards.",
+    "detail": "If fire is the peril, the stacked oily rags in the basement are the hazard. Underwriters sort the kinds: physical ones are tangible (bald tyres, old wiring), moral ones are dishonest motives (insuring a failing business hoping it burns), and morale ones are carelessness born of having coverage. Spotting them lets insurers price, exclude, or require fixes before they'll write the risk.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Underwriting & Risk",
+    "sources": [
+      "III",
+      "SOA"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Indemnity",
+    "full": "",
+    "plain": "The core idea that insurance restores you to where you were before the loss — no better, no worse.",
+    "snappy": "The principle that insurance compensates actual loss to make the insured whole, without allowing a profit from misfortune.",
+    "detail": "Indemnity is why a claim pays the depreciated value of a five-year-old roof, not the cost of a brand-new house. It stops insurance becoming a betting slip: you can't collect more than you lost, and insurable interest plus the indemnity principle keep people from profiting on a loss. Life insurance is the great exception — a life has no market value, so those policies pay a fixed agreed sum instead.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Law & Liability",
+    "sources": [
+      "Cornell LII",
+      "III"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Insurable Interest",
+    "full": "",
+    "plain": "The requirement that you'd actually suffer if the insured thing were lost — you can't insure a stranger's car.",
+    "snappy": "A stake in the insured person or property such that its loss would cause the policyholder genuine financial harm.",
+    "detail": "Insurable interest stops insurance becoming gambling: you can insure your own house, your spouse's life, or your business partner, but not a celebrity you've never met. In property cover the interest must exist at the time of loss; in life insurance, at the time the policy is bought. Courts void policies sold without it, a rule that traces back centuries to stamp out wagering on strangers' deaths.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Law & Liability",
+    "sources": [
+      "Cornell LII",
+      "III"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Insurance",
+    "full": "",
+    "plain": "A deal where many people pay small amounts into a shared pot so the unlucky few who suffer a big loss get paid from it.",
+    "snappy": "A contract that trades a small, certain payment — the premium — for protection against a large, uncertain loss.",
+    "detail": "Insurance pools money from many policyholders so the few who suffer fires, crashes, illnesses, or deaths are paid from the common fund. You pay a premium; in exchange the insurer promises to cover specified losses up to a policy limit. It is the financial backbone behind mortgages, car keys, hospital visits, and business deals — every lender, landlord, or regulator who demands proof of coverage is relying on this bargain.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Insured",
+    "full": "",
+    "plain": "The person or business the policy protects — usually you.",
+    "snappy": "The person or entity whose interests a policy protects and who is entitled to file claims under it.",
+    "detail": "The insured is who the coverage is for. On a homeowners policy it's the homeowner; on a commercial policy it might be a company plus its officers. The named insured (the one listed on the declarations page) has the most rights and duties, while additional insureds get a narrower slice. When a policy says \"the insured must cooperate,\" it means you must help the adjuster investigate the claim.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Insurer",
+    "full": "Insurance Carrier",
+    "plain": "The company that takes your premium and promises to pay your covered losses.",
+    "snappy": "The company that accepts the risk, collects premiums, and pays claims; also called the carrier or underwriter.",
+    "detail": "The insurer is the party on the hook. It pools your premium with thousands of others, invests the float, and pays out when covered losses hit. Regulators watch its solvency closely because a failed insurer leaves policyholders stranded. You'll hear it called the \"carrier\" in agent-speak, and a single large risk may be split among several carriers, each taking a layer.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "NAIC",
+      "AM Best"
+    ],
+    "aliases": [
+      "Carrier"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Insuring Agreement",
+    "full": "",
+    "plain": "The core promise of the policy — the sentence where the insurer says what it will pay for.",
+    "snappy": "The section of a policy stating the central promise of the insurer to pay for specified losses in exchange for premium.",
+    "detail": "Everything else in the policy — exclusions, conditions, definitions — modifies this one promise. Broad insuring agreements (\"we cover all risks of direct physical loss\") start wide and then carve back through exclusions; narrow ones (\"we cover these named perils\") start small. Coverage lawyers read the insuring agreement first to see whether a loss even gets in the door before the exclusions are argued.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "Cornell LII",
+      "Verisk"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Lapse",
+    "full": "",
+    "plain": "Losing your coverage because you stopped paying the premium.",
+    "snappy": "Termination of a policy for non-payment of premium, leaving the insured uncovered until reinstatement or rebuy.",
+    "detail": "Miss a premium past the grace period and the policy lapses — coverage stops, and a loss the next day isn't paid. A lapsed life policy can sometimes be reinstated by catching up payments and proving you're still healthy, but a lapse in auto coverage flags you as high-risk and raises your next premium. Lenders monitor for lapses and may force-place expensive coverage if yours drops.",
+    "indications": [
+      "Life & Annuities",
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Loss",
+    "full": "",
+    "plain": "The damage, injury, or cost that triggers a claim.",
+    "snappy": "The harm an insurance policy responds to — damage, injury, liability, or death — measured in dollars for settlement.",
+    "detail": "Loss is the event insurance exists to soften: a kitchen fire, a fender-bender, a hospital stay, a lawsuit. Insurers track \"incurred losses\" — what claims will ultimately cost — against the premium they collected, the ratio that decides whether a line of business makes money. A \"total loss\" means the damage exceeds the property's value, so the insurer pays the value rather than repairing.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Claims & Settlement",
+    "sources": [
+      "NAIC",
+      "III"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Material Misrepresentation",
+    "full": "",
+    "plain": "A false answer big enough that, had the insurer known the truth, it would have charged more or said no.",
+    "snappy": "An untrue statement on an application important enough to have changed the decision of the insurer to cover or price the risk.",
+    "detail": "Forget to mention a speeding ticket and it may not matter; hide a heart condition on a life application and the insurer can rescind the policy and deny the death claim. The test is materiality — whether the truth would have changed the underwriting decision. Insurers must usually act within a contestability window, after which even a misstatement can no longer undo the policy.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Law & Liability",
+    "sources": [
+      "Cornell LII",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "N",
+    "term": "Named Insured",
+    "full": "",
+    "plain": "The exact person or business written on the front page of the policy, with the fullest rights.",
+    "snappy": "The party explicitly listed on the declarations page, holding the broadest coverage and the core duties under the policy.",
+    "detail": "Being the named insured matters when a claim is contested. This party can make changes, receives notices, and enjoys coverage that may not extend to everyone in the household or company. Spouses, resident relatives, or subsidiaries may be covered automatically or only as added parties. Commercial policies often debate who should be the named insured versus an additional insured, because the distinction decides who controls the claim.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "N",
+    "term": "Nonrenewal",
+    "full": "",
+    "plain": "When the insurer decides not to offer you another term at the end of this one.",
+    "snappy": "A decision by the insurer to end coverage at expiration rather than offer a renewal, distinct from mid-term cancellation.",
+    "detail": "Nonrenewal isn't a cancellation — your current policy runs to its expiration date — but you must find a new carrier before it ends. Insurers nonrenew after too many claims, or when they pull out of a whole region, as many did from wildfire- and hurricane-exposed states. State law sets how much advance notice you're owed, giving you time to shop before going bare.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "III"
+    ]
+  },
+  {
+    "letter": "O",
+    "term": "Occurrence",
+    "full": "",
+    "plain": "A single covered event — like one accident — that the policy treats as one loss.",
+    "snappy": "An event, or series of related events, that causes covered loss and counts as one incident against the policy limit.",
+    "detail": "How you count occurrences decides how much coverage you have. One car crash injuring three people is usually one occurrence, capped by the per-occurrence limit; a chemical leak over months might be one occurrence or many, a distinction litigated for millions. Liability policies pair a per-occurrence limit with a larger aggregate limit so a string of separate events can't blow through the year's coverage at once.",
+    "indications": [
+      "Commercial & Liability"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "Cornell LII",
+      "Verisk"
+    ]
+  },
+  {
+    "letter": "O",
+    "term": "Occurrence Policy",
+    "full": "",
+    "plain": "Liability cover that pays for any harm that happened while the policy was active — even if the claim comes years later.",
+    "snappy": "A liability policy that responds to injury or damage taking place during its term, no matter when the claim is filed.",
+    "detail": "Buy an occurrence policy for 2024 and it covers an injury caused in 2024 even if the lawsuit lands in 2030 — the trigger is when the harm happened, not when the claim arrives. That makes old policies valuable forever and removes the need for tail coverage. It's the opposite of a claims-made policy, and it's why contractors and manufacturers prize occurrence forms for long-tail risks.",
+    "indications": [
+      "Commercial & Liability"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "Verisk",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "O",
+    "term": "Out-of-Pocket Maximum",
+    "full": "",
+    "plain": "The yearly ceiling on what you can be forced to spend before insurance pays everything.",
+    "snappy": "The annual cap on a member's combined deductible, copays, and coinsurance; beyond it the health plan pays 100%.",
+    "detail": "Once your spending on covered, in-network care hits the out-of-pocket maximum, the plan pays the full cost of everything else that year. It's the real measure of financial protection a health plan offers — far more than the premium or deductible alone. The Affordable Care Act caps how high it can go. Hit it after a major surgery and the rest of the year's covered care costs you nothing.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Peril",
+    "full": "",
+    "plain": "The specific cause of a loss — fire, theft, a windstorm, a crash.",
+    "snappy": "A cause of loss a policy may cover or exclude, such as fire, theft, wind, water, or collision.",
+    "detail": "Perils are the dangers themselves; coverage is defined by which ones the policy names. A named-perils policy lists exactly what's covered — fire, lightning, hail — and nothing else. An open-perils or all-risk form flips it, covering every cause except those excluded. Flood and earthquake are the famous ones standard homeowners policies leave out, sold instead through separate programs.",
+    "indications": [
+      "Home & Property",
+      "Cross-sector"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "Verisk"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Policy",
+    "full": "",
+    "plain": "The written contract that spells out exactly what your insurance covers, what it won't, and what you both must do.",
+    "snappy": "The legal contract between insurer and insured setting out coverage, limits, exclusions, conditions, and the premium owed.",
+    "detail": "A policy is the rulebook for the whole relationship. It bundles the declarations page (your specifics), the insuring agreement (the promise to pay), exclusions (the gaps), conditions (your duties), and definitions. When an adjuster says \"it's not covered,\" they are reading this document. Disputes over a denied claim almost always come down to a clause buried in the policy that one side read differently than the other.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Policy Limit",
+    "full": "Limit of Liability",
+    "plain": "The most your insurer will pay for a covered loss, no matter how big the actual bill.",
+    "snappy": "The maximum the insurer will pay under a coverage, per claim or in aggregate; losses above it fall back on the insured.",
+    "detail": "If your liability limit is $300,000 and a court awards $500,000, you personally owe the $200,000 gap — the reason people buy umbrella insurance to stack a higher limit on top. Limits come in flavours: per-occurrence caps each event, while an aggregate limit caps the total a policy pays over its term. Choosing limits is the single biggest lever on both your premium and your protection.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "Limit"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Policy Period",
+    "full": "Policy Term",
+    "plain": "The window of time your coverage is active — usually six months or a year.",
+    "snappy": "The span between the effective and expiration dates of a policy during which covered losses are eligible for payment.",
+    "detail": "A loss has to happen inside the policy period to be covered — or, for claims-made policies, be reported inside it. Auto policies often run six months, homeowners and commercial policies a year. The renewal that arrives before expiration starts a fresh period, sometimes at a new rate. Gaps between periods are dangerous: a single uninsured day can void a mortgage or leave a crash uncovered.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "NAIC",
+      "III"
+    ],
+    "aliases": [
+      "Policy Term"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Policyholder",
+    "full": "",
+    "plain": "The person who owns the insurance policy and pays the premiums.",
+    "snappy": "The party who owns the contract, pays the premium, and holds the rights to renew, cancel, or change it.",
+    "detail": "Policyholder and insured often describe the same person, but not always — a company can be the policyholder of a group life plan covering its employees, who are the insureds. In a mutual insurer the policyholders are also the owners and may receive dividends. When commentators talk about \"policyholder-friendly\" states, they mean places where regulation tilts toward consumers in disputes over claims and rates.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "NAIC",
+      "III"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Premium",
+    "full": "",
+    "plain": "The price you pay — monthly or yearly — to keep your insurance switched on.",
+    "snappy": "The amount the policyholder pays the insurer for coverage, set by underwriting and actuarial pricing of the risk.",
+    "detail": "Premium is the meter running on every policy. Insurers set it by estimating how likely you are to file a claim and how big it might be, then adding expenses and profit. Miss enough payments and the policy can lapse, leaving you uncovered. On an earnings call you'll hear insurers report \"gross written premium\" as the headline measure of how much business they wrote that year.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Primary Insurance",
+    "full": "",
+    "plain": "The first policy to pay a loss, before any excess or umbrella coverage gets involved.",
+    "snappy": "The coverage that responds first to a loss, paying from the first dollar above any deductible up to its own limit.",
+    "detail": "In a tower of coverage the primary policy sits at the bottom and pays first; only when its limit is exhausted do excess and umbrella layers attach. Primary insurers also usually carry the duty to defend. When two policies could cover the same loss, \"other insurance\" clauses decide which is primary and which is excess — a fight that surfaces constantly in auto and commercial claims.",
+    "indications": [
+      "Commercial & Liability",
+      "Auto"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "Verisk",
+      "III"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Pro Rata",
+    "full": "",
+    "plain": "Splitting a premium or refund exactly in proportion to the time used — no penalty.",
+    "snappy": "Allocation of premium or refund strictly by the share of the policy period elapsed, with no extra charge.",
+    "detail": "Cancel a policy and a pro rata refund returns the unearned premium based purely on days remaining — fair and proportional. Insurers use pro rata cancellation when they end the policy, but may use short rate, which keeps a little extra, when you cancel. The phrase also describes how two insurers covering the same loss split it in proportion to their limits.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Pricing & Actuarial",
+    "sources": [
+      "NAIC",
+      "III"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Proof of Loss",
+    "full": "",
+    "plain": "The sworn statement of what you lost and what it was worth, filed to back up a claim.",
+    "snappy": "A formal, often sworn, statement the insured submits documenting the loss and its value to support a claim payment.",
+    "detail": "After a fire or theft the insurer asks for a proof of loss — an itemised, signed account of what was damaged and its value, with receipts or photos. It must usually be filed within a set number of days, a condition that can sink a late claim. Adjusters use it to verify the claim; a knowingly inflated proof of loss is insurance fraud.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Claims & Settlement",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "Q",
+    "term": "Quote",
+    "full": "",
+    "plain": "An estimated price for a policy, based on the details you give the insurer.",
+    "snappy": "A non-binding estimate from the insurer of the premium for a described risk, subject to underwriting before it becomes a policy.",
+    "detail": "You give an insurer your age, address, car, or health details and it returns a quote — the likely premium. Quotes are estimates: the final price can change once underwriting verifies the facts and pulls your records. Comparing quotes across carriers is the core of shopping for insurance, but matching the coverages and limits behind each number matters more than the headline price.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Reinstatement",
+    "full": "",
+    "plain": "Bringing a lapsed policy back to life by catching up and, sometimes, re-proving you qualify.",
+    "snappy": "Restoring a lapsed policy to active status, usually by paying overdue premium and meeting the requirements of the insurer.",
+    "detail": "After a life policy lapses, reinstatement may require back premiums plus interest and fresh evidence of insurability — a health questionnaire or exam — because your health may have changed. There's usually a time limit, often three to five years. Reinstating is generally cheaper than buying a new policy at your now-older age, so it's worth doing if you can still qualify.",
+    "indications": [
+      "Life & Annuities"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Renewal",
+    "full": "",
+    "plain": "Continuing your policy for another term, usually with an updated price.",
+    "snappy": "An offer from the insurer to continue coverage for a new policy period, often at a re-rated premium based on recent experience.",
+    "detail": "Most personal policies renew automatically unless you or the insurer opts out. The renewal premium reflects a fresh look at your claims, credit-based insurance score, and market-wide rate changes — which is why a clean year can still bring an increase after a region's catastrophe losses. Reading the renewal, not just paying it, is how you catch coverage that was quietly trimmed or a deductible that crept up.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "NAIC",
+      "III"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Replacement Cost",
+    "full": "",
+    "plain": "Enough money to buy a brand-new equivalent of what you lost, with no deduction for age.",
+    "snappy": "A settlement basis paying the full cost to repair or replace damaged property with new, without deducting depreciation.",
+    "detail": "Replacement cost coverage rebuilds your roof or repays your stolen TV at today's price for a new one, unlike actual cash value which docks for age. Insurers often pay the depreciated amount first and release the rest once you actually replace the item, to keep the indemnity principle honest. It costs more in premium but spares you the depreciation gap after a major loss.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Claims & Settlement",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Rescission",
+    "full": "",
+    "plain": "The insurer unwinding a policy as if it never existed, usually because the application lied.",
+    "snappy": "Cancelling a policy from inception for material misrepresentation or concealment, returning premium and denying claims.",
+    "detail": "Rescission is the nuclear option: the insurer voids the contract back to day one, refunds the premiums, and treats every claim as uncovered. It's reserved for material misrepresentation or fraud on the application and is hardest to use after the contestability period closes. Health insurers were largely barred from rescinding coverage over honest mistakes by the Affordable Care Act, curbing a once-common practice after big claims.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Law & Liability",
+    "sources": [
+      "Cornell LII",
+      "CMS"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Retroactive Date",
+    "full": "",
+    "plain": "On claims-made cover, the earliest date a mistake can have happened and still be covered.",
+    "snappy": "The cut-off date on a claims-made policy before which wrongful acts are not covered, even if the claim is timely.",
+    "detail": "A claims-made policy with a retroactive date of 2019 won't cover a mistake made in 2018, no matter when the claim arrives. Keeping the same retroactive date when you renew or switch carriers preserves coverage for your whole career; resetting it forward creates a dangerous gap. Buyers of professional liability watch this date as closely as the limit itself.",
+    "indications": [
+      "Commercial & Liability"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "Verisk",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Rider",
+    "full": "",
+    "plain": "An optional extra you bolt onto a life or health policy to widen what it covers.",
+    "snappy": "An add-on to a life or health policy that adds a benefit or coverage, the life-and-health cousin of an endorsement.",
+    "detail": "A waiver-of-premium rider keeps your life policy in force if you become disabled; a child rider covers your kids; an accelerated death benefit rider lets a terminally ill insured tap the payout early. They let one base policy be tailored without buying a whole new contract, each adding a little premium. In property and casualty the same idea is called an endorsement.",
+    "indications": [
+      "Life & Annuities",
+      "Health"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Risk",
+    "full": "",
+    "plain": "The chance that something bad and costly happens — the thing insurance exists to manage.",
+    "snappy": "The uncertainty of loss that insurance prices and transfers; in industry slang, also the policy or exposure itself.",
+    "detail": "Risk is the raw material of insurance. Actuaries measure it, underwriters select and price it, and reinsurers spread it. The word does double duty: \"this risk\" can mean a specific policy or building an underwriter is evaluating. Pooling many independent risks makes the average loss predictable even though any single one isn't — the statistical magic that lets the whole industry function.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Underwriting & Risk",
+    "sources": [
+      "SOA",
+      "III"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Salvage",
+    "full": "",
+    "plain": "What's left of the damaged property after a claim — which the insurer can sell to recoup some of the payout.",
+    "snappy": "The remaining value of property the insurer pays for in full, which it may take and sell to offset the loss.",
+    "detail": "When an insurer declares a crashed car a total loss and pays its value, it takes the wreck and sells it for salvage, often to a rebuilder or parts yard. The recovery offsets the claim cost. A salvage title then warns future buyers the car was once written off. The same idea applies to fire-damaged inventory or a sunk boat the insurer paid out and now owns.",
+    "indications": [
+      "Auto",
+      "Home & Property"
+    ],
+    "category": "Claims & Settlement",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Self-Insured Retention",
+    "full": "SIR",
+    "plain": "A chunk of each loss a business pays itself before its liability policy responds — like a big deductible.",
+    "snappy": "An amount the insured pays out of pocket on each claim before the liability policy attaches, common in commercial cover.",
+    "detail": "Larger companies take a self-insured retention to lower premiums and keep control of small claims: they handle and pay losses up to, say, $250,000, and the insurer only steps in above that. Unlike a deductible, the insured usually manages the claim within the retention itself. It's a halfway house between buying full coverage and self-insuring entirely, and it signals an insurer that the buyer has skin in the game.",
+    "indications": [
+      "Commercial & Liability"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "Verisk",
+      "III"
+    ],
+    "aliases": [
+      "SIR"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Sublimit",
+    "full": "",
+    "plain": "A smaller cap inside your policy that limits payment for one specific kind of loss.",
+    "snappy": "A cap below the overall policy limit applying to a particular category of loss, such as jewellery or water damage.",
+    "detail": "Your homeowners policy might carry a $300,000 limit overall but a $1,500 sublimit on jewellery, so a stolen engagement ring is barely covered. Sublimits hide in the fine print and surprise people at claim time. To restore full value you schedule the item — listing it specifically for an extra premium. Commercial policies use sublimits heavily for floods, earthquakes, and cyber losses.",
+    "indications": [
+      "Home & Property",
+      "Commercial & Liability"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Subrogation",
+    "full": "",
+    "plain": "After paying your claim, the insurer steps into your shoes to chase whoever actually caused the loss.",
+    "snappy": "The right of the insurer, after paying a claim, to pursue the third party responsible and recover what it paid out.",
+    "detail": "If another driver totals your car, your insurer may pay you and then subrogate — sue or bill the at-fault driver's insurer to get its money back. Successful subrogation can return your deductible to you. The principle stops the wrongdoer escaping just because you had insurance, and it keeps you from collecting twice. Health insurers subrogate too, clawing back from accident settlements they helped fund.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Claims & Settlement",
+    "sources": [
+      "Cornell LII",
+      "III"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Tail Coverage",
+    "full": "Extended Reporting Period",
+    "plain": "An extension that lets you report old claims after a claims-made policy ends.",
+    "snappy": "An extended reporting period on a claims-made policy that covers claims filed after expiration for prior covered acts.",
+    "detail": "When a doctor retires or switches insurers, tail coverage keeps the old claims-made policy responsive to lawsuits that surface later over past treatment. Without it, every patient encounter becomes uninsured the day the policy lapses. The tail can be costly — often a multiple of the annual premium — but for long-tail professions it's the difference between a clean exit and lingering personal exposure.",
+    "indications": [
+      "Commercial & Liability"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "Verisk",
+      "III"
+    ]
+  },
+  {
+    "letter": "T",
+    "term": "Third-Party Coverage",
+    "full": "",
+    "plain": "Insurance that pays other people for harm you caused them.",
+    "snappy": "Liability coverage that pays outsiders the insured is legally responsible for injuring or whose property they damaged.",
+    "detail": "When you rear-end another driver, your liability coverage is third-party — it pays the other driver, not you. The injured outsider is the third party (you and the insurer are the first two). These policies also pay to defend you against the resulting lawsuit. The insurer's duty to a third-party claimant is fair dealing, a notch below the good faith it owes its own insured.",
+    "indications": [
+      "Commercial & Liability",
+      "Auto"
+    ],
+    "category": "Law & Liability",
+    "sources": [
+      "Cornell LII",
+      "III"
+    ]
+  },
+  {
+    "letter": "U",
+    "term": "Umbrella Insurance",
+    "full": "",
+    "plain": "Extra liability coverage that sits on top of your home and auto policies for catastrophic claims.",
+    "snappy": "A policy adding a layer of liability limit above auto, home, or business coverage, plus some broader protection.",
+    "detail": "When a lawsuit blows past your auto or homeowners liability limit, an umbrella policy picks up the next million or more — cheap protection for high-net-worth families and landlords. It also fills some gaps the underlying policies exclude. Umbrellas require you to carry minimum underlying limits first, then attach above them. The name fits: one policy spreads over several others to catch the rare, ruinous claim.",
+    "indications": [
+      "Home & Property",
+      "Auto",
+      "Commercial & Liability"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "Umbrella Policy"
+    ]
+  },
+  {
+    "letter": "U",
+    "term": "Unearned Premium",
+    "full": "",
+    "plain": "The part of premium you've paid for coverage that hasn't happened yet — refundable if you cancel early.",
+    "snappy": "The prepaid premium covering the remaining policy period, held as a liability and refundable on cancellation.",
+    "detail": "If you cancel a six-month auto policy after two months, the four months of unearned premium come back to you, minus any short-rate penalty. Insurers must hold unearned premium as a reserve — a liability on the balance sheet — because they still owe that coverage. Regulators watch the unearned premium reserve to be sure a carrier can deliver the protection it has already been paid for.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Pricing & Actuarial",
+    "sources": [
+      "NAIC",
+      "SOA"
+    ]
+  },
+  {
+    "letter": "U",
+    "term": "Utmost Good Faith",
+    "full": "Uberrimae Fidei",
+    "plain": "The duty of both sides to deal honestly and hide nothing important when an insurance contract is made.",
+    "snappy": "The doctrine that insurer and insured must each disclose all material facts honestly when forming the contract.",
+    "detail": "Insurance leans on this higher duty of candour because the insured knows facts the insurer can't easily check — your health, your driving, the wiring in your warehouse. Conceal or misstate something material and the insurer may rescind the policy. The doctrine also binds the insurer to deal fairly, the seed of the bad-faith claims that punish carriers who deny coverage without reason.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Law & Liability",
+    "sources": [
+      "Cornell LII",
+      "Lloyd's"
+    ]
+  }
+]

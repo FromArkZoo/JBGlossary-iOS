@@ -1,12 +1,12 @@
 # JB Glossaries — iOS
 
-Five native SwiftUI reference apps that turn dense professional jargon into clean, searchable, italic-typed cards. Built as a single XcodeGen workspace with one shared engine and five industry-specific corpora — **3,645 terms total**.
+Native SwiftUI reference apps that turn dense professional jargon into clean, searchable, italic-typed cards. Built as a single XcodeGen workspace with one shared engine and per-industry corpora — **3,645 terms across five shipped books, with a sixth (Insurance) in active authoring**.
 
-| Pharma | AI | Finance | Law | Real Estate |
-|:---:|:---:|:---:|:---:|:---:|
-| <img src="Targets/Pharma/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/AI/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/Finance/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/Law/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/RealEstate/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> |
-| 499 terms | 785 terms | 722 terms | 836 terms | 803 terms |
-| Oncology + drug mechanisms | AI / ML concepts | Markets + instruments | US law (14 categories, 4 lenses) | Property, finance, leasing |
+| Pharma | AI | Finance | Law | Real Estate | Insurance |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| <img src="Targets/Pharma/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/AI/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/Finance/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/Law/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/RealEstate/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/Insurance/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> |
+| 499 terms | 785 terms | 722 terms | 836 terms | 803 terms | in progress |
+| Oncology + drug mechanisms | AI / ML concepts | Markets + instruments | US law (14 categories, 4 lenses) | Property, finance, leasing | Life, health, auto, home, liability |
 
 ---
 
@@ -61,6 +61,12 @@ The same engine, retuned for the AI/ML vocabulary — agents, model architecture
 
 - [Support](https://fromarkzoo.github.io/JBGlossary-iOS/support.html) · [Privacy](https://fromarkzoo.github.io/JBGlossary-iOS/privacy.html)
 
+## JB Insurance
+
+The sixth book (in active authoring) — a deep-teal reference for the language of risk and protection: life, health, auto, home, and commercial cover, plus the underwriting, actuarial, reinsurance, and regulatory machinery underneath. Nine categories in three clusters (policyholder / risk / market) and four lenses (Basics, Policies & Claims, Risk & Pricing, Markets & Regulation). Sits at the intersection of the Finance, Healthcare, and Real Estate books, raising cross-reference density across the whole suite.
+
+- [Support](https://fromarkzoo.github.io/JBGlossary-iOS/support.html) · [Privacy](https://fromarkzoo.github.io/JBGlossary-iOS/privacy.html)
+
 ---
 
 ## How it's built
@@ -74,14 +80,15 @@ Targets/AI/Resources/                   AI corpus + icon + colour
 Targets/Finance/Resources/              finance corpus + icon + colour
 Targets/Law/Resources/                  law corpus + icon + colour
 Targets/RealEstate/Resources/           real estate corpus + icon + colour
-project.yml                             XcodeGen spec (five schemes)
+Targets/Insurance/Resources/            insurance corpus + icon + colour
+project.yml                             XcodeGen spec (one unified app, runtime industry switch)
 ```
 
 ### Run a target
 
 ```bash
 xcodegen generate
-open JBGlossary.xcodeproj         # pick scheme: Pharma / AI / Finance / Law / RealEstate → ⌘R
+open JBGlossary.xcodeproj         # one app, one scheme → ⌘R, then pick the industry from the in-app picker
 ```
 
 ### Add or edit terms

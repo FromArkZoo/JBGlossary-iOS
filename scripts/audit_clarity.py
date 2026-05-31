@@ -37,6 +37,7 @@ INDUSTRY_PATHS = {
     "ai":         ROOT / "Targets/AI/Resources/glossary_ai.json",
     "law":        ROOT / "Targets/Law/Resources/glossary_law.json",
     "realEstate": ROOT / "Targets/RealEstate/Resources/glossary_realEstate.json",
+    "insurance":  ROOT / "Targets/Insurance/Resources/glossary_insurance.json",
 }
 
 MAX_PLAIN_WORDS = 25
