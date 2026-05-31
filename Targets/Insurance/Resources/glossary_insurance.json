@@ -262,6 +262,25 @@
   },
   {
     "letter": "A",
+    "term": "Adverse Development Cover",
+    "full": "ADC",
+    "plain": "Reinsurance that caps the risk that an insurer's old claims end up costing far more than its reserves.",
+    "snappy": "Retroactive reinsurance protecting a cedent against its existing claim reserves developing beyond expectations.",
+    "detail": "An adverse development cover insures the reserves themselves: if a block of already-incurred claims develops worse than booked — court awards balloon, latent injuries surface — the reinsurer pays the excess above an attachment point near the current reserve level. Unlike a loss portfolio transfer, the cedent keeps handling the claims; it has bought protection against being under-reserved, not an exit. Buyers use it to reassure investors or regulators that a long-tail liability can't spring a nasty surprise.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
+    ],
+    "aliases": [
+      "ADC"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Adverse Selection",
     "full": "",
     "plain": "When the people most likely to file claims are the most eager to buy, skewing the pool toward losses.",
@@ -314,6 +333,26 @@
   },
   {
     "letter": "A",
+    "term": "Aggregate Excess of Loss",
+    "full": "Stop-Loss Reinsurance",
+    "plain": "Reinsurance that caps an insurer's total losses over a whole year, not just any single loss or event.",
+    "snappy": "A non-proportional treaty paying once the cedent's accumulated losses over a period exceed an aggregate retention.",
+    "detail": "Aggregate excess of loss, also called stop-loss reinsurance, protects the bottom line over time rather than against one shock: the reinsurer pays once a year's total losses — many ordinary claims piling up, a string of mid-sized events — pass an aggregate retention, often expressed as a loss ratio. It guards against frequency, the death-by-a-thousand-cuts year, where per-occurrence catastrophe cover would never trigger. Crop and health insurers, exposed to broad seasonal swings, are typical buyers.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
+    ],
+    "aliases": [
+      "Stop-Loss Reinsurance",
+      "Aggregate Cover"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Aggregate Limit",
     "full": "",
     "plain": "The total an insurer will pay over the whole policy term, across all claims combined.",
@@ -361,6 +400,26 @@
     ],
     "aliases": [
       "Allowable Charge"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Alternative Risk Transfer",
+    "full": "ART",
+    "plain": "Ways of financing risk outside ordinary insurance — captives, catastrophe bonds, and other custom structures.",
+    "snappy": "Non-traditional risk-financing techniques, including captives, risk-retention groups, and capital-market instruments, used alongside or instead of standard insurance.",
+    "detail": "Alternative risk transfer covers everything beyond buying a conventional policy: forming a captive insurer, joining a risk retention group, issuing catastrophe bonds, or buying parametric cover. Large organizations turn to it when traditional insurance is too costly, too limited, or unavailable for an unusual exposure. The common thread is custom risk financing — keeping more risk in structures the buyer controls, or sending it to capital markets rather than to a standard insurer.",
+    "indications": [
+      "Reinsurance",
+      "Commercial & Liability"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "IRMI",
+      "Artemis"
+    ],
+    "aliases": [
+      "ART"
     ]
   },
   {
@@ -529,6 +588,22 @@
     "sources": [
       "III",
       "NAIC"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Attachment Point",
+    "full": "",
+    "plain": "The loss level where reinsurance starts paying — everything below it stays with the primary insurer.",
+    "snappy": "The threshold above which an excess-of-loss reinsurance layer begins to respond to a loss.",
+    "detail": "The attachment point is the floor of a reinsurance layer: losses below it are the cedent's to bear, and only the portion above triggers the reinsurer, up to the layer's limit. Raise it and the insurer retains more risk for a cheaper price; lower it and the cover responds sooner but costs more. In a stacked program each layer attaches where the one below tops out, so the attachment points define the whole tower of protection.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
     ]
   },
   {
@@ -755,6 +830,25 @@
   },
   {
     "letter": "B",
+    "term": "Bordereau",
+    "full": "",
+    "plain": "A periodic spreadsheet of the policies or claims passing through a reinsurance or delegated arrangement.",
+    "snappy": "A detailed periodic report listing the premiums and claims ceded under a treaty or written under delegated authority.",
+    "detail": "A bordereau is the running ledger of a reinsurance or delegated-underwriting relationship: a periodic report itemizing the individual policies, premiums, and claims flowing through the deal. The reinsurer or carrier relies on it to know what risk it's actually carrying and to book the cessions correctly. Late, sloppy, or thin bordereaux are a chronic source of disputes and a warning sign in delegated arrangements, since the party bearing the risk is trusting someone else's data to describe it.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "Lloyd's",
+      "IRMI"
+    ],
+    "aliases": [
+      "Bordereaux"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "Builders Risk Insurance",
     "full": "Course of Construction",
     "plain": "Coverage for a building while it's under construction, protecting the structure and materials on site.",
@@ -787,6 +881,22 @@
     "sources": [
       "Cornell LII",
       "IRMI"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Burning Cost",
+    "full": "",
+    "plain": "A reinsurance pricing method that bases the rate on the layer's own recent loss history.",
+    "snappy": "An experience-rating method pricing a reinsurance layer from the historical losses that would have struck it, loaded for expenses.",
+    "detail": "Burning cost prices a reinsurance layer by looking backward: take the losses from past years that would have hit the layer, divide by the premium base, and load the result for expenses, trend, and profit. It works where there's enough credible history, typically on working layers struck often enough to have a track record. Remote catastrophe layers, which rarely if ever burned in the data, can't be priced this way and lean on catastrophe models and exposure rating instead.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "CAS"
     ]
   },
   {
@@ -902,6 +1012,27 @@
   },
   {
     "letter": "C",
+    "term": "Captive Insurance",
+    "full": "Captive",
+    "plain": "An insurance company a business owns to insure its own risks, instead of buying from an outside insurer.",
+    "snappy": "A subsidiary insurer formed by a company or group to underwrite the risks of its owners rather than the public.",
+    "detail": "A captive is an insurer a company creates to cover itself: rather than paying premiums to an outside carrier, the parent funds its own subsidiary insurer, keeps the underwriting profit and investment income, and tailors coverage to risks the market prices poorly or won't touch. Captives buy reinsurance to cap their own exposure and are domiciled in friendly jurisdictions like Vermont or Bermuda. It's the flagship alternative risk transfer tool for organizations large enough to self-fund their predictable losses.",
+    "indications": [
+      "Reinsurance",
+      "Commercial & Liability"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "IRMI",
+      "NAIC"
+    ],
+    "aliases": [
+      "Captive",
+      "Captive Insurer"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Cargo Insurance",
     "full": "",
     "plain": "Coverage for goods while they're being shipped, so a loss in transit doesn't fall on the buyer or seller.",
@@ -989,6 +1120,25 @@
   },
   {
     "letter": "C",
+    "term": "Catastrophe Bond",
+    "full": "Cat Bond",
+    "plain": "A bond that pays insurers if a named disaster strikes — and wipes out investors' principal if it does.",
+    "snappy": "A security transferring catastrophe risk to capital-market investors, who lose principal if a defined triggering event occurs.",
+    "detail": "A catastrophe bond hands disaster risk to investors instead of reinsurers: an insurer or reinsurer issues the bond, investors buy it for a high yield, and if a defined event — a Florida hurricane above a set size, say — occurs, their principal is used to pay the claims. No event, and they get their money back with interest. Because hurricanes don't track stock markets, the bonds attract investors seeking returns uncorrelated with the economy, and they've become a major slice of the insurance-linked securities market.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "Artemis",
+      "RAA"
+    ],
+    "aliases": [
+      "Cat Bond"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Catastrophe Modeling",
     "full": "Cat Modeling",
     "plain": "Computer simulation of rare disasters — hurricanes, quakes — to estimate how badly they could hit an insurer's book.",
@@ -1005,6 +1155,27 @@
     "aliases": [
       "Cat Modeling",
       "Catastrophe Model"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Catastrophe Reinsurance",
+    "full": "Cat Cover",
+    "plain": "Reinsurance built specifically to absorb the huge, simultaneous losses of a hurricane, quake, or other disaster.",
+    "snappy": "Excess-of-loss reinsurance covering the accumulation of losses from a single catastrophic event across many policies.",
+    "detail": "Catastrophe reinsurance is the protection a property insurer buys against its worst day: a single hurricane or earthquake triggering thousands of claims at once. Structured as per-occurrence excess of loss, it responds when the total event loss climbs past the attachment point. Reinsurers price it off catastrophe models and the cedent's probable maximum loss, and when capacity tightens after a bad year, primary insurers feel it immediately in coastal pricing and availability.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "Artemis"
+    ],
+    "aliases": [
+      "Cat Cover",
+      "Catastrophe Cover",
+      "Cat XL"
     ]
   },
   {
@@ -1044,6 +1215,42 @@
   },
   {
     "letter": "C",
+    "term": "Ceding Commission",
+    "full": "",
+    "plain": "Money a reinsurer pays the primary insurer to cover the costs of writing the business it's sharing.",
+    "snappy": "An allowance a reinsurer pays the cedent under a proportional treaty to reimburse acquisition and overhead costs.",
+    "detail": "Under a proportional treaty the reinsurer takes a share of premium it never spent anything to acquire, so it pays the cedent a ceding commission in return — reimbursing the agent commissions, underwriting, and overhead the insurer incurred to write the business. Set well, it leaves the cedent whole on expenses and the reinsurer with a fair share of profitable premium. A sliding scale or profit commission can flex the figure up or down with how the ceded business actually performs.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Ceding Company",
+    "full": "Cedent",
+    "plain": "The primary insurer that hands off part of its risk to a reinsurer — the customer in a reinsurance deal.",
+    "snappy": "The insurer that transfers risk to a reinsurer, paying reinsurance premium and retaining the direct relationship with policyholders.",
+    "detail": "The ceding company is the insurer doing the buying: it writes the original policies, keeps the relationship with its policyholders, and cedes part of the risk to a reinsurer for a share of the premium. It still pays its insureds' claims directly, then collects the reinsurer's share as a reinsurance recoverable. Also called the cedent, it decides how much risk to keep — its net retention — and how much to pass along.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
+    ],
+    "aliases": [
+      "Cedent",
+      "Ceding Insurer"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Certificate of Insurance",
     "full": "COI",
     "plain": "A one-page proof that a business actually carries the coverage it claims, handed to clients and landlords.",
@@ -1059,6 +1266,22 @@
     ],
     "aliases": [
       "COI"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Cession",
+    "full": "",
+    "plain": "The chunk of risk a primary insurer passes to a reinsurer — the unit of what gets handed off.",
+    "snappy": "The portion of risk or premium transferred by a ceding company to a reinsurer under a reinsurance agreement.",
+    "detail": "A cession is what's handed over: the specific share of a policy or portfolio, and the premium that goes with it, that a ceding company transfers to a reinsurer. Under a treaty it happens automatically by formula; facultatively it's negotiated risk by risk. The reverse, when a reinsurer passes risk further on, is a retrocession. Tracking cessions accurately — often through a bordereau — is the bookkeeping backbone of every reinsurance relationship.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
     ]
   },
   {
@@ -1240,6 +1463,22 @@
   },
   {
     "letter": "C",
+    "term": "Clash Cover",
+    "full": "",
+    "plain": "Reinsurance for when one event triggers several of an insurer's policies or lines at once.",
+    "snappy": "A casualty reinsurance covering losses where a single occurrence involves multiple policies or coverages of the cedent.",
+    "detail": "Clash cover protects against the tangle of one event hitting many policies: a single car crash injuring several of an insurer's own insureds, or a disaster pulling in a company's general liability, auto, and workers' comp policies together. The reinsurance attaches high, above what any single policy could pay, and responds when multiple coverages clash on one occurrence. It's the casualty world's answer to the accumulation problem catastrophe cover handles on the property side.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Class Code",
     "full": "",
     "plain": "A numbered category that groups a business's jobs by hazard, setting the base rate for its workers'-comp premium.",
@@ -1357,6 +1596,22 @@
     "sources": [
       "Cornell LII",
       "IRMI"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Collateralized Reinsurance",
+    "full": "",
+    "plain": "Reinsurance fully backed by investor cash held in trust, so the cedent is covered even though no rated reinsurer stands behind it.",
+    "snappy": "Reinsurance in which the full limit is prefunded with investor collateral held in trust, rather than backed by a reinsurer's balance sheet.",
+    "detail": "Collateralized reinsurance lets investors provide cover without being a rated insurance company: the entire limit is posted as cash collateral in a trust up front, so the cedent can collect with no worry about the counterparty's strength. It's a workhorse of the insurance-linked securities market, often arranged through a fund, and it competes directly with traditional reinsurers. The trade-off is that capital sits locked in trust, but the certainty of prefunded payment is exactly what cedents and regulators like.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "Artemis",
+      "RAA"
     ]
   },
   {
@@ -1551,6 +1806,22 @@
     "sources": [
       "CMS",
       "AAA"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Commutation",
+    "full": "",
+    "plain": "Closing out a reinsurance relationship early with a final lump-sum payment, so neither side owes the other again.",
+    "snappy": "An agreement to terminate reinsurance obligations by a present-value settlement, ending all future claims between the parties.",
+    "detail": "A commutation draws a line under an open reinsurance contract: instead of waiting years for long-tail claims to pay out, the parties estimate the remaining liabilities, discount them to a present value, and settle with one final payment. The reinsurer is released and the cedent takes back the risk along with the cash. Both sides commute to gain certainty, free up capital, or sever ties with a weakening counterparty — it's how run-off relationships are finally wound up.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
     ]
   },
   {
@@ -1890,6 +2161,25 @@
     "category": "Health & Benefits",
     "sources": [
       "III"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Cut-Through Endorsement",
+    "full": "",
+    "plain": "A clause letting a policyholder collect directly from the reinsurer if the primary insurer goes broke.",
+    "snappy": "A provision allowing a policyholder or beneficiary to claim directly against the reinsurer if the ceding insurer becomes insolvent.",
+    "detail": "Normally reinsurance is a private matter between insurers, with no link to the policyholder. A cut-through endorsement pierces that wall: if the primary insurer fails, the named insured can collect the reinsured portion straight from the reinsurer. Lenders and large commercial insureds sometimes demand one when buying coverage from a small or shaky carrier backed by a strong reinsurer, so an insolvency upstream doesn't leave their claim unpaid.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
+    ],
+    "aliases": [
+      "Cut-Through Clause"
     ]
   },
   {
@@ -2554,6 +2844,26 @@
   },
   {
     "letter": "E",
+    "term": "Excess of Loss",
+    "full": "XoL",
+    "plain": "Reinsurance that pays the slice of a loss above a set point, up to a limit — the workhorse of catastrophe cover.",
+    "snappy": "A non-proportional reinsurance covering losses above an attachment point up to a stated limit, per risk or per event.",
+    "detail": "Excess of loss is the layered structure behind most catastrophe and large-loss protection: the reinsurer pays the part of a loss that exceeds an attachment point, up to the layer's limit, while the cedent keeps everything below. A program stacks several layers, each placed with different reinsurers, to build deep protection. It can apply per risk, per occurrence, or in aggregate across a year. Priced as a rate on line, it's how insurers cap their worst-case exposure.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
+    ],
+    "aliases": [
+      "XoL",
+      "Excess of Loss Reinsurance"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Excess Verdict",
     "full": "",
     "plain": "A court award bigger than the policy limit — the gap can fall on the insured, or the insurer if it mishandled the case.",
@@ -2821,6 +3131,26 @@
   },
   {
     "letter": "F",
+    "term": "Facultative Reinsurance",
+    "full": "",
+    "plain": "Reinsurance arranged one risk at a time — for the big or odd exposures a standing treaty won't cover.",
+    "snappy": "Reinsurance placed individually for a single risk, which the reinsurer evaluates and may accept or decline.",
+    "detail": "Facultative reinsurance is retail to a treaty's wholesale: the cedent shops a single, specific risk — a skyscraper, a refinery, an unusual liability — and the reinsurer underwrites and prices that one exposure, free to accept or decline. It handles the risks too large or too peculiar for automatic treaty terms, and it lets a primary insurer say yes to a marquee account it couldn't otherwise hold. The trade-off is effort: each placement is negotiated and documented on its own.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
+    ],
+    "aliases": [
+      "Facultative",
+      "Fac"
+    ]
+  },
+  {
+    "letter": "F",
     "term": "FAIR Plan",
     "full": "Fair Access to Insurance Requirements",
     "plain": "A state-backed insurer of last resort for homeowners who can't get coverage on the open market.",
@@ -2977,6 +3307,25 @@
   },
   {
     "letter": "F",
+    "term": "Finite Risk Reinsurance",
+    "full": "",
+    "plain": "Reinsurance that transfers only a limited amount of real risk, working mostly to smooth an insurer's finances over time.",
+    "snappy": "A multi-year reinsurance blending limited risk transfer with financing, smoothing results across periods.",
+    "detail": "Finite risk reinsurance sits near the border between insurance and financing: spread over several years, it transfers only a capped, modest amount of genuine underwriting risk while mainly smoothing the cedent's results and timing of losses. Used legitimately, it manages volatility; abused, it can dress up a loan as insurance to flatter the books, which is exactly what drew regulators and accountants to scrutinize it after high-profile scandals. The test is whether enough real risk actually changes hands.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "NAIC",
+      "RAA"
+    ],
+    "aliases": [
+      "Finite Reinsurance"
+    ]
+  },
+  {
+    "letter": "F",
     "term": "Fire Protection Class",
     "full": "Public Protection Classification",
     "plain": "A 1-to-10 rating of how well a community can fight fires, which shapes home insurance premiums.",
@@ -3119,6 +3468,25 @@
   },
   {
     "letter": "F",
+    "term": "Follow the Fortunes",
+    "full": "",
+    "plain": "The reinsurance principle that the reinsurer shares the cedent's outcomes, honouring its good-faith claim decisions.",
+    "snappy": "A doctrine binding the reinsurer to accept the cedent's good-faith underwriting and claims decisions within the treaty's terms.",
+    "detail": "Follow the fortunes is the trust at the heart of reinsurance: the reinsurer agrees to share the cedent's fate on the covered business, accepting its reasonable, good-faith underwriting and claims handling rather than relitigating every decision. Its sibling, follow the settlements, binds the reinsurer to the cedent's bona fide claim settlements. The doctrines keep reinsurance workable — without them a reinsurer could second-guess each payment — but they stop at fraud, bad faith, or losses plainly outside the treaty.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "Lloyd's"
+    ],
+    "aliases": [
+      "Follow the Settlements"
+    ]
+  },
+  {
+    "letter": "F",
     "term": "Force-Placed Insurance",
     "full": "Lender-Placed Insurance",
     "plain": "Expensive coverage a lender buys on your home — and bills you for — when your own policy lapses.",
@@ -3173,6 +3541,26 @@
   },
   {
     "letter": "F",
+    "term": "Fronting",
+    "full": "",
+    "plain": "When a licensed insurer issues a policy but passes nearly all the risk to a captive or reinsurer behind the scenes.",
+    "snappy": "An arrangement where a licensed insurer issues a policy and cedes most or all of the risk to a captive or unauthorized reinsurer.",
+    "detail": "Fronting rents an insurer's licence and paper: a licensed carrier issues the policy a captive or risk retention group needs to satisfy state filing or contract requirements, then cedes nearly all the risk back to that entity through reinsurance, keeping a fee. It lets a captive operate where it isn't itself admitted. The fronting insurer still carries credit risk if the captive can't pay, so it demands collateral — and regulators watch the arrangements to be sure real, secured risk transfer stands behind the public-facing policy.",
+    "indications": [
+      "Reinsurance",
+      "Commercial & Liability"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "IRMI",
+      "NAIC"
+    ],
+    "aliases": [
+      "Fronting Arrangement"
+    ]
+  },
+  {
+    "letter": "F",
     "term": "Full Coverage",
     "full": "",
     "plain": "Everyday shorthand for carrying liability plus collision and comprehensive on your car.",
@@ -3185,6 +3573,22 @@
     "sources": [
       "III",
       "NAIC"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "Funds Withheld",
+    "full": "",
+    "plain": "An arrangement where the primary insurer holds onto the reinsurer's premium as security instead of handing it over.",
+    "snappy": "A reinsurance arrangement in which the cedent retains assets backing the reinsurer's obligations rather than transferring them.",
+    "detail": "Under a funds-withheld arrangement, the cedent keeps the premium and reserves that would otherwise go to the reinsurer, holding them as collateral and crediting interest. It protects the insurer if the reinsurer fails to pay and helps satisfy regulators wary of unsecured recoverables from offshore or unauthorized reinsurers. The reinsurer accepts it as the price of the deal, since the credit and the assured payment of claims still flow according to the contract.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "NAIC",
+      "RAA"
     ]
   },
   {
@@ -3307,6 +3711,23 @@
     "sources": [
       "Cornell LII",
       "IRMI"
+    ]
+  },
+  {
+    "letter": "G",
+    "term": "Group Captive",
+    "full": "",
+    "plain": "A captive insurer owned jointly by several unrelated companies that pool their risks together.",
+    "snappy": "A captive owned by multiple unrelated businesses, often in the same industry, that share risk and reward through it.",
+    "detail": "A group captive lets companies too small for their own captive band together: several unrelated businesses, often in a shared industry, jointly own an insurer that covers all of them, pooling premiums and losses. Members with good loss records are rewarded, since the group keeps the underwriting profit instead of an outside insurer. The pooling spreads risk across members, and the shared stake pushes everyone toward stronger loss control. It's a popular middle path between buying insurance and going fully captive alone.",
+    "indications": [
+      "Reinsurance",
+      "Commercial & Liability"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "IRMI",
+      "NAIC"
     ]
   },
   {
@@ -3906,6 +4327,25 @@
   },
   {
     "letter": "I",
+    "term": "Industry Loss Warranty",
+    "full": "ILW",
+    "plain": "A reinsurance-like contract that pays out based on the whole industry's disaster losses, not the buyer's own.",
+    "snappy": "A contract paying out when total insured industry losses from an event exceed a set trigger, regardless of the buyer's own loss.",
+    "detail": "An industry loss warranty pays on an industry-wide trigger: the buyer collects if total insured losses from an event — as tallied by a recognized index — top an agreed figure, say $30 billion, even if its own losses differ. Pricing is simple and disputes are few, since the payout turns on a public number rather than the buyer's own adjusted claims. Insurers and funds use them as a quick, liquid way to add or trade catastrophe protection, accepting the basis risk that their own losses may not match the index.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "Artemis",
+      "RAA"
+    ],
+    "aliases": [
+      "ILW"
+    ]
+  },
+  {
+    "letter": "I",
     "term": "Inflation Guard",
     "full": "",
     "plain": "An automatic yearly bump to your home's coverage limit so it keeps pace with rising rebuilding costs.",
@@ -3998,6 +4438,25 @@
     "sources": [
       "NICB",
       "Coalition Against Insurance Fraud"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Insurance-Linked Securities",
+    "full": "ILS",
+    "plain": "Financial instruments that let investors take on insurance risk directly, with returns driven by claims rather than markets.",
+    "snappy": "Securities whose performance depends on insurance loss events, channeling capital-market money into reinsurance risk.",
+    "detail": "Insurance-linked securities are the bridge between Wall Street and reinsurance: instruments — catastrophe bonds chief among them — whose payoff depends on whether insured disasters occur, not on interest rates or earnings. They let pension funds and hedge funds supply reinsurance capacity directly, drawn by returns uncorrelated with other markets, and they give insurers an alternative to traditional reinsurers. The flood of this alternative capital has reshaped catastrophe pricing, softening rates in calm years and competing with reinsurers for the same risk.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "Artemis",
+      "RAA"
+    ],
+    "aliases": [
+      "ILS"
     ]
   },
   {
@@ -4380,6 +4839,45 @@
   },
   {
     "letter": "L",
+    "term": "Lloyd's of London",
+    "full": "Lloyd's",
+    "plain": "The historic London marketplace where syndicates of investors club together to insure unusual and large risks.",
+    "snappy": "A centuries-old insurance and reinsurance marketplace in London where member syndicates underwrite risk, rather than a single company.",
+    "detail": "Lloyd's of London isn't an insurer but a marketplace, born in a 17th-century coffee house and still the global home for unusual, large, and specialty risk — ships, aircraft, satellites, celebrity body parts, and vast amounts of reinsurance. Capital-backed syndicates compete to underwrite slices of each risk, a lead setting terms others follow. Its corporation sets standards and oversees solvency. For centuries it has been where the hard-to-place risk of the world finds a price.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "Lloyd's",
+      "III"
+    ],
+    "aliases": [
+      "Lloyd's",
+      "Lloyd"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Lloyd's Syndicate",
+    "full": "",
+    "plain": "A group of investors at Lloyd's that pools capital to underwrite insurance and reinsurance as one unit.",
+    "snappy": "A member group at Lloyd's that pools capital to accept insurance risk, managed by a specialist underwriting agency.",
+    "detail": "A Lloyd's syndicate is the underwriting unit inside the Lloyd's market: capital providers — once wealthy individuals called Names, now mostly corporations — pool their money so the syndicate can accept risk, run by a managing agency and its underwriters. Dozens of syndicates compete and co-insure, each taking a line on a risk until it's fully placed. The structure lets large or exotic exposures be spread across many backers, which is how the market has long absorbed risks no single insurer would shoulder.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "Lloyd's",
+      "III"
+    ],
+    "aliases": [
+      "Syndicate"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Long-Term Care Insurance",
     "full": "",
     "plain": "Coverage for help with daily living — nursing homes, home aides — when age or illness leaves you unable to cope alone.",
@@ -4548,6 +5046,25 @@
     ],
     "aliases": [
       "Lienholder"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Loss Portfolio Transfer",
+    "full": "LPT",
+    "plain": "A deal where an insurer hands an entire book of old claims, plus the money to pay them, to a reinsurer.",
+    "snappy": "A retroactive reinsurance transaction transferring a block of existing claim liabilities and supporting reserves to a reinsurer.",
+    "detail": "A loss portfolio transfer moves the past off the balance sheet: an insurer pays a reinsurer a lump sum — its reserves, roughly — and the reinsurer takes over a defined block of already-incurred claims, including the risk they develop worse than expected. Companies use it to exit a discontinued line, clean up before a sale, or cap adverse development on old liabilities. It's a cornerstone of the legacy or run-off market that specializes in buying other insurers' tails.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
+    ],
+    "aliases": [
+      "LPT"
     ]
   },
   {
@@ -5256,6 +5773,25 @@
   },
   {
     "letter": "N",
+    "term": "Net Retention",
+    "full": "",
+    "plain": "How much risk an insurer keeps for itself after buying reinsurance — its own skin in the game.",
+    "snappy": "The amount of risk a ceding company retains for its own account after ceding the rest to reinsurers.",
+    "detail": "Net retention is the line an insurer draws between what it keeps and what it cedes: the slice of each risk, or each loss, it absorbs on its own balance sheet before reinsurance responds. Set it high and the insurer keeps more premium but more volatility; set it low and it pays away premium for stability. The choice flows directly from the company's risk appetite and capital, and it's the first number negotiated in any reinsurance program.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
+    ],
+    "aliases": [
+      "Retention Limit"
+    ]
+  },
+  {
+    "letter": "N",
     "term": "Network",
     "full": "",
     "plain": "The group of doctors, hospitals, and pharmacies your plan has signed up at discounted rates.",
@@ -5331,6 +5867,25 @@
     "sources": [
       "III",
       "NAIC"
+    ]
+  },
+  {
+    "letter": "N",
+    "term": "Non-Proportional Reinsurance",
+    "full": "",
+    "plain": "Reinsurance that pays only once losses climb past a set level — protecting against the big hits, not the routine ones.",
+    "snappy": "A reinsurance structure responding only when losses exceed an agreed retention, rather than sharing every loss proportionally.",
+    "detail": "Non-proportional reinsurance kicks in at a threshold: the cedent absorbs losses up to its retention, and the reinsurer pays only the excess above it, up to a limit. Excess of loss cover is the main form. Premium isn't a simple share of the original but a negotiated price for the layer of protection, often quoted as a rate on line. It's how insurers buy catastrophe and large-loss protection without paying away a slice of every ordinary claim.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
+    ],
+    "aliases": [
+      "Non-Proportional"
     ]
   },
   {
@@ -5588,6 +6143,26 @@
   },
   {
     "letter": "P",
+    "term": "Parametric Insurance",
+    "full": "",
+    "plain": "Coverage that pays a fixed sum when a measurable trigger is hit — a quake's magnitude, a storm's wind speed — not on assessed damage.",
+    "snappy": "Coverage paying a predetermined amount when an objective parameter crosses a threshold, independent of actual loss adjustment.",
+    "detail": "Parametric insurance skips the claims adjuster: payment is triggered by a measurable index — an earthquake above a set magnitude, rainfall below a threshold, wind over a given speed — and the agreed sum is paid fast, often within days, regardless of the policyholder's actual damage. The speed and simplicity are the appeal, vital for disaster relief and for businesses needing cash immediately. The trade-off is basis risk: if real losses occur but the trigger isn't met, nothing pays, and vice versa.",
+    "indications": [
+      "Reinsurance",
+      "Commercial & Liability"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "Artemis",
+      "Swiss Re"
+    ],
+    "aliases": [
+      "Parametric Cover"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Participating Policy",
     "full": "Par Policy",
     "plain": "A life policy that can pay you dividends because you share in the good results of the insurer.",
@@ -5657,6 +6232,22 @@
     "aliases": [
       "Each-Occurrence Limit",
       "Per-Occurrence"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Per-Risk Excess of Loss",
+    "full": "",
+    "plain": "Excess-of-loss reinsurance that responds to one large loss on a single policy, rather than to a catastrophe.",
+    "snappy": "An excess-of-loss treaty applying the retention and limit separately to each individual risk or policy.",
+    "detail": "Per-risk excess of loss protects against a single big claim on one policy: a factory fire, a destroyed commercial building. The attachment point and limit apply to each risk individually, so the reinsurer pays the slice of any one loss above the retention. It contrasts with per-occurrence catastrophe cover, which responds to many policies hit by one event. Property insurers use per-risk layers to write large individual buildings without betting the company on any single one.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
     ]
   },
   {
@@ -6321,6 +6912,22 @@
   },
   {
     "letter": "P",
+    "term": "Profit Commission",
+    "full": "",
+    "plain": "A bonus paid back to the primary insurer when the business it ceded turns out profitable for the reinsurer.",
+    "snappy": "A contingent payment returning a share of a treaty's profit to the cedent when ceded business performs well.",
+    "detail": "A profit commission rewards the cedent for handing over good business: after the reinsurer tallies premiums against losses and expenses on the ceded book, an agreed share of any profit is paid back to the insurer. It gives the cedent a stake in underwriting carefully even on risk it has passed along, and it softens the sense of paying away premium in calm years. It's a standard feature of proportional treaties, often paired with a sliding scale commission.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Prompt Payment Law",
     "full": "",
     "plain": "A state rule forcing insurers to acknowledge, decide, and pay claims within set deadlines — or owe interest and penalties.",
@@ -6371,6 +6978,26 @@
     ],
     "aliases": [
       "PD"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Proportional Reinsurance",
+    "full": "Pro Rata Reinsurance",
+    "plain": "Reinsurance where the reinsurer shares premiums and losses in the same fixed proportion as the risk it took.",
+    "snappy": "A reinsurance structure in which the reinsurer takes a set share of premiums and pays the same share of losses.",
+    "detail": "Under proportional reinsurance the reinsurer rides alongside the cedent at a fixed percentage: take 40% of the premium and you pay 40% of every loss, large or small. Quota share and surplus share are its two forms. Because the reinsurer's fortunes track the cedent's directly, it usually pays a ceding commission to cover the insurer's costs of writing the business. It contrasts with non-proportional cover, which only responds once losses pierce an agreed threshold.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
+    ],
+    "aliases": [
+      "Pro Rata Reinsurance",
+      "Proportional"
     ]
   },
   {
@@ -6492,6 +7119,22 @@
   },
   {
     "letter": "Q",
+    "term": "Quota Share",
+    "full": "",
+    "plain": "A reinsurance deal where the reinsurer takes a flat percentage of every policy — premiums and losses alike.",
+    "snappy": "A proportional treaty in which the reinsurer assumes a fixed percentage of all policies in a book, sharing premium and losses equally.",
+    "detail": "Quota share is the simplest proportional treaty: the reinsurer takes the same flat percentage — 30%, say — of every policy in the covered book, collecting that share of premium and paying that share of every loss. It's a blunt, even split that hands the reinsurer a representative slice of the whole portfolio. Cedents use it to relieve capital strain and grow, since ceding premium frees up the surplus that regulators require behind written business. A ceding commission offsets the insurer's acquisition costs.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
+    ]
+  },
+  {
+    "letter": "Q",
     "term": "Quote",
     "full": "",
     "plain": "An estimated price for a policy, based on the details you give the insurer.",
@@ -6540,6 +7183,25 @@
     "aliases": [
       "Risk Class",
       "Underwriting Class"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Rate on Line",
+    "full": "ROL",
+    "plain": "The price of a reinsurance layer as a percentage of the cover it provides — reinsurance's headline price metric.",
+    "snappy": "Reinsurance premium divided by the layer limit, expressing the cost of cover as a percentage of the protection bought.",
+    "detail": "Rate on line is how the reinsurance market quotes price: the premium divided by the limit of the layer. Pay $2 million for a $10 million layer and the rate on line is 20%; its inverse, here five years, is the payback period a reinsurer would need loss-free to recoup the limit. Low layers struck often carry high rates on line, remote catastrophe layers very low ones. It's the single number brokers and reinsurers track to see whether the market is hardening or softening.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "Artemis"
+    ],
+    "aliases": [
+      "ROL"
     ]
   },
   {
@@ -6674,6 +7336,130 @@
     "sources": [
       "III",
       "Investopedia"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Reinstatement Premium",
+    "full": "",
+    "plain": "An extra premium that buys back a reinsurance layer's limit after a loss has used it up.",
+    "snappy": "An additional premium paid to restore the limit of a reinsurance layer once a loss has eroded or exhausted it.",
+    "detail": "Catastrophe layers often come with a limited number of reinstatements: once a loss consumes the layer's limit, the cedent pays a reinstatement premium to refill it for the rest of the term, in case a second event strikes. A layer might allow one or two reinstatements before the protection is simply gone. The cost and number of reinstatements are negotiated up front and matter enormously in a busy hurricane season, when a single layer can be exhausted more than once.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "Artemis"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Reinsurance",
+    "full": "",
+    "plain": "Insurance that insurers buy for themselves — spreading their biggest risks to other companies so one disaster can't sink them.",
+    "snappy": "Coverage an insurer buys from another insurer to share large or catastrophic risks it cannot safely carry alone.",
+    "detail": "Reinsurance is insurance for insurers. A company holding thousands of coastal homes can't absorb a single mega-hurricane alone, so it cedes part of that risk to a reinsurer in exchange for a share of the premium. This lets primary insurers write more business than their own capital would allow, smooth their results, and protect solvency. The reinsurers in turn pass on slices through retrocession, so a catastrophe's cost ends up spread across insurers and investors worldwide.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "III"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Reinsurance Broker",
+    "full": "",
+    "plain": "An intermediary who designs and places an insurer's reinsurance program with reinsurers around the world.",
+    "snappy": "A specialist intermediary that structures a cedent's reinsurance program and negotiates its placement with reinsurers.",
+    "detail": "A reinsurance broker is the matchmaker and architect of a reinsurance program: working for the ceding company, they analyze its exposures, design the tower of layers, and shop the placement to reinsurers globally, often syndicating a single layer across many. The biggest — firms like Guy Carpenter and Aon's reinsurance arm — wield enormous influence over capacity and pricing. They're paid by brokerage built into the deal, and their modelling and market access are why most large cedents place treaties through them rather than direct.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "RAA",
+      "IRMI"
+    ],
+    "aliases": [
+      "Reinsurance Intermediary"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Reinsurance Layer",
+    "full": "",
+    "plain": "One slice of an excess-of-loss program, defined by where it starts and how high it reaches.",
+    "snappy": "A defined band of an excess-of-loss program, specified by its attachment point and limit, often placed with several reinsurers.",
+    "detail": "Reinsurance is built in layers, like floors of a building: each layer covers losses between its attachment point and the top of its limit, and several stacked together form a tower of protection from the cedent's retention up to the largest loss it wants covered. Different reinsurers take different layers, and each layer's price reflects how likely it is to be hit — low layers cost more per dollar, remote upper layers far less. Structuring the tower is the core of placing a program.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
+    ],
+    "aliases": [
+      "Layering"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Reinsurance Recoverable",
+    "full": "",
+    "plain": "Money a reinsurer owes the primary insurer for its share of claims already paid — an asset on the insurer's books.",
+    "snappy": "The amount a ceding company is owed by its reinsurers for their share of paid and reserved losses.",
+    "detail": "When a ceding company pays a covered claim, it collects the reinsurers' share afterward as a reinsurance recoverable — a major asset on its balance sheet. Because the insurer depends on those reinsurers actually paying, regulators watch the quality of recoverables closely: a recoverable from a shaky or offshore reinsurer is worth less than one from a top-rated firm. Large, slow-paying, or disputed recoverables have toppled insurers whose own reserves looked fine on paper.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "NAIC",
+      "RAA"
+    ],
+    "aliases": [
+      "Reinsurance Recoverables"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Reinsurance Sidecar",
+    "full": "",
+    "plain": "A temporary vehicle that lets outside investors back a reinsurer's book for a season and share the results.",
+    "snappy": "A dedicated, time-limited vehicle through which investors assume a quota share of a reinsurer's business.",
+    "detail": "A sidecar is a bolt-on pool of investor money that rides alongside a reinsurer: a dedicated vehicle takes a quota share of a defined book, usually catastrophe business, for a year or two, with investors collecting the profit or absorbing the losses. Reinsurers spin them up quickly to add capacity when rates are attractive after a big loss, without permanently raising their own capital. It's a flexible, finite slice of alternative capital, opened and wound down as the market cycle turns.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "Artemis",
+      "RAA"
+    ],
+    "aliases": [
+      "Sidecar"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Reinsurer",
+    "full": "",
+    "plain": "The company that insures insurance companies — taking on slices of their risk for a share of the premium.",
+    "snappy": "An insurer that accepts risk ceded by other insurers, providing reinsurance in exchange for a portion of the premium.",
+    "detail": "A reinsurer sits one layer back from the public: its customers are other insurers, not policyholders. Giants like Munich Re, Swiss Re, and the syndicates at Lloyd's accept ceded risk from primary carriers around the world, pooling exposures across countries and lines so a disaster in one place is cushioned by calm elsewhere. Because they backstop the whole system, reinsurers' appetite and pricing ripple straight through to what primary insurers can offer and charge.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "III"
     ]
   },
   {
@@ -6824,6 +7610,26 @@
     "sources": [
       "Verisk",
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Retrocession",
+    "full": "",
+    "plain": "Reinsurance bought by reinsurers — passing risk yet another step down the chain to spread it further.",
+    "snappy": "The transfer of risk from one reinsurer to another, allowing reinsurers to limit their own catastrophe exposure.",
+    "detail": "Retrocession is reinsurance for reinsurers: having accepted risk from primary insurers, a reinsurer cedes part of it onward to a retrocessionaire to cap its own catastrophe exposure. The chain spreads a single disaster's cost across many balance sheets and continents. It can also loop risk back in unexpected ways — the so-called spiral, where retroceded risk circulates among the same players — a danger that surfaced painfully in the London market's losses of the early 1990s.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "Lloyd's"
+    ],
+    "aliases": [
+      "Retro",
+      "Retrocessionaire"
     ]
   },
   {
@@ -7005,6 +7811,26 @@
   },
   {
     "letter": "R",
+    "term": "Risk Retention Group",
+    "full": "RRG",
+    "plain": "A member-owned insurer that lets businesses in the same field band together to self-insure their liability.",
+    "snappy": "A liability insurer owned by its policyholder-members, authorized under federal law to operate across state lines from one home state.",
+    "detail": "A risk retention group is a liability insurer its own customers own, created under a federal law that lets it license in one state and write members across the country. Doctors, contractors, or trucking firms facing scarce or costly liability cover form one to self-insure together. It can write only liability, not property, and it shifts both the risk and the reward to the members. It's a structured, regulated cousin of the group captive aimed squarely at hard-to-place liability.",
+    "indications": [
+      "Reinsurance",
+      "Commercial & Liability"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "NAIC",
+      "IRMI"
+    ],
+    "aliases": [
+      "RRG"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "Risk Selection",
     "full": "",
     "plain": "The insurer's choice of which risks to take on and which to turn away.",
@@ -7017,6 +7843,22 @@
     "sources": [
       "IRMI",
       "SOA"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Risk Transfer",
+    "full": "",
+    "plain": "Shifting the financial burden of a possible loss onto someone else — the core thing insurance and reinsurance do.",
+    "snappy": "The shifting of the financial consequences of a risk from one party to another, the principle underlying insurance contracts.",
+    "detail": "Risk transfer is the fundamental move of the whole industry: a person, business, or insurer pays to shift the financial weight of an uncertain loss onto a party better able to bear it. Buying a policy transfers risk to an insurer; reinsurance transfers it again; capital-market tools like catastrophe bonds transfer it to investors. It's one of the four classic responses to risk, alongside avoiding, reducing, and retaining it, and it's the reason insurance exists at all.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "IRMI",
+      "Investopedia"
     ]
   },
   {
@@ -7293,6 +8135,42 @@
     ],
     "aliases": [
       "Life Only"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Single-Parent Captive",
+    "full": "",
+    "plain": "A captive insurer owned by one company to insure only that company's own risks.",
+    "snappy": "A captive owned and used by a single organization to insure the risks of itself and its affiliates.",
+    "detail": "A single-parent, or pure, captive is the simplest form: one company owns the captive and it insures only that company and its subsidiaries. The parent gains control over coverage and pricing, captures the profit a commercial insurer would have kept, and can reach reinsurance markets directly. It suits a large organization with enough predictable loss volume to justify running its own insurer. Smaller firms that can't go it alone instead join a group captive to pool with peers.",
+    "indications": [
+      "Reinsurance",
+      "Commercial & Liability"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "IRMI",
+      "NAIC"
+    ],
+    "aliases": [
+      "Pure Captive"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Sliding Scale Commission",
+    "full": "",
+    "plain": "A ceding commission that rises or falls automatically with how profitable the reinsured business turns out to be.",
+    "snappy": "A ceding commission that adjusts inversely to the loss ratio of the ceded business, rewarding good results.",
+    "detail": "A sliding scale commission ties the reinsurer's payment to the cedent's underwriting quality: when the ceded book runs a low loss ratio, the ceding commission slides up; when losses are heavy, it slides down to a floor. It aligns both sides on writing good business, since the cedent shares in the upside of a clean year and the reinsurer is cushioned in a bad one. It's a common refinement on proportional treaties, sitting alongside or instead of a profit commission.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
     ]
   },
   {
@@ -7633,6 +8511,25 @@
   },
   {
     "letter": "S",
+    "term": "Surplus Share",
+    "full": "",
+    "plain": "A proportional treaty that reinsures only the part of each policy above the insurer's chosen retention line.",
+    "snappy": "A proportional treaty ceding the portion of each risk that exceeds the cedent's retention, leaving small risks fully retained.",
+    "detail": "Surplus share is proportional reinsurance with a twist: instead of a flat percentage of everything, the cedent keeps a set retention on each risk and cedes only the surplus above it, so the reinsured share varies policy by policy. Small risks stay entirely with the insurer; large ones are heavily ceded. It lets a carrier keep all the premium on routine business while still writing policies far larger than its retention. The treaty's capacity is measured in lines — multiples of the retention.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
+    ],
+    "aliases": [
+      "Surplus Treaty"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Surrender Charge",
     "full": "",
     "plain": "A penalty the insurer keeps if you cash out a life policy or annuity in its early years.",
@@ -7895,6 +8792,25 @@
   },
   {
     "letter": "T",
+    "term": "Treaty Reinsurance",
+    "full": "",
+    "plain": "A standing deal where a reinsurer automatically takes an agreed slice of a whole class of the insurer's policies.",
+    "snappy": "A reinsurance agreement covering a defined book of business automatically, without underwriting each risk individually.",
+    "detail": "Treaty reinsurance is the wholesale arrangement: one contract under which the reinsurer agrees to accept an agreed share of every policy in a defined book — all the cedent's homeowners business, say — automatically, no risk-by-risk review. It gives the primary insurer reliable, ongoing capacity and the reinsurer a diversified slice of a whole portfolio. It contrasts with facultative reinsurance, which is negotiated one risk at a time for the unusual or oversized exposures a treaty doesn't neatly cover.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
+    ],
+    "aliases": [
+      "Treaty"
+    ]
+  },
+  {
+    "letter": "T",
     "term": "Trend Factor",
     "full": "",
     "plain": "An adjustment that ages old loss data forward to today's cost level, accounting for inflation and changing behaviour.",
@@ -7907,6 +8823,25 @@
     "sources": [
       "CAS",
       "SOA"
+    ]
+  },
+  {
+    "letter": "U",
+    "term": "Ultimate Net Loss",
+    "full": "UNL",
+    "plain": "The final, all-in cost of a loss to the reinsured after every recovery and expense is counted — the figure reinsurance pays on.",
+    "snappy": "The total loss retained by the cedent after deductions like salvage and other reinsurance, plus loss adjustment expense, on which a layer responds.",
+    "detail": "Ultimate net loss is the number a reinsurance layer actually measures against its attachment point: the cedent's loss once salvage, subrogation, and any inuring reinsurance are subtracted and loss adjustment expense is added in. Defining it precisely matters, because whether costs like defence count toward the loss can decide whether a layer is breached. Disputes over what belongs in the ultimate net loss are among the most common in reinsurance claims.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
+    ],
+    "aliases": [
+      "UNL"
     ]
   },
   {
@@ -8463,6 +9398,22 @@
       "Workers' Comp",
       "Workers Compensation",
       "Workers Comp"
+    ]
+  },
+  {
+    "letter": "W",
+    "term": "Working Layer",
+    "full": "",
+    "plain": "The lowest, most frequently hit slice of an excess-of-loss program — the layer that actually pays out most years.",
+    "snappy": "The lower reinsurance layer expected to be triggered by ordinary large losses, as opposed to remote catastrophe layers.",
+    "detail": "In a stacked excess of loss program, the working layer sits just above the cedent's retention, low enough that it's tapped regularly by everyday large losses. Because it pays out often, it's priced richly, with a high rate on line and limited reinstatements. The remote upper layers, struck only by true catastrophes, cost far less per dollar of cover. The shape of the whole tower — cheap remote protection over an expensive working layer — reflects how loss frequency falls as severity climbs.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Reinsurance & Risk Transfer",
+    "sources": [
+      "RAA",
+      "IRMI"
     ]
   },
   {
