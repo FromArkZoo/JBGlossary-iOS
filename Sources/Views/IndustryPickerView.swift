@@ -104,7 +104,7 @@ private struct IndustryTile: View {
             Text(config.brand.subtitle)
                 .font(PGFont.metaItalic)
                 .foregroundStyle(PGColors.inkLight)
-                .lineLimit(2)
+                .lineLimit(2, reservesSpace: true)
                 .fixedSize(horizontal: false, vertical: true)
                 .frame(maxWidth: .infinity, alignment: .leading)
         }
