@@ -156,6 +156,26 @@
   },
   {
     "letter": "A",
+    "term": "Additional Living Expenses",
+    "full": "Coverage D",
+    "plain": "Home insurance that pays your extra costs — hotels, meals — when a covered disaster forces you out of your house.",
+    "snappy": "The homeowners coverage paying the extra cost of living elsewhere while a damaged home is repaired.",
+    "detail": "If a fire makes your home unlivable, additional living expenses, the homeowners form of loss of use, pays the gap between your normal costs and the pricier reality of a hotel, restaurant meals, and storage while the house is rebuilt. It covers only the increase, not your whole budget, and runs up against time or dollar caps. Keeping receipts during displacement is how families actually collect it.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "Coverage D",
+      "ALE"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Affordable Care Act",
     "full": "ACA",
     "plain": "The 2010 health law that created online marketplaces, subsidies, and rules banning denial for pre-existing conditions.",
@@ -378,6 +398,22 @@
   },
   {
     "letter": "A",
+    "term": "Attractive Nuisance",
+    "full": "",
+    "plain": "A hazard that lures children — a pool, a trampoline — making the owner liable even for trespassers.",
+    "snappy": "A doctrine holding owners liable for child injuries from tempting hazards like pools, even when the child trespasses.",
+    "detail": "The attractive nuisance doctrine makes a property owner responsible for injuries to children drawn in by a dangerous temptation — most famously a swimming pool, but also a trampoline, an old refrigerator, or construction equipment — even if the child was trespassing. It overrides the usual lower duty owed to trespassers. It's why insurers surcharge or restrict coverage for pools and trampolines, the classic attractive nuisances that drive homeowner liability claims.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Law & Liability",
+    "sources": [
+      "Cornell LII",
+      "III"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Auto Insurance",
     "full": "Car Insurance",
     "plain": "Coverage for your car that pays for crashes, theft, and the harm you cause others while driving.",
@@ -494,6 +530,26 @@
     ],
     "aliases": [
       "BI"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Builders Risk Insurance",
+    "full": "Course of Construction",
+    "plain": "Coverage for a building while it's under construction, protecting the structure and materials on site.",
+    "snappy": "Property coverage during construction or renovation, insuring the structure, materials, and equipment against loss on site.",
+    "detail": "A house under construction isn't a finished home, so it needs builders risk insurance — course-of-construction coverage — protecting the rising structure, materials, and sometimes equipment against fire, theft, and weather until the project is done. The owner, builder, or developer carries it, and it ends when the building is complete and occupied, handing off to a standard property policy. Lenders financing construction require it.",
+    "indications": [
+      "Home & Property",
+      "Commercial & Liability"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "Course of Construction"
     ]
   },
   {
@@ -684,6 +740,25 @@
     ],
     "aliases": [
       "Collector Car Insurance"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "CLUE Report",
+    "full": "Comprehensive Loss Underwriting Exchange",
+    "plain": "A shared database of past insurance claims that insurers check when pricing your home or auto coverage.",
+    "snappy": "An industry database of a property's and person's prior insurance claims, used to underwrite and price new coverage.",
+    "detail": "Insurers report and check the CLUE report, a seven-year history of claims tied to a property and a person. A house with a string of water claims, or a buyer with a claims-heavy past, can face higher premiums or a decline even before anything goes wrong. Buyers can request a property's CLUE report before purchase, and consumers can dispute errors much like a credit file.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Underwriting & Risk",
+    "sources": [
+      "NAIC",
+      "III"
+    ],
+    "aliases": [
+      "Comprehensive Loss Underwriting Exchange"
     ]
   },
   {
@@ -1056,6 +1131,22 @@
   },
   {
     "letter": "D",
+    "term": "Defensible Space",
+    "full": "",
+    "plain": "The cleared buffer around a home in wildfire country that insurers increasingly require for coverage.",
+    "snappy": "A maintained, vegetation-cleared zone around a structure reducing wildfire risk, often required for coverage in fire-prone areas.",
+    "detail": "In wildfire-prone regions, defensible space — clearing brush, trimming trees, and using fire-resistant materials in a buffer around the house — is the difference between a home that survives an ember storm and one that doesn't. Insurers now inspect for it and may decline, non-renew, or surcharge homes without it. As wildfire losses mount, this once-voluntary practice has become a condition of staying insurable in much of the West.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Underwriting & Risk",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "Deferred Annuity",
     "full": "",
     "plain": "An annuity that grows your money tax-deferred for years before income payments begin.",
@@ -1156,6 +1247,22 @@
   },
   {
     "letter": "D",
+    "term": "Dog Bite Liability",
+    "full": "",
+    "plain": "Homeowner coverage for injuries your dog causes — a major and rising share of liability claims.",
+    "snappy": "Liability coverage paying for injuries caused by a dog the policyholder owns, a leading driver of homeowners liability claims.",
+    "detail": "Dog bites and related injuries are one of the largest categories of homeowners liability claims, costing insurers over a billion dollars a year. Personal liability coverage typically pays, but insurers respond by surcharging, excluding certain breeds, or refusing to cover a dog with a bite history. A serious bite claim can exhaust the standard liability limit, another reason owners with dogs are urged to carry an umbrella policy.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Law & Liability",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "DUI",
     "full": "Driving Under the Influence",
     "plain": "Driving drunk or drugged — a conviction that sends car insurance costs soaring or gets you dropped.",
@@ -1190,6 +1297,25 @@
     ]
   },
   {
+    "letter": "D",
+    "term": "Dwelling Coverage",
+    "full": "Coverage A",
+    "plain": "The part of a home policy that pays to rebuild the house itself after a covered disaster.",
+    "snappy": "The homeowners coverage paying to repair or rebuild the physical structure of the home, up to its limit.",
+    "detail": "Dwelling coverage is the core of a homeowners policy, paying to rebuild the house and attached structures after a fire, storm, or other covered peril. Its limit should reflect the cost to rebuild, not the market price or mortgage balance, which is why underinsurance is so common. Other coverages (personal property, liability) are often set as a percentage of this number, so getting it right matters most.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "Coverage A"
+    ]
+  },
+  {
     "letter": "E",
     "term": "Earned Premium",
     "full": "",
@@ -1207,6 +1333,22 @@
   },
   {
     "letter": "E",
+    "term": "Earthquake Insurance",
+    "full": "",
+    "plain": "Separate coverage for quake damage, which standard home policies exclude.",
+    "snappy": "A separate policy or endorsement covering earthquake damage, with high percentage deductibles, excluded from standard cover.",
+    "detail": "Standard homeowners policies exclude earthquakes, so those in seismic zones buy earthquake insurance separately, often through a state-run earthquake pool. Deductibles are steep — commonly 10% to 25% of the coverage limit — so it protects against catastrophic collapse rather than cracked plaster. Low take-up means many quake-zone homeowners are unknowingly exposed, a gap regulators and insurers keep trying to close.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Effective Date",
     "full": "",
     "plain": "The day your coverage switches on.",
@@ -1218,6 +1360,22 @@
     "category": "Coverage & Policies",
     "sources": [
       "NAIC",
+      "III"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Elevation Certificate",
+    "full": "",
+    "plain": "A surveyor's document showing how high a home sits relative to flood levels, used to price flood coverage.",
+    "snappy": "A certified document recording a building's elevation against the base flood level, used to rate flood insurance.",
+    "detail": "An elevation certificate, prepared by a licensed surveyor, records how high a building's lowest floor sits relative to the base flood elevation FEMA has mapped. The higher above the flood line, the lower the flood insurance premium — so for homes in a flood zone the certificate can save or cost thousands a year. Owners obtain one to challenge a high rate or a zone designation they believe is wrong.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Underwriting & Risk",
+    "sources": [
+      "FEMA",
       "III"
     ]
   },
@@ -1274,6 +1432,22 @@
     "sources": [
       "CMS",
       "III"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Equipment Breakdown Coverage",
+    "full": "",
+    "plain": "Home coverage for sudden mechanical or electrical failure of major systems — heating and cooling, the water heater, appliances.",
+    "snappy": "An endorsement covering sudden breakdown of home systems and appliances from mechanical or electrical failure, not wear.",
+    "detail": "Standard homeowners policies cover a furnace destroyed by fire but not one that simply burns out — that's where equipment breakdown coverage helps, paying to repair or replace home systems and appliances after a sudden mechanical or electrical failure or a power surge. It's a cheap endorsement, not a maintenance plan: gradual wear and neglect are still excluded. Owners confuse it with a home warranty, which is a service contract, not insurance.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
     ]
   },
   {
@@ -1413,6 +1587,22 @@
   },
   {
     "letter": "E",
+    "term": "Extended Replacement Cost",
+    "full": "",
+    "plain": "Home coverage that adds a cushion — often 25% — above your dwelling limit in case rebuilding costs more.",
+    "snappy": "An endorsement paying a set percentage above the dwelling limit toward rebuilding, short of a full guarantee.",
+    "detail": "Extended replacement cost is the common middle ground between a hard policy limit and an open-ended guarantee: it pays up to a set percentage — typically 25% or 50% — over your dwelling coverage limit if rebuilding costs overshoot. It guards against the construction-cost spikes that follow a regional disaster, when everyone rebuilds at once. It's cheaper than guaranteed replacement cost and far more widely available, especially where insurers have grown cautious.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Extended Term Insurance",
     "full": "",
     "plain": "Spending the cash value of your policy to keep the full death benefit as term coverage for a limited stretch.",
@@ -1464,6 +1654,25 @@
   },
   {
     "letter": "F",
+    "term": "FAIR Plan",
+    "full": "Fair Access to Insurance Requirements",
+    "plain": "A state-backed insurer of last resort for homeowners who can't get coverage on the open market.",
+    "snappy": "A state pool providing basic property coverage to high-risk homes that private insurers decline, funded by the industry.",
+    "detail": "When wildfire, hurricane, or crime risk makes private insurers refuse a home, the state's FAIR plan offers bare-bones coverage as a last resort, with insurers in the state sharing the risk and any losses. Coverage is limited and pricey, meant as a backstop, not a bargain. Soaring enrollment in FAIR plans across California, Florida, and Louisiana has become a warning sign of property markets buckling under climate-driven losses.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "III"
+    ],
+    "aliases": [
+      "Fair Access to Insurance Requirements"
+    ]
+  },
+  {
+    "letter": "F",
     "term": "Fee-for-Service",
     "full": "",
     "plain": "Paying doctors for each individual test, visit, or procedure they perform.",
@@ -1476,6 +1685,25 @@
     "sources": [
       "CMS",
       "SOA"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "FHA",
+    "full": "Federal Housing Administration",
+    "plain": "A government agency that backs low-down-payment home loans so lenders approve buyers who'd otherwise be turned down.",
+    "snappy": "A federal agency insuring mortgages for lower-credit, low-down-payment buyers, funded by a borrower-paid mortgage insurance premium.",
+    "detail": "The FHA insures home loans made by approved lenders, letting buyers qualify with down payments as low as 3.5% and weaker credit than a conventional mortgage allows. In return, borrowers pay a mortgage insurance premium that protects the lender against default. It widened homeownership for first-time and lower-income buyers, and the health of its insurance fund is a recurring policy debate. You'll meet it shopping for a first mortgage.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "Investopedia",
+      "Cornell LII"
+    ],
+    "aliases": [
+      "Federal Housing Administration"
     ]
   },
   {
@@ -1511,6 +1739,25 @@
     "sources": [
       "NAIC",
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "Fire Protection Class",
+    "full": "Public Protection Classification",
+    "plain": "A 1-to-10 rating of how well a community can fight fires, which shapes home insurance premiums.",
+    "snappy": "A graded rating of a community's fire-suppression capability that insurers use to set property premiums by location.",
+    "detail": "Verisk grades each community's fire-fighting capacity — hydrants, water supply, fire-department staffing and distance — into a public protection classification from 1 (best) to 10 (essentially unprotected). Homes far from a fire station or hydrant land in worse classes and pay more, or struggle to find coverage. Rural properties and those beyond hydrant range feel it most, and a station opening nearby can lower everyone's premiums.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Underwriting & Risk",
+    "sources": [
+      "Verisk",
+      "III"
+    ],
+    "aliases": [
+      "Public Protection Classification"
     ]
   },
   {
@@ -1582,6 +1829,57 @@
     ],
     "aliases": [
       "FSA"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "Flood Insurance",
+    "full": "",
+    "plain": "Separate coverage for rising-water damage, excluded by standard home policies and mostly sold through a federal program.",
+    "snappy": "Coverage for flood damage, excluded by homeowners policies, sold through the federal NFIP or a growing private market.",
+    "detail": "Homeowners policies exclude flood, so flood insurance is bought separately — historically almost entirely through the federal National Flood Insurance Program, increasingly from private insurers too. Lenders require it for homes in high-risk flood zones. Just a few inches of water can cause tens of thousands in damage, yet many owners outside mapped zones skip it — and a quarter of flood claims come from those lower-risk areas.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "FEMA",
+      "III"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "Flood Zone",
+    "full": "",
+    "plain": "A federal map designation showing a property's flood risk, which decides whether coverage is required.",
+    "snappy": "A FEMA-mapped area rating a property's flood risk; high-risk zones trigger mandatory flood insurance for mortgaged homes.",
+    "detail": "FEMA maps every area into flood zones reflecting the chance of flooding. High-risk zones — the so-called 100-year floodplain — require flood insurance on any federally backed mortgage, and premiums there run highest. Maps are redrawn as development and climate shift risk, sometimes pulling homes into a mandatory zone overnight. Buyers check the flood zone before purchase, since it drives both insurance cost and resale.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Underwriting & Risk",
+    "sources": [
+      "FEMA",
+      "III"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "Force-Placed Insurance",
+    "full": "Lender-Placed Insurance",
+    "plain": "Expensive coverage a lender buys on your home — and bills you for — when your own policy lapses.",
+    "snappy": "Coverage a lender buys to protect its interest when a borrower's required home policy lapses, charged to the borrower.",
+    "detail": "If your homeowners policy lapses while a mortgage is outstanding, the lender protects its collateral by buying force-placed insurance and adding the cost to your loan. It's far pricier than a normal policy, covers only the structure (not your belongings or liability), and protects the lender first. It's a costly trap that catches owners after a missed escrow payment, so keeping proof of coverage current with the servicer avoids it.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
+    ],
+    "aliases": [
+      "Lender-Placed Insurance"
     ]
   },
   {
@@ -1788,6 +2086,22 @@
   },
   {
     "letter": "G",
+    "term": "Guaranteed Replacement Cost",
+    "full": "",
+    "plain": "Home coverage that rebuilds your house even if the bill comes in above your policy limit.",
+    "snappy": "A coverage upgrade paying the full cost to rebuild a home after a covered loss, even beyond the stated dwelling limit.",
+    "detail": "Standard dwelling coverage caps at its limit, so if rebuilding costs more — after a wildfire spikes local labour and materials — you're short. Guaranteed replacement cost removes the cap, promising to rebuild whatever it takes. Insurers offer it only on well-documented, well-maintained homes and have pulled back in disaster-prone areas. Its lesser cousin, extended replacement cost, adds a cushion (often 25%) above the limit rather than an open-ended guarantee.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "G",
     "term": "Guaranteed Universal Life",
     "full": "GUL",
     "plain": "Stripped-down universal life that locks in lifelong coverage at a low premium but builds almost no cash value.",
@@ -1985,6 +2299,114 @@
   },
   {
     "letter": "H",
+    "term": "HO-3",
+    "full": "Special Form",
+    "plain": "The most common homeowners policy — open-perils on the house, named-perils on your belongings.",
+    "snappy": "The standard homeowners form covering the dwelling against open perils and personal property against named perils.",
+    "detail": "The HO-3 special form is what most US homeowners carry: it covers the house and other structures against open perils — everything except listed exclusions like flood and earthquake — while covering personal property only against named perils. That split is the key to reading it. More protective forms (HO-5) extend open perils to contents too; bare-bones forms (HO-1, HO-2) cover only named perils throughout.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "Verisk"
+    ],
+    "aliases": [
+      "Special Form"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "HO-5",
+    "full": "Comprehensive Form",
+    "plain": "A higher-end homeowners policy that covers both your house and your belongings against open perils.",
+    "snappy": "A premium homeowners form extending open-perils coverage to both the dwelling and personal property.",
+    "detail": "The HO-5 comprehensive form upgrades the common HO-3 by covering personal property on an open-perils basis too, so the burden flips: the insurer must show a loss is excluded rather than you showing it's a named peril. It often pairs with replacement cost on contents and higher valuables sub-limits. It costs more and is offered to well-maintained homes, the choice for owners who want the broadest standard protection.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "Verisk"
+    ],
+    "aliases": [
+      "Comprehensive Form"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "HO-6",
+    "full": "Condo Insurance",
+    "plain": "Insurance for a condo owner covering belongings, interior, and liability — the bits the building's master policy skips.",
+    "snappy": "A homeowners form for condo and co-op owners covering personal property, interior improvements, liability, and loss assessment.",
+    "detail": "A condo association's master policy covers the building and common areas, so a unit owner buys an HO-6 to cover what's left: personal property, interior fixtures and improvements (walls-in), personal liability, additional living expenses, and loss assessment. Reading the master policy's boundary — where its coverage stops and yours starts — is essential, since gaps between the two are where condo owners get burned after water damage or a fire.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "Condo Insurance"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "HO-8",
+    "full": "Older Home Form",
+    "plain": "A homeowners policy for old houses that pays repair cost rather than the higher cost to rebuild as-is.",
+    "snappy": "A modified homeowners form for older or historic homes, settling losses on a repair-cost basis to avoid over-insuring ornate features.",
+    "detail": "An HO-8 form suits older and historic homes whose ornate, hard-to-replace features would cost far more to reproduce than the house is worth. It settles claims on a functional repair-cost basis — modern equivalent materials — rather than exact replacement, and on named perils only. It keeps coverage available and premiums sane for homes a standard replacement-cost policy would either decline or wildly over-insure.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "Verisk"
+    ],
+    "aliases": [
+      "Older Home Form"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "Home Warranty",
+    "full": "",
+    "plain": "A service contract that repairs broken appliances and systems — often confused with insurance, but it isn't.",
+    "snappy": "A renewable service contract covering repair or replacement of home systems and appliances from normal wear, not a policy.",
+    "detail": "A home warranty is not insurance — it's a service contract that pays to fix or replace appliances and systems (the dishwasher, the air conditioner) when they break down from normal use, the very wear-and-tear homeowners insurance excludes. Sold heavily during home sales, it carries service fees per visit and a list of exclusions that generate complaints. Buyers should know it covers breakdown from use, while insurance covers sudden disasters.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "Homeowners Insurance",
+    "full": "",
+    "plain": "A bundle policy that covers your house, your belongings, and your liability if someone is hurt on your property.",
+    "snappy": "A package policy covering a home's structure, contents, loss of use, and the owner's personal liability against listed perils.",
+    "detail": "Homeowners insurance packages several coverages into one policy: the dwelling itself, other structures, personal property, additional living expenses if you're displaced, and personal liability. Lenders require it while a mortgage is outstanding, folding the premium into escrow. Standard forms exclude flood and earthquake, sold separately. It's the policy that turns a house — most families' biggest asset — into something a single fire or storm can't wipe out.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "H",
     "term": "Hospital Indemnity Insurance",
     "full": "",
     "plain": "A supplemental plan that pays you a set cash amount for each day you're hospitalised.",
@@ -1996,6 +2418,25 @@
     "category": "Health & Benefits",
     "sources": [
       "III"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "Hurricane Deductible",
+    "full": "Named Storm Deductible",
+    "plain": "A special, usually percentage-based deductible that kicks in only for hurricane damage in coastal states.",
+    "snappy": "A percentage-based deductible triggered specifically by named hurricanes or tropical storms, common in coastal states.",
+    "detail": "Coastal states let insurers apply a hurricane deductible — typically 1% to 5% of the dwelling limit — that activates only when a named storm causes the damage, triggered by official hurricane warnings. On a beach house it can mean tens of thousands out of pocket before coverage pays. It's how insurers stay in hurricane markets at all, and reading the trigger language matters as much as the percentage.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "Named Storm Deductible"
     ]
   },
   {
@@ -2071,6 +2512,22 @@
   },
   {
     "letter": "I",
+    "term": "Inflation Guard",
+    "full": "",
+    "plain": "An automatic yearly bump to your home's coverage limit so it keeps pace with rising rebuilding costs.",
+    "snappy": "An endorsement automatically increasing dwelling and contents limits each year to track construction-cost inflation.",
+    "detail": "Rebuilding costs climb, but a fixed dwelling limit doesn't — so inflation guard nudges your coverage limits up automatically each renewal to keep pace, reducing the risk of being underinsured when you finally file a claim. It's a quiet safeguard against the slow erosion of adequate coverage, though in years of sharp construction-cost spikes even inflation guard can lag, leaving owners to review their limit directly.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "I",
     "term": "Insurable Interest",
     "full": "",
     "plain": "The requirement that you'd actually suffer if the insured thing were lost — you can't insure a stranger's car.",
@@ -2096,6 +2553,22 @@
       "Cross-sector"
     ],
     "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Insurance-to-Value",
+    "full": "",
+    "plain": "Insuring a home for enough to actually rebuild it — the fix for the widespread problem of underinsurance.",
+    "snappy": "The ratio of a property's coverage limit to its full replacement cost; falling short triggers coinsurance penalties.",
+    "detail": "Insurance-to-value measures whether your dwelling limit truly matches the cost to rebuild. Fall below the policy's required percentage — often 80% — and a coinsurance penalty cuts even partial claim payments, not just total losses. Construction-cost spikes and outdated estimates leave a huge share of US homes underinsured. Insurers run replacement-cost estimators to set the figure, but owners with custom features should verify it rather than trust the default.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Underwriting & Risk",
     "sources": [
       "III",
       "NAIC"
@@ -2205,6 +2678,25 @@
   },
   {
     "letter": "L",
+    "term": "Landlord Insurance",
+    "full": "Dwelling Fire",
+    "plain": "Property coverage for a home you rent out, covering the building and lost rent but not a tenant's belongings.",
+    "snappy": "Coverage for a rented dwelling protecting the structure, liability, and lost rental income, excluding tenants' property.",
+    "detail": "A home you rent to others needs landlord insurance — often a dwelling-fire policy — not a standard homeowners form, because the use and risks differ. It covers the building, the owner's liability, and lost rental income if a covered loss makes the place unrentable. It pointedly does not cover the tenant's belongings, which is why landlords increasingly require renters insurance in the lease.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "Dwelling Fire"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Lapse",
     "full": "",
     "plain": "Losing your coverage because you stopped paying the premium.",
@@ -2218,6 +2710,25 @@
     "sources": [
       "III",
       "NAIC"
+    ]
+  },
+  {
+    "letter": "L",
+    "term": "Lender's Title Insurance",
+    "full": "Loan Policy",
+    "plain": "Title coverage that protects the mortgage lender's stake in your home, usually required at closing.",
+    "snappy": "A title policy protecting the lender up to the loan balance against title defects, almost always required to get a mortgage.",
+    "detail": "Lender's title insurance — the loan policy — protects the bank's interest in the property up to the mortgage balance if a title defect surfaces. Lenders require it on virtually every mortgage, and the borrower pays for it at closing. Crucially, it protects only the lender, not you — which is why buyers are urged to also buy a separate owner's title insurance policy to protect their own equity.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "Cornell LII"
+    ],
+    "aliases": [
+      "Loan Policy"
     ]
   },
   {
@@ -2319,6 +2830,22 @@
   },
   {
     "letter": "L",
+    "term": "Loss Assessment Coverage",
+    "full": "",
+    "plain": "Condo coverage that pays your share when the association bills all owners for a big common-area loss.",
+    "snappy": "Coverage paying a unit owner's share of a special assessment levied by a condo association after a covered common loss.",
+    "detail": "When a condo association's master policy falls short on a big common-area loss — a fire in the lobby, a liability judgment — it can levy a special assessment, splitting the bill among all unit owners. Loss assessment coverage on your HO-6 pays your share up to a limit. As master-policy deductibles climb, this coverage matters more, and owners often raise it after learning how large an assessment can be.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Loss of Use",
     "full": "",
     "plain": "Compensation for not having your car (or home) while it's being repaired after a covered loss.",
@@ -2355,6 +2882,22 @@
     ]
   },
   {
+    "letter": "L",
+    "term": "Loss Settlement",
+    "full": "",
+    "plain": "The terms in a policy that decide how a property claim is valued and paid.",
+    "snappy": "The policy provisions governing how a property loss is valued and paid — replacement cost or actual cash value, and on what terms.",
+    "detail": "The loss settlement clause is where a property policy spells out how it pays: replacement cost or actual cash value, whether depreciation is withheld until repairs are done, and any coinsurance penalty for underinsuring. Two policies with identical limits can settle a fire very differently depending on these terms. Roofs increasingly get their own settlement schedule, paying actual cash value by age — a fine-print change that has shrunk many roof payouts.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Claims & Settlement",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
     "letter": "M",
     "term": "Managed Care",
     "full": "",
@@ -2368,6 +2911,22 @@
     "sources": [
       "CMS",
       "III"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Master Policy",
+    "full": "",
+    "plain": "The insurance a condo or homeowners association carries on the building and shared areas.",
+    "snappy": "The blanket policy a community association maintains covering the building structure and common areas for all owners.",
+    "detail": "A condo or homeowners association buys a master policy covering the building shell and common areas — roof, hallways, pool, elevators — funded by everyone's dues. Where its coverage ends is what each unit owner must insure with an HO-6. Some master policies stop at the unfinished walls (\"bare walls\"), while others cover original fixtures (\"all-in\"). Reading which type the association carries tells a condo owner exactly how much personal coverage to buy.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
     ]
   },
   {
@@ -2456,6 +3015,25 @@
     ],
     "aliases": [
       "MedPay"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Medical Payments to Others",
+    "full": "Coverage F",
+    "plain": "Home insurance that pays small medical bills for a guest hurt on your property, no lawsuit needed.",
+    "snappy": "The homeowners coverage paying minor medical costs for non-residents injured on the premises, regardless of fault.",
+    "detail": "Medical payments to others is a small no-fault goodwill coverage: if a visitor twists an ankle on your stairs, it pays their modest medical bills without anyone proving you were negligent. The limits are low, often $1,000 to $5,000. By settling minor injuries quickly, it heads off the bigger personal liability claims and lawsuits that a hurt guest might otherwise bring.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Law & Liability",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "Coverage F"
     ]
   },
   {
@@ -2693,6 +3271,25 @@
   },
   {
     "letter": "M",
+    "term": "Mortgage Insurance Premium",
+    "full": "MIP",
+    "plain": "The mortgage insurance FHA borrowers pay, protecting the lender on low-down-payment government-backed loans.",
+    "snappy": "The insurance premium FHA borrowers pay to protect the lender, charged upfront and annually on FHA-backed mortgages.",
+    "detail": "FHA loans let buyers put down as little as 3.5%, and in exchange borrowers pay a mortgage insurance premium — an upfront fee plus an annual charge — that protects the lender against default. Unlike private mortgage insurance on conventional loans, FHA's premium often lasts the life of the loan unless the borrower refinances out. It's the cost of the low-down-payment, easier-qualifying access FHA financing provides.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "Investopedia"
+    ],
+    "aliases": [
+      "MIP"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Motor Vehicle Report",
     "full": "MVR",
     "plain": "Your official driving record — tickets, crashes, licence status — that insurers pull to set your rate.",
@@ -2744,6 +3341,41 @@
     "sources": [
       "NAIC",
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "N",
+    "term": "Named Perils",
+    "full": "",
+    "plain": "Coverage that pays only for the specific causes of loss the policy lists by name.",
+    "snappy": "A coverage basis insuring only the causes of loss explicitly listed, placing the burden of proof on the policyholder.",
+    "detail": "A named-perils policy covers only what it lists — fire, lightning, windstorm, hail, theft, and a handful more — and nothing else. The burden sits on you to show your loss came from a listed peril. It's cheaper but leaves more gaps than open-perils coverage, and it's the basis for personal property under a standard HO-3 and for everything under bare-bones HO-1 and HO-2 forms. Reading the list is reading your real protection.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "Verisk",
+      "III"
+    ]
+  },
+  {
+    "letter": "N",
+    "term": "National Flood Insurance Program",
+    "full": "NFIP",
+    "plain": "The federal program that provides most US flood insurance where private insurers won't.",
+    "snappy": "A FEMA-run program providing federally backed flood insurance to communities that adopt floodplain-management rules.",
+    "detail": "The National Flood Insurance Program, run by FEMA, has long been the main source of US flood coverage, stepping in where private insurers feared the risk. Communities that adopt floodplain rules let residents buy NFIP policies; lenders require them in high-risk zones. Repeated catastrophic seasons have left the program deeply in debt, driving reforms to its maps and rates and the slow growth of a private flood market alongside it.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "FEMA",
+      "Cornell LII"
+    ],
+    "aliases": [
+      "NFIP"
     ]
   },
   {
@@ -2942,6 +3574,61 @@
   },
   {
     "letter": "O",
+    "term": "Open Perils",
+    "full": "All-Risk",
+    "plain": "Coverage that protects against every cause of loss except those the policy specifically excludes.",
+    "snappy": "A coverage basis insuring all causes of loss except those listed as exclusions, placing the burden of proof on the insurer.",
+    "detail": "Open perils — also called all-risk — is the broader of the two coverage approaches: instead of listing what's covered, it covers everything except stated exclusions like flood, earthquake, wear, and neglect. The burden flips to the insurer to prove a loss is excluded. It's the basis for the dwelling under an HO-3 and for everything under an HO-5, and it's why those forms protect more than a named-perils policy of the same price tier.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "Verisk",
+      "III"
+    ],
+    "aliases": [
+      "All-Risk",
+      "All Risk"
+    ]
+  },
+  {
+    "letter": "O",
+    "term": "Ordinance or Law Coverage",
+    "full": "",
+    "plain": "Home coverage for the extra cost of rebuilding to today's building codes after a loss.",
+    "snappy": "Coverage for the added cost of meeting current building codes when repairing or rebuilding a damaged structure.",
+    "detail": "When an older home is badly damaged, codes may require rebuilding to modern standards — updated wiring, hurricane straps, accessibility features — costs a standard policy won't fully pay. Ordinance or law coverage fills that gap, including the expense of demolishing and removing undamaged portions a code upgrade forces. It's vital for older homes, where the code-compliance bill after a major loss can dwarf the basic repair cost.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "O",
+    "term": "Other Structures Coverage",
+    "full": "Coverage B",
+    "plain": "Home insurance for detached buildings on your lot — a garage, shed, or fence.",
+    "snappy": "The homeowners coverage for structures not attached to the house, such as a detached garage, shed, or fence.",
+    "detail": "Other structures coverage protects the freestanding things on your property: a detached garage, tool shed, gazebo, fence, or in-ground pool. It's usually set automatically at around 10% of the dwelling coverage limit, which can fall short for an elaborate detached workshop or barn. Owners with significant outbuildings often raise it by endorsement so a fire that takes the garage is fully covered.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "Coverage B"
+    ]
+  },
+  {
+    "letter": "O",
     "term": "Out-of-Network",
     "full": "",
     "plain": "A doctor or hospital your plan hasn't signed up — so you pay much more, or everything.",
@@ -2970,6 +3657,25 @@
     "sources": [
       "CMS",
       "III"
+    ]
+  },
+  {
+    "letter": "O",
+    "term": "Owner's Title Insurance",
+    "full": "Owner's Policy",
+    "plain": "Title coverage that protects your own equity in the home, separate from the lender's required policy.",
+    "snappy": "An optional title policy protecting the buyer's equity against title defects, distinct from the lender's required coverage.",
+    "detail": "Owner's title insurance protects you — your down payment and built-up equity — if a hidden title defect emerges after purchase, paying defence costs and losses up to the home's value. It's optional but strongly advised, since the lender's required policy protects only the bank. Bought once at closing for a single premium and lasting as long as you own the home, it's cheap insurance against an expensive and rare disaster.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "Cornell LII"
+    ],
+    "aliases": [
+      "Owner's Policy"
     ]
   },
   {
@@ -3127,6 +3833,45 @@
   },
   {
     "letter": "P",
+    "term": "Personal Liability",
+    "full": "Coverage E",
+    "plain": "Home insurance that pays if you're legally responsible for hurting someone or damaging their property.",
+    "snappy": "The homeowners coverage paying for bodily injury or property damage the insured is liable for, plus legal defence.",
+    "detail": "Personal liability is the part of a homeowners policy that pays when you're sued: a guest slips on your steps, your dog bites someone, your child breaks a neighbour's window. It covers the judgment and your legal defence up to the limit, anywhere in the world, not just at home. Because lawsuits can dwarf the standard limit, it's the foundation an umbrella policy stacks on top of.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Law & Liability",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "Coverage E"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Personal Property Coverage",
+    "full": "Coverage C",
+    "plain": "Home insurance for your belongings — furniture, clothes, electronics — if they're stolen or destroyed.",
+    "snappy": "The homeowners coverage for the contents of a home, typically set as a percentage of the dwelling limit.",
+    "detail": "Personal property coverage, also called contents coverage, pays for your stuff: furniture, clothing, electronics, appliances. It's usually 50% to 70% of the dwelling limit and follows your belongings even away from home. Valuables like jewellery, art, and guns carry low sub-limits, so owners schedule them separately for full protection. Whether it pays replacement cost or actual cash value makes a big difference after a total loss.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "Coverage C",
+      "Contents Coverage"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Pharmacy Benefit Manager",
     "full": "PBM",
     "plain": "The middleman that runs your plan's drug coverage and haggles prices with drugmakers.",
@@ -3280,6 +4025,23 @@
   },
   {
     "letter": "P",
+    "term": "Premises Liability",
+    "full": "",
+    "plain": "The legal responsibility of a property owner for injuries that happen on their property.",
+    "snappy": "A property owner's legal duty to keep premises reasonably safe; breach exposes them to injury claims a liability policy covers.",
+    "detail": "Premises liability is the legal doctrine behind most homeowner and business liability claims: an owner who fails to keep their property reasonably safe — an icy walk, a broken stair, a hidden hazard — can be sued when a visitor is hurt. Personal liability and commercial general liability coverage exist to pay these claims and defend the owner. How much duty is owed varies with whether the visitor was invited, licensed, or trespassing.",
+    "indications": [
+      "Home & Property",
+      "Commercial & Liability"
+    ],
+    "category": "Law & Liability",
+    "sources": [
+      "Cornell LII",
+      "III"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Premium",
     "full": "",
     "plain": "The price you pay — monthly or yearly — to keep your insurance switched on.",
@@ -3384,6 +4146,25 @@
     "aliases": [
       "Preauthorization",
       "Pre-Authorization"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Private Mortgage Insurance",
+    "full": "PMI",
+    "plain": "Insurance a lender makes you buy — protecting the lender, not you — when your down payment is under 20%.",
+    "snappy": "Insurance protecting a mortgage lender against default when a borrower puts down less than 20%, paid by the borrower.",
+    "detail": "Put less than 20% down on a conventional mortgage and the lender requires private mortgage insurance, which pays the lender — not you — if you default. The borrower foots the monthly premium until enough equity builds, after which it can be cancelled. It lets buyers purchase sooner with a small down payment, the trade-off being years of extra cost. It's distinct from FHA's mortgage insurance premium, which works differently.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "Investopedia"
+    ],
+    "aliases": [
+      "PMI"
     ]
   },
   {
@@ -3623,6 +4404,26 @@
   },
   {
     "letter": "R",
+    "term": "Renters Insurance",
+    "full": "HO-4",
+    "plain": "Cheap insurance for tenants covering belongings and liability, since the landlord's policy covers only the building.",
+    "snappy": "A tenant policy (HO-4) covering personal property, liability, and loss of use, but not the building the landlord owns.",
+    "detail": "Renters insurance — the HO-4 form — is among the best values in insurance: for a small premium it covers a tenant's belongings against theft and disaster, personal liability if someone is hurt in the unit, and living expenses if the place becomes unlivable. The landlord's policy covers only the structure, not your stuff. Many leases now require it, and the low cost makes skipping it a poor bet.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "HO-4",
+      "Tenant Insurance"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "Replacement Cost",
     "full": "",
     "plain": "Enough money to buy a brand-new equivalent of what you lost, with no deduction for age.",
@@ -3790,6 +4591,26 @@
   },
   {
     "letter": "S",
+    "term": "Scheduled Personal Property",
+    "full": "Personal Articles Floater",
+    "plain": "Extra, itemised coverage for valuables — jewellery, art, guns — that a standard policy barely covers.",
+    "snappy": "Coverage listing high-value items individually for their appraised value, beyond the low sub-limits of a base policy.",
+    "detail": "Standard personal property coverage caps payouts on jewellery, furs, art, and collectibles at low sub-limits — a stolen engagement ring might be barely covered. Scheduling those items on a personal articles floater insures each at its appraised value, often with no deductible and broader perils (a dropped, lost ring). It costs a little extra and usually needs an appraisal, but it's how owners of real valuables avoid a painful shortfall after a loss.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "Personal Articles Floater",
+      "Floater"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Self-Funded Plan",
     "full": "Self-Insured Plan",
     "plain": "An employer health plan where the company pays workers' claims itself instead of buying insurance.",
@@ -3825,6 +4646,22 @@
     ],
     "aliases": [
       "SIR"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Service Line Coverage",
+    "full": "",
+    "plain": "Home coverage for the buried pipes and wires running to your house that you, not the utility, must repair.",
+    "snappy": "An endorsement covering repair of damaged underground utility lines — water, sewer, power — that the homeowner owns.",
+    "detail": "Many homeowners don't realise they own — and must repair — the buried water, sewer, and power lines running from the street to the house. When one fails from age, roots, or freezing, the dig-and-replace bill is steep and excluded by standard policies. Service line coverage is a low-cost endorsement that pays for it, including the landscaping torn up to reach the line. It's a small add-on that prevents a nasty surprise.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
     ]
   },
   {
@@ -4203,6 +5040,22 @@
   },
   {
     "letter": "T",
+    "term": "Title Insurance",
+    "full": "",
+    "plain": "A one-time policy protecting a home buyer or lender against hidden ownership problems from the property's past.",
+    "snappy": "Coverage protecting against losses from defects in a property's title — liens, errors, fraud — predating the purchase.",
+    "detail": "Unlike most insurance, title insurance looks backward: it protects against problems already lurking in a property's ownership history — an unpaid lien, a forged deed, a missed heir, a clerical error — that could surface after you buy. Bought once at closing with a single premium, it comes in two forms: lender's title insurance protecting the bank, and owner's title insurance protecting your equity. It's standard in nearly every US home purchase.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "T",
     "term": "Tort Liability System",
     "full": "Tort State",
     "plain": "The traditional approach where the at-fault driver's insurer pays everyone they harmed.",
@@ -4409,6 +5262,22 @@
   },
   {
     "letter": "V",
+    "term": "Vacant Home Insurance",
+    "full": "",
+    "plain": "Special coverage for an empty house, which standard policies stop covering after it sits unoccupied too long.",
+    "snappy": "Coverage for an unoccupied dwelling, since standard policies restrict or void coverage once a home is vacant beyond a set period.",
+    "detail": "Standard homeowners policies quietly cut off coverage once a house sits vacant — often after 30 or 60 days — because empty homes invite vandalism, undetected leaks, and fire. Vacant home insurance fills that gap during a renovation, a slow sale, or a probate, at a higher premium reflecting the added risk. Owners caught unaware after an empty house is damaged learn the vacancy exclusion the hard way.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "V",
     "term": "Value-Based Care",
     "full": "",
     "plain": "Paying doctors and hospitals for keeping patients healthy and getting good results, not just for doing more.",
@@ -4537,6 +5406,25 @@
   },
   {
     "letter": "W",
+    "term": "Water Backup Coverage",
+    "full": "Sewer Backup",
+    "plain": "An add-on covering damage when water or sewage backs up into your home through drains or a sump pump failure.",
+    "snappy": "An endorsement covering loss from water or sewage backing up through sewers, drains, or a failed sump pump, normally excluded.",
+    "detail": "Standard homeowners policies exclude damage from a backed-up sewer or a sump pump that quits during a storm — exactly the soggy basement disaster many owners assume is covered. Water backup coverage is a cheap endorsement that fills the gap, with its own limit. It's distinct from flood insurance, which covers rising external water. Owners with finished basements buy it after the first nasty surprise, or wisely before.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "Sewer Backup"
+    ]
+  },
+  {
+    "letter": "W",
     "term": "Wellness Program",
     "full": "",
     "plain": "An employer scheme that rewards healthy habits — and can lower your premium for joining.",
@@ -4568,6 +5456,41 @@
     ],
     "aliases": [
       "Whole Life"
+    ]
+  },
+  {
+    "letter": "W",
+    "term": "Wind and Hail Deductible",
+    "full": "Windstorm Deductible",
+    "plain": "A separate, often percentage-based deductible that applies only to wind or hail damage.",
+    "snappy": "A distinct deductible, frequently a percentage of the dwelling limit, applying specifically to wind or hail losses.",
+    "detail": "In storm-prone regions, insurers carve out a separate wind and hail deductible — often 1% to 5% of the dwelling limit rather than a flat dollar amount — so a roof claim after a hailstorm costs you far more out of pocket than a kitchen fire. On a $400,000 home a 2% wind deductible is $8,000. It lets insurers keep writing in hail country, and it surprises owners who only knew their standard deductible.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Coverage & Policies",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "Windstorm Deductible"
+    ]
+  },
+  {
+    "letter": "W",
+    "term": "Wind Mitigation",
+    "full": "",
+    "plain": "Storm-resistant features on a home that earn insurance discounts in hurricane-prone areas.",
+    "snappy": "Construction features reducing wind damage — roof straps, impact glass — that earn premium credits, verified by inspection.",
+    "detail": "In hurricane states, a wind mitigation inspection documents features that help a home survive a storm — hurricane straps, a hip roof, impact-resistant windows, a secured roof deck — and each can earn a premium credit. The savings often pay back the inspection many times over, especially in Florida, where insurers must offer the discounts. It rewards owners who build or retrofit for resilience, aligning lower risk with lower cost.",
+    "indications": [
+      "Home & Property"
+    ],
+    "category": "Underwriting & Risk",
+    "sources": [
+      "III",
+      "NAIC"
     ]
   }
 ]
