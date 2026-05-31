@@ -246,6 +246,42 @@
   },
   {
     "letter": "A",
+    "term": "Admitted Assets",
+    "full": "",
+    "plain": "The assets regulators let an insurer count toward solvency — the solid, liquid ones it could actually use to pay claims.",
+    "snappy": "Assets a regulator permits an insurer to include in its statutory balance sheet because they are liquid and reliably valued.",
+    "detail": "Statutory accounting doesn't let an insurer count everything it owns. Admitted assets are the ones regulators accept toward solvency — cash, high-grade bonds, reinsurance recoverables from sound reinsurers — because they could be turned to cash to pay claims. Non-admitted assets like overdue receivables, furniture, and software are excluded, however real their value, as too illiquid or uncertain to rely on in a crisis. The distinction keeps the measured cushion behind policyholders genuinely available.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Admitted Insurer",
+    "full": "Admitted Carrier",
+    "plain": "An insurer licensed by the state, whose rates and forms it approves and whose policyholders the guaranty fund protects.",
+    "snappy": "An insurer licensed and regulated by a state, subject to its rate and form rules and backed by its guaranty association.",
+    "detail": "An admitted insurer is licensed in the state where it sells: it files its rates and policy forms for the regulator's review, complies with state rules, and — crucially for buyers — its policyholders are protected by the state guaranty association if it fails. The trade-off is less flexibility to write unusual or high-risk coverage. Most everyday home, auto, and life policies come from admitted carriers, while the hard-to-place risks they decline flow to the surplus lines market.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "IRMI"
+    ],
+    "aliases": [
+      "Admitted Carrier",
+      "Admitted Market"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Advance Payment",
     "full": "",
     "plain": "Money the insurer pays right away after a major loss, before the full claim is settled.",
@@ -297,6 +333,25 @@
   },
   {
     "letter": "A",
+    "term": "Affinity Marketing",
+    "full": "",
+    "plain": "Selling insurance through an organization to its members — an alumni group, employer, or association — often at a group rate.",
+    "snappy": "Distribution of insurance to the members of an organization, leveraging the group's trust and shared identity, often at preferential rates.",
+    "detail": "Affinity marketing reaches buyers through a group they already belong to: an alumni association, professional body, employer, or membership club endorses an insurer's products to its members, who get the convenience and often a group discount. The organization earns a fee or royalty and the insurer gains a pre-qualified, trusting audience. Auto, home, and life programs offered through associations are classic examples — the member's loyalty to the group does the marketing work an agent otherwise would.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "III",
+      "Investopedia"
+    ],
+    "aliases": [
+      "Affinity Group Insurance"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Affordable Care Act",
     "full": "ACA",
     "plain": "The 2010 health law that created online marketplaces, subsidies, and rules banning denial for pre-existing conditions.",
@@ -329,6 +384,63 @@
     "sources": [
       "III",
       "NAIC"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Agent",
+    "full": "",
+    "plain": "A licensed salesperson who represents an insurer and sells its policies to the public.",
+    "snappy": "A licensed representative who sells and services insurance on behalf of one or more insurers, owing duties to the company.",
+    "detail": "An agent is the insurer's authorized representative in the market, licensed by the state to sell and service its policies and often able to bind coverage on its behalf. A captive agent represents a single company; an independent agent places business with several. Legally the agent generally works for the insurer, not the buyer — a key contrast with a broker, who represents the customer. For most people the agent is the human face of insurance, taking the application and guiding the first claim.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "III",
+      "IRMI"
+    ],
+    "aliases": [
+      "Insurance Agent"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Agent Appointment",
+    "full": "",
+    "plain": "The insurer's formal authorization of an agent to sell its policies — the link that makes the agency relationship official.",
+    "snappy": "An insurer's formal designation authorizing a licensed producer to represent it and sell its products.",
+    "detail": "A licence lets a producer sell insurance in general; an appointment lets them sell a particular insurer's products. The carrier files the appointment with the state, formally taking responsibility for that agent's authorized acts on its behalf. An independent agent holds appointments with several insurers; a captive agent, one. When an insurer ends an appointment, the agent can no longer write its business, which is why the appointments an agent carries define exactly which companies' products they can actually offer.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "NAIC",
+      "IRMI"
+    ],
+    "aliases": [
+      "Appointment"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Agent Commission",
+    "full": "",
+    "plain": "The cut of the premium an agent or broker earns for selling and servicing a policy — how most of them get paid.",
+    "snappy": "The percentage of premium paid to a producer for placing and servicing a policy, the primary form of distribution compensation.",
+    "detail": "Commission is how the selling side of insurance is mostly paid: the agent or broker keeps a percentage of the premium the customer pays, higher in the first year on life policies and steadier on property and casualty renewals. Built into the price rather than billed separately, it funds the advice, paperwork, and service the producer provides. Because it can tempt unnecessary selling, abuses like rebating, twisting, and undisclosed contingent commissions are regulated, and large commercial buyers increasingly negotiate fees instead.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "IRMI",
+      "Investopedia"
+    ],
+    "aliases": [
+      "Commission"
     ]
   },
   {
@@ -420,6 +532,25 @@
     ],
     "aliases": [
       "ART"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Annual Statement",
+    "full": "",
+    "plain": "The detailed yearly financial report every insurer must file with regulators, on a standardized blank.",
+    "snappy": "The standardized yearly financial filing insurers submit to state regulators, prepared on a statutory accounting basis.",
+    "detail": "The annual statement is the insurer's report card to regulators: a thick, standardized filing — the yellow blank, in industry slang — laying out assets, liabilities, reserves, premiums, and losses on a statutory accounting basis. Filed with every state where the insurer operates and compiled through the NAIC, it's the raw material for solvency monitoring and risk-based capital calculations. Analysts and rating agencies mine it too, since it's the most detailed public window into how an insurer is actually doing.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Investopedia"
+    ],
+    "aliases": [
+      "Statutory Statement"
     ]
   },
   {
@@ -726,6 +857,22 @@
   },
   {
     "letter": "B",
+    "term": "Bancassurance",
+    "full": "",
+    "plain": "The selling of insurance through banks, bundling coverage with the bank's own financial products.",
+    "snappy": "The distribution of insurance products through banking channels, leveraging a bank's customers and branches.",
+    "detail": "Bancassurance sells insurance where people already bank: a bank distributes policies — often life, credit, or simple property cover — to its own customers through branches and digital channels, usually partnered with or owned by an insurer. The bank monetizes its customer relationships and the insurer gains cheap distribution. Huge in parts of Europe and Asia, it's more limited in the US, where the historical separation of banking and insurance and the agency system left it a smaller slice of how coverage is sold.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "Investopedia",
+      "III"
+    ]
+  },
+  {
+    "letter": "B",
     "term": "Beneficiary",
     "full": "",
     "plain": "The person who collects the money when a life insurance policy pays out.",
@@ -845,6 +992,25 @@
     ],
     "aliases": [
       "Bordereaux"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Broker",
+    "full": "",
+    "plain": "A licensed intermediary who works for the customer, shopping multiple insurers to find them coverage.",
+    "snappy": "A licensed intermediary representing the insurance buyer, sourcing coverage from multiple insurers rather than one company.",
+    "detail": "A broker represents the buyer, not the insurer: licensed and paid usually through commission built into the premium, they survey the market on a client's behalf, comparing carriers to find the best fit. The distinction from an agent — who legally represents the insurer — matters for whose interests come first and who's liable when advice goes wrong, though in everyday practice the roles blur and many producers act as both. Commercial buyers especially rely on brokers to navigate complex, competitive markets.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "III",
+      "IRMI"
+    ],
+    "aliases": [
+      "Insurance Broker"
     ]
   },
   {
@@ -1008,6 +1174,25 @@
     "sources": [
       "CMS",
       "SOA"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Captive Agent",
+    "full": "",
+    "plain": "An agent who sells for just one insurance company, not a range of them.",
+    "snappy": "An agent who represents and sells the products of only a single insurer, often as an employee or exclusive contractor.",
+    "detail": "A captive agent ties their fortunes to one insurer: they sell only that company's products, trading the breadth of an independent agent for the brand's support, training, leads, and steady commissions. The big direct-brand carriers built their distribution this way. The trade-off for customers is choice — a captive agent can only offer what their one company writes, so a poor fit means going elsewhere rather than shopping the market the way an independent agent or broker would.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "III",
+      "IRMI"
+    ],
+    "aliases": [
+      "Exclusive Agent"
     ]
   },
   {
@@ -1300,6 +1485,22 @@
     ],
     "aliases": [
       "Children's Health Insurance Program"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Churning",
+    "full": "",
+    "plain": "An agent repeatedly replacing a customer's policies within the same insurer to generate commissions, at the customer's expense.",
+    "snappy": "Inducing a policyholder to replace policies within the same company to generate new commissions, eroding the customer's value.",
+    "detail": "Churning is twisting kept in-house: instead of luring a customer to a competitor, the agent repeatedly swaps their policies within the same insurer — often funding new life insurance by draining the cash value of old policies — to earn fresh commissions each time. The customer is left with new surrender charges, restarted contestability periods, and shrinking value. Like twisting, it's a prohibited unfair trade practice, and regulators watch replacement activity closely to catch agents who profit by recycling their own clients.",
+    "indications": [
+      "Life & Annuities"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
     ]
   },
   {
@@ -2000,6 +2201,25 @@
   },
   {
     "letter": "C",
+    "term": "Contingent Commission",
+    "full": "",
+    "plain": "A bonus an insurer pays an agency for the volume or profitability of the business it brings in.",
+    "snappy": "Extra producer compensation based on the volume, growth, or loss ratio of the business placed with an insurer, beyond base commission.",
+    "detail": "On top of base commission, insurers often pay agencies a contingent commission — a year-end bonus geared to how much profitable business they steered to the carrier, measured by volume, growth, or loss ratio. It rewards producers for sending good risks and lots of them. The arrangement drew scrutiny in the mid-2000s when undisclosed contingent deals were found to bias brokers' recommendations against their clients' interests, prompting disclosure rules so buyers can see the incentive behind the advice.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "IRMI",
+      "Investopedia"
+    ],
+    "aliases": [
+      "Profit-Sharing Commission"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Contractual Liability",
     "full": "",
     "plain": "Coverage for liability you take on by signing a contract, not liability the law would have imposed anyway.",
@@ -2126,6 +2346,22 @@
     "sources": [
       "CAS",
       "SOA"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Credit for Reinsurance",
+    "full": "",
+    "plain": "The regulatory rule deciding when an insurer may count ceded risk as truly off its books — depending on the reinsurer's strength.",
+    "snappy": "Statutory rules governing when a ceding insurer may reduce its liabilities for risk transferred to a reinsurer, based on the reinsurer's status or collateral.",
+    "detail": "Reinsurance only relieves a ceding company's regulatory burden if the rules let it take credit for it: the insurer may reduce its statutory liabilities by the ceded amount, but only when the reinsurer is authorized in the state or posts collateral to secure the obligation. The requirements are toughest for offshore and unauthorized reinsurers, protecting against worthless reinsurance recoverables. The rules, modernized through the NAIC and international agreements, are what make reinsurance count toward solvency rather than just being a private side bet.",
+    "indications": [
+      "Reinsurance"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "RAA"
     ]
   },
   {
@@ -2340,6 +2576,26 @@
   },
   {
     "letter": "D",
+    "term": "Department of Insurance",
+    "full": "DOI",
+    "plain": "The state agency that licenses and polices insurers and handles consumer complaints.",
+    "snappy": "A state government agency that regulates insurers and agents, oversees solvency and conduct, and assists consumers.",
+    "detail": "Every state has a department of insurance — the agency, led by the insurance commissioner, that turns insurance regulation into daily practice. It licenses companies and producers, reviews rate and form filings, conducts financial and market conduct examinations, and runs the consumer-complaint line where policyholders dispute claims and cancellations. Its filings and complaint data are public, making it the first stop both for checking whether an insurer is licensed and for escalating a grievance the insurer won't resolve.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "III"
+    ],
+    "aliases": [
+      "DOI",
+      "Insurance Department"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "Depreciation",
     "full": "",
     "plain": "The drop in an item's value as it ages and wears — subtracted when a policy pays actual cash value.",
@@ -2369,6 +2625,46 @@
     "sources": [
       "III",
       "NAIC"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "Direct Writer",
+    "full": "",
+    "plain": "An insurer that sells straight to the public — through its own agents, phone, or website — skipping independent intermediaries.",
+    "snappy": "An insurer that distributes its policies directly through employees or its own channels rather than independent agents or brokers.",
+    "detail": "A direct writer cuts out the independent middleman: it reaches customers through its own captive agents, call centres, or website rather than independent agencies, and keeps the distribution cost it would otherwise pay away. The big personal-lines brands built their scale and lower expense ratio this way, often passing some of the saving to price. The contrast is the independent agency model, where unaffiliated agents and brokers place business across many carriers. The two systems have competed for over a century.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "III",
+      "IRMI"
+    ],
+    "aliases": [
+      "Direct Writer Insurer",
+      "Direct Response"
+    ]
+  },
+  {
+    "letter": "D",
+    "term": "Direct-to-Consumer",
+    "full": "",
+    "plain": "Selling insurance straight to the buyer online or by phone, with no agent in the middle.",
+    "snappy": "A distribution model in which insurers sell coverage directly to consumers through digital and phone channels without intermediaries.",
+    "detail": "Direct-to-consumer distribution lets a buyer get a quote and bind a policy on a website or app with no human producer involved, the model heavy advertising has made familiar in auto insurance. It strips out commission and speeds the purchase, suiting simple, standardized products. It overlaps with the direct writer model and with insurtech, and it works best where coverage is easy to compare; complex commercial and life risks still tend to need the guidance an agent or broker provides.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "III",
+      "Investopedia"
+    ],
+    "aliases": [
+      "Direct-to-Consumer Insurance",
+      "D2C"
     ]
   },
   {
@@ -3170,6 +3466,25 @@
   },
   {
     "letter": "F",
+    "term": "Federal Insurance Office",
+    "full": "FIO",
+    "plain": "A federal office that monitors the insurance industry nationally, though states still do the actual regulating.",
+    "snappy": "A US Treasury office that monitors the insurance sector and represents US interests internationally, without direct regulatory power.",
+    "detail": "Created after the 2008 financial crisis, the Federal Insurance Office is Washington's eyes on an industry the states regulate. Housed in the Treasury, it monitors the sector for systemic risk and gaps in coverage, advises on policy, and represents the US in international insurance negotiations — but it doesn't license or supervise insurers itself. Its existence reflects the long tension under McCarran-Ferguson between state primacy and the case for a national view of a business that crosses every border.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
+    ],
+    "aliases": [
+      "FIO"
+    ]
+  },
+  {
+    "letter": "F",
     "term": "Fee-for-Service",
     "full": "",
     "plain": "Paying doctors for each individual test, visit, or procedure they perform.",
@@ -3272,6 +3587,25 @@
   },
   {
     "letter": "F",
+    "term": "File-and-Use",
+    "full": "",
+    "plain": "A rate system where an insurer can start using new prices as soon as it files them, subject to later review.",
+    "snappy": "A rate-regulation regime allowing insurers to use filed rates immediately, with the regulator able to challenge them afterward.",
+    "detail": "File-and-use loosens the regulator's grip: an insurer files its rates and may put them into effect right away, with the state retaining the right to review and disapprove them later. It speeds insurers' ability to respond to changing loss costs, keeping markets more competitive and available, at the price of less up-front control than prior approval. Variations like use-and-file flip the order. The choice between these regimes shapes how quickly prices move when claims costs shift.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
+    ],
+    "aliases": [
+      "Use-and-File"
+    ]
+  },
+  {
+    "letter": "F",
     "term": "Final Expense Insurance",
     "full": "Burial Insurance",
     "plain": "A small whole-life policy meant to cover your funeral and last bills, easy to qualify for.",
@@ -3291,6 +3625,22 @@
   },
   {
     "letter": "F",
+    "term": "Financial Examination",
+    "full": "",
+    "plain": "A regulator's deep audit of an insurer's books to verify it's solvent and reserving honestly.",
+    "snappy": "A periodic regulatory audit verifying an insurer's financial condition, reserves, and compliance with solvency rules.",
+    "detail": "A financial examination is the solvency counterpart to a market conduct exam: regulators, usually led by the insurer's home state, dig into the books to confirm the annual statement is accurate, reserves are adequate, assets are properly valued, and risk-based capital is genuinely there. Done on a multi-year cycle and more often when warning signs appear, it's how regulators catch trouble — under-reserving, inflated assets, shaky reinsurance recoverables — before it hardens into insolvency.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "F",
     "term": "Financial Responsibility Law",
     "full": "",
     "plain": "State rules requiring drivers to prove they can pay for harm they cause, usually by carrying insurance.",
@@ -3303,6 +3653,25 @@
     "sources": [
       "NAIC",
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "Financial Strength Rating",
+    "full": "",
+    "plain": "An independent grade of how reliably an insurer can pay its claims — the score buyers and regulators watch.",
+    "snappy": "A rating agency's assessment of an insurer's ability to meet its policyholder obligations, expressed on a letter scale.",
+    "detail": "A financial strength rating is an outside verdict on whether an insurer will be able to pay: specialist agencies analyze its capital, reserves, reinsurance, and earnings and assign a letter grade signalling claims-paying ability. It's not advice on a stock but on the safety of a policy, which matters most for long-tail coverage like life insurance and annuities. Banks, brokers, and large buyers often require a minimum rating, and a downgrade can trigger lost business and even a run on an insurer.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "AM Best",
+      "Investopedia"
+    ],
+    "aliases": [
+      "Insurer Financial Strength Rating"
     ]
   },
   {
@@ -3506,6 +3875,22 @@
   },
   {
     "letter": "F",
+    "term": "Form Filing",
+    "full": "",
+    "plain": "An insurer's submission of its actual policy wording for regulators to review before it's sold.",
+    "snappy": "The submission of policy contract language to a regulator for approval to ensure it is legal, clear, and not deceptive.",
+    "detail": "Alongside rates, insurers must file the policy forms themselves — the contract language — for regulatory review. The state checks that the wording meets legal requirements, isn't deceptive, includes mandated provisions, and doesn't bury unfair terms. Approved standardized forms are why a homeowners policy reads much the same across companies. Form filing is the quieter twin of rate filing: one polices the price, the other the promise, and together they shape what a consumer actually buys.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "IRMI"
+    ]
+  },
+  {
+    "letter": "F",
     "term": "Formulary",
     "full": "Drug Formulary",
     "plain": "Your plan's list of covered medications, sorted into price tiers.",
@@ -3521,6 +3906,25 @@
     ],
     "aliases": [
       "Drug Formulary"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "Fraternal Benefit Society",
+    "full": "",
+    "plain": "A member-based nonprofit that provides life insurance and benefits to a shared community, often tied to ethnicity or faith.",
+    "snappy": "A nonprofit membership organization providing insurance and benefits to members united by a common bond, with a social mission.",
+    "detail": "A fraternal benefit society sells insurance with a cause attached: organized around a shared bond — ethnicity, religion, or trade — these member-owned nonprofits provide mainly life insurance and annuities while running charitable and community programs. They predate much of the modern industry, growing from immigrant mutual-aid lodges, and they enjoy a tax exemption tied to their social mission and lodge structure. Regulated as insurers but distinct from commercial ones, several remain sizeable life insurers serving their communities today.",
+    "indications": [
+      "Life & Annuities"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "III",
+      "NAIC"
+    ],
+    "aliases": [
+      "Fraternal Insurer"
     ]
   },
   {
@@ -3658,6 +4062,22 @@
     "category": "Health & Benefits",
     "sources": [
       "CMS",
+      "III"
+    ]
+  },
+  {
+    "letter": "G",
+    "term": "General Agent",
+    "full": "",
+    "plain": "A senior agent authorized to appoint and oversee other agents in a territory on an insurer's behalf.",
+    "snappy": "An agent granted authority to represent an insurer in a territory, often recruiting and supervising subordinate agents.",
+    "detail": "A general agent operates a step up from a frontline agent: granted broad authority to represent an insurer across a territory, they often recruit, appoint, and manage the subagents beneath them, especially in life insurance distribution. They earn overriding commissions on the business their agency produces. The structure let insurers build distribution networks through entrepreneurial local agencies rather than salaried staff, and the title still marks the head of such an agency in many companies.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "IRMI",
       "III"
     ]
   },
@@ -3849,6 +4269,26 @@
     ]
   },
   {
+    "letter": "G",
+    "term": "Guaranty Association",
+    "full": "Guaranty Fund",
+    "plain": "The state safety net that pays the claims of a failed insurer, funded by assessments on the surviving ones.",
+    "snappy": "A state-mandated fund that covers claims of insolvent admitted insurers, financed by assessing the other licensed carriers.",
+    "detail": "When an admitted insurer fails, the state guaranty association steps in to pay its outstanding claims, up to statutory caps, so policyholders aren't left empty-handed. It's funded after the fact by assessing the other licensed insurers in the state, who pass the cost along in future premiums — so the industry, in effect, insures its own failures. The protection covers admitted carriers only, which is the central reason buyers weigh whether an insurer is admitted before trusting it with a long-tail policy.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "III"
+    ],
+    "aliases": [
+      "Guaranty Fund",
+      "Guaranty Association Fund"
+    ]
+  },
+  {
     "letter": "H",
     "term": "Hard Fraud",
     "full": "",
@@ -3862,6 +4302,22 @@
     "sources": [
       "NICB",
       "Coalition Against Insurance Fraud"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "Hard Market",
+    "full": "",
+    "plain": "The phase when insurance gets expensive and hard to find, as insurers tighten up after heavy losses.",
+    "snappy": "A market phase of rising premiums, stricter underwriting, and reduced capacity, typically following large losses or shrinking capital.",
+    "detail": "A hard market is the tight half of the underwriting cycle: premiums climb, underwriting turns strict, coverage shrinks, and some risks struggle to find any insurer at all. It follows a blow to industry capital — a run of catastrophes, investment losses, or surging claim costs — that makes insurers cautious and capacity scarce. Buyers face higher prices, bigger deductibles, and tougher terms, and demand spills into the surplus lines and residual markets. It persists until fresh capital and competition soften prices again.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "IRMI",
+      "Investopedia"
     ]
   },
   {
@@ -4308,6 +4764,22 @@
   },
   {
     "letter": "I",
+    "term": "Independent Agent",
+    "full": "",
+    "plain": "An agent who represents several insurers and can shop a customer's coverage among them.",
+    "snappy": "An agent contracted with multiple insurers, able to place a client's business with whichever offers the best fit.",
+    "detail": "An independent agent isn't tied to one company: holding contracts with several insurers, they can compare options and place a customer with whichever carrier fits best, much as a broker does. They own their book of business and earn commission from each insurer they represent. For buyers the appeal is choice and continuity — if one insurer raises rates or exits a market, the agent can remarket the policy elsewhere without the customer starting over. It's the model behind the independent agency distribution system.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "III",
+      "IRMI"
+    ]
+  },
+  {
+    "letter": "I",
     "term": "Indexed Universal Life",
     "full": "IUL",
     "plain": "Universal life whose cash value grows tied to a stock index, with a guaranteed floor but a capped upside.",
@@ -4426,6 +4898,25 @@
   },
   {
     "letter": "I",
+    "term": "Insurance Commissioner",
+    "full": "",
+    "plain": "The state official who runs its insurance department — licensing insurers, approving rates, and protecting policyholders.",
+    "snappy": "The head of a state's insurance department, responsible for licensing, rate and form approval, solvency oversight, and consumer protection.",
+    "detail": "The insurance commissioner is the state's top insurance regulator, elected in some states and appointed in others. They license insurers and agents, approve or challenge rate filings, examine companies' finances, enforce market conduct rules, and field consumer complaints. When an insurer fails, the commissioner steps in as receiver. Through the NAIC, commissioners also write the model laws that keep state rules roughly aligned. For a policyholder fighting a denial, the commissioner's office is the place to escalate.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
+    ],
+    "aliases": [
+      "Commissioner of Insurance"
+    ]
+  },
+  {
+    "letter": "I",
     "term": "Insurance Fraud",
     "full": "",
     "plain": "Lying to get a policy or a payout you're not entitled to — a crime that quietly inflates everyone's premiums.",
@@ -4438,6 +4929,41 @@
     "sources": [
       "NICB",
       "Coalition Against Insurance Fraud"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Insurance Producer",
+    "full": "",
+    "plain": "The legal umbrella term for licensed agents and brokers — anyone who sells or solicits insurance.",
+    "snappy": "The regulatory term for a licensed individual or firm that sells, solicits, or negotiates insurance, covering both agents and brokers.",
+    "detail": "Producer is the word the law uses where everyday speech says agent or broker: state licensing statutes license insurance producers, a single category covering anyone who sells, solicits, or negotiates coverage, regardless of whether they represent the insurer or the buyer. The term sidesteps the agent-versus-broker distinction for licensing purposes. When a regulator suspends a producer licence or a model law sets continuing-education rules, this is the bucket it's referring to.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "NAIC",
+      "IRMI"
+    ],
+    "aliases": [
+      "Producer"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Insurance Regulation",
+    "full": "",
+    "plain": "The government oversight of insurers — mostly by states — that polices their solvency, pricing, and treatment of customers.",
+    "snappy": "The body of state laws and oversight governing insurer solvency, rates, policy forms, and market conduct.",
+    "detail": "Insurance in the US is regulated chiefly by the states, not Washington — a legacy of the McCarran-Ferguson Act. Each state's department of insurance licenses insurers and agents, reviews rate and form filings, monitors solvency through statutory accounting and risk-based capital, runs market conduct exams, and backstops failures with a guaranty association. The NAIC coordinates so fifty regimes don't fully fragment. The aim is twofold: keep insurers able to pay claims, and keep them fair to policyholders.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
     ]
   },
   {
@@ -4512,6 +5038,25 @@
   },
   {
     "letter": "I",
+    "term": "Insurer Insolvency",
+    "full": "",
+    "plain": "When an insurer can no longer pay what it owes — the failure regulation exists to prevent and contain.",
+    "snappy": "The condition of an insurer unable to meet its obligations, triggering regulatory intervention and guaranty-fund protection.",
+    "detail": "Insurer insolvency is the failure the whole regulatory apparatus is built to prevent: a company whose liabilities outrun its assets and can no longer reliably pay claims. When it looms, the commissioner intervenes through receivership — rehabilitation to try to save the company, or liquidation to wind it down. The state guaranty association then covers policyholder claims up to its limits. Causes range from underpricing and bad reserving to a catastrophe or a wave of uncollectable reinsurance recoverables.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
+    ],
+    "aliases": [
+      "Insolvency"
+    ]
+  },
+  {
+    "letter": "I",
     "term": "Insuring Agreement",
     "full": "",
     "plain": "The core promise of the policy — the sentence where the insurer says what it will pay for.",
@@ -4524,6 +5069,22 @@
     "sources": [
       "Cornell LII",
       "Verisk"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "Insurtech",
+    "full": "",
+    "plain": "The wave of technology startups and tools reshaping how insurance is priced, sold, and serviced.",
+    "snappy": "Technology-driven innovation in insurance, from digital distribution and instant quotes to data-rich underwriting and claims automation.",
+    "detail": "Insurtech is insurance's version of fintech: startups and established carriers using apps, telematics, AI, and big data to quote in seconds, underwrite with richer signals, sell directly to consumers, and automate claims. Some firms are full digital insurers; many sell tools to incumbents. The promise is cheaper, faster, more personalized coverage; the friction is fitting fast-moving technology into a heavily regulated business, where automated underwriting and pricing still answer to rules against unfair discrimination.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "III",
+      "Investopedia"
     ]
   },
   {
@@ -5207,6 +5768,27 @@
   },
   {
     "letter": "M",
+    "term": "Managing General Agent",
+    "full": "MGA",
+    "plain": "A specialized agency an insurer hands real authority to — underwriting, binding, even claims — for a class of business.",
+    "snappy": "An agency delegated underwriting and administrative authority by an insurer to manage a book of business on its behalf.",
+    "detail": "A managing general agent is an agent with an insurer's powers: delegated authority to underwrite, bind, price, and sometimes handle claims for a specific class or region, acting almost as the carrier's outsourced branch. Insurers use them to enter niche markets — a particular trade, a hard-to-underwrite line — without building in-house expertise. Because the MGA is committing the insurer's capital, the carrier polices it through audits and the bordereau, and weak oversight of MGAs has produced some spectacular insurer failures.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "IRMI",
+      "NAIC"
+    ],
+    "aliases": [
+      "MGA",
+      "Managing General Underwriter",
+      "MGU"
+    ]
+  },
+  {
+    "letter": "M",
     "term": "Manual Rating",
     "full": "",
     "plain": "Pricing a policy straight from the insurer's published rate tables, by the book, without individual loss history.",
@@ -5219,6 +5801,25 @@
     "sources": [
       "CAS",
       "IRMI"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Market Conduct Examination",
+    "full": "",
+    "plain": "A regulator's audit of how an insurer treats customers — its sales, underwriting, and claims practices.",
+    "snappy": "A regulatory review of an insurer's dealings with the public, including marketing, underwriting, and claims handling.",
+    "detail": "While a financial examination checks whether an insurer can pay, a market conduct examination checks whether it plays fair: regulators comb through how it advertises, underwrites, handles complaints, and pays or denies claims, hunting for patterns of unfair claims settlement practices, improper rescissions, or discrimination. Findings can bring fines, restitution, and corrective orders. The exams turn the broad promise of consumer protection into specific, audited scrutiny of an insurer's day-to-day treatment of its policyholders.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
+    ],
+    "aliases": [
+      "Market Conduct Exam"
     ]
   },
   {
@@ -5248,6 +5849,22 @@
       "Cross-sector"
     ],
     "category": "Law & Liability",
+    "sources": [
+      "Cornell LII",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "McCarran-Ferguson Act",
+    "full": "",
+    "plain": "The 1945 law that left insurance regulation to the states rather than the federal government.",
+    "snappy": "A federal law affirming that state regulation and taxation of insurance takes precedence, largely exempting the business from federal oversight.",
+    "detail": "The McCarran-Ferguson Act of 1945 settled who regulates insurance: the states. Passed after a court ruling that insurance was interstate commerce, it declared that state regulation and taxation should govern the business and that most federal law yields to it, even granting a limited antitrust exemption for shared activities like pooling loss data. It's the legal foundation of the state-based system, the NAIC's coordinating role, and the recurring debates over whether a national insurance regulator should exist.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
     "sources": [
       "Cornell LII",
       "NAIC"
@@ -5705,6 +6322,42 @@
     ]
   },
   {
+    "letter": "M",
+    "term": "Mutual Insurance Company",
+    "full": "",
+    "plain": "An insurer owned by its policyholders rather than shareholders, so profits flow back to the people it insures.",
+    "snappy": "An insurer owned by its policyholders, who share in its governance and may receive dividends from its profits.",
+    "detail": "A mutual insurance company has no outside shareholders: its policyholders are its owners, electing the board and sharing in the results, often through a policyholder dividend on a participating policy. Freed from pressure to pay external investors, mutuals can take a longer view, though raising capital is harder without a stock to sell. Many of the oldest and largest life and farm insurers are mutuals. The contrast is a stock insurance company, owned by and run for its shareholders.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "III",
+      "Investopedia"
+    ],
+    "aliases": [
+      "Mutual Insurer",
+      "Mutual"
+    ]
+  },
+  {
+    "letter": "N",
+    "term": "NAIC",
+    "full": "National Association of Insurance Commissioners",
+    "plain": "The body where state insurance regulators coordinate, writing model laws so 50 separate systems stay roughly aligned.",
+    "snappy": "A standard-setting organization of state insurance regulators that develops model laws and shared tools to coordinate US regulation.",
+    "detail": "Because insurance is regulated state by state, the National Association of Insurance Commissioners exists to keep the patchwork coherent. It's not a regulator itself but a forum where the commissioners draft model laws and regulations, set statutory accounting standards, run shared databases, and accredit states' solvency oversight. States then adopt its models, with local tweaks. Its work on risk-based capital, market conduct, and consumer protection shapes the rules insurers actually follow in nearly every state.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "III"
+    ]
+  },
+  {
     "letter": "N",
     "term": "Named Insured",
     "full": "",
@@ -6104,6 +6757,25 @@
     "sources": [
       "CMS",
       "III"
+    ]
+  },
+  {
+    "letter": "O",
+    "term": "Own Risk and Solvency Assessment",
+    "full": "ORSA",
+    "plain": "An insurer's own internal report to regulators on the risks it runs and whether its capital is enough to survive them.",
+    "snappy": "A self-assessment in which an insurer evaluates its material risks and the capital needed to remain solvent under stress.",
+    "detail": "Risk-based capital is a regulator's formula; an own risk and solvency assessment is the insurer's own answer to the same question. Larger insurers must regularly analyze all their material risks — underwriting, investment, operational — stress-test their capital against adverse scenarios, and report to regulators how they'd stay solvent. It pushes companies to own their risk management rather than just hit a formula, and it gives regulators a forward-looking view that backward-looking statements miss.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Investopedia"
+    ],
+    "aliases": [
+      "ORSA"
     ]
   },
   {
@@ -6544,6 +7216,44 @@
   },
   {
     "letter": "P",
+    "term": "Policyholder Dividend",
+    "full": "",
+    "plain": "A share of a mutual insurer's or participating policy's surplus returned to policyholders — a refund, not a stock dividend.",
+    "snappy": "A distribution of surplus returned to owners of participating policies, common in mutual insurers, refunding part of the premium.",
+    "detail": "A policyholder dividend returns good results to the people insured: when a mutual insurer or a participating policy earns more than it needed for claims and expenses, it pays part of the surplus back to policyholders. It's effectively a premium refund, not a guaranteed return, and on whole life insurance it can be taken as cash, used to cut the premium, or buy more coverage. It's the mechanism by which policyholder-ownership in a mutual actually reaches the policyholder's pocket.",
+    "indications": [
+      "Life & Annuities"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "III",
+      "Investopedia"
+    ],
+    "aliases": [
+      "Policy Dividend"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Policyholder Surplus",
+    "full": "",
+    "plain": "An insurer's net worth — assets minus liabilities — and the cushion standing between its policyholders and insolvency.",
+    "snappy": "The amount by which an insurer's admitted assets exceed its liabilities, representing its capital buffer against losses.",
+    "detail": "Policyholder surplus is an insurer's equity by another name: what's left after subtracting liabilities, chiefly its loss reserves, from its admitted assets. It's the buffer that absorbs a bad year — a catastrophe, an adverse reserve development — before the company can't pay claims. Regulators watch how premiums written compare to surplus, since writing too much business on too thin a cushion is a classic path to trouble. A growing surplus signals strength; a shrinking one draws scrutiny.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Investopedia"
+    ],
+    "aliases": [
+      "Surplus"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Political Risk Insurance",
     "full": "",
     "plain": "Coverage for businesses operating abroad against losses from government action — expropriation, war, currency blocks.",
@@ -6781,6 +7491,22 @@
     "sources": [
       "Verisk",
       "III"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Prior Approval",
+    "full": "",
+    "plain": "A rate-regulation system where an insurer can't use new prices until the regulator signs off.",
+    "snappy": "A rate-regulation regime requiring the regulator to approve proposed rates before an insurer may charge them.",
+    "detail": "Prior approval is the strictest common form of rate regulation: an insurer must file proposed rates and wait for the regulator's blessing before using them. It gives regulators maximum control to block increases they find excessive — popular in politically sensitive lines like auto — but it can delay needed adjustments and, critics argue, drive insurers out of states where approvals lag. It sits at one end of a spectrum whose looser settings, like file-and-use, trade oversight for speed.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
     ]
   },
   {
@@ -7187,6 +7913,22 @@
   },
   {
     "letter": "R",
+    "term": "Rate Filing",
+    "full": "",
+    "plain": "The submission an insurer makes to regulators to justify the prices it wants to charge.",
+    "snappy": "A submission of proposed insurance rates and supporting data to a regulator for review or approval before use.",
+    "detail": "Before changing prices in regulated lines, an insurer files its proposed rates with the state, backed by loss data and actuarial support showing they meet the standard: adequate, not excessive, not unfairly discriminatory. Depending on the state and line, the regulator must approve them first (prior approval) or the insurer may use them subject to later review (file-and-use). Rate filings are where the abstract work of ratemaking meets public oversight, and contentious increases in auto or home insurance play out in them.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "Rate on Line",
     "full": "ROL",
     "plain": "The price of a reinsurance layer as a percentage of the cover it provides — reinsurance's headline price metric.",
@@ -7244,6 +7986,22 @@
   },
   {
     "letter": "R",
+    "term": "Rebating",
+    "full": "",
+    "plain": "Illegally giving a customer part of the commission or a gift to win their business — banned in most states.",
+    "snappy": "Offering a portion of the premium or commission, or any inducement, to a buyer as a hidden incentive to purchase, prohibited in most states.",
+    "detail": "Rebating is paying the customer to buy: an agent kicks back part of their commission, or throws in cash or gifts, to close a sale. Most states ban it as an unfair trade practice, on the theory that it distorts competition toward who pays the biggest bribe rather than who offers the best coverage, and that it can quietly amount to unfair discrimination between buyers. A few states have loosened the rules, but elsewhere even modest inducements can cost an agent their licence.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "Rebuilt Title",
     "full": "",
     "plain": "A title given to a salvaged car that's been repaired and passed a state inspection to drive again.",
@@ -7256,6 +8014,46 @@
     "sources": [
       "NAIC",
       "III"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Receivership",
+    "full": "",
+    "plain": "State takeover of a failing insurer — to rescue it if possible, or wind it down and pay claims if not.",
+    "snappy": "A court-supervised process in which the regulator takes control of a troubled insurer to rehabilitate or liquidate it.",
+    "detail": "Receivership is what happens when an insurer can't be left to run itself: a court hands control to the insurance commissioner as receiver. The gentler path, rehabilitation, tries to nurse the company back to health or arrange a sale. If that fails, liquidation winds it down — selling assets, transferring or settling policies, and tapping the guaranty association to cover claims. The process aims to treat policyholders and creditors fairly while extracting the most value from a failed insurer.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
+    ],
+    "aliases": [
+      "Rehabilitation",
+      "Liquidation"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Reciprocal Exchange",
+    "full": "",
+    "plain": "An insurer where the members insure each other, run by an attorney-in-fact on their behalf.",
+    "snappy": "An unincorporated association whose members exchange insurance contracts with one another, managed by an attorney-in-fact.",
+    "detail": "A reciprocal exchange is a pool where the subscribers insure one another: each member is both insured and, in part, insurer of the others, with the whole run by a manager called the attorney-in-fact. It's neither a stock nor a mutual company but an unincorporated association, though to a policyholder it functions like any carrier. Several large auto and home insurers operate in this form, valued for its member-owned structure and the operating flexibility the attorney-in-fact arrangement allows.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "IRMI",
+      "NAIC"
+    ],
+    "aliases": [
+      "Reciprocal Insurer",
+      "Inter-Insurance Exchange"
     ]
   },
   {
@@ -7288,6 +8086,22 @@
     "sources": [
       "III",
       "IRMI"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Redlining",
+    "full": "",
+    "plain": "The illegal practice of refusing or pricing up insurance based on a neighbourhood rather than the actual risk.",
+    "snappy": "Unlawful discrimination that denies or raises the price of coverage based on the location or demographics of an area.",
+    "detail": "Redlining — named for the red lines once drawn on maps around minority neighbourhoods — is denying coverage, or charging more, based on where someone lives rather than the genuine risk of the property. It can leave whole communities unable to insure homes or businesses, blocking mortgages and investment. It's illegal as a form of unfair discrimination, and regulators police it through market conduct exams and data analysis, since proxies like ZIP code can smuggle in bias that pure risk-based pricing would not.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
     ]
   },
   {
@@ -7598,6 +8412,26 @@
   },
   {
     "letter": "R",
+    "term": "Residual Market",
+    "full": "",
+    "plain": "The state-arranged coverage of last resort for those the regular market won't insure.",
+    "snappy": "Mechanisms providing coverage to high-risk applicants rejected by the voluntary market, such as assigned-risk and FAIR plans.",
+    "detail": "The residual market is where risks the voluntary market rejects still find coverage: high-risk drivers in an assigned risk plan, fire-exposed homes in a FAIR plan, coastal properties in a wind pool, hard-to-place workers' comp in an assigned pool. The coverage is basic and the price high, and the cost is usually shared among all insurers writing that line in the state. It exists so that mandatory or essential coverage stays available even to those no insurer would choose to take.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "III"
+    ],
+    "aliases": [
+      "Residual Markets",
+      "Market of Last Resort"
+    ]
+  },
+  {
+    "letter": "R",
     "term": "Retroactive Date",
     "full": "",
     "plain": "On claims-made cover, the earliest date a mistake can have happened and still be covered.",
@@ -7859,6 +8693,25 @@
     "sources": [
       "IRMI",
       "Investopedia"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Risk-Based Capital",
+    "full": "RBC",
+    "plain": "A formula that sets how much capital an insurer must hold based on how risky its business is.",
+    "snappy": "A regulatory formula setting a minimum capital level scaled to an insurer's investment, underwriting, and credit risks.",
+    "detail": "Risk-based capital ties the cushion an insurer must hold to the risk it actually runs: a formula weighs its investments, underwriting mix, reserve risk, and reinsurance credit to produce a required capital figure. Compare it to the company's actual capital and you get a ratio that triggers escalating regulatory action as it falls — from explaining a plan to outright seizure. Adopted through the NAIC, it replaced crude fixed-capital minimums with a measure that asks a riskier insurer to hold more.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Investopedia"
+    ],
+    "aliases": [
+      "RBC"
     ]
   },
   {
@@ -8191,6 +9044,38 @@
   },
   {
     "letter": "S",
+    "term": "Soft Market",
+    "full": "",
+    "plain": "The phase when insurance is cheap and plentiful, as insurers compete hard for business.",
+    "snappy": "A market phase of falling premiums, broad coverage, and abundant capacity driven by strong competition and ample capital.",
+    "detail": "A soft market is the easy half of the underwriting cycle: flush with capital and chasing growth, insurers cut premiums, loosen underwriting, and broaden terms to win business. Buyers enjoy low prices and wide coverage, and the surplus lines market quiets as standard carriers take on more. The good times sow their own end — underpricing eventually meets a wave of losses, capital tightens, and the market hardens. Insurers who priced discipline through the soft years fare best when it turns.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "IRMI",
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Solvency",
+    "full": "",
+    "plain": "An insurer's ability to pay all the claims it owes — the central thing regulators police.",
+    "snappy": "The condition of having enough assets and capital to meet all policyholder obligations as they come due.",
+    "detail": "Solvency is the promise behind every policy: that the insurer will still be standing, with money in hand, when claims fall due years from now. Regulators guard it relentlessly, because an insolvent insurer breaks promises to thousands at once. They monitor it through statutory accounting, risk-based capital requirements, reserve adequacy, and the quality of reinsurance recoverables, and they intervene early when the numbers slip. Solvency oversight, more than pricing, is the core justification for regulating insurers at all.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Investopedia"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Special Enrollment Period",
     "full": "SEP",
     "plain": "A chance to change your health plan outside the normal window after a big life change.",
@@ -8327,6 +9212,46 @@
   },
   {
     "letter": "S",
+    "term": "State of Domicile",
+    "full": "",
+    "plain": "The home state whose regulator leads oversight of an insurer, even as it operates in many states.",
+    "snappy": "The state where an insurer is incorporated and primarily regulated, leading its solvency oversight nationwide.",
+    "detail": "An insurer's state of domicile is its regulatory home: the state where it's incorporated, whose department of insurance takes the lead in examining its finances and is the domiciliary regulator other states defer to for solvency. The insurer must also be licensed in every other state where it sells, but the home state runs point. Companies choose domiciles partly for the regulatory climate, which is why so many incorporate in states known for sophisticated, business-friendly insurance departments.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "IRMI"
+    ],
+    "aliases": [
+      "Domicile",
+      "Domiciliary State"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Statutory Accounting Principles",
+    "full": "SAP",
+    "plain": "The conservative accounting rules insurers must use for regulators — focused on whether claims can be paid, not on profit.",
+    "snappy": "The conservative, solvency-focused accounting standards insurers follow in regulatory filings, distinct from standard GAAP.",
+    "detail": "Statutory accounting is regulation's own ledger: a conservative rulebook insurers use in their filings to the state, designed to answer one question — can this company pay claims? It values assets cautiously, admitting only those readily turned to cash, and recognizes liabilities early. That makes it stricter than the GAAP accounting used for investors, who care about earnings. The gap between the two is why an insurer can look modestly profitable to shareholders yet be measured far more sternly for solvency.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Investopedia"
+    ],
+    "aliases": [
+      "SAP",
+      "Statutory Accounting"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Step Therapy",
     "full": "Fail First",
     "plain": "A rule that makes you try a cheaper drug first and fail on it before the plan covers a pricier one.",
@@ -8342,6 +9267,25 @@
     ],
     "aliases": [
       "Fail First"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Stock Insurance Company",
+    "full": "",
+    "plain": "An insurer owned by shareholders, run to earn them a profit — the standard corporate form.",
+    "snappy": "An insurer organized as a stock corporation, owned by shareholders who provide capital and receive its profits.",
+    "detail": "A stock insurance company is an insurer built like any other public corporation: shareholders own it, supply its capital, and collect its profits through dividends and a rising share price. That access to equity markets makes raising capital easier than for a mutual, but it also brings pressure to deliver returns each quarter. Most large publicly traded insurers take this form. Sometimes a mutual converts to it — demutualization — to tap stock markets, turning its policyholder-owners into shareholders.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "III",
+      "Investopedia"
+    ],
+    "aliases": [
+      "Stock Insurer"
     ]
   },
   {
@@ -8507,6 +9451,64 @@
     "sources": [
       "IRMI",
       "NAIC"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Surplus Lines",
+    "full": "Excess and Surplus Lines",
+    "plain": "The market for coverage the standard insurers won't write — flexible, specialized, and lightly regulated.",
+    "snappy": "Coverage placed with non-admitted insurers for risks the admitted market declines, exempt from rate and form regulation.",
+    "detail": "Surplus lines, also called excess and surplus or E&S, is the safety valve of the insurance market: when admitted carriers decline a risk — a nightclub, a vacant building, a novel cyber exposure — it can be placed with a non-admitted surplus lines insurer free to set its own terms and price. A licensed surplus lines broker must confirm the admitted market truly turned it down, collect a special premium tax, and warn the buyer there's no guaranty fund. The market grows whenever standard insurers retreat from a risk.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "IRMI",
+      "NAIC"
+    ],
+    "aliases": [
+      "Excess and Surplus Lines",
+      "E&S",
+      "Surplus Lines Market"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Surplus Lines Broker",
+    "full": "",
+    "plain": "A specially licensed broker who places coverage with non-admitted insurers when the standard market says no.",
+    "snappy": "A broker licensed to place business with surplus lines insurers after confirming the admitted market has declined the risk.",
+    "detail": "A surplus lines broker is the gatekeeper to the non-admitted market: holding a special licence, they may place a risk with a surplus lines insurer only after documenting that licensed admitted carriers wouldn't take it — the diligent-search requirement. They also collect and remit the surplus lines premium tax and disclose to the buyer that no guaranty fund stands behind the policy. Retail agents who lack the licence route hard-to-place accounts through them, often via a wholesale broker.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "IRMI",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Surplus Lines Insurer",
+    "full": "Non-Admitted Insurer",
+    "plain": "An insurer that covers hard-to-place risks without a state licence — more flexible, but not guaranty-fund protected.",
+    "snappy": "An insurer not licensed in a state that may still cover risks the admitted market declines, free of rate and form approval.",
+    "detail": "A surplus lines, or non-admitted, insurer writes the risks standard carriers won't: a coastal property, a risky startup, an unusual liability. It isn't licensed in the state and so escapes rate and form regulation, gaining the freedom to price and craft coverage as the risk demands. The catch for buyers is no guaranty association backstop if it fails, so states require these insurers to be financially vetted and the coverage placed through a licensed surplus lines broker.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "IRMI",
+      "NAIC"
+    ],
+    "aliases": [
+      "Non-Admitted Insurer",
+      "Non-Admitted Carrier",
+      "Excess and Surplus Lines Insurer"
     ]
   },
   {
@@ -8826,6 +9828,22 @@
     ]
   },
   {
+    "letter": "T",
+    "term": "Twisting",
+    "full": "",
+    "plain": "Talking a customer into dropping one policy for another using misleading comparisons — usually to earn a fresh commission.",
+    "snappy": "Inducing a policyholder to replace a policy through misrepresentation, often to the customer's detriment and the agent's gain.",
+    "detail": "Twisting is replacement by deception: an agent persuades a customer to surrender an existing policy and buy a new one using misleading or incomplete comparisons, typically to pocket a new commission. The switch often harms the customer — a fresh contestability period on life insurance, surrender charges, lost benefits. It's a named unfair trade practice that regulators punish, distinct from churning, where the agent does the same thing using policies from the same insurer rather than luring the customer to a competitor.",
+    "indications": [
+      "Life & Annuities"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
+    ]
+  },
+  {
     "letter": "U",
     "term": "Ultimate Net Loss",
     "full": "UNL",
@@ -8935,6 +9953,25 @@
   },
   {
     "letter": "U",
+    "term": "Underwriting Cycle",
+    "full": "",
+    "plain": "The boom-and-bust rhythm of insurance pricing, swinging between cheap, easy coverage and expensive, scarce coverage.",
+    "snappy": "The recurring swing of insurance markets between soft conditions of low prices and ample capacity and hard conditions of high prices and scarcity.",
+    "detail": "The underwriting cycle is the tide insurance pricing runs on: in a soft market, ample capital and competition push premiums down and coverage is easy to get; losses and shrinking capital then flip it to a hard market of rising premiums, tighter terms, and scarce capacity. Big catastrophes, investment swings, and reinsurance pricing all drive the turns. Buyers feel it as years when insurance is cheap and plentiful giving way, sometimes abruptly, to years when it's dear and hard to find.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "IRMI",
+      "Investopedia"
+    ],
+    "aliases": [
+      "Insurance Cycle"
+    ]
+  },
+  {
+    "letter": "U",
     "term": "Underwriting Guidelines",
     "full": "",
     "plain": "The insurer's internal rulebook telling underwriters which risks to accept, price up, or refuse.",
@@ -8998,6 +10035,25 @@
     ],
     "aliases": [
       "Unfair Claims Practices"
+    ]
+  },
+  {
+    "letter": "U",
+    "term": "Unfair Trade Practices",
+    "full": "",
+    "plain": "The deceptive sales and marketing tactics state law specifically bans insurers and agents from using.",
+    "snappy": "A statutory category of prohibited insurer and producer conduct, including misrepresentation, false advertising, and improper inducements.",
+    "detail": "Most states have an Unfair Trade Practices Act listing the marketing and sales conduct insurers and agents may not engage in: misrepresenting policies, false or misleading advertising, unfair discrimination, and improper inducements like rebating. It's the sales-side companion to the rules against unfair claims settlement practices, and regulators enforce it through market conduct exams, fines, and licence actions. Specific abuses like twisting and churning are named violations under it, giving regulators clear grounds to punish predatory selling.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Regulation & Solvency",
+    "sources": [
+      "NAIC",
+      "Cornell LII"
+    ],
+    "aliases": [
+      "Unfair Trade Practices Act"
     ]
   },
   {
@@ -9342,6 +10398,22 @@
     ],
     "aliases": [
       "Whole Life"
+    ]
+  },
+  {
+    "letter": "W",
+    "term": "Wholesale Broker",
+    "full": "",
+    "plain": "A broker who works between retail agents and insurers, placing the hard risks a frontline agent can't.",
+    "snappy": "An intermediary who places business, often surplus lines, on behalf of retail agents rather than dealing with the insured directly.",
+    "detail": "A wholesale broker sits between the retail agent and the insurer, specializing in the difficult placements a frontline agent isn't equipped for — surplus lines risks, niche industries, large or unusual exposures. The retail agent brings the client, the wholesaler brings market access and underwriting expertise, and a surplus lines broker among them carries the licence to reach non-admitted carriers. The customer rarely meets them, but for hard-to-place coverage the wholesale broker is the link that actually finds a market.",
+    "indications": [
+      "Cross-sector"
+    ],
+    "category": "Distribution & Markets",
+    "sources": [
+      "IRMI",
+      "NAIC"
     ]
   },
   {
