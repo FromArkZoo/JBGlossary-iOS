@@ -1,6 +1,24 @@
 [
   {
     "letter": "A",
+    "term": "Accountable Care Organization",
+    "full": "ACO",
+    "plain": "A team of doctors and hospitals that shares in the savings if it keeps a group of patients healthy for less.",
+    "snappy": "A provider group held jointly accountable for the cost and quality of a defined patient population, sharing in savings.",
+    "detail": "An accountable care organization is a network of providers that agrees to manage a population's care and split the savings with the payer if it beats a cost target while hitting quality marks — and sometimes shares the losses if it doesn't. Medicare pioneered the model to push value-based care. It nudges hospitals and doctors to coordinate rather than each bill in isolation, the opposite of fee-for-service.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS"
+    ],
+    "aliases": [
+      "ACO"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Actual Cash Value",
     "full": "ACV",
     "plain": "What damaged property was worth at the moment it was lost — its replacement cost minus wear and tear.",
@@ -21,6 +39,22 @@
   },
   {
     "letter": "A",
+    "term": "Actuarial Value",
+    "full": "",
+    "plain": "The share of medical costs a health plan covers on average — the math behind the metal tiers.",
+    "snappy": "The percentage of total covered costs a plan pays on average for a standard population, fixing its metal tier.",
+    "detail": "A plan with 70% actuarial value — a silver plan — pays roughly 70% of a typical population's covered costs, leaving 30% to deductibles, copays, and coinsurance. It's an average across many people, not a promise for any one person. Actuaries compute it to slot plans into metal tiers so buyers can compare generosity at a glance. It's where insurance pricing meets the ACA's consumer-protection rules.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "AAA"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Additional Insured",
     "full": "",
     "plain": "Someone added to your policy so they're protected too — often a landlord or business partner who demands it.",
@@ -37,6 +71,26 @@
   },
   {
     "letter": "A",
+    "term": "Affordable Care Act",
+    "full": "ACA",
+    "plain": "The 2010 health law that created online marketplaces, subsidies, and rules banning denial for pre-existing conditions.",
+    "snappy": "The 2010 law overhauling US health coverage with marketplaces, premium subsidies, and guaranteed-issue protections.",
+    "detail": "The Affordable Care Act reshaped individual health insurance: it set up the marketplaces where people buy subsidised plans, barred insurers from rejecting or surcharging pre-existing conditions, required plans to cover essential health benefits with no lifetime limits, and capped the out-of-pocket maximum. Premium tax credits make coverage affordable for many. It remains the backbone of how the uninsured and self-employed get covered, and a perennial political fight.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "Cornell LII"
+    ],
+    "aliases": [
+      "ACA",
+      "Obamacare"
+    ]
+  },
+  {
+    "letter": "A",
     "term": "Aggregate Limit",
     "full": "",
     "plain": "The total an insurer will pay over the whole policy term, across all claims combined.",
@@ -49,6 +103,41 @@
     "sources": [
       "Verisk",
       "III"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Allowed Amount",
+    "full": "Allowable Charge",
+    "plain": "The price your plan has decided a service is worth — the basis for what it and you actually pay.",
+    "snappy": "The maximum a plan recognises as payable for a covered service; the negotiated rate on which cost-sharing is figured.",
+    "detail": "The doctor may charge $300, but if your plan's allowed amount is $180, that's the number that matters: the plan pays its share of $180 and your coinsurance is figured on it. In-network providers write off the rest; out-of-network ones can bill you for it. The allowed amount appears on every explanation of benefits as the line between billed and covered.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ],
+    "aliases": [
+      "Allowable Charge"
+    ]
+  },
+  {
+    "letter": "A",
+    "term": "Appeal",
+    "full": "",
+    "plain": "Your formal request asking the plan to reconsider after it denies a claim or service.",
+    "snappy": "A challenge by the policyholder to a coverage denial, first reviewed internally and then, if needed, by an outside reviewer.",
+    "detail": "When a plan denies a claim or refuses to authorise care, you have the right to appeal — first an internal review by the plan, then an external review by an independent third party whose decision the ACA makes binding. Many denials are overturned on appeal, yet most patients never file. Knowing the deadlines and attaching the doctor's supporting letter is how a wrongly denied claim gets paid.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "Cornell LII"
     ]
   },
   {
@@ -81,6 +170,22 @@
     "sources": [
       "Cornell LII",
       "NAIC"
+    ]
+  },
+  {
+    "letter": "B",
+    "term": "Balance Billing",
+    "full": "",
+    "plain": "When an out-of-network provider bills you for the gap between their charge and what your plan paid.",
+    "snappy": "Charging a patient the difference between a provider's full charge and the plan's allowed amount, common out-of-network.",
+    "detail": "Balance billing hits when an out-of-network provider charges $1,000, the plan's allowed amount is $400, and you're billed the $600 gap on top of your cost-share. It produced the notorious surprise bills from out-of-network emergency-room doctors at in-network hospitals. The No Surprises Act now bars it in many of those situations, but it still applies when you knowingly choose an out-of-network provider.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
     ]
   },
   {
@@ -118,6 +223,27 @@
   },
   {
     "letter": "C",
+    "term": "Cafeteria Plan",
+    "full": "Section 125 Plan",
+    "plain": "A workplace benefits menu that lets you pay for health coverage and other perks with pre-tax dollars.",
+    "snappy": "An employer benefit plan under tax code Section 125 letting employees choose benefits and pay with pre-tax salary.",
+    "detail": "A cafeteria plan, named for its pick-and-choose menu, lets workers fund health premiums, a flexible spending account, or dependent care with pre-tax salary, cutting their taxable income. It's the tax plumbing behind most employer benefit enrollments. The Section 125 rules govern what can be offered and when elections can change — which is why mid-year benefit changes usually require a qualifying life event.",
+    "indications": [
+      "Health",
+      "Cross-sector"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "DOL",
+      "Investopedia"
+    ],
+    "aliases": [
+      "Section 125 Plan",
+      "Section 125"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Cancellation",
     "full": "",
     "plain": "Ending a policy before its term is up — by you or the insurer.",
@@ -130,6 +256,55 @@
     "sources": [
       "NAIC",
       "Cornell LII"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Capitation",
+    "full": "",
+    "plain": "Paying a doctor a fixed monthly amount per patient instead of per service.",
+    "snappy": "A payment model paying providers a set amount per enrolled patient per period, regardless of services actually used.",
+    "detail": "Under capitation, a plan pays a primary care physician a flat monthly fee for each assigned patient, whether that patient is seen ten times or never. It flips the incentive of fee-for-service: the provider profits by keeping patients healthy and avoiding unnecessary care, but bears the risk if they get sick. Common in HMOs and accountable care arrangements, it's central to the shift toward value-based care.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "SOA"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Catastrophic Plan",
+    "full": "",
+    "plain": "A bare-bones, low-premium health plan for young or low-income people that mainly guards against disaster.",
+    "snappy": "A low-premium, high-deductible ACA plan, limited to those under 30 or with a hardship exemption, covering worst-case costs.",
+    "detail": "A catastrophic plan carries the lowest premium and a deductible near the out-of-pocket maximum, so it pays little until a serious illness or accident. It still covers essential health benefits and a few preventive visits and primary-care visits. Only people under 30 or those with a hardship exemption can buy one, and premium tax credits don't apply, which limits its appeal to the young and healthy.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "CHIP",
+    "full": "Children's Health Insurance Program",
+    "plain": "Low-cost government health coverage for kids in families that earn too much for Medicaid but can't easily afford private plans.",
+    "snappy": "A federal-state program covering children in families above Medicaid limits but below private-coverage affordability.",
+    "detail": "CHIP fills the gap just above Medicaid eligibility, covering checkups, immunisations, dental, and hospital care for children at low or no cost. States run it alongside Medicaid, sometimes as an extension of it. It enjoys rare bipartisan support and covers millions of kids whose parents earn modestly. Families often discover it when they apply for Medicaid and the children qualify even if the adults don't.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS"
+    ],
+    "aliases": [
+      "Children's Health Insurance Program"
     ]
   },
   {
@@ -185,6 +360,25 @@
   },
   {
     "letter": "C",
+    "term": "COBRA",
+    "full": "Consolidated Omnibus Budget Reconciliation Act",
+    "plain": "A law letting you keep your job's health plan for a while after you leave — but you pay the full premium.",
+    "snappy": "A federal law letting workers and families continue group coverage after job loss, at their own full cost plus a fee.",
+    "detail": "Lose or leave a job and COBRA lets you keep the same group health plan, usually for up to 18 months — but now you pay the entire premium the employer used to subsidise, plus a 2% fee, so the sticker shock is real. It bridges the gap until new coverage or a special enrollment period. Many people compare the COBRA cost with a marketplace plan and find the subsidised marketplace cheaper.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "DOL",
+      "Cornell LII"
+    ],
+    "aliases": [
+      "Consolidated Omnibus Budget Reconciliation Act"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Coinsurance",
     "full": "",
     "plain": "The share of a covered bill you keep paying even after the deductible — often a percentage.",
@@ -202,6 +396,22 @@
   },
   {
     "letter": "C",
+    "term": "Community Rating",
+    "full": "",
+    "plain": "Pricing that charges everyone in an area the same, instead of charging sick people more.",
+    "snappy": "Setting premiums by geography and a few allowed factors rather than individual health, so the sick aren't priced out.",
+    "detail": "Under the ACA's modified community rating, insurers can vary individual premiums only by area, age, family size, and tobacco use — not by health or gender. It spreads the cost of the sick across the whole pool, the flip side of guaranteed issue. Pure community rating would charge literally everyone the same; the modified version keeps age bands. It's why a 20-year-old and a 60-year-old pay different but capped-ratio premiums.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "AAA"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Conditions",
     "full": "",
     "plain": "The fine-print duties you must meet — like reporting a loss promptly — or the insurer can refuse to pay.",
@@ -213,6 +423,22 @@
     "category": "Coverage & Policies",
     "sources": [
       "Cornell LII",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Coordination of Benefits",
+    "full": "",
+    "plain": "The rules that decide which plan pays first when you're covered by two of them.",
+    "snappy": "Rules determining the order in which two or more health plans pay when a person is covered by more than one.",
+    "detail": "When a child is on both parents' plans, or a worker has employer coverage plus a spouse's, coordination of benefits sets which plan is primary and pays first and which is secondary and picks up the remainder. The goal is to stop double payment while making sure the patient isn't shortchanged. The \"birthday rule\" — the parent whose birthday falls earlier in the year pays first — is the classic tiebreaker for kids.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
       "NAIC"
     ]
   },
@@ -234,6 +460,24 @@
   },
   {
     "letter": "C",
+    "term": "Cost-Sharing Reduction",
+    "full": "CSR",
+    "plain": "Extra help on a marketplace plan that shrinks your deductible and copays if your income is low enough.",
+    "snappy": "An ACA subsidy that lowers deductibles, copays, and the out-of-pocket maximum for lower-income silver-plan enrollees.",
+    "detail": "On top of the premium tax credit, a cost-sharing reduction quietly upgrades a silver marketplace plan for lower-income buyers — slashing the deductible, copays, and out-of-pocket maximum so the plan pays a bigger share of each bill. You must pick a silver plan to get it. Many eligible people miss out by choosing bronze for the lower premium, not realising they're leaving this help on the table.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS"
+    ],
+    "aliases": [
+      "CSR"
+    ]
+  },
+  {
+    "letter": "C",
     "term": "Coverage",
     "full": "",
     "plain": "The protection your policy actually provides — the specific losses it promises to pay for.",
@@ -246,6 +490,21 @@
     "sources": [
       "III",
       "NAIC"
+    ]
+  },
+  {
+    "letter": "C",
+    "term": "Critical Illness Insurance",
+    "full": "",
+    "plain": "A policy that pays a lump sum of cash if you're diagnosed with a serious illness like cancer or a heart attack.",
+    "snappy": "Supplemental coverage paying a fixed cash benefit on diagnosis of a covered serious illness, used however the insured wishes.",
+    "detail": "Critical illness insurance pays a tax-free lump sum — say $20,000 — on diagnosis of a covered condition such as cancer, heart attack, or stroke, no matter your medical bills. The cash can cover the deductible, lost income, or travel for treatment. Sold as a cheap voluntary benefit at work, it plugs gaps a high-deductible health plan leaves. Critics note the narrow list of covered conditions and the fine print on what counts.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "III"
     ]
   },
   {
@@ -287,6 +546,21 @@
   },
   {
     "letter": "D",
+    "term": "Dental Insurance",
+    "full": "",
+    "plain": "A plan that helps pay for cleanings, fillings, and bigger dental work, usually with a low annual cap.",
+    "snappy": "Coverage for dental care, typically with full preventive cleanings but a low annual maximum on major work.",
+    "detail": "Dental insurance works differently from medical: it usually covers preventive cleanings fully, basic work like fillings at a share, and major work like crowns at half — all under a low annual maximum, often around $1,500. Hit the cap and you pay the rest yourself. It's commonly sold as a standalone or employer add-on, and the modest limits mean it cushions routine care more than it protects against catastrophe.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "III"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "Depreciation",
     "full": "",
     "plain": "The drop in an item's value as it ages and wears — subtracted when a policy pays actual cash value.",
@@ -304,10 +578,27 @@
   },
   {
     "letter": "D",
+    "term": "Disability Insurance",
+    "full": "",
+    "plain": "Income protection that pays you part of your paycheck if illness or injury keeps you from working.",
+    "snappy": "Coverage replacing a portion of earned income when illness or injury prevents the insured from working.",
+    "detail": "Disability insurance protects the asset most people forget — their ability to earn. Short-term policies cover weeks to months; long-term ones can pay to retirement age, typically replacing 50–70% of income after an elimination period. Employers often provide a base layer, which workers supplement individually. It matters most for those whose savings couldn't survive a year off work, and the definition of \"disabled\" in the policy decides whether a claim pays.",
+    "indications": [
+      "Health",
+      "Life & Annuities"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "III",
+      "SOA"
+    ]
+  },
+  {
+    "letter": "D",
     "term": "Duty to Defend",
     "full": "",
     "plain": "The promise by your insurer to hire and pay lawyers to fight a covered lawsuit against you.",
-    "snappy": "A liability insurer's obligation to provide and fund a legal defence for claims that potentially fall within coverage.",
+    "snappy": "An obligation on a liability insurer to provide and fund a legal defence for claims that potentially fall within coverage.",
     "detail": "The duty to defend is broader than the duty to pay: an insurer must defend a lawsuit if any allegation might be covered, even if it later proves it owes nothing. Defence costs often dwarf the eventual settlement, so this promise is a big part of a liability policy's value. Refuse to defend wrongly and the insurer risks a bad-faith judgment far above the policy limit.",
     "indications": [
       "Commercial & Liability"
@@ -352,6 +643,26 @@
   },
   {
     "letter": "E",
+    "term": "Elimination Period",
+    "full": "Waiting Period",
+    "plain": "The waiting stretch after you become disabled before benefit payments start.",
+    "snappy": "The time between a disability or claim trigger and the start of benefit payments, functioning like a time-based deductible.",
+    "detail": "On a disability policy, the elimination period is how long you must be unable to work before benefits begin — often 90 days, sometimes longer for long-term coverage. A longer elimination period lowers the premium, the same trade-off as a higher deductible. It exists to keep small, short claims off the insurer and to make you self-insure the first stretch. Long-term care policies use the same waiting-period mechanism.",
+    "indications": [
+      "Health",
+      "Life & Annuities"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "III",
+      "SOA"
+    ],
+    "aliases": [
+      "Waiting Period"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Endorsement",
     "full": "Policy Endorsement",
     "plain": "An add-on that changes your policy — adding, removing, or tweaking what's covered.",
@@ -367,6 +678,58 @@
     ],
     "aliases": [
       "Endorsements"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "EPO",
+    "full": "Exclusive Provider Organization",
+    "plain": "A middle-ground health plan: no referrals needed, but it only pays for its own network of doctors.",
+    "snappy": "A plan that, like a PPO, needs no referrals but, like an HMO, covers only in-network care outside emergencies.",
+    "detail": "An EPO splits the difference between HMO and PPO. You don't need a primary care physician or referrals to see specialists, but step outside the network for anything but an emergency and you pay the full bill. Premiums sit between an HMO and a PPO. It suits people who want freedom from referrals but can live within a defined network to keep costs down.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "ERISA",
+    "full": "Employee Retirement Income Security Act",
+    "plain": "The 1974 federal law that governs most employer-sponsored health and retirement benefits.",
+    "snappy": "The federal law setting standards for private-sector benefit plans and pre-empting state regulation of self-funded plans.",
+    "detail": "ERISA sets the ground rules for employer health and pension plans — disclosure, fiduciary duty, and an appeals process for denied claims. Crucially, it pre-empts state insurance law for self-funded plans, which is why a big employer's coverage can skip state mandates. When a denied claim heads to federal court rather than a state insurance commissioner, ERISA is the reason. It shapes the legal backdrop of nearly all job-based benefits.",
+    "indications": [
+      "Health",
+      "Cross-sector"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "DOL",
+      "Cornell LII"
+    ],
+    "aliases": [
+      "Employee Retirement Income Security Act"
+    ]
+  },
+  {
+    "letter": "E",
+    "term": "Essential Health Benefits",
+    "full": "",
+    "plain": "The ten categories of care every marketplace plan must cover — from hospital stays to maternity to mental health.",
+    "snappy": "Ten benefit categories the ACA requires individual and small-group plans to cover, from emergency care to prescriptions.",
+    "detail": "Before the ACA, plans could skip maternity care or prescription drugs to cut premiums. Essential health benefits force every individual and small-group plan to cover ten categories — hospitalisation, emergency care, maternity, mental health, prescriptions, preventive care, and more — with no annual or lifetime dollar limits. The rule is why a cheap plan can't simply carve out the expensive things you might actually need.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "Cornell LII"
     ]
   },
   {
@@ -419,6 +782,25 @@
   },
   {
     "letter": "E",
+    "term": "Explanation of Benefits",
+    "full": "EOB",
+    "plain": "The statement your plan sends after a claim showing what was billed, what it paid, and what you owe.",
+    "snappy": "A post-claim statement detailing the billed charge, allowed amount, plan payment, and the patient's remaining responsibility.",
+    "detail": "An explanation of benefits is not a bill — it's the plan's accounting of a processed claim: the provider's charge, the allowed amount, what the plan paid, and what counts toward your deductible and out-of-pocket maximum. Reading it catches errors and surprise charges before the provider's actual bill arrives. The words \"not a bill\" are printed at the top precisely because so many people mistake it for one.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ],
+    "aliases": [
+      "EOB"
+    ]
+  },
+  {
+    "letter": "E",
     "term": "Exposure",
     "full": "",
     "plain": "How much potential loss an insurer is on the hook for — the size of the bet it took.",
@@ -434,6 +816,38 @@
     ]
   },
   {
+    "letter": "E",
+    "term": "External Review",
+    "full": "",
+    "plain": "An independent outside opinion you can demand when your plan upholds a denial.",
+    "snappy": "An independent third-party review of a denied claim after internal appeals fail, with a decision binding on the plan.",
+    "detail": "If the plan denies your internal appeal, external review hands the dispute to an independent organisation with no stake in the outcome, and the ACA makes its decision binding. It's the backstop against an insurer marking its own homework. Patients use it most for denials of expensive or experimental treatments. The plan must tell you how to request it on every final denial notice.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "Fee-for-Service",
+    "full": "",
+    "plain": "Paying doctors for each individual test, visit, or procedure they perform.",
+    "snappy": "The traditional model paying providers per service rendered, rewarding volume rather than outcomes.",
+    "detail": "Fee-for-service is the default that pays a provider for every visit, scan, and procedure — simple, but it rewards doing more rather than doing what helps. Critics blame it for driving up US health spending, which is why payers push value-based care and capitation as alternatives. Original Medicare still runs largely on fee-for-service, the benchmark every payment reform is measured against.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "SOA"
+    ]
+  },
+  {
     "letter": "F",
     "term": "First-Party Coverage",
     "full": "",
@@ -446,6 +860,61 @@
     "category": "Coverage & Policies",
     "sources": [
       "Cornell LII",
+      "III"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "Flexible Spending Account",
+    "full": "FSA",
+    "plain": "A use-it-or-lose-it workplace account that lets you set aside pre-tax money for medical costs.",
+    "snappy": "An employer account funding medical or dependent-care costs with pre-tax dollars, generally forfeited if unused by year-end.",
+    "detail": "A flexible spending account lets employees route pre-tax salary toward out-of-pocket medical costs, lowering taxable income. The catch is the use-it-or-lose-it rule: unspent funds are largely forfeited at year-end, give or take a small carryover or grace period. Unlike a health savings account it needs no high-deductible plan but doesn't roll over freely. December brings the annual rush to spend down the balance on glasses and prescriptions.",
+    "indications": [
+      "Health",
+      "Cross-sector"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "Investopedia"
+    ],
+    "aliases": [
+      "FSA"
+    ]
+  },
+  {
+    "letter": "F",
+    "term": "Formulary",
+    "full": "Drug Formulary",
+    "plain": "Your plan's list of covered medications, sorted into price tiers.",
+    "snappy": "The list of prescription drugs a plan covers, organised into tiers that set each drug's copay or coinsurance.",
+    "detail": "The formulary decides whether your medication is covered and how much you pay for it. Drugs sit in tiers — generics cheapest, preferred brands next, specialty drugs priciest — and a pharmacy benefit manager negotiates the list. A drug left off the formulary may need a prior authorization, a step-therapy trial, or an appeal. People with chronic conditions check the formulary before choosing a plan each open enrollment.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ],
+    "aliases": [
+      "Drug Formulary"
+    ]
+  },
+  {
+    "letter": "G",
+    "term": "Gatekeeper",
+    "full": "",
+    "plain": "The main doctor who must approve your access to specialists in a managed-care plan.",
+    "snappy": "The primary care physician in a managed plan whose referral controls whether specialist care is covered.",
+    "detail": "In a gatekeeper model — classic HMO design — your primary care physician is the hub: you can't get covered specialist care without going through them for a referral. It controls cost and coordinates care but frustrates patients who know exactly which specialist they need. PPOs drop the gatekeeper, letting members self-refer for a higher premium. The term captures the central cost-control bargain of managed care.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
       "III"
     ]
   },
@@ -467,6 +936,38 @@
     ]
   },
   {
+    "letter": "G",
+    "term": "Group Health Insurance",
+    "full": "",
+    "plain": "Health coverage you get through an employer, where the risk is spread across all the workers.",
+    "snappy": "Employer- or association-sponsored coverage where a pooled group shares risk, usually with the employer paying part of the premium.",
+    "detail": "Most working-age adults get coverage through group health insurance at a job, where the employer negotiates with an insurer and pays a chunk of the premium pre-tax. Pooling many employees spreads risk and avoids individual medical underwriting. Lose the job and COBRA or a special enrollment period bridges the gap. The tax break for employer coverage is the quiet reason US health insurance is tied to employment.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "DOL",
+      "III"
+    ]
+  },
+  {
+    "letter": "G",
+    "term": "Guaranteed Issue",
+    "full": "",
+    "plain": "A rule that an insurer must sell you a policy regardless of your health.",
+    "snappy": "A requirement that insurers offer coverage to any applicant, regardless of health status or pre-existing conditions.",
+    "detail": "Guaranteed issue is the engine behind the pre-existing-condition protection: in the ACA individual market, insurers must accept all comers during open enrollment and can't screen out the sick. It only works paired with community rating and broad enrollment, or healthy people wait until they're ill to buy — the adverse-selection problem the individual mandate was meant to solve. Medicare supplement plans have their own narrower guaranteed-issue windows.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "NAIC"
+    ]
+  },
+  {
     "letter": "H",
     "term": "Hazard",
     "full": "",
@@ -480,6 +981,164 @@
     "sources": [
       "III",
       "SOA"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "Health Insurance",
+    "full": "",
+    "plain": "A plan that pays a share of your medical bills in exchange for a monthly premium.",
+    "snappy": "Coverage that pays for medical care — doctors, hospitals, drugs — in return for premiums and patient cost-sharing.",
+    "detail": "Health insurance is the most-used and least-understood policy most people own. You pay a premium, then share costs through a deductible, copays, and coinsurance until you reach the out-of-pocket maximum. Which doctors are in-network, what the formulary covers, and whether a service needs prior authorization all decide your real bill. You'll wrestle with it every open enrollment and every time a claim is denied.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "Health Insurance Marketplace",
+    "full": "Exchange",
+    "plain": "The government website where individuals shop for plans and claim subsidies.",
+    "snappy": "An ACA-created online exchange where individuals compare and buy health plans and apply for premium tax credits.",
+    "detail": "The marketplace — healthcare.gov or a state-run exchange — is where the self-employed and uninsured browse standardised plans sorted into metal tiers and find out if they qualify for a premium tax credit. Plans are guaranteed issue, so a pre-existing condition can't keep you out. You can usually only enroll during open enrollment unless a qualifying life event opens a special enrollment period.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ],
+    "aliases": [
+      "Exchange",
+      "Health Insurance Exchange"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "Health Plan",
+    "full": "",
+    "plain": "The specific insurance product covering your medical care, with its own network, rules, and prices.",
+    "snappy": "A specific health insurance product defining its network, covered benefits, cost-sharing, and premium.",
+    "detail": "When HR says \"pick a plan,\" each option is a health plan with a different premium, deductible, network, and formulary. Plans come in types — HMO, PPO, EPO, high-deductible — that trade lower premiums for tighter rules. Comparing the metal tier, the out-of-pocket maximum, and whether your doctors are in-network matters far more than the headline premium. The choice locks in for the year unless a qualifying life event opens a special enrollment period.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "Health Reimbursement Arrangement",
+    "full": "HRA",
+    "plain": "An account your employer funds to reimburse you for medical costs or even your own insurance premiums.",
+    "snappy": "An employer-funded, employer-owned arrangement reimbursing employees for qualified medical costs or individual premiums.",
+    "detail": "Unlike a health savings account, a health reimbursement arrangement is funded and owned by the employer, which reimburses workers tax-free for medical expenses. Newer individual-coverage versions let small employers give workers money to buy their own marketplace plan instead of offering a group plan. It shifts plan choice to the employee while capping the employer's cost — a model spreading among small businesses.",
+    "indications": [
+      "Health",
+      "Cross-sector"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "DOL",
+      "CMS"
+    ],
+    "aliases": [
+      "HRA"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "Health Savings Account",
+    "full": "HSA",
+    "plain": "A tax-free savings account for medical costs, available only if you have a high-deductible health plan.",
+    "snappy": "A tax-advantaged account for medical expenses, paired with a qualifying high-deductible plan, with funds that roll over.",
+    "detail": "A health savings account is the rare triple tax break: contributions go in pre-tax, grow untaxed, and come out tax-free for medical costs. You must have a high-deductible health plan to open one, and unspent money rolls over year to year and is yours to keep, even into retirement. Savers treat it as a stealth retirement account; the cash-strapped use it to cushion the deductible.",
+    "indications": [
+      "Health",
+      "Cross-sector"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "Investopedia"
+    ],
+    "aliases": [
+      "HSA"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "High-Deductible Health Plan",
+    "full": "HDHP",
+    "plain": "A plan with low premiums but a big deductible you must pay before most coverage starts — usually paired with a tax-free savings account.",
+    "snappy": "A plan with a high deductible and lower premium, meeting IRS limits so it can be paired with a health savings account.",
+    "detail": "A high-deductible health plan keeps the monthly premium low and asks you to cover more upfront before coverage kicks in beyond preventive care. Because it meets federal thresholds, it unlocks a health savings account where you stash tax-free dollars for medical costs. The bet suits the healthy and the saver; a bad year means paying the full deductible before the plan pays much. Employers increasingly default to them.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ],
+    "aliases": [
+      "HDHP"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "HMO",
+    "full": "Health Maintenance Organization",
+    "plain": "A health plan that's cheaper but keeps you inside its own doctor network and routes care through one main doctor.",
+    "snappy": "A managed-care plan with low cost-sharing that covers only in-network providers and routes care through a primary care physician.",
+    "detail": "An HMO trades flexibility for price: you pick a primary care physician who coordinates your care and writes referrals to see specialists, and out-of-network care isn't covered except in emergencies. Premiums and copays run lower than a PPO, with little paperwork when you stay inside the network. You'll hear it weighed against a PPO every open enrollment — the classic cost-versus-freedom choice.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ]
+  },
+  {
+    "letter": "H",
+    "term": "Hospital Indemnity Insurance",
+    "full": "",
+    "plain": "A supplemental plan that pays you a set cash amount for each day you're hospitalised.",
+    "snappy": "Supplemental coverage paying a fixed daily or per-event cash benefit for hospital stays, regardless of actual charges.",
+    "detail": "Hospital indemnity insurance pays a flat sum — perhaps $200 a day — directly to you for each day admitted, on top of whatever your health plan pays. The cash offsets the deductible, copays, or the everyday bills that pile up during a stay. It's a popular voluntary add-on for people with high-deductible health plans, though the payouts are modest and it's no substitute for real medical coverage.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "III"
+    ]
+  },
+  {
+    "letter": "I",
+    "term": "In-Network",
+    "full": "",
+    "plain": "Doctors and hospitals your plan has a contract with, where your costs are lowest.",
+    "snappy": "Providers contracted with your plan at negotiated rates, where cost-sharing is lowest and balance billing is barred.",
+    "detail": "Staying in-network is the single biggest lever on what you actually pay. In-network providers accept the plan's negotiated rate as full payment, so you owe only your deductible, copay, or coinsurance — never the gap. The plan publishes a directory, but it can be out of date, so confirm before each visit. Out-of-network care flips all of this and can leave you with a surprise bill.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
     ]
   },
   {
@@ -600,6 +1259,23 @@
   },
   {
     "letter": "L",
+    "term": "Long-Term Care Insurance",
+    "full": "",
+    "plain": "Coverage for help with daily living — nursing homes, home aides — when age or illness leaves you unable to cope alone.",
+    "snappy": "Insurance paying for custodial care (nursing home, assisted living, home aides) that health insurance and Medicare won't.",
+    "detail": "Long-term care insurance fills a gap that blindsides families: regular health insurance and Medicare don't pay for the years of help bathing, dressing, or eating that ageing or chronic illness can require. Policies pay a daily benefit toward a nursing home, assisted living, or home aide after an elimination period. Premiums are steep and rise with age, and the industry has struggled with mispriced older policies, making it a fraught but important purchase.",
+    "indications": [
+      "Health",
+      "Life & Annuities"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "III",
+      "NAIC"
+    ]
+  },
+  {
+    "letter": "L",
     "term": "Loss",
     "full": "",
     "plain": "The damage, injury, or cost that triggers a claim.",
@@ -611,6 +1287,22 @@
     "category": "Claims & Settlement",
     "sources": [
       "NAIC",
+      "III"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Managed Care",
+    "full": "",
+    "plain": "Health coverage that controls cost and quality by steering you to certain doctors and approving care in advance.",
+    "snappy": "Systems that contain cost and coordinate care through provider networks, utilisation review, and primary-care gatekeeping.",
+    "detail": "Managed care is the umbrella over HMOs, PPOs, and EPOs — the idea that an insurer actively manages care rather than just paying bills. Its tools are networks, referrals, prior authorization, and utilisation review, all aimed at cutting unnecessary spending. Praised for restraining costs and blamed for hassle and denials, it has defined US health insurance since the 1990s. Nearly every modern plan is some flavour of it.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
       "III"
     ]
   },
@@ -631,6 +1323,170 @@
     ]
   },
   {
+    "letter": "M",
+    "term": "Medicaid",
+    "full": "",
+    "plain": "The joint federal-state program providing free or low-cost health coverage to low-income people.",
+    "snappy": "A means-tested public program, funded by states and the federal government, covering low-income and disabled people.",
+    "detail": "Medicaid covers tens of millions — low-income families, pregnant women, people with disabilities, and, in expansion states, most low-income adults. States run it within federal rules, so benefits and eligibility vary widely. It pays for most US nursing-home care, the reason middle-class families encounter it through elder care. The ACA's Medicaid expansion, which states can accept or refuse, drove much of the drop in the uninsured rate.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Medical Loss Ratio",
+    "full": "MLR",
+    "plain": "The share of your premiums an insurer must spend on actual care, not overhead — or it owes you a rebate.",
+    "snappy": "The portion of premium an insurer spends on medical care and quality; the ACA sets minimums of 80–85%.",
+    "detail": "The ACA forces insurers to spend at least 80% of individual and small-group premiums (85% for large groups) on care and quality improvement rather than administration, marketing, and profit. Fall short and they must rebate the difference to policyholders — those late-summer cheques some people receive. The medical loss ratio caps how much of your premium can become overhead, a rare direct check on insurer margins.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "NAIC"
+    ],
+    "aliases": [
+      "MLR"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Medically Necessary",
+    "full": "",
+    "plain": "The standard a service must meet — genuinely needed to treat your condition — for the plan to cover it.",
+    "snappy": "Care a plan deems appropriate and required to diagnose or treat a condition per accepted standards; the test for coverage.",
+    "detail": "\"Medically necessary\" is the gate every claim must pass: the plan covers care that's needed and appropriate, not elective or experimental. Utilization review applies the standard, and disputes over it drive a huge share of denials and appeals. The definition lives in the policy, so a treatment your doctor recommends can still be refused if the plan's reviewer judges it unnecessary, which is exactly what the appeals process exists to contest.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Medicare",
+    "full": "",
+    "plain": "The federal health program covering people 65 and older, and some younger people with disabilities.",
+    "snappy": "The US federal health insurance program for those 65+ and certain disabled people, organised into four parts.",
+    "detail": "Medicare is the backbone of US coverage for seniors: Medicare Part A covers hospital stays, Medicare Part B covers doctors and outpatient care, Medicare Part C (Medicare Advantage) bundles them through a private plan, and Medicare Part D covers drugs. Original Medicare leaves gaps many fill with a Medigap policy. Enrollment timing around your 65th birthday matters — miss it and you face lifelong late penalties. It dominates every debate over US health spending.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Medicare Advantage",
+    "full": "Medicare Part C",
+    "plain": "A private alternative to original Medicare that bundles your hospital, doctor, and often drug coverage into one plan.",
+    "snappy": "Private plans paid by Medicare to deliver hospital and doctor benefits, usually with extras, in exchange for network rules.",
+    "detail": "Medicare Advantage — Part C — lets a private insurer run your Medicare benefits, often adding dental, vision, and drug coverage and a capped out-of-pocket maximum that original Medicare lacks. The trade-off is networks, referrals, and prior authorization. More than half of beneficiaries now choose it. Insurers market it heavily each fall during Medicare's annual election period, and regulators scrutinise how the plans are paid.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS"
+    ],
+    "aliases": [
+      "Medicare Part C",
+      "Part C"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Medicare Part A",
+    "full": "Hospital Insurance",
+    "plain": "The part of Medicare that pays for hospital stays, free for most people who paid Medicare taxes while working.",
+    "snappy": "The Medicare component covering inpatient hospital care, skilled nursing, hospice, and some home health, premium-free for most.",
+    "detail": "Medicare Part A is the hospital half of original Medicare, covering inpatient stays, skilled nursing after a hospital admission, hospice, and limited home health. Most people pay no premium because they earned it through payroll taxes, though a deductible applies each benefit period. It pairs with Medicare Part B, and a Medigap policy can cover the leftover cost-sharing. You're usually enrolled automatically once you start drawing federal retirement benefits at 65.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Medicare Part B",
+    "full": "Medical Insurance",
+    "plain": "The part of Medicare that pays for doctor visits and outpatient care, in exchange for a monthly premium.",
+    "snappy": "The Medicare component covering physician services, outpatient care, and preventive care, funded by an income-scaled premium.",
+    "detail": "Medicare Part B covers what Medicare Part A doesn't: doctor visits, outpatient procedures, lab tests, durable medical equipment, and preventive care. It charges a monthly premium that rises with income, plus a deductible and 20% coinsurance with no out-of-pocket maximum — the gap a Medigap policy or a Medicare Advantage plan fills. Delaying enrollment past 65 without other coverage triggers a lifelong late penalty that catches the unwary.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Medicare Part D",
+    "full": "Prescription Drug Coverage",
+    "plain": "The part of Medicare that helps pay for prescription drugs, sold as a separate private plan.",
+    "snappy": "Optional Medicare drug coverage delivered through private plans, each with its own formulary and tiered cost-sharing.",
+    "detail": "Medicare Part D covers prescription drugs through private plans Medicare approves, each with its own formulary and pharmacy network. Enrollees once fell into the \"doughnut hole\" coverage gap, now largely closed, and recent law caps annual out-of-pocket drug costs. Skip it when first eligible without other drug coverage and a late penalty sticks permanently. Retirees re-shop Part D plans each year during Medicare's annual election period as their drugs and the formularies change.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Medigap",
+    "full": "Medicare Supplement",
+    "plain": "A private add-on policy that pays the deductibles and coinsurance original Medicare leaves you owing.",
+    "snappy": "Standardised private insurance that covers cost-sharing gaps in original Medicare, sold in lettered plan types.",
+    "detail": "Original Medicare has no out-of-pocket maximum, so a long hospital stay can pile up coinsurance. A Medigap policy fills those gaps, sold in standardised lettered plans (A through N) so the same letter means the same coverage across insurers — you shop on price and service. You can't pair Medigap with Medicare Advantage. The best time to buy is your six-month open-enrollment window at 65, when it's guaranteed issue.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "NAIC"
+    ],
+    "aliases": [
+      "Medicare Supplement"
+    ]
+  },
+  {
+    "letter": "M",
+    "term": "Metal Tiers",
+    "full": "",
+    "plain": "The bronze-silver-gold-platinum labels that sort marketplace plans by how much of your costs they cover.",
+    "snappy": "ACA plan categories ranked by actuarial value: bronze pays least up front, platinum most, with premiums rising to match.",
+    "detail": "Marketplace plans wear metal tiers that signal their actuarial value — the share of total costs the plan covers on average. Bronze plans have the lowest premiums but high deductibles; platinum flips it. Silver is the pivot: only silver unlocks cost-sharing reductions, so it's often the smartest buy for lower incomes. The metal label lets shoppers compare plans on the same footing before drilling into networks and formularies.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ]
+  },
+  {
     "letter": "N",
     "term": "Named Insured",
     "full": "",
@@ -643,6 +1499,38 @@
     "category": "Coverage & Policies",
     "sources": [
       "NAIC",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "N",
+    "term": "Network",
+    "full": "",
+    "plain": "The group of doctors, hospitals, and pharmacies your plan has signed up at discounted rates.",
+    "snappy": "The set of providers contracted with a health plan to deliver care at negotiated rates; in-network costs you least.",
+    "detail": "Your plan negotiates prices with a network of doctors and hospitals; using them triggers the lowest cost-share. Go out-of-network and you pay more — sometimes everything, plus balance billing. Whether your own doctor is in-network is the first thing to check before picking a plan or booking a procedure. A narrow network keeps premiums low by including fewer providers, a trade-off buyers often miss until they need a specialist.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ]
+  },
+  {
+    "letter": "N",
+    "term": "No Surprises Act",
+    "full": "",
+    "plain": "A 2022 law that stops you getting hit with surprise bills from out-of-network doctors you didn't choose.",
+    "snappy": "A federal law barring surprise balance bills for out-of-network emergency care and certain in-network-facility services.",
+    "detail": "Effective 2022, the No Surprises Act protects patients from balance billing when they couldn't reasonably pick an in-network provider — emergency care, or the out-of-network anesthesiologist at an in-network hospital. Disputes between insurer and provider go to an arbitration process instead of landing on the patient. It closed one of the most hated gaps in US health coverage and reshaped how out-of-network claims are settled.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
       "Cornell LII"
     ]
   },
@@ -696,6 +1584,38 @@
   },
   {
     "letter": "O",
+    "term": "Open Enrollment",
+    "full": "",
+    "plain": "The yearly window when you can sign up for or change your health plan.",
+    "snappy": "The annual period when people can enroll in or switch health plans without needing a qualifying life event.",
+    "detail": "Outside open enrollment, you generally can't buy or change individual or marketplace coverage unless a qualifying life event opens a special enrollment period. Employers run their own open enrollment each autumn; the ACA marketplace and Medicare have their own calendars. Miss it without a qualifying event and you're locked out — or locked in — until next year. It's the deadline that drives the annual scramble to compare plans.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ]
+  },
+  {
+    "letter": "O",
+    "term": "Out-of-Network",
+    "full": "",
+    "plain": "A doctor or hospital your plan hasn't signed up — so you pay much more, or everything.",
+    "snappy": "Providers without a contract with your plan; care from them costs more and may not count toward your limits.",
+    "detail": "Out-of-network providers haven't agreed to your plan's rates, so the plan pays less or nothing and you can be balance-billed for the difference. HMOs and EPOs cover nothing out-of-network except emergencies; PPOs cover it at a steeper cost-share. The No Surprises Act now shields you from some out-of-network bills you couldn't avoid, like an out-of-network anesthesiologist at an in-network hospital.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ]
+  },
+  {
+    "letter": "O",
     "term": "Out-of-Pocket Maximum",
     "full": "",
     "plain": "The yearly ceiling on what you can be forced to spend before insurance pays everything.",
@@ -725,6 +1645,25 @@
     "sources": [
       "III",
       "Verisk"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Pharmacy Benefit Manager",
+    "full": "PBM",
+    "plain": "The middleman that runs your plan's drug coverage and haggles prices with drugmakers.",
+    "snappy": "A company that administers prescription drug benefits, builds formularies, and negotiates rebates with manufacturers.",
+    "detail": "Pharmacy benefit managers sit between insurers, pharmacies, and drugmakers, deciding which drugs land on the formulary and extracting rebates in exchange for placement. The big three control most US prescriptions, and critics blame their opaque rebate model for high list prices. You never deal with one directly, but a pharmacy benefit manager shapes what you pay at the counter and which drugs your plan prefers.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ],
+    "aliases": [
+      "PBM"
     ]
   },
   {
@@ -799,6 +1738,54 @@
   },
   {
     "letter": "P",
+    "term": "POS Plan",
+    "full": "Point of Service Plan",
+    "plain": "A hybrid health plan that uses a main doctor like an HMO but still pays a little for outside care like a PPO.",
+    "snappy": "A managed-care hybrid: care is routed through a primary care physician, but out-of-network services get partial coverage.",
+    "detail": "A point-of-service plan blends HMO and PPO features. You choose a primary care physician and get referrals like an HMO, but unlike one you keep some coverage when you go out-of-network — at a higher cost-share. The name refers to choosing in- or out-of-network each time you need care. Less common than HMOs and PPOs, it appears as a middle option on some employer menus.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "PPO",
+    "full": "Preferred Provider Organization",
+    "plain": "A health plan that lets you see almost any doctor without a referral, but you pay more for the freedom.",
+    "snappy": "A plan that covers out-of-network care at a higher cost-share and lets members see specialists without a referral.",
+    "detail": "A PPO is the flexible, pricier cousin of the HMO: you can see any doctor, skip referrals, and still get partial coverage out-of-network — though staying with preferred, in-network providers costs you far less. Higher premiums buy that freedom. Frequent travellers and people with established specialists often pay up for a PPO, while the budget-minded take an HMO.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Pre-Existing Condition",
+    "full": "",
+    "plain": "A health problem you already had before the plan started — which insurers once used to deny or overcharge you.",
+    "snappy": "A medical condition predating coverage; the ACA bars insurers from denying or rating individual coverage based on it.",
+    "detail": "Before the ACA, an insurer could reject an applicant with diabetes or cancer, or charge them far more. Now individual and small-group plans are guaranteed issue and community-rated, so a pre-existing condition can't keep you out or spike your premium. The protection is among the law's most popular features and the hardest for repeal efforts to touch. It's why open enrollment, not your health, governs when you can buy.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "Cornell LII"
+    ]
+  },
+  {
+    "letter": "P",
     "term": "Premium",
     "full": "",
     "plain": "The price you pay — monthly or yearly — to keep your insurance switched on.",
@@ -811,6 +1798,61 @@
     "sources": [
       "III",
       "NAIC"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Premium Tax Credit",
+    "full": "",
+    "plain": "A government subsidy that lowers the monthly cost of a marketplace health plan for low- and middle-income buyers.",
+    "snappy": "An ACA subsidy that reduces marketplace premiums on a sliding scale tied to income and the local benchmark plan.",
+    "detail": "The premium tax credit is what makes marketplace coverage affordable for millions: the lower your income relative to the federal poverty line, the larger the credit, applied directly to your monthly premium. It's pegged to the second-cheapest silver plan in your area. Estimate your income too low or high and you reconcile the difference at tax time, which catches many filers off guard.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "Cornell LII"
+    ],
+    "aliases": [
+      "Advance Premium Tax Credit",
+      "APTC"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Preventive Care",
+    "full": "",
+    "plain": "Checkups, screenings, and shots meant to catch problems early — covered free under most plans.",
+    "snappy": "Routine screenings, vaccinations, and counselling, which ACA plans must cover with no cost-sharing when in-network.",
+    "detail": "Preventive care — annual physicals, cancer screenings, immunisations, blood-pressure checks — is covered at no cost-sharing by ACA-compliant plans when you stay in-network, even before you meet the deductible. The logic is that catching disease early is cheaper than treating it late. The catch: if a screening turns diagnostic (a polyp removed during a routine colonoscopy), the visit can flip to a billable service, surprising patients who expected it free.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Primary Care Physician",
+    "full": "PCP",
+    "plain": "Your main doctor — the first stop for everyday care and the one who refers you to specialists.",
+    "snappy": "The general doctor who coordinates a patient's care and, in managed plans, issues referrals to specialists.",
+    "detail": "A primary care physician handles checkups, common illnesses, and prevention, and in an HMO acts as the gatekeeper who must refer you before a specialist visit is covered. Building a relationship with one improves continuity of care and, plans argue, lowers costs by catching problems early. When you enroll in a managed plan you're often asked to name your primary care physician up front.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ],
+    "aliases": [
+      "PCP"
     ]
   },
   {
@@ -828,6 +1870,26 @@
     "sources": [
       "Verisk",
       "III"
+    ]
+  },
+  {
+    "letter": "P",
+    "term": "Prior Authorization",
+    "full": "",
+    "plain": "Your plan's sign-off required before it will pay for certain drugs, tests, or procedures.",
+    "snappy": "A plan's requirement that a provider get approval before a service or drug is covered, used to control cost and necessity.",
+    "detail": "Prior authorization makes the doctor prove a planned MRI, surgery, or expensive drug is medically necessary before the plan agrees to pay. It's meant to curb waste but is the bane of patients and physicians who face delays and denials for needed care. Insurers and regulators are fighting over how fast decisions must come. A service delivered without required prior authorization is often denied outright.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ],
+    "aliases": [
+      "Preauthorization",
+      "Pre-Authorization"
     ]
   },
   {
@@ -864,6 +1926,24 @@
   },
   {
     "letter": "Q",
+    "term": "Qualifying Life Event",
+    "full": "QLE",
+    "plain": "A major life change — marriage, a baby, job loss — that lets you change health coverage mid-year.",
+    "snappy": "A life change that opens a special enrollment period, letting a person buy or switch coverage outside open enrollment.",
+    "detail": "Marriage, divorce, the birth or adoption of a child, losing job-based coverage, or moving to a new area all count as qualifying life events. Each opens a special enrollment period so you aren't trapped by the open-enrollment calendar when your circumstances shift. Plans require proof. Knowing what qualifies is how people avoid a coverage gap after a layoff or a move.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS"
+    ],
+    "aliases": [
+      "QLE"
+    ]
+  },
+  {
+    "letter": "Q",
     "term": "Quote",
     "full": "",
     "plain": "An estimated price for a policy, based on the details you give the insurer.",
@@ -876,6 +1956,22 @@
     "sources": [
       "III",
       "NAIC"
+    ]
+  },
+  {
+    "letter": "R",
+    "term": "Referral",
+    "full": "",
+    "plain": "A note from your main doctor that your plan requires before it will cover a specialist visit.",
+    "snappy": "Authorization from a primary care physician for a patient to see a specialist, required by HMO and POS plans for coverage.",
+    "detail": "In an HMO, seeing a dermatologist or cardiologist without a referral from your primary care physician means the plan won't pay. The referral is the gatekeeping step managed care uses to control costs and steer care. PPOs and EPOs skip it. Missing a required referral is a common reason an otherwise covered specialist claim gets denied, so patients learn to line it up first.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
     ]
   },
   {
@@ -1010,6 +2106,26 @@
   },
   {
     "letter": "S",
+    "term": "Self-Funded Plan",
+    "full": "Self-Insured Plan",
+    "plain": "An employer health plan where the company pays workers' claims itself instead of buying insurance.",
+    "snappy": "An employer plan that pays employee medical claims from its own funds, usually with stop-loss cover for large losses.",
+    "detail": "Large employers often self-fund: they bear the actual claims rather than paying an insurer a fixed premium, hiring an administrator to process them and buying stop-loss insurance to cap catastrophic costs. It saves money and dodges some state mandates because ERISA governs self-funded plans federally. Most big-company workers are in one without knowing it — the insurer name on the card is just the administrator.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "DOL",
+      "III"
+    ],
+    "aliases": [
+      "Self-Insured Plan",
+      "Self-Funded"
+    ]
+  },
+  {
+    "letter": "S",
     "term": "Self-Insured Retention",
     "full": "SIR",
     "plain": "A chunk of each loss a business pays itself before its liability policy responds — like a big deductible.",
@@ -1025,6 +2141,91 @@
     ],
     "aliases": [
       "SIR"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Short-Term Health Insurance",
+    "full": "",
+    "plain": "A cheap, temporary medical plan that fills a coverage gap but skips many protections.",
+    "snappy": "Limited-duration coverage bridging gaps between plans, exempt from ACA rules so it can deny pre-existing conditions.",
+    "detail": "Short-term health insurance bridges a gap — between jobs, or before Medicare starts — at a low premium, but it's exempt from ACA rules: it can screen out pre-existing conditions, skip essential health benefits, and cap payouts. Cheap if you stay healthy, dangerous if you don't. Regulators have repeatedly tightened and loosened how long these plans can last, wary of people mistaking them for comprehensive coverage.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Special Enrollment Period",
+    "full": "SEP",
+    "plain": "A chance to change your health plan outside the normal window after a big life change.",
+    "snappy": "A window to enroll or switch plans triggered by a qualifying life event such as marriage, birth, or loss of coverage.",
+    "detail": "A special enrollment period opens when life changes — you marry, have a baby, lose job-based coverage, or move. It gives you a limited window, usually 60 days, to enroll or switch outside open enrollment. Documenting the qualifying life event is required. Losing other coverage is the most common trigger, which is why a layoff doesn't have to mean going uninsured until next year.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS"
+    ],
+    "aliases": [
+      "SEP"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Specialty Drug",
+    "full": "",
+    "plain": "A very expensive medication for a complex condition, often requiring special handling and the plan's pre-approval.",
+    "snappy": "A high-cost drug for complex or chronic conditions, usually placed on the top formulary tier with tight management.",
+    "detail": "Specialty drugs — biologics for cancer, multiple sclerosis, or rheumatoid arthritis — can cost thousands a month and sit on the highest formulary tier with coinsurance instead of a flat copay. Plans gate them behind prior authorization and step therapy and often route them through a specialty pharmacy. They're a fast-growing slice of drug spending, which is why insurers manage them so aggressively.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Step Therapy",
+    "full": "Fail First",
+    "plain": "A rule that makes you try a cheaper drug first and fail on it before the plan covers a pricier one.",
+    "snappy": "A plan policy requiring patients to try lower-cost drugs before a more expensive option is covered.",
+    "detail": "Under step therapy — \"fail first\" — your plan won't pay for the costly medication your doctor prefers until you've tried and not responded to cheaper alternatives. It saves money but can delay effective treatment, and patient groups lobby states to limit it. You'll meet it at the pharmacy counter when a prescription is rejected with a note to try the preferred drug first.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ],
+    "aliases": [
+      "Fail First"
+    ]
+  },
+  {
+    "letter": "S",
+    "term": "Stop-Loss Insurance",
+    "full": "",
+    "plain": "Coverage that protects a self-funded employer from huge or unexpectedly high medical claims.",
+    "snappy": "Insurance reimbursing a self-funded plan once claims pass a set threshold, capping the employer's medical exposure.",
+    "detail": "An employer paying its own claims could be sunk by one premature baby or transplant. Stop-loss insurance caps that risk: specific stop-loss covers any single person's claims above a deductible, while aggregate stop-loss covers total claims above an expected level. It's reinsurance for self-funded plans in all but name, and it's what makes self-funding safe enough for mid-sized employers to attempt.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "DOL",
+      "III"
     ]
   },
   {
@@ -1132,6 +2333,25 @@
   },
   {
     "letter": "U",
+    "term": "Utilization Review",
+    "full": "",
+    "plain": "The plan's process of checking whether the care you're getting is necessary and covered.",
+    "snappy": "A managed-care process evaluating the medical necessity and appropriateness of services before, during, or after care.",
+    "detail": "Utilization review is how a plan decides whether to pay: it judges medical necessity before treatment (prior authorization), during a hospital stay (concurrent review), or after the fact (retrospective review). Done well it curbs waste; done badly it delays needed care and frustrates doctors. It's the engine behind most coverage denials, and the appeals process exists to challenge it when a reviewer says no.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS",
+      "III"
+    ],
+    "aliases": [
+      "Utilization Management"
+    ]
+  },
+  {
+    "letter": "U",
     "term": "Utmost Good Faith",
     "full": "Uberrimae Fidei",
     "plain": "The duty of both sides to deal honestly and hide nothing important when an insurance contract is made.",
@@ -1144,6 +2364,52 @@
     "sources": [
       "Cornell LII",
       "Lloyd's"
+    ]
+  },
+  {
+    "letter": "V",
+    "term": "Value-Based Care",
+    "full": "",
+    "plain": "Paying doctors and hospitals for keeping patients healthy and getting good results, not just for doing more.",
+    "snappy": "Payment models tying provider reimbursement to quality, outcomes, and cost rather than the volume of services.",
+    "detail": "Value-based care rewires the incentive of fee-for-service: providers are paid partly on outcomes, patient satisfaction, and holding down total cost, often through accountable care organisations or capitation. Medicare drives the shift with programs that bonus or penalise hospitals on readmissions and quality. The promise is better care for less money; the challenge is measuring quality fairly. It's the dominant theme in how payers say they want to pay.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "CMS"
+    ]
+  },
+  {
+    "letter": "V",
+    "term": "Vision Insurance",
+    "full": "",
+    "plain": "A low-cost plan covering eye exams, glasses, and contacts.",
+    "snappy": "A benefit covering routine eye exams and a periodic allowance toward glasses or contact lenses.",
+    "detail": "Vision insurance is less insurance than a discount plan: for a small premium it covers an annual eye exam and gives an allowance toward frames, lenses, or contacts every year or two. Medical plans cover eye disease and injury; vision plans handle the routine wear of glasses-wearers. Bundled with dental as a voluntary benefit at work, it pays off mainly for those who buy new eyewear regularly.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "III"
+    ]
+  },
+  {
+    "letter": "W",
+    "term": "Wellness Program",
+    "full": "",
+    "plain": "An employer scheme that rewards healthy habits — and can lower your premium for joining.",
+    "snappy": "An employer initiative encouraging healthy behaviour, sometimes tied to premium discounts or surcharges within legal limits.",
+    "detail": "Wellness programs offer biometric screenings, smoking-cessation help, or fitness incentives, often dangling a premium discount for participation. Federal rules cap how big the reward or penalty can be and bar discrimination, since a program tied too tightly to health outcomes can shade into the medical underwriting the ACA forbids. Employers pitch them as cost control; the evidence that they actually cut spending is mixed.",
+    "indications": [
+      "Health"
+    ],
+    "category": "Health & Benefits",
+    "sources": [
+      "DOL",
+      "CMS"
     ]
   }
 ]
