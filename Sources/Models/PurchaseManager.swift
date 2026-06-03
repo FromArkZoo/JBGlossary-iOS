@@ -148,6 +148,12 @@ final class PurchaseManager: ObservableObject {
         do {
             let result = try await AppTransaction.shared
             guard case .verified(let appTransaction) = result else { return }
+            // Only grandfather genuine production installs. In the sandbox and
+            // Xcode StoreKit environments `originalAppVersion` is always "1.0",
+            // which would grant the master unlock to the App Review team and
+            // hide every paywall behind an all-unlocked state.
+            // (App Review rejection, Guideline 2.1(b), 2026-06-03.)
+            guard appTransaction.environment == .production else { return }
             if appTransaction.originalAppVersion.hasPrefix("1.") {
                 UserDefaults.standard.set(true, forKey: Self.grandfatheredKey)
                 await updateEntitlements()
