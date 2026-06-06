@@ -1,6 +1,6 @@
 # JB Glossary — iOS
 
-**JB Glossary** is a native SwiftUI reference app that turns dense professional jargon into clean, searchable, italic-typed cards. One app, six industries — Pharma, AI, Finance, Law, Real Estate, and Insurance — sharing a single engine, each its own corpus unlocked as an in-app purchase. **4,732 terms across six shipped books, all live on the App Store.**
+**JB Glossary** is a native SwiftUI reference app that turns dense professional jargon into clean, searchable, italic-typed cards. One app, six industries — Healthcare, AI, Finance, Law, Real Estate, and Insurance — sharing a single engine, each its own corpus unlocked as an in-app purchase. **4,732 terms across six shipped books, all live on the App Store.**
 
 <p align="center">
   <a href="https://apps.apple.com/app/id6768070422"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download JB Glossary on the App Store" height="52"></a>
@@ -8,17 +8,17 @@
 
 Free to download — browse A–D in every industry, unlock a full industry for $2.99, or get all six with the $9.99 master unlock.
 
-| Pharma | AI | Finance | Law | Real Estate | Insurance |
+| Healthcare | AI | Finance | Law | Real Estate | Insurance |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | <img src="Targets/Pharma/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/AI/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/Finance/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/Law/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/RealEstate/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> | <img src="Targets/Insurance/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png" width="80"> |
 | 786 terms | 976 terms | 722 terms | 836 terms | 803 terms | 609 terms |
-| Oncology + drug mechanisms | AI / ML concepts | Markets + instruments | US law (14 categories, 4 lenses) | Property, finance, leasing | Life, health, auto, home, liability |
+| Drugs, biology, regulation | AI / ML concepts | Markets + instruments | US law (14 categories, 4 lenses) | Property, finance, leasing | Life, health, auto, home, liability |
 
 ---
 
-## JB Pharma
+## JB Healthcare
 
-A pocket reference for the language that shows up in oncology decks, label discussions, and pharma news — mutations, mechanisms of action, modalities, indications. Two-axis filter (indication × category), oncology-first.
+A generalist's reference for the language of healthcare — the drugs, biology, mechanisms of action, regulation, payers, and public-health jargon you meet in news, earnings calls, and regulatory filings. Two-axis filter (indication × category), oncology-deep.
 
 <p align="center">
   <img src="screenshots/jb-pharma/iphone-17-pro-max/1_home.png" width="22%">
@@ -69,7 +69,7 @@ The same engine, retuned for the AI/ML vocabulary — agents, model architecture
 
 ## JB Insurance
 
-The sixth book — a deep-teal reference for the language of risk and protection: life, health, auto, home, and commercial cover, plus the underwriting, actuarial, reinsurance, and regulatory machinery underneath. 609 terms across nine categories in three clusters (policyholder / risk / market) and four lenses (Basics, Policies & Claims, Risk & Pricing, Markets & Regulation). Sits at the intersection of the Finance, Pharma, and Real Estate books, raising cross-reference density across the whole suite.
+The sixth book — a deep-teal reference for the language of risk and protection: life, health, auto, home, and commercial cover, plus the underwriting, actuarial, reinsurance, and regulatory machinery underneath. 609 terms across nine categories in three clusters (policyholder / risk / market) and four lenses (Basics, Policies & Claims, Risk & Pricing, Markets & Regulation). Sits at the intersection of the Finance, Healthcare, and Real Estate books, raising cross-reference density across the whole suite.
 
 <p align="center">
   <img src="screenshots/jb-insurance/iphone-17-pro-max/1_home.png" width="22%">
