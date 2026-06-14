@@ -103,6 +103,21 @@
       "type" : "NonConsumable"
     },
     {
+      "displayPrice" : "2.99",
+      "familyShareable" : true,
+      "internalID" : "JBG_ROBOTICS",
+      "localizations" : [
+        {
+          "description" : "Unlock the rest of the JB Glossary Robotics industry — letters E–Z, the full set of robotics, autonomy, and embodied-AI terms beyond the free A–D taster.",
+          "displayName" : "Unlock the rest of Robotics",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.jamesbrowne.JBGlossary.robotics",
+      "referenceName" : "Robotics",
+      "type" : "NonConsumable"
+    },
+    {
       "displayPrice" : "9.99",
       "familyShareable" : true,
       "internalID" : "JBG_ALL",

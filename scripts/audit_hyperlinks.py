@@ -43,6 +43,7 @@ INDUSTRY_PATHS = {
     "law":        ROOT / "Targets/Law/Resources/glossary_law.json",
     "realEstate": ROOT / "Targets/RealEstate/Resources/glossary_realEstate.json",
     "insurance":  ROOT / "Targets/Insurance/Resources/glossary_insurance.json",
+    "robotics":   ROOT / "Targets/Robotics/Resources/glossary_robotics.json",
 }
 
 BODY_FIELDS = ("plain", "snappy", "detail")

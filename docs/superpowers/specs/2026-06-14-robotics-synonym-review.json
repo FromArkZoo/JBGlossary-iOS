@@ -1,0 +1,178 @@
+[
+ {
+  "term": "End-effector",
+  "duplicateOf": "End-of-arm tooling"
+ },
+ {
+  "term": "Real-time",
+  "duplicateOf": "Real-time computing"
+ },
+ {
+  "term": "Closed-loop control",
+  "duplicateOf": "Feedback control"
+ },
+ {
+  "term": "Robot Operating System",
+  "duplicateOf": "ROS"
+ },
+ {
+  "term": "Singularity",
+  "duplicateOf": "Kinematic singularity"
+ },
+ {
+  "term": "Autonomous weapon",
+  "duplicateOf": "Lethal autonomous weapons system"
+ },
+ {
+  "term": "Drone",
+  "duplicateOf": "Unmanned aerial vehicle"
+ },
+ {
+  "term": "Cable-driven mechanism",
+  "duplicateOf": "Cable drive"
+ },
+ {
+  "term": "Mechanical compliance",
+  "duplicateOf": "Compliance"
+ },
+ {
+  "term": "Brushless DC motor",
+  "duplicateOf": "Brushless motor"
+ },
+ {
+  "term": "Cable drive",
+  "duplicateOf": "Cable-driven mechanism"
+ },
+ {
+  "term": "Reference frame",
+  "duplicateOf": "Coordinate frame"
+ },
+ {
+  "term": "Nonholonomic constraint",
+  "duplicateOf": "Nonholonomic"
+ },
+ {
+  "term": "Holonomic motion",
+  "duplicateOf": "Holonomic"
+ },
+ {
+  "term": "Cobot",
+  "duplicateOf": "Collaborative robot"
+ },
+ {
+  "term": "Imaging radar",
+  "duplicateOf": "4D imaging radar"
+ },
+ {
+  "term": "Global Navigation Satellite System",
+  "duplicateOf": "GNSS positioning"
+ },
+ {
+  "term": "Real-time kinematic positioning",
+  "duplicateOf": "RTK positioning"
+ },
+ {
+  "term": "Occupancy grid",
+  "duplicateOf": "Occupancy grid map"
+ },
+ {
+  "term": "Bird's-eye view",
+  "duplicateOf": "Bird's-eye-view representation"
+ },
+ {
+  "term": "Frame of reference",
+  "duplicateOf": "Coordinate frame"
+ },
+ {
+  "term": "Feedback control",
+  "duplicateOf": "Closed-loop control"
+ },
+ {
+  "term": "Occupancy grid map",
+  "duplicateOf": "Occupancy grid"
+ },
+ {
+  "term": "Collision checking",
+  "duplicateOf": "Collision detection"
+ },
+ {
+  "term": "ROS",
+  "duplicateOf": "Robot Operating System"
+ },
+ {
+  "term": "Sim-to-real",
+  "duplicateOf": "Sim-to-real transfer"
+ },
+ {
+  "term": "State machine",
+  "duplicateOf": "Finite state machine"
+ },
+ {
+  "term": "Sim-to-real transfer",
+  "duplicateOf": "Sim-to-real"
+ },
+ {
+  "term": "Imitation learning",
+  "duplicateOf": "Learning from demonstration"
+ },
+ {
+  "term": "Skill primitive",
+  "duplicateOf": "Motion primitive"
+ },
+ {
+  "term": "GNSS positioning",
+  "duplicateOf": "Global Navigation Satellite System"
+ },
+ {
+  "term": "RTK positioning",
+  "duplicateOf": "Real-time kinematic positioning"
+ },
+ {
+  "term": "Miles per intervention",
+  "duplicateOf": "Interventions per mile"
+ },
+ {
+  "term": "Multirotor",
+  "duplicateOf": "Multirotor drone"
+ },
+ {
+  "term": "Beyond visual line of sight",
+  "duplicateOf": "BVLOS operations"
+ },
+ {
+  "term": "Unmanned traffic management",
+  "duplicateOf": "UAS traffic management"
+ },
+ {
+  "term": "Brushless motor",
+  "duplicateOf": "Brushless DC motor"
+ },
+ {
+  "term": "Cobot",
+  "duplicateOf": "Collaborative robot"
+ },
+ {
+  "term": "Teach-and-repeat",
+  "duplicateOf": "Programming by teaching"
+ },
+ {
+  "term": "Robot integrator",
+  "duplicateOf": "System integrator"
+ },
+ {
+  "term": "ASIL",
+  "duplicateOf": "Automotive Safety Integrity Level"
+ },
+ {
+  "term": "BVLOS operations",
+  "duplicateOf": "Beyond visual line of sight"
+ },
+ {
+  "term": "UAS traffic management",
+  "duplicateOf": "Unmanned traffic management"
+ },
+ {
+  "term": "Dark factory",
+  "duplicateOf": "Lights-out manufacturing"
+ }
+]

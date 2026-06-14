@@ -33,6 +33,7 @@ targets:
       - path: Targets/Finance/Resources/glossary_finance.json
       - path: Targets/RealEstate/Resources/glossary_realEstate.json
       - path: Targets/Insurance/Resources/glossary_insurance.json
+      - path: Targets/Robotics/Resources/glossary_robotics.json
     info:
       path: Targets/Pharma/Resources/Info.plist
       properties:

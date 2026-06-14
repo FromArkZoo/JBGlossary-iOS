@@ -44,3 +44,6 @@ fastlane/test_output
 # Python (content-authoring scripts)
 __pycache__/
 *.pyc
+
+# Transient workflow authoring inputs (regenerated from the master term list)
+docs/superpowers/specs/robotics-chunks/
