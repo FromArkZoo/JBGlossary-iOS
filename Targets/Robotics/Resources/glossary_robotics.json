@@ -101,7 +101,8 @@
    "SAE International"
   ],
   "aliases": [
-   "4D radar"
+   "4D radar",
+   "Imaging radar"
   ]
  },
  {
@@ -870,7 +871,8 @@
    "SAE International"
   ],
   "aliases": [
-   "ASIL D"
+   "ASIL D",
+   "Automotive Safety Integrity Level"
   ]
  },
  {
@@ -1146,23 +1148,6 @@
  },
  {
   "letter": "A",
-  "term": "Automotive Safety Integrity Level",
-  "full": "Automotive Safety Integrity Level",
-  "plain": "A grading system that ranks how dangerous a car-system failure could be, so engineers know how much safety effort each part demands.",
-  "snappy": "An ISO 26262 risk classification (A through D) that sets the rigor of safety requirements for an automotive electronic function.",
-  "detail": "ASIL is derived from severity, exposure, and controllability, running from ASIL A (lowest) to ASIL D (highest), with the most safety-critical functions like steering and braking typically demanding ASIL D. It drives design choices toward fail-operational and fail-safe behavior, redundant sensors, and a documented safety case. A domain controller running an automated driving system must allocate ASIL targets across its components, and it complements the Safety Integrity Level concept used in industrial functional safety.",
-  "indications": [
-   "Mobility"
-  ],
-  "category": "Autonomous Vehicles",
-  "sources": [
-   "ISO",
-   "SAE International"
-  ],
-  "aliases": []
- },
- {
-  "letter": "A",
   "term": "Autonomous docking",
   "full": "",
   "plain": "A robot driving itself back to a charging station and plugging in without a person's help.",
@@ -1283,7 +1268,8 @@
   ],
   "aliases": [
    "Lethal autonomous weapon",
-   "LAWS"
+   "LAWS",
+   "Lethal autonomous weapons system"
   ]
  },
  {
@@ -1638,7 +1624,8 @@
    "ISO"
   ],
   "aliases": [
-   "BVLOS"
+   "BVLOS",
+   "BVLOS operations"
   ]
  },
  {
@@ -1802,27 +1789,8 @@
   ],
   "aliases": [
    "BEV",
-   "BEV perception"
-  ]
- },
- {
-  "letter": "B",
-  "term": "Bird's-eye-view representation",
-  "full": "",
-  "plain": "A top-down map-like view of everything around a car, built by combining its sensors into one overhead picture.",
-  "snappy": "A top-down, ego-centric scene encoding that fuses multiple sensors into a common ground-plane grid for perception and planning.",
-  "detail": "A Bird's-eye-view representation (BEV) projects Camera, LiDAR, and Automotive radar data into a shared overhead grid, giving Behavior planning a clean, metric layout of lanes, free space, and other agents, more convenient than reasoning in raw image space. It is produced by learned Sensor fusion networks and pairs naturally with an Occupancy grid, Lanelet maps, and 3D object detection. BEV has become a standard intermediate in both Modular pipeline and End-to-end driving stacks.",
-  "indications": [
-   "Mobility"
-  ],
-  "category": "Autonomous Vehicles",
-  "sources": [
-   "arXiv",
-   "NVIDIA Isaac",
-   "IEEE RAS"
-  ],
-  "aliases": [
-   "BEV",
+   "BEV perception",
+   "Bird's-eye-view representation",
    "BEV representation"
   ]
  },
@@ -1903,25 +1871,8 @@
   ],
   "aliases": [
    "BLDC",
-   "BLDC motor"
-  ]
- },
- {
-  "letter": "B",
-  "term": "Brushless motor",
-  "full": "",
-  "plain": "A long-lasting, efficient electric motor with no rubbing contacts inside, used to spin the propellers on almost every drone.",
-  "snappy": "An electronically commutated permanent-magnet motor with no mechanical brushes, driving most drone propellers and many robot joints.",
-  "detail": "A brushless motor (BLDC) uses electronic switching instead of physical brushes to energize its windings, giving high efficiency, power density, and lifespan that make it the standard for drone propulsion. An Electronic speed controller performs the Commutation and, in higher-end drives, Field-oriented control to set torque and RPM precisely. Beyond drone Propeller drives, brushless motors and their cousin the Permanent magnet synchronous motor power robot wheels and Servomotor joints; in aircraft they are the building block of Distributed electric propulsion.",
-  "indications": [
-   "Service & Consumer"
-  ],
-  "category": "Aerial & Drones",
-  "sources": [
-   "IEEE RAS"
-  ],
-  "aliases": [
-   "BLDC"
+   "BLDC motor",
+   "Brushless motor"
   ]
  },
  {
@@ -1944,25 +1895,6 @@
   ]
  },
  {
-  "letter": "B",
-  "term": "BVLOS operations",
-  "full": "Beyond Visual Line of Sight",
-  "plain": "Flying a drone so far away that the operator can no longer see it with their own eyes, which needs special permission.",
-  "snappy": "Drone flight beyond the operator's direct eyesight, a regulatory milestone unlocking commercial-scale aerial deployment.",
-  "detail": "BVLOS operations are the gateway to economically viable Drone delivery, Aerial photogrammetry, and infrastructure inspection, because keeping a human within Visual line of sight caps range and crew cost. Regulators like the FAA require robust Detect and avoid systems, reliable command links, and often Remote ID before granting a BVLOS waiver, moving past the basic limits of rules such as Part 107. At fleet scale, BVLOS depends on UAS traffic management to deconflict airspace, and operations are run from a Remote operation center.",
-  "indications": [
-   "Logistics & Warehouse",
-   "Agriculture"
-  ],
-  "category": "Industry & Deployment",
-  "sources": [
-   "FAA"
-  ],
-  "aliases": [
-   "BVLOS"
-  ]
- },
- {
   "letter": "C",
   "term": "Cable drive",
   "full": "",
@@ -1978,25 +1910,8 @@
   ],
   "aliases": [
    "cable-driven",
-   "tendon drive"
-  ]
- },
- {
-  "letter": "C",
-  "term": "Cable-driven mechanism",
-  "full": "",
-  "plain": "A mechanism that moves parts by pulling on cables, like the tendons that move your fingers.",
-  "snappy": "A mechanism that transmits actuation force through routed cables or tendons rather than rigid linkages.",
-  "detail": "A Cable-driven mechanism routes thin cables from remote motors to distant joints, letting heavy actuators sit at the base while the moving Link stays light, which raises the Payload-to-weight ratio and is prized in a Humanoid robot hand and a Surgical robot. It is the structural basis of Tendon-driven actuation and the Tendon-driven hand, and supports a Continuum robot. Routing introduces friction and stretch, complicating Force control and demanding tension management.",
-  "indications": [
-   "Humanoid",
-   "Medical & Surgical"
-  ],
-  "category": "Mechanics & Structures",
-  "sources": [
-   "IEEE RAS"
-  ],
-  "aliases": [
+   "tendon drive",
+   "Cable-driven mechanism",
    "tendon-driven mechanism"
   ]
  },
@@ -2614,23 +2529,6 @@
  },
  {
   "letter": "C",
-  "term": "Collision checking",
-  "full": "",
-  "plain": "A safety test that asks whether a robot, if it moved into a certain position, would crash into something.",
-  "snappy": "Testing whether a given robot configuration or candidate path geometrically intersects any obstacle or the robot itself.",
-  "detail": "Collision checking is the workhorse query inside almost every motion planning system: the planner proposes a Configuration space sample or a path segment, and the collision checker reports whether it is in Free space or hits an obstacle. Sampling-based planning methods like Rapidly-exploring random tree and Probabilistic roadmap call it millions of times, so it dominates planning runtime. Checks run against an Occupancy grid map or polygonal obstacle model and feed directly into Collision avoidance and Obstacle avoidance behaviors.",
-  "indications": [
-   "Manufacturing"
-  ],
-  "category": "Planning & Navigation",
-  "sources": [
-   "MoveIt",
-   "OMPL"
-  ],
-  "aliases": []
- },
- {
-  "letter": "C",
   "term": "Collision detection",
   "full": "",
   "plain": "Software that figures out whether two solid shapes are touching or overlapping each other.",
@@ -2642,7 +2540,9 @@
    "NVIDIA Isaac",
    "Gazebo"
   ],
-  "aliases": []
+  "aliases": [
+   "Collision checking"
+  ]
  },
  {
   "letter": "C",
@@ -3138,7 +3038,9 @@
   ],
   "aliases": [
    "Coordinate system",
-   "coordinate frames"
+   "coordinate frames",
+   "Reference frame",
+   "Frame of reference"
   ]
  },
  {
@@ -3503,25 +3405,6 @@
   ],
   "aliases": [
    "Damping ratio"
-  ]
- },
- {
-  "letter": "D",
-  "term": "Dark factory",
-  "full": "",
-  "plain": "A factory so fully automated that it can run in the dark with no people inside, because the robots do not need lights to see.",
-  "snappy": "A fully automated plant that operates without onsite human workers, and thus without the need for lighting.",
-  "detail": "A dark factory (or lights-out factory) is the aspirational endpoint of manufacturing automation: every step from material handling to Assembly and Quality inspection is performed by robots and machines, so the building needs neither lighting nor climate control for humans. Few plants run fully dark, but many run lights-out shifts overnight, a practice also called Lights-out manufacturing. Achieving it demands extremely high Uptime, robust Fleet management, and tight integration of the Industrial robot arm population with the plant's Manufacturing execution system.",
-  "indications": [
-   "Manufacturing"
-  ],
-  "category": "Industry & Deployment",
-  "sources": [
-   "IFR",
-   "ISO"
-  ],
-  "aliases": [
-   "lights-out factory"
   ]
  },
  {
@@ -5771,7 +5654,8 @@
    "IEEE RAS"
   ],
   "aliases": [
-   "FSM"
+   "FSM",
+   "State machine"
   ]
  },
  {
@@ -6233,21 +6117,6 @@
   "aliases": [
    "Foxglove Studio"
   ]
- },
- {
-  "letter": "F",
-  "term": "Frame of reference",
-  "full": "",
-  "plain": "The chosen viewpoint and origin you measure positions and directions against, like 'relative to the robot' versus 'relative to the room'.",
-  "snappy": "A coordinate system in which positions, orientations, and poses are expressed.",
-  "detail": "A frame of reference, also called a Coordinate frame or Reference frame, fixes an origin and axes so a Pose has a definite meaning, since 'three meters ahead' is meaningless until you say ahead of what. Robots juggle many frames at once: sensor, body, wheel, and world, related through a Transform tree and individual Transform operations. Choosing the right one matters everywhere, from expressing a Landmark in map coordinates to commanding motion in Task space, and the math uses rotations such as a Rotation matrix or Quaternion.",
-  "indications": [],
-  "category": "Perception",
-  "sources": [
-   "IEEE RAS",
-   "ROS"
-  ],
-  "aliases": []
  },
  {
   "letter": "F",
@@ -6768,7 +6637,8 @@
   ],
   "aliases": [
    "GNSS",
-   "satellite positioning"
+   "satellite positioning",
+   "GNSS positioning"
   ]
  },
  {
@@ -6803,27 +6673,6 @@
    "ROS"
   ],
   "aliases": []
- },
- {
-  "letter": "G",
-  "term": "GNSS positioning",
-  "full": "Global Navigation Satellite System",
-  "plain": "Using signals from navigation satellites to estimate where a vehicle is on the globe.",
-  "snappy": "Satellite-based estimation of a vehicle's global position using constellations such as GPS, Galileo, and GLONASS.",
-  "detail": "GNSS positioning gives an Autonomous vehicle a global Pose, but raw satellite fixes drift several meters and fail under bridges or beside tall buildings, so it is fused with an Inertial measurement unit and Wheel odometry via Dead reckoning. Centimeter accuracy needs corrections from RTK positioning, while precise lane placement still relies on Map-relative localization against an HD map. GNSS is the absolute anchor that bounds the accumulating error of relative Localization methods.",
-  "indications": [
-   "Mobility"
-  ],
-  "category": "Autonomous Vehicles",
-  "sources": [
-   "SAE International",
-   "NIST",
-   "IEEE RAS"
-  ],
-  "aliases": [
-   "GNSS",
-   "satellite positioning"
-  ]
  },
  {
   "letter": "G",
@@ -7565,22 +7414,6 @@
  },
  {
   "letter": "H",
-  "term": "Holonomic",
-  "full": "",
-  "plain": "Able to move straight in any direction at any moment, like a shopping cart with wheels that roll sideways.",
-  "snappy": "A motion property where a robot's controllable degrees of freedom equal its total degrees of freedom, allowing instantaneous motion in any direction.",
-  "detail": "A holonomic robot can translate and rotate independently, moving sideways without first turning, because it has no velocity constraints coupling its motions. This is achieved with an Omni wheel or Mecanum wheel in Omnidirectional drive, giving an Omnidirectional robot great maneuverability in tight warehouses. It contrasts with a Nonholonomic platform such as a Differential-drive robot or car, and it simplifies Motion planning since any path in the Configuration space is directly executable.",
-  "indications": [
-   "Mobility"
-  ],
-  "category": "Concepts",
-  "sources": [
-   "IEEE RAS"
-  ],
-  "aliases": []
- },
- {
-  "letter": "H",
   "term": "Holonomic constraint",
   "full": "",
   "plain": "A rule that limits where a robot can be, rather than which direction it can move at any instant.",
@@ -7611,7 +7444,9 @@
    "IEEE RAS",
    "NIST"
   ],
-  "aliases": []
+  "aliases": [
+   "Holonomic"
+  ]
  },
  {
   "letter": "H",
@@ -7959,25 +7794,6 @@
   "aliases": [
    "Rectification",
    "Stereo rectification"
-  ]
- },
- {
-  "letter": "I",
-  "term": "Imaging radar",
-  "full": "",
-  "plain": "A high-detail radar that not only senses distance and speed but also pinpoints an object's position left-to-right and up-and-down, giving a near-picture-like map.",
-  "snappy": "A high-channel-count radar that resolves range, azimuth, elevation, and velocity, producing a dense 4D point cloud.",
-  "detail": "Imaging radar, often called 4D radar, uses many antenna channels to add elevation and fine angular resolution to conventional Radar, narrowing the gap with LiDAR while keeping all-weather robustness. It outputs a velocity-tagged Point cloud well suited to Mobility Perception, Object detection, and Sensor fusion in an Autonomous vehicle. Velocity comes directly from the Doppler effect, helping Behavior prediction distinguish moving from static returns.",
-  "indications": [
-   "Mobility"
-  ],
-  "category": "Sensing",
-  "sources": [
-   "SAE International",
-   "IEEE RAS"
-  ],
-  "aliases": [
-   "4D radar"
   ]
  },
  {
@@ -8346,27 +8162,6 @@
   ],
   "aliases": [
    "Human intervention"
-  ]
- },
- {
-  "letter": "I",
-  "term": "Interventions per mile",
-  "full": "",
-  "plain": "How often a human has to step in and take control of a self-driving machine for each mile it travels, used to gauge how truly autonomous it is.",
-  "snappy": "An autonomy metric counting how often a human operator must take over, normalized per distance or per hour.",
-  "detail": "Interventions per mile (closely related to the regulatory 'disengagement rate' and to interventions per hour) is the headline autonomy scorecard for an Autonomous vehicle or delivery robot: fewer interventions means the system handles more of the Long-tail scenario cases itself. Each Disengagement is logged when a Safety driver or a Remote operation center operator takes over, and the metric is watched alongside the inverse measure Miles per intervention. It is the practical evidence behind claims about Levels of autonomy.",
-  "indications": [
-   "Mobility",
-   "Logistics & Warehouse"
-  ],
-  "category": "Industry & Deployment",
-  "sources": [
-   "SAE International",
-   "NIST"
-  ],
-  "aliases": [
-   "disengagement rate",
-   "interventions per hour"
   ]
  },
  {
@@ -8861,7 +8656,9 @@
    "MoveIt",
    "IEEE RAS"
   ],
-  "aliases": []
+  "aliases": [
+   "Singularity"
+  ]
  },
  {
   "letter": "K",
@@ -9288,21 +9085,6 @@
  },
  {
   "letter": "L",
-  "term": "Lethal autonomous weapons system",
-  "full": "LAWS",
-  "plain": "A weapon that can search for, select, and attack targets on its own without a person making the final decision to fire.",
-  "snappy": "A weapon system that can independently identify, select, and engage targets without direct human control over each use of force.",
-  "detail": "LAWS is the standard policy and ethics term for a fully autonomous lethal Autonomous weapon, central to international debate over meaningful human control and the place of Manual override and Human-in-the-loop oversight. It raises acute Robot ethics questions, echoing the cultural worry behind the Three Laws of Robotics, and overlaps with systems like a Loitering munition. Governance discussions weigh Levels of autonomy, accountability, and whether a machine should ever make a kill decision absent human judgment.",
-  "indications": [],
-  "category": "Concepts",
-  "sources": [
-   "IEEE RAS",
-   "DARPA"
-  ],
-  "aliases": []
- },
- {
-  "letter": "L",
   "term": "Level 4 automation",
   "full": "",
   "plain": "A self-driving system that fully drives itself within certain conditions, with no human backup needed.",
@@ -9434,7 +9216,9 @@
    "NIST"
   ],
   "aliases": [
-   "Lights out"
+   "Lights out",
+   "Dark factory",
+   "lights-out factory"
   ]
  },
  {
@@ -10537,7 +10321,9 @@
   "aliases": [
    "MPI",
    "disengagement rate",
-   "miles per disengagement"
+   "miles per disengagement",
+   "Interventions per mile",
+   "interventions per hour"
   ]
  },
  {
@@ -10946,7 +10732,9 @@
   "aliases": [
    "Movement primitive",
    "Manipulation primitive",
-   "motion primitives"
+   "motion primitives",
+   "Skill primitive",
+   "Motor primitive"
   ]
  },
  {
@@ -11066,26 +10854,6 @@
  },
  {
   "letter": "M",
-  "term": "Multirotor",
-  "full": "",
-  "plain": "A drone held in the air by several spinning propellers, which lets it take off straight up and hover in place.",
-  "snappy": "A rotorcraft drone lifted and steered by multiple fixed-pitch propellers driven by independent motors.",
-  "detail": "A Multirotor controls attitude purely by varying motor speeds through its Electronic speed controller units, with no swashplate, which is why a Quadcopter, Hexacopter, or Octocopter all share the same control principle. Because each Propeller has fixed pitch, the Flight controller adjusts thrust hundreds of times per second to hold position. Multirotors hover efficiently but cruise poorly, motivating the Hybrid VTOL and Tiltrotor designs for longer range. See also Multirotor drone.",
-  "indications": [
-   "Logistics & Warehouse",
-   "Service & Consumer"
-  ],
-  "category": "Aerial & Drones",
-  "sources": [
-   "FAA",
-   "NASA"
-  ],
-  "aliases": [
-   "multicopter"
-  ]
- },
- {
-  "letter": "M",
   "term": "Multirotor drone",
   "full": "",
   "plain": "A drone held up by several spinning propellers, usually four, that can hover in place and take off straight up.",
@@ -11101,7 +10869,8 @@
    "IEEE RAS"
   ],
   "aliases": [
-   "multicopter"
+   "multicopter",
+   "Multirotor"
   ]
  },
  {
@@ -11282,22 +11051,6 @@
  },
  {
   "letter": "N",
-  "term": "Nonholonomic",
-  "full": "",
-  "plain": "Limited in how it can move, like a car that can't slide straight sideways into a parking spot.",
-  "snappy": "A motion property where velocity constraints prevent instantaneous motion in some directions even though the pose space is unrestricted.",
-  "detail": "A nonholonomic robot has fewer controllable velocity directions than pose dimensions: a car can reach any position and heading but cannot move sideways, expressed as a Nonholonomic constraint on its wheels. This makes a Differential-drive robot or Ackermann steering vehicle harder to plan for, requiring feasible paths like Dubins path or Reeds-Shepp curves and specialized Motion planning. It is the opposite of Holonomic motion, which an Omnidirectional robot achieves with a Mecanum wheel.",
-  "indications": [
-   "Mobility"
-  ],
-  "category": "Concepts",
-  "sources": [
-   "IEEE RAS"
-  ],
-  "aliases": []
- },
- {
-  "letter": "N",
   "term": "Nonholonomic constraint",
   "full": "",
   "plain": "A rule built into how something moves: a car or a normal wheel can't slide straight sideways, even though it can still get anywhere by driving and turning.",
@@ -11311,7 +11064,9 @@
    "IEEE RAS",
    "NIST"
   ],
-  "aliases": []
+  "aliases": [
+   "Nonholonomic"
+  ]
  },
  {
   "letter": "N",
@@ -11566,26 +11321,8 @@
    "IEEE RAS"
   ],
   "aliases": [
-   "Grid map"
-  ]
- },
- {
-  "letter": "O",
-  "term": "Occupancy grid map",
-  "full": "",
-  "plain": "A map made of tiny squares, each colored in to say whether that patch of floor is open, blocked, or not-yet-seen.",
-  "snappy": "A grid representation of the environment where each cell is labeled free, occupied, or unknown, usually with an occupancy probability.",
-  "detail": "The occupancy grid map is the most common 2D world model for indoor mobile robots: a Lidar or Depth camera updates each cell's occupancy probability as the robot moves, and Mapping algorithms build it incrementally. It underpins Localization (an Autonomous mobile robot matches sensor scans against it) and serves as the input to a Cost map and Inflation layer for Path planning. The 3D extension is the OctoMap, which stores occupancy in a Voxel grid octree.",
-  "indications": [
-   "Logistics & Warehouse",
-   "Service & Consumer"
-  ],
-  "category": "Planning & Navigation",
-  "sources": [
-   "ROS",
-   "NIST"
-  ],
-  "aliases": [
+   "Grid map",
+   "Occupancy grid map",
    "occupancy map"
   ]
  },
@@ -13497,7 +13234,8 @@
   ],
   "aliases": [
    "Teach pendant programming",
-   "Lead-through programming"
+   "Lead-through programming",
+   "Teach-and-repeat"
   ]
  },
  {
@@ -13946,23 +13684,8 @@
    "IEEE RAS"
   ],
   "aliases": [
-   "Real-time system"
-  ]
- },
- {
-  "letter": "R",
-  "term": "Real-time computing",
-  "full": "",
-  "plain": "Computing that is guaranteed to finish its work within a strict time limit, every time.",
-  "snappy": "Computation that guarantees responses within strict, bounded deadlines rather than merely being fast on average.",
-  "detail": "Real-time computing is about Determinism: a robot Control loop that must update at a fixed Control rate cannot tolerate an occasional late result, even if the average is fast. Hard real-time tasks like Balance control on a Bipedal robot or motor Servo control run on a Real-time operating system or an FPGA/Microcontroller to bound worst-case Latency. It underpins safe Closed-loop control and is distinct from throughput-oriented compute like cloud batch inference.",
-  "indications": [],
-  "category": "Power & Compute",
-  "sources": [
-   "IEEE RAS",
-   "NIST"
-  ],
-  "aliases": [
+   "Real-time system",
+   "Real-time computing",
    "hard real-time"
   ]
  },
@@ -13984,28 +13707,6 @@
   "aliases": [
    "Hard real-time",
    "Real-time loop"
-  ]
- },
- {
-  "letter": "R",
-  "term": "Real-time kinematic positioning",
-  "full": "Real-Time Kinematic",
-  "plain": "A technique that compares a robot's satellite signals against a nearby fixed reference station to pin down its location to within a centimeter.",
-  "snappy": "A GNSS method using carrier-phase measurements and a base-station correction stream to achieve centimeter-level positioning.",
-  "detail": "Real-time kinematic positioning (RTK) sharpens Global Navigation Satellite System fixes from meters to centimeters by streaming carrier-phase corrections from a known base station to the rover receiver. It is essential for precise row-following in Agriculture, automated guided vehicle routing in Logistics & Warehouse, and lane-level Mobility tasks. RTK is typically fused with an Inertial measurement unit and Wheel odometry so Localization stays smooth during brief signal dropouts.",
-  "indications": [
-   "Agriculture",
-   "Mobility",
-   "Logistics & Warehouse"
-  ],
-  "category": "Sensing",
-  "sources": [
-   "NIST",
-   "IEEE RAS"
-  ],
-  "aliases": [
-   "RTK",
-   "RTK GPS"
   ]
  },
  {
@@ -14111,23 +13812,6 @@
    "Reeds-Shepp path",
    "Reeds Shepp"
   ]
- },
- {
-  "letter": "R",
-  "term": "Reference frame",
-  "full": "",
-  "plain": "A chosen set of axes that everything else is measured against, like saying 'three metres to the right of the door.'",
-  "snappy": "A coordinate system that anchors pose and motion descriptions.",
-  "detail": "Every Pose, velocity, or force in robotics is meaningless until you say which reference frame it is expressed in, for example the robot base frame, a camera frame, or a world frame. A Homogeneous transformation matrix converts quantities from one frame to another, and ROS organizes the whole set as a Transform tree (tf). Hand-eye calibration exists precisely to find the unknown transform between a camera frame and a robot frame.",
-  "indications": [
-   "Manufacturing"
-  ],
-  "category": "Kinematics & Dynamics",
-  "sources": [
-   "ROS",
-   "IEEE RAS"
-  ],
-  "aliases": []
  },
  {
   "letter": "R",
@@ -14694,23 +14378,6 @@
  },
  {
   "letter": "R",
-  "term": "Robot integrator",
-  "full": "",
-  "plain": "A specialist company that takes a bare robot and turns it into a complete, working factory station tailored to a customer's job.",
-  "snappy": "A firm that designs, builds, programs, and commissions turnkey automation cells around robots for an end user.",
-  "detail": "A robot integrator (a type of System integrator) buys a bare Industrial robot arm from a maker like FANUC, KUKA, or ABB Robotics and engineers a complete Robot cell around it: End-of-arm tooling, Fixturing, Machine guarding, a Safety PLC, vision, and the application program for Robotic welding, Palletizing, or Machine tending. Because most manufacturers lack in-house automation expertise, the integrator handles the Risk assessment, safety certification to ISO 10218, installation, and operator training. Their margins and lead times are a major factor in automation Return on investment and in escaping Pilot purgatory.",
-  "indications": [
-   "Manufacturing"
-  ],
-  "category": "Industrial Automation",
-  "sources": [
-   "IFR",
-   "ISO"
-  ],
-  "aliases": []
- },
- {
-  "letter": "R",
   "term": "Robot Operating System",
   "full": "Robot Operating System",
   "plain": "Free software that gives robot programmers ready-made building blocks so they don't have to write everything from scratch.",
@@ -15138,7 +14805,9 @@
   "aliases": [
    "RTK",
    "RTK-GPS",
-   "RTK correction"
+   "RTK correction",
+   "Real-time kinematic positioning",
+   "RTK GPS"
   ]
  },
  {
@@ -16355,23 +16024,6 @@
  },
  {
   "letter": "S",
-  "term": "Singularity",
-  "full": "",
-  "plain": "A pose where a robot arm suddenly can't move in a certain direction, like an elbow locked straight.",
-  "snappy": "A configuration where a manipulator loses one or more degrees of freedom of instantaneous motion, making its Jacobian rank-deficient.",
-  "detail": "At a kinematic singularity the robot's Jacobian matrix becomes rank-deficient, so a finite end-effector velocity demands infinite joint speed, and the arm momentarily cannot move in some Cartesian direction. A common example is a Six-axis robot with its arm fully extended or a wrist at gimbal-lock; passing through it causes erratic motion and is a hazard in Trajectory tracking. Planners detect proximity via Manipulability measures and avoid these poses, exploiting Kinematic redundancy or the Null space when available.",
-  "indications": [
-   "Manufacturing"
-  ],
-  "category": "Concepts",
-  "sources": [
-   "IEEE RAS",
-   "MoveIt"
-  ],
-  "aliases": []
- },
- {
-  "letter": "S",
   "term": "Situational awareness",
   "full": "",
   "plain": "Knowing what is happening around you well enough to make the right decision about what to do next.",
@@ -16462,27 +16114,6 @@
    "IEEE RAS"
   ],
   "aliases": []
- },
- {
-  "letter": "S",
-  "term": "Skill primitive",
-  "full": "",
-  "plain": "A small reusable building-block movement, like grasp or push, that gets combined into longer robot behaviors.",
-  "snappy": "A reusable elementary skill or motion unit that can be composed and sequenced into more complex behaviors.",
-  "detail": "A skill primitive, also called a motor or movement primitive, is a parameterized building block such as reach, grasp, or insert that higher-level systems chain together, the low-level half of Hierarchical reinforcement learning and Task and motion planning. Libraries of primitives improve Sample efficiency and reuse, and help guard against Catastrophic forgetting since adding a new skill need not overwrite old ones. They are common in Manipulation and Whole-body control for a Humanoid robot.",
-  "indications": [
-   "Manufacturing",
-   "Humanoid"
-  ],
-  "category": "Learning & Embodied AI",
-  "sources": [
-   "arXiv",
-   "IEEE RAS"
-  ],
-  "aliases": [
-   "Motor primitive",
-   "Movement primitive"
-  ]
  },
  {
   "letter": "S",
@@ -17034,23 +16665,6 @@
   "aliases": [
    "lattice planner",
    "state lattice planner"
-  ]
- },
- {
-  "letter": "S",
-  "term": "State machine",
-  "full": "",
-  "plain": "A way of organizing a robot's behavior into a small set of named modes, with clear rules for switching between them.",
-  "snappy": "Control logic defined by discrete states and the transitions that move the robot between them on events or conditions.",
-  "detail": "A state machine, or Finite state machine, splits a robot's operation into modes such as idle, navigating, grasping, and error, with explicit transitions triggered by sensor events. It is the simplest way to structure mission logic and is a classic alternative to a Behavior tree for high-level coordination in Sense-plan-act and Deliberative control architectures. For example, a Delivery robot might transition from navigating to docking when it reaches a Waypoint, then to charging upon Autonomous docking.",
-  "indications": [],
-  "category": "Software & Simulation",
-  "sources": [
-   "ROS",
-   "NASA"
-  ],
-  "aliases": [
-   "FSM"
   ]
  },
  {
@@ -17612,7 +17226,8 @@
   ],
   "aliases": [
    "systems integrator",
-   "integrator"
+   "integrator",
+   "Robot integrator"
   ]
  },
  {
@@ -17817,21 +17432,6 @@
   "aliases": [
    "teaching pendant"
   ]
- },
- {
-  "letter": "T",
-  "term": "Teach-and-repeat",
-  "full": "",
-  "plain": "Programming a robot by manually guiding it through a task once so it records the path, then having it replay that exact motion over and over.",
-  "snappy": "The classic robot programming paradigm in which an operator records a path of waypoints and the robot then replays it deterministically.",
-  "detail": "Teach-and-repeat is the canonical industrial method of Programming by teaching: an operator jogs the robot with a Teach pendant or by Hand guiding it through a sequence of poses, the controller stores them as a Trajectory of waypoints, and the program replays the motion at production speed with high Repeatability. It works because the work is in a Structured environment with fixed Fixturing, so no Perception or replanning is needed; this contrasts sharply with learning-based methods like Imitation learning or a Diffusion policy. The approach dominates Discrete automation tasks such as Robotic welding and Pick and place but is brittle when parts or positions vary.",
-  "indications": [],
-  "category": "Industrial Automation",
-  "sources": [
-   "IFR",
-   "ISO"
-  ],
-  "aliases": []
  },
  {
   "letter": "T",
@@ -18740,7 +18340,8 @@
   ],
   "aliases": [
    "UTM",
-   "U-space"
+   "U-space",
+   "Unmanned traffic management"
   ]
  },
  {
@@ -18972,26 +18573,6 @@
    "USV",
    "USVs",
    "autonomous surface vessel"
-  ]
- },
- {
-  "letter": "U",
-  "term": "Unmanned traffic management",
-  "full": "Unmanned traffic management",
-  "plain": "An air-traffic-control-like system that keeps many low-flying drones from colliding by coordinating where each one goes.",
-  "snappy": "A digital system coordinating safe, deconflicted shared airspace for many low-altitude drones.",
-  "detail": "UTM lets operators file flight plans, receive airspace constraints, and share position so that fleets doing Drone delivery and inspection avoid each other and crewed aircraft, complementing onboard Detect and avoid. It relies on Remote ID broadcasts for accountability and is being developed by the FAA and NASA as the drone analog of conventional air traffic control, enabling Beyond visual line of sight at scale. The term is interchangeable with UAS traffic management.",
-  "indications": [
-   "Logistics & Warehouse",
-   "Mobility"
-  ],
-  "category": "Aerial & Drones",
-  "sources": [
-   "FAA",
-   "NASA"
-  ],
-  "aliases": [
-   "UTM"
   ]
  },
  {
