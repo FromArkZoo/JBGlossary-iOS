@@ -32,6 +32,7 @@
 		7BE7536D4E5FD2955D0FEC40 /* IndustryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427B99CE8C1F228786FA03CE /* IndustryPickerView.swift */; };
 		7F4F2708CD01A3519904CB02 /* glossary_law.json in Resources */ = {isa = PBXBuildFile; fileRef = 02AD88C289047DBCF0556D0A /* glossary_law.json */; };
 		80792E99198ED189F52FCFA4 /* glossary_robotics.json in Resources */ = {isa = PBXBuildFile; fileRef = F9937E726B784D97673D45AB /* glossary_robotics.json */; };
+		85F118F12F15E212C29A326C /* SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF53CAE48C705ECF33A33D5 /* SearchTests.swift */; };
 		9B59AE3EEFA90672137E6610 /* IndustryConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64DB09B536A4C3A2CE4F19A /* IndustryConfig.swift */; };
 		A1BEC64D6275AB84203DF560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4BC9CAC4008DD7A723C18B /* Assets.xcassets */; };
 		A56A552B2B4D7AA9F713F9EB /* glossary_pharma.json in Resources */ = {isa = PBXBuildFile; fileRef = 38DC63501638BCC01B7FF226 /* glossary_pharma.json */; };
@@ -82,6 +83,7 @@
 		76097C8C0CDE60B86FF51EEE /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		7D4934B9F5D89A2046403EF6 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		7F1F760FED30EDA2A6BC9D59 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		8FF53CAE48C705ECF33A33D5 /* SearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTests.swift; sourceTree = "<group>"; };
 		95C79B229AE3CD86C0893D86 /* JBGlossaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBGlossaryApp.swift; sourceTree = "<group>"; };
 		A07C7BB19258A2BB0DFDA691 /* glossary_realEstate.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = glossary_realEstate.json; sourceTree = "<group>"; };
 		AA394CD8FC66E4498EBB3F7A /* PGBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGBackground.swift; sourceTree = "<group>"; };
@@ -251,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				AF1C7E9BD8EE71C2A2A663C9 /* HyperlinkTests.swift */,
+				8FF53CAE48C705ECF33A33D5 /* SearchTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -430,6 +433,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6606C9B0A0719220421233F1 /* HyperlinkTests.swift in Sources */,
+				85F118F12F15E212C29A326C /* SearchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

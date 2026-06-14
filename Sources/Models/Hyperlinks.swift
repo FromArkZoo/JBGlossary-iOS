@@ -1,6 +1,12 @@
 import Foundation
 import SwiftUI
 
+/// One compiled link target: the matched surface form, its precompiled word-bounded
+/// regex, and the term it resolves to. Compiled ONCE per industry (see
+/// `GlossaryStore.linkUnitsCache`) and reused across every term/field, instead of
+/// recompiling ~2,700 regexes on every linkification.
+typealias LinkUnit = (text: String, regex: NSRegularExpression, term: Term)
+
 extension GlossaryStore {
     /// Builds an AttributedString for a term's detail body, with every reference to
     /// another known term wrapped as a tappable `<brand-scheme>://term/<name>` link
@@ -24,45 +30,66 @@ extension GlossaryStore {
     private func attributedText(_ body: String, for term: Term, field: String) -> AttributedString {
         let key = "\(term.id)::\(field)"
         if let cached = attributedCache[key] { return cached }
-        let built = Self.computeAttributedText(body, currentTermId: term.id, allTerms: allTerms, urlScheme: Brand.current.urlScheme)
+        // Reuse the industry's precompiled link units instead of rebuilding ~2,700
+        // regexes on every call — the dominant cost of opening a term detail.
+        let built = Self.applyUnits(to: body, units: cachedUnits(), currentTermId: term.id, urlScheme: Brand.current.urlScheme)
         attributedCache[key] = built
         return built
+    }
+
+    /// The industry's link units, compiled once and cached. Built eagerly off the
+    /// main thread by `prewarmLinkUnits()`; this is the lazy fallback for the rare
+    /// case a term is opened before that finishes.
+    func cachedUnits() -> [LinkUnit] {
+        if let u = linkUnitsCache { return u }
+        let u = Self.buildUnits(allTerms)
+        linkUnitsCache = u
+        return u
     }
 
     /// Generic linker. Used for all three tiers (`plain`, `snappy`, `detail`)
     /// because the rules — longest-first, acronym case-sensitivity, hyphen-aware
     /// word boundaries — are identical for any prose that references other terms.
     nonisolated static func computeAttributedText(_ body: String, currentTermId: String, allTerms: [Term], urlScheme: String) -> AttributedString {
+        applyUnits(to: body, units: buildUnits(allTerms), currentTermId: currentTermId, urlScheme: urlScheme)
+    }
+
+    /// Compile the link units for a term set: every term's canonical name AND each of
+    /// its aliases (≥2 chars), each with a precompiled word-bounded regex resolving to
+    /// that term. Sorted longest-first (by the matched string) so "ACE Inhibitor" wins
+    /// over the alias "ACE", and "monoclonal antibody" wins over "antibody".
+    ///
+    /// Acronym strings (no lowercase, e.g. "ALL", "AMR", "BCL-2") compile case-sensitively
+    /// so common words ("all", "ace") don't get linked; mixed/lowercase strings compile
+    /// case-insensitively so a sentence-start "Antibody" still resolves.
+    nonisolated static func buildUnits(_ allTerms: [Term]) -> [LinkUnit] {
+        var units: [LinkUnit] = []
+        units.reserveCapacity(allTerms.count * 2)
+        for term in allTerms {
+            for text in CollectionOfOne(term.term) + term.aliases where text.count >= 2 {
+                let hasLowercase = text.contains { $0.isLowercase }
+                let options: NSRegularExpression.Options = hasLowercase ? [.caseInsensitive] : []
+                guard let regex = try? NSRegularExpression(pattern: linkPattern(for: text), options: options) else { continue }
+                units.append((text: text, regex: regex, term: term))
+            }
+        }
+        units.sort { $0.text.count > $1.text.count }
+        return units
+    }
+
+    /// Apply precompiled `units` to `body`, wrapping each non-overlapping match in a
+    /// tappable brand-accent link. Skips the current term (no self-links). Longest-first
+    /// ordering of `units` ensures a shorter match never overlaps a longer one.
+    nonisolated static func applyUnits(to body: String, units: [LinkUnit], currentTermId: String, urlScheme: String) -> AttributedString {
         var attributed = AttributedString(body)
         guard !body.isEmpty else { return attributed }
 
-        // Build the set of strings to match: every other term's canonical name AND each
-        // of its aliases, every one resolving to that term's canonical URL. Sort longest-
-        // first (by the matched string) so "ACE Inhibitor" wins over the alias "ACE", and
-        // "monoclonal antibody" wins over "antibody". Skip self-references and single-char
-        // tokens that risk false positives (e.g. "I", "K").
-        var units: [(text: String, term: Term)] = []
-        for term in allTerms where term.id != currentTermId {
-            if term.term.count >= 2 { units.append((term.term, term)) }
-            for alias in term.aliases where alias.count >= 2 { units.append((alias, term)) }
-        }
-        units.sort { $0.text.count > $1.text.count }
-
         let fullRange = NSRange(location: 0, length: (body as NSString).length)
-
-        // Track NSRanges already linked so shorter matches don't overlap longer ones.
         var linked: [NSRange] = []
 
         for unit in units {
-            // Acronym strings (no lowercase letters, e.g. "ALL", "AMR", "BCL-2") match case-
-            // sensitively so common English words like "all" or "ace" don't get linked.
-            // Mixed/lowercase strings ("Antibody", "Cmax") match case-insensitively so a
-            // sentence-start "Antibody" still resolves to its lowercase canonical entry.
-            let hasLowercase = unit.text.contains { $0.isLowercase }
-            let options: NSRegularExpression.Options = hasLowercase ? [.caseInsensitive] : []
-            guard let regex = try? NSRegularExpression(pattern: Self.linkPattern(for: unit.text), options: options) else { continue }
-
-            let matches = regex.matches(in: body, options: [], range: fullRange)
+            if unit.term.id == currentTermId { continue }
+            let matches = unit.regex.matches(in: body, options: [], range: fullRange)
             for match in matches {
                 let r = match.range
                 if linked.contains(where: { NSIntersectionRange($0, r).length > 0 }) { continue }

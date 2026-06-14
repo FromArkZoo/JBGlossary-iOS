@@ -85,6 +85,17 @@ struct FilterState: Equatable {
     }
 }
 
+/// One row of the precomputed search index: a term plus its lowercased searchable
+/// fields, built once in `load()` so per-keystroke ranking never re-lowercases the
+/// corpus. `blob` concatenates the three definition tiers for body matches.
+struct SearchRow {
+    let term: Term
+    let name: String       // lowercased canonical name
+    let full: String       // lowercased acronym expansion
+    let aliases: [String]  // lowercased aliases
+    let blob: String       // lowercased plain + snappy + detail
+}
+
 @MainActor
 final class GlossaryStore: ObservableObject {
     @Published private(set) var allTerms: [Term] = []
@@ -93,8 +104,15 @@ final class GlossaryStore: ObservableObject {
     @Published private(set) var favorites: Set<String> = []
 
     /// Cache of hyperlinked AttributedStrings, keyed by "<term.id>::<field>" where
-    /// field ∈ {plain, snappy, detail}. Prewarmed off the main thread in `load()`.
+    /// field ∈ {plain, snappy, detail}. Built lazily on first view and cached.
     var attributedCache: [String: AttributedString] = [:]
+
+    /// The industry's link units (term names + aliases → precompiled regex), compiled
+    /// ONCE and reused for every linkification. Filled off-main by `prewarmLinkUnits()`.
+    var linkUnitsCache: [LinkUnit]?
+
+    /// Precomputed lowercased search fields, built once in `load()`.
+    private(set) var searchIndex: [SearchRow] = []
 
     let industryID: IndustryID
 
@@ -179,48 +197,70 @@ final class GlossaryStore: ObservableObject {
             self.allTerms = terms
             self.byLetter = Dictionary(grouping: terms, by: { $0.letter })
             self.letters = byLetter.keys.sorted()
-            prewarmAttributedCache(terms: terms)
+            self.searchIndex = terms.map { t in
+                SearchRow(
+                    term: t,
+                    name: t.term.lowercased(),
+                    full: t.full.lowercased(),
+                    aliases: t.aliases.map { $0.lowercased() },
+                    blob: "\(t.plain) \(t.snappy) \(t.detail)".lowercased()
+                )
+            }
+            prewarmLinkUnits()
         } catch {
             assertionFailure("Failed to decode \(Brand.current.dataResource).json: \(error)")
         }
     }
 
-    /// Build the hyperlinked AttributedString for every (term, field) pair off
-    /// the main thread, then bulk-merge into the cache. The regex pass is the
-    /// dominant cost of pushing a TermDetailView; prewarming makes repeat
-    /// navigations effectively free across all three tiers.
-    private func prewarmAttributedCache(terms: [Term]) {
-        let urlScheme = Brand.current.urlScheme
+    /// Compile the industry's link units ONCE, off the main thread, so the first
+    /// term-open doesn't pay ~2,700 regex compilations on the main thread. Replaces
+    /// the old eager prewarm of every (term,field) AttributedString — at ~2,400
+    /// entries that flooded a CPU core with ~19M regex ops right after launch.
+    /// Attributed strings are now built lazily on first view and cached per (term,field).
+    private func prewarmLinkUnits() {
+        let terms = allTerms
         Task.detached(priority: .utility) { [weak self] in
-            var built: [String: AttributedString] = [:]
-            built.reserveCapacity(terms.count * 3)
-            for term in terms {
-                if term.hasPlain {
-                    built["\(term.id)::plain"] = Self.computeAttributedText(term.plain, currentTermId: term.id, allTerms: terms, urlScheme: urlScheme)
-                }
-                if term.hasSnappy {
-                    built["\(term.id)::snappy"] = Self.computeAttributedText(term.snappy, currentTermId: term.id, allTerms: terms, urlScheme: urlScheme)
-                }
-                built["\(term.id)::detail"] = Self.computeAttributedText(term.detail, currentTermId: term.id, allTerms: terms, urlScheme: urlScheme)
-            }
-            await MainActor.run {
-                guard let self else { return }
-                for (key, attr) in built where self.attributedCache[key] == nil {
-                    self.attributedCache[key] = attr
-                }
-            }
+            let units = GlossaryStore.buildUnits(terms)
+            await MainActor.run { self?.linkUnitsCache = units }
         }
     }
 
+    /// Result cap for the search box — top-ranked matches only, so the results List
+    /// stays light even when a short query matches hundreds of definition bodies.
+    static let searchResultLimit = 60
+
+    /// Ranked, capped search over the precomputed index. Sorts by relevance score
+    /// (term-name prefixes first, definition-body matches last), then alphabetically.
     func search(_ query: String) -> [Term] {
         let q = query.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
         guard !q.isEmpty else { return [] }
-        return allTerms.filter {
-            $0.term.lowercased().contains(q)
-                || $0.full.lowercased().contains(q)
-                || $0.snappy.lowercased().contains(q)
-                || $0.detail.lowercased().contains(q)
+        var scored: [(term: Term, score: Int)] = []
+        for row in searchIndex {
+            let s = Self.searchScore(name: row.name, full: row.full, aliases: row.aliases, blob: row.blob, query: q)
+            if s > 0 { scored.append((row.term, s)) }
         }
+        scored.sort {
+            $0.score != $1.score
+                ? $0.score > $1.score
+                : $0.term.term.localizedCaseInsensitiveCompare($1.term.term) == .orderedAscending
+        }
+        return scored.prefix(Self.searchResultLimit).map(\.term)
+    }
+
+    /// Rank one term against a lowercased query (all inputs pre-lowercased). Higher =
+    /// better. Tiers, high→low: exact name, name prefix, alias prefix, word-prefix in a
+    /// multi-word name, name substring, alias substring, acronym/full match, definition
+    /// body. Single-char queries skip the body to avoid flooding results. 0 = no match.
+    nonisolated static func searchScore(name: String, full: String, aliases: [String], blob: String, query q: String) -> Int {
+        if name == q { return 1000 }
+        if name.hasPrefix(q) { return 900 }
+        if aliases.contains(where: { $0.hasPrefix(q) }) { return 820 }
+        if name.split(whereSeparator: { $0 == " " || $0 == "-" }).contains(where: { $0.hasPrefix(q) }) { return 800 }
+        if name.contains(q) { return 600 }
+        if aliases.contains(where: { $0.contains(q) }) { return 500 }
+        if !full.isEmpty && full.contains(q) { return 400 }
+        if q.count >= 2 && blob.contains(q) { return 100 }
+        return 0
     }
 
     func filtered(by filter: FilterState) -> [Term] {
