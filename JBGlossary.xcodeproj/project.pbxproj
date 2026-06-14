@@ -31,9 +31,11 @@
 		74434847A03007291C21BC98 /* EditorialHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB062FCE396DCF7AB21B76 /* EditorialHeader.swift */; };
 		7BE7536D4E5FD2955D0FEC40 /* IndustryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427B99CE8C1F228786FA03CE /* IndustryPickerView.swift */; };
 		7F4F2708CD01A3519904CB02 /* glossary_law.json in Resources */ = {isa = PBXBuildFile; fileRef = 02AD88C289047DBCF0556D0A /* glossary_law.json */; };
+		80792E99198ED189F52FCFA4 /* glossary_robotics.json in Resources */ = {isa = PBXBuildFile; fileRef = F9937E726B784D97673D45AB /* glossary_robotics.json */; };
 		9B59AE3EEFA90672137E6610 /* IndustryConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64DB09B536A4C3A2CE4F19A /* IndustryConfig.swift */; };
 		A1BEC64D6275AB84203DF560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4BC9CAC4008DD7A723C18B /* Assets.xcassets */; };
 		A56A552B2B4D7AA9F713F9EB /* glossary_pharma.json in Resources */ = {isa = PBXBuildFile; fileRef = 38DC63501638BCC01B7FF226 /* glossary_pharma.json */; };
+		A8481CBDC0033CA50E4A2E7E /* RoboticsBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298203870B845249A970A738 /* RoboticsBrand.swift */; };
 		AD22A51C7A3E56CF8B75FA45 /* glossary_ai.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A08E98C81167BC567633D27 /* glossary_ai.json */; };
 		B23C3B6951C38794135EDA2D /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA0E7F492FA908C47699562 /* Brand.swift */; };
 		B506803939B0B9FE244FCFCA /* PharmaBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7744E4F7F2C1ED299CBD81 /* PharmaBrand.swift */; };
@@ -65,6 +67,7 @@
 		1625E96D841DD218D5D0F5BD /* Glossary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glossary.swift; sourceTree = "<group>"; };
 		1A08E98C81167BC567633D27 /* glossary_ai.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = glossary_ai.json; sourceTree = "<group>"; };
 		1FAB062FCE396DCF7AB21B76 /* EditorialHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorialHeader.swift; sourceTree = "<group>"; };
+		298203870B845249A970A738 /* RoboticsBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboticsBrand.swift; sourceTree = "<group>"; };
 		2F7744E4F7F2C1ED299CBD81 /* PharmaBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmaBrand.swift; sourceTree = "<group>"; };
 		38DC63501638BCC01B7FF226 /* glossary_pharma.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = glossary_pharma.json; sourceTree = "<group>"; };
 		390EDAD665B04AC01355E561 /* Lockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lockable.swift; sourceTree = "<group>"; };
@@ -96,6 +99,7 @@
 		E5A56A473B2C0C6F71E894CC /* FilterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSheet.swift; sourceTree = "<group>"; };
 		ED0D0C579A353EC7958683EF /* JBGlossaryTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = JBGlossaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F72F36455A190B3E1F17E963 /* PGSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGSearchBar.swift; sourceTree = "<group>"; };
+		F9937E726B784D97673D45AB /* glossary_robotics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = glossary_robotics.json; sourceTree = "<group>"; };
 		FA81E1A9E59C4885A271E3FE /* JBGlossary.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = JBGlossary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBFE8CECC6298B8FF6E75186 /* AIBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIBrand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,6 +122,7 @@
 				998919E2EA043CF18A73BC76 /* Law */,
 				98655C064F15EFC0EC1AD3E0 /* Pharma */,
 				478B5100B0747089FB6C2ADD /* RealEstate */,
+				A6D7D9750C6DBE7AD9C59C33 /* Robotics */,
 			);
 			path = Targets;
 			sourceTree = "<group>";
@@ -185,6 +190,7 @@
 				0193436ED3CA2B9EC1B1F01A /* LawBrand.swift */,
 				2F7744E4F7F2C1ED299CBD81 /* PharmaBrand.swift */,
 				BBDC3A7D17AA946BC8578F54 /* RealEstateBrand.swift */,
+				298203870B845249A970A738 /* RoboticsBrand.swift */,
 			);
 			path = Industries;
 			sourceTree = "<group>";
@@ -255,6 +261,22 @@
 				6DB12865773A37504466581B /* Resources */,
 			);
 			path = Law;
+			sourceTree = "<group>";
+		};
+		A6D7D9750C6DBE7AD9C59C33 /* Robotics */ = {
+			isa = PBXGroup;
+			children = (
+				B15D4402D915123935931B3F /* Resources */,
+			);
+			path = Robotics;
+			sourceTree = "<group>";
+		};
+		B15D4402D915123935931B3F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F9937E726B784D97673D45AB /* glossary_robotics.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		B51F5693A0A9C9A2E2544E66 /* DesignSystem */ = {
@@ -396,6 +418,7 @@
 				7F4F2708CD01A3519904CB02 /* glossary_law.json in Resources */,
 				A56A552B2B4D7AA9F713F9EB /* glossary_pharma.json in Resources */,
 				BAA3BE7791AF0BB6A80A5102 /* glossary_realEstate.json in Resources */,
+				80792E99198ED189F52FCFA4 /* glossary_robotics.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +462,7 @@
 				B506803939B0B9FE244FCFCA /* PharmaBrand.swift in Sources */,
 				725477CA2726EE047D82B159 /* PurchaseManager.swift in Sources */,
 				32364E68AD96ECC85F5C2E9F /* RealEstateBrand.swift in Sources */,
+				A8481CBDC0033CA50E4A2E7E /* RoboticsBrand.swift in Sources */,
 				2D317F6BF7557FD09C16943C /* RootView.swift in Sources */,
 				598AF1C4E684B0F65C2071CB /* SplashView.swift in Sources */,
 				1889F9EC6CD59F700C491D5B /* TermDetailView.swift in Sources */,
