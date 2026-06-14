@@ -47,3 +47,7 @@ __pycache__/
 
 # Transient workflow authoring inputs (regenerated from the master term list)
 docs/superpowers/specs/robotics-chunks/
+
+# Transient expansion workflow inputs
+docs/superpowers/specs/robotics-expansion/
+docs/superpowers/specs/robotics-exp-chunks/

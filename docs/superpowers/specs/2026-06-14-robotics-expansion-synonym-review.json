@@ -1,0 +1,390 @@
+[
+ {
+  "term": "Adversarial attack",
+  "duplicateOf": "Adversarial Example"
+ },
+ {
+  "term": "Distribution shift",
+  "duplicateOf": "Domain Shift"
+ },
+ {
+  "term": "Coverage problem",
+  "duplicateOf": "Coverage Path Planning"
+ },
+ {
+  "term": "Option framework",
+  "duplicateOf": "Options Framework"
+ },
+ {
+  "term": "Sparse-reward task",
+  "duplicateOf": "Sparse reward"
+ },
+ {
+  "term": "Worm Gear",
+  "duplicateOf": "Worm Drive"
+ },
+ {
+  "term": "Bowden Cable",
+  "duplicateOf": "Bowden Cable Transmission"
+ },
+ {
+  "term": "Fluidic Elastomer Actuator",
+  "duplicateOf": "PneuNet Actuator"
+ },
+ {
+  "term": "Gecko-Inspired Adhesive",
+  "duplicateOf": "Gecko-inspired adhesion"
+ },
+ {
+  "term": "Planetary Gearbox",
+  "duplicateOf": "Planetary gear"
+ },
+ {
+  "term": "SCARA Configuration",
+  "duplicateOf": "SCARA robot"
+ },
+ {
+  "term": "Counterbalance Mechanism",
+  "duplicateOf": "Gravity Compensation"
+ },
+ {
+  "term": "Bowden Cable Transmission",
+  "duplicateOf": "Bowden Cable"
+ },
+ {
+  "term": "Axial Flux Motor",
+  "duplicateOf": "Pancake Motor"
+ },
+ {
+  "term": "Magnetorheological Actuator",
+  "duplicateOf": "Magnetorheological Clutch"
+ },
+ {
+  "term": "Worm Drive",
+  "duplicateOf": "Worm Gear"
+ },
+ {
+  "term": "Magnetorheological Clutch",
+  "duplicateOf": "Magnetorheological Actuator"
+ },
+ {
+  "term": "CAN Bus",
+  "duplicateOf": "Controller Area Network"
+ },
+ {
+  "term": "Thermal Throttling",
+  "duplicateOf": "Thermal Derating"
+ },
+ {
+  "term": "Control Loop Frequency",
+  "duplicateOf": "Control rate"
+ },
+ {
+  "term": "Raibert heuristic",
+  "duplicateOf": "Raibert hopper control"
+ },
+ {
+  "term": "Wheel-legged robot",
+  "duplicateOf": "Wheeled-legged robot"
+ },
+ {
+  "term": "Spherical robot",
+  "duplicateOf": "Spherical rolling robot"
+ },
+ {
+  "term": "Teacher-student policy distillation",
+  "duplicateOf": "Teacher-Student Distillation"
+ },
+ {
+  "term": "DIGIT tactile sensor",
+  "duplicateOf": "DIGIT"
+ },
+ {
+  "term": "Shadow Dexterous Hand",
+  "duplicateOf": "Shadow Hand"
+ },
+ {
+  "term": "Visuotactile sensing",
+  "duplicateOf": "Vision-based tactile sensor"
+ },
+ {
+  "term": "Robotiq gripper",
+  "duplicateOf": "Robotiq"
+ },
+ {
+  "term": "Action chunking transformer",
+  "duplicateOf": "ACT"
+ },
+ {
+  "term": "Octo policy",
+  "duplicateOf": "Octo"
+ },
+ {
+  "term": "Behavior cloning",
+  "duplicateOf": "Behavioral cloning"
+ },
+ {
+  "term": "Residual policy learning",
+  "duplicateOf": "Residual Reinforcement Learning"
+ },
+ {
+  "term": "Threaded Fastener Insertion",
+  "duplicateOf": "Robotic screwdriving"
+ },
+ {
+  "term": "Spherical rolling robot",
+  "duplicateOf": "Spherical robot"
+ },
+ {
+  "term": "Pallet jack robot",
+  "duplicateOf": "Autonomous Pallet Jack"
+ },
+ {
+  "term": "LOAM",
+  "duplicateOf": "Lidar Odometry and Mapping"
+ },
+ {
+  "term": "Intel RealSense",
+  "duplicateOf": "RealSense"
+ },
+ {
+  "term": "DIGIT",
+  "duplicateOf": "DIGIT tactile sensor"
+ },
+ {
+  "term": "KITTI Dataset",
+  "duplicateOf": "KITTI"
+ },
+ {
+  "term": "EuRoC MAV Dataset",
+  "duplicateOf": "EuRoC Dataset"
+ },
+ {
+  "term": "PnP",
+  "duplicateOf": "Perspective-n-Point"
+ },
+ {
+  "term": "Open-Vocabulary Detection",
+  "duplicateOf": "Open-vocabulary perception"
+ },
+ {
+  "term": "Doppler Velocity Estimation",
+  "duplicateOf": "Doppler Velocity Measurement"
+ },
+ {
+  "term": "Micro-Doppler Signature",
+  "duplicateOf": "Radar Micro-Doppler"
+ },
+ {
+  "term": "EuRoC Dataset",
+  "duplicateOf": "EuRoC MAV Dataset"
+ },
+ {
+  "term": "Grasp Detection",
+  "duplicateOf": "Grasp Pose Detection"
+ },
+ {
+  "term": "Jerk-limited trajectory",
+  "duplicateOf": "S-Curve Motion Profile"
+ },
+ {
+  "term": "Teleoperation bilateral control",
+  "duplicateOf": "Bilateral teleoperation"
+ },
+ {
+  "term": "Quadratic program whole-body control",
+  "duplicateOf": "Quadratic programming control"
+ },
+ {
+  "term": "Pure Pursuit",
+  "duplicateOf": "Pure Pursuit Controller"
+ },
+ {
+  "term": "Occupancy Grid Map",
+  "duplicateOf": "Occupancy grid"
+ },
+ {
+  "term": "Social Force Model",
+  "duplicateOf": "Social Forces Model"
+ },
+ {
+  "term": "S-Curve Velocity Profile",
+  "duplicateOf": "S-Curve Motion Profile"
+ },
+ {
+  "term": "Genesis",
+  "duplicateOf": "Genesis Simulator"
+ },
+ {
+  "term": "OpenUSD",
+  "duplicateOf": "USD"
+ },
+ {
+  "term": "Software-in-the-Loop",
+  "duplicateOf": "Software-in-the-loop simulation"
+ },
+ {
+  "term": "Foxglove Studio",
+  "duplicateOf": "Foxglove"
+ },
+ {
+  "term": "Fleet Management Software",
+  "duplicateOf": "Fleet management"
+ },
+ {
+  "term": "Octo",
+  "duplicateOf": "Octo policy"
+ },
+ {
+  "term": "Teacher-Student Distillation",
+  "duplicateOf": "Teacher-student policy distillation"
+ },
+ {
+  "term": "Neural Radiance Fields",
+  "duplicateOf": "NeRF"
+ },
+ {
+  "term": "3D Gaussian Splatting",
+  "duplicateOf": "Gaussian splatting"
+ },
+ {
+  "term": "Tactile-Reactive Control",
+  "duplicateOf": "Tactile servoing"
+ },
+ {
+  "term": "Shadow Hand",
+  "duplicateOf": "Shadow Dexterous Hand"
+ },
+ {
+  "term": "Grasp Pose Detection",
+  "duplicateOf": "6-DoF grasp detection"
+ },
+ {
+  "term": "Genesis Simulator",
+  "duplicateOf": "Genesis"
+ },
+ {
+  "term": "Options Framework",
+  "duplicateOf": "Option framework"
+ },
+ {
+  "term": "Residual Reinforcement Learning",
+  "duplicateOf": "Residual policy learning"
+ },
+ {
+  "term": "pi0",
+  "duplicateOf": "Pi-Zero"
+ },
+ {
+  "term": "NVIDIA Isaac GR00T N1",
+  "duplicateOf": "GR00T"
+ },
+ {
+  "term": "Hybrid A-Star",
+  "duplicateOf": "Hybrid A*"
+ },
+ {
+  "term": "Pure Pursuit Controller",
+  "duplicateOf": "Pure Pursuit"
+ },
+ {
+  "term": "Lidar Odometry and Mapping",
+  "duplicateOf": "LOAM"
+ },
+ {
+  "term": "Controller Area Network",
+  "duplicateOf": "CAN Bus"
+ },
+ {
+  "term": "Particle Filter Localization",
+  "duplicateOf": "Monte Carlo localization"
+ },
+ {
+  "term": "CARLA Simulator",
+  "duplicateOf": "CARLA"
+ },
+ {
+  "term": "KITTI",
+  "duplicateOf": "KITTI Dataset"
+ },
+ {
+  "term": "Social Forces Model",
+  "duplicateOf": "Social Force Model"
+ },
+ {
+  "term": "Doppler Velocity Measurement",
+  "duplicateOf": "Doppler Velocity Estimation"
+ },
+ {
+  "term": "Radar Micro-Doppler",
+  "duplicateOf": "Micro-Doppler Signature"
+ },
+ {
+  "term": "Mechanical Spinning Lidar",
+  "duplicateOf": "Mechanical LiDAR"
+ },
+ {
+  "term": "Object-Level Fusion",
+  "duplicateOf": "Late Fusion"
+ },
+ {
+  "term": "RTK GNSS",
+  "duplicateOf": "RTK positioning"
+ },
+ {
+  "term": "Thermal imaging payload",
+  "duplicateOf": "Thermal camera"
+ },
+ {
+  "term": "Software-in-the-loop simulation",
+  "duplicateOf": "Software-in-the-Loop"
+ },
+ {
+  "term": "Hardware-in-the-loop simulation",
+  "duplicateOf": "Hardware-in-the-Loop"
+ },
+ {
+  "term": "Tailsitter",
+  "duplicateOf": "Tail-sitter drone"
+ },
+ {
+  "term": "S-curve acceleration",
+  "duplicateOf": "S-Curve Velocity Profile"
+ },
+ {
+  "term": "Autonomous Pallet Jack",
+  "duplicateOf": "Pallet jack robot"
+ },
+ {
+  "term": "Robot singularity",
+  "duplicateOf": "Kinematic singularity"
+ },
+ {
+  "term": "ISO/PAS 21448",
+  "duplicateOf": "SOTIF"
+ },
+ {
+  "term": "SOTIF",
+  "duplicateOf": "Safety of the intended functionality"
+ },
+ {
+  "term": "Ocado",
+  "duplicateOf": "Ocado Technology"
+ },
+ {
+  "term": "RealSense",
+  "duplicateOf": "Intel RealSense"
+ },
+ {
+  "term": "Robots-as-a-Service",
+  "duplicateOf": "Robotics-as-a-service"
+ },
+ {
+  "term": "Teleoperation Center",
+  "duplicateOf": "Remote operation center"
+ },
+ {
+  "term": "Ocado Technology",
+  "duplicateOf": "Ocado"
+ }
+]
