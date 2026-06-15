@@ -1,10 +1,15 @@
 # App Store Connect — In-App Purchase setup for JB Glossary v2
 
-Create these **7 non-consumable** in-app purchases against the
+Create these **8 non-consumable** in-app purchases against the
 `com.jamesbrowne.PharmaGlossary` app record in App Store Connect. The
 product identifiers below MUST match exactly — they are hardcoded in
-`Sources/Industries/IndustryConfig.swift` (6 industry IDs) and
+`Sources/Industries/IndustryConfig.swift` (7 industry IDs) and
 `masterUnlockProductID` (1 master).
+
+**v2.2 adds Robotics** — only `com.jamesbrowne.JBGlossary.robotics` is new.
+Create it and attach it to the 2.2.0 version when submitting. The other 7
+already exist and are approved. The $9.99 master already unlocks every
+current and future industry, so it covers Robotics with no change.
 
 **Monetization model**: every industry ships with letters **A–D free** as a
 taster. Letters E–Z gated by the per-industry IAP at $2.99. The master
@@ -20,6 +25,7 @@ users see a clear bundle discount vs. buying 2+ industries individually.
 | `com.jamesbrowne.JBGlossary.finance` | Finance | Unlock the rest of Finance | $2.99 (Tier 3) | On |
 | `com.jamesbrowne.JBGlossary.realEstate` | Real Estate | Unlock the rest of Real Estate | $2.99 (Tier 3) | On |
 | `com.jamesbrowne.JBGlossary.insurance` | Insurance | Unlock the rest of Insurance | $2.99 (Tier 3) | On |
+| `com.jamesbrowne.JBGlossary.robotics` | Robotics | Unlock the rest of Robotics | $2.99 (Tier 3) | On | ⟵ **NEW in v2.2** |
 | `com.jamesbrowne.JBGlossary.all` | All Industries | Unlock All Industries | $9.99 (Tier 10) | On |
 
 ## Descriptions (used on the App Store IAP listing)
@@ -47,6 +53,12 @@ terms beyond the free A–D taster. One-time purchase, no subscription.
 **Insurance** — Unlock the rest of the JB Glossary Insurance industry:
 letters E–Z, the full set of life, health, auto, home, and commercial
 insurance terms beyond the free A–D taster. One-time purchase, no
+subscription.
+
+**Robotics** — Unlock the rest of the JB Glossary Robotics industry:
+letters E–Z, the full set of robotics, autonomy, and embodied-AI terms —
+mechanics, control, perception, learning, self-driving, drones, and the
+factory floor — beyond the free A–D taster. One-time purchase, no
 subscription.
 
 **All Industries** — Unlock the rest (E–Z) of every industry in JB
